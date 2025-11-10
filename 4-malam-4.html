@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kuis Matematika SD - Set 1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #fce4ec);
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      max-width: 700px;
+      width: 100%;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 30px;
+    }
+    .question {
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: background 0.3s ease;
+    }
+    .question.correct {
+      background: #d0f5d0;
+    }
+    .question.incorrect {
+      background: #f8d0d0;
+    }
+    .question p {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+      cursor: pointer;
+    }
+    input[type="radio"] {
+      margin-right: 8px;
+    }
+    button {
+      display: block;
+      margin: 30px auto;
+      padding: 14px 28px;
+      font-size: 16px;
+      background: #00796b;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #004d40;
+    }
+    .result {
+      text-align: center;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #388e3c;
+      margin-top: 20px;
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Kuis Olimpiade Matematika SD - Set 1</h1>
+    <form id="quizForm">
+      <div class="question" id="q1-box">
+        <p>1.</p>
+        <img src="images/01/01.png" alt="soal 1" style="display:block; margin:20px auto; max-width:600px;">
+        <input type="text" name="q1" placeholder="Jawaban kamu..." style="width:100%; padding:8px; font-size:16px;">
+      </div>
+
+      <div class="question" id="q2-box">
+        <p>2.</p>
+        <img src="images/01/02.png" alt="soal 1" style="display:block; margin:20px auto; max-width:600px;">
+        <input type="text" name="q2" placeholder="Jawaban kamu..." style="width:100%; padding:8px; font-size:16px;">
+      </div>
+
+      <div class="question" id="q3-box">
+        <p>3.</p>
+        <img src="images/01/03.png" alt="soal 1" style="display:block; margin:20px auto; max-width:600px;">
+        <input type="text" name="q3" placeholder="Jawaban kamu..." style="width:100%; padding:8px; font-size:16px;">
+      </div>
+
+      <div class="question" id="q4-box">
+        <p>4.</p>
+        <img src="images/01/04.png" alt="soal 1" style="display:block; margin:20px auto; max-width:600px;">
+        <input type="text" name="q4" placeholder="Jawaban kamu..." style="width:100%; padding:8px; font-size:16px;">
+      </div>
+
+      <div class="question" id="q5-box">
+        <p>5.</p>
+        <img src="images/01/05.png" alt="soal 1" style="display:block; margin:20px auto; max-width:600px;">
+        <input type="text" name="q5" placeholder="Jawaban kamu..." style="width:100%; padding:8px; font-size:16px;">
+      </div>
+
+      <div class="question" id="q6-box">
+        <p>6.</p>
+        <img src="images/01/06.png" alt="soal 1" style="display:block; margin:20px auto; max-width:600px;">
+        <input type="text" name="q6" placeholder="Jawaban kamu..." style="width:100%; padding:8px; font-size:16px;">
+      </div>
+
+      <div class="question" id="q7-box">
+        <p>7.</p>
+        <img src="images/01/07.png" alt="soal 1" style="display:block; margin:20px auto; max-width:600px;">
+        <input type="text" name="q7" placeholder="Jawaban kamu..." style="width:100%; padding:8px; font-size:16px;">
+      </div>
+
+      <div class="question" id="q8-box">
+        <p>8.</p>
+        <img src="images/01/08.png" alt="soal 1" style="display:block; margin:20px auto; max-width:600px;">
+        <input type="text" name="q8" placeholder="Jawaban kamu..." style="width:100%; padding:8px; font-size:16px;">
+      </div>
+
+      <div class="question" id="q9-box">
+        <p>9.</p>
+        <img src="images/01/09.png" alt="soal 1" style="display:block; margin:20px auto; max-width:600px;">
+        <input type="text" name="q9" placeholder="Jawaban kamu..." style="width:100%; padding:8px; font-size:16px;">
+      </div>
+
+      <div class="question" id="q10-box">
+        <p>10.</p>
+        <img src="images/01/10.png" alt="soal 1" style="display:block; margin:20px auto; max-width:600px;">
+        <input type="text" name="q10" placeholder="Jawaban kamu..." style="width:100%; padding:8px; font-size:16px;">
+      </div>
+
+      <div class="question" id="q11-box">
+        <p>11.</p>
+        <img src="images/01/11.png" alt="soal 1" style="display:block; margin:20px auto; max-width:600px;">
+        <input type="text" name="q11" placeholder="Jawaban kamu..." style="width:100%; padding:8px; font-size:16px;">
+      </div>
+
+      <div class="question" id="q12-box">
+        <p>12.</p>
+        <img src="images/01/12.png" alt="soal 1" style="display:block; margin:20px auto; max-width:600px;">
+        <input type="text" name="q12" placeholder="Jawaban kamu..." style="width:100%; padding:8px; font-size:16px;">
+      </div>
+
+      <div class="question" id="q13-box">
+        <p>13.</p>
+        <img src="images/01/13.png" alt="soal 1" style="display:block; margin:20px auto; max-width:600px;">
+        <input type="text" name="q13" placeholder="Jawaban kamu..." style="width:100%; padding:8px; font-size:16px;">
+      </div>
+
+      <div class="question" id="q14-box">
+        <p>14.</p>
+        <img src="images/01/14.png" alt="soal 1" style="display:block; margin:20px auto; max-width:600px;">
+        <input type="text" name="q14" placeholder="Jawaban kamu..." style="width:100%; padding:8px; font-size:16px;">
+      </div>
+
+      <div class="question" id="q15-box">
+        <p>15.</p>
+        <img src="images/01/15.png" alt="soal 1" style="display:block; margin:20px auto; max-width:600px;">
+        <input type="text" name="q15" placeholder="Jawaban kamu..." style="width:100%; padding:8px; font-size:16px;">
+      </div>
+
+      <div class="question" id="q16-box">
+        <p>16.</p>
+        <img src="images/01/16.png" alt="soal 1" style="display:block; margin:20px auto; max-width:600px;">
+        <input type="text" name="q16" placeholder="Jawaban kamu..." style="width:100%; padding:8px; font-size:16px;">
+      </div>
+
+      <div class="question" id="q17-box">
+        <p>17.</p>
+        <img src="images/01/17.png" alt="soal 1" style="display:block; margin:20px auto; max-width:600px;">
+        <input type="text" name="q17" placeholder="Jawaban kamu..." style="width:100%; padding:8px; font-size:16px;">
+      </div>
+
+      <div class="question" id="q18-box">
+        <p>18.</p>
+        <img src="images/01/18.png" alt="soal 1" style="display:block; margin:20px auto; max-width:600px;">
+        <input type="text" name="q14" placeholder="Jawaban kamu..." style="width:100%; padding:8px; font-size:16px;">
+      </div>
+
+      <div class="question" id="q19-box">
+        <p>19.</p>
+        <img src="images/01/19.png" alt="soal 1" style="display:block; margin:20px auto; max-width:600px;">
+        <input type="text" name="q19" placeholder="Jawaban kamu..." style="width:100%; padding:8px; font-size:16px;">
+      </div>
+
+      <div class="question" id="q20-box">
+        <p>20.</p>
+        <img src="images/01/20.png" alt="soal 1" style="display:block; margin:20px auto; max-width:600px;">
+        <input type="text" name="q20" placeholder="Jawaban kamu..." style="width:100%; padding:8px; font-size:16px;">
+      </div>
+
+      <button type="button" onclick="checkAnswers()">Lihat Skor</button>
+    </form>
+
+    <div class="result" id="resultText"></div>
+  </div>
+
+  <script>
+    function checkAnswers() {
+      const correctAnswers = {
+        q1: "A",
+        q2: "C",
+        q3: "A", 
+        q4: "D", 
+        q5: "C", 
+        q6: "C", 
+        q7: "B", 
+        q8: "A",
+        q9: "A",
+        q10: "C",
+        q11: "A", 
+        q12: "D", 
+        q13: "C", 
+        q14: "C", 
+        q15: "B", 
+        q16: "A", 
+        q17: "C", 
+        q18: "C", 
+        q19: "B", 
+        q20: "A"
+      };
+      let score = 0;
+
+      for (let key in correctAnswers) {
+        const selected = document.querySelector(`input[name="${key}"]:checked`);
+        const box = document.getElementById(`${key}-box`);
+
+        // Hapus kelas lama sebelum menilai ulang
+        box.classList.remove("correct", "incorrect");
+
+        if (selected) {
+          if (selected.value === correctAnswers[key]) {
+            score++;
+            box.classList.add("correct");
+          } else {
+            box.classList.add("incorrect");
+          }
+        } else {
+          box.classList.add("incorrect");
+        }
+      }
+
+      document.getElementById("resultText").innerText =
+        `Skor kamu: ${score} dari ${Object.keys(correctAnswers).length} soal.`;
+    }
+  </script>
+</body>
+</html>
+
