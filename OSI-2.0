@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Soal Matematika OSI Nasional SD (Level 2)</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #f4f7f6;
+        }
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+            border-left: 5px solid #3498db;
+            padding-left: 15px;
+        }
+        .question-block {
+            margin-bottom: 25px;
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        .question-text {
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .options {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        .options li {
+            margin-bottom: 5px;
+        }
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+        .math-expr {
+            font-family: 'Times New Roman', serif;
+            font-style: italic;
+            font-weight: bold;
+        }
+        @media print {
+            body { background-color: #fff; }
+            .container { box-shadow: none; padding: 0; }
+            .no-print { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bank Soal Latihan Matematika</h1>
+        <p style="text-align: center; font-style: italic;">Persiapan OSI Nasional Level SD 2 (Kelas 3-4)</p>
+
+        <h2>Bagian I: Pilihan Ganda</h2>
+        
+        <div class="question-block">
+            <p class="question-text">1. Hasil dari <span class="math-expr">450 + 250 : 5 &minus; 10 &times; 12</span> adalah...</p>
+            <ul class="options">
+                <li>(a) 380</li>
+                <li>(b) 250</li>
+                <li>(c) 350</li>
+                <li>(d) 420</li>
+            </ul>
+        </div>
+
+        <div class="question-block">
+            <p class="question-text">2. Jika <span class="math-expr">24 &times; (15 + A) = 480</span> dan <span class="math-expr">A + B = 30</span>, maka nilai <span class="math-expr">B</span> adalah...</p>
+            <ul class="options">
+                <li>(a) 5</li>
+                <li>(b) 15</li>
+                <li>(c) 25</li>
+                <li>(d) 10</li>
+            </ul>
+        </div>
+
+        <div class="question-block">
+            <p class="question-text">3. Sebuah kue dipotong menjadi beberapa bagian. Ani memakan 20% bagian, lalu Budi memakan 1/4 bagian. Jika berat sisa kue tersebut adalah 220 gram, maka berat kue semula adalah...</p>
+            <ul class="options">
+                <li>(a) 400 gram</li>
+                <li>(b) 440 gram</li>
+                <li>(c) 500 gram</li>
+                <li>(d) 600 gram</li>
+            </ul>
+        </div>
+
+        <div class="question-block">
+            <p class="question-text">4. Bus A berangkat setiap 15 menit, Bus B setiap 20 menit, dan Bus C setiap 25 menit. Jika ketiga bus berangkat bersamaan pada pukul 08.00, maka mereka akan berangkat bersamaan lagi pada pukul...</p>
+            <ul class="options">
+                <li>(a) 12.00</li>
+                <li>(b) 13.00</li>
+                <li>(c) 14.00</li>
+                <li>(d) 15.00</li>
+            </ul>
+        </div>
+
+        <div class="question-block">
+            <p class="question-text">5. Dua buah persegi identik dengan panjang sisi 8 cm digabungkan sehingga salah satu sisinya saling menempel membentuk satu persegi panjang besar. Keliling persegi panjang tersebut adalah...</p>
+            <ul class="options">
+                <li>(a) 32 cm</li>
+                <li>(b) 48 cm</li>
+                <li>(c) 64 cm</li>
+                <li>(d) 40 cm</li>
+            </ul>
+        </div>
+
+        <h2>Bagian II: Isian Singkat & Essay</h2>
+
+        <div class="question-block">
+            <p class="question-text">6. Sudut Jam:</p>
+            <p>Tentukan besar sudut terkecil yang terbentuk oleh jarum jam panjang dan jarum jam pendek saat menunjukkan pukul 04.20!</p>
+        </div>
+
+        <div class="question-block">
+            <p class="question-text">7. Pembagian Maksimal (FPB):</p>
+            <p>Toko Makmur memiliki 72 buku tulis, 96 pensil, dan 120 penghapus. Barang tersebut akan dikemas ke dalam plastik kado secara merata. Berapa jumlah alat tulis di dalam setiap plastik jika jumlah plastik yang dibuat adalah yang terbanyak?</p>
+        </div>
+
+        <div class="question-block">
+            <p class="question-text">8. Perbandingan Berat Badan:</p>
+            <p>Andi, Budi, dan Candra memiliki total berat badan 125 kg. Berat Andi adalah dua kali berat Budi. Berat Candra adalah 5 kg lebih berat dari Budi. Berapakah berat badan Andi?</p>
+        </div>
+
+        <div class="question-block">
+            <p class="question-text">9. Geometri Persegi Panjang:</p>
+            <p>Keliling sebuah persegi panjang adalah 100 cm. Jika selisih antara panjang dan lebarnya adalah 10 cm, hitunglah luas persegi panjang tersebut dalam cm&sup2;!</p>
+        </div>
+
+        <div class="question-block">
+            <p class="question-text">10. Teka-teki Bilangan:</p>
+            <p>Aku adalah sebuah bilangan. Jika aku dikalikan 3, kemudian ditambah 15, lalu dibagi 2, hasilnya adalah 30. Bilangan berapakah aku?</p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 Persiapan Olimpiade Matematika SD. Disusun berdasarkan kisi-kisi OSI Nasional.</p>
+            <button class="no-print" onclick="window.print()">Cetak Halaman Ini</button>
+        </div>
+    </div>
+</body>
+</html>
