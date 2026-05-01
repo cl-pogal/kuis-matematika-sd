@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soal Matematika OSI Nasional - Level SD 2 (Kelas 3-4)</title>
+<script>
+MathJax = {
+  tex: { inlineMath: [['\\(','\\)']], displayMath: [['\\[','\\]']] },
+  options: { skipHtmlTags: ['script','noscript','style','textarea','pre'] }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',Arial,sans-serif;background:#f5f7fa;color:#222;font-size:15px;line-height:1.7}
+.wrapper{max-width:900px;margin:0 auto;padding:20px}
+header{background:linear-gradient(135deg,#1a3a6b 0%,#2563a8 100%);color:#fff;border-radius:12px;padding:32px 36px;margin-bottom:24px;text-align:center;box-shadow:0 4px 18px rgba(26,58,107,0.18)}
+.logo-row{display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:10px}
+.logo-circle{width:60px;height:60px;background:#f47920;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:26px;font-weight:900;color:#fff;flex-shrink:0;box-shadow:0 2px 8px rgba(0,0,0,0.18)}
+header h1{font-size:1.55rem;font-weight:800;letter-spacing:0.5px;margin-bottom:4px}
+header .subtitle{font-size:1.1rem;color:#ffd580;font-weight:600;margin-bottom:10px}
+.stars{color:#f47920;font-size:1.3rem;letter-spacing:2px}
+.exam-info{display:flex;justify-content:center;gap:28px;margin-top:14px;flex-wrap:wrap}
+.exam-info span{background:rgba(255,255,255,0.13);border-radius:20px;padding:4px 16px;font-size:0.93rem;color:#e8f0ff}
+.instructions{background:#fff;border-left:5px solid #f47920;border-radius:8px;padding:16px 22px;margin-bottom:24px;box-shadow:0 2px 8px rgba(0,0,0,0.06)}
+.instructions h3{color:#1a3a6b;font-size:1rem;margin-bottom:8px}
+.instructions ol{padding-left:20px}
+.instructions li{margin-bottom:4px;font-size:0.95rem}
+.section-header{background:linear-gradient(90deg,#1a3a6b 0%,#2563a8 100%);color:#fff;border-radius:8px;padding:13px 22px;margin-bottom:18px;display:flex;align-items:center;gap:12px}
+.section-badge{background:#f47920;color:#fff;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.1rem;flex-shrink:0}
+.section-header h2{font-size:1.1rem;font-weight:700}
+.section-header .section-sub{font-size:0.88rem;color:#c8d8f0;margin-top:2px}
+.question-card{background:#fff;border-radius:10px;padding:18px 22px;margin-bottom:14px;box-shadow:0 2px 8px rgba(0,0,0,0.07);border:1px solid #e8edf5;transition:box-shadow 0.2s}
+.question-card:hover{box-shadow:0 4px 16px rgba(26,58,107,0.12)}
+.q-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:10px}
+.q-num{background:#1a3a6b;color:#fff;border-radius:50%;width:32px;height:32px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.95rem;flex-shrink:0;margin-top:2px}
+.q-topic{font-size:0.78rem;color:#f47920;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px}
+.q-text{font-size:0.97rem;color:#1a2a3a;line-height:1.7}
+.options{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}
+.option{background:#f5f7fa;border:1.5px solid #dde3ee;border-radius:7px;padding:8px 14px;font-size:0.93rem;display:flex;align-items:center;gap:8px;cursor:pointer;transition:border-color 0.2s,background 0.2s}
+.option:hover{border-color:#2563a8;background:#eef3fb}
+.opt-label{background:#2563a8;color:#fff;border-radius:4px;padding:1px 8px;font-weight:700;font-size:0.85rem;flex-shrink:0}
+.essay-card{background:#fff;border-radius:10px;padding:20px 24px;margin-bottom:16px;box-shadow:0 2px 8px rgba(0,0,0,0.07);border:1px solid #e8edf5}
+.essay-q-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:12px}
+.essay-num{background:#f47920;color:#fff;border-radius:50%;width:34px;height:34px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1rem;flex-shrink:0;margin-top:2px}
+.essay-text{font-size:0.97rem;color:#1a2a3a;line-height:1.75}
+.sub-questions{margin-top:14px;padding-left:8px}
+.sub-q{margin-bottom:14px}
+.sub-q-label{font-weight:700;color:#1a3a6b;margin-right:6px}
+.answer-box{border:1.5px dashed #b0bcd4;border-radius:6px;min-height:48px;margin-top:6px;padding:8px 12px;background:#fafbfd;font-size:0.9rem;color:#888}
+footer{background:linear-gradient(135deg,#1a3a6b 0%,#2563a8 100%);color:#c8d8f0;border-radius:12px;padding:22px 28px;margin-top:32px;text-align:center;font-size:0.88rem}
+footer .footer-title{color:#fff;font-weight:700;font-size:1rem;margin-bottom:6px}
+footer p{margin-bottom:4px}
+.divider{border:none;border-top:2px solid #e8edf5;margin:28px 0}
+@media(max-width:600px){
+  .options{grid-template-columns:1fr}
+  header h1{font-size:1.15rem}
+  .exam-info{gap:10px}
+  .wrapper{padding:10px}
+}
+@media print{
+  body{background:#fff;font-size:13px}
+  .wrapper{max-width:100%;padding:10px}
+  header{border-radius:0;box-shadow:none;padding:18px}
+  .question-card,.essay-card{box-shadow:none;border:1px solid #ccc;break-inside:avoid}
+  .option:hover{border-color:#dde3ee;background:#f5f7fa}
+  footer{border-radius:0}
+  .answer-box{min-height:60px}
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+<header>
+  <div class="logo-row">
+    <div class="logo-circle">OSI</div>
+    <div>
+      <h1>Soal Matematika OSI Nasional</h1>
+      <div class="subtitle">Level SD 2 &mdash; Kelas 3&ndash;4</div>
+      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+    </div>
+  </div>
+  <div class="exam-info">
+    <span>&#128337; Waktu: 120 Menit</span>
+    <span>&#127979; Kelas: 3&ndash;4 SD</span>
+    <span>&#128197; Tahun: 2025</span>
+    <span>&#128221; 30 Soal</span>
+  </div>
+</header>
+
+<div class="instructions">
+  <h3>&#128221; Petunjuk Pengerjaan</h3>
+  <ol>
+    <li>Bacalah setiap soal dengan teliti sebelum menjawab.</li>
+    <li>Bagian A terdiri dari 20 soal pilihan ganda. Pilih satu jawaban yang paling tepat.</li>
+    <li>Bagian B terdiri dari 10 soal essay. Tuliskan jawaban beserta langkah penyelesaiannya.</li>
+    <li>Gunakan waktu sebaik-baiknya. Waktu pengerjaan 120 menit.</li>
+    <li>Tidak diperkenankan menggunakan kalkulator.</li>
+  </ol>
+</div>
+
+<div class="section-header">
+  <div class="section-badge">A</div>
+  <div>
+    <h2>Pilihan Ganda</h2>
+    <div class="section-sub">20 soal &mdash; Pilih satu jawaban yang paling tepat</div>
+  </div>
+</div>
