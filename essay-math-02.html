@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Essay Math 02 — Soal Matematika</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Georgia', serif;
+      background: #f5f5f0;
+      color: #1a1a1a;
+      padding: 40px 20px;
+    }
+    .page {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      border-top: 4px solid #2c3e50;
+      border-bottom: 4px solid #2c3e50;
+      padding: 18px 0;
+      margin-bottom: 36px;
+    }
+    header h1 {
+      font-size: 1.4rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #2c3e50;
+    }
+    header p {
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: 6px;
+    }
+    .section-title {
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #fff;
+      background: #2c3e50;
+      padding: 8px 16px;
+      margin: 32px 0 20px;
+      border-radius: 4px;
+    }
+    .soal {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 24px 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .soal-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+    .soal-number {
+      background: #2c3e50;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1rem;
+      min-width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .soal-body {
+      font-size: 0.97rem;
+      line-height: 1.75;
+    }
+    .soal-body p { margin-bottom: 10px; }
+    .soal-body ul {
+      margin: 8px 0 10px 20px;
+    }
+    .soal-body ul li { margin-bottom: 4px; }
+    .pertanyaan {
+      font-weight: bold;
+      color: #1a1a1a;
+      border-top: 1px dashed #ccc;
+      padding-top: 12px;
+      margin-top: 12px;
+    }
+    .skor {
+      display: inline-block;
+      margin-top: 12px;
+      font-size: 0.82rem;
+      color: #888;
+      font-style: italic;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 12px 0;
+      font-size: 0.93rem;
+    }
+    table th {
+      background: #2c3e50;
+      color: #fff;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    table td {
+      border: 1px solid #ccc;
+      padding: 7px 12px;
+    }
+    table tr:nth-child(even) td { background: #f9f9f9; }
+
+    /* PEMBAHASAN */
+    .pembahasan-section {
+      margin-top: 48px;
+      border-top: 3px solid #2c3e50;
+      padding-top: 24px;
+    }
+    .pembahasan-section h2 {
+      font-size: 1.2rem;
+      color: #2c3e50;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 24px;
+    }
+    .pembahasan {
+      background: #eef4fb;
+      border-left: 5px solid #2980b9;
+      border-radius: 6px;
+      padding: 20px 24px;
+      margin-bottom: 20px;
+      font-size: 0.94rem;
+      line-height: 1.8;
+    }
+    .pembahasan h3 {
+      font-size: 1rem;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+    .pembahasan .step {
+      margin-bottom: 8px;
+    }
+    .pembahasan .step span.label {
+      font-weight: bold;
+      color: #2980b9;
+      margin-right: 6px;
+    }
+    .jawaban {
+      display: inline-block;
+      background: #2c3e50;
+      color: #fff;
+      padding: 4px 14px;
+      border-radius: 4px;
+      font-weight: bold;
+      margin-top: 8px;
+      font-size: 0.95rem;
+    }
+    .materi-tag {
+      display: inline-block;
+      background: #e8f4e8;
+      color: #27ae60;
+      border: 1px solid #27ae60;
+      border-radius: 12px;
+      padding: 2px 10px;
+      font-size: 0.78rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 48px;
+      font-size: 0.82rem;
+      color: #aaa;
+      border-top: 1px solid #ddd;
+      padding-top: 16px;
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <h1>Soal Essay Matematika</h1>
+    <p>Essay Math 02 &nbsp;|&nbsp; Tingkat SD Kelas 5–6 / Kompetisi &nbsp;|&nbsp; 6 Soal Essay</p>
+  </header>
+
+  <!-- ===== SOAL BAHASA INDONESIA ===== -->
+  <div class="section-title">Soal Essay — Bahasa Indonesia</div>
+
+  <!-- SOAL 1 -->
+  <div class="soal">
+    <div class="soal-header">
+      <div class="soal-number">1</div>
+      <div class="soal-body">
+        <p>
+          Di kelas 6A terdapat <strong>20 siswa</strong>. Rata-rata nilai ulangan matematika mereka adalah <strong>78</strong>.
+          Kemudian <strong>4 siswa baru</strong> masuk ke kelas tersebut dan rata-rata nilai keseluruhan menjadi <strong>79</strong>.
+          Setelah itu, guru mengetahui bahwa rata-rata nilai 4 siswa baru tersebut ternyata sama dengan
+          rata-rata nilai <strong>5 siswa terbaik</strong> dari 20 siswa awal.
+        </p>
+        <p>
+          Jika jumlah nilai 5 siswa terbaik dari 20 siswa awal adalah <strong>460</strong>,
+          apakah pernyataan guru tersebut benar?
+        </p>
+        <p class="pertanyaan">
+          Tunjukkan perhitunganmu dan tentukan: apakah rata-rata nilai 4 siswa baru
+          sama dengan rata-rata nilai 5 siswa terbaik? (Tuliskan "Ya" atau "Tidak" beserta alasannya.)
+        </p>
+        <span class="skor">(Benar +40, Salah -10, Kosong 0)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SOAL 2 -->
+  <div class="soal">
+    <div class="soal-header">
+      <div class="soal-number">2</div>
+      <div class="soal-body">
+        <p>
+          Perhatikan daftar harga buah di Toko Segar Jaya berikut ini.
+        </p>
+        <table>
+          <tr><th>Buah</th><th>Harga per kg</th></tr>
+          <tr><td>Apel</td><td>Rp 18.000</td></tr>
+          <tr><td>Mangga</td><td>Rp 12.000</td></tr>
+          <tr><td>Jeruk</td><td>Rp 15.000</td></tr>
+        </table>
+        <p>
+          Dari seluruh stok buah yang tersedia, <strong>30% adalah apel</strong>, <strong>50% adalah mangga</strong>,
+          dan sisanya adalah jeruk. Pada akhir hari, <strong>90% stok apel</strong>, <strong>70% stok mangga</strong>,
+          dan <strong>80% stok jeruk</strong> berhasil terjual.
+        </p>
+        <p>
+          Diketahui total stok seluruh buah adalah <strong>200 kg</strong>.
+        </p>
+        <p class="pertanyaan">
+          Berapakah total pendapatan toko dari penjualan buah hari itu? (dalam rupiah)
+        </p>
+        <span class="skor">(Benar +40, Salah -10, Kosong 0)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SOAL 3 -->
+  <div class="soal">
+    <div class="soal-header">
+      <div class="soal-number">3</div>
+      <div class="soal-body">
+        <p>
+          Perhatikan barisan bilangan berikut:
+        </p>
+        <p style="font-size:1.05rem; font-weight:bold; text-align:center; letter-spacing:2px;">
+          2, 5, 4, 10, 8, 20, 16, 40, 32, ...
+        </p>
+        <p>
+          Barisan di atas terbentuk dari <strong>dua barisan yang saling bergantian</strong>.
+        </p>
+        <p class="pertanyaan">
+          (a) Tentukan suku ke-15 dan suku ke-16 dari barisan tersebut.<br/>
+          (b) Berapakah jumlah digit dari suku ke-20?
+        </p>
+        <span class="skor">(Benar +40, Salah -10, Kosong 0)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SOAL 4 -->
+  <div class="soal">
+    <div class="soal-header">
+      <div class="soal-number">4</div>
+      <div class="soal-body">
+        <p>
+          Pukul <strong>07.00</strong>, sebuah bus berangkat dari Kota A menuju Kota B dengan kecepatan
+          <strong>60 km/jam</strong>. Pada pukul <strong>07.30</strong>, sebuah mobil berangkat dari
+          tempat yang sama menuju Kota B dengan kecepatan <strong>90 km/jam</strong>.
+        </p>
+        <p>
+          Jarak antara Kota A dan Kota B adalah <strong>270 km</strong>.
+        </p>
+        <p class="pertanyaan">
+          (a) Pada pukul berapa mobil menyusul bus?<br/>
+          (b) Pada saat mobil menyusul bus, berapa km lagi jarak yang harus ditempuh
+          keduanya untuk sampai ke Kota B?
+        </p>
+        <span class="skor">(Benar +40, Salah -10, Kosong 0)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SOAL 5 -->
+  <div class="soal">
+    <div class="soal-header">
+      <div class="soal-number">5</div>
+      <div class="soal-body">
+        <p>
+          Diketahui <em>p</em> dan <em>q</em> adalah faktor dari <strong>360</strong> dengan
+          <em>p</em> &gt; <em>q</em>, dan memenuhi kondisi berikut:
+        </p>
+        <ul>
+          <li><em>p</em> + <em>q</em> = 39</li>
+          <li><em>p</em> &times; <em>q</em> adalah kelipatan dari 10</li>
+          <li>Selisih <em>p</em> &minus; <em>q</em> adalah bilangan ganjil</li>
+        </ul>
+        <p class="pertanyaan">
+          Tentukan nilai dari <em>p</em> &minus; <em>q</em> dan buktikan bahwa
+          <em>p</em> &times; <em>q</em> adalah faktor dari 360.
+        </p>
+        <span class="skor">(Benar +40, Salah -10, Kosong 0)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== SOAL BAHASA INGGRIS ===== -->
+  <div class="section-title">Essay Question — English</div>
+
+  <!-- SOAL 6 -->
+  <div class="soal">
+    <div class="soal-header">
+      <div class="soal-number">6</div>
+      <div class="soal-body">
+        <p>
+          A rectangular water tank has a <strong>length of 120 cm</strong>, a <strong>width of 80 cm</strong>,
+          and a <strong>height of 75 cm</strong>. The tank is currently <strong>empty</strong>.
+        </p>
+        <p>
+          Water is pumped into the tank using two pipes simultaneously:
+        </p>
+        <ul>
+          <li><strong>Pipe A</strong> fills at a rate of <strong>12 liters per minute</strong>.</li>
+          <li><strong>Pipe B</strong> fills at a rate of <strong>8 liters per minute</strong>.</li>
+        </ul>
+        <p>
+          At the same time, a drain at the bottom of the tank releases water at a rate of
+          <strong>4 liters per minute</strong>.
+        </p>
+        <p>
+          <em>Note: 1 liter = 1,000 cm³</em>
+        </p>
+        <p class="pertanyaan">
+          (a) What is the volume of the tank in liters?<br/>
+          (b) What is the net rate of water filling the tank per minute (in liters)?<br/>
+          (c) How many minutes will it take to fill the tank completely?
+        </p>
+        <span class="skor">(Correct +40, Wrong -10, Blank 0)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PEMBAHASAN ===== -->
+  <div class="pembahasan-section">
+    <h2>Pembahasan &amp; Kunci Jawaban</h2>
+
+    <!-- PEMBAHASAN 1 -->
+    <div class="pembahasan">
+      <div class="materi-tag">Rata-rata (Mean)</div>
+      <h3>Soal 1 — Rata-rata Multi-Grup</h3>
+      <div class="step"><span class="label">Langkah 1:</span>
+        Total nilai 20 siswa awal = 20 &times; 78 = <strong>1.560</strong>
+      </div>
+      <div class="step"><span class="label">Langkah 2:</span>
+        Total nilai 24 siswa (setelah 4 siswa baru masuk) = 24 &times; 79 = <strong>1.896</strong>
+      </div>
+      <div class="step"><span class="label">Langkah 3:</span>
+        Total nilai 4 siswa baru = 1.896 &minus; 1.560 = <strong>336</strong><br/>
+        Rata-rata 4 siswa baru = 336 &divide; 4 = <strong>84</strong>
+      </div>
+      <div class="step"><span class="label">Langkah 4:</span>
+        Rata-rata 5 siswa terbaik = 460 &divide; 5 = <strong>92</strong>
+      </div>
+      <div class="step"><span class="label">Kesimpulan:</span>
+        84 &ne; 92, jadi pernyataan guru <strong>TIDAK BENAR</strong>.
+      </div>
+      <span class="jawaban">Jawaban: Tidak — rata-rata 4 siswa baru = 84, rata-rata 5 siswa terbaik = 92</span>
+    </div>
+
+    <!-- PEMBAHASAN 2 -->
+    <div class="pembahasan">
+      <div class="materi-tag">Persentase Bertingkat</div>
+      <h3>Soal 2 — Total Pendapatan Toko Buah</h3>
+      <div class="step"><span class="label">Stok:</span>
+        Apel = 30% &times; 200 = 60 kg &nbsp;|&nbsp;
+        Mangga = 50% &times; 200 = 100 kg &nbsp;|&nbsp;
+        Jeruk = 20% &times; 200 = 40 kg
+      </div>
+      <div class="step"><span class="label">Terjual:</span>
+        Apel = 90% &times; 60 = 54 kg &nbsp;|&nbsp;
+        Mangga = 70% &times; 100 = 70 kg &nbsp;|&nbsp;
+        Jeruk = 80% &times; 40 = 32 kg
+      </div>
+      <div class="step"><span class="label">Pendapatan:</span>
+        Apel = 54 &times; Rp18.000 = Rp 972.000<br/>
+        Mangga = 70 &times; Rp12.000 = Rp 840.000<br/>
+        Jeruk = 32 &times; Rp15.000 = Rp 480.000
+      </div>
+      <div class="step"><span class="label">Total:</span>
+        Rp 972.000 + Rp 840.000 + Rp 480.000 = <strong>Rp 2.292.000</strong>
+      </div>
+      <span class="jawaban">Jawaban: Rp 2.292.000</span>
+    </div>
+
+    <!-- PEMBAHASAN 3 -->
+    <div class="pembahasan">
+      <div class="materi-tag">Barisan Bilangan Ganda</div>
+      <h3>Soal 3 — Barisan Interleaved</h3>
+      <div class="step"><span class="label">Identifikasi pola:</span>
+        Barisan ganjil (posisi 1,3,5,...): 2, 4, 8, 16, 32, ... &rarr; dikalikan 2 tiap suku<br/>
+        Barisan genap (posisi 2,4,6,...): 5, 10, 20, 40, ... &rarr; dikalikan 2 tiap suku
+      </div>
+      <div class="step"><span class="label">(a) Suku ke-15 (posisi ganjil ke-8):</span>
+        2 &times; 2⁷ = 2⁸ = <strong>256</strong><br/>
+        Suku ke-16 (posisi genap ke-8): 5 &times; 2⁷ = 5 &times; 128 = <strong>640</strong>
+      </div>
+      <div class="step"><span class="label">(b) Suku ke-20 (posisi genap ke-10):</span>
+        5 &times; 2⁹ = 5 &times; 512 = <strong>2.560</strong><br/>
+        Jumlah digit 2.560 = 2 + 5 + 6 + 0 = <strong>13</strong>
+      </div>
+      <span class="jawaban">Jawaban: (a) 256 dan 640 &nbsp;|&nbsp; (b) 13</span>
+    </div>
+
+    <!-- PEMBAHASAN 4 -->
+    <div class="pembahasan">
+      <div class="materi-tag">Kecepatan &amp; Kejar-mengejar</div>
+      <h3>Soal 4 — Bus dan Mobil</h3>
+      <div class="step"><span class="label">Jarak bus saat mobil berangkat (07.30):</span>
+        60 km/jam &times; 0,5 jam = <strong>30 km</strong>
+      </div>
+      <div class="step"><span class="label">Selisih kecepatan:</span>
+        90 &minus; 60 = 30 km/jam
+      </div>
+      <div class="step"><span class="label">Waktu mobil menyusul bus:</span>
+        30 km &divide; 30 km/jam = <strong>1 jam</strong> setelah pukul 07.30
+        = pukul <strong>08.30</strong>
+      </div>
+      <div class="step"><span class="label">(b) Jarak yang sudah ditempuh mobil saat menyusul:</span>
+        90 km/jam &times; 1 jam = 90 km<br/>
+        Sisa jarak ke Kota B = 270 &minus; 90 = <strong>180 km</strong>
+      </div>
+      <span class="jawaban">Jawaban: (a) Pukul 08.30 &nbsp;|&nbsp; (b) 180 km</span>
+    </div>
+
+    <!-- PEMBAHASAN 5 -->
+    <div class="pembahasan">
+      <div class="materi-tag">Faktorisasi &amp; Teori Bilangan</div>
+      <h3>Soal 5 — Faktor dari 360</h3>
+      <div class="step"><span class="label">Faktorisasi 360:</span>
+        360 = 2³ &times; 3² &times; 5
+      </div>
+      <div class="step"><span class="label">Cari pasangan faktor (p, q) dengan p + q = 39:</span>
+        Pasangan faktor 360: (1,360), (2,180), (3,120), (4,90), (5,72), (6,60),
+        (8,45), (9,40), (10,36), (12,30), (15,24), (18,20), (20,18), (24,15) ...<br/>
+        Yang jumlahnya 39: <strong>24 + 15 = 39</strong> ✓
+      </div>
+      <div class="step"><span class="label">Verifikasi syarat:</span>
+        p &times; q = 24 &times; 15 = 360 &rarr; kelipatan 10? 360 &divide; 10 = 36 ✓<br/>
+        p &minus; q = 24 &minus; 15 = 9 &rarr; bilangan ganjil ✓<br/>
+        360 &divide; 360 = 1 &rarr; p &times; q adalah faktor dari 360 ✓
+      </div>
+      <span class="jawaban">Jawaban: p = 24, q = 15 &nbsp;|&nbsp; p &minus; q = 9</span>
+    </div>
+
+    <!-- PEMBAHASAN 6 -->
+    <div class="pembahasan">
+      <div class="materi-tag">Volume &amp; Flow Rate</div>
+      <h3>Question 6 — Water Tank (English)</h3>
+      <div class="step"><span class="label">(a) Volume of tank:</span>
+        V = 120 &times; 80 &times; 75 = 720,000 cm³<br/>
+        720,000 cm³ &divide; 1,000 = <strong>720 liters</strong>
+      </div>
+      <div class="step"><span class="label">(b) Net fill rate:</span>
+        Pipe A + Pipe B &minus; Drain = 12 + 8 &minus; 4 = <strong>16 liters/minute</strong>
+      </div>
+      <div class="step"><span class="label">(c) Time to fill:</span>
+        720 &divide; 16 = <strong>45 minutes</strong>
+      </div>
+      <span class="jawaban">Answer: (a) 720 liters &nbsp;|&nbsp; (b) 16 liters/min &nbsp;|&nbsp; (c) 45 minutes</span>
+    </div>
+
+  </div><!-- end pembahasan -->
+
+  <footer>
+    Essay Math 02 &nbsp;&bull;&nbsp; SD Kelas 5–6 / Kompetisi &nbsp;&bull;&nbsp; 6 Soal Essay
+  </footer>
+
+</div>
+</body>
+</html>
