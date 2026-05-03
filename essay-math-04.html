@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Essay Math 04 — Soal Matematika</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Georgia', serif;
+      background: #eef2f5;
+      color: #1a1a1a;
+      padding: 40px 20px;
+    }
+    .page { max-width: 860px; margin: 0 auto; }
+
+    header {
+      text-align: center;
+      border-top: 4px solid #1a3a4a;
+      border-bottom: 4px solid #1a3a4a;
+      padding: 20px 0;
+      margin-bottom: 36px;
+      background: #fff;
+      border-radius: 0 0 6px 6px;
+    }
+    header h1 {
+      font-size: 1.45rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #1a3a4a;
+    }
+    header p { font-size: 0.9rem; color: #556; margin-top: 6px; }
+
+    .section-title {
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #fff;
+      background: #1a3a4a;
+      padding: 9px 18px;
+      margin: 32px 0 20px;
+      border-radius: 5px;
+    }
+
+    .soal {
+      background: #fff;
+      border: 1px solid #d0dce4;
+      border-radius: 10px;
+      padding: 24px 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 3px 8px rgba(26,58,74,0.08);
+    }
+    .soal-header { display: flex; align-items: flex-start; gap: 16px; }
+    .soal-number {
+      background: #1a3a4a;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1rem;
+      min-width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .soal-body { font-size: 0.97rem; line-height: 1.85; width: 100%; }
+    .soal-body p { margin-bottom: 10px; }
+    .soal-body ul { margin: 8px 0 10px 22px; }
+    .soal-body ul li { margin-bottom: 5px; }
+
+    .info-box {
+      background: #f0f6fa;
+      border: 1px dashed #4a8aaa;
+      border-radius: 6px;
+      padding: 10px 18px;
+      margin: 10px 0;
+      font-size: 0.95rem;
+      color: #1a3a4a;
+    }
+
+    .pertanyaan {
+      font-weight: bold;
+      color: #1a1a1a;
+      border-top: 1px dashed #b0c8d8;
+      padding-top: 12px;
+      margin-top: 12px;
+      line-height: 2;
+    }
+    .skor {
+      display: inline-block;
+      margin-top: 12px;
+      font-size: 0.82rem;
+      color: #888;
+      font-style: italic;
+    }
+
+    /* PEMBAHASAN */
+    .pembahasan-section {
+      margin-top: 52px;
+      border-top: 3px solid #1a3a4a;
+      padding-top: 26px;
+    }
+    .pembahasan-section h2 {
+      font-size: 1.2rem;
+      color: #1a3a4a;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 26px;
+    }
+    .pembahasan {
+      background: #e8f3f9;
+      border-left: 5px solid #2e7da0;
+      border-radius: 6px;
+      padding: 20px 26px;
+      margin-bottom: 22px;
+      font-size: 0.94rem;
+      line-height: 1.9;
+    }
+    .pembahasan h3 { font-size: 1rem; color: #1a3a4a; margin-bottom: 12px; }
+    .step { margin-bottom: 10px; }
+    .step .label {
+      font-weight: bold;
+      color: #2e7da0;
+      margin-right: 6px;
+    }
+    .jawaban {
+      display: inline-block;
+      background: #1a3a4a;
+      color: #fff;
+      padding: 6px 18px;
+      border-radius: 5px;
+      font-weight: bold;
+      margin-top: 12px;
+      font-size: 0.95rem;
+    }
+    .materi-tag {
+      display: inline-block;
+      background: #d0eaf5;
+      color: #1a3a4a;
+      border: 1px solid #2e7da0;
+      border-radius: 12px;
+      padding: 2px 12px;
+      font-size: 0.78rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 52px;
+      font-size: 0.82rem;
+      color: #aaa;
+      border-top: 1px solid #ccd8e0;
+      padding-top: 18px;
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <h1>Soal Essay Matematika</h1>
+    <p>Essay Math 04 &nbsp;|&nbsp; Tingkat SD Kelas 5–6 / Kompetisi &nbsp;|&nbsp; 6 Soal Essay</p>
+  </header>
+
+  <!-- ===== SOAL BAHASA INDONESIA ===== -->
+  <div class="section-title">Soal Essay — Bahasa Indonesia</div>
+
+  <!-- SOAL 1 -->
+  <div class="soal">
+    <div class="soal-header">
+      <div class="soal-number">1</div>
+      <div class="soal-body">
+        <p>
+          Sebanyak <strong>6 orang tukang</strong> dapat menyelesaikan sebuah tembok dalam
+          <strong>8 hari</strong>. Setelah bekerja selama <strong>3 hari</strong>,
+          <strong>2 orang tukang berhenti</strong> sehingga hanya tersisa 4 orang tukang
+          yang melanjutkan pekerjaan.
+        </p>
+        <div class="info-box">
+          Kapasitas kerja dihitung dalam satuan <em>orang-hari</em>.<br/>
+          Total pekerjaan = jumlah pekerja × jumlah hari yang dibutuhkan.
+        </div>
+        <p class="pertanyaan">
+          (a) Berapa bagian pekerjaan yang sudah selesai setelah 3 hari pertama?<br/>
+          (b) Berapa hari lagi yang dibutuhkan 4 orang tukang tersisa untuk menyelesaikan
+          sisa pekerjaan?<br/>
+          (c) Berapa total hari keseluruhan pekerjaan selesai?
+        </p>
+        <span class="skor">(Benar +40, Salah −10, Kosong 0)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SOAL 2 -->
+  <div class="soal">
+    <div class="soal-header">
+      <div class="soal-number">2</div>
+      <div class="soal-body">
+        <p>
+          Hari ini adalah hari <strong>Rabu, tanggal 1 Januari</strong>.
+          Tahun ini adalah <strong>tahun biasa</strong> (bukan tahun kabisat),
+          sehingga jumlah hari dalam tahun ini adalah <strong>365 hari</strong>.
+        </p>
+        <div class="info-box">
+          Urutan hari: Minggu, Senin, Selasa, Rabu, Kamis, Jumat, Sabtu (berulang setiap 7 hari).<br/>
+          Tahun biasa = 365 hari = 52 minggu + 1 hari sisa.
+        </div>
+        <p class="pertanyaan">
+          (a) Tanggal 1 Januari tahun depan jatuh pada hari apa?<br/>
+          (b) Dalam tahun ini, ada berapa hari Jumat?<br/>
+          (c) Tanggal 17 Agustus tahun ini jatuh pada hari apa?
+        </p>
+        <span class="skor">(Benar +40, Salah −10, Kosong 0)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SOAL 3 -->
+  <div class="soal">
+    <div class="soal-header">
+      <div class="soal-number">3</div>
+      <div class="soal-body">
+        <p>
+          Empat angka berbeda dipilih dari himpunan <strong>{2, 3, 5, 7}</strong>.
+          Dari keempat angka tersebut akan dibentuk bilangan 4 digit
+          <strong>tanpa pengulangan angka</strong>.
+        </p>
+        <div class="info-box">
+          Contoh bilangan yang dapat dibentuk: 2357, 7532, 3275, dst.
+        </div>
+        <p class="pertanyaan">
+          (a) Berapakah selisih bilangan 4 digit terbesar dan terkecil yang dapat dibentuk?<br/>
+          (b) Berapakah jumlah semua bilangan 4 digit yang dapat dibentuk dari keempat
+          angka tersebut?<br/>
+          (c) Berapakah rata-rata dari semua bilangan tersebut?
+        </p>
+        <span class="skor">(Benar +40, Salah −10, Kosong 0)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SOAL 4 -->
+  <div class="soal">
+    <div class="soal-header">
+      <div class="soal-number">4</div>
+      <div class="soal-body">
+        <p>
+          <strong>Dina</strong> menjumlahkan semua bilangan <strong>ganjil dari 1 hingga 199</strong>.
+          <strong>Roni</strong> menjumlahkan semua bilangan <strong>genap dari 2 hingga 200</strong>.
+          Setelah mendapatkan hasilnya masing-masing, keduanya
+          <strong>mengalikan hasil tersebut dengan 3</strong>.
+        </p>
+        <div class="info-box">
+          Rumus jumlah deret aritmetika: S = n/2 × (suku pertama + suku terakhir)<br/>
+          Jumlah n² bilangan ganjil pertama = n²
+        </div>
+        <p class="pertanyaan">
+          (a) Berapakah jumlah yang diperoleh Dina sebelum dikalikan 3?<br/>
+          (b) Berapakah jumlah yang diperoleh Roni sebelum dikalikan 3?<br/>
+          (c) Berapakah selisih hasil akhir (setelah dikalikan 3) antara Roni dan Dina?
+        </p>
+        <span class="skor">(Benar +40, Salah −10, Kosong 0)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SOAL 5 -->
+  <div class="soal">
+    <div class="soal-header">
+      <div class="soal-number">5</div>
+      <div class="soal-body">
+        <p>
+          Sebuah tali sepanjang <strong>13,5 meter</strong> akan dibagi sebagai berikut:
+        </p>
+        <ul>
+          <li><strong>1/3 bagian</strong> disimpan untuk cadangan.</li>
+          <li>Sisanya dibagikan kepada <strong>6 anak</strong> secara merata.</li>
+          <li>Setiap anak kemudian memotong bagiannya menjadi potongan-potongan kecil
+          masing-masing sepanjang <strong>25 cm</strong>.</li>
+        </ul>
+        <p class="pertanyaan">
+          (a) Berapa meter tali yang disimpan untuk cadangan?<br/>
+          (b) Berapa meter tali yang diterima setiap anak?<br/>
+          (c) Berapa total potongan kecil (25 cm) yang dihasilkan oleh semua anak?
+        </p>
+        <span class="skor">(Benar +40, Salah −10, Kosong 0)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== SOAL BAHASA INGGRIS ===== -->
+  <div class="section-title">Essay Question — English</div>
+
+  <!-- SOAL 6 -->
+  <div class="soal">
+    <div class="soal-header">
+      <div class="soal-number">6</div>
+      <div class="soal-body">
+        <p>
+          Three standard dice are stacked on top of each other, forming a
+          <strong>tower of 3 dice</strong>. On a standard die, opposite faces always
+          sum to 7: (1 ↔ 6, 2 ↔ 5, 3 ↔ 4).
+        </p>
+        <div class="info-box">
+          <strong>Tower arrangement (top to bottom):</strong><br/>
+          • Top die: visible top face = <strong>5</strong><br/>
+          • Bottom die: visible bottom face (touching the table) = <strong>2</strong><br/>
+          • When two dice touch, the two touching faces show the <strong>same number</strong>
+          (the top face of the lower die equals the bottom face of the upper die).<br/>
+          • The sum of all 6 faces of one standard die = 1+2+3+4+5+6 = <strong>21</strong>.
+        </div>
+        <p class="pertanyaan">
+          (a) What is the bottom face of the top die?<br/>
+          (b) What is the top face of the bottom die?<br/>
+          (c) What is the sum of ALL hidden faces — the two touching pairs between dice
+          plus the bottom face of the tower resting on the table?
+        </p>
+        <span class="skor">(Correct +40, Wrong −10, Blank 0)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PEMBAHASAN ===== -->
+  <div class="pembahasan-section">
+    <h2>Pembahasan &amp; Kunci Jawaban</h2>
+
+    <!-- PEMBAHASAN 1 -->
+    <div class="pembahasan">
+      <div class="materi-tag">Laju Kerja (Work Rate)</div>
+      <h3>Soal 1 — Tukang &amp; Tembok</h3>
+      <div class="step">
+        <span class="label">Total kapasitas pekerjaan:</span>
+        6 orang × 8 hari = <strong>48 orang-hari</strong>
+      </div>
+      <div class="step">
+        <span class="label">(a) Pekerjaan selesai dalam 3 hari pertama:</span>
+        6 orang × 3 hari = 18 orang-hari<br/>
+        Bagian selesai = 18 ÷ 48 = <strong>3/8</strong> dari total pekerjaan<br/>
+        Sisa pekerjaan = 1 − 3/8 = <strong>5/8</strong> = 30 orang-hari
+      </div>
+      <div class="step">
+        <span class="label">(b) Hari yang dibutuhkan 4 orang tukang tersisa:</span>
+        Sisa pekerjaan = 30 orang-hari<br/>
+        Jumlah pekerja tersisa = 4 orang<br/>
+        Waktu = 30 ÷ 4 = <strong>7,5 hari</strong>
+      </div>
+      <div class="step">
+        <span class="label">(c) Total hari keseluruhan:</span>
+        3 hari (pertama) + 7,5 hari (sisa) = <strong>10,5 hari</strong>
+      </div>
+      <span class="jawaban">Jawaban: (a) 3/8 &nbsp;|&nbsp; (b) 7,5 hari &nbsp;|&nbsp; (c) 10,5 hari</span>
+    </div>
+
+    <!-- PEMBAHASAN 2 -->
+    <div class="pembahasan">
+      <div class="materi-tag">Pola Kalender &amp; Hari</div>
+      <h3>Soal 2 — Kalender Tahun Biasa</h3>
+      <div class="step">
+        <span class="label">(a) Hari 1 Januari tahun depan:</span>
+        365 hari = 52 × 7 + 1 → ada 1 hari sisa<br/>
+        1 Januari tahun ini = Rabu → maju 1 hari = <strong>Kamis</strong>
+      </div>
+      <div class="step">
+        <span class="label">(b) Jumlah hari Jumat dalam tahun ini:</span>
+        1 Januari = Rabu (hari ke-1). Jumat pertama = 3 Januari (hari ke-3).<br/>
+        Jumat ke-52 = hari ke-3 + 51 × 7 = hari ke-3 + 357 = hari ke-360 (26 Desember) ✓ ≤ 365<br/>
+        Jumat ke-53 = hari ke-367 &gt; 365 → tidak ada.<br/>
+        Jumlah hari Jumat = <strong>52 hari</strong>
+      </div>
+      <div class="step">
+        <span class="label">(c) Hari tanggal 17 Agustus:</span>
+        Hitung hari ke-n dari 1 Januari:<br/>
+        Jan=31, Feb=28, Mar=31, Apr=30, Mei=31, Jun=30, Jul=31, + 17 hari Agustus<br/>
+        Total = 31+28+31+30+31+30+31+17 = <strong>229</strong> (hari ke-229 dalam tahun ini)<br/>
+        Selisih dari 1 Januari = 229 − 1 = 228 hari setelahnya<br/>
+        228 ÷ 7 = 32 sisa <strong>4</strong><br/>
+        Rabu + 4 hari = Kamis(+1), Jumat(+2), Sabtu(+3), <strong>Minggu(+4)</strong><br/>
+        17 Agustus jatuh pada hari <strong>Minggu</strong>
+      </div>
+      <span class="jawaban">Jawaban: (a) Kamis &nbsp;|&nbsp; (b) 52 hari Jumat &nbsp;|&nbsp; (c) Minggu</span>
+    </div>
+
+    <!-- PEMBAHASAN 3 -->
+    <div class="pembahasan">
+      <div class="materi-tag">Digit &amp; Nilai Tempat</div>
+      <h3>Soal 3 — Bilangan dari {2, 3, 5, 7}</h3>
+      <div class="step">
+        <span class="label">(a) Selisih terbesar dan terkecil:</span>
+        Bilangan terbesar = <strong>7532</strong> (digit diurutkan dari besar ke kecil)<br/>
+        Bilangan terkecil = <strong>2357</strong> (digit diurutkan dari kecil ke besar)<br/>
+        Selisih = 7532 − 2357 = <strong>5175</strong>
+      </div>
+      <div class="step">
+        <span class="label">(b) Jumlah semua bilangan 4 digit:</span>
+        Banyak susunan = 4! = 24 bilangan<br/>
+        Setiap digit muncul di setiap posisi (ribuan, ratusan, puluhan, satuan) sebanyak
+        3! = 6 kali.<br/>
+        Jumlah semua digit = 2 + 3 + 5 + 7 = 17<br/>
+        Nilai kontribusi tiap posisi = 6 × 17 = 102<br/>
+        Jumlah semua bilangan = 102 × 1000 + 102 × 100 + 102 × 10 + 102 × 1<br/>
+        = 102 × 1111 = <strong>113.322</strong>
+      </div>
+      <div class="step">
+        <span class="label">(c) Rata-rata semua bilangan:</span>
+        Rata-rata = 113.322 ÷ 24 = <strong>4.722</strong>
+      </div>
+      <span class="jawaban">Jawaban: (a) 5.175 &nbsp;|&nbsp; (b) 113.322 &nbsp;|&nbsp; (c) 4.722</span>
+    </div>
+
+    <!-- PEMBAHASAN 4 -->
+    <div class="pembahasan">
+      <div class="materi-tag">Jumlah Deret Ganjil &amp; Genap</div>
+      <h3>Soal 4 — Dina &amp; Roni</h3>
+      <div class="step">
+        <span class="label">(a) Jumlah Dina (ganjil 1 s.d. 199):</span>
+        Barisan: 1, 3, 5, …, 199 → banyak suku n = (199 − 1) ÷ 2 + 1 = <strong>100 suku</strong><br/>
+        Jumlah = n² = 100² = <strong>10.000</strong>
+      </div>
+      <div class="step">
+        <span class="label">(b) Jumlah Roni (genap 2 s.d. 200):</span>
+        Barisan: 2, 4, 6, …, 200 → banyak suku n = 200 ÷ 2 = <strong>100 suku</strong><br/>
+        Jumlah = n × (n + 1) = 100 × 101 = <strong>10.100</strong>
+      </div>
+      <div class="step">
+        <span class="label">(c) Selisih hasil akhir (setelah × 3):</span>
+        Selisih sebelum dikali 3 = 10.100 − 10.000 = 100<br/>
+        Selisih setelah dikali 3 = 100 × 3 = <strong>300</strong>
+      </div>
+      <span class="jawaban">Jawaban: (a) 10.000 &nbsp;|&nbsp; (b) 10.100 &nbsp;|&nbsp; (c) 300</span>
+    </div>
+
+    <!-- PEMBAHASAN 5 -->
+    <div class="pembahasan">
+      <div class="materi-tag">Pecahan &amp; Distribusi</div>
+      <h3>Soal 5 — Pembagian Tali</h3>
+      <div class="step">
+        <span class="label">(a) Tali cadangan:</span>
+        1/3 × 13,5 m = <strong>4,5 meter</strong>
+      </div>
+      <div class="step">
+        <span class="label">(b) Tali per anak:</span>
+        Sisa tali = 13,5 − 4,5 = 9 meter<br/>
+        Dibagi 6 anak: 9 ÷ 6 = <strong>1,5 meter</strong> per anak
+      </div>
+      <div class="step">
+        <span class="label">(c) Total potongan kecil (25 cm) semua anak:</span>
+        1,5 m = 150 cm<br/>
+        Potongan per anak = 150 ÷ 25 = 6 potongan<br/>
+        Total semua anak = 6 anak × 6 potongan = <strong>36 potongan</strong>
+      </div>
+      <span class="jawaban">Jawaban: (a) 4,5 m &nbsp;|&nbsp; (b) 1,5 m &nbsp;|&nbsp; (c) 36 potongan</span>
+    </div>
+
+    <!-- PEMBAHASAN 6 -->
+    <div class="pembahasan">
+      <div class="materi-tag">Dice &amp; Spatial Logic</div>
+      <h3>Question 6 — Tower of Three Dice (English)</h3>
+      <div class="step">
+        <span class="label">Setup — opposite faces sum to 7:</span>
+        1 ↔ 6 &nbsp;|&nbsp; 2 ↔ 5 &nbsp;|&nbsp; 3 ↔ 4
+      </div>
+      <div class="step">
+        <span class="label">Determine each face of the tower:</span>
+        <strong>Top die:</strong> top face = 5 (visible) → bottom face = 7 − 5 = <strong>2</strong><br/>
+        <strong>Middle die:</strong> top face = 2 (touches top die's bottom = 2, same-number rule)
+        → bottom face = 7 − 2 = <strong>5</strong><br/>
+        <strong>Bottom die:</strong> top face = 5 (touches middle die's bottom = 5, same-number rule)
+        → bottom face = 7 − 5 = <strong>2</strong> ✓ (matches given: bottom of tower = 2)
+      </div>
+      <div class="step">
+        <span class="label">(a) Bottom face of the top die:</span>
+        Top die bottom = 7 − 5 = <strong>2</strong>
+      </div>
+      <div class="step">
+        <span class="label">(b) Top face of the bottom die:</span>
+        Bottom die top = same as middle die bottom = <strong>5</strong>
+      </div>
+      <div class="step">
+        <span class="label">(c) Sum of ALL hidden faces:</span>
+        Hidden faces are the touching pairs between dice and the bottom of the tower:<br/>
+        • Bottom of top die = 2<br/>
+        • Top of middle die = 2 &nbsp;(touching pair 1: 2 + 2)<br/>
+        • Bottom of middle die = 5<br/>
+        • Top of bottom die = 5 &nbsp;(touching pair 2: 5 + 5)<br/>
+        • Bottom of tower (bottom die's bottom face, on the table) = 2<br/>
+        Sum = 2 + 2 + 5 + 5 + 2 = <strong>16</strong>
+      </div>
+      <span class="jawaban">Answer: (a) 2 &nbsp;|&nbsp; (b) 5 &nbsp;|&nbsp; (c) 16</span>
+    </div>
+
+  </div><!-- end pembahasan -->
+
+  <footer>
+    Essay Math 04 &nbsp;&bull;&nbsp; SD Kelas 5–6 / Kompetisi &nbsp;&bull;&nbsp; 6 Soal Essay
+  </footer>
+
+</div>
+</body>
+</html>
