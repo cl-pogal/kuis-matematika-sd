@@ -1,0 +1,1031 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soal Latihan Olimpiade Matematika SD</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f0f4f8;
+      color: #1a1a2e;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: linear-gradient(135deg, #0d47a1 0%, #1565c0 100%);
+      color: #fff;
+      text-align: center;
+      padding: 48px 24px 40px;
+      position: relative;
+      overflow: hidden;
+    }
+    header::before {
+      content: '';
+      position: absolute;
+      top: -60px; right: -60px;
+      width: 220px; height: 220px;
+      background: rgba(255,255,255,0.06);
+      border-radius: 50%;
+    }
+    header::after {
+      content: '';
+      position: absolute;
+      bottom: -80px; left: -40px;
+      width: 280px; height: 280px;
+      background: rgba(255,255,255,0.04);
+      border-radius: 50%;
+    }
+    header h1 {
+      font-size: clamp(1.6rem, 4vw, 2.6rem);
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+      position: relative; z-index: 1;
+    }
+    header p.subtitle {
+      font-size: 1rem;
+      font-weight: 500;
+      opacity: 0.88;
+      position: relative; z-index: 1;
+    }
+    .header-badges {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 16px;
+      flex-wrap: wrap;
+      position: relative; z-index: 1;
+    }
+    .header-badge {
+      background: rgba(255,255,255,0.18);
+      border: 1px solid rgba(255,255,255,0.3);
+      color: #fff;
+      padding: 4px 14px;
+      border-radius: 20px;
+      font-size: 0.78rem;
+      font-weight: 600;
+    }
+
+    /* ── MAIN CONTAINER ── */
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 16px 48px;
+    }
+
+    /* ── NOTE BOX ── */
+    .note-box {
+      background: #fffde7;
+      border: 1.5px solid #f9a825;
+      border-radius: 14px;
+      padding: 18px 22px;
+      margin-bottom: 36px;
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+    }
+    .note-box .note-icon { font-size: 1.5rem; flex-shrink: 0; margin-top: 2px; }
+    .note-box .note-text { font-size: 0.88rem; line-height: 1.65; color: #5d4037; }
+    .note-box .note-text strong { color: #e65100; }
+
+    /* ── SECTION HEADING ── */
+    .section-heading {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 24px;
+      margin-top: 8px;
+    }
+    .section-heading .section-icon {
+      width: 48px; height: 48px;
+      border-radius: 14px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.4rem;
+      flex-shrink: 0;
+    }
+    .section-heading.green .section-icon { background: #e8f5e9; }
+    .section-heading.orange .section-icon { background: #fff3e0; }
+    .section-heading h2 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #1a1a2e;
+    }
+    .section-heading p {
+      font-size: 0.82rem;
+      color: #666;
+      margin-top: 2px;
+    }
+    .section-divider {
+      height: 3px;
+      border-radius: 2px;
+      margin-bottom: 28px;
+    }
+    .section-divider.green { background: linear-gradient(90deg, #2e7d32, #a5d6a7); }
+    .section-divider.orange { background: linear-gradient(90deg, #e65100, #ffcc80); }
+
+    /* ── PROBLEM CARD ── */
+    .problem-card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      margin-bottom: 22px;
+      overflow: hidden;
+      transition: box-shadow 0.2s;
+    }
+    .problem-card:hover { box-shadow: 0 6px 28px rgba(0,0,0,0.13); }
+
+    .card-header {
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .card-header.green { background: #e8f5e9; }
+    .card-header.orange { background: #fff3e0; }
+
+    .num-circle {
+      width: 40px; height: 40px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.9rem;
+      flex-shrink: 0;
+    }
+    .num-circle.green { background: #2e7d32; }
+    .num-circle.orange { background: #e65100; }
+
+    .card-header-info { flex: 1; min-width: 0; }
+    .card-header-info .topic {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      line-height: 1.3;
+    }
+    .card-header-meta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 4px;
+      flex-wrap: wrap;
+    }
+
+    /* Language badge */
+    .lang-badge {
+      padding: 2px 10px;
+      border-radius: 20px;
+      font-size: 0.72rem;
+      font-weight: 600;
+    }
+    .lang-badge.id { background: #1565c0; color: #fff; }
+    .lang-badge.en { background: #c62828; color: #fff; }
+
+    /* Point badge */
+    .point-badge {
+      background: #fff8e1;
+      border: 1px solid #f9a825;
+      color: #e65100;
+      padding: 2px 10px;
+      border-radius: 20px;
+      font-size: 0.72rem;
+      font-weight: 700;
+    }
+
+    /* ── CARD BODY ── */
+    .card-body { padding: 20px 22px; }
+
+    .problem-text {
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: #2c2c2c;
+      margin-bottom: 4px;
+    }
+    .problem-text strong { color: #0d47a1; }
+
+    .sub-questions { margin-top: 12px; }
+    .sub-question {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 8px;
+      font-size: 0.93rem;
+      line-height: 1.7;
+      color: #2c2c2c;
+    }
+    .sub-question .sq-label {
+      font-weight: 700;
+      color: #e65100;
+      flex-shrink: 0;
+      min-width: 22px;
+    }
+
+    /* ── COLLAPSIBLE SOLUTION ── */
+    details { margin-top: 16px; }
+    details summary {
+      background: #e3f2fd;
+      color: #0d47a1;
+      padding: 10px 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 0.88rem;
+      font-weight: 600;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      user-select: none;
+      transition: background 0.15s;
+    }
+    details summary::-webkit-details-marker { display: none; }
+    details summary::before {
+      content: '▶';
+      font-size: 0.7rem;
+      transition: transform 0.2s;
+      display: inline-block;
+    }
+    details[open] summary::before { transform: rotate(90deg); }
+    details summary:hover { background: #bbdefb; }
+
+    .solution-body {
+      background: #f5f9ff;
+      border: 1px solid #bbdefb;
+      border-radius: 0 0 10px 10px;
+      padding: 16px 18px;
+      margin-top: 2px;
+    }
+    .solution-body .sol-step {
+      font-size: 0.88rem;
+      line-height: 1.75;
+      color: #2c2c2c;
+      margin-bottom: 4px;
+    }
+    .solution-body .sol-step.indent { padding-left: 18px; }
+    .solution-body .sol-sub-heading {
+      font-weight: 700;
+      color: #0d47a1;
+      font-size: 0.88rem;
+      margin-top: 10px;
+      margin-bottom: 4px;
+    }
+
+    .answer-pill {
+      display: inline-block;
+      background: #0d47a1;
+      color: #fff;
+      padding: 5px 18px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      margin-top: 12px;
+    }
+
+    /* ── SCORING BOX ── */
+    .scoring-box {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      padding: 24px 28px;
+      margin-top: 40px;
+    }
+    .scoring-box h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #0d47a1;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .scoring-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+    .scoring-table th {
+      background: #e3f2fd;
+      color: #0d47a1;
+      padding: 10px 14px;
+      text-align: left;
+      font-weight: 700;
+    }
+    .scoring-table td { padding: 9px 14px; border-bottom: 1px solid #e8eaf6; }
+    .scoring-table tr:last-child td { border-bottom: none; }
+    .scoring-table .total-row td {
+      background: #0d47a1;
+      color: #fff;
+      font-weight: 700;
+      border-bottom: none;
+    }
+    .scoring-table th:first-child { border-radius: 8px 0 0 0; }
+    .scoring-table th:last-child { border-radius: 0 8px 0 0; }
+
+    /* ── FOOTER ── */
+    footer {
+      background: #0d47a1;
+      color: rgba(255,255,255,0.85);
+      text-align: center;
+      padding: 24px 16px;
+      font-size: 0.82rem;
+      margin-top: 0;
+    }
+    footer strong { color: #fff; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 600px) {
+      .card-body { padding: 16px; }
+      .card-header { padding: 14px 16px; }
+      main { padding: 20px 10px 40px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📐 Soal Latihan Olimpiade Matematika</h1>
+  <p class="subtitle">Tingkat SD Kelas 4–5 &nbsp;|&nbsp; Edisi Original</p>
+  <div class="header-badges">
+    <span class="header-badge">🏆 Tingkat KOSSMI</span>
+    <span class="header-badge">📝 16 Soal</span>
+    <span class="header-badge">⏱ 120 Menit</span>
+    <span class="header-badge">🇮🇩 / 🇬🇧 Bilingual</span>
+  </div>
+</header>
+
+<main>
+
+  <!-- NOTE BOX -->
+  <div class="note-box">
+    <div class="note-icon">💡</div>
+    <div class="note-text">
+      <strong>Catatan:</strong> Soal-soal dalam lembar latihan ini merupakan <strong>soal original</strong> yang dirancang khusus untuk latihan olimpiade matematika tingkat SD kelas 4–5 dengan tingkat kesulitan setara kompetisi <strong>KOSSMI (Kompetisi Sains Siswa Madrasah Ibtidaiyah)</strong>. Terdapat <strong>10 soal isian singkat</strong> (masing-masing 4 poin) dan <strong>6 soal uraian</strong> (total 68 poin). Klik <em>"Lihat Pembahasan"</em> untuk melihat solusi lengkap setiap soal.
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  SECTION A: ISIAN SINGKAT                              -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <div class="section-heading green">
+    <div class="section-icon">✏️</div>
+    <div>
+      <h2>A. Isian Singkat</h2>
+      <p>10 soal &nbsp;·&nbsp; Masing-masing 4 poin &nbsp;·&nbsp; Total 40 poin</p>
+    </div>
+  </div>
+  <div class="section-divider green"></div>
+
+  <!-- A1 -->
+  <div class="problem-card">
+    <div class="card-header green">
+      <div class="num-circle green">A1</div>
+      <div class="card-header-info">
+        <div class="topic">Pola Angka Satuan</div>
+        <div class="card-header-meta">
+          <span class="lang-badge id">🇮🇩 Bahasa Indonesia</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="problem-text">
+        Berapakah angka satuan dari hasil penjumlahan
+        7<sup>1</sup> + 7<sup>2</sup> + 7<sup>3</sup> + &hellip; + 7<sup>2025</sup>?
+      </p>
+      <details>
+        <summary>💡 Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <p class="sol-step">Angka satuan dari perpangkatan 7 berpola dengan <strong>periode 4</strong>:</p>
+          <p class="sol-step indent">7<sup>1</sup> → 7 &nbsp;|&nbsp; 7<sup>2</sup> → 9 &nbsp;|&nbsp; 7<sup>3</sup> → 3 &nbsp;|&nbsp; 7<sup>4</sup> → 1 &nbsp;|&nbsp; 7<sup>5</sup> → 7 &nbsp;(berulang)</p>
+          <p class="sol-step">Jumlah angka satuan dalam satu periode (4 suku): 7 + 9 + 3 + 1 = 20 → angka satuan <strong>0</strong></p>
+          <p class="sol-step">2025 = 4 × 506 + <strong>1</strong> → ada 506 periode lengkap dan 1 suku sisa (7<sup>2025</sup> dengan angka satuan 7)</p>
+          <p class="sol-step">Total angka satuan = (506 × 0) + <strong>7</strong> = 7</p>
+          <span class="answer-pill">Jawaban: 7</span>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- A2 -->
+  <div class="problem-card">
+    <div class="card-header green">
+      <div class="num-circle green">A2</div>
+      <div class="card-header-info">
+        <div class="topic">Membaca Buku</div>
+        <div class="card-header-meta">
+          <span class="lang-badge id">🇮🇩 Bahasa Indonesia</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="problem-text">
+        Dina membeli buku setebal 240 halaman. Pada hari pertama, ia membaca &frac13; dari total halaman ditambah 8 halaman.
+        Pada hari kedua, ia membaca &frac14; dari sisa halaman ditambah 6 halaman.
+        Berapa halaman yang tersisa untuk dibaca pada hari ketiga?
+      </p>
+      <details>
+        <summary>💡 Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <p class="sol-step"><strong>Hari ke-1:</strong> membaca = 240 ÷ 3 + 8 = 80 + 8 = <strong>88 halaman</strong></p>
+          <p class="sol-step indent">Sisa = 240 − 88 = <strong>152 halaman</strong></p>
+          <p class="sol-step"><strong>Hari ke-2:</strong> membaca = 152 ÷ 4 + 6 = 38 + 6 = <strong>44 halaman</strong></p>
+          <p class="sol-step indent">Sisa = 152 − 44 = <strong>108 halaman</strong></p>
+          <span class="answer-pill">Jawaban: 108 halaman</span>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- A3 -->
+  <div class="problem-card">
+    <div class="card-header green">
+      <div class="num-circle green">A3</div>
+      <div class="card-header-info">
+        <div class="topic">Operasi Khusus</div>
+        <div class="card-header-meta">
+          <span class="lang-badge id">🇮🇩 Bahasa Indonesia</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="problem-text">
+        Misalkan ★ adalah operasi bilangan yang didefinisikan sebagai:
+        <strong>a ★ b = 2a + 3b − ab</strong>.
+        Jika (x ★ 4) + (3 ★ x) = 10, maka nilai x adalah &hellip;
+      </p>
+      <details>
+        <summary>💡 Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <p class="sol-step">x ★ 4 = 2x + 3(4) − x(4) = 2x + 12 − 4x = <strong>12 − 2x</strong></p>
+          <p class="sol-step">3 ★ x = 2(3) + 3x − 3x = 6 + 3x − 3x = <strong>6</strong></p>
+          <p class="sol-step">(12 − 2x) + 6 = 10</p>
+          <p class="sol-step">18 − 2x = 10 &nbsp;→&nbsp; 2x = 8 &nbsp;→&nbsp; x = <strong>4</strong></p>
+          <span class="answer-pill">Jawaban: x = 4</span>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- A4 -->
+  <div class="problem-card">
+    <div class="card-header green">
+      <div class="num-circle green">A4</div>
+      <div class="card-header-info">
+        <div class="topic">Barisan Bilangan</div>
+        <div class="card-header-meta">
+          <span class="lang-badge id">🇮🇩 Bahasa Indonesia</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="problem-text">
+        Perhatikan barisan: <strong>3, 7, 13, 21, 31, 43, &hellip;</strong><br>
+        Bilangan ke-20 dari barisan tersebut adalah &hellip;
+      </p>
+      <details>
+        <summary>💡 Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <p class="sol-step">Selisih antar suku: 4, 6, 8, 10, 12, &hellip; (bertambah 2 setiap langkah)</p>
+          <p class="sol-step">Rumus suku ke-n: <strong>a<sub>n</sub> = n² + n + 1</strong></p>
+          <p class="sol-step indent">Cek: a<sub>1</sub> = 1 + 1 + 1 = 3 ✓ &nbsp;|&nbsp; a<sub>2</sub> = 4 + 2 + 1 = 7 ✓ &nbsp;|&nbsp; a<sub>3</sub> = 9 + 3 + 1 = 13 ✓</p>
+          <p class="sol-step">a<sub>20</sub> = 20² + 20 + 1 = 400 + 20 + 1 = <strong>421</strong></p>
+          <span class="answer-pill">Jawaban: 421</span>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- A5 -->
+  <div class="problem-card">
+    <div class="card-header green">
+      <div class="num-circle green">A5</div>
+      <div class="card-header-info">
+        <div class="topic">Tabungan</div>
+        <div class="card-header-meta">
+          <span class="lang-badge id">🇮🇩 Bahasa Indonesia</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="problem-text">
+        Tabungan Rara saat ini Rp420.000 dan tabungan Sinta Rp180.000.
+        Setiap minggu, Rara <em>mengeluarkan</em> Rp15.000 dari tabungannya,
+        sedangkan Sinta <em>menambah</em> Rp25.000 ke tabungannya.
+        Setelah berapa minggu tabungan mereka akan sama?
+      </p>
+      <details>
+        <summary>💡 Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <p class="sol-step">Setelah n minggu:</p>
+          <p class="sol-step indent">Rara = 420.000 − 15.000n</p>
+          <p class="sol-step indent">Sinta = 180.000 + 25.000n</p>
+          <p class="sol-step">Samakan: 420.000 − 15.000n = 180.000 + 25.000n</p>
+          <p class="sol-step">240.000 = 40.000n &nbsp;→&nbsp; n = <strong>6 minggu</strong></p>
+          <p class="sol-step">Cek: Rara = 420.000 − 90.000 = 330.000 &nbsp;|&nbsp; Sinta = 180.000 + 150.000 = 330.000 ✓</p>
+          <span class="answer-pill">Jawaban: 6 minggu</span>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- A6 -->
+  <div class="problem-card">
+    <div class="card-header green">
+      <div class="num-circle green">A6</div>
+      <div class="card-header-info">
+        <div class="topic">FPB dan KPK dalam Cerita</div>
+        <div class="card-header-meta">
+          <span class="lang-badge id">🇮🇩 Bahasa Indonesia</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="problem-text">
+        Pak Hasan memiliki 84 buku tulis dan 60 pensil yang akan dibagikan kepada beberapa kelompok belajar.
+        Setiap kelompok mendapat jumlah buku tulis dan pensil yang sama banyak, dan tidak ada yang tersisa.
+        Jika setiap kelompok mendapat <strong>lebih dari 5 buku tulis</strong>, berapa banyak kelompok <em>maksimum</em> yang dapat dibentuk?
+      </p>
+      <details>
+        <summary>💡 Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <p class="sol-step">Banyak kelompok = faktor dari FPB(84, 60)</p>
+          <p class="sol-step">84 = 2² × 3 × 7 &nbsp;|&nbsp; 60 = 2² × 3 × 5</p>
+          <p class="sol-step">FPB(84, 60) = 2² × 3 = <strong>12</strong></p>
+          <p class="sol-step">Faktor 12: 1, 2, 3, 4, 6, 12</p>
+          <p class="sol-step">Syarat &gt; 5 buku per kelompok → 84 ÷ kelompok &gt; 5</p>
+          <p class="sol-step indent">12 kelompok: 84 ÷ 12 = 7 buku ✓ &nbsp;(memenuhi)</p>
+          <p class="sol-step">Kelompok maksimum yang memenuhi syarat = <strong>12 kelompok</strong></p>
+          <span class="answer-pill">Jawaban: 12 kelompok</span>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- A7 -->
+  <div class="problem-card">
+    <div class="card-header green">
+      <div class="num-circle green">A7</div>
+      <div class="card-header-info">
+        <div class="topic">Rata-rata</div>
+        <div class="card-header-meta">
+          <span class="lang-badge id">🇮🇩 Bahasa Indonesia</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="problem-text">
+        Nilai rata-rata ulangan matematika 30 siswa adalah 72.
+        Setelah 5 siswa baru masuk dan ikut ulangan susulan, rata-rata seluruh siswa menjadi 74.
+        Berapa rata-rata nilai ulangan 5 siswa baru tersebut?
+      </p>
+      <details>
+        <summary>💡 Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <p class="sol-step">Total nilai 30 siswa = 30 × 72 = <strong>2.160</strong></p>
+          <p class="sol-step">Total nilai 35 siswa = 35 × 74 = <strong>2.590</strong></p>
+          <p class="sol-step">Total nilai 5 siswa baru = 2.590 − 2.160 = <strong>430</strong></p>
+          <p class="sol-step">Rata-rata 5 siswa baru = 430 ÷ 5 = <strong>86</strong></p>
+          <span class="answer-pill">Jawaban: 86</span>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- A8 -->
+  <div class="problem-card">
+    <div class="card-header green">
+      <div class="num-circle green">A8</div>
+      <div class="card-header-info">
+        <div class="topic">Geometri Gabungan</div>
+        <div class="card-header-meta">
+          <span class="lang-badge id">🇮🇩 Bahasa Indonesia</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="problem-text">
+        Sebuah lapangan berbentuk persegi panjang berukuran 40 m × 25 m.
+        Di dalam lapangan tersebut terdapat sebuah kolam berbentuk lingkaran dengan diameter 14 m.
+        Luas lapangan di luar kolam adalah &hellip; m². <em>(Gunakan &pi; = 22/7)</em>
+      </p>
+      <details>
+        <summary>💡 Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <p class="sol-step">Luas persegi panjang = 40 × 25 = <strong>1.000 m²</strong></p>
+          <p class="sol-step">Jari-jari kolam = 14 ÷ 2 = 7 m</p>
+          <p class="sol-step">Luas kolam = &pi; × r² = 22/7 × 7² = 22/7 × 49 = <strong>154 m²</strong></p>
+          <p class="sol-step">Luas lapangan di luar kolam = 1.000 − 154 = <strong>846 m²</strong></p>
+          <span class="answer-pill">Jawaban: 846 m²</span>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- A9 -->
+  <div class="problem-card">
+    <div class="card-header green">
+      <div class="num-circle green">A9</div>
+      <div class="card-header-info">
+        <div class="topic">Number Sequence</div>
+        <div class="card-header-meta">
+          <span class="lang-badge en">🇬🇧 English</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="problem-text">
+        Look at the following sequence: <strong>5, 10, 20, 35, 55, 80, &hellip;</strong><br>
+        Each term after the first is obtained by adding consecutive multiples of 5 to the previous term
+        (add 5, then add 10, then add 15, and so on).
+        What is the <strong>10th term</strong> of this sequence?
+      </p>
+      <details>
+        <summary>💡 View Solution</summary>
+        <div class="solution-body">
+          <p class="sol-step">Differences: +5, +10, +15, +20, +25, +30, +35, +40, +45, &hellip;</p>
+          <p class="sol-step indent">Term 1: 5 &nbsp;|&nbsp; Term 2: 5 + 5 = 10 &nbsp;|&nbsp; Term 3: 10 + 10 = 20</p>
+          <p class="sol-step indent">Term 4: 20 + 15 = 35 &nbsp;|&nbsp; Term 5: 35 + 20 = 55 &nbsp;|&nbsp; Term 6: 55 + 25 = 80</p>
+          <p class="sol-step indent">Term 7: 80 + 30 = 110 &nbsp;|&nbsp; Term 8: 110 + 35 = 145</p>
+          <p class="sol-step indent">Term 9: 145 + 40 = 185 &nbsp;|&nbsp; Term 10: 185 + 45 = <strong>230</strong></p>
+          <span class="answer-pill">Answer: 230</span>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- A10 -->
+  <div class="problem-card">
+    <div class="card-header green">
+      <div class="num-circle green">A10</div>
+      <div class="card-header-info">
+        <div class="topic">Fraction Problem</div>
+        <div class="card-header-meta">
+          <span class="lang-badge en">🇬🇧 English</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="problem-text">
+        A water tank is <strong>&frac23; full</strong>. After 45 liters are added, the tank becomes <strong>&#8541; full</strong>.
+        What is the total capacity of the tank in liters?
+      </p>
+      <details>
+        <summary>💡 View Solution</summary>
+        <div class="solution-body">
+          <p class="sol-step">Let total capacity = C liters</p>
+          <p class="sol-step">&frac23;C + 45 = &#8541;C</p>
+          <p class="sol-step">45 = &#8541;C − &frac23;C = &#8541;C − &#8532;C = &#8537;C</p>
+          <p class="sol-step">C = 45 × 6 = <strong>270 liters</strong></p>
+          <span class="answer-pill">Answer: 270 liters</span>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  SECTION B: URAIAN                                     -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <div class="section-heading orange" style="margin-top: 48px;">
+    <div class="section-icon">📝</div>
+    <div>
+      <h2>B. Uraian</h2>
+      <p>6 soal &nbsp;·&nbsp; Total 68 poin &nbsp;·&nbsp; Tunjukkan langkah penyelesaian</p>
+    </div>
+  </div>
+  <div class="section-divider orange"></div>
+
+  <!-- B1 -->
+  <div class="problem-card">
+    <div class="card-header orange">
+      <div class="num-circle orange">B1</div>
+      <div class="card-header-info">
+        <div class="topic">Pola Segitiga Korek Api</div>
+        <div class="card-header-meta">
+          <span class="lang-badge id">🇮🇩 Bahasa Indonesia</span>
+          <span class="point-badge">10 Poin</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="problem-text">
+        Faiz membuat pola segitiga menggunakan batang korek api.
+        Pola ke-1 adalah 1 segitiga (3 batang), pola ke-2 adalah 4 segitiga kecil membentuk segitiga besar (9 batang),
+        pola ke-3 adalah 9 segitiga kecil (18 batang).
+      </p>
+      <div class="sub-questions">
+        <div class="sub-question"><span class="sq-label">(a)</span><span>Tentukan rumus banyak batang korek api pada pola ke-n.</span></div>
+        <div class="sub-question"><span class="sq-label">(b)</span><span>Berapa batang korek api yang dibutuhkan untuk membuat pola ke-8?</span></div>
+        <div class="sub-question"><span class="sq-label">(c)</span><span>Berapa batang korek api yang perlu ditambahkan dari pola ke-7 ke pola ke-8?</span></div>
+      </div>
+      <details>
+        <summary>💡 Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <p class="sol-sub-heading">(a) Mencari Rumus</p>
+          <p class="sol-step">Data: pola ke-1 = 3, pola ke-2 = 9, pola ke-3 = 18</p>
+          <p class="sol-step">Selisih: +6, +9, +12, &hellip; (bertambah 3 setiap pola)</p>
+          <p class="sol-step">Rumus: <strong>a<sub>n</sub> = 3n(n+1) / 2</strong></p>
+          <p class="sol-step indent">Cek: n=1 → 3×1×2/2 = 3 ✓ &nbsp;|&nbsp; n=2 → 3×2×3/2 = 9 ✓ &nbsp;|&nbsp; n=3 → 3×3×4/2 = 18 ✓</p>
+
+          <p class="sol-sub-heading">(b) Pola ke-8</p>
+          <p class="sol-step">a<sub>8</sub> = 3 × 8 × 9 / 2 = 3 × 36 = <strong>108 batang</strong></p>
+
+          <p class="sol-sub-heading">(c) Tambahan dari pola ke-7 ke pola ke-8</p>
+          <p class="sol-step">a<sub>7</sub> = 3 × 7 × 8 / 2 = 3 × 28 = <strong>84 batang</strong></p>
+          <p class="sol-step">Tambahan = 108 − 84 = <strong>24 batang</strong></p>
+          <span class="answer-pill">Jawaban: (a) 3n(n+1)/2 &nbsp;|&nbsp; (b) 108 batang &nbsp;|&nbsp; (c) 24 batang</span>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- B2 -->
+  <div class="problem-card">
+    <div class="card-header orange">
+      <div class="num-circle orange">B2</div>
+      <div class="card-header-info">
+        <div class="topic">Sistem Persamaan Cerita</div>
+        <div class="card-header-meta">
+          <span class="lang-badge id">🇮🇩 Bahasa Indonesia</span>
+          <span class="point-badge">12 Poin</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="problem-text">
+        Di sebuah toko buah, harga 2 kg apel dan 3 kg jeruk adalah Rp47.000.
+        Harga 3 kg apel dan 2 kg jeruk adalah Rp53.000.
+      </p>
+      <div class="sub-questions">
+        <div class="sub-question"><span class="sq-label">(a)</span><span>Tentukan harga 1 kg apel dan 1 kg jeruk masing-masing.</span></div>
+        <div class="sub-question"><span class="sq-label">(b)</span><span>Berapa harga yang harus dibayar untuk membeli 4 kg apel dan 3 kg jeruk?</span></div>
+      </div>
+      <details>
+        <summary>💡 Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <p class="sol-sub-heading">(a) Mencari harga per kg</p>
+          <p class="sol-step">Misalkan harga apel = a, jeruk = j (per kg)</p>
+          <p class="sol-step indent">2a + 3j = 47.000 &nbsp;&hellip; (i)</p>
+          <p class="sol-step indent">3a + 2j = 53.000 &nbsp;&hellip; (ii)</p>
+          <p class="sol-step">(i) × 2: &nbsp;4a + 6j = 94.000</p>
+          <p class="sol-step">(ii) × 3: &nbsp;9a + 6j = 159.000</p>
+          <p class="sol-step">Kurangi: 5a = 65.000 &nbsp;→&nbsp; <strong>a = Rp13.000/kg</strong></p>
+          <p class="sol-step">Substitusi ke (i): 2(13.000) + 3j = 47.000 &nbsp;→&nbsp; 3j = 21.000 &nbsp;→&nbsp; <strong>j = Rp7.000/kg</strong></p>
+          <p class="sol-step">Cek (ii): 3(13.000) + 2(7.000) = 39.000 + 14.000 = 53.000 ✓</p>
+
+          <p class="sol-sub-heading">(b) Harga 4 kg apel + 3 kg jeruk</p>
+          <p class="sol-step">= 4 × 13.000 + 3 × 7.000 = 52.000 + 21.000 = <strong>Rp73.000</strong></p>
+          <span class="answer-pill">Jawaban: (a) Apel Rp13.000/kg, Jeruk Rp7.000/kg &nbsp;|&nbsp; (b) Rp73.000</span>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- B3 -->
+  <div class="problem-card">
+    <div class="card-header orange">
+      <div class="num-circle orange">B3</div>
+      <div class="card-header-info">
+        <div class="topic">Logika Kursi Bus</div>
+        <div class="card-header-meta">
+          <span class="lang-badge id">🇮🇩 Bahasa Indonesia</span>
+          <span class="point-badge">12 Poin</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="problem-text">
+        Sebuah bus memiliki 10 baris kursi. Setiap 4 baris yang berurutan memiliki total 92 penumpang.
+        Total penumpang di seluruh bus adalah 240 orang.
+      </p>
+      <div class="sub-questions">
+        <div class="sub-question"><span class="sq-label">(a)</span><span>Tunjukkan bahwa baris ke-1 dan baris ke-5 memiliki jumlah penumpang yang sama.</span></div>
+        <div class="sub-question"><span class="sq-label">(b)</span><span>Tentukan jumlah penumpang di baris ke-9 dan ke-10.</span></div>
+      </div>
+      <details>
+        <summary>💡 Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <p class="sol-sub-heading">(a) Membuktikan baris ke-1 = baris ke-5</p>
+          <p class="sol-step">Misalkan baris ke-i memiliki a<sub>i</sub> penumpang.</p>
+          <p class="sol-step indent">a<sub>1</sub> + a<sub>2</sub> + a<sub>3</sub> + a<sub>4</sub> = 92 &nbsp;&hellip; (i)</p>
+          <p class="sol-step indent">a<sub>2</sub> + a<sub>3</sub> + a<sub>4</sub> + a<sub>5</sub> = 92 &nbsp;&hellip; (ii)</p>
+          <p class="sol-step">(i) − (ii): a<sub>1</sub> − a<sub>5</sub> = 0 &nbsp;→&nbsp; <strong>a<sub>1</sub> = a<sub>5</sub></strong> ✓</p>
+          <p class="sol-step">Dengan cara yang sama: a<sub>2</sub>=a<sub>6</sub>, a<sub>3</sub>=a<sub>7</sub>, a<sub>4</sub>=a<sub>8</sub>, a<sub>5</sub>=a<sub>9</sub>, a<sub>6</sub>=a<sub>10</sub></p>
+
+          <p class="sol-sub-heading">(b) Jumlah penumpang baris ke-9 dan ke-10</p>
+          <p class="sol-step">Total = (a<sub>1</sub>+a<sub>2</sub>+a<sub>3</sub>+a<sub>4</sub>) + (a<sub>5</sub>+a<sub>6</sub>+a<sub>7</sub>+a<sub>8</sub>) + a<sub>9</sub> + a<sub>10</sub> = 240</p>
+          <p class="sol-step">92 + 92 + a<sub>9</sub> + a<sub>10</sub> = 240</p>
+          <p class="sol-step">a<sub>9</sub> + a<sub>10</sub> = 240 − 184 = <strong>56 penumpang</strong></p>
+          <span class="answer-pill">Jawaban: (a) Terbukti a₁ = a₅ &nbsp;|&nbsp; (b) 56 penumpang</span>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- B4 -->
+  <div class="problem-card">
+    <div class="card-header orange">
+      <div class="num-circle orange">B4</div>
+      <div class="card-header-info">
+        <div class="topic">Sudut Poligon</div>
+        <div class="card-header-meta">
+          <span class="lang-badge id">🇮🇩 Bahasa Indonesia</span>
+          <span class="point-badge">10 Poin</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="problem-text">
+        Jumlah sudut dalam suatu poligon beraturan adalah <strong>1440°</strong>.
+      </p>
+      <div class="sub-questions">
+        <div class="sub-question"><span class="sq-label">(a)</span><span>Berapa banyak sisi poligon tersebut?</span></div>
+        <div class="sub-question"><span class="sq-label">(b)</span><span>Berapa besar setiap sudut dalamnya?</span></div>
+        <div class="sub-question"><span class="sq-label">(c)</span><span>Jika setiap sisi poligon tersebut diperpanjang, berapa besar sudut luar yang terbentuk di setiap titik sudut?</span></div>
+      </div>
+      <details>
+        <summary>💡 Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <p class="sol-sub-heading">(a) Banyak sisi</p>
+          <p class="sol-step">Rumus jumlah sudut dalam poligon n sisi = (n − 2) × 180°</p>
+          <p class="sol-step">(n − 2) × 180 = 1440 &nbsp;→&nbsp; n − 2 = 8 &nbsp;→&nbsp; <strong>n = 10</strong> (dekagon / segi sepuluh)</p>
+
+          <p class="sol-sub-heading">(b) Besar setiap sudut dalam</p>
+          <p class="sol-step">Setiap sudut dalam = 1440° ÷ 10 = <strong>144°</strong></p>
+
+          <p class="sol-sub-heading">(c) Besar sudut luar</p>
+          <p class="sol-step">Sudut luar = 180° − 144° = <strong>36°</strong></p>
+          <p class="sol-step indent">(Atau: jumlah semua sudut luar = 360°, setiap sudut luar = 360° ÷ 10 = 36°)</p>
+          <span class="answer-pill">Jawaban: (a) 10 sisi &nbsp;|&nbsp; (b) 144° &nbsp;|&nbsp; (c) 36°</span>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- B5 -->
+  <div class="problem-card">
+    <div class="card-header orange">
+      <div class="num-circle orange">B5</div>
+      <div class="card-header-info">
+        <div class="topic">Savings Problem</div>
+        <div class="card-header-meta">
+          <span class="lang-badge en">🇬🇧 English</span>
+          <span class="point-badge">12 Poin</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="problem-text">
+        Ahmad and Budi are saving money. Ahmad currently has <strong>Rp350.000</strong> and saves <strong>Rp40.000</strong> every week.
+        Budi currently has <strong>Rp650.000</strong> but spends <strong>Rp20.000</strong> every week.
+      </p>
+      <div class="sub-questions">
+        <div class="sub-question"><span class="sq-label">(a)</span><span>Write an expression for Ahmad's savings after n weeks.</span></div>
+        <div class="sub-question"><span class="sq-label">(b)</span><span>Write an expression for Budi's savings after n weeks.</span></div>
+        <div class="sub-question"><span class="sq-label">(c)</span><span>After how many weeks will Ahmad's savings exceed Budi's savings?</span></div>
+        <div class="sub-question"><span class="sq-label">(d)</span><span>How much will each of them have at that point?</span></div>
+      </div>
+      <details>
+        <summary>💡 View Solution</summary>
+        <div class="solution-body">
+          <p class="sol-sub-heading">(a) Ahmad's savings</p>
+          <p class="sol-step"><strong>Ahmad = 350.000 + 40.000n</strong></p>
+
+          <p class="sol-sub-heading">(b) Budi's savings</p>
+          <p class="sol-step"><strong>Budi = 650.000 − 20.000n</strong></p>
+
+          <p class="sol-sub-heading">(c) When Ahmad exceeds Budi</p>
+          <p class="sol-step">350.000 + 40.000n &gt; 650.000 − 20.000n</p>
+          <p class="sol-step">60.000n &gt; 300.000 &nbsp;→&nbsp; n &gt; 5</p>
+          <p class="sol-step">So after <strong>6 weeks</strong>, Ahmad's savings will exceed Budi's.</p>
+
+          <p class="sol-sub-heading">(d) Amounts at n = 6</p>
+          <p class="sol-step">Ahmad = 350.000 + 40.000 × 6 = 350.000 + 240.000 = <strong>Rp590.000</strong></p>
+          <p class="sol-step">Budi = 650.000 − 20.000 × 6 = 650.000 − 120.000 = <strong>Rp530.000</strong></p>
+          <span class="answer-pill">Answer: (c) After 6 weeks &nbsp;|&nbsp; (d) Ahmad: Rp590.000, Budi: Rp530.000</span>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- B6 -->
+  <div class="problem-card">
+    <div class="card-header orange">
+      <div class="num-circle orange">B6</div>
+      <div class="card-header-info">
+        <div class="topic">Tile Pattern</div>
+        <div class="card-header-meta">
+          <span class="lang-badge en">🇬🇧 English</span>
+          <span class="point-badge">12 Poin</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="problem-text">
+        Zara is making a square frame pattern using colored tiles.
+        Pattern 1 uses <strong>8 tiles</strong> (a 3×3 square frame with 1 empty center).
+        Pattern 2 uses <strong>16 tiles</strong> (a 5×5 square frame with 9 empty center).
+        Pattern 3 uses <strong>24 tiles</strong> (a 7×7 square frame with 25 empty center).
+      </p>
+      <div class="sub-questions">
+        <div class="sub-question"><span class="sq-label">(a)</span><span>How many tiles does Pattern n use?</span></div>
+        <div class="sub-question"><span class="sq-label">(b)</span><span>How many tiles does Pattern 10 use?</span></div>
+        <div class="sub-question"><span class="sq-label">(c)</span><span>Which pattern number uses exactly 48 tiles?</span></div>
+        <div class="sub-question"><span class="sq-label">(d)</span><span>Zara has 200 tiles. What is the largest pattern number she can make?</span></div>
+      </div>
+      <details>
+        <summary>💡 View Solution</summary>
+        <div class="solution-body">
+          <p class="sol-sub-heading">(a) Formula for Pattern n</p>
+          <p class="sol-step">Outer square side = (2n+1), total tiles = (2n+1)²</p>
+          <p class="sol-step">Inner empty square side = (2n−1), empty tiles = (2n−1)²</p>
+          <p class="sol-step">Tiles used = (2n+1)² − (2n−1)² = [(2n+1)+(2n−1)][(2n+1)−(2n−1)] = (4n)(2) = <strong>8n</strong></p>
+          <p class="sol-step indent">Check: n=1 → 8 ✓ &nbsp;|&nbsp; n=2 → 16 ✓ &nbsp;|&nbsp; n=3 → 24 ✓</p>
+
+          <p class="sol-sub-heading">(b) Pattern 10</p>
+          <p class="sol-step">8 × 10 = <strong>80 tiles</strong></p>
+
+          <p class="sol-sub-heading">(c) Pattern using 48 tiles</p>
+          <p class="sol-step">8n = 48 &nbsp;→&nbsp; n = <strong>6</strong> (Pattern 6)</p>
+
+          <p class="sol-sub-heading">(d) Largest pattern with 200 tiles</p>
+          <p class="sol-step">8n ≤ 200 &nbsp;→&nbsp; n ≤ 25</p>
+          <p class="sol-step">The largest pattern is <strong>Pattern 25</strong> (uses exactly 200 tiles).</p>
+          <span class="answer-pill">Answer: (a) 8n &nbsp;|&nbsp; (b) 80 tiles &nbsp;|&nbsp; (c) Pattern 6 &nbsp;|&nbsp; (d) Pattern 25</span>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  SCORING SUMMARY                                       -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <div class="scoring-box">
+    <h3>🏅 Ringkasan Penilaian</h3>
+    <table class="scoring-table">
+      <thead>
+        <tr>
+          <th>Bagian</th>
+          <th>Jumlah Soal</th>
+          <th>Poin per Soal</th>
+          <th>Total Poin</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>A. Isian Singkat</td>
+          <td>10 soal</td>
+          <td>4 poin</td>
+          <td><strong>40 poin</strong></td>
+        </tr>
+        <tr>
+          <td>B1. Pola Segitiga Korek Api</td>
+          <td>1 soal</td>
+          <td>—</td>
+          <td><strong>10 poin</strong></td>
+        </tr>
+        <tr>
+          <td>B2. Sistem Persamaan Cerita</td>
+          <td>1 soal</td>
+          <td>—</td>
+          <td><strong>12 poin</strong></td>
+        </tr>
+        <tr>
+          <td>B3. Logika Kursi Bus</td>
+          <td>1 soal</td>
+          <td>—</td>
+          <td><strong>12 poin</strong></td>
+        </tr>
+        <tr>
+          <td>B4. Sudut Poligon</td>
+          <td>1 soal</td>
+          <td>—</td>
+          <td><strong>10 poin</strong></td>
+        </tr>
+        <tr>
+          <td>B5. Savings Problem</td>
+          <td>1 soal</td>
+          <td>—</td>
+          <td><strong>12 poin</strong></td>
+        </tr>
+        <tr>
+          <td>B6. Tile Pattern</td>
+          <td>1 soal</td>
+          <td>—</td>
+          <td><strong>12 poin</strong></td>
+        </tr>
+        <tr class="total-row">
+          <td colspan="3">🏆 TOTAL NILAI MAKSIMUM</td>
+          <td><strong>108 poin</strong></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</main>
+
+<footer>
+  <p><strong>Soal Latihan Olimpiade Matematika SD</strong> &nbsp;·&nbsp; Tingkat KOSSMI &nbsp;·&nbsp; Kelas 4–5</p>
+  <p style="margin-top: 6px; opacity: 0.7;">Soal original untuk keperluan latihan &nbsp;·&nbsp; Semua hak cipta dilindungi</p>
+</footer>
+
+</body>
+</html>
