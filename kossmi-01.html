@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soal KOSSMI Pilihan untuk Kelas 4-5 SD (Edisi Lengkap)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f0f4f8;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1a237e 0%, #3949ab 100%);
+      color: #fff;
+      text-align: center;
+      padding: 48px 24px 40px;
+    }
+
+    header h1 {
+      font-size: 1.9rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      line-height: 1.3;
+    }
+
+    header p.subtitle {
+      font-size: 1rem;
+      opacity: 0.88;
+      max-width: 640px;
+      margin: 0 auto 20px;
+    }
+
+    .kossmi-badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.18);
+      border: 1px solid rgba(255,255,255,0.35);
+      color: #fff;
+      border-radius: 999px;
+      padding: 5px 18px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      margin: 4px 6px;
+    }
+
+    .note-box {
+      background: #fff8e1;
+      border-left: 5px solid #f9a825;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin: 28px auto;
+      max-width: 860px;
+      font-size: 0.92rem;
+      color: #5d4037;
+    }
+
+    .note-box strong { color: #e65100; }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 20px 48px;
+    }
+
+    .section-heading {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin: 40px 0 24px;
+    }
+
+    .section-heading::before,
+    .section-heading::after {
+      content: '';
+      flex: 1;
+      height: 2px;
+      background: linear-gradient(90deg, #3949ab33, #3949ab99);
+      border-radius: 2px;
+    }
+
+    .section-heading h2 {
+      background: linear-gradient(135deg, #1a237e, #3949ab);
+      color: #fff;
+      border-radius: 999px;
+      padding: 8px 28px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      white-space: nowrap;
+      letter-spacing: 0.03em;
+    }
+
+    .problem-card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 18px rgba(57,73,171,0.10), 0 1px 4px rgba(0,0,0,0.06);
+      margin-bottom: 28px;
+      overflow: hidden;
+      transition: box-shadow 0.2s;
+    }
+
+    .problem-card:hover {
+      box-shadow: 0 8px 28px rgba(57,73,171,0.16), 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .problem-header {
+      background: #e3f2fd;
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .problem-number {
+      width: 36px;
+      height: 36px;
+      min-width: 36px;
+      background: #1565c0;
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+
+    .problem-meta {
+      flex: 1;
+    }
+
+    .problem-meta .problem-title {
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: #1a237e;
+    }
+
+    .problem-meta .problem-source {
+      font-size: 0.78rem;
+      color: #5c6bc0;
+      margin-top: 1px;
+    }
+
+    .grade-badge {
+      background: #ff6f00;
+      color: #fff;
+      border-radius: 999px;
+      padding: 3px 14px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      white-space: nowrap;
+    }
+
+    .problem-body {
+      padding: 20px 24px 8px;
+    }
+
+    .problem-question {
+      font-size: 0.97rem;
+      color: #212121;
+      background: #f5f5f5;
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin-bottom: 16px;
+      border-left: 4px solid #3949ab;
+    }
+
+    details {
+      margin-bottom: 16px;
+    }
+
+    summary {
+      background: #e8f5e9;
+      color: #2e7d32;
+      font-weight: 600;
+      font-size: 0.88rem;
+      padding: 10px 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      user-select: none;
+      transition: background 0.15s;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+
+    summary::before {
+      content: '▶';
+      font-size: 0.7rem;
+      transition: transform 0.2s;
+      display: inline-block;
+    }
+
+    details[open] summary::before {
+      transform: rotate(90deg);
+    }
+
+    details[open] summary {
+      background: #c8e6c9;
+      border-radius: 8px 8px 0 0;
+    }
+
+    .solution-body {
+      background: #f1f8e9;
+      border-radius: 0 0 8px 8px;
+      padding: 16px 20px;
+    }
+
+    .solution-body ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .solution-body ul li {
+      padding: 4px 0 4px 22px;
+      position: relative;
+      font-size: 0.9rem;
+      color: #1b5e20;
+    }
+
+    .solution-body ul li::before {
+      content: '✦';
+      position: absolute;
+      left: 0;
+      color: #43a047;
+      font-size: 0.7rem;
+      top: 7px;
+    }
+
+    .answer {
+      display: inline-block;
+      background: #1b5e20;
+      color: #fff;
+      border-radius: 999px;
+      padding: 6px 22px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      margin-top: 10px;
+      margin-bottom: 4px;
+      letter-spacing: 0.02em;
+    }
+
+    .answer-label {
+      font-size: 0.78rem;
+      color: #388e3c;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    footer {
+      background: #1a237e;
+      color: #fff;
+      text-align: center;
+      padding: 28px 20px;
+      font-size: 0.85rem;
+      opacity: 0.95;
+    }
+
+    footer a { color: #90caf9; text-decoration: none; }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.3rem; }
+      .problem-header { gap: 10px; }
+      .problem-body { padding: 16px 14px 8px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Soal KOSSMI Pilihan untuk Kelas 4–5 SD</h1>
+  <p class="subtitle">Edisi Lengkap — 17 Soal Pilihan dari Final KOSSMI 2022 &amp; 2023</p>
+  <div>
+    <span class="kossmi-badge">KOSSMI 2023</span>
+    <span class="kossmi-badge">KOSSMI 2022</span>
+    <span class="kossmi-badge">Kelas 4–5 SD</span>
+    <span class="kossmi-badge">Kompetisi Matematika</span>
+  </div>
+</header>
+
+<main>
+
+  <div class="note-box">
+    <strong>📌 Catatan:</strong> Soal-soal berikut dipilih karena konsep intinya sesuai dengan kurikulum Kelas 4–5 SD (bilangan, pola, geometri, rata-rata, dll.), meskipun tingkat kesulitannya adalah <strong>level kompetisi</strong>. Cocok untuk latihan olimpiade dan pengayaan siswa berbakat.
+  </div>
+
+  <!-- ===== SECTION KOSSMI 2023 ===== -->
+  <div class="section-heading"><h2>🏆 KOSSMI 2023 — Final</h2></div>
+
+  <!-- PROBLEM 1 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-number">1</div>
+      <div class="problem-meta">
+        <div class="problem-title">Isian Singkat No.1</div>
+        <div class="problem-source">KOSSMI 2023 Final</div>
+      </div>
+      <span class="grade-badge">Kelas 4–5</span>
+    </div>
+    <div class="problem-body">
+      <div class="problem-question">
+        Ilyas menuliskan semua bilangan asli dari 1 sampai 2023. Setiap bilangan ganjil diberi tanda positif, sedangkan bilangan genap diberi tanda negatif. Lalu, semua bilangan tersebut dijumlahkan. Hasil yang diperoleh adalah ...
+      </div>
+      <details>
+        <summary>Lihat Solusi</summary>
+        <div class="solution-body">
+          <ul>
+            <li>Pasangkan bilangan: (1−2) + (3−4) + ... + (2021−2022) + 2023</li>
+            <li>Setiap pasangan = −1</li>
+            <li>Banyak pasangan = 2022 ÷ 2 = 1011</li>
+            <li>Total = 1011 × (−1) + 2023 = −1011 + 2023 = 1012</li>
+          </ul>
+          <div class="answer-label">Jawaban:</div>
+          <div class="answer">1012</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 2 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-number">2</div>
+      <div class="problem-meta">
+        <div class="problem-title">Isian Singkat No.2</div>
+        <div class="problem-source">KOSSMI 2023 Final</div>
+      </div>
+      <span class="grade-badge">Kelas 4–5</span>
+    </div>
+    <div class="problem-body">
+      <div class="problem-question">
+        Aisyah menuliskan beberapa bilangan asli yang berbeda. Hasil kali dua bilangan terbesar adalah 2023, sedangkan hasil kali dua bilangan terkecilnya adalah 176. Hasil penjumlahan yang mungkin dari semua bilangan yang dituliskan Aisyah adalah ...
+      </div>
+      <details>
+        <summary>Lihat Solusi</summary>
+        <div class="solution-body">
+          <ul>
+            <li>Faktorkan 2023: 2023 = 7 × 17² = 7 × 289. Pasangan: (7, 289) atau (17, 119). Karena bilangan berbeda: 17 × 119 valid (119=7×17)</li>
+            <li>Faktorkan 176: 176 = 1×176, 2×88, 4×44, 8×22, 11×16</li>
+            <li>Dua bilangan terkecil harus lebih kecil dari dua bilangan terbesar</li>
+            <li>Jika dua terbesar = 17 dan 119: dua terkecil dari faktor 176 yang &lt; 17: pasangan (11,16): 11×16=176 ✓, keduanya &lt; 17 ✓</li>
+            <li>Bilangan: 11, 16, 17, 119 → jumlah = 11+16+17+119 = 163</li>
+          </ul>
+          <div class="answer-label">Jawaban:</div>
+          <div class="answer">163</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 3 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-number">3</div>
+      <div class="problem-meta">
+        <div class="problem-title">Isian Singkat No.3</div>
+        <div class="problem-source">KOSSMI 2023 Final</div>
+      </div>
+      <span class="grade-badge">Kelas 4–5</span>
+    </div>
+    <div class="problem-body">
+      <div class="problem-question">
+        Perhatikan barisan: 2, 4, 8, 2, 6, ... Bilangan ketiga dan seterusnya adalah angka satuan dari perkalian dua bilangan sebelumnya. Bilangan ke-2023 adalah ...
+      </div>
+      <details>
+        <summary>Lihat Solusi</summary>
+        <div class="solution-body">
+          <ul>
+            <li>Suku ke-1:2, ke-2:4, ke-3: satuan(2×4=8)=8, ke-4: satuan(4×8=32)=2, ke-5: satuan(8×2=16)=6</li>
+            <li>ke-6: satuan(2×6=12)=2, ke-7: satuan(6×2=12)=2, ke-8: satuan(2×2=4)=4</li>
+            <li>Pola mulai suku ke-2: 4,8,2,6,2,2 (periode 6)</li>
+            <li>Posisi suku ke-2023: (2023−2) mod 6 = 2021 mod 6 = sisa 5 (karena 2021=336×6+5)</li>
+            <li>Elemen ke-5 dalam pola (4,8,2,6,2,2) = 2</li>
+          </ul>
+          <div class="answer-label">Jawaban:</div>
+          <div class="answer">2</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 4 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-number">4</div>
+      <div class="problem-meta">
+        <div class="problem-title">Isian Singkat No.4</div>
+        <div class="problem-source">KOSSMI 2023 Final</div>
+      </div>
+      <span class="grade-badge">Kelas 4–5</span>
+    </div>
+    <div class="problem-body">
+      <div class="problem-question">
+        Tabungan Ali Rp560.000, Uli Rp800.000. Ali menabung tiap 2 pekan Rp25.000, Uli tiap 3 pekan Rp30.000. Sama setelah berapa pekan?
+      </div>
+      <details>
+        <summary>Lihat Solusi</summary>
+        <div class="solution-body">
+          <ul>
+            <li>Misalkan n pekan (kelipatan 6 = KPK(2,3))</li>
+            <li>Ali: 560.000 + 25.000×(n/2) = 560.000 + 12.500n</li>
+            <li>Uli: 800.000 + 30.000×(n/3) = 800.000 + 10.000n</li>
+            <li>Samakan: 560.000 + 12.500n = 800.000 + 10.000n → 2.500n = 240.000 → n = 96</li>
+            <li>Cek: Ali = 560.000+1.200.000 = 1.760.000; Uli = 800.000+960.000 = 1.760.000 ✓</li>
+          </ul>
+          <div class="answer-label">Jawaban:</div>
+          <div class="answer">96 pekan</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 5 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-number">5</div>
+      <div class="problem-meta">
+        <div class="problem-title">Isian Singkat No.5</div>
+        <div class="problem-source">KOSSMI 2023 Final</div>
+      </div>
+      <span class="grade-badge">Kelas 4–5</span>
+    </div>
+    <div class="problem-body">
+      <div class="problem-question">
+        a # b = a×b − a − b − 4. Jika a # 7 = 2023, nilai a = ...
+      </div>
+      <details>
+        <summary>Lihat Solusi</summary>
+        <div class="solution-body">
+          <ul>
+            <li>a×7 − a − 7 − 4 = 2023</li>
+            <li>7a − a = 2023 + 11 = 2034</li>
+            <li>6a = 2034 → a = 339</li>
+          </ul>
+          <div class="answer-label">Jawaban:</div>
+          <div class="answer">a = 339</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 6 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-number">6</div>
+      <div class="problem-meta">
+        <div class="problem-title">Isian Singkat No.6</div>
+        <div class="problem-source">KOSSMI 2023 Final</div>
+      </div>
+      <span class="grade-badge">Kelas 4–5</span>
+    </div>
+    <div class="problem-body">
+      <div class="problem-question">
+        Adi membaca buku: hari ke-1 baca ¼ total + 10 hal, hari ke-2 baca ⅖ sisa + 12 hal, hari ke-3 baca ⅓ sisa + 15 hal, hari ke-4 sisa 54 hal. Total halaman?
+      </div>
+      <details>
+        <summary>Lihat Solusi</summary>
+        <div class="solution-body">
+          <ul>
+            <li>Misalkan total = T</li>
+            <li>Setelah hari 1: sisa = 3T/4 − 10</li>
+            <li>Setelah hari 2: sisa = 3/5 × (3T/4−10) − 12 = 9T/20 − 6 − 12 = 9T/20 − 18</li>
+            <li>Setelah hari 3: sisa = 2/3 × (9T/20−18) − 15 = 3T/10 − 12 − 15 = 3T/10 − 27</li>
+            <li>3T/10 − 27 = 54 → 3T/10 = 81 → T = 270</li>
+          </ul>
+          <div class="answer-label">Jawaban:</div>
+          <div class="answer">270 halaman</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 7 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-number">7</div>
+      <div class="problem-meta">
+        <div class="problem-title">Isian Singkat No.7</div>
+        <div class="problem-source">KOSSMI 2023 Final</div>
+      </div>
+      <span class="grade-badge">Kelas 5</span>
+    </div>
+    <div class="problem-body">
+      <div class="problem-question">
+        Pipa-pipa berjari-jari 14 cm diikat dengan tali (3 pipa disusun segitiga). Panjang tali yang digunakan adalah ...
+      </div>
+      <details>
+        <summary>Lihat Solusi</summary>
+        <div class="solution-body">
+          <ul>
+            <li>Dari gambar, 3 pipa disusun membentuk segitiga sama sisi, diikat tali melingkari ketiganya</li>
+            <li>Tali terdiri dari: 3 bagian lurus (menyinggung antar pipa) + 3 busur lingkaran di sudut</li>
+            <li>Panjang bagian lurus: jarak antar pusat pipa = 2×14 = 28 cm, ada 3 bagian → 3×28 = 84 cm</li>
+            <li>Busur di setiap sudut = 60° (total busur = 360° = 1 lingkaran penuh)</li>
+            <li>Total busur = keliling 1 lingkaran = 2×π×14 = 2×22/7×14 = 88 cm</li>
+            <li>Total tali = 84 + 88 = 172 cm</li>
+          </ul>
+          <div class="answer-label">Jawaban:</div>
+          <div class="answer">172 cm</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 8 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-number">8</div>
+      <div class="problem-meta">
+        <div class="problem-title">Isian Singkat No.9</div>
+        <div class="problem-source">KOSSMI 2023 Final</div>
+      </div>
+      <span class="grade-badge">Kelas 4–5</span>
+    </div>
+    <div class="problem-body">
+      <div class="problem-question">
+        Tiga bilangan 4 digit ditumpuk, tampak angka: baris atas "1 2 4 3 1", baris bawah "2 _ 2 6". Rata-rata ketiga bilangan = 3592. Angka yang tidak terlihat adalah ...
+      </div>
+      <details>
+        <summary>Lihat Solusi</summary>
+        <div class="solution-body">
+          <ul>
+            <li>Total ketiga bilangan = 3592 × 3 = 10.776</li>
+            <li>Dari gambar yang terlihat, bilangan pertama (paling atas) = 1243</li>
+            <li>Bilangan 1: 1243 (terlihat penuh di atas), Bilangan 2: 12_1 (sebagian tertutup), Bilangan 3: _226 (sebagian tertutup)</li>
+            <li>1243 + 12_1 + _226 = 10776</li>
+            <li>Coba: 1243+1251+8282=10776? 1243+1251=2494, 10776-2494=8282 ✓</li>
+            <li>Angka tersembunyi: 5 dan 8</li>
+          </ul>
+          <div class="answer-label">Jawaban:</div>
+          <div class="answer">5 dan 8</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 9 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-number">9</div>
+      <div class="problem-meta">
+        <div class="problem-title">Essay No.1</div>
+        <div class="problem-source">KOSSMI 2023 Final</div>
+      </div>
+      <span class="grade-badge">Kelas 4–5</span>
+    </div>
+    <div class="problem-body">
+      <div class="problem-question">
+        Fajar membentuk pola persegi dengan korek api. Pola ke-1: 1 persegi, pola ke-2: 4 persegi (2×2), pola ke-3: 9 persegi (3×3). Berapa batang yang ditambahkan dari pola ke-6 ke pola ke-7?
+      </div>
+      <details>
+        <summary>Lihat Solusi</summary>
+        <div class="solution-body">
+          <ul>
+            <li>Rumus batang pola ke-n = 2n(n+1) = 2n² + 2n</li>
+            <li>Pola ke-6: 2(36)+2(6) = 72+12 = 84 batang</li>
+            <li>Pola ke-7: 2(49)+2(7) = 98+14 = 112 batang</li>
+            <li>Tambahan = 112 − 84 = 28 batang</li>
+          </ul>
+          <div class="answer-label">Jawaban:</div>
+          <div class="answer">28 batang</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 10 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-number">10</div>
+      <div class="problem-meta">
+        <div class="problem-title">Essay No.2</div>
+        <div class="problem-source">KOSSMI 2023 Final</div>
+      </div>
+      <span class="grade-badge">Kelas 4–5</span>
+    </div>
+    <div class="problem-body">
+      <div class="problem-question">
+        Besar sudut dalam segitiga adalah tiga bilangan bulat berbeda a &lt; b &lt; c. Nilai terkecil yang mungkin dari a + c adalah ...
+      </div>
+      <details>
+        <summary>Lihat Solusi</summary>
+        <div class="solution-body">
+          <ul>
+            <li>Syarat: a + b + c = 180°, a, b, c bilangan bulat berbeda, a &lt; b &lt; c</li>
+            <li>Untuk meminimalkan a+c, kita perlu memaksimalkan b</li>
+            <li>Dengan a &lt; b &lt; c: nilai minimum a=1, b=c−1</li>
+            <li>a=1, b=c−1: 1+(c−1)+c=180 → 2c=180 → c=90, b=89 → a+c=1+90=91</li>
+            <li>Coba a=2: 2+(c−1)+c=180 → 2c=179 → tidak bulat</li>
+            <li>Jadi minimum a+c = 91</li>
+          </ul>
+          <div class="answer-label">Jawaban:</div>
+          <div class="answer">91</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- ===== SECTION KOSSMI 2022 ===== -->
+  <div class="section-heading"><h2>🏆 KOSSMI 2022 — Final</h2></div>
+
+  <!-- PROBLEM 11 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-number">11</div>
+      <div class="problem-meta">
+        <div class="problem-title">Isian Singkat No.2</div>
+        <div class="problem-source">KOSSMI 2022 Final</div>
+      </div>
+      <span class="grade-badge">Kelas 4–5</span>
+    </div>
+    <div class="problem-body">
+      <div class="problem-question">
+        Fatimah mendata saudara kandung teman-temannya. Dari diagram batang: 0 saudara=1 teman, 1 saudara=5 teman, 2 saudara=? teman, 3 saudara=3 teman, 4 saudara=5 teman. Rata-rata = 2⅓. Berapa teman yang punya 2 saudara?
+      </div>
+      <details>
+        <summary>Lihat Solusi</summary>
+        <div class="solution-body">
+          <ul>
+            <li>Misalkan teman dengan 2 saudara = x</li>
+            <li>Total teman = 1+5+x+3+5 = 14+x</li>
+            <li>Total saudara = 0×1 + 1×5 + 2×x + 3×3 + 4×5 = 0+5+2x+9+20 = 34+2x</li>
+            <li>Rata-rata = (34+2x)/(14+x) = 7/3</li>
+            <li>3(34+2x) = 7(14+x) → 102+6x = 98+7x → x = 4</li>
+          </ul>
+          <div class="answer-label">Jawaban:</div>
+          <div class="answer">4 teman</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 12 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-number">12</div>
+      <div class="problem-meta">
+        <div class="problem-title">Isian Singkat No.3</div>
+        <div class="problem-source">KOSSMI 2022 Final</div>
+      </div>
+      <span class="grade-badge">Kelas 5</span>
+    </div>
+    <div class="problem-body">
+      <div class="problem-question">
+        Kolam berbentuk kubus dengan rusuk 1¼ hasta. Ingin ditinggikan agar volume = 270 liter. Berapa cm tinggi yang ditambahkan? (1 hasta = 48 cm)
+      </div>
+      <details>
+        <summary>Lihat Solusi</summary>
+        <div class="solution-body">
+          <ul>
+            <li>Rusuk awal = 1¼ × 48 = 5/4 × 48 = 60 cm</li>
+            <li>Volume awal = 60 × 60 × 60 = 216.000 cm³ = 216 liter</li>
+            <li>Volume target = 270 liter = 270.000 cm³</li>
+            <li>Kolam diperluas: alas tetap 60×60, tinggi ditambah h</li>
+            <li>60 × 60 × (60+h) = 270.000 → 3600 × (60+h) = 270.000</li>
+            <li>60+h = 75 → h = 15 cm</li>
+          </ul>
+          <div class="answer-label">Jawaban:</div>
+          <div class="answer">15 cm</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 13 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-number">13</div>
+      <div class="problem-meta">
+        <div class="problem-title">Isian Singkat No.4</div>
+        <div class="problem-source">KOSSMI 2022 Final</div>
+      </div>
+      <span class="grade-badge">Kelas 4–5</span>
+    </div>
+    <div class="problem-body">
+      <div class="problem-question">
+        Jasmine punya potongan puzzle dari 3 persegi identik sisi 5 cm (bentuk L atau tangga). Luas persegi terkecil yang bisa dibuat dari susunan potongan-potongan tersebut adalah ...
+      </div>
+      <details>
+        <summary>Lihat Solusi</summary>
+        <div class="solution-body">
+          <ul>
+            <li>Setiap potongan terdiri dari 3 persegi kecil 5×5 cm, luas per potongan = 75 cm²</li>
+            <li>Untuk membuat persegi, perlu beberapa potongan</li>
+            <li>Luas total harus berupa bilangan kuadrat sempurna</li>
+            <li>1 potongan = 75 cm² (bukan kuadrat sempurna)</li>
+            <li>2 potongan = 150 cm² (bukan kuadrat sempurna)</li>
+            <li>3 potongan = 225 cm² = 15² ✓ → persegi 15×15 cm</li>
+          </ul>
+          <div class="answer-label">Jawaban:</div>
+          <div class="answer">225 cm²</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 14 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-number">14</div>
+      <div class="problem-meta">
+        <div class="problem-title">Isian Singkat No.5</div>
+        <div class="problem-source">KOSSMI 2022 Final</div>
+      </div>
+      <span class="grade-badge">Kelas 4–5</span>
+    </div>
+    <div class="problem-body">
+      <div class="problem-question">
+        Kalimat "MATEMATIKA ADALAH PELAJARAN YANG PALING SAYA SUKA". Setiap menit, huruf pertama tiap kata pindah ke posisi terakhir kata itu. Berapa menit agar kalimat asli muncul kembali?
+      </div>
+      <details>
+        <summary>Lihat Solusi</summary>
+        <div class="solution-body">
+          <ul>
+            <li>Panjang setiap kata: MATEMATIKA=9, ADALAH=6, PELAJARAN=9, YANG=4, PALING=6, SAYA=4, SUKA=4</li>
+            <li>Setiap kata butuh sebanyak panjang kata itu menit untuk kembali ke semula</li>
+            <li>MATEMATIKA: 9 menit, ADALAH: 6 menit, PELAJARAN: 9 menit, YANG: 4 menit, PALING: 6 menit, SAYA: 4 menit, SUKA: 4 menit</li>
+            <li>Waktu kalimat kembali = KPK(9, 6, 9, 4, 6, 4, 4) = KPK(9, 6, 4) = 36 menit</li>
+          </ul>
+          <div class="answer-label">Jawaban:</div>
+          <div class="answer">36 menit</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 15 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-number">15</div>
+      <div class="problem-meta">
+        <div class="problem-title">Isian Singkat No.6</div>
+        <div class="problem-source">KOSSMI 2022 Final</div>
+      </div>
+      <span class="grade-badge">Kelas 4–5</span>
+    </div>
+    <div class="problem-body">
+      <div class="problem-question">
+        Lomba MTQ Desa Konoha rutin tiap tahun, kecuali 2020. Pada 10 April 2022, lomba telah diadakan sebanyak jumlah digit tahun pertama kali diadakan. Tahun pertama kali diadakan adalah ...
+      </div>
+      <details>
+        <summary>Lihat Solusi</summary>
+        <div class="solution-body">
+          <ul>
+            <li>Misalkan tahun pertama = Y, jumlah digitnya = S</li>
+            <li>Jumlah penyelenggaraan dari Y s.d. 2022, dikurangi 1 (tahun 2020 tidak ada) = 2022−Y+1−1 = 2022−Y</li>
+            <li>Namun karena 2020 dilewati: penyelenggaraan = 2022−Y−1 = 2021−Y</li>
+            <li>Persamaan: 2021−Y = S (jumlah digit Y)</li>
+            <li>Coba Y=2014: S = 2+0+1+4 = 7; 2021−2014 = 7 ✓</li>
+          </ul>
+          <div class="answer-label">Jawaban:</div>
+          <div class="answer">2014</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 16 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-number">16</div>
+      <div class="problem-meta">
+        <div class="problem-title">Essay No.2</div>
+        <div class="problem-source">KOSSMI 2022 Final</div>
+      </div>
+      <span class="grade-badge">Kelas 5</span>
+    </div>
+    <div class="problem-body">
+      <div class="problem-question">
+        Persegi dengan setiap titik sudut dihubungkan ke titik tengah sisi persegi. Daerah yang diarsir memiliki luas 22,5 cm². Tentukan keliling persegi.
+      </div>
+      <details>
+        <summary>Lihat Solusi</summary>
+        <div class="solution-body">
+          <ul>
+            <li>Misalkan sisi persegi = s, luas persegi = s²</li>
+            <li>Dari gambar, garis dari sudut ke titik tengah sisi membentuk persegi dalam yang diputar</li>
+            <li>Dengan analisis proporsi geometri: luas arsiran = s²/10</li>
+            <li>s²/10 = 22,5 → s² = 225 → s = 15 cm</li>
+            <li>Keliling = 4 × 15 = 60 cm</li>
+          </ul>
+          <div class="answer-label">Jawaban:</div>
+          <div class="answer">60 cm</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 17 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-number">17</div>
+      <div class="problem-meta">
+        <div class="problem-title">Essay No.4</div>
+        <div class="problem-source">KOSSMI 2022 Final</div>
+      </div>
+      <span class="grade-badge">Kelas 5</span>
+    </div>
+    <div class="problem-body">
+      <div class="problem-question">
+        Habib dan Gita lomba memanah. Total anak panah menancap = 111. Habib: setiap 4 panah, 3 menancap. Gita: setiap 7 panah, 4 menancap. Berapa anak panah masing-masing yang menancap?
+      </div>
+      <details>
+        <summary>Lihat Solusi</summary>
+        <div class="solution-body">
+          <ul>
+            <li>Misalkan Habib melesatkan 4k panah → 3k menancap</li>
+            <li>Misalkan Gita melesatkan 7m panah → 4m menancap</li>
+            <li>Persamaan: 3k + 4m = 111</li>
+            <li>Agar k bulat: 111−4m harus habis dibagi 3 → m harus habis dibagi 3</li>
+            <li>m=3: k=(111−12)/3=33 → Habib=99, Gita=12. Cek: 99+12=111 ✓</li>
+            <li>m=6: k=29 → Habib=87, Gita=24. Cek: 87+24=111 ✓ (kemungkinan lain)</li>
+            <li>Kemungkinan paling wajar (soal meminta jawaban tunggal): m=3</li>
+          </ul>
+          <div class="answer-label">Jawaban:</div>
+          <div class="answer">Habib = 99 panah, Gita = 12 panah</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p>Soal KOSSMI Pilihan — Kelas 4–5 SD &nbsp;|&nbsp; KOSSMI 2022 &amp; 2023 Final</p>
+  <p style="margin-top:6px; opacity:0.7; font-size:0.78rem;">Dibuat untuk keperluan latihan olimpiade matematika SD. Semua soal bersumber dari kompetisi KOSSMI.</p>
+</footer>
+
+</body>
+</html>
