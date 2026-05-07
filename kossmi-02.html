@@ -1,0 +1,763 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soal KOSSMI Lanjutan — Kelas 6 / SMP</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f0f4ff;
+      color: #1a1a2e;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: linear-gradient(135deg, #1a237e 0%, #3949ab 100%);
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.5px; }
+    header p  { margin-top: 8px; font-size: 1rem; opacity: .85; }
+    .header-badges {
+      display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;
+      margin-top: 16px;
+    }
+    .header-badge {
+      background: rgba(255,255,255,.18);
+      border: 1px solid rgba(255,255,255,.35);
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: .8rem;
+      font-weight: 500;
+    }
+
+    /* ── MAIN CONTAINER ── */
+    main { max-width: 900px; margin: 0 auto; padding: 32px 16px 48px; }
+
+    /* ── NOTE BOX ── */
+    .note-box {
+      background: #fce4ec;
+      border: 2px solid #e91e63;
+      border-radius: 12px;
+      padding: 18px 22px;
+      margin-bottom: 36px;
+    }
+    .note-box h3 { color: #880e4f; font-size: 1rem; margin-bottom: 6px; }
+    .note-box p  { color: #4a0030; font-size: .88rem; line-height: 1.6; }
+    .note-box ul { color: #4a0030; font-size: .88rem; line-height: 1.8; padding-left: 20px; margin-top: 6px; }
+
+    /* ── SECTION HEADING ── */
+    .section-heading {
+      display: flex; align-items: center; gap: 14px;
+      margin: 40px 0 20px;
+    }
+    .section-heading h2 {
+      font-size: 1.15rem; font-weight: 700;
+      color: #1a237e; white-space: nowrap;
+    }
+    .section-heading::before,
+    .section-heading::after {
+      content: ''; flex: 1; height: 2px;
+      background: linear-gradient(90deg, #3949ab, #90caf9);
+      border-radius: 2px;
+    }
+    .section-heading::before { background: linear-gradient(90deg, #90caf9, #3949ab); }
+
+    /* ── PROBLEM CARD ── */
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(57,73,171,.10);
+      margin-bottom: 24px;
+      overflow: hidden;
+    }
+
+    /* card header bar */
+    .card-header {
+      background: #e3f2fd;
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .num-circle {
+      width: 38px; height: 38px; border-radius: 50%;
+      background: #1565c0; color: #fff;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: 1rem; flex-shrink: 0;
+    }
+    .card-meta { flex: 1; min-width: 0; }
+    .card-meta .title { font-weight: 600; font-size: 1rem; color: #0d47a1; }
+    .card-meta .source { font-size: .78rem; color: #5c6bc0; margin-top: 2px; }
+    .grade-badge {
+      background: #c62828; color: #fff;
+      border-radius: 20px; padding: 4px 14px;
+      font-size: .75rem; font-weight: 600;
+      white-space: nowrap; flex-shrink: 0;
+    }
+
+    /* card body */
+    .card-body { padding: 20px 22px; }
+    .question-label {
+      font-size: .75rem; font-weight: 600; color: #5c6bc0;
+      text-transform: uppercase; letter-spacing: .6px;
+      margin-bottom: 8px;
+    }
+    .question-text {
+      font-size: .95rem; line-height: 1.75;
+      color: #1a1a2e;
+    }
+    .question-text .math-inline {
+      font-style: italic; font-weight: 500;
+    }
+
+    /* fraction display */
+    .frac {
+      display: inline-flex; flex-direction: column;
+      align-items: center; vertical-align: middle;
+      font-size: .85em; line-height: 1.1;
+      margin: 0 2px;
+    }
+    .frac span { display: block; text-align: center; }
+    .frac .num { border-bottom: 1.5px solid currentColor; padding-bottom: 1px; }
+
+    /* ── SOLUTION DETAILS ── */
+    details { margin-top: 16px; }
+    summary {
+      background: #fce4ec;
+      color: #880e4f;
+      padding: 10px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: .9rem;
+      list-style: none;
+      display: flex; align-items: center; gap: 8px;
+      user-select: none;
+    }
+    summary::-webkit-details-marker { display: none; }
+    summary::before {
+      content: '▶';
+      font-size: .7rem;
+      transition: transform .2s;
+    }
+    details[open] summary::before { transform: rotate(90deg); }
+
+    .solution-body {
+      background: #fdf2f8;
+      border-radius: 0 0 8px 8px;
+      padding: 18px 20px;
+    }
+    .solution-body ol {
+      padding-left: 20px;
+      color: #4a0030;
+      font-size: .9rem;
+      line-height: 1.9;
+    }
+    .solution-body ul {
+      padding-left: 20px;
+      color: #4a0030;
+      font-size: .9rem;
+      line-height: 1.9;
+      list-style: disc;
+    }
+    .solution-body li { margin-bottom: 2px; }
+    .solution-body .sub-list {
+      padding-left: 18px;
+      list-style: circle;
+      margin-top: 2px;
+    }
+
+    .answer-pill {
+      display: inline-block;
+      background: #880e4f; color: #fff;
+      border-radius: 20px; padding: 6px 20px;
+      font-weight: 700; font-size: .9rem;
+      margin-top: 14px;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: #1a237e; color: rgba(255,255,255,.75);
+      text-align: center; padding: 20px 16px;
+      font-size: .82rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Soal KOSSMI Lanjutan</h1>
+  <p>Soal-soal Tingkat Lanjut — KOSSMI 2023 &amp; 2022 (Final)</p>
+  <div class="header-badges">
+    <span class="header-badge">Kelas 6 / SMP</span>
+    <span class="header-badge">KOSSMI 2023 — 5 Soal</span>
+    <span class="header-badge">KOSSMI 2022 — 7 Soal</span>
+    <span class="header-badge">Total 12 Soal</span>
+  </div>
+</header>
+
+<main>
+
+  <!-- NOTE BOX -->
+  <div class="note-box">
+    <h3>&#9888;&#65039; Catatan: Soal Tingkat Lanjut</h3>
+    <p>Soal-soal berikut memerlukan konsep matematika di atas kelas 5, antara lain:</p>
+    <ul>
+      <li>Kesebangunan segitiga (Similar Triangles)</li>
+      <li>Geometri lingkaran lanjutan (inscribed circles, tangent circles)</li>
+      <li>Kombinatorika (Kombinasi &amp; Permutasi)</li>
+      <li>Teori Bilangan (Perfect Square, Faktor)</li>
+      <li>Statistika (Median, Rata-rata)</li>
+      <li>Deret dan Barisan Aritmetika</li>
+      <li>Aljabar lanjutan (persamaan kuadrat, rasio)</li>
+    </ul>
+  </div>
+
+  <!-- ════════════════════════════════════════
+       SECTION: KOSSMI 2023
+  ════════════════════════════════════════ -->
+  <div class="section-heading">
+    <h2>&#127942; KOSSMI 2023 — Final</h2>
+  </div>
+
+  <!-- PROBLEM 1 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="num-circle">1</div>
+      <div class="card-meta">
+        <div class="title">Segitiga Sebangun</div>
+        <div class="source">Isian Singkat No. 8 &mdash; KOSSMI 2023</div>
+      </div>
+      <span class="grade-badge">Kelas 6 / SMP</span>
+    </div>
+    <div class="card-body">
+      <div class="question-label">Soal</div>
+      <div class="question-text">
+        Pada segitiga ABC, titik D dan E berturut-turut berada pada AB dan AC, sehingga garis DE sejajar BC.
+        Jika panjang DE = 2, BC = 6, AE = <em>x</em> dan EC = <span class="math-inline">(x + 4)/3</span>.
+        Panjang <em>x</em> yang memenuhi adalah &hellip;
+      </div>
+
+      <details>
+        <summary>&#128161; Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <ol>
+            <li>Karena DE &#8741; BC, maka segitiga ADE sebangun dengan segitiga ABC.</li>
+            <li>Perbandingan sisi yang bersesuaian: DE/BC = AE/AC.</li>
+            <li>DE/BC = 2/6 = <strong>1/3</strong>.</li>
+            <li>AC = AE + EC = x + (x+4)/3 = (3x + x + 4)/3 = <strong>(4x + 4)/3</strong>.</li>
+            <li>AE/AC = x &divide; (4x+4)/3 = 3x/(4x+4).</li>
+            <li>Persamaan: 3x/(4x+4) = 1/3 &nbsp;&rArr;&nbsp; 9x = 4x + 4 &nbsp;&rArr;&nbsp; 5x = 4.</li>
+            <li>x = <strong>4/5</strong>.</li>
+          </ol>
+          <div class="answer-pill">Jawaban: x = 4/5</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 2 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="num-circle">2</div>
+      <div class="card-meta">
+        <div class="title">Enam Lingkaran Kecil dalam Lingkaran Besar</div>
+        <div class="source">Isian Singkat No. 10 &mdash; KOSSMI 2023</div>
+      </div>
+      <span class="grade-badge">Kelas 6 / SMP</span>
+    </div>
+    <div class="card-body">
+      <div class="question-label">Soal</div>
+      <div class="question-text">
+        Lingkaran terbesar berjari-jari R = 18 cm. Enam lingkaran kecil berukuran sama, masing-masing
+        bersinggungan dengan dua lingkaran kecil lainnya dan juga dengan lingkaran besar.
+        Jari-jari lingkaran kecil adalah &hellip;
+      </div>
+
+      <details>
+        <summary>&#128161; Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <ol>
+            <li>Misalkan jari-jari lingkaran kecil = <em>r</em>.</li>
+            <li>Pusat 6 lingkaran kecil membentuk <strong>segi enam beraturan</strong>.</li>
+            <li>Karena setiap dua lingkaran kecil yang bersebelahan saling bersinggungan, jarak antar pusatnya = 2r.</li>
+            <li>Pada segi enam beraturan, panjang sisi = jarak dari pusat ke titik sudut = 2r.</li>
+            <li>Jarak dari pusat lingkaran besar ke pusat lingkaran kecil = R &minus; r = 18 &minus; r.</li>
+            <li>Karena jarak ini sama dengan sisi segi enam: 18 &minus; r = 2r &nbsp;&rArr;&nbsp; 18 = 3r.</li>
+            <li>r = <strong>6 cm</strong>.</li>
+          </ol>
+          <div class="answer-pill">Jawaban: r = 6 cm</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 3 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="num-circle">3</div>
+      <div class="card-meta">
+        <div class="title">Persegi dalam Persegi &mdash; Rasio p/q</div>
+        <div class="source">Essay No. 3 (18 Poin) &mdash; KOSSMI 2023</div>
+      </div>
+      <span class="grade-badge">Kelas 6 / SMP</span>
+    </div>
+    <div class="card-body">
+      <div class="question-label">Soal</div>
+      <div class="question-text">
+        Sebuah persegi berada di dalam persegi yang lain, sedemikian hingga setiap titik sudutnya membagi
+        sisi persegi luar dengan panjang <em>p</em> dan <em>q</em> (p &gt; q).
+        Jika luas persegi dalam = <sup>4</sup>&frasl;<sub>5</sub> &times; luas persegi luar,
+        maka nilai p/q = &hellip;
+      </div>
+
+      <details>
+        <summary>&#128161; Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <ol>
+            <li>Misalkan sisi persegi luar = p + q, sehingga luas persegi luar = (p+q)&sup2;.</li>
+            <li>Sisi persegi dalam (Pythagoras): &radic;(p&sup2; + q&sup2;), sehingga luas persegi dalam = p&sup2; + q&sup2;.</li>
+            <li>Persamaan: p&sup2; + q&sup2; = (4/5)(p+q)&sup2;.</li>
+            <li>Kalikan kedua ruas dengan 5: 5p&sup2; + 5q&sup2; = 4(p&sup2; + 2pq + q&sup2;).</li>
+            <li>5p&sup2; + 5q&sup2; = 4p&sup2; + 8pq + 4q&sup2; &nbsp;&rArr;&nbsp; p&sup2; &minus; 8pq + q&sup2; = 0.</li>
+            <li>Bagi dengan q&sup2;: (p/q)&sup2; &minus; 8(p/q) + 1 = 0.</li>
+            <li>Misalkan t = p/q: t&sup2; &minus; 8t + 1 = 0 &nbsp;&rArr;&nbsp; t = (8 &plusmn; &radic;60) / 2 = 4 &plusmn; &radic;15.</li>
+            <li>Karena p &gt; q maka t &gt; 1, sehingga t = <strong>4 + &radic;15</strong>.</li>
+          </ol>
+          <div class="answer-pill">Jawaban: p/q = 4 + &radic;15</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 4 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="num-circle">4</div>
+      <div class="card-meta">
+        <div class="title">Penumpang Gerbong Kereta</div>
+        <div class="source">Essay No. 4 (18 Poin) &mdash; KOSSMI 2023</div>
+      </div>
+      <span class="grade-badge">Kelas 6 / SMP</span>
+    </div>
+    <div class="card-body">
+      <div class="question-label">Soal</div>
+      <div class="question-text">
+        Suatu kereta terdiri dari 12 gerbong. Terdapat 800 penumpang. Total penumpang di setiap
+        lima gerbong yang bersebelahan adalah 325 penumpang. Banyak penumpang di dua gerbong
+        di tengah kereta adalah &hellip;
+      </div>
+
+      <details>
+        <summary>&#128161; Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <ol>
+            <li>Misalkan gerbong ke-<em>i</em> memiliki a<sub>i</sub> penumpang.</li>
+            <li>Kondisi: setiap 5 gerbong bersebelahan berjumlah 325.
+              <ul class="sub-list">
+                <li>a<sub>1</sub>+a<sub>2</sub>+a<sub>3</sub>+a<sub>4</sub>+a<sub>5</sub> = 325 &hellip; (i)</li>
+                <li>a<sub>2</sub>+a<sub>3</sub>+a<sub>4</sub>+a<sub>5</sub>+a<sub>6</sub> = 325 &hellip; (ii)</li>
+              </ul>
+            </li>
+            <li>Dari (i) &minus; (ii): a<sub>1</sub> = a<sub>6</sub>. Dengan cara yang sama diperoleh pola periodik dengan periode 5:
+              a<sub>1</sub>=a<sub>6</sub>=a<sub>11</sub>, a<sub>2</sub>=a<sub>7</sub>=a<sub>12</sub>, a<sub>3</sub>=a<sub>8</sub>, a<sub>4</sub>=a<sub>9</sub>, a<sub>5</sub>=a<sub>10</sub>.
+            </li>
+            <li>Total 12 gerbong: (a<sub>1</sub>+&hellip;+a<sub>5</sub>) + (a<sub>6</sub>+&hellip;+a<sub>10</sub>) + a<sub>11</sub> + a<sub>12</sub> = 800.</li>
+            <li>325 + 325 + a<sub>11</sub> + a<sub>12</sub> = 800 &nbsp;&rArr;&nbsp; a<sub>11</sub> + a<sub>12</sub> = 150.</li>
+            <li>Dua gerbong di tengah kereta adalah gerbong ke-6 dan ke-7:
+              a<sub>6</sub> + a<sub>7</sub> = a<sub>1</sub> + a<sub>2</sub> = a<sub>11</sub> + a<sub>12</sub> = <strong>150</strong>.
+            </li>
+          </ol>
+          <div class="answer-pill">Jawaban: 150 penumpang</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 5 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="num-circle">5</div>
+      <div class="card-meta">
+        <div class="title">Susunan Surat Juz 30 untuk Sholat Dzuhur</div>
+        <div class="source">Essay No. 5 (18 Poin) &mdash; KOSSMI 2023</div>
+      </div>
+      <span class="grade-badge">Kelas 6 / SMP</span>
+    </div>
+    <div class="card-body">
+      <div class="question-label">Soal</div>
+      <div class="question-text">
+        Koko memilih dua surat berbeda di Juz 30 yang ayatnya lebih dari 25 ayat. Surat yang lebih pendek
+        dibaca pada rakaat kedua. Banyak kemungkinan susunan surat yang dibaca Koko adalah &hellip;
+      </div>
+
+      <details>
+        <summary>&#128161; Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <ol>
+            <li>Identifikasi surat di Juz 30 dengan jumlah ayat <strong>&gt; 25</strong>:
+              <ul class="sub-list">
+                <li>An-Nab&acirc; (78): 40 ayat &#10003;</li>
+                <li>An-N&acirc;zi&lsquo;&acirc;t (79): 46 ayat &#10003;</li>
+                <li>&lsquo;Abasa (80): 42 ayat &#10003;</li>
+                <li>At-Takw&icirc;r (81): 29 ayat &#10003;</li>
+                <li>Al-Mutaffif&icirc;n (83): 36 ayat &#10003;</li>
+                <li>Al-Gh&acirc;syiyah (88): 26 ayat &#10003;</li>
+                <li>Al-Fajr (89): 30 ayat &#10003;</li>
+                <li>(Surat lainnya &le; 25 ayat, tidak memenuhi)</li>
+              </ul>
+            </li>
+            <li>Total surat yang memenuhi: <strong>7 surat</strong>.</li>
+            <li>Memilih 2 surat berbeda dari 7: C(7,2) = <strong>21 pasangan</strong>.</li>
+            <li>Untuk setiap pasangan, surat lebih pendek wajib di rakaat kedua &rarr; urutan sudah ditentukan (hanya 1 susunan per pasangan).</li>
+            <li>Semua 7 surat memiliki jumlah ayat yang berbeda-beda, sehingga tidak ada pasangan yang ambigu.</li>
+            <li>Total kemungkinan = <strong>21 susunan</strong>.</li>
+          </ol>
+          <div class="answer-pill">Jawaban: 21 susunan</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════
+       SECTION: KOSSMI 2022
+  ════════════════════════════════════════ -->
+  <div class="section-heading">
+    <h2>&#127942; KOSSMI 2022 — Final</h2>
+  </div>
+
+  <!-- PROBLEM 6 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="num-circle">6</div>
+      <div class="card-meta">
+        <div class="title">Penyederhanaan Pecahan Deret Selang-seling</div>
+        <div class="source">Isian Singkat No. 1 &mdash; KOSSMI 2022</div>
+      </div>
+      <span class="grade-badge">Kelas 6 / SMP</span>
+    </div>
+    <div class="card-body">
+      <div class="question-label">Soal</div>
+      <div class="question-text">
+        Berapakah bentuk sederhana dari:<br><br>
+        <span style="font-size:1.05rem;">
+          <span style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;">
+            <span style="border-bottom:1.5px solid #1a1a2e;padding-bottom:3px;text-align:center;">
+              2022 &minus; 2020 + 2018 &minus; 2016 + &hellip; + 6 &minus; 4 + 2
+            </span>
+            <span style="padding-top:3px;text-align:center;">
+              1 + <span style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;font-size:.9em;">
+                <span style="border-bottom:1.5px solid #1a1a2e;padding-bottom:2px;">1</span>
+                <span style="padding-top:2px;">2021 &minus; 2019 + 2017 &minus; 2015 + &hellip; + 5 &minus; 3 + 1</span>
+              </span>
+            </span>
+          </span>
+        </span>
+      </div>
+
+      <details>
+        <summary>&#128161; Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <ol>
+            <li><strong>Hitung pembilang</strong>: 2022 &minus; 2020 + 2018 &minus; 2016 + &hellip; + 6 &minus; 4 + 2
+              <ul class="sub-list">
+                <li>Pasangkan dari kiri: (2022&minus;2020) + (2018&minus;2016) + &hellip; + (6&minus;4) + 2</li>
+                <li>Banyak pasangan dari 2022 ke 6 dengan langkah 4: (2022&minus;6)/4 = 504, jadi 504 pasangan? Ulang dengan teliti:</li>
+                <li>Suku-suku: 2022, 2020, 2018, &hellip;, 2 (barisan genap menurun, ada 1011 suku)</li>
+                <li>Pasangkan: (2022&minus;2020)+(2018&minus;2016)+&hellip;+(6&minus;4) = 505 pasangan &times; 2 = 1010, sisa suku terakhir +2</li>
+                <li>Pembilang = 1010 + 2 = <strong>1012</strong></li>
+              </ul>
+            </li>
+            <li><strong>Hitung penyebut bagian dalam</strong>: 2021 &minus; 2019 + 2017 &minus; &hellip; + 5 &minus; 3 + 1
+              <ul class="sub-list">
+                <li>Suku-suku ganjil dari 2021 turun ke 1 (ada 1011 suku)</li>
+                <li>Pasangkan: (2021&minus;2019)+(2017&minus;2015)+&hellip;+(3&minus;1) = 505 pasangan &times; 2 = 1010, sisa +1</li>
+                <li>Penyebut dalam = 1010 + 1 = <strong>1011</strong></li>
+              </ul>
+            </li>
+            <li>Penyebut total = 1 + 1/1011 = (1011 + 1)/1011 = <strong>1012/1011</strong>.</li>
+            <li>Hasil = 1012 &divide; (1012/1011) = 1012 &times; 1011/1012 = <strong>1011</strong>.</li>
+          </ol>
+          <div class="answer-pill">Jawaban: 1011</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 7 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="num-circle">7</div>
+      <div class="card-meta">
+        <div class="title">Sisa Uang Setelah Belanja Berulang</div>
+        <div class="source">Isian Singkat No. 8 &mdash; KOSSMI 2022</div>
+      </div>
+      <span class="grade-badge">Kelas 6 / SMP</span>
+    </div>
+    <div class="card-body">
+      <div class="question-label">Soal</div>
+      <div class="question-text">
+        Andika selalu membelanjakan <sup>1</sup>&frasl;<sub>3</sub> bagian dari uang yang masih dimilikinya.
+        Jika pada saat belanja terakhir sisanya kurang dari <sup>32</sup>&frasl;<sub>243</sub> uang semula,
+        maka Andika paling sedikit sudah membelanjakan uangnya sebanyak &hellip; kali.
+      </div>
+
+      <details>
+        <summary>&#128161; Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <ol>
+            <li>Setiap kali belanja, sisa uang = <sup>2</sup>&frasl;<sub>3</sub> dari sebelumnya.</li>
+            <li>Setelah k kali belanja, sisa = (2/3)<sup>k</sup> &times; uang semula.</li>
+            <li>Syarat: (2/3)<sup>k</sup> &lt; 32/243.</li>
+            <li>Perhatikan: 32/243 = 2<sup>5</sup>/3<sup>5</sup> = (2/3)<sup>5</sup>.</li>
+            <li>Jadi: (2/3)<sup>k</sup> &lt; (2/3)<sup>5</sup>.</li>
+            <li>Karena 2/3 &lt; 1, fungsi (2/3)<sup>k</sup> menurun terhadap k, sehingga k &gt; 5.</li>
+            <li>Nilai k minimal = <strong>6</strong>.</li>
+          </ol>
+          <div class="answer-pill">Jawaban: 6 kali</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 8 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="num-circle">8</div>
+      <div class="card-meta">
+        <div class="title">Rata-rata = Median, Cari Nilai p</div>
+        <div class="source">Isian Singkat No. 9 &mdash; KOSSMI 2022</div>
+      </div>
+      <span class="grade-badge">Kelas 6 / SMP</span>
+    </div>
+    <div class="card-body">
+      <div class="question-label">Soal</div>
+      <div class="question-text">
+        Diketahui data: 7, 6, 2, p, 3, 4. Jika rata-rata dari data tersebut sama dengan mediannya,
+        banyaknya nilai p yang mungkin untuk p bilangan bulat adalah &hellip;
+      </div>
+
+      <details>
+        <summary>&#128161; Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <ol>
+            <li>Rata-rata = (7+6+2+p+3+4)/6 = (22+p)/6.</li>
+            <li>Ada 6 data, median = rata-rata data ke-3 dan ke-4 setelah diurutkan.</li>
+            <li>Analisis kasus berdasarkan posisi p:
+              <ul class="sub-list">
+                <li><strong>Kasus 1: p &le; 2</strong> &rarr; urutan: p,2,3,4,6,7 &rarr; median = (3+4)/2 = 3,5<br>
+                  (22+p)/6 = 3,5 &rarr; p = <strong>&minus;1</strong> &#10003; (memenuhi p &le; 2)</li>
+                <li><strong>Kasus 2: 2 &lt; p &le; 3</strong> &rarr; median = (3+4)/2 = 3,5 &rarr; p = &minus;1 &#10007; (tidak dalam range)</li>
+                <li><strong>Kasus 3: 3 &lt; p &le; 4</strong> &rarr; urutan: 2,3,p,4,6,7 &rarr; median = (p+4)/2<br>
+                  (22+p)/6 = (p+4)/2 &rarr; 22+p = 3p+12 &rarr; p = 5 &#10007; (tidak dalam range)</li>
+                <li><strong>Kasus 4: 4 &lt; p &le; 6</strong> &rarr; urutan: 2,3,4,p,6,7 &rarr; median = (4+p)/2<br>
+                  (22+p)/6 = (4+p)/2 &rarr; 22+p = 12+3p &rarr; p = <strong>5</strong> &#10003; (memenuhi 4 &lt; 5 &le; 6)</li>
+                <li><strong>Kasus 5: 6 &lt; p &le; 7</strong> &rarr; urutan: 2,3,4,6,p,7 &rarr; median = (4+6)/2 = 5<br>
+                  (22+p)/6 = 5 &rarr; p = 8 &#10007; (tidak dalam range)</li>
+                <li><strong>Kasus 6: p &gt; 7</strong> &rarr; urutan: 2,3,4,6,7,p &rarr; median = (4+6)/2 = 5<br>
+                  (22+p)/6 = 5 &rarr; p = <strong>8</strong> &#10003; (memenuhi p &gt; 7)</li>
+              </ul>
+            </li>
+            <li>Nilai p yang memenuhi (bilangan bulat): p = &minus;1, p = 5, p = 8 &rarr; <strong>3 nilai</strong>.</li>
+          </ol>
+          <div class="answer-pill">Jawaban: 3 nilai</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 9 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="num-circle">9</div>
+      <div class="card-meta">
+        <div class="title">Kombinasi Tim Voli</div>
+        <div class="source">Isian Singkat No. 10 &mdash; KOSSMI 2022</div>
+      </div>
+      <span class="grade-badge">Kelas 6 / SMP</span>
+    </div>
+    <div class="card-body">
+      <div class="question-label">Soal</div>
+      <div class="question-text">
+        Dari beberapa siswa SD Maju Jaya akan dipilih perwakilan 6 orang untuk voli.
+        Calon: 5 siswa (laki-laki) dan 4 siswi (perempuan). Banyaknya susunan perwakilan
+        jika sekurang-kurangnya terpilih 3 siswa adalah &hellip;
+      </div>
+
+      <details>
+        <summary>&#128161; Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <ol>
+            <li>Minimal 3 siswa dari 5, sisanya siswi dari 4. Rincikan per kasus:
+              <ul class="sub-list">
+                <li><strong>3 siswa + 3 siswi</strong>: C(5,3) &times; C(4,3) = 10 &times; 4 = <strong>40</strong></li>
+                <li><strong>4 siswa + 2 siswi</strong>: C(5,4) &times; C(4,2) = 5 &times; 6 = <strong>30</strong></li>
+                <li><strong>5 siswa + 1 siswi</strong>: C(5,5) &times; C(4,1) = 1 &times; 4 = <strong>4</strong></li>
+                <li><strong>6 siswa</strong>: tidak mungkin (hanya ada 5 siswa)</li>
+              </ul>
+            </li>
+            <li>Total = 40 + 30 + 4 = <strong>74 susunan</strong>.</li>
+          </ol>
+          <div class="answer-pill">Jawaban: 74 susunan</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 10 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="num-circle">10</div>
+      <div class="card-meta">
+        <div class="title">Susunan Surat Tahajud Ayesha</div>
+        <div class="source">Essay No. 1 (12 Poin) &mdash; KOSSMI 2022</div>
+      </div>
+      <span class="grade-badge">Kelas 6 / SMP</span>
+    </div>
+    <div class="card-body">
+      <div class="question-label">Soal</div>
+      <div class="question-text">
+        Ayesha sholat tahajud 4 rakaat, membaca salah satu dari 10 surat pertama Juz 30
+        (An-Nab&acirc; s.d. Al-A&lsquo;l&acirc;) di setiap rakaat. Jumlah ayat harus menurun dari rakaat ke rakaat.
+        An-Nab&acirc; dan An-N&acirc;zi&lsquo;&acirc;t selalu dibaca. Tentukan banyak pilihan susunan surat.
+      </div>
+
+      <details>
+        <summary>&#128161; Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <ol>
+            <li>10 surat pertama Juz 30 beserta jumlah ayatnya:
+              <ul class="sub-list">
+                <li>An-Nab&acirc; (78): <strong>40</strong> ayat</li>
+                <li>An-N&acirc;zi&lsquo;&acirc;t (79): <strong>46</strong> ayat</li>
+                <li>&lsquo;Abasa (80): <strong>42</strong> ayat</li>
+                <li>At-Takw&icirc;r (81): <strong>29</strong> ayat</li>
+                <li>Al-Infith&acirc;r (82): <strong>19</strong> ayat</li>
+                <li>Al-Mutaffif&icirc;n (83): <strong>36</strong> ayat</li>
+                <li>Al-Insyiq&acirc;q (84): <strong>25</strong> ayat</li>
+                <li>Al-Bur&ucirc;j (85): <strong>22</strong> ayat</li>
+                <li>At-Th&acirc;riq (86): <strong>17</strong> ayat</li>
+                <li>Al-A&lsquo;l&acirc; (87): <strong>19</strong> ayat</li>
+              </ul>
+            </li>
+            <li>Urutan ayat harus <strong>menurun ketat</strong> (rakaat 1 &gt; 2 &gt; 3 &gt; 4).</li>
+            <li>An-N&acirc;zi&lsquo;&acirc;t (46) adalah yang terbanyak &rarr; wajib di <strong>rakaat 1</strong>.</li>
+            <li>An-Nab&acirc; (40) wajib ada. Tidak ada surat dengan ayat antara 40 dan 46, sehingga An-Nab&acirc; harus di <strong>rakaat 2</strong>.</li>
+            <li>Perlu 2 surat lagi untuk rakaat 3 dan 4 dengan ayat &lt; 40, dipilih dari sisa 8 surat:
+              42, 29, 19, 36, 25, 22, 17, 19 &rarr; nilai: {42, 36, 29, 25, 22, 19, 19, 17}.</li>
+            <li>Namun 42 &gt; 40, tidak bisa di rakaat 3 (harus &lt; 40). Surat dengan ayat &lt; 40:
+              At-Takw&icirc;r(29), Al-Infith&acirc;r(19), Al-Mutaffif&icirc;n(36), Al-Insyiq&acirc;q(25), Al-Bur&ucirc;j(22), At-Th&acirc;riq(17), Al-A&lsquo;l&acirc;(19) &rarr; <strong>7 surat</strong>.</li>
+            <li>Pilih 2 dari 7 surat ini dengan urutan menurun ketat (tidak boleh sama jumlah ayatnya):
+              <ul class="sub-list">
+                <li>C(7,2) = 21 pasangan total.</li>
+                <li>Pasangan tidak valid (sama jumlah ayat): (Al-Infith&acirc;r 19, Al-A&lsquo;l&acirc; 19) &rarr; 1 pasangan.</li>
+                <li>Pasangan valid = 21 &minus; 1 = <strong>20</strong>.</li>
+              </ul>
+            </li>
+            <li>Setiap pasangan valid memiliki tepat 1 urutan (menurun), sehingga total = <strong>20 susunan</strong>.</li>
+          </ol>
+          <div class="answer-pill">Jawaban: 20 susunan</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 11 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="num-circle">11</div>
+      <div class="card-meta">
+        <div class="title">Bilangan dengan Faktor Ganjil dan Tidak Punya Faktor 4</div>
+        <div class="source">Essay No. 3 (12 Poin) &mdash; KOSSMI 2022</div>
+      </div>
+      <span class="grade-badge">Kelas 6 / SMP</span>
+    </div>
+    <div class="card-body">
+      <div class="question-label">Soal</div>
+      <div class="question-text">
+        Khalid menuliskan semua bilangan asli kurang dari 2022 dengan ketentuan:
+        banyak faktor bilangan tersebut <strong>ganjil</strong>; dan bilangan tersebut
+        <strong>tidak memiliki 4 sebagai faktornya</strong>.
+        Tentukan banyak bilangan yang harusnya dituliskan Khalid.
+      </div>
+
+      <details>
+        <summary>&#128161; Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <ol>
+            <li><strong>Syarat 1 — banyak faktor ganjil</strong>: Faktor suatu bilangan selalu berpasangan (d &times; n/d = n), kecuali jika d = n/d, yaitu d = &radic;n. Ini terjadi hanya jika n adalah <strong>bilangan kuadrat sempurna</strong> (perfect square).</li>
+            <li><strong>Syarat 2 — tidak habis dibagi 4</strong>: bilangan tidak boleh memiliki 4 sebagai faktor.</li>
+            <li>Bilangan kuadrat sempurna &lt; 2022: 1&sup2;, 2&sup2;, &hellip;, 44&sup2; = 1936 (karena 45&sup2; = 2025 &gt; 2022). Ada <strong>44 bilangan</strong>.</li>
+            <li>Dari 44 bilangan ini, keluarkan yang habis dibagi 4:
+              <ul class="sub-list">
+                <li>n&sup2; habis dibagi 4 &hArr; n habis dibagi 2 (n genap).</li>
+                <li>n genap dari 1 s.d. 44: 2, 4, 6, &hellip;, 44 &rarr; ada <strong>22 bilangan</strong>.</li>
+              </ul>
+            </li>
+            <li>Bilangan yang memenuhi kedua syarat = 44 &minus; 22 = <strong>22 bilangan</strong>
+              (yaitu 1&sup2;, 3&sup2;, 5&sup2;, &hellip;, 43&sup2; — kuadrat bilangan ganjil).</li>
+          </ol>
+          <div class="answer-pill">Jawaban: 22 bilangan</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- PROBLEM 12 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="num-circle">12</div>
+      <div class="card-meta">
+        <div class="title">Perbandingan Luas Lingkaran Penuh dengan Seperempat Lingkaran O</div>
+        <div class="source">Essay No. 5 (12 Poin) &mdash; KOSSMI 2022</div>
+      </div>
+      <span class="grade-badge">Kelas 6 / SMP</span>
+    </div>
+    <div class="card-body">
+      <div class="question-label">Soal</div>
+      <div class="question-text">
+        Sebuah lingkaran penuh berada di dalam seperempat lingkaran O berjari-jari R.
+        Lingkaran penuh bersinggungan dengan kedua sisi lurus dan busur seperempat lingkaran.
+        Tentukan perbandingan luas lingkaran penuh dengan luas seperempat lingkaran O.
+      </div>
+
+      <details>
+        <summary>&#128161; Lihat Pembahasan</summary>
+        <div class="solution-body">
+          <ol>
+            <li>Misalkan jari-jari lingkaran penuh = r, jari-jari seperempat lingkaran = R.</li>
+            <li>Karena lingkaran penuh bersinggungan dengan kedua sisi lurus (sumbu x dan sumbu y), pusat lingkaran penuh berada di titik (r, r).</li>
+            <li>Jarak dari pusat O ke pusat lingkaran penuh = &radic;(r&sup2; + r&sup2;) = r&radic;2.</li>
+            <li>Karena lingkaran penuh bersinggungan dalam dengan busur: jarak pusat O ke pusat lingkaran penuh + r = R.
+              <br>r&radic;2 + r = R &nbsp;&rArr;&nbsp; r(&radic;2 + 1) = R.</li>
+            <li>r = R / (&radic;2 + 1) = R(&radic;2 &minus; 1) / [(&radic;2+1)(&radic;2&minus;1)] = R(&radic;2 &minus; 1).</li>
+            <li>Luas lingkaran penuh = &pi;r&sup2; = &pi;R&sup2;(&radic;2&minus;1)&sup2; = &pi;R&sup2;(3 &minus; 2&radic;2).</li>
+            <li>Luas seperempat lingkaran O = (1/4)&pi;R&sup2;.</li>
+            <li>Perbandingan:
+              <br>&pi;R&sup2;(3&minus;2&radic;2) : (1/4)&pi;R&sup2; = (3&minus;2&radic;2) : 1/4 = <strong>4(3&minus;2&radic;2) : 1</strong>.</li>
+            <li>Nilai numerik: 4(3&minus;2&radic;2) &asymp; 4(3&minus;2,828) &asymp; 4(0,172) &asymp; 0,686.</li>
+          </ol>
+          <div class="answer-pill">Jawaban: 4(3 &minus; 2&radic;2) : 1</div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p>Soal KOSSMI Lanjutan &mdash; Kelas 6 / SMP &bull; KOSSMI 2023 &amp; 2022 Final</p>
+  <p style="margin-top:6px;font-size:.75rem;opacity:.7;">Konsep: Kesebangunan &bull; Geometri Lingkaran &bull; Kombinatorika &bull; Teori Bilangan &bull; Statistika &bull; Aljabar</p>
+</footer>
+
+</body>
+</html>
