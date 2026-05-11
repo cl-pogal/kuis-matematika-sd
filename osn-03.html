@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soal Olimpiade Matematika SD — OSN, IMSO, IMC</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8;
+      color: #1a202c;
+      padding: 32px 16px;
+      line-height: 1.7;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #2b6cb0;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      color: #718096;
+      font-size: 0.95rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+      gap: 28px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    .card-header {
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .badge {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+
+    /* OSN Provinsi — biru */
+    .osn-prov .card-header { background: #ebf8ff; border-bottom: 3px solid #3182ce; }
+    .osn-prov .badge { background: #3182ce; color: #fff; }
+    .osn-prov .card-header h2 { color: #2b6cb0; }
+    .osn-prov .answer-box { border-left: 4px solid #3182ce; }
+
+    /* OSN Nasional — ungu */
+    .osn-nas .card-header { background: #faf5ff; border-bottom: 3px solid #805ad5; }
+    .osn-nas .badge { background: #805ad5; color: #fff; }
+    .osn-nas .card-header h2 { color: #6b46c1; }
+    .osn-nas .answer-box { border-left: 4px solid #805ad5; }
+
+    /* IMSO — hijau */
+    .imso .card-header { background: #f0fff4; border-bottom: 3px solid #38a169; }
+    .imso .badge { background: #38a169; color: #fff; }
+    .imso .card-header h2 { color: #276749; }
+    .imso .answer-box { border-left: 4px solid #38a169; }
+
+    /* IMC — oranye */
+    .imc .card-header { background: #fffaf0; border-bottom: 3px solid #dd6b20; }
+    .imc .badge { background: #dd6b20; color: #fff; }
+    .imc .card-header h2 { color: #c05621; }
+    .imc .answer-box { border-left: 4px solid #dd6b20; }
+
+    .card-header h2 {
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    .card-body {
+      padding: 24px;
+    }
+
+    .topic-tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      background: #edf2f7;
+      color: #4a5568;
+      padding: 3px 10px;
+      border-radius: 999px;
+      margin-bottom: 16px;
+      font-weight: 600;
+    }
+
+    .question {
+      font-size: 0.97rem;
+      margin-bottom: 20px;
+      color: #2d3748;
+    }
+
+    .question strong {
+      display: block;
+      font-size: 1rem;
+      margin-bottom: 8px;
+      color: #1a202c;
+    }
+
+    .hint {
+      font-size: 0.82rem;
+      color: #a0aec0;
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+
+    details {
+      margin-top: 4px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 0.88rem;
+      color: #4a5568;
+      padding: 10px 14px;
+      background: #f7fafc;
+      border-radius: 8px;
+      user-select: none;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    summary::before {
+      content: '▶';
+      font-size: 0.7rem;
+      transition: transform 0.2s;
+    }
+
+    details[open] summary::before {
+      transform: rotate(90deg);
+    }
+
+    .answer-box {
+      margin-top: 12px;
+      padding: 16px 20px;
+      background: #f7fafc;
+      border-radius: 0 8px 8px 8px;
+      font-size: 0.9rem;
+    }
+
+    .answer-box .final {
+      margin-top: 12px;
+      font-weight: 700;
+      font-size: 1rem;
+      color: #1a202c;
+    }
+
+    .step {
+      margin: 6px 0;
+      padding-left: 8px;
+    }
+
+    .step::before {
+      content: '→ ';
+      color: #a0aec0;
+    }
+
+    .diagram {
+      background: #edf2f7;
+      border-radius: 8px;
+      padding: 16px;
+      margin: 12px 0;
+      font-family: monospace;
+      font-size: 0.85rem;
+      white-space: pre;
+      line-height: 1.5;
+      color: #2d3748;
+    }
+
+    table.soal-table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+
+    table.soal-table th, table.soal-table td {
+      border: 1px solid #cbd5e0;
+      padding: 8px 12px;
+      text-align: center;
+    }
+
+    table.soal-table th {
+      background: #edf2f7;
+      font-weight: 700;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 48px;
+      color: #a0aec0;
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🏆 Soal Olimpiade Matematika SD</h1>
+  <p>OSN Provinsi &nbsp;·&nbsp; OSN Nasional &nbsp;·&nbsp; IMSO &nbsp;·&nbsp; IMC</p>
+</header>
+
+<div class="grid">
+
+  <!-- ===================== SOAL 1: OSN PROVINSI ===================== -->
+  <div class="card osn-prov">
+    <div class="card-header">
+      <span class="badge">OSN Provinsi</span>
+      <h2>Soal 1</h2>
+    </div>
+    <div class="card-body">
+      <span class="topic-tag">📌 Teori Bilangan — FPB &amp; KPK</span>
+
+      <div class="question">
+        <strong>Soal:</strong>
+        Pak Budi memiliki tiga tali dengan panjang masing-masing <b>84 cm</b>, <b>126 cm</b>, dan <b>210 cm</b>.
+        Ia ingin memotong ketiga tali tersebut menjadi potongan-potongan yang sama panjang,
+        sepanjang mungkin, tanpa ada sisa.
+        <br /><br />
+        <b>(a)</b> Berapa panjang setiap potongan?<br />
+        <b>(b)</b> Berapa total potongan yang dihasilkan dari ketiga tali tersebut?
+      </div>
+
+      <p class="hint">💡 Petunjuk: Gunakan konsep FPB (Faktor Persekutuan Terbesar).</p>
+
+      <details>
+        <summary>Lihat Pembahasan</summary>
+        <div class="answer-box">
+          <b>Langkah 1 — Faktorisasi prima:</b>
+          <div class="step">84 = 2² × 3 × 7</div>
+          <div class="step">126 = 2 × 3² × 7</div>
+          <div class="step">210 = 2 × 3 × 5 × 7</div>
+
+          <b>Langkah 2 — FPB (ambil faktor prima dengan pangkat terkecil yang ada di semua bilangan):</b>
+          <div class="step">FPB(84, 126, 210) = 2¹ × 3¹ × 7¹ = <b>42</b></div>
+
+          <b>Langkah 3 — Hitung jumlah potongan:</b>
+          <div class="step">Tali 84 cm → 84 ÷ 42 = 2 potongan</div>
+          <div class="step">Tali 126 cm → 126 ÷ 42 = 3 potongan</div>
+          <div class="step">Tali 210 cm → 210 ÷ 42 = 5 potongan</div>
+          <div class="step">Total = 2 + 3 + 5 = <b>10 potongan</b></div>
+
+          <p class="final">✅ Jawaban: (a) 42 cm &nbsp;|&nbsp; (b) 10 potongan</p>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- ===================== SOAL 2: OSN NASIONAL ===================== -->
+  <div class="card osn-nas">
+    <div class="card-header">
+      <span class="badge">OSN Nasional</span>
+      <h2>Soal 2</h2>
+    </div>
+    <div class="card-body">
+      <span class="topic-tag">📌 Geometri — Luas Bangun Gabungan</span>
+
+      <div class="question">
+        <strong>Soal:</strong>
+        Perhatikan gambar berikut. Sebuah persegi besar berukuran <b>12 cm × 12 cm</b>.
+        Di dalam persegi tersebut terdapat empat buah lingkaran yang identik, masing-masing
+        bersinggungan satu sama lain dan bersinggungan dengan sisi persegi.
+        <br /><br />
+        Hitunglah luas daerah yang <b>tidak</b> tertutup oleh lingkaran (daerah arsiran)!
+        <br /><small>(Gunakan π = 3,14)</small>
+      </div>
+
+      <div class="diagram">
+  ┌────────────────┐
+  │  ●●●    ●●●   │
+  │ ●   ●  ●   ●  │
+  │  ●●●    ●●●   │
+  │                │
+  │  ●●●    ●●●   │
+  │ ●   ●  ●   ●  │
+  │  ●●●    ●●●   │
+  └────────────────┘
+  Persegi 12×12, empat lingkaran
+  masing-masing berdiameter 6 cm</div>
+
+      <p class="hint">💡 Petunjuk: Karena ada 4 lingkaran dalam persegi 12×12, setiap lingkaran berdiameter 6 cm (jari-jari 3 cm).</p>
+
+      <details>
+        <summary>Lihat Pembahasan</summary>
+        <div class="answer-box">
+          <b>Langkah 1 — Luas persegi besar:</b>
+          <div class="step">L persegi = 12 × 12 = <b>144 cm²</b></div>
+
+          <b>Langkah 2 — Jari-jari setiap lingkaran:</b>
+          <div class="step">Persegi dibagi 2×2 → setiap sel berukuran 6×6 cm</div>
+          <div class="step">Lingkaran menyentuh keempat sisi sel → r = 3 cm</div>
+
+          <b>Langkah 3 — Luas 4 lingkaran:</b>
+          <div class="step">L 1 lingkaran = π × r² = 3,14 × 3² = 3,14 × 9 = 28,26 cm²</div>
+          <div class="step">L 4 lingkaran = 4 × 28,26 = <b>113,04 cm²</b></div>
+
+          <b>Langkah 4 — Luas daerah arsiran:</b>
+          <div class="step">L arsiran = 144 − 113,04 = <b>30,96 cm²</b></div>
+
+          <p class="final">✅ Jawaban: 30,96 cm²</p>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- ===================== SOAL 3: IMSO ===================== -->
+  <div class="card imso">
+    <div class="card-header">
+      <span class="badge">IMSO</span>
+      <h2>Soal 3</h2>
+    </div>
+    <div class="card-body">
+      <span class="topic-tag">📌 Kombinatorik — Pencacahan &amp; Counting</span>
+
+      <div class="question">
+        <strong>Soal:</strong>
+        Sebuah kotak berisi bola berwarna: <b>3 merah</b>, <b>4 biru</b>, dan <b>5 hijau</b>.
+        Andi mengambil bola satu per satu tanpa melihat.
+        <br /><br />
+        <b>(a)</b> Berapa banyak cara Andi memilih <b>2 bola merah dan 1 bola biru</b>?<br />
+        <b>(b)</b> Berapa banyak cara memilih <b>3 bola</b> sedemikian sehingga
+        <b>tidak ada dua bola yang berwarna sama</b>?
+      </div>
+
+      <p class="hint">💡 Petunjuk: Gunakan rumus kombinasi C(n, r) = n! / (r! × (n−r)!)</p>
+
+      <details>
+        <summary>Lihat Pembahasan</summary>
+        <div class="answer-box">
+          <b>Bagian (a) — 2 merah dan 1 biru:</b>
+          <div class="step">Pilih 2 dari 3 merah: C(3,2) = 3!/(2!×1!) = <b>3 cara</b></div>
+          <div class="step">Pilih 1 dari 4 biru: C(4,1) = <b>4 cara</b></div>
+          <div class="step">Total = 3 × 4 = <b>12 cara</b></div>
+
+          <b>Bagian (b) — 3 bola, tidak ada dua warna sama (1 merah, 1 biru, 1 hijau):</b>
+          <div class="step">Pilih 1 dari 3 merah: C(3,1) = <b>3 cara</b></div>
+          <div class="step">Pilih 1 dari 4 biru: C(4,1) = <b>4 cara</b></div>
+          <div class="step">Pilih 1 dari 5 hijau: C(5,1) = <b>5 cara</b></div>
+          <div class="step">Total = 3 × 4 × 5 = <b>60 cara</b></div>
+
+          <p class="final">✅ Jawaban: (a) 12 cara &nbsp;|&nbsp; (b) 60 cara</p>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- ===================== SOAL 4: IMC ===================== -->
+  <div class="card imc">
+    <div class="card-header">
+      <span class="badge">IMC</span>
+      <h2>Soal 4</h2>
+    </div>
+    <div class="card-body">
+      <span class="topic-tag">📌 Logika &amp; Penalaran — Puzzle Deduksi</span>
+
+      <div class="question">
+        <strong>Soal:</strong>
+        Lima anak — Ayu, Bima, Cika, Doni, dan Eka — duduk berjajar dalam satu baris.
+        Diketahui petunjuk berikut:
+        <br /><br />
+        <ol style="padding-left:20px; margin-top:8px; font-size:0.93rem;">
+          <li>Ayu tidak duduk di ujung kiri maupun ujung kanan.</li>
+          <li>Bima duduk tepat di sebelah kiri Cika.</li>
+          <li>Doni duduk di posisi paling kanan.</li>
+          <li>Eka tidak duduk bersebelahan dengan Ayu.</li>
+          <li>Cika tidak duduk di posisi ke-2 dari kiri.</li>
+        </ol>
+        <br />
+        Tentukan urutan duduk kelima anak tersebut dari kiri ke kanan!
+      </div>
+
+      <p class="hint">💡 Petunjuk: Mulai dari petunjuk yang paling pasti (posisi tetap), lalu eliminasi kemungkinan lainnya.</p>
+
+      <details>
+        <summary>Lihat Pembahasan</summary>
+        <div class="answer-box">
+          <b>Langkah 1 — Petunjuk pasti:</b>
+          <div class="step">Dari (3): Doni di posisi 5 (paling kanan).</div>
+          <div class="step">Dari (1): Ayu di posisi 2, 3, atau 4.</div>
+
+          <b>Langkah 2 — Pasangan Bima–Cika (petunjuk 2):</b>
+          <div class="step">Bima–Cika berdampingan: (1,2), (2,3), (3,4), atau (4,5).</div>
+          <div class="step">Posisi 5 sudah Doni → pasangan Bima–Cika bukan (4,5).</div>
+          <div class="step">Dari (5): Cika bukan posisi 2 → pasangan bukan (1,2).</div>
+          <div class="step">Sisa kemungkinan: Bima–Cika di (2,3) atau (3,4).</div>
+
+          <b>Langkah 3 — Uji kemungkinan Bima–Cika di posisi (2,3):</b>
+          <div class="step">Posisi 1 dan 4 tersisa untuk Ayu dan Eka.</div>
+          <div class="step">Dari (1): Ayu bukan posisi 1 → Ayu di posisi 4, Eka di posisi 1.</div>
+          <div class="step">Cek (4): Eka (pos 1) bersebelahan dengan Bima (pos 2), bukan Ayu (pos 4). ✓</div>
+          <div class="step">Semua petunjuk terpenuhi! ✓</div>
+
+          <b>Langkah 4 — Verifikasi urutan: Eka – Bima – Cika – Ayu – Doni</b>
+          <table class="soal-table">
+            <tr>
+              <th>Posisi</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th>
+            </tr>
+            <tr>
+              <td><b>Nama</b></td>
+              <td>Eka</td><td>Bima</td><td>Cika</td><td>Ayu</td><td>Doni</td>
+            </tr>
+          </table>
+          <div class="step">✓ Ayu di posisi 4 (bukan ujung)</div>
+          <div class="step">✓ Bima (2) tepat di kiri Cika (3)</div>
+          <div class="step">✓ Doni di posisi 5</div>
+          <div class="step">✓ Eka (1) tidak bersebelahan dengan Ayu (4)</div>
+          <div class="step">✓ Cika di posisi 3, bukan posisi 2</div>
+
+          <p class="final">✅ Jawaban: Eka – Bima – Cika – Ayu – Doni</p>
+        </div>
+      </details>
+    </div>
+  </div>
+
+</div><!-- end .grid -->
+
+<footer>
+  <p>Soal Olimpiade Matematika SD &nbsp;·&nbsp; OSN · IMSO · IMC &nbsp;·&nbsp; Dibuat dengan Kiro</p>
+</footer>
+
+</body>
+</html>
