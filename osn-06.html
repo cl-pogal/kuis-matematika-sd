@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soal Olimpiade Matematika SD — Set 06</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8;
+      color: #1a202c;
+      padding: 32px 16px;
+      line-height: 1.7;
+    }
+    header { text-align: center; margin-bottom: 40px; }
+    header h1 { font-size: 2rem; color: #2b6cb0; margin-bottom: 8px; }
+    header p { color: #718096; font-size: 0.95rem; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+      gap: 28px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .card { background: #fff; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); overflow: hidden; }
+    .card-header { padding: 16px 24px; display: flex; align-items: center; gap: 12px; }
+    .badge {
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; padding: 4px 10px; border-radius: 999px; white-space: nowrap;
+    }
+    .osn-prov .card-header { background: #ebf8ff; border-bottom: 3px solid #3182ce; }
+    .osn-prov .badge { background: #3182ce; color: #fff; }
+    .osn-prov .card-header h2 { color: #2b6cb0; }
+    .osn-prov .answer-box { border-left: 4px solid #3182ce; }
+
+    .osn-nas .card-header { background: #faf5ff; border-bottom: 3px solid #805ad5; }
+    .osn-nas .badge { background: #805ad5; color: #fff; }
+    .osn-nas .card-header h2 { color: #6b46c1; }
+    .osn-nas .answer-box { border-left: 4px solid #805ad5; }
+
+    .imso .card-header { background: #f0fff4; border-bottom: 3px solid #38a169; }
+    .imso .badge { background: #38a169; color: #fff; }
+    .imso .card-header h2 { color: #276749; }
+    .imso .answer-box { border-left: 4px solid #38a169; }
+
+    .imc .card-header { background: #fffaf0; border-bottom: 3px solid #dd6b20; }
+    .imc .badge { background: #dd6b20; color: #fff; }
+    .imc .card-header h2 { color: #c05621; }
+    .imc .answer-box { border-left: 4px solid #dd6b20; }
+
+    .card-header h2 { font-size: 1rem; font-weight: 700; }
+    .card-body { padding: 24px; }
+    .topic-tag {
+      display: inline-block; font-size: 0.75rem; background: #edf2f7;
+      color: #4a5568; padding: 3px 10px; border-radius: 999px;
+      margin-bottom: 16px; font-weight: 600;
+    }
+    .question { font-size: 0.97rem; margin-bottom: 16px; color: #2d3748; }
+    .question strong { display: block; font-size: 1rem; margin-bottom: 8px; color: #1a202c; }
+    .callout {
+      background: #fff8f0; border-left: 3px solid #dd6b20;
+      padding: 10px 16px; border-radius: 0 8px 8px 0;
+      margin: 8px 0; font-size: 1rem;
+    }
+    .hint { font-size: 0.82rem; color: #a0aec0; font-style: italic; margin-bottom: 20px; }
+
+    details { margin-top: 4px; }
+    summary {
+      cursor: pointer; font-weight: 700; font-size: 0.88rem; color: #4a5568;
+      padding: 10px 14px; background: #f7fafc; border-radius: 8px;
+      user-select: none; list-style: none; display: flex; align-items: center; gap: 8px;
+    }
+    summary::before { content: '▶'; font-size: 0.7rem; transition: transform 0.2s; }
+    details[open] summary::before { transform: rotate(90deg); }
+    .answer-box {
+      margin-top: 12px; padding: 16px 20px;
+      background: #f7fafc; border-radius: 0 8px 8px 8px; font-size: 0.9rem;
+    }
+    .answer-box .final { margin-top: 12px; font-weight: 700; font-size: 1rem; color: #1a202c; }
+    .step { margin: 6px 0; padding-left: 8px; }
+    .step::before { content: '→ '; color: #a0aec0; }
+    .svg-wrap { display: flex; justify-content: center; margin: 16px 0; }
+    table.t { border-collapse: collapse; width: 100%; margin: 10px 0; font-size: 0.88rem; }
+    table.t th, table.t td { border: 1px solid #cbd5e0; padding: 7px 11px; text-align: center; }
+    table.t th { background: #edf2f7; font-weight: 700; }
+    footer { text-align: center; margin-top: 48px; color: #a0aec0; font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🏆 Soal Olimpiade Matematika SD — Set 06</h1>
+  <p>OSN Provinsi &nbsp;·&nbsp; OSN Nasional &nbsp;·&nbsp; IMSO &nbsp;·&nbsp; IMC</p>
+</header>
+
+<div class="grid">
+
+<!-- ═══════════════════════════════════════════════════════
+     SOAL 1 · OSN PROVINSI · Persentase & Untung/Rugi
+     ═══════════════════════════════════════════════════════ -->
+<div class="card osn-prov">
+  <div class="card-header">
+    <span class="badge">OSN Provinsi</span>
+    <h2>Soal 1</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Aritmetika — Persentase &amp; Untung/Rugi</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      Pak Hasan membeli sebuah sepeda seharga <b>Rp 800.000</b>.
+      Ia memperbaiki sepeda tersebut dengan biaya <b>Rp 50.000</b>,
+      lalu menjualnya dengan harga <b>Rp 1.020.000</b>.
+      <br /><br />
+      <b>(a)</b> Berapa modal total Pak Hasan?<br />
+      <b>(b)</b> Apakah Pak Hasan untung atau rugi? Berapa jumlahnya?<br />
+      <b>(c)</b> Berapa persen keuntungan atau kerugian Pak Hasan terhadap modal?<br />
+      <b>(d)</b> Jika Pak Hasan ingin untung tepat <b>25%</b> dari modal, berapa harga jual yang seharusnya?
+    </div>
+
+    <!-- SVG: diagram alur beli → perbaiki → jual -->
+    <div class="svg-wrap">
+      <svg width="380" height="130" viewBox="0 0 380 130"
+           xmlns="http://www.w3.org/2000/svg"
+           aria-label="Alur transaksi: beli, perbaiki, jual">
+        <rect width="380" height="130" rx="10" fill="#ebf8ff"/>
+
+        <!-- kotak Beli -->
+        <rect x="14" y="30" width="96" height="56" rx="8" fill="#bee3f8" stroke="#3182ce" stroke-width="2"/>
+        <text x="62" y="54" text-anchor="middle" fill="#2b6cb0" font-size="11" font-weight="bold">Beli Sepeda</text>
+        <text x="62" y="72" text-anchor="middle" fill="#2b6cb0" font-size="13" font-weight="bold">Rp 800.000</text>
+
+        <!-- panah 1 -->
+        <defs>
+          <marker id="ah" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto">
+            <path d="M0,0 L0,6 L8,3 z" fill="#4a5568"/>
+          </marker>
+        </defs>
+        <line x1="110" y1="58" x2="138" y2="58" stroke="#4a5568" stroke-width="2" marker-end="url(#ah)"/>
+        <text x="124" y="50" text-anchor="middle" fill="#718096" font-size="9">+biaya</text>
+
+        <!-- kotak Perbaiki -->
+        <rect x="140" y="30" width="100" height="56" rx="8" fill="#fefcbf" stroke="#d69e2e" stroke-width="2"/>
+        <text x="190" y="54" text-anchor="middle" fill="#744210" font-size="11" font-weight="bold">Perbaiki</text>
+        <text x="190" y="72" text-anchor="middle" fill="#744210" font-size="13" font-weight="bold">Rp 50.000</text>
+
+        <!-- panah 2 -->
+        <line x1="240" y1="58" x2="268" y2="58" stroke="#4a5568" stroke-width="2" marker-end="url(#ah)"/>
+        <text x="254" y="50" text-anchor="middle" fill="#718096" font-size="9">jual</text>
+
+        <!-- kotak Jual -->
+        <rect x="270" y="30" width="96" height="56" rx="8" fill="#c6f6d5" stroke="#38a169" stroke-width="2"/>
+        <text x="318" y="54" text-anchor="middle" fill="#276749" font-size="11" font-weight="bold">Harga Jual</text>
+        <text x="318" y="72" text-anchor="middle" fill="#276749" font-size="13" font-weight="bold">Rp 1.020.000</text>
+
+        <!-- label modal total -->
+        <text x="190" y="108" text-anchor="middle" fill="#2b6cb0" font-size="11">
+          Modal = Rp 800.000 + Rp 50.000 = Rp 850.000
+        </text>
+        <!-- label untung -->
+        <text x="190" y="122" text-anchor="middle" fill="#276749" font-size="11">
+          Untung = Rp 1.020.000 − Rp 850.000 = Rp 170.000
+        </text>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk: Modal = harga beli + biaya perbaikan. % untung = (untung ÷ modal) × 100%.</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Bagian (a) — Modal total:</b>
+        <div class="step">Modal = Rp 800.000 + Rp 50.000 = <b>Rp 850.000</b></div>
+
+        <b>Bagian (b) — Untung atau rugi:</b>
+        <div class="step">Harga jual Rp 1.020.000 &gt; Modal Rp 850.000 → <b>UNTUNG</b></div>
+        <div class="step">Untung = Rp 1.020.000 − Rp 850.000 = <b>Rp 170.000</b></div>
+
+        <b>Bagian (c) — Persentase keuntungan:</b>
+        <div class="step">% Untung = (170.000 ÷ 850.000) × 100%</div>
+        <div class="step">= (17/85) × 100% = (1/5) × 100% = <b>20%</b></div>
+
+        <b>Bagian (d) — Harga jual agar untung 25%:</b>
+        <div class="step">Harga jual = Modal × (1 + 25/100)</div>
+        <div class="step">= Rp 850.000 × 1,25 = <b>Rp 1.062.500</b></div>
+
+        <p class="final">✅ Jawaban: (a) Rp 850.000 &nbsp;|&nbsp; (b) Untung Rp 170.000 &nbsp;|&nbsp; (c) 20% &nbsp;|&nbsp; (d) Rp 1.062.500</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     SOAL 2 · OSN NASIONAL · Lingkaran — Busur & Juring
+     ═══════════════════════════════════════════════════════ -->
+<div class="card osn-nas">
+  <div class="card-header">
+    <span class="badge">OSN Nasional</span>
+    <h2>Soal 2</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Geometri — Lingkaran, Busur &amp; Juring</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      Sebuah lingkaran berjari-jari <b>14 cm</b>. Sebuah juring (sektor) dibentuk oleh
+      dua jari-jari dengan sudut pusat <b>135°</b>.
+      <br /><br />
+      <b>(a)</b> Hitung panjang busur juring tersebut.<br />
+      <b>(b)</b> Hitung luas juring tersebut.<br />
+      <b>(c)</b> Hitung luas tembereng (daerah antara busur dan tali busur)
+      jika diketahui luas segitiga yang dibentuk oleh dua jari-jari = <b>98 cm²</b>.<br />
+      <small>(Gunakan π = 22/7)</small>
+    </div>
+
+    <!-- SVG: lingkaran dengan juring 135° yang akurat -->
+    <div class="svg-wrap">
+      <svg width="320" height="300" viewBox="-10 -10 320 300"
+           xmlns="http://www.w3.org/2000/svg"
+           aria-label="Lingkaran dengan juring sudut 135 derajat">
+        <rect x="-10" y="-10" width="320" height="300" rx="10" fill="#faf5ff"/>
+
+        <!--
+          Pusat lingkaran: cx=150, cy=140, r=110 (skala visual)
+          Sudut 135° → busur dari 0° ke 135° (searah jarum jam dari kanan)
+          Titik busur:
+            P1 = pusat + r*(cos 0°, sin 0°)   = (260, 140)
+            P2 = pusat + r*(cos 135°, sin 135°) = (150 + 110*cos135, 140 - 110*sin135)
+               cos135 = -√2/2 ≈ -0.7071 → x = 150 - 77.78 ≈ 72.2
+               sin135 =  √2/2 ≈  0.7071 → y = 140 - 77.78 ≈ 62.2
+            P2 ≈ (72, 62)
+        -->
+
+        <!-- lingkaran penuh (tipis, referensi) -->
+        <circle cx="150" cy="140" r="110" fill="none" stroke="#d6bcfa" stroke-width="1.5" stroke-dasharray="6,4"/>
+
+        <!-- juring 135° — isi -->
+        <path d="M150,140 L260,140 A110,110 0 0,0 72,62 Z"
+              fill="rgba(128,90,213,0.18)" stroke="#805ad5" stroke-width="2.5"/>
+
+        <!-- tali busur (chord) untuk tembereng -->
+        <line x1="260" y1="140" x2="72" y2="62"
+              stroke="#e53e3e" stroke-width="2" stroke-dasharray="7,4"/>
+
+        <!-- busur label -->
+        <!-- titik tengah busur ≈ sudut 67.5° dari P1 -->
+        <!-- cos67.5 ≈ 0.383, sin67.5 ≈ 0.924 -->
+        <!-- x = 150 + 110*0.383 = 192, y = 140 - 110*0.924 = 38 -->
+        <text x="200" y="50" fill="#6b46c1" font-size="12" font-weight="bold">Busur</text>
+
+        <!-- sudut 135° arc indicator -->
+        <path d="M 185,140 A 35,35 0 0,0 174.75,115.25"
+              fill="none" stroke="#805ad5" stroke-width="2"/>
+        <text x="188" y="122" fill="#805ad5" font-size="11" font-weight="bold">135°</text>
+
+        <!-- jari-jari kanan -->
+        <line x1="150" y1="140" x2="260" y2="140" stroke="#805ad5" stroke-width="2"/>
+        <text x="205" y="158" text-anchor="middle" fill="#6b46c1" font-size="11">r = 14 cm</text>
+
+        <!-- jari-jari kiri-atas -->
+        <line x1="150" y1="140" x2="72" y2="62" stroke="#805ad5" stroke-width="2"/>
+        <text x="96" y="112" text-anchor="middle" fill="#6b46c1" font-size="11">r = 14 cm</text>
+
+        <!-- pusat -->
+        <circle cx="150" cy="140" r="4" fill="#805ad5"/>
+        <text x="155" y="155" fill="#805ad5" font-size="11">O</text>
+
+        <!-- titik P1 -->
+        <circle cx="260" cy="140" r="4" fill="#3182ce"/>
+        <text x="265" y="138" fill="#3182ce" font-size="11">P₁</text>
+
+        <!-- titik P2 -->
+        <circle cx="72" cy="62" r="4" fill="#3182ce"/>
+        <text x="55" y="58" fill="#3182ce" font-size="11">P₂</text>
+
+        <!-- label tembereng -->
+        <text x="185" y="95" fill="#e53e3e" font-size="10" font-style="italic">tembereng</text>
+        <text x="185" y="108" fill="#e53e3e" font-size="10" font-style="italic">(daerah merah)</text>
+
+        <!-- label juring -->
+        <text x="60" y="175" fill="#6b46c1" font-size="11" font-weight="bold">Juring</text>
+        <text x="60" y="190" fill="#6b46c1" font-size="10">(daerah ungu)</text>
+
+        <!-- dimensi r di bawah -->
+        <text x="150" y="275" text-anchor="middle" fill="#718096" font-size="11">
+          r = 14 cm, sudut pusat = 135°, π = 22/7
+        </text>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk: Panjang busur = (θ/360) × 2πr. Luas juring = (θ/360) × πr². Luas tembereng = Luas juring − Luas segitiga.</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Bagian (a) — Panjang busur:</b>
+        <div class="step">Panjang busur = (135/360) × 2 × (22/7) × 14</div>
+        <div class="step">= (3/8) × 2 × 22 × 2</div>
+        <div class="step">= (3/8) × 88 = 264/8 = <b>33 cm</b></div>
+
+        <b>Bagian (b) — Luas juring:</b>
+        <div class="step">Luas juring = (135/360) × π × r²</div>
+        <div class="step">= (3/8) × (22/7) × 14²</div>
+        <div class="step">= (3/8) × (22/7) × 196</div>
+        <div class="step">= (3/8) × 616 = 1848/8 = <b>231 cm²</b></div>
+
+        <b>Bagian (c) — Luas tembereng:</b>
+        <div class="step">Luas tembereng = Luas juring − Luas segitiga</div>
+        <div class="step">= 231 − 98 = <b>133 cm²</b></div>
+
+        <p class="final">✅ Jawaban: (a) 33 cm &nbsp;|&nbsp; (b) 231 cm² &nbsp;|&nbsp; (c) 133 cm²</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     SOAL 3 · IMSO · Peluang Dasar
+     ═══════════════════════════════════════════════════════ -->
+<div class="card imso">
+  <div class="card-header">
+    <span class="badge">IMSO</span>
+    <h2>Soal 3</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Kombinatorik — Peluang Dasar</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      Sebuah kantong berisi <b>4 kelereng merah (M)</b>, <b>3 kelereng biru (B)</b>,
+      dan <b>2 kelereng kuning (K)</b>. Satu kelereng diambil secara acak.
+      <br /><br />
+      <b>(a)</b> Berapa peluang terambilnya kelereng merah?<br />
+      <b>(b)</b> Berapa peluang terambilnya kelereng <em>bukan</em> kuning?<br />
+      <b>(c)</b> Dua kelereng diambil satu per satu <em>tanpa pengembalian</em>.
+      Berapa peluang kelereng pertama merah <em>dan</em> kelereng kedua biru?<br />
+      <b>(d)</b> Jika percobaan (a) diulang <b>90 kali</b>, berapa kali diharapkan
+      terambil kelereng merah?
+    </div>
+
+    <!-- SVG: kantong dengan kelereng berwarna -->
+    <div class="svg-wrap">
+      <svg width="340" height="200" viewBox="0 0 340 200"
+           xmlns="http://www.w3.org/2000/svg"
+           aria-label="Kantong berisi 4 kelereng merah, 3 biru, 2 kuning">
+        <rect width="340" height="200" rx="10" fill="#f0fff4"/>
+
+        <!-- kantong -->
+        <path d="M100,170 Q80,100 90,50 Q100,20 170,18 Q240,20 250,50 Q260,100 240,170 Z"
+              fill="#c6f6d5" stroke="#38a169" stroke-width="2.5"/>
+        <!-- tali kantong -->
+        <path d="M130,22 Q170,5 210,22" fill="none" stroke="#38a169" stroke-width="3" stroke-linecap="round"/>
+
+        <!-- kelereng merah (4 buah) -->
+        <circle cx="130" cy="130" r="14" fill="#fc8181" stroke="#e53e3e" stroke-width="1.5"/>
+        <circle cx="160" cy="145" r="14" fill="#fc8181" stroke="#e53e3e" stroke-width="1.5"/>
+        <circle cx="190" cy="130" r="14" fill="#fc8181" stroke="#e53e3e" stroke-width="1.5"/>
+        <circle cx="220" cy="145" r="14" fill="#fc8181" stroke="#e53e3e" stroke-width="1.5"/>
+        <!-- highlight merah -->
+        <circle cx="125" cy="124" r="4" fill="rgba(255,255,255,0.5)"/>
+        <circle cx="155" cy="139" r="4" fill="rgba(255,255,255,0.5)"/>
+        <circle cx="185" cy="124" r="4" fill="rgba(255,255,255,0.5)"/>
+        <circle cx="215" cy="139" r="4" fill="rgba(255,255,255,0.5)"/>
+
+        <!-- kelereng biru (3 buah) -->
+        <circle cx="135" cy="90" r="14" fill="#63b3ed" stroke="#3182ce" stroke-width="1.5"/>
+        <circle cx="170" cy="78" r="14" fill="#63b3ed" stroke="#3182ce" stroke-width="1.5"/>
+        <circle cx="205" cy="90" r="14" fill="#63b3ed" stroke="#3182ce" stroke-width="1.5"/>
+        <circle cx="130" cy="84" r="4" fill="rgba(255,255,255,0.5)"/>
+        <circle cx="165" cy="72" r="4" fill="rgba(255,255,255,0.5)"/>
+        <circle cx="200" cy="84" r="4" fill="rgba(255,255,255,0.5)"/>
+
+        <!-- kelereng kuning (2 buah) -->
+        <circle cx="148" cy="52" r="13" fill="#f6e05e" stroke="#d69e2e" stroke-width="1.5"/>
+        <circle cx="192" cy="52" r="13" fill="#f6e05e" stroke="#d69e2e" stroke-width="1.5"/>
+        <circle cx="143" cy="46" r="4" fill="rgba(255,255,255,0.5)"/>
+        <circle cx="187" cy="46" r="4" fill="rgba(255,255,255,0.5)"/>
+
+        <!-- legenda kanan -->
+        <circle cx="285" cy="70"  r="10" fill="#fc8181" stroke="#e53e3e" stroke-width="1.5"/>
+        <text x="300" y="74" fill="#2d3748" font-size="12">4 Merah</text>
+        <circle cx="285" cy="100" r="10" fill="#63b3ed" stroke="#3182ce" stroke-width="1.5"/>
+        <text x="300" y="104" fill="#2d3748" font-size="12">3 Biru</text>
+        <circle cx="285" cy="130" r="10" fill="#f6e05e" stroke="#d69e2e" stroke-width="1.5"/>
+        <text x="300" y="134" fill="#2d3748" font-size="12">2 Kuning</text>
+
+        <text x="170" y="190" text-anchor="middle" fill="#718096" font-size="11">Total = 9 kelereng</text>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk: P(A) = n(A) / n(S). Untuk dua kejadian tanpa pengembalian: P(A lalu B) = P(A) × P(B|A).</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Ruang sampel: n(S) = 4 + 3 + 2 = 9</b>
+
+        <b>Bagian (a) — P(merah):</b>
+        <div class="step">P(M) = 4/9</div>
+
+        <b>Bagian (b) — P(bukan kuning):</b>
+        <div class="step">Bukan kuning = merah + biru = 4 + 3 = 7</div>
+        <div class="step">P(bukan K) = 7/9</div>
+
+        <b>Bagian (c) — P(pertama merah DAN kedua biru), tanpa pengembalian:</b>
+        <div class="step">P(pertama M) = 4/9</div>
+        <div class="step">Setelah 1 merah diambil: sisa 8 kelereng, 3 biru</div>
+        <div class="step">P(kedua B | pertama M) = 3/8</div>
+        <div class="step">P(M lalu B) = 4/9 × 3/8 = 12/72 = <b>1/6</b></div>
+
+        <b>Bagian (d) — Frekuensi harapan 90 kali:</b>
+        <div class="step">Frekuensi harapan = P(M) × n = (4/9) × 90 = <b>40 kali</b></div>
+
+        <p class="final">✅ Jawaban: (a) 4/9 &nbsp;|&nbsp; (b) 7/9 &nbsp;|&nbsp; (c) 1/6 &nbsp;|&nbsp; (d) 40 kali</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     SOAL 4 · IMC · Modular Arithmetic & Sisa Bagi
+     ═══════════════════════════════════════════════════════ -->
+<div class="card imc">
+  <div class="card-header">
+    <span class="badge">IMC</span>
+    <h2>Soal 4</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Teori Bilangan — Modular Arithmetic &amp; Sisa Bagi</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      <b>(a)</b> Hari ini adalah hari <b>Senin</b>. Hari apa <b>100 hari</b> lagi?<br /><br />
+      <b>(b)</b> Bilangan bulat positif <b>N</b> jika dibagi 7 bersisa <b>3</b>,
+      dan jika dibagi 5 bersisa <b>2</b>. Tentukan bilangan <b>N terkecil</b> yang memenuhi.<br /><br />
+      <b>(c)</b> Berapakah angka satuan dari <b>7¹⁰⁰</b>?<br /><br />
+      <b>(d)</b> Sebuah jam dinding menunjukkan pukul <b>08.00</b>.
+      Setelah <b>1000 jam</b>, pukul berapa jam tersebut menunjukkan waktu?
+    </div>
+
+    <!-- SVG: lingkaran hari dalam seminggu + siklus angka satuan 7^n -->
+    <div class="svg-wrap">
+      <svg width="360" height="220" viewBox="0 0 360 220"
+           xmlns="http://www.w3.org/2000/svg"
+           aria-label="Diagram siklus hari dalam seminggu dan siklus angka satuan 7 pangkat n">
+        <rect width="360" height="220" rx="10" fill="#fffaf0"/>
+
+        <!-- ── Lingkaran hari (kiri) ── -->
+        <!-- pusat (90, 110), r=72 -->
+        <!-- 7 hari, mulai dari atas (Senin = 270° = atas) -->
+        <!-- sudut per hari = 360/7 ≈ 51.43° -->
+        <!--
+          Senin   270°  → (90, 38)
+          Selasa  321.4°→ (90+72*cos321.4, 110-72*sin321.4) = (90+55.7, 110+45.1) = (146,155) → wait, let me recalc
+          Using: angle from top, clockwise
+          day_i angle = 270 + i*(360/7) degrees
+          Senin   i=0: 270° → x=90+72*cos270=90+0=90,   y=110-72*sin270=110+72=182 → WRONG (sin270=-1)
+          Let me use standard: x=cx+r*cos(a), y=cy+r*sin(a), a measured from right, CCW
+          But visually I want top=Senin, clockwise.
+          a_i = -90 + i*360/7  (degrees, standard math angle)
+          i=0 Senin:   a=-90°  → cos=-90=0,  sin=-90=-1 → (90, 110+72*(-1))=(90,38) ✓ top
+          i=1 Selasa:  a=-90+51.43=-38.57° → cos=0.782, sin=-0.623 → (90+56.3, 110-44.9)=(146,65)
+          i=2 Rabu:    a=12.86° → cos=0.975, sin=0.222 → (90+70.2,110+16)=(160,126)
+          i=3 Kamis:   a=64.29° → cos=0.433, sin=0.901 → (90+31.2,110+64.9)=(121,175)
+          i=4 Jumat:   a=115.71°→ cos=-0.433,sin=0.901 → (90-31.2,110+64.9)=(59,175)
+          i=5 Sabtu:   a=167.14°→ cos=-0.975,sin=0.222 → (90-70.2,110+16)=(20,126)
+          i=6 Minggu:  a=218.57°→ cos=-0.782,sin=-0.623→ (90-56.3,110-44.9)=(34,65)
+        -->
+
+        <!-- lingkaran referensi -->
+        <circle cx="90" cy="110" r="72" fill="none" stroke="#fed7aa" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+        <!-- titik-titik hari -->
+        <circle cx="90"  cy="38"  r="18" fill="#fbd38d" stroke="#dd6b20" stroke-width="2"/>
+        <circle cx="146" cy="65"  r="18" fill="#fbd38d" stroke="#dd6b20" stroke-width="2"/>
+        <circle cx="160" cy="126" r="18" fill="#fbd38d" stroke="#dd6b20" stroke-width="2"/>
+        <circle cx="121" cy="175" r="18" fill="#fbd38d" stroke="#dd6b20" stroke-width="2"/>
+        <circle cx="59"  cy="175" r="18" fill="#fbd38d" stroke="#dd6b20" stroke-width="2"/>
+        <circle cx="20"  cy="126" r="18" fill="#fbd38d" stroke="#dd6b20" stroke-width="2"/>
+        <circle cx="34"  cy="65"  r="18" fill="#fbd38d" stroke="#dd6b20" stroke-width="2"/>
+
+        <!-- label hari -->
+        <text x="90"  y="43"  text-anchor="middle" fill="#7b341e" font-size="9.5" font-weight="bold">Sen</text>
+        <text x="146" y="70"  text-anchor="middle" fill="#7b341e" font-size="9.5" font-weight="bold">Sel</text>
+        <text x="160" y="131" text-anchor="middle" fill="#7b341e" font-size="9.5" font-weight="bold">Rab</text>
+        <text x="121" y="180" text-anchor="middle" fill="#7b341e" font-size="9.5" font-weight="bold">Kam</text>
+        <text x="59"  y="180" text-anchor="middle" fill="#7b341e" font-size="9.5" font-weight="bold">Jum</text>
+        <text x="20"  y="131" text-anchor="middle" fill="#7b341e" font-size="9.5" font-weight="bold">Sab</text>
+        <text x="34"  y="70"  text-anchor="middle" fill="#7b341e" font-size="9.5" font-weight="bold">Min</text>
+
+        <!-- highlight Senin -->
+        <circle cx="90" cy="38" r="18" fill="none" stroke="#e53e3e" stroke-width="3"/>
+        <text x="90" y="18" text-anchor="middle" fill="#e53e3e" font-size="10" font-weight="bold">START</text>
+
+        <!-- judul kiri -->
+        <text x="90" y="208" text-anchor="middle" fill="#c05621" font-size="11" font-weight="bold">Siklus 7 hari</text>
+
+        <!-- ── Tabel siklus angka satuan 7^n (kanan) ── -->
+        <text x="240" y="28" text-anchor="middle" fill="#c05621" font-size="12" font-weight="bold">
+          Siklus angka satuan 7ⁿ
+        </text>
+
+        <!-- tabel -->
+        <rect x="188" y="36" width="148" height="148" rx="6" fill="white" stroke="#fed7aa" stroke-width="1.5"/>
+        <!-- header -->
+        <rect x="188" y="36" width="74" height="24" rx="0" fill="#fbd38d"/>
+        <rect x="262" y="36" width="74" height="24" rx="0" fill="#fbd38d"/>
+        <text x="225" y="52" text-anchor="middle" fill="#7b341e" font-size="11" font-weight="bold">n</text>
+        <text x="299" y="52" text-anchor="middle" fill="#7b341e" font-size="11" font-weight="bold">Satuan 7ⁿ</text>
+        <!-- baris data -->
+        <line x1="188" y1="60"  x2="336" y2="60"  stroke="#fed7aa" stroke-width="1"/>
+        <line x1="188" y1="84"  x2="336" y2="84"  stroke="#fed7aa" stroke-width="1"/>
+        <line x1="188" y1="108" x2="336" y2="108" stroke="#fed7aa" stroke-width="1"/>
+        <line x1="188" y1="132" x2="336" y2="132" stroke="#fed7aa" stroke-width="1"/>
+        <line x1="188" y1="156" x2="336" y2="156" stroke="#fed7aa" stroke-width="1"/>
+        <line x1="262" y1="36"  x2="262" y2="184" stroke="#fed7aa" stroke-width="1"/>
+
+        <text x="225" y="77"  text-anchor="middle" fill="#2d3748" font-size="12">1</text>
+        <text x="299" y="77"  text-anchor="middle" fill="#dd6b20" font-size="12" font-weight="bold">7</text>
+        <text x="225" y="101" text-anchor="middle" fill="#2d3748" font-size="12">2</text>
+        <text x="299" y="101" text-anchor="middle" fill="#dd6b20" font-size="12" font-weight="bold">9</text>
+        <text x="225" y="125" text-anchor="middle" fill="#2d3748" font-size="12">3</text>
+        <text x="299" y="125" text-anchor="middle" fill="#dd6b20" font-size="12" font-weight="bold">3</text>
+        <text x="225" y="149" text-anchor="middle" fill="#2d3748" font-size="12">4</text>
+        <text x="299" y="149" text-anchor="middle" fill="#dd6b20" font-size="12" font-weight="bold">1</text>
+        <text x="225" y="173" text-anchor="middle" fill="#2d3748" font-size="12">5</text>
+        <text x="299" y="173" text-anchor="middle" fill="#dd6b20" font-size="12" font-weight="bold">7 ↺</text>
+
+        <text x="262" y="200" text-anchor="middle" fill="#718096" font-size="10">Siklus panjang 4</text>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk: Gunakan sisa bagi (mod). Hari: mod 7. Jam: mod 12. Angka satuan 7ⁿ: siklus panjang 4.</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Bagian (a) — 100 hari dari Senin:</b>
+        <div class="step">100 ÷ 7 = 14 sisa 2</div>
+        <div class="step">Senin + 2 hari = <b>Rabu</b></div>
+
+        <b>Bagian (b) — N terkecil: N ≡ 3 (mod 7) dan N ≡ 2 (mod 5):</b>
+        <div class="step">N ≡ 3 (mod 7) → N ∈ {3, 10, 17, 24, 31, 38, ...}</div>
+        <div class="step">Cek mod 5: 3 mod 5=3✗, 10 mod 5=0✗, 17 mod 5=2 ✓</div>
+        <div class="step">N terkecil = <b>17</b></div>
+
+        <b>Bagian (c) — Angka satuan 7¹⁰⁰:</b>
+        <div class="step">Siklus angka satuan 7ⁿ: 7, 9, 3, 1, 7, 9, 3, 1, ... (panjang 4)</div>
+        <div class="step">100 ÷ 4 = 25 sisa 0 → posisi ke-4 dalam siklus</div>
+        <div class="step">Angka satuan 7¹⁰⁰ = <b>1</b></div>
+
+        <b>Bagian (d) — Pukul berapa setelah 1000 jam dari 08.00:</b>
+        <div class="step">1000 ÷ 12 = 83 sisa 4</div>
+        <div class="step">08.00 + 4 jam = <b>pukul 12.00</b></div>
+
+        <p class="final">✅ Jawaban: (a) Rabu &nbsp;|&nbsp; (b) N = 17 &nbsp;|&nbsp; (c) angka satuan = 1 &nbsp;|&nbsp; (d) pukul 12.00</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+</div><!-- end .grid -->
+
+<footer>
+  <p>Soal Olimpiade Matematika SD — Set 06 &nbsp;·&nbsp; OSN · IMSO · IMC &nbsp;·&nbsp; Dibuat dengan Kiro</p>
+</footer>
+</body>
+</html>
