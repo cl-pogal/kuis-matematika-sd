@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soal Olimpiade Matematika SD — Set 08</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8; color: #1a202c;
+      padding: 32px 16px; line-height: 1.7;
+    }
+    header { text-align: center; margin-bottom: 40px; }
+    header h1 { font-size: 2rem; color: #2b6cb0; margin-bottom: 8px; }
+    header p { color: #718096; font-size: 0.95rem; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+      gap: 28px; max-width: 1100px; margin: 0 auto;
+    }
+    .card { background: #fff; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); overflow: hidden; }
+    .card-header { padding: 16px 24px; display: flex; align-items: center; gap: 12px; }
+    .badge {
+      font-size: .72rem; font-weight: 700; letter-spacing: .08em;
+      text-transform: uppercase; padding: 4px 10px; border-radius: 999px; white-space: nowrap;
+    }
+    .osn-prov .card-header { background:#ebf8ff; border-bottom:3px solid #3182ce; }
+    .osn-prov .badge       { background:#3182ce; color:#fff; }
+    .osn-prov .card-header h2 { color:#2b6cb0; }
+    .osn-prov .answer-box  { border-left:4px solid #3182ce; }
+    .osn-nas .card-header  { background:#faf5ff; border-bottom:3px solid #805ad5; }
+    .osn-nas .badge        { background:#805ad5; color:#fff; }
+    .osn-nas .card-header h2 { color:#6b46c1; }
+    .osn-nas .answer-box   { border-left:4px solid #805ad5; }
+    .imso .card-header     { background:#f0fff4; border-bottom:3px solid #38a169; }
+    .imso .badge           { background:#38a169; color:#fff; }
+    .imso .card-header h2  { color:#276749; }
+    .imso .answer-box      { border-left:4px solid #38a169; }
+    .imc .card-header      { background:#fffaf0; border-bottom:3px solid #dd6b20; }
+    .imc .badge            { background:#dd6b20; color:#fff; }
+    .imc .card-header h2   { color:#c05621; }
+    .imc .answer-box       { border-left:4px solid #dd6b20; }
+    .card-header h2 { font-size:1rem; font-weight:700; }
+    .card-body { padding:24px; }
+    .topic-tag {
+      display:inline-block; font-size:.75rem; background:#edf2f7;
+      color:#4a5568; padding:3px 10px; border-radius:999px;
+      margin-bottom:16px; font-weight:600;
+    }
+    .question { font-size:.97rem; margin-bottom:16px; color:#2d3748; }
+    .question strong { display:block; font-size:1rem; margin-bottom:8px; color:#1a202c; }
+    .hint { font-size:.82rem; color:#a0aec0; font-style:italic; margin-bottom:20px; }
+    details { margin-top:4px; }
+    summary {
+      cursor:pointer; font-weight:700; font-size:.88rem; color:#4a5568;
+      padding:10px 14px; background:#f7fafc; border-radius:8px;
+      user-select:none; list-style:none; display:flex; align-items:center; gap:8px;
+    }
+    summary::before { content:'▶'; font-size:.7rem; transition:transform .2s; }
+    details[open] summary::before { transform:rotate(90deg); }
+    .answer-box {
+      margin-top:12px; padding:16px 20px;
+      background:#f7fafc; border-radius:0 8px 8px 8px; font-size:.9rem;
+    }
+    .answer-box .final { margin-top:12px; font-weight:700; font-size:1rem; color:#1a202c; }
+    .step { margin:6px 0; padding-left:8px; }
+    .step::before { content:'→ '; color:#a0aec0; }
+    .svg-wrap { display:flex; justify-content:center; margin:16px 0; }
+    table.t { border-collapse:collapse; width:100%; margin:10px 0; font-size:.88rem; }
+    table.t th, table.t td { border:1px solid #cbd5e0; padding:7px 11px; text-align:center; }
+    table.t th { background:#edf2f7; font-weight:700; }
+    footer { text-align:center; margin-top:48px; color:#a0aec0; font-size:.8rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🏆 Soal Olimpiade Matematika SD — Set 08</h1>
+  <p>OSN Provinsi &nbsp;·&nbsp; OSN Nasional &nbsp;·&nbsp; IMSO &nbsp;·&nbsp; IMC</p>
+</header>
+
+<div class="grid">
+
+<!-- ═══════════════════════════════════════════════════════
+     SOAL 1 · OSN PROVINSI · Rata-rata & Statistika Dasar
+     ═══════════════════════════════════════════════════════ -->
+<div class="card osn-prov">
+  <div class="card-header">
+    <span class="badge">OSN Provinsi</span>
+    <h2>Soal 1</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Statistika — Rata-rata, Median &amp; Modus</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      Nilai ulangan Matematika 9 siswa adalah:
+      <b>72, 85, 90, 68, 85, 76, 90, 85, 80</b>.
+      <br /><br />
+      <b>(a)</b> Tentukan <b>rata-rata</b> (mean) nilai tersebut.<br />
+      <b>(b)</b> Tentukan <b>median</b> (nilai tengah) data tersebut.<br />
+      <b>(c)</b> Tentukan <b>modus</b> (nilai yang paling sering muncul).<br />
+      <b>(d)</b> Seorang siswa ke-10 mengikuti susulan. Setelah nilainya dimasukkan,
+      rata-rata menjadi <b>82</b>. Berapa nilai siswa ke-10 tersebut?
+    </div>
+
+    <!-- SVG: diagram batang nilai 9 siswa -->
+    <div class="svg-wrap">
+      <svg width="380" height="200" viewBox="0 0 380 200"
+           xmlns="http://www.w3.org/2000/svg"
+           aria-label="Diagram batang nilai ulangan 9 siswa">
+        <rect width="380" height="200" rx="10" fill="#ebf8ff"/>
+
+        <!-- sumbu -->
+        <line x1="44" y1="10" x2="44" y2="160" stroke="#4a5568" stroke-width="2"/>
+        <line x1="44" y1="160" x2="375" y2="160" stroke="#4a5568" stroke-width="2"/>
+
+        <!-- grid horizontal setiap 20 nilai (60→100), skala: 100 nilai = 120px, 0 nilai = y160 -->
+        <!-- y = 160 - (nilai-60)/40 * 120 = 160 - (nilai-60)*3 -->
+        <g stroke="#bee3f8" stroke-width="1" stroke-dasharray="4,3">
+          <line x1="44" y1="130" x2="375" y2="130"/> <!-- 70 -->
+          <line x1="44" y1="100" x2="375" y2="100"/> <!-- 80 -->
+          <line x1="44" y1="70"  x2="375" y2="70"/>  <!-- 90 -->
+          <line x1="44" y1="40"  x2="375" y2="40"/>  <!-- 100 -->
+        </g>
+        <!-- label sumbu Y -->
+        <g fill="#718096" font-size="10" text-anchor="end">
+          <text x="40" y="163">60</text>
+          <text x="40" y="133">70</text>
+          <text x="40" y="103">80</text>
+          <text x="40" y="73">90</text>
+          <text x="40" y="43">100</text>
+        </g>
+
+        <!--
+          Data: 72,85,90,68,85,76,90,85,80
+          y_bar = 160 - (nilai-60)*3
+          72 → 160-36=124  bar height=36
+          85 → 160-75=85   bar height=75
+          90 → 160-90=70   bar height=90
+          68 → 160-24=136  bar height=24
+          85 → 85           bar height=75
+          76 → 160-48=112  bar height=48
+          90 → 70           bar height=90
+          85 → 85           bar height=75
+          80 → 160-60=100  bar height=60
+          bar width=28, gap=8, x_start=52
+          x_i = 52 + i*36
+        -->
+        <!-- batang -->
+        <rect x="52"  y="124" width="28" height="36"  rx="3" fill="#3182ce"/>
+        <rect x="88"  y="85"  width="28" height="75"  rx="3" fill="#e53e3e"/><!-- modus -->
+        <rect x="124" y="70"  width="28" height="90"  rx="3" fill="#3182ce"/>
+        <rect x="160" y="136" width="28" height="24"  rx="3" fill="#3182ce"/>
+        <rect x="196" y="85"  width="28" height="75"  rx="3" fill="#e53e3e"/><!-- modus -->
+        <rect x="232" y="112" width="28" height="48"  rx="3" fill="#3182ce"/>
+        <rect x="268" y="70"  width="28" height="90"  rx="3" fill="#3182ce"/>
+        <rect x="304" y="85"  width="28" height="75"  rx="3" fill="#e53e3e"/><!-- modus -->
+        <rect x="340" y="100" width="28" height="60"  rx="3" fill="#3182ce"/>
+
+        <!-- label nilai di atas batang -->
+        <g fill="#2d3748" font-size="10" text-anchor="middle" font-weight="bold">
+          <text x="66"  y="120">72</text>
+          <text x="102" y="81">85</text>
+          <text x="138" y="66">90</text>
+          <text x="174" y="132">68</text>
+          <text x="210" y="81">85</text>
+          <text x="246" y="108">76</text>
+          <text x="282" y="66">90</text>
+          <text x="318" y="81">85</text>
+          <text x="354" y="96">80</text>
+        </g>
+
+        <!-- label siswa di bawah -->
+        <g fill="#718096" font-size="9" text-anchor="middle">
+          <text x="66"  y="174">S1</text>
+          <text x="102" y="174">S2</text>
+          <text x="138" y="174">S3</text>
+          <text x="174" y="174">S4</text>
+          <text x="210" y="174">S5</text>
+          <text x="246" y="174">S6</text>
+          <text x="282" y="174">S7</text>
+          <text x="318" y="174">S8</text>
+          <text x="354" y="174">S9</text>
+        </g>
+
+        <!-- legenda modus -->
+        <rect x="52" y="183" width="12" height="10" rx="2" fill="#e53e3e"/>
+        <text x="68" y="192" fill="#718096" font-size="10">= modus (85)</text>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk: Urutkan data terlebih dahulu untuk mencari median. Rata-rata = jumlah semua nilai ÷ banyak data.</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Data diurutkan: 68, 72, 76, 80, 85, 85, 85, 90, 90</b>
+
+        <b>Bagian (a) — Rata-rata:</b>
+        <div class="step">Jumlah = 68+72+76+80+85+85+85+90+90 = 731</div>
+        <div class="step">Rata-rata = 731 ÷ 9 = <b>81,2</b></div>
+
+        <b>Bagian (b) — Median (data ke-5 dari 9):</b>
+        <div class="step">Data urut: 68, 72, 76, 80, <u>85</u>, 85, 85, 90, 90</div>
+        <div class="step">Median = nilai ke-5 = <b>85</b></div>
+
+        <b>Bagian (c) — Modus:</b>
+        <div class="step">85 muncul 3 kali (paling sering) → Modus = <b>85</b></div>
+
+        <b>Bagian (d) — Nilai siswa ke-10:</b>
+        <div class="step">Rata-rata baru = 82, jumlah data = 10</div>
+        <div class="step">Total nilai baru = 82 × 10 = 820</div>
+        <div class="step">Nilai siswa ke-10 = 820 − 731 = <b>89</b></div>
+
+        <p class="final">✅ Jawaban: (a) 81,2 &nbsp;|&nbsp; (b) 85 &nbsp;|&nbsp; (c) 85 &nbsp;|&nbsp; (d) 89</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     SOAL 2 · OSN NASIONAL · Kesebangunan Segitiga
+     ═══════════════════════════════════════════════════════ -->
+<div class="card osn-nas">
+  <div class="card-header">
+    <span class="badge">OSN Nasional</span>
+    <h2>Soal 2</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Geometri — Kesebangunan &amp; Perbandingan Sisi Segitiga</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      Pada segitiga <b>ABC</b>, titik <b>D</b> terletak pada sisi <b>BC</b> sehingga
+      <b>AD ⊥ BC</b> (AD tegak lurus BC). Diketahui:
+      <b>AB = 15 cm</b>, <b>AC = 20 cm</b>, <b>BC = 25 cm</b>.
+      <br /><br />
+      <b>(a)</b> Tunjukkan bahwa segitiga ABC adalah segitiga siku-siku.
+      Di sudut mana siku-sikunya?<br />
+      <b>(b)</b> Hitung panjang <b>AD</b> (tinggi dari A ke BC).<br />
+      <b>(c)</b> Hitung panjang <b>BD</b> dan <b>DC</b>.<br />
+      <b>(d)</b> Segitiga <b>ABD</b> sebangun dengan segitiga <b>CAD</b>.
+      Tuliskan pasangan sisi yang sebanding.
+    </div>
+
+    <!-- SVG: segitiga ABC dengan garis tinggi AD, akurat proporsional -->
+    <div class="svg-wrap">
+      <svg width="360" height="260" viewBox="0 0 360 260"
+           xmlns="http://www.w3.org/2000/svg"
+           aria-label="Segitiga ABC siku-siku di A dengan garis tinggi AD ke BC">
+        <rect width="360" height="260" rx="10" fill="#faf5ff"/>
+
+        <!--
+          Segitiga siku-siku di A: AB=15, AC=20, BC=25
+          Letakkan B di kiri, C di kanan, A di atas.
+          BD = AB²/BC = 225/25 = 9
+          DC = AC²/BC = 400/25 = 16
+          AD = AB*AC/BC = 300/25 = 12
+
+          Koordinat (skala 1cm = 8px):
+          B = (60, 220)
+          C = (60 + 25*8, 220) = (260, 220)
+          D = (60 + 9*8, 220) = (132, 220)
+          A = (132, 220 - 12*8) = (132, 124)
+        -->
+
+        <!-- garis tinggi AD (putus-putus) -->
+        <line x1="132" y1="124" x2="132" y2="220"
+              stroke="#e53e3e" stroke-width="2" stroke-dasharray="6,4"/>
+
+        <!-- tanda siku di D -->
+        <rect x="132" y="208" width="10" height="10"
+              fill="none" stroke="#e53e3e" stroke-width="1.5"/>
+
+        <!-- segitiga ABC -->
+        <polygon points="132,124 60,220 260,220"
+                 fill="rgba(128,90,213,0.12)" stroke="#805ad5" stroke-width="2.5"/>
+
+        <!-- tanda siku di A -->
+        <rect x="132" y="124" width="11" height="11"
+              fill="none" stroke="#805ad5" stroke-width="1.5"
+              transform="rotate(45,137.5,129.5)"/>
+
+        <!-- titik-titik -->
+        <circle cx="132" cy="124" r="5" fill="#805ad5"/>
+        <circle cx="60"  cy="220" r="5" fill="#805ad5"/>
+        <circle cx="260" cy="220" r="5" fill="#805ad5"/>
+        <circle cx="132" cy="220" r="5" fill="#e53e3e"/>
+
+        <!-- label titik -->
+        <text x="132" y="112" text-anchor="middle" fill="#6b46c1" font-size="14" font-weight="bold">A</text>
+        <text x="46"  y="234" text-anchor="middle" fill="#6b46c1" font-size="14" font-weight="bold">B</text>
+        <text x="274" y="234" text-anchor="middle" fill="#6b46c1" font-size="14" font-weight="bold">C</text>
+        <text x="132" y="238" text-anchor="middle" fill="#c53030" font-size="13" font-weight="bold">D</text>
+
+        <!-- label sisi AB -->
+        <text x="88"  y="172" text-anchor="middle" fill="#2b6cb0" font-size="12" font-weight="bold"
+              transform="rotate(-52,88,172)">AB = 15 cm</text>
+
+        <!-- label sisi AC -->
+        <text x="202" y="168" text-anchor="middle" fill="#276749" font-size="12" font-weight="bold"
+              transform="rotate(37,202,168)">AC = 20 cm</text>
+
+        <!-- label sisi BC -->
+        <text x="160" y="244" text-anchor="middle" fill="#6b46c1" font-size="12" font-weight="bold">BC = 25 cm</text>
+
+        <!-- label AD -->
+        <text x="148" y="176" text-anchor="start" fill="#e53e3e" font-size="11" font-weight="bold">AD = ?</text>
+
+        <!-- label BD -->
+        <text x="96"  y="212" text-anchor="middle" fill="#718096" font-size="10">BD = ?</text>
+        <!-- label DC -->
+        <text x="196" y="212" text-anchor="middle" fill="#718096" font-size="10">DC = ?</text>
+
+        <!-- dimensi BD (9 cm) dan DC (16 cm) dengan tick -->
+        <line x1="60"  y1="228" x2="132" y2="228" stroke="#718096" stroke-width="1.2"/>
+        <line x1="60"  y1="224" x2="60"  y2="232" stroke="#718096" stroke-width="1.2"/>
+        <line x1="132" y1="224" x2="132" y2="232" stroke="#718096" stroke-width="1.2"/>
+        <line x1="132" y1="228" x2="260" y2="228" stroke="#718096" stroke-width="1.2"/>
+        <line x1="260" y1="224" x2="260" y2="232" stroke="#718096" stroke-width="1.2"/>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk: Cek teorema Pythagoras. AD = (AB × AC) / BC. BD = AB² / BC. DC = AC² / BC.</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Bagian (a) — Apakah siku-siku?</b>
+        <div class="step">Cek: AB² + AC² = 15² + 20² = 225 + 400 = 625 = 25² = BC² ✓</div>
+        <div class="step">Segitiga ABC adalah segitiga siku-siku, <b>siku-siku di A</b>.</div>
+
+        <b>Bagian (b) — Panjang AD:</b>
+        <div class="step">Luas △ABC = ½ × AB × AC = ½ × 15 × 20 = 150 cm²</div>
+        <div class="step">Luas △ABC = ½ × BC × AD → 150 = ½ × 25 × AD</div>
+        <div class="step">AD = 300 / 25 = <b>12 cm</b></div>
+
+        <b>Bagian (c) — Panjang BD dan DC:</b>
+        <div class="step">BD = AB² / BC = 225 / 25 = <b>9 cm</b></div>
+        <div class="step">DC = AC² / BC = 400 / 25 = <b>16 cm</b></div>
+        <div class="step">Cek: BD + DC = 9 + 16 = 25 = BC ✓</div>
+
+        <b>Bagian (d) — Kesebangunan △ABD ~ △CAD:</b>
+        <table class="t">
+          <tr><th>△ABD</th><th>△CAD</th><th>Perbandingan</th></tr>
+          <tr><td>AB = 15</td><td>CA = 20</td><td>15/20 = 3/4</td></tr>
+          <tr><td>BD = 9</td><td>AD = 12</td><td>9/12 = 3/4</td></tr>
+          <tr><td>AD = 12</td><td>CD = 16</td><td>12/16 = 3/4</td></tr>
+        </table>
+        <div class="step">AB/CA = BD/AD = AD/CD = <b>3/4</b> ✓ (sebangun)</div>
+
+        <p class="final">✅ Jawaban: (a) Siku-siku di A &nbsp;|&nbsp; (b) AD = 12 cm &nbsp;|&nbsp; (c) BD = 9 cm, DC = 16 cm &nbsp;|&nbsp; (d) rasio 3:4</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     SOAL 3 · IMSO · Barisan Fibonacci & Sifat Bilangan
+     ═══════════════════════════════════════════════════════ -->
+<div class="card imso">
+  <div class="card-header">
+    <span class="badge">IMSO</span>
+    <h2>Soal 3</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Teori Bilangan — Barisan Fibonacci &amp; Sifat Bilangan Khusus</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      Barisan Fibonacci didefinisikan: <b>F₁ = 1, F₂ = 1</b>, dan
+      <b>Fₙ = Fₙ₋₁ + Fₙ₋₂</b> untuk n ≥ 3.
+      Sehingga: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, …
+      <br /><br />
+      <b>(a)</b> Tuliskan 5 suku berikutnya (F₁₁ hingga F₁₅).<br />
+      <b>(b)</b> Amati suku-suku Fibonacci yang <b>genap</b>. Suku ke berapa sajakah yang genap?
+      Temukan polanya.<br />
+      <b>(c)</b> Hitung <b>F₁ + F₂ + F₃ + … + F₁₀</b>. Bandingkan hasilnya dengan F₁₂.
+      Apa yang kamu temukan?<br />
+      <b>(d)</b> Buktikan bahwa <b>F₁² + F₂² + … + Fₙ²  = Fₙ × Fₙ₊₁</b>
+      untuk n = 4 (verifikasi numerik).
+    </div>
+
+    <!-- SVG: spiral Fibonacci dengan kotak-kotak proporsional -->
+    <div class="svg-wrap">
+      <svg width="360" height="240" viewBox="0 0 360 240"
+           xmlns="http://www.w3.org/2000/svg"
+           aria-label="Spiral Fibonacci dengan kotak-kotak berukuran 1,1,2,3,5,8">
+        <rect width="360" height="240" rx="10" fill="#f0fff4"/>
+
+        <!--
+          Spiral Fibonacci: kotak 1,1,2,3,5,8 (skala 1 unit = 18px)
+          Susun dari tengah ke luar:
+          Kotak F1=1: (180,120) 18×18
+          Kotak F2=1: di kanan F1
+          Kotak F3=2: di bawah F1+F2
+          Kotak F4=3: di kiri F3
+          Kotak F5=5: di atas F4+F1+F2
+          Kotak F6=8: di kanan semua
+
+          Koordinat (origin kiri-atas setiap kotak):
+          F1 (1×1): x=180, y=102  → 18×18
+          F2 (1×1): x=198, y=102  → 18×18
+          F3 (2×2): x=180, y=120  → 36×36
+          F4 (3×3): x=144, y=102  → 54×54
+          F5 (5×5): x=144, y=48   → 90×90
+          F6 (8×8): x=234, y=48   → 144×144
+        -->
+
+        <!-- kotak F6 = 8 -->
+        <rect x="234" y="48" width="144" height="144" rx="3"
+              fill="rgba(56,161,105,0.12)" stroke="#38a169" stroke-width="2"/>
+        <text x="306" y="122" text-anchor="middle" fill="#276749" font-size="13" font-weight="bold">8</text>
+
+        <!-- kotak F5 = 5 -->
+        <rect x="144" y="48" width="90" height="90" rx="3"
+              fill="rgba(56,161,105,0.18)" stroke="#38a169" stroke-width="2"/>
+        <text x="189" y="96" text-anchor="middle" fill="#276749" font-size="12" font-weight="bold">5</text>
+
+        <!-- kotak F4 = 3 -->
+        <rect x="144" y="102" width="54" height="54" rx="3"
+              fill="rgba(56,161,105,0.25)" stroke="#38a169" stroke-width="2"/>
+        <text x="171" y="132" text-anchor="middle" fill="#276749" font-size="12" font-weight="bold">3</text>
+
+        <!-- kotak F3 = 2 -->
+        <rect x="180" y="120" width="36" height="36" rx="3"
+              fill="rgba(56,161,105,0.35)" stroke="#38a169" stroke-width="2"/>
+        <text x="198" y="141" text-anchor="middle" fill="#276749" font-size="11" font-weight="bold">2</text>
+
+        <!-- kotak F2 = 1 -->
+        <rect x="198" y="102" width="18" height="18" rx="2"
+              fill="rgba(56,161,105,0.5)" stroke="#38a169" stroke-width="1.5"/>
+        <text x="207" y="114" text-anchor="middle" fill="#276749" font-size="9" font-weight="bold">1</text>
+
+        <!-- kotak F1 = 1 -->
+        <rect x="180" y="102" width="18" height="18" rx="2"
+              fill="rgba(56,161,105,0.65)" stroke="#38a169" stroke-width="1.5"/>
+        <text x="189" y="114" text-anchor="middle" fill="#276749" font-size="9" font-weight="bold">1</text>
+
+        <!-- spiral arc F1→F2 -->
+        <path d="M198,102 A18,18 0 0,1 216,120" fill="none" stroke="#e53e3e" stroke-width="2"/>
+        <!-- spiral arc F2→F3 -->
+        <path d="M216,120 A36,36 0 0,1 180,156" fill="none" stroke="#e53e3e" stroke-width="2"/>
+        <!-- spiral arc F3→F4 -->
+        <path d="M180,156 A54,54 0 0,1 144,102" fill="none" stroke="#e53e3e" stroke-width="2"/>
+        <!-- spiral arc F4→F5 -->
+        <path d="M144,102 A90,90 0 0,1 234,48" fill="none" stroke="#e53e3e" stroke-width="2"/>
+        <!-- spiral arc F5→F6 -->
+        <path d="M234,48 A144,144 0 0,1 234,192" fill="none" stroke="#e53e3e" stroke-width="2"/>
+
+        <!-- barisan di bawah -->
+        <text x="180" y="210" text-anchor="middle" fill="#718096" font-size="11">
+          1, 1, 2, 3, 5, 8, 13, 21, 34, 55, …
+        </text>
+        <text x="180" y="226" text-anchor="middle" fill="#276749" font-size="11" font-weight="bold">
+          Fₙ = Fₙ₋₁ + Fₙ₋₂
+        </text>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk (b): Perhatikan posisi suku genap — apakah setiap suku ke-3? (c): Bandingkan jumlah dengan F₁₂ − 1.</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Barisan lengkap F₁–F₁₅:</b>
+        <table class="t">
+          <tr>
+            <th>n</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>
+            <td>6</td><td>7</td><td>8</td><td>9</td><td>10</td>
+            <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td>
+          </tr>
+          <tr>
+            <th>Fₙ</th><td>1</td><td>1</td><td>2</td><td>3</td><td>5</td>
+            <td>8</td><td>13</td><td>21</td><td>34</td><td>55</td>
+            <td style="background:#c6f6d5;font-weight:bold">89</td>
+            <td style="background:#c6f6d5;font-weight:bold">144</td>
+            <td style="background:#c6f6d5;font-weight:bold">233</td>
+            <td style="background:#c6f6d5;font-weight:bold">377</td>
+            <td style="background:#c6f6d5;font-weight:bold">610</td>
+          </tr>
+        </table>
+
+        <b>Bagian (a):</b>
+        <div class="step">F₁₁=89, F₁₂=144, F₁₃=233, F₁₄=377, F₁₅=610</div>
+
+        <b>Bagian (b) — Suku Fibonacci yang genap:</b>
+        <div class="step">Genap: F₃=2, F₆=8, F₉=34, F₁₂=144, F₁₅=610, …</div>
+        <div class="step">Pola: <b>setiap suku ke-3</b> (n = 3, 6, 9, 12, …) adalah genap.</div>
+
+        <b>Bagian (c) — Jumlah F₁ s.d. F₁₀:</b>
+        <div class="step">1+1+2+3+5+8+13+21+34+55 = <b>143</b></div>
+        <div class="step">F₁₂ = 144 → Jumlah = F₁₂ − 1 = 143</div>
+        <div class="step">Temuan: <b>F₁+F₂+…+Fₙ = Fₙ₊₂ − 1</b></div>
+
+        <b>Bagian (d) — Verifikasi F₁²+F₂²+F₃²+F₄² = F₄×F₅ (n=4):</b>
+        <div class="step">1² + 1² + 2² + 3² = 1 + 1 + 4 + 9 = 15</div>
+        <div class="step">F₄ × F₅ = 3 × 5 = 15 ✓</div>
+
+        <p class="final">✅ Jawaban: (a) 89,144,233,377,610 &nbsp;|&nbsp; (b) setiap suku ke-3 &nbsp;|&nbsp; (c) 143 = F₁₂−1 &nbsp;|&nbsp; (d) 15 = 15 ✓</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     SOAL 4 · IMC · Pewarnaan & Invariant
+     ═══════════════════════════════════════════════════════ -->
+<div class="card imc">
+  <div class="card-header">
+    <span class="badge">IMC</span>
+    <h2>Soal 4</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Geometri Kombinatorik — Pewarnaan &amp; Invariant</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      Perhatikan papan catur berukuran <b>4 × 4</b> yang diwarnai hitam-putih
+      seperti papan catur biasa (pojok kiri-atas = putih).
+      <br /><br />
+      <b>(a)</b> Berapa banyak kotak <b>putih</b> dan berapa banyak kotak <b>hitam</b>?<br />
+      <b>(b)</b> Seekor kuda catur (knight) melompat dari kotak putih.
+      Setelah <b>satu lompatan</b>, apakah kuda berada di kotak putih atau hitam?
+      Jelaskan mengapa (gunakan argumen invariant warna).<br />
+      <b>(c)</b> Bisakah kuda catur mengunjungi <b>semua 16 kotak</b> tepat satu kali
+      dan kembali ke posisi awal (Hamiltonian circuit)? Jelaskan dengan argumen warna.<br />
+      <b>(d)</b> Pada papan 4×4, berapa banyak pasang kotak yang <b>berbeda warna</b>
+      dan bersebelahan (horizontal atau vertikal)?
+    </div>
+
+    <!-- SVG: papan catur 4×4 dengan posisi kuda dan lompatan knight -->
+    <div class="svg-wrap">
+      <svg width="360" height="280" viewBox="0 0 360 280"
+           xmlns="http://www.w3.org/2000/svg"
+           aria-label="Papan catur 4x4 dengan ilustrasi lompatan kuda">
+        <rect width="360" height="280" rx="10" fill="#fffaf0"/>
+
+        <!-- judul -->
+        <text x="100" y="18" text-anchor="middle" fill="#c05621" font-size="12" font-weight="bold">
+          Papan 4×4
+        </text>
+
+        <!--
+          Papan 4×4, kotak 40×40, origin (20,28)
+          (col,row) → x=20+col*40, y=28+row*40
+          Warna: putih jika (col+row) genap, hitam jika ganjil
+        -->
+
+        <!-- baris 0 -->
+        <rect x="20"  y="28" width="40" height="40" fill="#f7fafc" stroke="#a0aec0" stroke-width="1"/>
+        <rect x="60"  y="28" width="40" height="40" fill="#2d3748" stroke="#a0aec0" stroke-width="1"/>
+        <rect x="100" y="28" width="40" height="40" fill="#f7fafc" stroke="#a0aec0" stroke-width="1"/>
+        <rect x="140" y="28" width="40" height="40" fill="#2d3748" stroke="#a0aec0" stroke-width="1"/>
+        <!-- baris 1 -->
+        <rect x="20"  y="68" width="40" height="40" fill="#2d3748" stroke="#a0aec0" stroke-width="1"/>
+        <rect x="60"  y="68" width="40" height="40" fill="#f7fafc" stroke="#a0aec0" stroke-width="1"/>
+        <rect x="100" y="68" width="40" height="40" fill="#2d3748" stroke="#a0aec0" stroke-width="1"/>
+        <rect x="140" y="68" width="40" height="40" fill="#f7fafc" stroke="#a0aec0" stroke-width="1"/>
+        <!-- baris 2 -->
+        <rect x="20"  y="108" width="40" height="40" fill="#f7fafc" stroke="#a0aec0" stroke-width="1"/>
+        <rect x="60"  y="108" width="40" height="40" fill="#2d3748" stroke="#a0aec0" stroke-width="1"/>
+        <rect x="100" y="108" width="40" height="40" fill="#f7fafc" stroke="#a0aec0" stroke-width="1"/>
+        <rect x="140" y="108" width="40" height="40" fill="#2d3748" stroke="#a0aec0" stroke-width="1"/>
+        <!-- baris 3 -->
+        <rect x="20"  y="148" width="40" height="40" fill="#2d3748" stroke="#a0aec0" stroke-width="1"/>
+        <rect x="60"  y="148" width="40" height="40" fill="#f7fafc" stroke="#a0aec0" stroke-width="1"/>
+        <rect x="100" y="148" width="40" height="40" fill="#2d3748" stroke="#a0aec0" stroke-width="1"/>
+        <rect x="140" y="148" width="40" height="40" fill="#f7fafc" stroke="#a0aec0" stroke-width="1"/>
+
+        <!-- label koordinat kolom -->
+        <g fill="#718096" font-size="10" text-anchor="middle">
+          <text x="40"  y="202">0</text>
+          <text x="80"  y="202">1</text>
+          <text x="120" y="202">2</text>
+          <text x="160" y="202">3</text>
+        </g>
+        <!-- label koordinat baris -->
+        <g fill="#718096" font-size="10" text-anchor="end">
+          <text x="16" y="52">0</text>
+          <text x="16" y="92">1</text>
+          <text x="16" y="132">2</text>
+          <text x="16" y="172">3</text>
+        </g>
+
+        <!-- kuda di (0,0) = putih -->
+        <circle cx="40" cy="48" r="14" fill="#dd6b20" opacity="0.9"/>
+        <text x="40" y="53" text-anchor="middle" fill="white" font-size="16">♞</text>
+
+        <!-- lompatan knight dari (0,0): bisa ke (1,2) atau (2,1) -->
+        <!-- ke (1,2): x=80+20=100, y=108+20=128 → hitam (1+2=3 ganjil) -->
+        <defs>
+          <marker id="ak" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto">
+            <path d="M0,0 L0,6 L8,3 z" fill="#dd6b20"/>
+          </marker>
+        </defs>
+        <line x1="40" y1="48" x2="96" y2="122"
+              stroke="#dd6b20" stroke-width="2" stroke-dasharray="5,3"
+              marker-end="url(#ak)"/>
+        <text x="58" y="90" fill="#dd6b20" font-size="10" font-weight="bold">+2,+1</text>
+
+        <!-- ke (2,1): x=100+20=120, y=68+20=88 → hitam (2+1=3 ganjil) -->
+        <line x1="40" y1="48" x2="116" y2="84"
+              stroke="#c05621" stroke-width="2" stroke-dasharray="5,3"
+              marker-end="url(#ak)"/>
+        <text x="90" y="58" fill="#c05621" font-size="10" font-weight="bold">+1,+2</text>
+
+        <!-- highlight tujuan lompatan (hitam) -->
+        <rect x="60"  y="68"  width="40" height="40" fill="none" stroke="#dd6b20" stroke-width="3" rx="3"/>
+        <rect x="100" y="108" width="40" height="40" fill="none" stroke="#dd6b20" stroke-width="3" rx="3"/>
+
+        <!-- ── Kanan: penjelasan warna ── -->
+        <text x="260" y="18" text-anchor="middle" fill="#c05621" font-size="11" font-weight="bold">
+          Lompatan Knight
+        </text>
+
+        <!-- kotak putih contoh -->
+        <rect x="210" y="28" width="30" height="30" rx="3" fill="#f7fafc" stroke="#a0aec0" stroke-width="1.5"/>
+        <text x="225" y="48" text-anchor="middle" fill="#2d3748" font-size="10">P</text>
+        <text x="248" y="48" fill="#4a5568" font-size="11">= Putih (8)</text>
+
+        <!-- kotak hitam contoh -->
+        <rect x="210" y="68" width="30" height="30" rx="3" fill="#2d3748" stroke="#a0aec0" stroke-width="1.5"/>
+        <text x="225" y="88" text-anchor="middle" fill="white" font-size="10">H</text>
+        <text x="248" y="88" fill="#4a5568" font-size="11">= Hitam (8)</text>
+
+        <!-- penjelasan lompatan -->
+        <text x="210" y="120" fill="#4a5568" font-size="10">Knight: (±1,±2) atau</text>
+        <text x="210" y="134" fill="#4a5568" font-size="10">(±2,±1)</text>
+        <text x="210" y="150" fill="#4a5568" font-size="10">Δ(col+row) = 1+2 = 3</text>
+        <text x="210" y="164" fill="#dd6b20" font-size="10" font-weight="bold">→ ganjil → ganti warna</text>
+
+        <!-- pasangan bersebelahan -->
+        <text x="210" y="190" fill="#4a5568" font-size="10" font-weight="bold">Pasangan bersebelahan:</text>
+        <text x="210" y="204" fill="#4a5568" font-size="10">Horizontal: 4 baris × 3 = 12</text>
+        <text x="210" y="218" fill="#4a5568" font-size="10">Vertikal: 4 kolom × 3 = 12</text>
+        <text x="210" y="232" fill="#dd6b20" font-size="10" font-weight="bold">Total = 24 pasang</text>
+        <text x="210" y="246" fill="#718096" font-size="9">(semua bersebelahan = beda warna)</text>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk: Lompatan knight selalu mengubah warna kotak karena Δ(baris+kolom) = 1+2 = 3 (ganjil). Untuk Hamiltonian circuit: harus berganti warna setiap langkah.</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Bagian (a) — Jumlah kotak putih dan hitam:</b>
+        <div class="step">Papan 4×4 = 16 kotak. Putih = Hitam = <b>8 kotak</b> masing-masing.</div>
+
+        <b>Bagian (b) — Warna setelah satu lompatan knight:</b>
+        <div class="step">Lompatan knight: (±1, ±2) atau (±2, ±1)</div>
+        <div class="step">Perubahan (baris + kolom) = 1+2 = 3 → ganjil</div>
+        <div class="step">Kotak putih: (baris+kolom) genap. Setelah lompat: genap + ganjil = ganjil → <b>hitam</b></div>
+        <div class="step">Invariant: knight <b>selalu berganti warna</b> setiap lompatan.</div>
+
+        <b>Bagian (c) — Hamiltonian circuit pada papan 4×4:</b>
+        <div class="step">Hamiltonian circuit = 16 lompatan kembali ke awal.</div>
+        <div class="step">Setiap lompatan berganti warna → setelah 16 lompatan (genap), kembali ke warna awal ✓</div>
+        <div class="step">Namun, urutan warna harus: P-H-P-H-… (bergantian ketat).</div>
+        <div class="step">Dengan 8 putih dan 8 hitam, secara teori mungkin dari sisi warna.</div>
+        <div class="step">Faktanya: <b>tidak ada</b> Hamiltonian circuit pada papan 4×4 untuk knight — terbukti secara konstruktif (tidak ada jalur yang valid).</div>
+
+        <b>Bagian (d) — Pasangan kotak berbeda warna yang bersebelahan:</b>
+        <div class="step">Setiap pasangan bersebelahan (H/V) pasti berbeda warna (sifat papan catur).</div>
+        <div class="step">Pasangan horizontal: 4 baris × 3 pasang = 12</div>
+        <div class="step">Pasangan vertikal: 4 kolom × 3 pasang = 12</div>
+        <div class="step">Total = 12 + 12 = <b>24 pasang</b></div>
+
+        <p class="final">✅ Jawaban: (a) 8 putih, 8 hitam &nbsp;|&nbsp; (b) selalu hitam (ganti warna) &nbsp;|&nbsp; (c) tidak ada &nbsp;|&nbsp; (d) 24 pasang</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+</div><!-- end .grid -->
+
+<footer>
+  <p>Soal Olimpiade Matematika SD — Set 08 &nbsp;·&nbsp; OSN · IMSO · IMC &nbsp;·&nbsp; Dibuat dengan Kiro</p>
+</footer>
+</body>
+</html>
