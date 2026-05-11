@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soal Olimpiade Matematika SD — Set 05</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8;
+      color: #1a202c;
+      padding: 32px 16px;
+      line-height: 1.7;
+    }
+    header { text-align: center; margin-bottom: 40px; }
+    header h1 { font-size: 2rem; color: #2b6cb0; margin-bottom: 8px; }
+    header p { color: #718096; font-size: 0.95rem; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+      gap: 28px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .card { background: #fff; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); overflow: hidden; }
+    .card-header { padding: 16px 24px; display: flex; align-items: center; gap: 12px; }
+    .badge {
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; padding: 4px 10px; border-radius: 999px; white-space: nowrap;
+    }
+
+    /* OSN Provinsi — biru */
+    .osn-prov .card-header { background: #ebf8ff; border-bottom: 3px solid #3182ce; }
+    .osn-prov .badge { background: #3182ce; color: #fff; }
+    .osn-prov .card-header h2 { color: #2b6cb0; }
+    .osn-prov .answer-box { border-left: 4px solid #3182ce; }
+
+    /* OSN Nasional — ungu */
+    .osn-nas .card-header { background: #faf5ff; border-bottom: 3px solid #805ad5; }
+    .osn-nas .badge { background: #805ad5; color: #fff; }
+    .osn-nas .card-header h2 { color: #6b46c1; }
+    .osn-nas .answer-box { border-left: 4px solid #805ad5; }
+
+    /* IMSO — hijau */
+    .imso .card-header { background: #f0fff4; border-bottom: 3px solid #38a169; }
+    .imso .badge { background: #38a169; color: #fff; }
+    .imso .card-header h2 { color: #276749; }
+    .imso .answer-box { border-left: 4px solid #38a169; }
+
+    /* IMC — oranye */
+    .imc .card-header { background: #fffaf0; border-bottom: 3px solid #dd6b20; }
+    .imc .badge { background: #dd6b20; color: #fff; }
+    .imc .card-header h2 { color: #c05621; }
+    .imc .answer-box { border-left: 4px solid #dd6b20; }
+
+    .card-header h2 { font-size: 1rem; font-weight: 700; }
+    .card-body { padding: 24px; }
+    .topic-tag {
+      display: inline-block; font-size: 0.75rem; background: #edf2f7;
+      color: #4a5568; padding: 3px 10px; border-radius: 999px;
+      margin-bottom: 16px; font-weight: 600;
+    }
+    .question { font-size: 0.97rem; margin-bottom: 16px; color: #2d3748; }
+    .question strong { display: block; font-size: 1rem; margin-bottom: 8px; color: #1a202c; }
+    .hint { font-size: 0.82rem; color: #a0aec0; font-style: italic; margin-bottom: 20px; }
+
+    details { margin-top: 4px; }
+    summary {
+      cursor: pointer; font-weight: 700; font-size: 0.88rem; color: #4a5568;
+      padding: 10px 14px; background: #f7fafc; border-radius: 8px;
+      user-select: none; list-style: none; display: flex; align-items: center; gap: 8px;
+    }
+    summary::before { content: '▶'; font-size: 0.7rem; transition: transform 0.2s; }
+    details[open] summary::before { transform: rotate(90deg); }
+
+    .answer-box {
+      margin-top: 12px; padding: 16px 20px;
+      background: #f7fafc; border-radius: 0 8px 8px 8px; font-size: 0.9rem;
+    }
+    .answer-box .final { margin-top: 12px; font-weight: 700; font-size: 1rem; color: #1a202c; }
+    .step { margin: 6px 0; padding-left: 8px; }
+    .step::before { content: '→ '; color: #a0aec0; }
+
+    .svg-wrap { display: flex; justify-content: center; margin: 16px 0; }
+
+    table.soal-table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 0.88rem; }
+    table.soal-table th, table.soal-table td {
+      border: 1px solid #cbd5e0; padding: 8px 12px; text-align: center;
+    }
+    table.soal-table th { background: #edf2f7; font-weight: 700; }
+
+    footer { text-align: center; margin-top: 48px; color: #a0aec0; font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🏆 Soal Olimpiade Matematika SD — Set 05</h1>
+  <p>OSN Provinsi &nbsp;·&nbsp; OSN Nasional &nbsp;·&nbsp; IMSO &nbsp;·&nbsp; IMC</p>
+</header>
+
+<div class="grid">
+
+<!-- ═══════════════════════════════════════════════════════════
+     SOAL 1 · OSN PROVINSI · Pecahan & Desimal
+     ═══════════════════════════════════════════════════════════ -->
+<div class="card osn-prov">
+  <div class="card-header">
+    <span class="badge">OSN Provinsi</span>
+    <h2>Soal 1</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Aritmetika — Pecahan &amp; Desimal</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      Ibu membeli 3 jenis bahan kue. Tepung terigu sebanyak
+      <b>2¾ kg</b>, gula pasir sebanyak <b>1,6 kg</b>, dan mentega sebanyak
+      <b>¾ kg</b>.
+      <br /><br />
+      <b>(a)</b> Berapa total berat semua bahan yang dibeli Ibu (dalam kg)?<br />
+      <b>(b)</b> Ibu menggunakan <b>⅗</b> dari tepung terigu dan <b>0,75 kg</b> gula pasir
+      untuk membuat kue pertama. Berapa kg sisa tepung terigu dan sisa gula pasir?<br />
+      <b>(c)</b> Jika harga tepung Rp 12.000/kg, gula Rp 15.000/kg, dan mentega Rp 20.000/kg,
+      berapa total uang yang dikeluarkan Ibu?
+    </div>
+
+    <!-- SVG: timbangan tiga bahan -->
+    <div class="svg-wrap">
+      <svg width="360" height="130" viewBox="0 0 360 130" xmlns="http://www.w3.org/2000/svg"
+           aria-label="Ilustrasi tiga bahan kue dengan beratnya">
+        <rect width="360" height="130" rx="10" fill="#ebf8ff"/>
+
+        <!-- Tepung -->
+        <rect x="20" y="30" width="90" height="60" rx="8" fill="#bee3f8" stroke="#3182ce" stroke-width="2"/>
+        <text x="65" y="56" text-anchor="middle" fill="#2b6cb0" font-size="12" font-weight="bold">Tepung</text>
+        <text x="65" y="74" text-anchor="middle" fill="#2b6cb0" font-size="13" font-weight="bold">2¾ kg</text>
+        <text x="65" y="108" text-anchor="middle" fill="#718096" font-size="10">Rp 12.000/kg</text>
+
+        <!-- Gula -->
+        <rect x="135" y="30" width="90" height="60" rx="8" fill="#fefcbf" stroke="#d69e2e" stroke-width="2"/>
+        <text x="180" y="56" text-anchor="middle" fill="#744210" font-size="12" font-weight="bold">Gula</text>
+        <text x="180" y="74" text-anchor="middle" fill="#744210" font-size="13" font-weight="bold">1,6 kg</text>
+        <text x="180" y="108" text-anchor="middle" fill="#718096" font-size="10">Rp 15.000/kg</text>
+
+        <!-- Mentega -->
+        <rect x="250" y="30" width="90" height="60" rx="8" fill="#fefce8" stroke="#d69e2e" stroke-width="2"/>
+        <text x="295" y="56" text-anchor="middle" fill="#744210" font-size="12" font-weight="bold">Mentega</text>
+        <text x="295" y="74" text-anchor="middle" fill="#744210" font-size="13" font-weight="bold">¾ kg</text>
+        <text x="295" y="108" text-anchor="middle" fill="#718096" font-size="10">Rp 20.000/kg</text>
+
+        <!-- tanda + -->
+        <text x="120" y="65" text-anchor="middle" fill="#4a5568" font-size="20" font-weight="bold">+</text>
+        <text x="235" y="65" text-anchor="middle" fill="#4a5568" font-size="20" font-weight="bold">+</text>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk: Ubah semua ke bentuk yang sama (pecahan biasa atau desimal) sebelum menjumlahkan.</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Bagian (a) — Total berat:</b>
+        <div class="step">2¾ = 2,75 kg</div>
+        <div class="step">Total = 2,75 + 1,6 + 0,75 = <b>5,1 kg</b></div>
+
+        <b>Bagian (b) — Sisa bahan:</b>
+        <div class="step">Tepung dipakai = ⅗ × 2¾ = ⅗ × 11/4 = 33/20 = 1,65 kg</div>
+        <div class="step">Sisa tepung = 2,75 − 1,65 = <b>1,1 kg</b></div>
+        <div class="step">Sisa gula = 1,6 − 0,75 = <b>0,85 kg</b></div>
+
+        <b>Bagian (c) — Total biaya:</b>
+        <div class="step">Tepung: 2,75 × Rp 12.000 = Rp 33.000</div>
+        <div class="step">Gula: 1,6 × Rp 15.000 = Rp 24.000</div>
+        <div class="step">Mentega: 0,75 × Rp 20.000 = Rp 15.000</div>
+        <div class="step">Total = Rp 33.000 + Rp 24.000 + Rp 15.000 = <b>Rp 72.000</b></div>
+
+        <p class="final">✅ Jawaban: (a) 5,1 kg &nbsp;|&nbsp; (b) Tepung 1,1 kg, Gula 0,85 kg &nbsp;|&nbsp; (c) Rp 72.000</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════
+     SOAL 2 · OSN NASIONAL · Bilangan Prima & Faktorisasi
+     ═══════════════════════════════════════════════════════════ -->
+<div class="card osn-nas">
+  <div class="card-header">
+    <span class="badge">OSN Nasional</span>
+    <h2>Soal 2</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Teori Bilangan — Bilangan Prima &amp; Faktorisasi</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      Perhatikan pertanyaan-pertanyaan berikut tentang bilangan prima dan faktorisasi.
+      <br /><br />
+      <b>(a)</b> Bilangan <b>N = 2³ × 3² × 7</b>. Berapa banyak faktor positif dari N?<br />
+      <b>(b)</b> Tentukan semua bilangan prima <b>p</b> sehingga <b>p² + 2</b> juga merupakan bilangan prima.<br />
+      <b>(c)</b> Sebuah bilangan dua digit jika digit satuannya dan digit puluhannnya dijumlahkan
+      menghasilkan <b>11</b>, dan hasil kali kedua digitnya adalah <b>28</b>.
+      Tentukan bilangan tersebut dan periksa apakah ia bilangan prima.
+    </div>
+
+    <!-- SVG: pohon faktor N = 2^3 × 3^2 × 7 -->
+    <div class="svg-wrap">
+      <svg width="360" height="200" viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg"
+           aria-label="Pohon faktor bilangan N = 504">
+        <rect width="360" height="200" rx="10" fill="#faf5ff"/>
+
+        <!-- judul -->
+        <text x="180" y="22" text-anchor="middle" fill="#6b46c1" font-size="13" font-weight="bold">
+          Pohon Faktor N = 2³ × 3² × 7 = 504
+        </text>
+
+        <!-- node helper: lingkaran + teks -->
+        <!-- Level 0: 504 -->
+        <circle cx="180" cy="50" r="20" fill="#805ad5" />
+        <text x="180" y="55" text-anchor="middle" fill="white" font-size="12" font-weight="bold">504</text>
+
+        <!-- cabang ke 2 dan 252 -->
+        <line x1="165" y1="68" x2="110" y2="95" stroke="#805ad5" stroke-width="1.5"/>
+        <line x1="195" y1="68" x2="250" y2="95" stroke="#805ad5" stroke-width="1.5"/>
+
+        <!-- Level 1 kiri: 2 (prima) -->
+        <circle cx="110" cy="110" r="18" fill="#d6bcfa" stroke="#805ad5" stroke-width="2"/>
+        <text x="110" y="115" text-anchor="middle" fill="#44337a" font-size="12" font-weight="bold">2</text>
+        <text x="110" y="145" text-anchor="middle" fill="#805ad5" font-size="10">prima ✓</text>
+
+        <!-- Level 1 kanan: 252 -->
+        <circle cx="250" cy="110" r="20" fill="#805ad5"/>
+        <text x="250" y="115" text-anchor="middle" fill="white" font-size="12" font-weight="bold">252</text>
+
+        <!-- cabang 252 ke 2 dan 126 -->
+        <line x1="236" y1="128" x2="195" y2="155" stroke="#805ad5" stroke-width="1.5"/>
+        <line x1="264" y1="128" x2="305" y2="155" stroke="#805ad5" stroke-width="1.5"/>
+
+        <!-- Level 2: 2 (prima) -->
+        <circle cx="195" cy="168" r="18" fill="#d6bcfa" stroke="#805ad5" stroke-width="2"/>
+        <text x="195" y="173" text-anchor="middle" fill="#44337a" font-size="12" font-weight="bold">2</text>
+
+        <!-- Level 2: 126 -->
+        <circle cx="305" cy="168" r="20" fill="#805ad5"/>
+        <text x="305" y="173" text-anchor="middle" fill="white" font-size="12" font-weight="bold">126</text>
+
+        <!-- label faktorisasi akhir -->
+        <text x="180" y="195" text-anchor="middle" fill="#718096" font-size="10">
+          126 = 2 × 63 = 2 × 9 × 7 = 2 × 3² × 7
+        </text>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk (a): Jika N = p^a × q^b × r^c, banyak faktor = (a+1)(b+1)(c+1).</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Bagian (a) — Banyak faktor positif N = 2³ × 3² × 7¹:</b>
+        <div class="step">Banyak faktor = (3+1) × (2+1) × (1+1)</div>
+        <div class="step">= 4 × 3 × 2 = <b>24 faktor</b></div>
+
+        <b>Bagian (b) — Bilangan prima p sehingga p² + 2 juga prima:</b>
+        <div class="step">Coba p = 2: p² + 2 = 4 + 2 = 6 = 2×3 → bukan prima ✗</div>
+        <div class="step">Coba p = 3: p² + 2 = 9 + 2 = 11 → prima ✓</div>
+        <div class="step">Coba p = 5: p² + 2 = 25 + 2 = 27 = 3³ → bukan prima ✗</div>
+        <div class="step">Untuk p prima ganjil selain 3: p² ≡ 1 (mod 3) → p²+2 ≡ 0 (mod 3) → habis dibagi 3, bukan prima.</div>
+        <div class="step">Satu-satunya jawaban: <b>p = 3</b></div>
+
+        <b>Bagian (c) — Bilangan dua digit dengan digit-sum = 11 dan digit-product = 28:</b>
+        <div class="step">Misalkan digit puluhan = a, digit satuan = b</div>
+        <div class="step">a + b = 11 dan a × b = 28</div>
+        <div class="step">Pasangan (a,b): coba a=4, b=7 → 4+7=11 ✓, 4×7=28 ✓</div>
+        <div class="step">Atau a=7, b=4 → 7+4=11 ✓, 7×4=28 ✓</div>
+        <div class="step">Bilangan: <b>47</b> atau <b>74</b></div>
+        <div class="step">47: tidak habis dibagi 2,3,5,7 → <b>prima ✓</b></div>
+        <div class="step">74 = 2 × 37 → <b>bukan prima ✗</b></div>
+
+        <p class="final">✅ Jawaban: (a) 24 faktor &nbsp;|&nbsp; (b) p = 3 &nbsp;|&nbsp; (c) 47 (prima) dan 74 (bukan prima)</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════
+     SOAL 3 · IMSO · Luas Bangun di Grid (Pick's Theorem)
+     ═══════════════════════════════════════════════════════════ -->
+<div class="card imso">
+  <div class="card-header">
+    <span class="badge">IMSO</span>
+    <h2>Soal 3</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Geometri — Luas Bangun Tidak Beraturan pada Grid</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      Perhatikan bangun segi-enam tidak beraturan pada kertas berpetak berikut.
+      Setiap kotak kecil berukuran <b>1 cm × 1 cm</b>.
+      <br /><br />
+      <b>(a)</b> Hitung luas bangun tersebut dengan cara memecahnya menjadi
+      bangun-bangun sederhana (persegi panjang dan segitiga).<br />
+      <b>(b)</b> Berapa keliling bangun tersebut? (Nyatakan dalam bentuk paling sederhana,
+      gunakan √2 ≈ 1,41 untuk sisi diagonal.)
+    </div>
+
+    <!-- SVG: grid dengan segi-enam tidak beraturan yang akurat -->
+    <div class="svg-wrap">
+      <svg width="340" height="300" viewBox="0 0 340 300" xmlns="http://www.w3.org/2000/svg"
+           aria-label="Bangun segi-enam tidak beraturan pada grid 8x7">
+
+        <rect width="340" height="300" rx="10" fill="#f0fff4"/>
+
+        <!-- definisi: origin (20,270), skala 1 kotak = 36px -->
+        <!-- grid 8 kolom × 7 baris -->
+        <!-- px = 20 + col*36, py = 270 - row*36 -->
+
+        <!-- grid lines vertikal -->
+        <g stroke="#c6f6d5" stroke-width="1">
+          <line x1="20"  y1="18" x2="20"  y2="270"/>
+          <line x1="56"  y1="18" x2="56"  y2="270"/>
+          <line x1="92"  y1="18" x2="92"  y2="270"/>
+          <line x1="128" y1="18" x2="128" y2="270"/>
+          <line x1="164" y1="18" x2="164" y2="270"/>
+          <line x1="200" y1="18" x2="200" y2="270"/>
+          <line x1="236" y1="18" x2="236" y2="270"/>
+          <line x1="272" y1="18" x2="272" y2="270"/>
+          <line x1="308" y1="18" x2="308" y2="270"/>
+        </g>
+        <!-- grid lines horizontal -->
+        <g stroke="#c6f6d5" stroke-width="1">
+          <line x1="20" y1="270" x2="308" y2="270"/>
+          <line x1="20" y1="234" x2="308" y2="234"/>
+          <line x1="20" y1="198" x2="308" y2="198"/>
+          <line x1="20" y1="162" x2="308" y2="162"/>
+          <line x1="20" y1="126" x2="308" y2="126"/>
+          <line x1="20" y1="90"  x2="308" y2="90"/>
+          <line x1="20" y1="54"  x2="308" y2="54"/>
+          <line x1="20" y1="18"  x2="308" y2="18"/>
+        </g>
+
+        <!--
+          Titik-titik segi-enam (koordinat grid → pixel):
+          P1 = (1,0) → (56, 270)
+          P2 = (5,0) → (200, 270)
+          P3 = (7,2) → (272, 198)
+          P4 = (6,6) → (236, 54)
+          P5 = (2,6) → (92, 54)
+          P6 = (0,3) → (20, 162)
+
+          Luas (Shoelace):
+          = ½|x1(y2-y6)+x2(y3-y1)+x3(y4-y2)+x4(y5-y3)+x5(y6-y4)+x6(y1-y5)|
+          koordinat: (1,0),(5,0),(7,2),(6,6),(2,6),(0,3)
+          = ½|(1(0-3)+5(2-0)+7(6-0)+6(6-2)+2(3-6)+0(0-6))|
+          = ½|(-3+10+42+16-6+0)|
+          = ½|59| = 29,5 cm²
+        -->
+
+        <!-- bangun segi-enam — isi -->
+        <polygon
+          points="56,270 200,270 272,198 236,54 92,54 20,162"
+          fill="rgba(56,161,105,0.18)" stroke="#38a169" stroke-width="2.5"/>
+
+        <!-- titik-titik sudut -->
+        <circle cx="56"  cy="270" r="5" fill="#38a169"/>
+        <circle cx="200" cy="270" r="5" fill="#38a169"/>
+        <circle cx="272" cy="198" r="5" fill="#38a169"/>
+        <circle cx="236" cy="54"  r="5" fill="#38a169"/>
+        <circle cx="92"  cy="54"  r="5" fill="#38a169"/>
+        <circle cx="20"  cy="162" r="5" fill="#38a169"/>
+
+        <!-- label titik -->
+        <text x="56"  y="287" text-anchor="middle" fill="#276749" font-size="11" font-weight="bold">P1(1,0)</text>
+        <text x="200" y="287" text-anchor="middle" fill="#276749" font-size="11" font-weight="bold">P2(5,0)</text>
+        <text x="285" y="202" text-anchor="start"  fill="#276749" font-size="11" font-weight="bold">P3(7,2)</text>
+        <text x="240" y="46"  text-anchor="start"  fill="#276749" font-size="11" font-weight="bold">P4(6,6)</text>
+        <text x="60"  y="46"  text-anchor="start"  fill="#276749" font-size="11" font-weight="bold">P5(2,6)</text>
+        <text x="0"   y="158" text-anchor="start"  fill="#276749" font-size="11" font-weight="bold">P6(0,3)</text>
+
+        <!-- label panjang sisi -->
+        <!-- P1-P2: horizontal 4 kotak -->
+        <text x="128" y="262" text-anchor="middle" fill="#2d3748" font-size="10">4 cm</text>
+        <!-- P2-P3: diagonal (2,2) = 2√2 -->
+        <text x="242" y="238" text-anchor="middle" fill="#2d3748" font-size="10">2√2</text>
+        <!-- P3-P4: diagonal (-1,4) = √17 -->
+        <text x="262" y="128" text-anchor="start"  fill="#2d3748" font-size="10">√17</text>
+        <!-- P4-P5: horizontal 4 kotak -->
+        <text x="164" y="46"  text-anchor="middle" fill="#2d3748" font-size="10">4 cm</text>
+        <!-- P5-P6: diagonal (-2,-3) = √13 -->
+        <text x="44"  y="110" text-anchor="middle" fill="#2d3748" font-size="10">√13</text>
+        <!-- P6-P1: diagonal (1,-3) = √10 -->
+        <text x="28"  y="222" text-anchor="start"  fill="#2d3748" font-size="10">√10</text>
+
+        <!-- label skala -->
+        <text x="164" y="295" text-anchor="middle" fill="#718096" font-size="10">1 kotak = 1 cm × 1 cm</text>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk: Pecah bangun menjadi persegi panjang + segitiga, atau gunakan rumus Shoelace (Gauss).</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Bagian (a) — Luas dengan rumus Shoelace:</b>
+        <div class="step">Titik berurutan: P1(1,0), P2(5,0), P3(7,2), P4(6,6), P5(2,6), P6(0,3)</div>
+        <div class="step">Luas = ½ |Σ(xᵢ·yᵢ₊₁ − xᵢ₊₁·yᵢ)|</div>
+        <div class="step">= ½ |(1·0−5·0) + (5·2−7·0) + (7·6−6·2) + (6·6−2·6) + (2·3−0·6) + (0·0−1·3)|</div>
+        <div class="step">= ½ |0 + 10 + 30 + 24 + 6 + (−3)|</div>
+        <div class="step">= ½ × 67 = <b>33,5 cm²</b></div>
+
+        <b>Bagian (b) — Keliling (panjang setiap sisi):</b>
+        <table class="soal-table">
+          <tr><th>Sisi</th><th>Δx</th><th>Δy</th><th>Panjang</th><th>≈ cm</th></tr>
+          <tr><td>P1→P2</td><td>4</td><td>0</td><td>4</td><td>4,00</td></tr>
+          <tr><td>P2→P3</td><td>2</td><td>2</td><td>2√2</td><td>2,83</td></tr>
+          <tr><td>P3→P4</td><td>−1</td><td>4</td><td>√17</td><td>4,12</td></tr>
+          <tr><td>P4→P5</td><td>−4</td><td>0</td><td>4</td><td>4,00</td></tr>
+          <tr><td>P5→P6</td><td>−2</td><td>−3</td><td>√13</td><td>3,61</td></tr>
+          <tr><td>P6→P1</td><td>1</td><td>−3</td><td>√10</td><td>3,16</td></tr>
+        </table>
+        <div class="step">Keliling = 4 + 2√2 + √17 + 4 + √13 + √10</div>
+        <div class="step">≈ 4 + 2,83 + 4,12 + 4 + 3,61 + 3,16 = <b>≈ 21,72 cm</b></div>
+
+        <p class="final">✅ Jawaban: (a) 33,5 cm² &nbsp;|&nbsp; (b) 4 + 2√2 + √17 + 4 + √13 + √10 ≈ 21,72 cm</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════
+     SOAL 4 · IMC · Aljabar — Persamaan & Substitusi Kreatif
+     ═══════════════════════════════════════════════════════════ -->
+<div class="card imc">
+  <div class="card-header">
+    <span class="badge">IMC</span>
+    <h2>Soal 4</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Aljabar — Sistem Persamaan &amp; Substitusi Kreatif</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      Tiga bilangan <b>a</b>, <b>b</b>, dan <b>c</b> memenuhi kondisi berikut:
+      <br /><br />
+      <div style="background:#fff8f0;border-left:3px solid #dd6b20;padding:10px 16px;border-radius:0 8px 8px 0;margin:8px 0;font-size:1rem;">
+        a + b = 20 &nbsp;&nbsp;&nbsp; b + c = 24 &nbsp;&nbsp;&nbsp; a + c = 18
+      </div>
+      <br />
+      <b>(a)</b> Tentukan nilai <b>a + b + c</b>.<br />
+      <b>(b)</b> Tentukan nilai masing-masing <b>a</b>, <b>b</b>, dan <b>c</b>.<br />
+      <b>(c)</b> Jika <b>d = a × b − c</b>, tentukan nilai <b>d</b>.
+    </div>
+
+    <!-- SVG: diagram tiga lingkaran saling terhubung -->
+    <div class="svg-wrap">
+      <svg width="320" height="220" viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg"
+           aria-label="Diagram tiga bilangan a, b, c dengan jumlah berpasangan">
+        <rect width="320" height="220" rx="10" fill="#fffaf0"/>
+
+        <!-- garis penghubung -->
+        <line x1="80"  y1="80"  x2="240" y2="80"  stroke="#fed7aa" stroke-width="3"/>
+        <line x1="80"  y1="80"  x2="160" y2="180" stroke="#fed7aa" stroke-width="3"/>
+        <line x1="240" y1="80"  x2="160" y2="180" stroke="#fed7aa" stroke-width="3"/>
+
+        <!-- label jumlah pada sisi -->
+        <!-- a+b = 20 (atas) -->
+        <rect x="130" y="58" width="60" height="22" rx="6" fill="#dd6b20"/>
+        <text x="160" y="73" text-anchor="middle" fill="white" font-size="12" font-weight="bold">a+b=20</text>
+
+        <!-- a+c = 18 (kiri bawah) -->
+        <rect x="82" y="128" width="60" height="22" rx="6" fill="#dd6b20"/>
+        <text x="112" y="143" text-anchor="middle" fill="white" font-size="12" font-weight="bold">a+c=18</text>
+
+        <!-- b+c = 24 (kanan bawah) -->
+        <rect x="178" y="128" width="60" height="22" rx="6" fill="#dd6b20"/>
+        <text x="208" y="143" text-anchor="middle" fill="white" font-size="12" font-weight="bold">b+c=24</text>
+
+        <!-- lingkaran a -->
+        <circle cx="80"  cy="80"  r="28" fill="#fbd38d" stroke="#dd6b20" stroke-width="2.5"/>
+        <text x="80"  y="76"  text-anchor="middle" fill="#7b341e" font-size="18" font-weight="bold">a</text>
+        <text x="80"  y="94"  text-anchor="middle" fill="#c05621" font-size="11">= ?</text>
+
+        <!-- lingkaran b -->
+        <circle cx="240" cy="80"  r="28" fill="#fbd38d" stroke="#dd6b20" stroke-width="2.5"/>
+        <text x="240" y="76"  text-anchor="middle" fill="#7b341e" font-size="18" font-weight="bold">b</text>
+        <text x="240" y="94"  text-anchor="middle" fill="#c05621" font-size="11">= ?</text>
+
+        <!-- lingkaran c -->
+        <circle cx="160" cy="180" r="28" fill="#fbd38d" stroke="#dd6b20" stroke-width="2.5"/>
+        <text x="160" y="176" text-anchor="middle" fill="#7b341e" font-size="18" font-weight="bold">c</text>
+        <text x="160" y="194" text-anchor="middle" fill="#c05621" font-size="11">= ?</text>
+
+        <!-- judul -->
+        <text x="160" y="18" text-anchor="middle" fill="#c05621" font-size="12" font-weight="bold">
+          Temukan nilai a, b, dan c!
+        </text>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk: Jumlahkan ketiga persamaan untuk mendapat 2(a+b+c), lalu kurangi satu per satu.</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Bagian (a) — Nilai a + b + c:</b>
+        <div class="step">Jumlahkan semua: (a+b) + (b+c) + (a+c) = 20 + 24 + 18</div>
+        <div class="step">2a + 2b + 2c = 62</div>
+        <div class="step">a + b + c = 62 ÷ 2 = <b>31</b></div>
+
+        <b>Bagian (b) — Nilai masing-masing:</b>
+        <div class="step">a = (a+b+c) − (b+c) = 31 − 24 = <b>7</b></div>
+        <div class="step">b = (a+b+c) − (a+c) = 31 − 18 = <b>13</b></div>
+        <div class="step">c = (a+b+c) − (a+b) = 31 − 20 = <b>11</b></div>
+        <div class="step">Verifikasi: a+b = 7+13 = 20 ✓ &nbsp; b+c = 13+11 = 24 ✓ &nbsp; a+c = 7+11 = 18 ✓</div>
+
+        <b>Bagian (c) — Nilai d = a × b − c:</b>
+        <div class="step">d = 7 × 13 − 11 = 91 − 11 = <b>80</b></div>
+
+        <p class="final">✅ Jawaban: (a) 31 &nbsp;|&nbsp; (b) a=7, b=13, c=11 &nbsp;|&nbsp; (c) d=80</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+</div><!-- end .grid -->
+
+<footer>
+  <p>Soal Olimpiade Matematika SD — Set 05 &nbsp;·&nbsp; OSN · IMSO · IMC &nbsp;·&nbsp; Dibuat dengan Kiro</p>
+</footer>
+
+</body>
+</html>
