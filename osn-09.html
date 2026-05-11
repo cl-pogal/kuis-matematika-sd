@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soal Olimpiade Matematika SD — Set 09</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8; color: #1a202c;
+      padding: 32px 16px; line-height: 1.7;
+    }
+    header { text-align: center; margin-bottom: 40px; }
+    header h1 { font-size: 2rem; color: #2b6cb0; margin-bottom: 8px; }
+    header p { color: #718096; font-size: 0.95rem; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+      gap: 28px; max-width: 1100px; margin: 0 auto;
+    }
+    .card { background: #fff; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); overflow: hidden; }
+    .card-header { padding: 16px 24px; display: flex; align-items: center; gap: 12px; }
+    .badge {
+      font-size: .72rem; font-weight: 700; letter-spacing: .08em;
+      text-transform: uppercase; padding: 4px 10px; border-radius: 999px; white-space: nowrap;
+    }
+    .osn-prov .card-header { background: #ebf8ff; border-bottom: 3px solid #3182ce; }
+    .osn-prov .badge       { background: #3182ce; color: #fff; }
+    .osn-prov .card-header h2 { color: #2b6cb0; }
+    .osn-prov .answer-box  { border-left: 4px solid #3182ce; }
+    .osn-nas .card-header  { background: #faf5ff; border-bottom: 3px solid #805ad5; }
+    .osn-nas .badge        { background: #805ad5; color: #fff; }
+    .osn-nas .card-header h2 { color: #6b46c1; }
+    .osn-nas .answer-box   { border-left: 4px solid #805ad5; }
+    .imso .card-header     { background: #f0fff4; border-bottom: 3px solid #38a169; }
+    .imso .badge           { background: #38a169; color: #fff; }
+    .imso .card-header h2  { color: #276749; }
+    .imso .answer-box      { border-left: 4px solid #38a169; }
+    .imc .card-header      { background: #fffaf0; border-bottom: 3px solid #dd6b20; }
+    .imc .badge            { background: #dd6b20; color: #fff; }
+    .imc .card-header h2   { color: #c05621; }
+    .imc .answer-box       { border-left: 4px solid #dd6b20; }
+    .card-header h2 { font-size: 1rem; font-weight: 700; }
+    .card-body { padding: 24px; }
+    .topic-tag {
+      display: inline-block; font-size: .75rem; background: #edf2f7;
+      color: #4a5568; padding: 3px 10px; border-radius: 999px;
+      margin-bottom: 16px; font-weight: 600;
+    }
+    .question { font-size: .97rem; margin-bottom: 16px; color: #2d3748; }
+    .question strong { display: block; font-size: 1rem; margin-bottom: 8px; color: #1a202c; }
+    .hint { font-size: .82rem; color: #a0aec0; font-style: italic; margin-bottom: 20px; }
+    details { margin-top: 4px; }
+    summary {
+      cursor: pointer; font-weight: 700; font-size: .88rem; color: #4a5568;
+      padding: 10px 14px; background: #f7fafc; border-radius: 8px;
+      user-select: none; list-style: none; display: flex; align-items: center; gap: 8px;
+    }
+    summary::before { content: '▶'; font-size: .7rem; transition: transform .2s; }
+    details[open] summary::before { transform: rotate(90deg); }
+    .answer-box {
+      margin-top: 12px; padding: 16px 20px;
+      background: #f7fafc; border-radius: 0 8px 8px 8px; font-size: .9rem;
+    }
+    .answer-box .final { margin-top: 12px; font-weight: 700; font-size: 1rem; color: #1a202c; }
+    .step { margin: 6px 0; padding-left: 8px; }
+    .step::before { content: '→ '; color: #a0aec0; }
+    .svg-wrap { display: flex; justify-content: center; margin: 16px 0; }
+    table.t { border-collapse: collapse; width: 100%; margin: 10px 0; font-size: .88rem; }
+    table.t th, table.t td { border: 1px solid #cbd5e0; padding: 7px 11px; text-align: center; }
+    table.t th { background: #edf2f7; font-weight: 700; }
+    /* magic square grid */
+    .msq { display: inline-grid; grid-template-columns: repeat(3, 52px); gap: 3px; margin: 12px auto; }
+    .msq-cell {
+      width: 52px; height: 52px; border: 2px solid #dd6b20;
+      border-radius: 6px; display: flex; align-items: center; justify-content: center;
+      font-size: 1.3rem; font-weight: 700; background: #fff8f0; color: #7b341e;
+    }
+    .msq-cell.given { background: #fbd38d; }
+    .msq-cell.blank { background: #fff; color: #a0aec0; font-size: 1rem; }
+    footer { text-align: center; margin-top: 48px; color: #a0aec0; font-size: .8rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🏆 Soal Olimpiade Matematika SD — Set 09</h1>
+  <p>OSN Provinsi &nbsp;·&nbsp; OSN Nasional &nbsp;·&nbsp; IMSO &nbsp;·&nbsp; IMC</p>
+</header>
+
+<div class="grid">
+
+<!-- ═══════════════════════════════════════════════════════
+     SOAL 1 · OSN PROVINSI · Kelipatan & Masalah Kalender
+     ═══════════════════════════════════════════════════════ -->
+<div class="card osn-prov">
+  <div class="card-header">
+    <span class="badge">OSN Provinsi</span>
+    <h2>Soal 1</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Aritmetika — Kelipatan, KPK &amp; Masalah Kalender</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      Tiga bus kota berangkat dari terminal yang sama.
+      Bus A berangkat setiap <b>12 menit</b>, Bus B setiap <b>18 menit</b>,
+      dan Bus C setiap <b>24 menit</b>. Ketiga bus berangkat bersama-sama
+      pada pukul <b>06.00</b>.
+      <br /><br />
+      <b>(a)</b> Pukul berapa ketiga bus akan berangkat bersama-sama lagi
+      untuk pertama kalinya?<br />
+      <b>(b)</b> Berapa kali Bus A berangkat antara pukul 06.00 dan pukul 08.00
+      (tidak termasuk pukul 06.00)?<br />
+      <b>(c)</b> Dalam rentang waktu 06.00–08.00, pada menit ke berapa saja
+      Bus A dan Bus B berangkat bersamaan (tidak termasuk menit ke-0)?<br />
+      <b>(d)</b> Jika hari ini Senin dan ketiga bus berangkat bersama pukul 06.00,
+      pada hari apa dan pukul berapa mereka akan berangkat bersama untuk
+      ke-<b>5</b> kalinya (setelah keberangkatan pertama)?
+    </div>
+
+    <!-- SVG: garis waktu tiga bus dengan tick keberangkatan -->
+    <div class="svg-wrap">
+      <svg width="380" height="190" viewBox="0 0 380 190"
+           xmlns="http://www.w3.org/2000/svg"
+           aria-label="Garis waktu keberangkatan tiga bus dari menit 0 hingga 72">
+        <rect width="380" height="190" rx="10" fill="#ebf8ff"/>
+
+        <!-- judul -->
+        <text x="190" y="18" text-anchor="middle" fill="#2b6cb0" font-size="12" font-weight="bold">
+          Keberangkatan Bus (menit ke-0 s.d. 72)
+        </text>
+
+        <!--
+          Skala: 0–72 menit → x = 30 + t*(320/72) = 30 + t*4.444
+          Bus A: 0,12,24,36,48,60,72
+          Bus B: 0,18,36,54,72
+          Bus C: 0,24,48,72
+          KPK(12,18,24) = 72
+        -->
+
+        <!-- sumbu waktu -->
+        <line x1="30" y1="155" x2="350" y2="155" stroke="#4a5568" stroke-width="2"/>
+        <!-- tick setiap 12 menit -->
+        <g stroke="#4a5568" stroke-width="1.2">
+          <line x1="30"  y1="150" x2="30"  y2="160"/> <text x="30"  y="172" text-anchor="middle" fill="#718096" font-size="9">0</text>
+          <line x1="83"  y1="150" x2="83"  y2="160"/> <text x="83"  y="172" text-anchor="middle" fill="#718096" font-size="9">12</text>
+          <line x1="137" y1="150" x2="137" y2="160"/> <text x="137" y="172" text-anchor="middle" fill="#718096" font-size="9">24</text>
+          <line x1="190" y1="150" x2="190" y2="160"/> <text x="190" y="172" text-anchor="middle" fill="#718096" font-size="9">36</text>
+          <line x1="243" y1="150" x2="243" y2="160"/> <text x="243" y="172" text-anchor="middle" fill="#718096" font-size="9">48</text>
+          <line x1="297" y1="150" x2="297" y2="160"/> <text x="297" y="172" text-anchor="middle" fill="#718096" font-size="9">60</text>
+          <line x1="350" y1="150" x2="350" y2="160"/> <text x="350" y="172" text-anchor="middle" fill="#718096" font-size="9">72</text>
+        </g>
+        <text x="190" y="185" text-anchor="middle" fill="#718096" font-size="10">menit</text>
+
+        <!-- Bus A (biru) — setiap 12 menit -->
+        <text x="18" y="52" text-anchor="middle" fill="#3182ce" font-size="11" font-weight="bold">A</text>
+        <line x1="30" y1="48" x2="350" y2="48" stroke="#bee3f8" stroke-width="1.5"/>
+        <g fill="#3182ce">
+          <circle cx="30"  cy="48" r="7"/>
+          <circle cx="83"  cy="48" r="7"/>
+          <circle cx="137" cy="48" r="7"/>
+          <circle cx="190" cy="48" r="7"/>
+          <circle cx="243" cy="48" r="7"/>
+          <circle cx="297" cy="48" r="7"/>
+          <circle cx="350" cy="48" r="7"/>
+        </g>
+
+        <!-- Bus B (ungu) — setiap 18 menit -->
+        <text x="18" y="92" text-anchor="middle" fill="#805ad5" font-size="11" font-weight="bold">B</text>
+        <line x1="30" y1="88" x2="350" y2="88" stroke="#e9d8fd" stroke-width="1.5"/>
+        <!-- 0,18,36,54,72 → x = 30+t*4.444 -->
+        <g fill="#805ad5">
+          <circle cx="30"  cy="88" r="7"/>
+          <circle cx="110" cy="88" r="7"/><!-- 18 → 30+80=110 -->
+          <circle cx="190" cy="88" r="7"/><!-- 36 -->
+          <circle cx="270" cy="88" r="7"/><!-- 54 → 30+240=270 -->
+          <circle cx="350" cy="88" r="7"/><!-- 72 -->
+        </g>
+
+        <!-- Bus C (hijau) — setiap 24 menit -->
+        <text x="18" y="132" text-anchor="middle" fill="#38a169" font-size="11" font-weight="bold">C</text>
+        <line x1="30" y1="128" x2="350" y2="128" stroke="#c6f6d5" stroke-width="1.5"/>
+        <!-- 0,24,48,72 -->
+        <g fill="#38a169">
+          <circle cx="30"  cy="128" r="7"/>
+          <circle cx="137" cy="128" r="7"/><!-- 24 -->
+          <circle cx="243" cy="128" r="7"/><!-- 48 -->
+          <circle cx="350" cy="128" r="7"/><!-- 72 -->
+        </g>
+
+        <!-- highlight KPK = 72 (semua bertemu) -->
+        <rect x="344" y="36" width="12" height="104" rx="3"
+              fill="rgba(229,62,62,0.15)" stroke="#e53e3e" stroke-width="2"/>
+        <text x="350" y="30" text-anchor="middle" fill="#e53e3e" font-size="10" font-weight="bold">KPK=72</text>
+
+        <!-- highlight A∩B = 36 -->
+        <rect x="184" y="36" width="12" height="64" rx="3"
+              fill="rgba(49,130,206,0.15)" stroke="#3182ce" stroke-width="1.5" stroke-dasharray="4,3"/>
+        <text x="190" y="30" text-anchor="middle" fill="#3182ce" font-size="9">A∩B=36</text>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk: KPK(12,18,24) = waktu bertemu kembali. KPK(12,18) = waktu A dan B bertemu.</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Bagian (a) — KPK(12, 18, 24):</b>
+        <div class="step">12 = 2² × 3 &nbsp;|&nbsp; 18 = 2 × 3² &nbsp;|&nbsp; 24 = 2³ × 3</div>
+        <div class="step">KPK = 2³ × 3² = 8 × 9 = 72 menit</div>
+        <div class="step">06.00 + 72 menit = <b>pukul 07.12</b></div>
+
+        <b>Bagian (b) — Keberangkatan Bus A antara 06.00–08.00:</b>
+        <div class="step">Rentang = 120 menit. Bus A tiap 12 menit.</div>
+        <div class="step">120 ÷ 12 = 10 kali (tidak termasuk menit ke-0) = <b>10 kali</b></div>
+
+        <b>Bagian (c) — Bus A dan B berangkat bersamaan (KPK 12 dan 18):</b>
+        <div class="step">KPK(12, 18) = 36 menit</div>
+        <div class="step">Dalam 120 menit: menit ke-36, 72, 108</div>
+        <div class="step">Menit ke-108 = 06.00 + 108 menit = 07.48 ≤ 08.00 ✓</div>
+        <div class="step">Jawaban: <b>menit ke-36, 72, dan 108</b> (pukul 06.36, 07.12, 07.48)</div>
+
+        <b>Bagian (d) — Keberangkatan bersama ke-5 setelah pertama:</b>
+        <div class="step">Interval bersama = 72 menit. Ke-5 = 5 × 72 = 360 menit = 6 jam</div>
+        <div class="step">06.00 + 6 jam = <b>pukul 12.00</b></div>
+        <div class="step">Hari: Senin + 0 hari (masih hari yang sama) = <b>Senin pukul 12.00</b></div>
+
+        <p class="final">✅ Jawaban: (a) 07.12 &nbsp;|&nbsp; (b) 10 kali &nbsp;|&nbsp; (c) menit ke-36, 72, 108 &nbsp;|&nbsp; (d) Senin pukul 12.00</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     SOAL 2 · OSN NASIONAL · Teorema Pythagoras & Tripel
+     ═══════════════════════════════════════════════════════ -->
+<div class="card osn-nas">
+  <div class="card-header">
+    <span class="badge">OSN Nasional</span>
+    <h2>Soal 2</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Geometri — Teorema Pythagoras &amp; Tripel Pythagoras</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      Perhatikan gambar berikut: persegi <b>ABCD</b> dengan sisi <b>10 cm</b>.
+      Titik <b>E</b> terletak pada sisi <b>BC</b> dengan <b>BE = 6 cm</b>.
+      Titik <b>F</b> terletak pada sisi <b>CD</b> dengan <b>CF = 4 cm</b>.
+      <br /><br />
+      <b>(a)</b> Hitung panjang <b>AE</b>.<br />
+      <b>(b)</b> Hitung panjang <b>EF</b>.<br />
+      <b>(c)</b> Hitung panjang <b>AF</b>.<br />
+      <b>(d)</b> Hitung luas segitiga <b>AEF</b> dengan dua cara:
+      (i) langsung dari koordinat, (ii) luas persegi dikurangi tiga segitiga sudut.
+    </div>
+
+    <!-- SVG: persegi ABCD dengan titik E dan F, akurat berskala -->
+    <div class="svg-wrap">
+      <svg width="340" height="300" viewBox="0 0 340 300"
+           xmlns="http://www.w3.org/2000/svg"
+           aria-label="Persegi ABCD sisi 10cm dengan titik E di BC dan F di CD">
+        <rect width="340" height="300" rx="10" fill="#faf5ff"/>
+
+        <!--
+          Skala: 1 cm = 20px
+          A = (50, 50)   B = (250, 50)   C = (250, 250)   D = (50, 250)
+          E di BC: BE=6 → E = (250, 50+6*20) = (250, 170)
+          F di CD: CF=4 → F = (250-4*20, 250) = (170, 250)
+          EC = 10-6 = 4 cm, DF = 10-4 = 6 cm
+        -->
+
+        <!-- persegi ABCD -->
+        <rect x="50" y="50" width="200" height="200"
+              fill="rgba(128,90,213,0.08)" stroke="#805ad5" stroke-width="2.5"/>
+
+        <!-- segitiga AEF (isi) -->
+        <polygon points="50,50 250,170 170,250"
+                 fill="rgba(128,90,213,0.22)" stroke="#6b46c1" stroke-width="2"/>
+
+        <!-- titik-titik sudut persegi -->
+        <circle cx="50"  cy="50"  r="5" fill="#805ad5"/>
+        <circle cx="250" cy="50"  r="5" fill="#805ad5"/>
+        <circle cx="250" cy="250" r="5" fill="#805ad5"/>
+        <circle cx="50"  cy="250" r="5" fill="#805ad5"/>
+
+        <!-- titik E dan F -->
+        <circle cx="250" cy="170" r="6" fill="#e53e3e"/>
+        <circle cx="170" cy="250" r="6" fill="#3182ce"/>
+
+        <!-- label sudut persegi -->
+        <text x="36"  y="46"  fill="#6b46c1" font-size="14" font-weight="bold">A</text>
+        <text x="256" y="46"  fill="#6b46c1" font-size="14" font-weight="bold">B</text>
+        <text x="256" y="262" fill="#6b46c1" font-size="14" font-weight="bold">C</text>
+        <text x="36"  y="262" fill="#6b46c1" font-size="14" font-weight="bold">D</text>
+
+        <!-- label E dan F -->
+        <text x="260" y="174" fill="#c53030" font-size="13" font-weight="bold">E</text>
+        <text x="168" y="268" fill="#2b6cb0" font-size="13" font-weight="bold">F</text>
+
+        <!-- dimensi sisi persegi -->
+        <text x="150" y="42"  text-anchor="middle" fill="#718096" font-size="11">AB = 10 cm</text>
+        <text x="150" y="268" text-anchor="middle" fill="#718096" font-size="11">DC = 10 cm</text>
+        <text x="30"  y="155" text-anchor="middle" fill="#718096" font-size="11"
+              transform="rotate(-90,30,155)">AD = 10 cm</text>
+        <text x="270" y="155" text-anchor="middle" fill="#718096" font-size="11"
+              transform="rotate(90,270,155)">BC = 10 cm</text>
+
+        <!-- dimensi BE -->
+        <line x1="258" y1="50"  x2="258" y2="170" stroke="#e53e3e" stroke-width="1.5"/>
+        <line x1="254" y1="50"  x2="262" y2="50"  stroke="#e53e3e" stroke-width="1.5"/>
+        <line x1="254" y1="170" x2="262" y2="170" stroke="#e53e3e" stroke-width="1.5"/>
+        <text x="278" y="114" text-anchor="start" fill="#c53030" font-size="11" font-weight="bold">BE=6</text>
+
+        <!-- dimensi EC -->
+        <line x1="258" y1="170" x2="258" y2="250" stroke="#718096" stroke-width="1.5"/>
+        <text x="278" y="214" text-anchor="start" fill="#718096" font-size="11">EC=4</text>
+
+        <!-- dimensi CF -->
+        <line x1="250" y1="258" x2="170" y2="258" stroke="#3182ce" stroke-width="1.5"/>
+        <line x1="250" y1="254" x2="250" y2="262" stroke="#3182ce" stroke-width="1.5"/>
+        <line x1="170" y1="254" x2="170" y2="262" stroke="#3182ce" stroke-width="1.5"/>
+        <text x="210" y="274" text-anchor="middle" fill="#2b6cb0" font-size="11" font-weight="bold">CF=4</text>
+
+        <!-- dimensi DF -->
+        <line x1="50"  y1="258" x2="170" y2="258" stroke="#718096" stroke-width="1.5"/>
+        <text x="110" y="274" text-anchor="middle" fill="#718096" font-size="11">DF=6</text>
+
+        <!-- garis AE, EF, AF dengan label -->
+        <!-- AE -->
+        <text x="148" y="108" text-anchor="middle" fill="#6b46c1" font-size="11" font-weight="bold"
+              transform="rotate(31,148,108)">AE = ?</text>
+        <!-- EF -->
+        <text x="218" y="218" text-anchor="middle" fill="#6b46c1" font-size="11" font-weight="bold"
+              transform="rotate(-52,218,218)">EF = ?</text>
+        <!-- AF -->
+        <text x="96"  y="162" text-anchor="middle" fill="#6b46c1" font-size="11" font-weight="bold"
+              transform="rotate(-62,96,162)">AF = ?</text>
+
+        <!-- tanda siku di A, B, C, D -->
+        <rect x="50"  y="50"  width="10" height="10" fill="none" stroke="#805ad5" stroke-width="1.2"/>
+        <rect x="240" y="50"  width="10" height="10" fill="none" stroke="#805ad5" stroke-width="1.2"/>
+        <rect x="240" y="240" width="10" height="10" fill="none" stroke="#805ad5" stroke-width="1.2"/>
+        <rect x="50"  y="240" width="10" height="10" fill="none" stroke="#805ad5" stroke-width="1.2"/>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk: Gunakan Pythagoras. AE² = AB² + BE². EF² = EC² + CF². AF² = AD² + DF².</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Data: AB=BC=CD=DA=10, BE=6, EC=4, CF=4, DF=6</b>
+
+        <b>Bagian (a) — AE (segitiga ABE, siku-siku di B):</b>
+        <div class="step">AE² = AB² + BE² = 10² + 6² = 100 + 36 = 136</div>
+        <div class="step">AE = √136 = 2√34 ≈ <b>11,66 cm</b></div>
+
+        <b>Bagian (b) — EF (segitiga ECF, siku-siku di C):</b>
+        <div class="step">EF² = EC² + CF² = 4² + 4² = 16 + 16 = 32</div>
+        <div class="step">EF = √32 = 4√2 ≈ <b>5,66 cm</b></div>
+
+        <b>Bagian (c) — AF (segitiga ADF, siku-siku di D):</b>
+        <div class="step">AF² = AD² + DF² = 10² + 6² = 100 + 36 = 136</div>
+        <div class="step">AF = √136 = 2√34 ≈ <b>11,66 cm</b></div>
+        <div class="step">(AE = AF karena simetri: BE = DF = 6)</div>
+
+        <b>Bagian (d) — Luas segitiga AEF:</b>
+        <div class="step"><b>Cara (ii) — Luas persegi − tiga segitiga sudut:</b></div>
+        <div class="step">L persegi = 10² = 100 cm²</div>
+        <div class="step">△ABE: ½ × 10 × 6 = 30 cm²</div>
+        <div class="step">△ECF: ½ × 4 × 4 = 8 cm²</div>
+        <div class="step">△ADF: ½ × 10 × 6 = 30 cm²</div>
+        <div class="step">L △AEF = 100 − 30 − 8 − 30 = <b>32 cm²</b></div>
+
+        <p class="final">✅ Jawaban: (a) 2√34 cm &nbsp;|&nbsp; (b) 4√2 cm &nbsp;|&nbsp; (c) 2√34 cm &nbsp;|&nbsp; (d) 32 cm²</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     SOAL 3 · IMSO · Nilai Mutlak & Pertidaksamaan
+     ═══════════════════════════════════════════════════════ -->
+<div class="card imso">
+  <div class="card-header">
+    <span class="badge">IMSO</span>
+    <h2>Soal 3</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Aljabar — Nilai Mutlak &amp; Pertidaksamaan</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      <b>(a)</b> Tentukan semua bilangan bulat <b>x</b> yang memenuhi
+      <b>|x − 3| ≤ 4</b>. Gambarkan pada garis bilangan.<br /><br />
+      <b>(b)</b> Sebuah pabrik memproduksi baut dengan panjang target <b>50 mm</b>.
+      Toleransi kesalahan maksimum adalah <b>±0,5 mm</b>.
+      Nyatakan kondisi ini dalam bentuk nilai mutlak, lalu tentukan
+      rentang panjang baut yang diterima.<br /><br />
+      <b>(c)</b> Tentukan nilai minimum dari ekspresi
+      <b>|x − 2| + |x − 8|</b> untuk x bilangan real,
+      dan tentukan nilai x yang mencapai minimum tersebut.<br /><br />
+      <b>(d)</b> Jika <b>|2x − 6| = 10</b>, tentukan semua nilai x yang mungkin.
+    </div>
+
+    <!-- SVG: garis bilangan untuk |x-3| ≤ 4 dan diagram nilai mutlak -->
+    <div class="svg-wrap">
+      <svg width="360" height="220" viewBox="0 0 360 220"
+           xmlns="http://www.w3.org/2000/svg"
+           aria-label="Garis bilangan solusi |x-3| ≤ 4 dan diagram |x-2|+|x-8|">
+        <rect width="360" height="220" rx="10" fill="#f0fff4"/>
+
+        <!-- ── Bagian atas: garis bilangan |x-3| ≤ 4 ── -->
+        <text x="180" y="18" text-anchor="middle" fill="#276749" font-size="12" font-weight="bold">
+          Solusi |x − 3| ≤ 4  →  −1 ≤ x ≤ 7
+        </text>
+
+        <!-- garis bilangan -->
+        <line x1="20" y1="50" x2="340" y2="50" stroke="#4a5568" stroke-width="2"/>
+        <defs>
+          <marker id="arr-r" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto">
+            <path d="M0,0 L0,6 L7,3 z" fill="#4a5568"/>
+          </marker>
+        </defs>
+        <line x1="330" y1="50" x2="342" y2="50" stroke="#4a5568" stroke-width="2" marker-end="url(#arr-r)"/>
+
+        <!-- tick marks: -3 sampai 9, setiap 1 unit = 30px, origin x=3 → px=20+3*30=110 -->
+        <!-- x_px = 20 + (val+3)*30 -->
+        <g stroke="#4a5568" stroke-width="1.2" fill="#4a5568" font-size="10" text-anchor="middle">
+          <!-- -3 → 20 -->
+          <line x1="20"  y1="46" x2="20"  y2="54"/> <text x="20"  y="66">-3</text>
+          <!-- -2 → 50 -->
+          <line x1="50"  y1="46" x2="50"  y2="54"/> <text x="50"  y="66">-2</text>
+          <!-- -1 → 80 -->
+          <line x1="80"  y1="46" x2="80"  y2="54"/> <text x="80"  y="66">-1</text>
+          <!-- 0 → 110 -->
+          <line x1="110" y1="46" x2="110" y2="54"/> <text x="110" y="66">0</text>
+          <!-- 1 → 140 -->
+          <line x1="140" y1="46" x2="140" y2="54"/> <text x="140" y="66">1</text>
+          <!-- 2 → 170 -->
+          <line x1="170" y1="46" x2="170" y2="54"/> <text x="170" y="66">2</text>
+          <!-- 3 → 200 -->
+          <line x1="200" y1="46" x2="200" y2="54"/> <text x="200" y="66">3</text>
+          <!-- 4 → 230 -->
+          <line x1="230" y1="46" x2="230" y2="54"/> <text x="230" y="66">4</text>
+          <!-- 5 → 260 -->
+          <line x1="260" y1="46" x2="260" y2="54"/> <text x="260" y="66">5</text>
+          <!-- 6 → 290 -->
+          <line x1="290" y1="46" x2="290" y2="54"/> <text x="290" y="66">6</text>
+          <!-- 7 → 320 -->
+          <line x1="320" y1="46" x2="320" y2="54"/> <text x="320" y="66">7</text>
+        </g>
+
+        <!-- rentang solusi: x=-1(px=80) sampai x=7(px=320) -->
+        <line x1="80" y1="50" x2="320" y2="50" stroke="#38a169" stroke-width="6" opacity="0.5"/>
+        <!-- titik ujung tertutup -->
+        <circle cx="80"  cy="50" r="7" fill="#38a169" stroke="white" stroke-width="2"/>
+        <circle cx="320" cy="50" r="7" fill="#38a169" stroke="white" stroke-width="2"/>
+        <!-- label -1 dan 7 -->
+        <text x="80"  y="38" text-anchor="middle" fill="#276749" font-size="11" font-weight="bold">-1</text>
+        <text x="320" y="38" text-anchor="middle" fill="#276749" font-size="11" font-weight="bold">7</text>
+        <!-- titik pusat x=3 -->
+        <circle cx="200" cy="50" r="5" fill="#e53e3e"/>
+        <text x="200" y="38" text-anchor="middle" fill="#e53e3e" font-size="10">x=3</text>
+
+        <!-- ── Bagian bawah: grafik |x-2|+|x-8| ── -->
+        <text x="180" y="95" text-anchor="middle" fill="#276749" font-size="12" font-weight="bold">
+          Grafik f(x) = |x−2| + |x−8|
+        </text>
+
+        <!--
+          f(x) = |x-2| + |x-8|
+          x < 2:   f = (2-x)+(8-x) = 10-2x  → turun
+          2 ≤ x ≤ 8: f = (x-2)+(8-x) = 6    → konstan (minimum)
+          x > 8:   f = (x-2)+(x-8) = 2x-10  → naik
+
+          Skala: x dari -1 sampai 11, y dari 0 sampai 14
+          x_px = 30 + (x+1)*26  (range 12 unit → 312px)
+          y_px = 195 - y*8
+
+          Key points:
+          x=-1: f=12 → (30+0*26, 195-12*8) = (30, 99)
+          x=2:  f=6  → (30+3*26, 195-6*8)  = (108, 147)
+          x=8:  f=6  → (30+9*26, 195-6*8)  = (264, 147)
+          x=11: f=12 → (30+12*26,195-12*8) = (342, 99)
+        -->
+
+        <!-- sumbu -->
+        <line x1="30" y1="195" x2="345" y2="195" stroke="#4a5568" stroke-width="1.5"/>
+        <line x1="30" y1="100" x2="30"  y2="200" stroke="#4a5568" stroke-width="1.5"/>
+
+        <!-- grid y -->
+        <g stroke="#c6f6d5" stroke-width="1" stroke-dasharray="3,3">
+          <line x1="30" y1="147" x2="345" y2="147"/><!-- y=6 -->
+          <line x1="30" y1="115" x2="345" y2="115"/><!-- y=10 -->
+        </g>
+        <text x="24" y="151" text-anchor="end" fill="#718096" font-size="9">6</text>
+        <text x="24" y="119" text-anchor="end" fill="#718096" font-size="9">10</text>
+
+        <!-- label x -->
+        <g fill="#718096" font-size="9" text-anchor="middle">
+          <text x="30"  y="207">-1</text>
+          <text x="108" y="207">2</text>
+          <text x="264" y="207">8</text>
+          <text x="342" y="207">11</text>
+        </g>
+
+        <!-- grafik f(x) -->
+        <polyline points="30,99 108,147 264,147 342,99"
+                  fill="none" stroke="#38a169" stroke-width="2.5" stroke-linejoin="round"/>
+
+        <!-- area minimum (x=2 sampai x=8) -->
+        <rect x="108" y="143" width="156" height="8" rx="2"
+              fill="rgba(56,161,105,0.3)" stroke="#38a169" stroke-width="1.5"/>
+        <text x="186" y="138" text-anchor="middle" fill="#276749" font-size="10" font-weight="bold">
+          min = 6 (untuk 2 ≤ x ≤ 8)
+        </text>
+
+        <!-- titik kritis -->
+        <circle cx="108" cy="147" r="4" fill="#e53e3e"/>
+        <circle cx="264" cy="147" r="4" fill="#e53e3e"/>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk (c): |x−a| + |x−b| ≥ |a−b|. Minimum tercapai saat a ≤ x ≤ b. (d): Pecah menjadi dua kasus: 2x−6 = 10 atau 2x−6 = −10.</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Bagian (a) — |x − 3| ≤ 4:</b>
+        <div class="step">−4 ≤ x − 3 ≤ 4</div>
+        <div class="step">−1 ≤ x ≤ 7</div>
+        <div class="step">Bilangan bulat: <b>{−1, 0, 1, 2, 3, 4, 5, 6, 7}</b> → 9 bilangan</div>
+
+        <b>Bagian (b) — Toleransi baut:</b>
+        <div class="step">|panjang − 50| ≤ 0,5</div>
+        <div class="step">49,5 ≤ panjang ≤ 50,5</div>
+        <div class="step">Rentang yang diterima: <b>49,5 mm sampai 50,5 mm</b></div>
+
+        <b>Bagian (c) — Minimum |x − 2| + |x − 8|:</b>
+        <div class="step">|x−2| + |x−8| ≥ |(2)−(8)| = 6 (ketidaksamaan segitiga)</div>
+        <div class="step">Minimum = <b>6</b>, tercapai untuk semua <b>2 ≤ x ≤ 8</b></div>
+
+        <b>Bagian (d) — |2x − 6| = 10:</b>
+        <div class="step">Kasus 1: 2x − 6 = 10 → 2x = 16 → x = 8</div>
+        <div class="step">Kasus 2: 2x − 6 = −10 → 2x = −4 → x = −2</div>
+        <div class="step">Jawaban: <b>x = 8 atau x = −2</b></div>
+
+        <p class="final">✅ Jawaban: (a) −1 ≤ x ≤ 7 &nbsp;|&nbsp; (b) 49,5–50,5 mm &nbsp;|&nbsp; (c) min=6 untuk 2≤x≤8 &nbsp;|&nbsp; (d) x=8 atau x=−2</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     SOAL 4 · IMC · Magic Square & Pengisian Bilangan
+     ═══════════════════════════════════════════════════════ -->
+<div class="card imc">
+  <div class="card-header">
+    <span class="badge">IMC</span>
+    <h2>Soal 4</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Kombinatorik — Magic Square &amp; Pengisian Bilangan</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      Sebuah <b>magic square 3×3</b> diisi dengan bilangan bulat <b>1 sampai 9</b>
+      (masing-masing tepat sekali) sehingga jumlah setiap baris, kolom,
+      dan diagonal sama (disebut <em>magic sum</em>).
+      <br /><br />
+      <b>(a)</b> Berapa nilai <em>magic sum</em>-nya? (Petunjuk: jumlah 1–9 = 45)<br />
+      <b>(b)</b> Bilangan berapa yang harus berada di <b>tengah</b>? Jelaskan.<br />
+      <b>(c)</b> Lengkapi magic square berikut:
+    </div>
+
+    <!-- Magic square dengan beberapa sel terisi -->
+    <div style="display:flex; justify-content:center; margin: 12px 0;">
+      <div class="msq">
+        <div class="msq-cell given">2</div>
+        <div class="msq-cell blank">?</div>
+        <div class="msq-cell given">6</div>
+        <div class="msq-cell blank">?</div>
+        <div class="msq-cell given">5</div>
+        <div class="msq-cell blank">?</div>
+        <div class="msq-cell given">4</div>
+        <div class="msq-cell blank">?</div>
+        <div class="msq-cell given">8</div>
+      </div>
+    </div>
+
+    <div class="question">
+      <b>(d)</b> Pada magic square yang sudah lengkap, jika setiap bilangan
+      dikalikan <b>3</b> lalu ditambah <b>2</b>, apakah hasilnya masih magic square?
+      Berapa magic sum barunya?
+    </div>
+
+    <!-- SVG: magic square lengkap + diagram simetri -->
+    <div class="svg-wrap">
+      <svg width="360" height="220" viewBox="0 0 360 220"
+           xmlns="http://www.w3.org/2000/svg"
+           aria-label="Magic square 3x3 lengkap dengan garis jumlah baris kolom diagonal">
+        <rect width="360" height="220" rx="10" fill="#fffaf0"/>
+
+        <!-- judul -->
+        <text x="90" y="18" text-anchor="middle" fill="#c05621" font-size="12" font-weight="bold">
+          Magic Square Lengkap
+        </text>
+
+        <!--
+          Magic square standar (Lo Shu):
+          2 7 6
+          9 5 1
+          4 3 8
+          Magic sum = 15
+        -->
+
+        <!-- grid 3×3, sel 52×52, origin (14, 28) -->
+        <!-- baris 0 -->
+        <rect x="14"  y="28" width="52" height="52" rx="4" fill="#fbd38d" stroke="#dd6b20" stroke-width="2"/>
+        <rect x="66"  y="28" width="52" height="52" rx="4" fill="#fff8f0" stroke="#dd6b20" stroke-width="2"/>
+        <rect x="118" y="28" width="52" height="52" rx="4" fill="#fbd38d" stroke="#dd6b20" stroke-width="2"/>
+        <!-- baris 1 -->
+        <rect x="14"  y="80" width="52" height="52" rx="4" fill="#fff8f0" stroke="#dd6b20" stroke-width="2"/>
+        <rect x="66"  y="80" width="52" height="52" rx="4" fill="#fbd38d" stroke="#dd6b20" stroke-width="2"/>
+        <rect x="118" y="80" width="52" height="52" rx="4" fill="#fff8f0" stroke="#dd6b20" stroke-width="2"/>
+        <!-- baris 2 -->
+        <rect x="14"  y="132" width="52" height="52" rx="4" fill="#fbd38d" stroke="#dd6b20" stroke-width="2"/>
+        <rect x="66"  y="132" width="52" height="52" rx="4" fill="#fff8f0" stroke="#dd6b20" stroke-width="2"/>
+        <rect x="118" y="132" width="52" height="52" rx="4" fill="#fbd38d" stroke="#dd6b20" stroke-width="2"/>
+
+        <!-- angka -->
+        <g text-anchor="middle" font-size="22" font-weight="bold" fill="#7b341e">
+          <text x="40"  y="62">2</text>
+          <text x="92"  y="62">7</text>
+          <text x="144" y="62">6</text>
+          <text x="40"  y="114">9</text>
+          <text x="92"  y="114">5</text>
+          <text x="144" y="114">1</text>
+          <text x="40"  y="166">4</text>
+          <text x="92"  y="166">3</text>
+          <text x="144" y="166">8</text>
+        </g>
+
+        <!-- label jumlah baris -->
+        <g fill="#e53e3e" font-size="12" font-weight="bold" text-anchor="start">
+          <text x="178" y="62">= 15</text>
+          <text x="178" y="114">= 15</text>
+          <text x="178" y="166">= 15</text>
+        </g>
+
+        <!-- label jumlah kolom -->
+        <g fill="#3182ce" font-size="12" font-weight="bold" text-anchor="middle">
+          <text x="40"  y="200">= 15</text>
+          <text x="92"  y="200">= 15</text>
+          <text x="144" y="200">= 15</text>
+        </g>
+
+        <!-- diagonal kiri-kanan: 2+5+8=15 -->
+        <line x1="14" y1="28" x2="170" y2="184" stroke="#38a169" stroke-width="2" stroke-dasharray="5,3" opacity="0.7"/>
+        <!-- diagonal kanan-kiri: 6+5+4=15 -->
+        <line x1="170" y1="28" x2="14" y2="184" stroke="#805ad5" stroke-width="2" stroke-dasharray="5,3" opacity="0.7"/>
+
+        <!-- ── Kanan: magic square × 3 + 2 ── -->
+        <text x="280" y="18" text-anchor="middle" fill="#c05621" font-size="11" font-weight="bold">
+          Transformasi: ×3 + 2
+        </text>
+        <!--
+          2→8, 7→23, 6→20
+          9→29, 5→17, 1→5
+          4→14, 3→11, 8→26
+          Magic sum baru = 15×3+2×3 = 45+6 = 51
+        -->
+        <g text-anchor="middle" font-size="11" font-weight="bold">
+          <!-- baris 0 -->
+          <rect x="220" y="28" width="40" height="40" rx="3" fill="#fefcbf" stroke="#d69e2e" stroke-width="1.5"/>
+          <rect x="260" y="28" width="40" height="40" rx="3" fill="#fff" stroke="#d69e2e" stroke-width="1.5"/>
+          <rect x="300" y="28" width="40" height="40" rx="3" fill="#fefcbf" stroke="#d69e2e" stroke-width="1.5"/>
+          <text x="240" y="53" fill="#744210">8</text>
+          <text x="280" y="53" fill="#744210">23</text>
+          <text x="320" y="53" fill="#744210">20</text>
+          <!-- baris 1 -->
+          <rect x="220" y="68" width="40" height="40" rx="3" fill="#fff" stroke="#d69e2e" stroke-width="1.5"/>
+          <rect x="260" y="68" width="40" height="40" rx="3" fill="#fefcbf" stroke="#d69e2e" stroke-width="1.5"/>
+          <rect x="300" y="68" width="40" height="40" rx="3" fill="#fff" stroke="#d69e2e" stroke-width="1.5"/>
+          <text x="240" y="93" fill="#744210">29</text>
+          <text x="280" y="93" fill="#744210">17</text>
+          <text x="320" y="93" fill="#744210">5</text>
+          <!-- baris 2 -->
+          <rect x="220" y="108" width="40" height="40" rx="3" fill="#fefcbf" stroke="#d69e2e" stroke-width="1.5"/>
+          <rect x="260" y="108" width="40" height="40" rx="3" fill="#fff" stroke="#d69e2e" stroke-width="1.5"/>
+          <rect x="300" y="108" width="40" height="40" rx="3" fill="#fefcbf" stroke="#d69e2e" stroke-width="1.5"/>
+          <text x="240" y="133" fill="#744210">14</text>
+          <text x="280" y="133" fill="#744210">11</text>
+          <text x="320" y="133" fill="#744210">26</text>
+        </g>
+        <!-- label sum baru -->
+        <text x="280" y="165" text-anchor="middle" fill="#c05621" font-size="12" font-weight="bold">
+          Magic sum = 51
+        </text>
+        <text x="280" y="180" text-anchor="middle" fill="#718096" font-size="10">
+          (setiap baris/kolom/diagonal = 51)
+        </text>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk (a): Magic sum = 45 ÷ 3. (b): Pusat harus = magic sum ÷ 3. (d): Transformasi linear ax+b pada magic square menghasilkan magic square baru.</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Bagian (a) — Magic sum:</b>
+        <div class="step">Jumlah 1+2+…+9 = 45. Ada 3 baris.</div>
+        <div class="step">Magic sum = 45 ÷ 3 = <b>15</b></div>
+
+        <b>Bagian (b) — Bilangan di tengah:</b>
+        <div class="step">Pusat masuk ke 4 garis (baris tengah, kolom tengah, 2 diagonal).</div>
+        <div class="step">Jumlah 4 garis = 4 × 15 = 60. Setiap bilangan non-pusat dihitung 1–2 kali.</div>
+        <div class="step">Cara cepat: pusat = magic sum ÷ 3 = 15 ÷ 3 = <b>5</b></div>
+
+        <b>Bagian (c) — Melengkapi magic square:</b>
+        <div class="step">Diketahui: baris 1: 2,?,6 → ? = 15−2−6 = 7</div>
+        <div class="step">Baris 2: ?,5,? → dua bilangan yang belum terpakai dan berjumlah 10</div>
+        <div class="step">Bilangan tersisa: 1,3,7,9. Sudah pakai 7 → tersisa 1,3,9</div>
+        <div class="step">Baris 2: ?,5,? → jumlah = 10 → pasangan dari {1,3,9}: 1+9=10 ✓</div>
+        <div class="step">Kolom 1: 2,?,4 → ? = 15−2−4 = 9 → baris 2 kol 1 = 9, baris 2 kol 3 = 1</div>
+        <div class="step">Baris 3: 4,?,8 → ? = 15−4−8 = 3</div>
+        <div class="step">Magic square lengkap: <b>2 7 6 / 9 5 1 / 4 3 8</b></div>
+
+        <b>Bagian (d) — Transformasi ×3 + 2:</b>
+        <div class="step">Setiap baris/kolom/diagonal: jumlah lama = 15</div>
+        <div class="step">Jumlah baru = 3×(jumlah lama) + 2×3 = 3×15 + 6 = 45 + 6 = <b>51</b></div>
+        <div class="step">Ya, hasilnya tetap magic square dengan magic sum = <b>51</b></div>
+
+        <p class="final">✅ Jawaban: (a) 15 &nbsp;|&nbsp; (b) 5 &nbsp;|&nbsp; (c) 2 7 6 / 9 5 1 / 4 3 8 &nbsp;|&nbsp; (d) Ya, magic sum = 51</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+</div><!-- end .grid -->
+
+<footer>
+  <p>Soal Olimpiade Matematika SD — Set 09 &nbsp;·&nbsp; OSN · IMSO · IMC &nbsp;·&nbsp; Dibuat dengan Kiro</p>
+</footer>
+</body>
+</html>
