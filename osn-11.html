@@ -247,3 +247,527 @@
     </details>
   </div>
 </div>
+
+<!-- ═══════════════════════════════════════════════════════
+     SOAL 2 · OSN NASIONAL · Sudut pada Poligon & Bintang
+     ═══════════════════════════════════════════════════════ -->
+<div class="card osn-nas">
+  <div class="card-header">
+    <span class="badge">OSN Nasional</span>
+    <h2>Soal 2</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Geometri — Sudut pada Poligon &amp; Bintang</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      <b>(a)</b> Hitung jumlah sudut dalam sebuah <b>segi-8 (oktagon)</b> beraturan,
+      dan besar setiap sudut dalamnya.<br />
+      <b>(b)</b> Sebuah <b>bintang segi-5</b> (pentagram) dibentuk dengan
+      menghubungkan setiap sudut segi-5 beraturan secara berselang.
+      Hitung besar <b>setiap sudut lancip</b> di ujung bintang.<br />
+      <b>(c)</b> Pada segi-n beraturan, besar sudut luar setiap sudutnya adalah <b>24°</b>.
+      Tentukan nilai <b>n</b>.<br />
+      <b>(d)</b> Sebuah poligon cembung memiliki jumlah sudut dalam = <b>1.980°</b>.
+      Berapa banyak sisi poligon tersebut?
+    </div>
+
+    <!-- SVG: oktagon beraturan + pentagram akurat dengan label sudut -->
+    <div class="svg-wrap">
+      <svg width="380" height="260" viewBox="0 0 380 260"
+           xmlns="http://www.w3.org/2000/svg"
+           aria-label="Oktagon beraturan dan pentagram dengan label sudut">
+        <rect width="380" height="260" rx="10" fill="#faf5ff"/>
+
+        <!--
+          KIRI: Oktagon beraturan, pusat (95,130), r=80
+          Sudut mulai dari atas, setiap 45°
+          Titik i: (95 + 80*sin(i*45°), 130 - 80*cos(i*45°))
+          i=0: (95, 50)
+          i=1: (95+56.57, 130-56.57) = (151.57, 73.43) ≈ (152, 73)
+          i=2: (95+80, 130) = (175, 130)
+          i=3: (152, 187)
+          i=4: (95, 210)
+          i=5: (38, 187)
+          i=6: (15, 130)
+          i=7: (38, 73)
+        -->
+
+        <!-- oktagon -->
+        <polygon points="95,50 152,73 175,130 152,187 95,210 38,187 15,130 38,73"
+                 fill="rgba(128,90,213,0.12)" stroke="#805ad5" stroke-width="2.5"/>
+
+        <!-- label sudut dalam di satu sudut -->
+        <path d="M 95,50 L 38,73 A 22,22 0 0,0 152,73 Z"
+              fill="rgba(128,90,213,0.25)" stroke="none"/>
+        <text x="95" y="88" text-anchor="middle" fill="#6b46c1" font-size="10" font-weight="bold">135°</text>
+
+        <!-- label sisi -->
+        <text x="124" y="58" text-anchor="middle" fill="#805ad5" font-size="9"
+              transform="rotate(22,124,58)">sisi</text>
+
+        <!-- label judul -->
+        <text x="95" y="238" text-anchor="middle" fill="#6b46c1" font-size="11" font-weight="bold">
+          Segi-8 Beraturan
+        </text>
+        <text x="95" y="252" text-anchor="middle" fill="#718096" font-size="10">
+          Σ sudut dalam = 1080°
+        </text>
+
+        <!-- pusat -->
+        <circle cx="95" cy="130" r="3" fill="#805ad5"/>
+
+        <!-- garis dari pusat ke sudut (untuk visualisasi) -->
+        <g stroke="#d6bcfa" stroke-width="1" stroke-dasharray="3,3">
+          <line x1="95" y1="130" x2="95"  y2="50"/>
+          <line x1="95" y1="130" x2="175" y2="130"/>
+        </g>
+        <text x="135" y="122" fill="#805ad5" font-size="9">r</text>
+
+        <!-- pemisah -->
+        <line x1="200" y1="15" x2="200" y2="248" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+        <!--
+          KANAN: Pentagram, pusat (290,130), r=90
+          Segi-5 beraturan: sudut mulai dari atas, setiap 72°
+          Titik segi-5: i=0..4
+          P_i = (290 + 90*sin(i*72°), 130 - 90*cos(i*72°))
+          P0: (290, 40)
+          P1: (290+90*sin72, 130-90*cos72) = (290+85.6, 130-27.8) = (375.6, 102.2) → clip to (370,102)
+          P2: (290+90*sin144, 130-90*cos144) = (290+52.9, 130+72.8) = (342.9, 202.8) → (343,203)
+          P3: (290-52.9, 202.8) = (237, 203)
+          P4: (290-85.6, 102.2) = (204, 102)
+
+          Pentagram: hubungkan P0-P2-P4-P1-P3-P0
+        -->
+
+        <!-- pentagram sisi -->
+        <g stroke="#e53e3e" stroke-width="2.2" stroke-linejoin="round">
+          <line x1="290" y1="40"  x2="343" y2="203"/>
+          <line x1="343" y1="203" x2="204" y2="102"/>
+          <line x1="204" y1="102" x2="370" y2="102"/>
+          <line x1="370" y1="102" x2="237" y2="203"/>
+          <line x1="237" y1="203" x2="290" y2="40"/>
+        </g>
+
+        <!-- isi pentagram -->
+        <polygon points="290,40 343,203 204,102 370,102 237,203"
+                 fill="rgba(229,62,62,0.08)" stroke="none"/>
+
+        <!-- titik-titik ujung bintang -->
+        <g fill="#e53e3e">
+          <circle cx="290" cy="40"  r="5"/>
+          <circle cx="370" cy="102" r="5"/>
+          <circle cx="343" cy="203" r="5"/>
+          <circle cx="237" cy="203" r="5"/>
+          <circle cx="204" cy="102" r="5"/>
+        </g>
+
+        <!-- label sudut lancip di puncak atas -->
+        <!-- sudut di P0=(290,40): antara garis ke P2 dan ke P3 -->
+        <path d="M 290,40 L 275,68 A 18,18 0 0,0 305,68 Z"
+              fill="rgba(229,62,62,0.3)" stroke="none"/>
+        <text x="290" y="76" text-anchor="middle" fill="#c53030" font-size="11" font-weight="bold">36°</text>
+
+        <!-- label judul -->
+        <text x="290" y="232" text-anchor="middle" fill="#c53030" font-size="11" font-weight="bold">
+          Pentagram (Bintang Segi-5)
+        </text>
+        <text x="290" y="246" text-anchor="middle" fill="#718096" font-size="10">
+          Setiap sudut ujung = 36°
+        </text>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk: Jumlah sudut dalam segi-n = (n−2)×180°. Sudut luar = 360°/n. Sudut ujung pentagram = 180° − 2×72° = 36°.</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Bagian (a) — Segi-8 beraturan:</b>
+        <div class="step">Jumlah sudut dalam = (8−2) × 180° = 6 × 180° = <b>1.080°</b></div>
+        <div class="step">Setiap sudut dalam = 1.080° ÷ 8 = <b>135°</b></div>
+
+        <b>Bagian (b) — Sudut lancip pentagram:</b>
+        <div class="step">Segi-5 beraturan: setiap sudut dalam = (5−2)×180°/5 = 108°</div>
+        <div class="step">Pentagram dibentuk dari segitiga sama kaki di setiap ujung.</div>
+        <div class="step">Sudut alas segitiga = (180°−108°)/2 = 36°</div>
+        <div class="step">Sudut lancip di ujung = 180° − 36° − 36° = <b>36°</b></div>
+        <div class="step">Alternatif: sudut ujung = 180° − 2×72° = 36° ✓</div>
+
+        <b>Bagian (c) — Segi-n dengan sudut luar 24°:</b>
+        <div class="step">Sudut luar = 360° / n → n = 360° / 24° = <b>15</b></div>
+        <div class="step">Jadi segi-15 (pentadekagon).</div>
+
+        <b>Bagian (d) — Poligon dengan jumlah sudut dalam 1.980°:</b>
+        <div class="step">(n−2) × 180° = 1.980°</div>
+        <div class="step">n−2 = 1.980 / 180 = 11</div>
+        <div class="step">n = <b>13 sisi</b></div>
+
+        <p class="final">✅ Jawaban: (a) 1.080°; tiap sudut 135° &nbsp;|&nbsp; (b) 36° &nbsp;|&nbsp; (c) n=15 &nbsp;|&nbsp; (d) 13 sisi</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     SOAL 3 · IMSO · Distribusi & Stars and Bars
+     ═══════════════════════════════════════════════════════ -->
+<div class="card imso">
+  <div class="card-header">
+    <span class="badge">IMSO</span>
+    <h2>Soal 3</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Kombinatorik — Distribusi &amp; Prinsip Stars and Bars</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      <b>(a)</b> Ada <b>7 permen identik</b> yang akan dibagikan kepada
+      <b>3 anak</b>. Setiap anak boleh mendapat 0 atau lebih permen.
+      Berapa banyak cara pembagian yang mungkin?<br /><br />
+      <b>(b)</b> Dengan syarat setiap anak mendapat <b>minimal 1 permen</b>,
+      berapa banyak cara pembagian 7 permen kepada 3 anak?<br /><br />
+      <b>(c)</b> Berapa banyak solusi bilangan bulat non-negatif dari persamaan
+      <b>x + y + z = 10</b>?<br /><br />
+      <b>(d)</b> Sebuah toko menjual <b>4 jenis kue</b>. Seorang pembeli ingin
+      membeli tepat <b>6 kue</b> (boleh memilih jenis yang sama lebih dari sekali).
+      Berapa banyak pilihan yang mungkin?
+    </div>
+
+    <!-- SVG: ilustrasi stars and bars untuk 7 permen 3 anak -->
+    <div class="svg-wrap">
+      <svg width="380" height="220" viewBox="0 0 380 220"
+           xmlns="http://www.w3.org/2000/svg"
+           aria-label="Ilustrasi metode stars and bars untuk distribusi permen">
+        <rect width="380" height="220" rx="10" fill="#f0fff4"/>
+
+        <!-- judul -->
+        <text x="190" y="18" text-anchor="middle" fill="#276749" font-size="12" font-weight="bold">
+          Metode Stars and Bars: 7 permen, 3 anak
+        </text>
+
+        <!-- contoh distribusi 1: (3,2,2) -->
+        <text x="30" y="44" fill="#276749" font-size="11" font-weight="bold">Contoh distribusi (3, 2, 2):</text>
+
+        <!-- bintang (permen) dan batang (pemisah) -->
+        <!-- ★ ★ ★ | ★ ★ | ★ ★ -->
+        <g fill="#38a169" font-size="18">
+          <text x="30"  y="72">★</text>
+          <text x="52"  y="72">★</text>
+          <text x="74"  y="72">★</text>
+        </g>
+        <line x1="98" y1="56" x2="98" y2="76" stroke="#e53e3e" stroke-width="3" stroke-linecap="round"/>
+        <g fill="#38a169" font-size="18">
+          <text x="106" y="72">★</text>
+          <text x="128" y="72">★</text>
+        </g>
+        <line x1="152" y1="56" x2="152" y2="76" stroke="#e53e3e" stroke-width="3" stroke-linecap="round"/>
+        <g fill="#38a169" font-size="18">
+          <text x="160" y="72">★</text>
+          <text x="182" y="72">★</text>
+        </g>
+
+        <!-- label anak -->
+        <text x="52"  y="90" text-anchor="middle" fill="#276749" font-size="10">Anak 1: 3</text>
+        <text x="129" y="90" text-anchor="middle" fill="#276749" font-size="10">Anak 2: 2</text>
+        <text x="182" y="90" text-anchor="middle" fill="#276749" font-size="10">Anak 3: 2</text>
+
+        <!-- contoh distribusi 2: (0,4,3) -->
+        <text x="30" y="114" fill="#276749" font-size="11" font-weight="bold">Contoh distribusi (0, 4, 3):</text>
+
+        <!-- | ★ ★ ★ ★ | ★ ★ ★ -->
+        <line x1="30" y1="120" x2="30" y2="140" stroke="#e53e3e" stroke-width="3" stroke-linecap="round"/>
+        <g fill="#38a169" font-size="18">
+          <text x="38"  y="142">★</text>
+          <text x="60"  y="142">★</text>
+          <text x="82"  y="142">★</text>
+          <text x="104" y="142">★</text>
+        </g>
+        <line x1="128" y1="120" x2="128" y2="140" stroke="#e53e3e" stroke-width="3" stroke-linecap="round"/>
+        <g fill="#38a169" font-size="18">
+          <text x="136" y="142">★</text>
+          <text x="158" y="142">★</text>
+          <text x="180" y="142">★</text>
+        </g>
+
+        <text x="30"  y="158" text-anchor="start" fill="#276749" font-size="10">Anak 1: 0</text>
+        <text x="83"  y="158" text-anchor="middle" fill="#276749" font-size="10">Anak 2: 4</text>
+        <text x="170" y="158" text-anchor="middle" fill="#276749" font-size="10">Anak 3: 3</text>
+
+        <!-- rumus -->
+        <rect x="220" y="30" width="148" height="150" rx="8"
+              fill="white" stroke="#c6f6d5" stroke-width="1.5"/>
+        <text x="294" y="50" text-anchor="middle" fill="#276749" font-size="12" font-weight="bold">
+          Rumus Stars &amp; Bars
+        </text>
+        <line x1="228" y1="56" x2="360" y2="56" stroke="#c6f6d5" stroke-width="1"/>
+
+        <text x="294" y="76" text-anchor="middle" fill="#4a5568" font-size="11">
+          n benda, k kelompok:
+        </text>
+        <text x="294" y="96" text-anchor="middle" fill="#dd6b20" font-size="13" font-weight="bold">
+          C(n+k−1, k−1)
+        </text>
+        <line x1="228" y1="108" x2="360" y2="108" stroke="#c6f6d5" stroke-width="1"/>
+
+        <text x="294" y="126" text-anchor="middle" fill="#4a5568" font-size="10">
+          (a) 7 permen, 3 anak:
+        </text>
+        <text x="294" y="142" text-anchor="middle" fill="#276749" font-size="11" font-weight="bold">
+          C(9,2) = 36
+        </text>
+        <text x="294" y="160" text-anchor="middle" fill="#4a5568" font-size="10">
+          (b) min 1: C(6,2) = 15
+        </text>
+        <text x="294" y="176" text-anchor="middle" fill="#4a5568" font-size="10">
+          (c) x+y+z=10: C(12,2) = 66
+        </text>
+
+        <!-- total cara -->
+        <text x="190" y="195" text-anchor="middle" fill="#718096" font-size="11">
+          Setiap susunan bintang+batang = satu cara distribusi unik
+        </text>
+        <text x="190" y="210" text-anchor="middle" fill="#718096" font-size="10">
+          7 bintang + 2 batang = 9 posisi, pilih 2 untuk batang → C(9,2)
+        </text>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk: Stars and Bars — n benda ke k kelompok (boleh 0) = C(n+k−1, k−1). Jika minimal 1: kurangi 1 dari n untuk setiap kelompok terlebih dahulu.</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Bagian (a) — 7 permen, 3 anak, boleh 0:</b>
+        <div class="step">Gunakan Stars and Bars: C(n+k−1, k−1) = C(7+3−1, 3−1) = C(9, 2)</div>
+        <div class="step">C(9,2) = 9!/(2!×7!) = (9×8)/2 = <b>36 cara</b></div>
+
+        <b>Bagian (b) — 7 permen, 3 anak, minimal 1 tiap anak:</b>
+        <div class="step">Berikan dulu 1 permen ke setiap anak → sisa 7−3 = 4 permen</div>
+        <div class="step">Distribusikan 4 permen ke 3 anak (boleh 0): C(4+2, 2) = C(6,2)</div>
+        <div class="step">C(6,2) = 6!/(2!×4!) = (6×5)/2 = <b>15 cara</b></div>
+
+        <b>Bagian (c) — Solusi x + y + z = 10, x,y,z ≥ 0:</b>
+        <div class="step">Sama dengan distribusi 10 ke 3 variabel: C(10+2, 2) = C(12, 2)</div>
+        <div class="step">C(12,2) = (12×11)/2 = <b>66 solusi</b></div>
+
+        <b>Bagian (d) — 6 kue dari 4 jenis (boleh berulang):</b>
+        <div class="step">Distribusi 6 ke 4 jenis (boleh 0): C(6+4−1, 4−1) = C(9, 3)</div>
+        <div class="step">C(9,3) = 9!/(3!×6!) = (9×8×7)/(3×2×1) = 504/6 = <b>84 pilihan</b></div>
+
+        <p class="final">✅ Jawaban: (a) 36 &nbsp;|&nbsp; (b) 15 &nbsp;|&nbsp; (c) 66 &nbsp;|&nbsp; (d) 84</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     SOAL 4 · IMC · Fungsi & Komposisi Fungsi
+     ═══════════════════════════════════════════════════════ -->
+<div class="card imc">
+  <div class="card-header">
+    <span class="badge">IMC</span>
+    <h2>Soal 4</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Aljabar — Fungsi &amp; Komposisi Fungsi</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      Diberikan dua fungsi: <b>f(x) = 2x + 3</b> dan <b>g(x) = x² − 1</b>.
+      <br /><br />
+      <b>(a)</b> Hitung <b>f(5)</b>, <b>g(4)</b>, dan <b>f(g(4))</b>.<br />
+      <b>(b)</b> Tentukan rumus <b>(f ∘ g)(x)</b> = f(g(x)) dan
+      <b>(g ∘ f)(x)</b> = g(f(x)). Apakah f ∘ g = g ∘ f?<br />
+      <b>(c)</b> Tentukan nilai <b>x</b> sehingga <b>f(x) = g(x)</b>.<br />
+      <b>(d)</b> Fungsi <b>h</b> memenuhi <b>h(f(x)) = x</b> untuk semua x.
+      Tentukan rumus h(x). (h adalah invers dari f)
+    </div>
+
+    <!-- SVG: diagram panah fungsi f dan g, grafik f(x) dan g(x) -->
+    <div class="svg-wrap">
+      <svg width="380" height="250" viewBox="0 0 380 250"
+           xmlns="http://www.w3.org/2000/svg"
+           aria-label="Diagram komposisi fungsi f dan g serta grafik keduanya">
+        <rect width="380" height="250" rx="10" fill="#fffaf0"/>
+
+        <!-- ── KIRI: Diagram panah komposisi ── -->
+        <text x="90" y="18" text-anchor="middle" fill="#c05621" font-size="12" font-weight="bold">
+          Komposisi f ∘ g
+        </text>
+
+        <!-- domain x -->
+        <ellipse cx="30" cy="110" rx="22" ry="70" fill="#fefcbf" stroke="#d69e2e" stroke-width="1.5"/>
+        <text x="30" y="60"  text-anchor="middle" fill="#744210" font-size="10" font-weight="bold">x</text>
+        <g fill="#744210" font-size="11" text-anchor="middle">
+          <text x="30" y="82">0</text>
+          <text x="30" y="100">1</text>
+          <text x="30" y="118">2</text>
+          <text x="30" y="136">3</text>
+          <text x="30" y="154">4</text>
+        </g>
+
+        <!-- g(x) = x²-1 -->
+        <ellipse cx="110" cy="110" rx="22" ry="70" fill="#c6f6d5" stroke="#38a169" stroke-width="1.5"/>
+        <text x="110" y="60" text-anchor="middle" fill="#276749" font-size="10" font-weight="bold">g(x)</text>
+        <g fill="#276749" font-size="11" text-anchor="middle">
+          <text x="110" y="82">-1</text>
+          <text x="110" y="100">0</text>
+          <text x="110" y="118">3</text>
+          <text x="110" y="136">8</text>
+          <text x="110" y="154">15</text>
+        </g>
+
+        <!-- f(g(x)) = 2g(x)+3 -->
+        <ellipse cx="190" cy="110" rx="26" ry="70" fill="#fed7aa" stroke="#dd6b20" stroke-width="1.5"/>
+        <text x="190" y="60" text-anchor="middle" fill="#c05621" font-size="10" font-weight="bold">f(g(x))</text>
+        <g fill="#c05621" font-size="11" text-anchor="middle">
+          <text x="190" y="82">1</text>
+          <text x="190" y="100">3</text>
+          <text x="190" y="118">9</text>
+          <text x="190" y="136">19</text>
+          <text x="190" y="154">33</text>
+        </g>
+
+        <!-- panah x → g(x) -->
+        <defs>
+          <marker id="arr-o" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto">
+            <path d="M0,0 L0,6 L7,3 z" fill="#38a169"/>
+          </marker>
+          <marker id="arr-f" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto">
+            <path d="M0,0 L0,6 L7,3 z" fill="#dd6b20"/>
+          </marker>
+        </defs>
+        <line x1="52" y1="100" x2="86" y2="100" stroke="#38a169" stroke-width="1.5" marker-end="url(#arr-o)"/>
+        <line x1="52" y1="118" x2="86" y2="118" stroke="#38a169" stroke-width="1.5" marker-end="url(#arr-o)"/>
+        <text x="69" y="95" text-anchor="middle" fill="#276749" font-size="9" font-weight="bold">g</text>
+
+        <!-- panah g(x) → f(g(x)) -->
+        <line x1="132" y1="100" x2="162" y2="100" stroke="#dd6b20" stroke-width="1.5" marker-end="url(#arr-f)"/>
+        <line x1="132" y1="118" x2="162" y2="118" stroke="#dd6b20" stroke-width="1.5" marker-end="url(#arr-f)"/>
+        <text x="147" y="95" text-anchor="middle" fill="#c05621" font-size="9" font-weight="bold">f</text>
+
+        <!-- label domain -->
+        <text x="30"  y="192" text-anchor="middle" fill="#744210" font-size="10">Domain</text>
+        <text x="110" y="192" text-anchor="middle" fill="#276749" font-size="10">g(x)=x²−1</text>
+        <text x="190" y="192" text-anchor="middle" fill="#c05621" font-size="10">f(g(x))</text>
+
+        <!-- ── KANAN: Grafik f(x) dan g(x) ── -->
+        <text x="300" y="18" text-anchor="middle" fill="#c05621" font-size="12" font-weight="bold">
+          Grafik f(x) dan g(x)
+        </text>
+
+        <!--
+          Koordinat: origin (230, 170), skala 1 unit = 22px
+          x dari -3 sampai 4, y dari -2 sampai 8
+          px = 230 + x*22, py = 170 - y*22
+
+          f(x) = 2x+3: garis lurus
+          x=-3: y=-3 → (164, 236)
+          x=4:  y=11 → (318, -72) → clip to y=0 → x=(0-3)/2=-1.5 → (197, 170)... 
+          Lebih baik: x dari -2 sampai 3
+          x=-2: f=-1 → (186, 192)
+          x=3:  f=9  → (296, -28) → clip
+          Gunakan x=-2 sampai 2.5
+          x=-2: f=-1 → (186, 192)
+          x=2.5: f=8 → (285, 6)
+
+          g(x) = x²-1: parabola
+          x=-3: g=8 → (164, 6)
+          x=-2: g=3 → (186, 104)
+          x=-1: g=0 → (208, 170)
+          x=0:  g=-1 → (230, 192)
+          x=1:  g=0 → (252, 170)
+          x=2:  g=3 → (274, 104)
+          x=3:  g=8 → (296, 6)
+        -->
+
+        <!-- sumbu -->
+        <line x1="222" y1="20" x2="222" y2="220" stroke="#4a5568" stroke-width="1.5"/>
+        <line x1="215" y1="170" x2="370" y2="170" stroke="#4a5568" stroke-width="1.5"/>
+
+        <!-- grid -->
+        <g stroke="#fed7aa" stroke-width="0.8" stroke-dasharray="3,3">
+          <line x1="222" y1="148" x2="370" y2="148"/><!-- y=1 -->
+          <line x1="222" y1="126" x2="370" y2="126"/><!-- y=2 -->
+          <line x1="222" y1="104" x2="370" y2="104"/><!-- y=3 -->
+          <line x1="244" y1="20"  x2="244" y2="220"/><!-- x=1 -->
+          <line x1="266" y1="20"  x2="266" y2="220"/><!-- x=2 -->
+          <line x1="288" y1="20"  x2="288" y2="220"/><!-- x=3 -->
+          <line x1="200" y1="20"  x2="200" y2="220"/><!-- x=-1 -->
+          <line x1="178" y1="20"  x2="178" y2="220"/><!-- x=-2 -->
+        </g>
+
+        <!-- label sumbu -->
+        <g fill="#718096" font-size="9" text-anchor="middle">
+          <text x="244" y="182">1</text>
+          <text x="266" y="182">2</text>
+          <text x="288" y="182">3</text>
+          <text x="200" y="182">-1</text>
+          <text x="178" y="182">-2</text>
+        </g>
+        <g fill="#718096" font-size="9" text-anchor="end">
+          <text x="218" y="152">1</text>
+          <text x="218" y="108">3</text>
+          <text x="218" y="64">5</text>
+        </g>
+
+        <!-- f(x) = 2x+3 (garis biru) -->
+        <!-- x=-2: y=-1 → (178,192); x=2.5: y=8 → (277,6) -->
+        <line x1="178" y1="192" x2="277" y2="26"
+              stroke="#3182ce" stroke-width="2.5"/>
+        <text x="282" y="22" fill="#3182ce" font-size="10" font-weight="bold">f(x)=2x+3</text>
+
+        <!-- g(x) = x²-1 (parabola merah) -->
+        <polyline points="178,104 200,170 222,192 244,170 266,104 288,26"
+                  fill="none" stroke="#e53e3e" stroke-width="2.5" stroke-linejoin="round"/>
+        <text x="292" y="22" fill="#e53e3e" font-size="10" font-weight="bold">g(x)=x²−1</text>
+
+        <!-- titik perpotongan f(x)=g(x): 2x+3=x²-1 → x²-2x-4=0 → x=(2±√20)/2=1±√5 -->
+        <!-- x1=1+√5≈3.24 → (222+3.24*22, 170-9.47*22)=(293,0) clip -->
+        <!-- x2=1-√5≈-1.24 → (222-1.24*22, 170-0.52*22)=(195,159) -->
+        <circle cx="195" cy="159" r="5" fill="#805ad5" stroke="white" stroke-width="1.5"/>
+        <text x="185" y="152" fill="#6b46c1" font-size="9" font-weight="bold">f=g</text>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk (b): Substitusi g(x) ke dalam f. (c): Selesaikan 2x+3 = x²−1. (d): Dari f(x)=y, nyatakan x dalam y.</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Bagian (a) — Nilai fungsi:</b>
+        <div class="step">f(5) = 2(5) + 3 = <b>13</b></div>
+        <div class="step">g(4) = 4² − 1 = 16 − 1 = <b>15</b></div>
+        <div class="step">f(g(4)) = f(15) = 2(15) + 3 = <b>33</b></div>
+
+        <b>Bagian (b) — Rumus komposisi:</b>
+        <div class="step">(f ∘ g)(x) = f(g(x)) = f(x²−1) = 2(x²−1) + 3 = <b>2x² + 1</b></div>
+        <div class="step">(g ∘ f)(x) = g(f(x)) = g(2x+3) = (2x+3)² − 1 = 4x²+12x+9−1 = <b>4x²+12x+8</b></div>
+        <div class="step">f∘g ≠ g∘f (komposisi fungsi umumnya tidak komutatif)</div>
+
+        <b>Bagian (c) — f(x) = g(x):</b>
+        <div class="step">2x + 3 = x² − 1</div>
+        <div class="step">x² − 2x − 4 = 0</div>
+        <div class="step">x = (2 ± √(4+16)) / 2 = (2 ± √20) / 2 = 1 ± √5</div>
+        <div class="step">x = <b>1 + √5 ≈ 3,24</b> atau x = <b>1 − √5 ≈ −1,24</b></div>
+
+        <b>Bagian (d) — Invers h dari f:</b>
+        <div class="step">f(x) = 2x + 3 = y → 2x = y − 3 → x = (y−3)/2</div>
+        <div class="step">Jadi h(x) = f⁻¹(x) = <b>(x − 3) / 2</b></div>
+        <div class="step">Verifikasi: h(f(x)) = h(2x+3) = (2x+3−3)/2 = 2x/2 = x ✓</div>
+
+        <p class="final">✅ Jawaban: (a) f(5)=13, g(4)=15, f(g(4))=33 &nbsp;|&nbsp; (b) f∘g=2x²+1, g∘f=4x²+12x+8, tidak sama &nbsp;|&nbsp; (c) x=1±√5 &nbsp;|&nbsp; (d) h(x)=(x−3)/2</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+</div><!-- end .grid -->
+
+<footer>
+  <p>Soal Olimpiade Matematika SD — Set 11 &nbsp;·&nbsp; OSN · IMSO · IMC &nbsp;·&nbsp; Dibuat dengan Kiro</p>
+</footer>
+</body>
+</html>
