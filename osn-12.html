@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soal Olimpiade Matematika SD — Set 12</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8; color: #1a202c;
+      padding: 32px 16px; line-height: 1.7;
+    }
+    header { text-align: center; margin-bottom: 40px; }
+    header h1 { font-size: 2rem; color: #2b6cb0; margin-bottom: 8px; }
+    header p { color: #718096; font-size: 0.95rem; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+      gap: 28px; max-width: 1100px; margin: 0 auto;
+    }
+    .card { background: #fff; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); overflow: hidden; }
+    .card-header { padding: 16px 24px; display: flex; align-items: center; gap: 12px; }
+    .badge {
+      font-size: .72rem; font-weight: 700; letter-spacing: .08em;
+      text-transform: uppercase; padding: 4px 10px; border-radius: 999px; white-space: nowrap;
+    }
+    .osn-prov .card-header { background: #ebf8ff; border-bottom: 3px solid #3182ce; }
+    .osn-prov .badge       { background: #3182ce; color: #fff; }
+    .osn-prov .card-header h2 { color: #2b6cb0; }
+    .osn-prov .answer-box  { border-left: 4px solid #3182ce; }
+    .osn-nas .card-header  { background: #faf5ff; border-bottom: 3px solid #805ad5; }
+    .osn-nas .badge        { background: #805ad5; color: #fff; }
+    .osn-nas .card-header h2 { color: #6b46c1; }
+    .osn-nas .answer-box   { border-left: 4px solid #805ad5; }
+    .imso .card-header     { background: #f0fff4; border-bottom: 3px solid #38a169; }
+    .imso .badge           { background: #38a169; color: #fff; }
+    .imso .card-header h2  { color: #276749; }
+    .imso .answer-box      { border-left: 4px solid #38a169; }
+    .imc .card-header      { background: #fffaf0; border-bottom: 3px solid #dd6b20; }
+    .imc .badge            { background: #dd6b20; color: #fff; }
+    .imc .card-header h2   { color: #c05621; }
+    .imc .answer-box       { border-left: 4px solid #dd6b20; }
+    .card-header h2 { font-size: 1rem; font-weight: 700; }
+    .card-body { padding: 24px; }
+    .topic-tag {
+      display: inline-block; font-size: .75rem; background: #edf2f7;
+      color: #4a5568; padding: 3px 10px; border-radius: 999px;
+      margin-bottom: 16px; font-weight: 600;
+    }
+    .question { font-size: .97rem; margin-bottom: 16px; color: #2d3748; }
+    .question strong { display: block; font-size: 1rem; margin-bottom: 8px; color: #1a202c; }
+    .hint { font-size: .82rem; color: #a0aec0; font-style: italic; margin-bottom: 20px; }
+    details { margin-top: 4px; }
+    summary {
+      cursor: pointer; font-weight: 700; font-size: .88rem; color: #4a5568;
+      padding: 10px 14px; background: #f7fafc; border-radius: 8px;
+      user-select: none; list-style: none; display: flex; align-items: center; gap: 8px;
+    }
+    summary::before { content: '▶'; font-size: .7rem; transition: transform .2s; }
+    details[open] summary::before { transform: rotate(90deg); }
+    .answer-box {
+      margin-top: 12px; padding: 16px 20px;
+      background: #f7fafc; border-radius: 0 8px 8px 8px; font-size: .9rem;
+    }
+    .answer-box .final { margin-top: 12px; font-weight: 700; font-size: 1rem; color: #1a202c; }
+    .step { margin: 6px 0; padding-left: 8px; }
+    .step::before { content: '→ '; color: #a0aec0; }
+    .svg-wrap { display: flex; justify-content: center; margin: 16px 0; }
+    table.t { border-collapse: collapse; width: 100%; margin: 10px 0; font-size: .88rem; }
+    table.t th, table.t td { border: 1px solid #cbd5e0; padding: 7px 11px; text-align: center; }
+    table.t th { background: #edf2f7; font-weight: 700; }
+    footer { text-align: center; margin-top: 48px; color: #a0aec0; font-size: .8rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🏆 Soal Olimpiade Matematika SD — Set 12</h1>
+  <p>OSN Provinsi &nbsp;·&nbsp; OSN Nasional &nbsp;·&nbsp; IMSO &nbsp;·&nbsp; IMC</p>
+</header>
+
+<div class="grid">
+
+<!-- ═══════════════════════════════════════════════════════
+     SOAL 1 · OSN PROVINSI · Kerja Bersama & Laju Pipa
+     ═══════════════════════════════════════════════════════ -->
+<div class="card osn-prov">
+  <div class="card-header">
+    <span class="badge">OSN Provinsi</span>
+    <h2>Soal 1</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Aritmetika — Kerja Bersama &amp; Laju (Pipa/Pekerja)</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      Sebuah bak mandi dapat diisi penuh oleh:
+      <ul style="padding-left:20px; margin:8px 0; font-size:.93rem;">
+        <li>Pipa A dalam <b>12 menit</b></li>
+        <li>Pipa B dalam <b>18 menit</b></li>
+        <li>Pipa C (pembuangan) dapat mengosongkan bak penuh dalam <b>36 menit</b></li>
+      </ul>
+      <b>(a)</b> Jika hanya Pipa A dan B dibuka bersamaan, berapa menit bak terisi penuh?<br />
+      <b>(b)</b> Jika ketiga pipa (A, B, dan C) dibuka bersamaan, berapa menit bak terisi penuh?<br />
+      <b>(c)</b> Bak sudah terisi <b>¼ penuh</b>. Hanya Pipa A yang dibuka.
+      Berapa menit lagi hingga penuh?<br />
+      <b>(d)</b> Tiga pekerja dapat menyelesaikan suatu pekerjaan dalam waktu:
+      Pekerja P dalam <b>8 hari</b>, Q dalam <b>12 hari</b>, R dalam <b>24 hari</b>.
+      Jika ketiganya bekerja bersama, berapa hari pekerjaan selesai?
+    </div>
+
+    <!-- SVG: bak mandi dengan tiga pipa, level air, akurat -->
+    <div class="svg-wrap">
+      <svg width="360" height="220" viewBox="0 0 360 220"
+           xmlns="http://www.w3.org/2000/svg"
+           aria-label="Bak mandi dengan pipa A, B masuk dan pipa C pembuangan">
+        <rect width="360" height="220" rx="10" fill="#ebf8ff"/>
+
+        <!-- bak mandi (tampak depan) -->
+        <rect x="80" y="60" width="200" height="130" rx="8"
+              fill="#bee3f8" stroke="#3182ce" stroke-width="2.5"/>
+        <!-- air di dalam -->
+        <rect x="86" y="93" width="188" height="91" rx="4"
+              fill="rgba(99,179,237,0.55)"/>
+        <!-- garis permukaan air -->
+        <line x1="86" y1="93" x2="274" y2="93"
+              stroke="#3182ce" stroke-width="1.5" stroke-dasharray="6,3"/>
+        <text x="180" y="88" text-anchor="middle" fill="#2b6cb0" font-size="10">permukaan air</text>
+
+        <!-- Pipa A (kiri atas, masuk) -->
+        <rect x="30" y="40" width="14" height="40" rx="4"
+              fill="#3182ce" stroke="#2b6cb0" stroke-width="1.5"/>
+        <line x1="37" y1="80" x2="37" y2="95" stroke="#63b3ed" stroke-width="3"/>
+        <line x1="37" y1="80" x2="86" y2="80" stroke="#3182ce" stroke-width="3"/>
+        <defs>
+          <marker id="arr-a" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto">
+            <path d="M0,0 L0,6 L7,3 z" fill="#3182ce"/>
+          </marker>
+          <marker id="arr-b" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto">
+            <path d="M0,0 L0,6 L7,3 z" fill="#805ad5"/>
+          </marker>
+          <marker id="arr-c" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto">
+            <path d="M0,0 L0,6 L7,3 z" fill="#e53e3e"/>
+          </marker>
+        </defs>
+        <line x1="60" y1="80" x2="82" y2="80" stroke="#3182ce" stroke-width="2" marker-end="url(#arr-a)"/>
+        <text x="37" y="34" text-anchor="middle" fill="#2b6cb0" font-size="11" font-weight="bold">A</text>
+        <text x="37" y="24" text-anchor="middle" fill="#718096" font-size="9">12 mnt</text>
+
+        <!-- Pipa B (kanan atas, masuk) -->
+        <rect x="316" y="40" width="14" height="40" rx="4"
+              fill="#805ad5" stroke="#6b46c1" stroke-width="1.5"/>
+        <line x1="323" y1="80" x2="274" y2="80" stroke="#805ad5" stroke-width="3"/>
+        <line x1="300" y1="80" x2="278" y2="80" stroke="#805ad5" stroke-width="2" marker-end="url(#arr-b)"/>
+        <text x="323" y="34" text-anchor="middle" fill="#6b46c1" font-size="11" font-weight="bold">B</text>
+        <text x="323" y="24" text-anchor="middle" fill="#718096" font-size="9">18 mnt</text>
+
+        <!-- Pipa C (bawah, pembuangan) -->
+        <rect x="173" y="190" width="14" height="24" rx="4"
+              fill="#e53e3e" stroke="#c53030" stroke-width="1.5"/>
+        <line x1="180" y1="190" x2="180" y2="214" stroke="#e53e3e" stroke-width="2" marker-end="url(#arr-c)"/>
+        <text x="180" y="188" text-anchor="middle" fill="#c53030" font-size="11" font-weight="bold">C</text>
+        <text x="215" y="210" text-anchor="start" fill="#718096" font-size="9">buang 36 mnt</text>
+
+        <!-- label laju -->
+        <text x="180" y="118" text-anchor="middle" fill="#2b6cb0" font-size="11" font-weight="bold">
+          Laju A = 1/12 bak/mnt
+        </text>
+        <text x="180" y="134" text-anchor="middle" fill="#6b46c1" font-size="11" font-weight="bold">
+          Laju B = 1/18 bak/mnt
+        </text>
+        <text x="180" y="150" text-anchor="middle" fill="#c53030" font-size="11" font-weight="bold">
+          Laju C = −1/36 bak/mnt
+        </text>
+
+        <!-- level air label -->
+        <line x1="72" y1="93"  x2="72" y2="184" stroke="#4a5568" stroke-width="1.2"/>
+        <line x1="67" y1="93"  x2="77" y2="93"  stroke="#4a5568" stroke-width="1.2"/>
+        <line x1="67" y1="184" x2="77" y2="184" stroke="#4a5568" stroke-width="1.2"/>
+        <text x="56" y="142" text-anchor="middle" fill="#4a5568" font-size="9"
+              transform="rotate(-90,56,142)">¾ kosong</text>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk: Laju gabungan = jumlah laju masing-masing. Waktu = 1 ÷ laju gabungan. Pipa pembuangan bernilai negatif.</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Laju: A = 1/12, B = 1/18, C = −1/36 (bak/menit)</b>
+
+        <b>Bagian (a) — A dan B bersama:</b>
+        <div class="step">Laju = 1/12 + 1/18 = 3/36 + 2/36 = 5/36 bak/menit</div>
+        <div class="step">Waktu = 1 ÷ (5/36) = 36/5 = <b>7,2 menit = 7 menit 12 detik</b></div>
+
+        <b>Bagian (b) — A, B, dan C bersama:</b>
+        <div class="step">Laju = 1/12 + 1/18 − 1/36 = 3/36 + 2/36 − 1/36 = 4/36 = 1/9 bak/menit</div>
+        <div class="step">Waktu = 1 ÷ (1/9) = <b>9 menit</b></div>
+
+        <b>Bagian (c) — Bak sudah ¼ penuh, hanya Pipa A:</b>
+        <div class="step">Sisa yang perlu diisi = 1 − ¼ = ¾ bak</div>
+        <div class="step">Waktu = (¾) ÷ (1/12) = ¾ × 12 = <b>9 menit</b></div>
+
+        <b>Bagian (d) — P, Q, R bekerja bersama:</b>
+        <div class="step">Laju: P = 1/8, Q = 1/12, R = 1/24 pekerjaan/hari</div>
+        <div class="step">Laju gabungan = 3/24 + 2/24 + 1/24 = 6/24 = 1/4 pekerjaan/hari</div>
+        <div class="step">Waktu = 1 ÷ (1/4) = <b>4 hari</b></div>
+
+        <p class="final">✅ Jawaban: (a) 7,2 menit &nbsp;|&nbsp; (b) 9 menit &nbsp;|&nbsp; (c) 9 menit &nbsp;|&nbsp; (d) 4 hari</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     SOAL 2 · OSN NASIONAL · Lingkaran Dalam & Luar Segitiga
+     ═══════════════════════════════════════════════════════ -->
+<div class="card osn-nas">
+  <div class="card-header">
+    <span class="badge">OSN Nasional</span>
+    <h2>Soal 2</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Geometri — Lingkaran Dalam &amp; Luar Segitiga</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      Segitiga <b>ABC</b> dengan sisi <b>a = 13 cm</b> (BC),
+      <b>b = 14 cm</b> (CA), <b>c = 15 cm</b> (AB).
+      <br /><br />
+      <b>(a)</b> Hitung keliling dan setengah keliling (<b>s</b>) segitiga.<br />
+      <b>(b)</b> Hitung luas segitiga menggunakan <b>Rumus Heron</b>:
+      L = √(s(s−a)(s−b)(s−c)).<br />
+      <b>(c)</b> Hitung jari-jari <b>lingkaran dalam</b> (incircle): r = L / s.<br />
+      <b>(d)</b> Hitung jari-jari <b>lingkaran luar</b> (circumcircle):
+      R = (a × b × c) / (4L).
+    </div>
+
+    <!-- SVG: segitiga 13-14-15 dengan incircle dan circumcircle akurat -->
+    <div class="svg-wrap">
+      <svg width="360" height="300" viewBox="0 0 360 300"
+           xmlns="http://www.w3.org/2000/svg"
+           aria-label="Segitiga ABC sisi 13-14-15 dengan lingkaran dalam dan luar">
+        <rect width="360" height="300" rx="10" fill="#faf5ff"/>
+
+        <!--
+          Segitiga 13-14-15, skala 1cm = 14px:
+          A=(75,250), B=(285,250), C=(193,93)
+          s=21, L=84, r=4cm=56px, R=65/8=8.125cm≈114px
+          Incenter I≈(187,194)
+          Circumcenter O=(180,206)
+        -->
+
+        <!-- circumcircle -->
+        <circle cx="180" cy="206" r="114"
+                fill="none" stroke="#805ad5" stroke-width="1.8" stroke-dasharray="8,5"/>
+
+        <!-- segitiga ABC -->
+        <polygon points="75,250 285,250 193,93"
+                 fill="rgba(128,90,213,0.1)" stroke="#805ad5" stroke-width="2.5"/>
+
+        <!-- incircle -->
+        <circle cx="187" cy="194" r="56"
+                fill="rgba(56,161,105,0.15)" stroke="#38a169" stroke-width="2"/>
+
+        <!-- garis tegak lurus dari incenter ke AB -->
+        <line x1="187" y1="194" x2="187" y2="250"
+              stroke="#38a169" stroke-width="1.2" stroke-dasharray="4,3"/>
+        <rect x="183" y="246" width="8" height="8"
+              fill="none" stroke="#38a169" stroke-width="1.2"/>
+
+        <!-- titik sudut -->
+        <circle cx="75"  cy="250" r="5" fill="#805ad5"/>
+        <circle cx="285" cy="250" r="5" fill="#805ad5"/>
+        <circle cx="193" cy="93"  r="5" fill="#805ad5"/>
+
+        <!-- label titik -->
+        <text x="60"  y="265" fill="#6b46c1" font-size="14" font-weight="bold">A</text>
+        <text x="289" y="265" fill="#6b46c1" font-size="14" font-weight="bold">B</text>
+        <text x="196" y="84"  fill="#6b46c1" font-size="14" font-weight="bold">C</text>
+
+        <!-- label sisi -->
+        <text x="246" y="180" text-anchor="middle" fill="#4a5568" font-size="11" font-weight="bold"
+              transform="rotate(60,246,180)">a = BC = 13</text>
+        <text x="126" y="178" text-anchor="middle" fill="#4a5568" font-size="11" font-weight="bold"
+              transform="rotate(-55,126,178)">b = CA = 14</text>
+        <text x="180" y="268" text-anchor="middle" fill="#4a5568" font-size="11" font-weight="bold">
+          c = AB = 15
+        </text>
+
+        <!-- incenter I -->
+        <circle cx="187" cy="194" r="4" fill="#38a169"/>
+        <text x="196" y="192" fill="#276749" font-size="11" font-weight="bold">I</text>
+        <text x="196" y="208" fill="#276749" font-size="10">r = 4 cm</text>
+
+        <!-- circumcenter O -->
+        <circle cx="180" cy="206" r="4" fill="#805ad5"/>
+        <text x="166" y="204" fill="#6b46c1" font-size="11" font-weight="bold">O</text>
+
+        <!-- jari-jari luar ke A (putus-putus) -->
+        <line x1="180" y1="206" x2="75" y2="250"
+              stroke="#805ad5" stroke-width="1.2" stroke-dasharray="5,3" opacity="0.6"/>
+        <text x="110" y="218" fill="#6b46c1" font-size="10">R = 65/8 cm</text>
+
+        <!-- legenda -->
+        <rect x="14" y="14" width="162" height="46" rx="6"
+              fill="white" stroke="#e2e8f0" stroke-width="1"/>
+        <line x1="22" y1="30" x2="46" y2="30" stroke="#38a169" stroke-width="2"/>
+        <text x="52" y="34" fill="#276749" font-size="10">Lingkaran dalam (r = 4 cm)</text>
+        <line x1="22" y1="48" x2="46" y2="48" stroke="#805ad5" stroke-width="2" stroke-dasharray="6,3"/>
+        <text x="52" y="52" fill="#6b46c1" font-size="10">Lingkaran luar (R = 8,125 cm)</text>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk: s = (a+b+c)/2. Heron: L = √(s(s−a)(s−b)(s−c)). r = L/s. R = abc/(4L).</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Data: a = 13, b = 14, c = 15</b>
+
+        <b>Bagian (a) — Keliling dan s:</b>
+        <div class="step">Keliling = 13 + 14 + 15 = <b>42 cm</b></div>
+        <div class="step">s = 42 / 2 = <b>21 cm</b></div>
+
+        <b>Bagian (b) — Luas (Rumus Heron):</b>
+        <div class="step">s−a = 21−13 = 8 &nbsp;|&nbsp; s−b = 21−14 = 7 &nbsp;|&nbsp; s−c = 21−15 = 6</div>
+        <div class="step">L = √(21 × 8 × 7 × 6) = √7056 = <b>84 cm²</b></div>
+
+        <b>Bagian (c) — Jari-jari lingkaran dalam (r):</b>
+        <div class="step">r = L / s = 84 / 21 = <b>4 cm</b></div>
+
+        <b>Bagian (d) — Jari-jari lingkaran luar (R):</b>
+        <div class="step">R = (13 × 14 × 15) / (4 × 84) = 2730 / 336 = 65/8 = <b>8,125 cm</b></div>
+
+        <p class="final">✅ Jawaban: (a) K=42 cm, s=21 &nbsp;|&nbsp; (b) L=84 cm² &nbsp;|&nbsp; (c) r=4 cm &nbsp;|&nbsp; (d) R=65/8=8,125 cm</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     SOAL 3 · IMSO · Barisan Geometri & Rasio
+     ═══════════════════════════════════════════════════════ -->
+<div class="card imso">
+  <div class="card-header">
+    <span class="badge">IMSO</span>
+    <h2>Soal 3</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Aljabar — Barisan Geometri &amp; Rasio</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      Sebuah barisan geometri memiliki suku pertama <b>a₁ = 3</b>
+      dan rasio <b>r = 2</b>.
+      <br /><br />
+      <b>(a)</b> Tuliskan 6 suku pertama barisan tersebut.<br />
+      <b>(b)</b> Tentukan suku ke-<b>10</b>.<br />
+      <b>(c)</b> Hitung jumlah 8 suku pertama (S₈).<br />
+      <b>(d)</b> Selembar kertas dilipat terus-menerus. Setiap lipatan
+      menggandakan jumlah lapisan. Jika kertas mula-mula setebal <b>0,1 mm</b>,
+      berapa tebal kertas setelah <b>10 kali lipatan</b>?
+      Nyatakan dalam cm.
+    </div>
+
+    <!-- SVG: diagram batang barisan geometri 3,6,12,24,48,96 -->
+    <div class="svg-wrap">
+      <svg width="360" height="230" viewBox="0 0 360 230"
+           xmlns="http://www.w3.org/2000/svg"
+           aria-label="Diagram batang barisan geometri 3,6,12,24,48,96 dengan kurva eksponensial">
+        <rect width="360" height="230" rx="10" fill="#f0fff4"/>
+
+        <text x="180" y="16" text-anchor="middle" fill="#276749" font-size="12" font-weight="bold">
+          Barisan Geometri: 3, 6, 12, 24, 48, 96 … (r = 2)
+        </text>
+
+        <!-- sumbu -->
+        <line x1="24" y1="185" x2="350" y2="185" stroke="#4a5568" stroke-width="1.5"/>
+        <line x1="24" y1="30"  x2="24"  y2="185" stroke="#4a5568" stroke-width="1.5"/>
+
+        <!-- grid y (skala: 96 → 140px tinggi, y_px = 185 - val*140/96) -->
+        <g stroke="#c6f6d5" stroke-width="1" stroke-dasharray="3,3">
+          <line x1="24" y1="141" x2="350" y2="141"/><!-- 32 -->
+          <line x1="24" y1="97"  x2="350" y2="97"/> <!-- 64 -->
+          <line x1="24" y1="45"  x2="350" y2="45"/> <!-- 96 -->
+        </g>
+        <g fill="#718096" font-size="9" text-anchor="end">
+          <text x="20" y="145">32</text>
+          <text x="20" y="101">64</text>
+          <text x="20" y="49">96</text>
+        </g>
+
+        <!-- label x -->
+        <g fill="#718096" font-size="9" text-anchor="middle">
+          <text x="50"  y="198">n=1</text>
+          <text x="102" y="198">n=2</text>
+          <text x="154" y="198">n=3</text>
+          <text x="206" y="198">n=4</text>
+          <text x="258" y="198">n=5</text>
+          <text x="310" y="198">n=6</text>
+        </g>
+
+        <!-- batang (x_i = 30 + (i-1)*52, bar_w=40) -->
+        <!-- n=1: val=3,  h=3*140/96≈4,   y=181 -->
+        <rect x="30"  y="181" width="40" height="4"   rx="2" fill="#68d391"/>
+        <text x="50"  y="178" text-anchor="middle" fill="#276749" font-size="10" font-weight="bold">3</text>
+
+        <!-- n=2: val=6,  h≈9,  y=176 -->
+        <rect x="82"  y="176" width="40" height="9"   rx="2" fill="#48bb78"/>
+        <text x="102" y="173" text-anchor="middle" fill="#276749" font-size="10" font-weight="bold">6</text>
+
+        <!-- n=3: val=12, h≈18, y=167 -->
+        <rect x="134" y="167" width="40" height="18"  rx="2" fill="#38a169"/>
+        <text x="154" y="164" text-anchor="middle" fill="#276749" font-size="10" font-weight="bold">12</text>
+
+        <!-- n=4: val=24, h=35, y=150 -->
+        <rect x="186" y="150" width="40" height="35"  rx="2" fill="#2f855a"/>
+        <text x="206" y="147" text-anchor="middle" fill="#276749" font-size="10" font-weight="bold">24</text>
+
+        <!-- n=5: val=48, h=70, y=115 -->
+        <rect x="238" y="115" width="40" height="70"  rx="2" fill="#276749"/>
+        <text x="258" y="112" text-anchor="middle" fill="#276749" font-size="10" font-weight="bold">48</text>
+
+        <!-- n=6: val=96, h=140, y=45 -->
+        <rect x="290" y="45"  width="40" height="140" rx="2" fill="#1c4532"/>
+        <text x="310" y="42"  text-anchor="middle" fill="#276749" font-size="10" font-weight="bold">96</text>
+
+        <!-- kurva eksponensial -->
+        <polyline points="50,181 102,176 154,167 206,150 258,115 310,45"
+                  fill="none" stroke="#e53e3e" stroke-width="2" stroke-dasharray="5,3"/>
+
+        <!-- rumus -->
+        <text x="180" y="215" text-anchor="middle" fill="#718096" font-size="11">
+          aₙ = 3 × 2ⁿ⁻¹ &nbsp;|&nbsp; Sₙ = 3 × (2ⁿ − 1)
+        </text>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk: aₙ = a₁ × rⁿ⁻¹. Sₙ = a₁(rⁿ − 1)/(r − 1) untuk r ≠ 1. Lipatan kertas: tebal = 0,1 × 2ⁿ mm.</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Bagian (a) — 6 suku pertama:</b>
+        <div class="step">3, 6, 12, 24, 48, <b>96</b></div>
+
+        <b>Bagian (b) — Suku ke-10:</b>
+        <div class="step">a₁₀ = 3 × 2⁹ = 3 × 512 = <b>1.536</b></div>
+
+        <b>Bagian (c) — Jumlah 8 suku pertama (S₈):</b>
+        <div class="step">S₈ = 3 × (2⁸ − 1) / (2 − 1) = 3 × 255 = <b>765</b></div>
+
+        <b>Bagian (d) — Tebal kertas setelah 10 lipatan:</b>
+        <div class="step">Tebal = 0,1 × 2¹⁰ = 0,1 × 1.024 = 102,4 mm</div>
+        <div class="step">= 102,4 ÷ 10 = <b>10,24 cm</b></div>
+
+        <p class="final">✅ Jawaban: (a) 3,6,12,24,48,96 &nbsp;|&nbsp; (b) 1.536 &nbsp;|&nbsp; (c) 765 &nbsp;|&nbsp; (d) 10,24 cm</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     SOAL 4 · IMC · Teori Graf: Derajat Simpul & Handshaking Lemma
+     ═══════════════════════════════════════════════════════ -->
+<div class="card imc">
+  <div class="card-header">
+    <span class="badge">IMC</span>
+    <h2>Soal 4</h2>
+  </div>
+  <div class="card-body">
+    <span class="topic-tag">📌 Teori Graf — Derajat Simpul &amp; Handshaking Lemma</span>
+
+    <div class="question">
+      <strong>Soal:</strong>
+      Dalam sebuah pesta, setiap orang berjabat tangan dengan beberapa orang lain.
+      Kita modelkan sebagai <b>graf</b>: setiap orang = simpul (vertex),
+      setiap jabat tangan = sisi (edge).
+      <br /><br />
+      <b>(a)</b> Di pesta dengan <b>6 orang</b>, total jabat tangan yang terjadi
+      adalah <b>9</b>. Berapa jumlah derajat seluruh simpul?
+      Apa yang dapat disimpulkan? (Handshaking Lemma)<br />
+      <b>(b)</b> Buktikan bahwa dalam setiap pesta, jumlah orang yang melakukan
+      jabat tangan <b>ganjil</b> kali selalu <b>genap</b>.<br />
+      <b>(c)</b> Perhatikan graf dengan 5 simpul berikut.
+      Tentukan derajat setiap simpul dan verifikasi Handshaking Lemma.<br />
+      <b>(d)</b> Bisakah ada graf dengan 5 simpul yang derajatnya berturut-turut
+      adalah <b>1, 2, 3, 4, 5</b>? Jelaskan.
+    </div>
+
+    <!-- SVG: graf 5 simpul akurat + kotak penjelasan Handshaking Lemma -->
+    <div class="svg-wrap">
+      <svg width="360" height="260" viewBox="0 0 360 260"
+           xmlns="http://www.w3.org/2000/svg"
+           aria-label="Graf 5 simpul dengan derajat berlabel dan kotak Handshaking Lemma">
+        <rect width="360" height="260" rx="10" fill="#fffaf0"/>
+
+        <!-- ── KIRI: Graf G (5 simpul, 7 sisi) ── -->
+        <text x="90" y="16" text-anchor="middle" fill="#c05621" font-size="12" font-weight="bold">
+          Graf G — bagian (c)
+        </text>
+
+        <!--
+          V1=(90,45), V2=(155,90), V3=(130,165), V4=(50,165), V5=(25,90)
+          Sisi: V1-V2, V1-V3, V1-V4, V2-V3, V2-V5, V3-V4, V4-V5
+          Derajat: V1=3, V2=3, V3=3, V4=3, V5=2  →  Σ=14=2×7 ✓
+        -->
+
+        <!-- sisi -->
+        <g stroke="#dd6b20" stroke-width="2" stroke-linecap="round">
+          <line x1="90"  y1="45"  x2="155" y2="90"/>
+          <line x1="90"  y1="45"  x2="130" y2="165"/>
+          <line x1="90"  y1="45"  x2="50"  y2="165"/>
+          <line x1="155" y1="90"  x2="130" y2="165"/>
+          <line x1="155" y1="90"  x2="25"  y2="90"/>
+          <line x1="130" y1="165" x2="50"  y2="165"/>
+          <line x1="50"  y1="165" x2="25"  y2="90"/>
+        </g>
+
+        <!-- simpul -->
+        <circle cx="90"  cy="45"  r="15" fill="#fbd38d" stroke="#dd6b20" stroke-width="2"/>
+        <circle cx="155" cy="90"  r="15" fill="#fbd38d" stroke="#dd6b20" stroke-width="2"/>
+        <circle cx="130" cy="165" r="15" fill="#fbd38d" stroke="#dd6b20" stroke-width="2"/>
+        <circle cx="50"  cy="165" r="15" fill="#fbd38d" stroke="#dd6b20" stroke-width="2"/>
+        <circle cx="25"  cy="90"  r="15" fill="#fbd38d" stroke="#dd6b20" stroke-width="2"/>
+
+        <!-- label simpul -->
+        <g text-anchor="middle" font-size="11" font-weight="bold" fill="#7b341e">
+          <text x="90"  y="49">V1</text>
+          <text x="155" y="94">V2</text>
+          <text x="130" y="169">V3</text>
+          <text x="50"  y="169">V4</text>
+          <text x="25"  y="94">V5</text>
+        </g>
+
+        <!-- label derajat (di luar simpul) -->
+        <g text-anchor="middle" font-size="10" font-weight="bold" fill="#c05621">
+          <text x="90"  y="26">deg=3</text>
+          <text x="178" y="90">deg=3</text>
+          <text x="152" y="186">deg=3</text>
+          <text x="28"  y="186">deg=3</text>
+          <text x="4"   y="90">deg=2</text>
+        </g>
+
+        <!-- verifikasi -->
+        <rect x="14" y="200" width="162" height="36" rx="6"
+              fill="white" stroke="#fed7aa" stroke-width="1.5"/>
+        <text x="95" y="216" text-anchor="middle" fill="#4a5568" font-size="10">
+          Σ deg = 3+3+3+3+2 = 14
+        </text>
+        <text x="95" y="230" text-anchor="middle" fill="#c05621" font-size="10" font-weight="bold">
+          = 2 × 7 sisi ✓ (Handshaking Lemma)
+        </text>
+
+        <!-- pemisah -->
+        <line x1="188" y1="12" x2="188" y2="248"
+              stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+        <!-- ── KANAN: Penjelasan Handshaking Lemma ── -->
+        <text x="274" y="16" text-anchor="middle" fill="#c05621" font-size="12" font-weight="bold">
+          Handshaking Lemma
+        </text>
+
+        <!-- kotak utama -->
+        <rect x="196" y="24" width="156" height="76" rx="8"
+              fill="white" stroke="#fed7aa" stroke-width="1.5"/>
+        <text x="274" y="42" text-anchor="middle" fill="#4a5568" font-size="11" font-weight="bold">
+          Untuk setiap graf G:
+        </text>
+        <text x="274" y="62" text-anchor="middle" fill="#dd6b20" font-size="15" font-weight="bold">
+          Σ deg(v) = 2|E|
+        </text>
+        <text x="274" y="80" text-anchor="middle" fill="#718096" font-size="10">
+          Setiap sisi menyumbang
+        </text>
+        <text x="274" y="92" text-anchor="middle" fill="#718096" font-size="10">
+          2 derajat (ke dua ujungnya)
+        </text>
+
+        <!-- kotak bukti (b) -->
+        <rect x="196" y="110" width="156" height="96" rx="8"
+              fill="white" stroke="#fed7aa" stroke-width="1.5"/>
+        <text x="274" y="128" text-anchor="middle" fill="#c05621" font-size="11" font-weight="bold">
+          Bukti (b):
+        </text>
+        <text x="274" y="144" text-anchor="middle" fill="#4a5568" font-size="10">
+          Σdeg = Σ(genap) + Σ(ganjil)
+        </text>
+        <text x="274" y="158" text-anchor="middle" fill="#4a5568" font-size="10">
+          = 2|E| → genap
+        </text>
+        <text x="274" y="172" text-anchor="middle" fill="#4a5568" font-size="10">
+          Σ(genap) sudah genap
+        </text>
+        <text x="274" y="186" text-anchor="middle" fill="#dd6b20" font-size="10" font-weight="bold">
+          ∴ Σ(ganjil) harus genap ∎
+        </text>
+
+        <!-- kotak (d) tidak mungkin -->
+        <rect x="196" y="216" width="156" height="32" rx="6"
+              fill="#fed7d7" stroke="#e53e3e" stroke-width="1.5"/>
+        <text x="274" y="230" text-anchor="middle" fill="#c53030" font-size="10" font-weight="bold">
+          (d) Deg 1,2,3,4,5 → TIDAK MUNGKIN
+        </text>
+        <text x="274" y="242" text-anchor="middle" fill="#c53030" font-size="9">
+          (deg maks = n−1 = 4, bukan 5)
+        </text>
+      </svg>
+    </div>
+
+    <p class="hint">💡 Petunjuk: Handshaking Lemma: Σdeg = 2|E|. Derajat maksimum dalam graf n simpul = n−1.</p>
+
+    <details>
+      <summary>Lihat Pembahasan</summary>
+      <div class="answer-box">
+        <b>Bagian (a) — 6 orang, 9 jabat tangan:</b>
+        <div class="step">Jumlah derajat = 2 × jumlah sisi = 2 × 9 = <b>18</b></div>
+        <div class="step">Handshaking Lemma: jumlah semua derajat = 2|E|, selalu genap.</div>
+
+        <b>Bagian (b) — Jumlah simpul berderajat ganjil selalu genap:</b>
+        <div class="step">Σdeg = Σ(derajat genap) + Σ(derajat ganjil) = 2|E| (genap)</div>
+        <div class="step">Σ(derajat genap) sudah genap → Σ(derajat ganjil) harus genap.</div>
+        <div class="step">Jumlah bilangan ganjil yang totalnya genap → banyaknya harus genap. ∎</div>
+
+        <b>Bagian (c) — Verifikasi graf G (7 sisi):</b>
+        <table class="t">
+          <tr><th>Simpul</th><th>Tetangga</th><th>Derajat</th></tr>
+          <tr><td>V1</td><td>V2, V3, V4</td><td>3</td></tr>
+          <tr><td>V2</td><td>V1, V3, V5</td><td>3</td></tr>
+          <tr><td>V3</td><td>V1, V2, V4</td><td>3</td></tr>
+          <tr><td>V4</td><td>V1, V3, V5</td><td>3</td></tr>
+          <tr><td>V5</td><td>V2, V4</td><td>2</td></tr>
+          <tr><td colspan="2"><b>Jumlah</b></td><td><b>14 = 2 × 7 ✓</b></td></tr>
+        </table>
+
+        <b>Bagian (d) — Derajat 1, 2, 3, 4, 5 pada 5 simpul:</b>
+        <div class="step">Derajat maksimum pada graf 5 simpul = 5 − 1 = 4.</div>
+        <div class="step">Derajat 5 berarti terhubung ke 5 simpul lain → mustahil (hanya ada 4 simpul lain).</div>
+        <div class="step">Jadi <b>tidak mungkin</b>.</div>
+
+        <p class="final">✅ Jawaban: (a) Σdeg=18 &nbsp;|&nbsp; (b) terbukti &nbsp;|&nbsp; (c) Σdeg=14=2×7 ✓ &nbsp;|&nbsp; (d) tidak mungkin</p>
+      </div>
+    </details>
+  </div>
+</div>
+
+</div><!-- end .grid -->
+
+<footer>
+  <p>Soal Olimpiade Matematika SD — Set 12 &nbsp;·&nbsp; OSN · IMSO · IMC &nbsp;·&nbsp; Dibuat dengan Kiro</p>
+</footer>
+</body>
+</html>
