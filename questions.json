@@ -1,0 +1,1242 @@
+[
+  {
+    "id": "q001",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Compute: 2,208 − (208 + 139)",
+    "answer": "1861"
+  },
+  {
+    "id": "q002",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Compute: 733 − (33 + 320)",
+    "answer": "380"
+  },
+  {
+    "id": "q003",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Compute: 1,306 − (406 − 258)",
+    "answer": "1158"
+  },
+  {
+    "id": "q004",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Compute: 945 + (372 − 245) − 172",
+    "answer": "900"
+  },
+  {
+    "id": "q005",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Compute: 644 − (243 − 156) + 143",
+    "answer": "700"
+  },
+  {
+    "id": "q006",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Compute: 717 − (617 − 225)",
+    "answer": "325"
+  },
+  {
+    "id": "q007",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Compute: 937 − (137 + 185) + 85",
+    "answer": "700"
+  },
+  {
+    "id": "q008",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Compute: 1,732 − (732 − 257)",
+    "answer": "1257"
+  },
+  {
+    "id": "q009",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Compute: 788 − (288 + 546) + 346",
+    "answer": "300"
+  },
+  {
+    "id": "q010",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Compute: 37 + 397 + 3,997 + 39,997",
+    "answer": "44428"
+  },
+  {
+    "id": "q011",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Compute: 298 + 2,998 + 29,998 + 299,998",
+    "answer": "333292"
+  },
+  {
+    "id": "q012",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Compute: 9 + 99 + 999 + 9,999 + 99,999",
+    "answer": "111105"
+  },
+  {
+    "id": "q013",
+    "type": "sa",
+    "topic": "Number Series",
+    "competition": "SMC",
+    "text": "Compute: (2 + 4 + 6 + ... + 2,006) − (1 + 3 + 5 + ... + 2,005)",
+    "answer": "1003"
+  },
+  {
+    "id": "q014",
+    "type": "sa",
+    "topic": "Number Series",
+    "competition": "SMC",
+    "text": "Compute: 88 − 87 + 86 − 85 + ... + 4 − 3 + 2 − 1",
+    "answer": "44"
+  },
+  {
+    "id": "q015",
+    "type": "sa",
+    "topic": "Number Series",
+    "competition": "SMC",
+    "text": "Compute: 100 − 98 + 96 − 94 + ... + 8 − 6 + 4 − 2",
+    "answer": "50"
+  },
+  {
+    "id": "q016",
+    "type": "sa",
+    "topic": "Number Series",
+    "competition": "SMC",
+    "text": "Compute: 360 − 357 + 354 − 351 + ... + 300 − 297",
+    "answer": "33"
+  },
+  {
+    "id": "q017",
+    "type": "sa",
+    "topic": "Number Series",
+    "competition": "SMC",
+    "text": "Compute: 2,006 − 1 − 2 − 3 − 4 − ... − 48 − 49 − 50",
+    "answer": "731"
+  },
+  {
+    "id": "q018",
+    "type": "sa",
+    "topic": "Number Series",
+    "competition": "SMC",
+    "text": "Compute: 280 − 276 + 272 − 268 + ... + 200 − 196",
+    "answer": "44"
+  },
+  {
+    "id": "q019",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 56 × 8 + 88 × 4",
+    "answer": "800"
+  },
+  {
+    "id": "q020",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 1,600 ÷ 25",
+    "answer": "64"
+  },
+  {
+    "id": "q021",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 56 × 33 + 44 × 33",
+    "answer": "3300"
+  },
+  {
+    "id": "q022",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 73 × 12 + 27 × 12",
+    "answer": "1200"
+  },
+  {
+    "id": "q023",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 198 × 56",
+    "answer": "11088"
+  },
+  {
+    "id": "q024",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 5 × 64 × 25 × 125 × 97",
+    "answer": "97000000"
+  },
+  {
+    "id": "q025",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 64 × 25 × 125 × 16",
+    "answer": "3200000"
+  },
+  {
+    "id": "q026",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 16,000 ÷ 25",
+    "answer": "640"
+  },
+  {
+    "id": "q027",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 125 × 25 × 5 × 64",
+    "answer": "1000000"
+  },
+  {
+    "id": "q028",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 101 × 1,001 − 101",
+    "answer": "101000"
+  },
+  {
+    "id": "q029",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 5,000 ÷ 8 ÷ 125",
+    "answer": "5"
+  },
+  {
+    "id": "q030",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 6,000 ÷ 25 ÷ 4",
+    "answer": "60"
+  },
+  {
+    "id": "q031",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 30,000 ÷ 2 ÷ 8 ÷ 5 ÷ 125",
+    "answer": "3"
+  },
+  {
+    "id": "q032",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 16,000 ÷ 125 ÷ 4 ÷ 8",
+    "answer": "4"
+  },
+  {
+    "id": "q033",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 32,000 ÷ 125",
+    "answer": "256"
+  },
+  {
+    "id": "q034",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 5,300 ÷ 25",
+    "answer": "212"
+  },
+  {
+    "id": "q035",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 1,400 ÷ 25",
+    "answer": "56"
+  },
+  {
+    "id": "q036",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 72,000 ÷ 125",
+    "answer": "576"
+  },
+  {
+    "id": "q037",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 89 × 11 + 11 × 11",
+    "answer": "1100"
+  },
+  {
+    "id": "q038",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 29 × 8 + 42 × 4",
+    "answer": "400"
+  },
+  {
+    "id": "q039",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 58 × 8 + 84 × 4",
+    "answer": "800"
+  },
+  {
+    "id": "q040",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 58 × 30 + 84 × 15",
+    "answer": "3000"
+  },
+  {
+    "id": "q041",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 63 × 6 + 74 × 3",
+    "answer": "600"
+  },
+  {
+    "id": "q042",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 74 × 6 + 152 × 3",
+    "answer": "900"
+  },
+  {
+    "id": "q043",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 44 × 4 + 78 × 8",
+    "answer": "800"
+  },
+  {
+    "id": "q044",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 56 × 16 + 72 × 32",
+    "answer": "3200"
+  },
+  {
+    "id": "q045",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 35 × 128 − 28 × 35",
+    "answer": "3500"
+  },
+  {
+    "id": "q046",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 46 × 234 − 134 × 46",
+    "answer": "4600"
+  },
+  {
+    "id": "q047",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 287 × 12 − 187 × 12",
+    "answer": "1200"
+  },
+  {
+    "id": "q048",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 897 × 30 − 297 × 30",
+    "answer": "18000"
+  },
+  {
+    "id": "q049",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 69 × 36 − 38 × 18",
+    "answer": "1800"
+  },
+  {
+    "id": "q050",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 74 × 54 − 48 × 27",
+    "answer": "2700"
+  },
+  {
+    "id": "q051",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 132 × 36 − 196 × 12",
+    "answer": "2400"
+  },
+  {
+    "id": "q052",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 156 × 48 − 124 × 12",
+    "answer": "6000"
+  },
+  {
+    "id": "q053",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 3,333 × 3,333 ÷ 9,999",
+    "answer": "1111"
+  },
+  {
+    "id": "q054",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 2,222 × 9,999 ÷ 3,333",
+    "answer": "6666"
+  },
+  {
+    "id": "q055",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 99,999 × 88,888 ÷ 11,111",
+    "answer": "799992"
+  },
+  {
+    "id": "q056",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "SMC",
+    "text": "Use a simple method to compute: 6,666 × 8 + 4,444 × 13",
+    "answer": "111100"
+  },
+  {
+    "id": "q057",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "A farmer has 45 chickens and rabbits. There are 140 legs altogether. How many chickens does the farmer have? (answer format: number only)",
+    "answer": "20"
+  },
+  {
+    "id": "q058",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "A farmer has 45 chickens and rabbits. There are 140 legs altogether. How many rabbits does the farmer have? (answer format: number only)",
+    "answer": "25"
+  },
+  {
+    "id": "q059",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "28 spiders and dragonflies have 200 legs altogether. A spider has 8 legs, a dragonfly has 6 legs. How many spiders are there?",
+    "answer": "16"
+  },
+  {
+    "id": "q060",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "28 spiders and dragonflies have 200 legs altogether. A spider has 8 legs, a dragonfly has 6 legs. How many dragonflies are there?",
+    "answer": "12"
+  },
+  {
+    "id": "q061",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "Andy spent $55 to purchase 20 two-dollar and five-dollar toys. How many two-dollar toys did he buy?",
+    "answer": "15"
+  },
+  {
+    "id": "q062",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "Andy spent $55 to purchase 20 two-dollar and five-dollar toys. How many five-dollar toys did he buy?",
+    "answer": "5"
+  },
+  {
+    "id": "q063",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "There are 40 cars and motorcycles in a park with 116 wheels altogether. How many cars are there?",
+    "answer": "18"
+  },
+  {
+    "id": "q064",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "There are 40 cars and motorcycles in a park with 116 wheels altogether. How many motorcycles are there?",
+    "answer": "22"
+  },
+  {
+    "id": "q065",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "An adult ticket costs $35 and a food ticket costs $18. Mr. Walter paid $598 for 20 tickets. How many adult tickets did he buy?",
+    "answer": "14"
+  },
+  {
+    "id": "q066",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "An adult ticket costs $35 and a food ticket costs $18. Mr. Walter paid $598 for 20 tickets. How many food tickets did he buy?",
+    "answer": "6"
+  },
+  {
+    "id": "q067",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "Jeff has 20 five-dollar and ten-dollar bills totalling $125. How many five-dollar bills does he have?",
+    "answer": "15"
+  },
+  {
+    "id": "q068",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "Jeff has 20 five-dollar and ten-dollar bills totalling $125. How many ten-dollar bills does he have?",
+    "answer": "5"
+  },
+  {
+    "id": "q069",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "A science quiz has 15 questions. +2 points for correct, −1 point for wrong. Kelly scores 21 points. How many questions did she answer correctly?",
+    "answer": "12"
+  },
+  {
+    "id": "q070",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "A math competition has 30 questions. +5 points for correct, −3 points for wrong. Rena scores 126 points. How many questions did she get wrong?",
+    "answer": "3"
+  },
+  {
+    "id": "q071",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "A math quiz has 30 questions: first 20 worth 4 pts each, last 10 worth 7 pts each. No deduction for wrong answers. Justin scores 124 points. How many of the first 20 questions did he answer incorrectly?",
+    "answer": "3"
+  },
+  {
+    "id": "q072",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "A math quiz has 30 questions: first 20 worth 4 pts each, last 10 worth 7 pts each. No deduction for wrong answers. Justin scores 124 points. How many of the last 10 questions did he answer incorrectly?",
+    "answer": "2"
+  },
+  {
+    "id": "q073",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "Mr. George spent $375 on 5 similar tables and 6 similar chairs. Each table costs $20 more than each chair. What was the price of a table?",
+    "answer": "45"
+  },
+  {
+    "id": "q074",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "Mr. George spent $375 on 5 similar tables and 6 similar chairs. Each table costs $20 more than each chair. What was the price of a chair?",
+    "answer": "25"
+  },
+  {
+    "id": "q075",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "Mr. Gretzky spent $390 on 5 basketballs and 4 volleyballs. Each basketball costs $15 more than each volleyball. What was the price of a basketball?",
+    "answer": "50"
+  },
+  {
+    "id": "q076",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "Mr. Gretzky spent $390 on 5 basketballs and 4 volleyballs. Each basketball costs $15 more than each volleyball. What was the price of a volleyball?",
+    "answer": "35"
+  },
+  {
+    "id": "q077",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "Wayne has 20 bills in denominations of $2, $5 and $10. The number of $2 and $10 bills is the same. The total value is $110. How many $2 bills does he have?",
+    "answer": "5"
+  },
+  {
+    "id": "q078",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "Wayne has 20 bills in denominations of $2, $5 and $10. The number of $2 and $10 bills is the same. The total value is $110. How many $5 bills does he have?",
+    "answer": "10"
+  },
+  {
+    "id": "q079",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "Wayne has 20 bills in denominations of $2, $5 and $10. The number of $2 and $10 bills is the same. The total value is $110. How many $10 bills does he have?",
+    "answer": "5"
+  },
+  {
+    "id": "q080",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete the pattern: 1, 2, 4, 8, 16, ( ), ( ), ... What is the 6th term?",
+    "answer": "32"
+  },
+  {
+    "id": "q081",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete the pattern: 1, 2, 4, 8, 16, ( ), ( ), ... What is the 7th term?",
+    "answer": "64"
+  },
+  {
+    "id": "q082",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "In the pattern 3, 4, 5, 8, 7, 16, 9, 32, ( ), ( ), ... what is the 9th term? (Odd-position sequence: 3, 5, 7, 9, ...)",
+    "answer": "11"
+  },
+  {
+    "id": "q083",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "In the pattern 3, 4, 5, 8, 7, 16, 9, 32, ( ), ( ), ... what is the 10th term? (Even-position sequence: 4, 8, 16, 32, ...)",
+    "answer": "64"
+  },
+  {
+    "id": "q084",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete the pattern: 0, 3, 8, 15, 24, ( ), ( ), 63, ... What is the 6th term? (Pattern: n² − 1)",
+    "answer": "35"
+  },
+  {
+    "id": "q085",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete the pattern: 0, 3, 8, 15, 24, ( ), ( ), 63, ... What is the 7th term? (Pattern: n² − 1)",
+    "answer": "48"
+  },
+  {
+    "id": "q086",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "In the pattern 6, 1, 8, 3, 10, 5, 12, 7, ( ), ( ), ... what is the 9th term? (Odd-position sequence: 6, 8, 10, 12, ...)",
+    "answer": "14"
+  },
+  {
+    "id": "q087",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "In the pattern 6, 1, 8, 3, 10, 5, 12, 7, ( ), ( ), ... what is the 10th term? (Even-position sequence: 1, 3, 5, 7, ...)",
+    "answer": "9"
+  },
+  {
+    "id": "q088",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete the pattern: 2, 3, 5, ( ), ( ), 17, ( ), ... What is the 4th term? (Differences increase by 1: 1, 2, 3, 4, 5, 6)",
+    "answer": "8"
+  },
+  {
+    "id": "q089",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete the pattern: 2, 3, 5, ( ), ( ), 17, ( ), ... What is the 5th term? (Differences increase by 1: 1, 2, 3, 4, 5, 6)",
+    "answer": "12"
+  },
+  {
+    "id": "q090",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete the pattern: 2, 3, 5, ( ), ( ), 17, ( ), ... What is the 7th term? (Differences increase by 1: 1, 2, 3, 4, 5, 6)",
+    "answer": "23"
+  },
+  {
+    "id": "q091",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete the pattern: 3, 5, 6, 10, ( ), 15, ( ), ( ), ... What is the 5th term? (Odd-position: 3, 6, 9, 12; Even-position: 5, 10, 15, 20)",
+    "answer": "9"
+  },
+  {
+    "id": "q092",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete the pattern: 3, 5, 6, 10, ( ), 15, ( ), ( ), ... What is the 7th term? (Odd-position: 3, 6, 9, 12; Even-position: 5, 10, 15, 20)",
+    "answer": "12"
+  },
+  {
+    "id": "q093",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete the pattern: 3, 5, 6, 10, ( ), 15, ( ), ( ), ... What is the 8th term? (Odd-position: 3, 6, 9, 12; Even-position: 5, 10, 15, 20)",
+    "answer": "20"
+  },
+  {
+    "id": "q094",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete the pattern: 7, 11, 19, ( ), 67, ( ), ( ), ... What is the 4th term? (Differences: 4, 8, 16, 32, 64, 128)",
+    "answer": "35"
+  },
+  {
+    "id": "q095",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete the pattern: 7, 11, 19, ( ), 67, ( ), ( ), ... What is the 6th term? (Differences: 4, 8, 16, 32, 64, 128)",
+    "answer": "131"
+  },
+  {
+    "id": "q096",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete the pattern: 7, 11, 19, ( ), 67, ( ), ( ), ... What is the 7th term? (Differences: 4, 8, 16, 32, 64, 128)",
+    "answer": "259"
+  },
+  {
+    "id": "q097",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete the pattern: 8, 12, 20, ( ), ( ), ( ), ... What is the 4th term? (Differences: 4, 8, 16, 32, 64)",
+    "answer": "36"
+  },
+  {
+    "id": "q098",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete the pattern: 8, 12, 20, ( ), ( ), ( ), ... What is the 5th term? (Differences: 4, 8, 16, 32, 64)",
+    "answer": "68"
+  },
+  {
+    "id": "q099",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete the pattern: 8, 12, 20, ( ), ( ), ( ), ... What is the 6th term? (Differences: 4, 8, 16, 32, 64)",
+    "answer": "132"
+  },
+  {
+    "id": "q100",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "In the pattern 1 × 9 + 2 = 11, 12 × 9 + 3 = 111, 123 × 9 + 4 = 1,111, what is the missing number: 1,234 × 9 + ( ) = 11,111?",
+    "answer": "5"
+  },
+  {
+    "id": "q101",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "In the pattern 1 × 9 + 2 = 11, 12 × 9 + 3 = 111, ..., what number goes in: ( ) × 9 + 6 = 111,111?",
+    "answer": "12345"
+  },
+  {
+    "id": "q102",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "In the pattern 1 × 9 + 2 = 11, 12 × 9 + 3 = 111, ..., what is the value of: 1,234,567 × 9 + 8 = ( )?",
+    "answer": "11111111"
+  },
+  {
+    "id": "q103",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Find the 4th term in the sequence: 1, 5, 14, ( ), 55, 91, ( ), ( ), ... (Differences are perfect squares: 4, 9, 16, 25, 36, 49, 64)",
+    "answer": "30"
+  },
+  {
+    "id": "q104",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Find the 7th term in the sequence: 1, 5, 14, ( ), 55, 91, ( ), ( ), ... (Differences are perfect squares: 4, 9, 16, 25, 36, 49, 64)",
+    "answer": "140"
+  },
+  {
+    "id": "q105",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Find the 8th term in the sequence: 1, 5, 14, ( ), 55, 91, ( ), ( ), ... (Differences are perfect squares: 4, 9, 16, 25, 36, 49, 64)",
+    "answer": "204"
+  },
+  {
+    "id": "q106",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "The three circles follow the same rule. Find the two missing numbers in circle 3.",
+    "svg": "<svg viewBox='0 0 520 200' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='14'><g transform='translate(80,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>8</text><text x='28' y='-18' text-anchor='middle' font-weight='bold'>20</text><text x='0' y='55' text-anchor='middle' font-weight='bold'>16</text></g><g transform='translate(260,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>18</text><text x='28' y='-18' text-anchor='middle' font-weight='bold'>40</text><text x='0' y='55' text-anchor='middle' font-weight='bold'>36</text></g><g transform='translate(440,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>33</text><text x='28' y='-18' text-anchor='middle' fill='#c00' font-weight='bold'>?</text><text x='0' y='55' text-anchor='middle' fill='#c00' font-weight='bold'>?</text></g></svg>",
+    "subtext": "Top-left = 33. Find top-right and bottom values. Enter as: top-right, bottom",
+    "answer": "70, 66"
+  },
+  {
+    "id": "q107",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "The three circles follow the same rule. Find the two missing numbers in circle 3.",
+    "svg": "<svg viewBox='0 0 520 200' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='14'><g transform='translate(80,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>24</text><text x='28' y='-18' text-anchor='middle' font-weight='bold'>21</text><text x='0' y='55' text-anchor='middle' font-weight='bold'>3</text></g><g transform='translate(260,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>66</text><text x='28' y='-18' text-anchor='middle' font-weight='bold'>63</text><text x='0' y='55' text-anchor='middle' font-weight='bold'>9</text></g><g transform='translate(440,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' fill='#c00' font-weight='bold'>?</text><text x='28' y='-18' text-anchor='middle' fill='#c00' font-weight='bold'>?</text><text x='0' y='55' text-anchor='middle' font-weight='bold'>10</text></g></svg>",
+    "subtext": "Bottom = 10. Find top-left and top-right values. Enter as: top-left, top-right",
+    "answer": "70, 60"
+  },
+  {
+    "id": "q108",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "The three circles follow the same rule. Find the two missing numbers in circle 3.",
+    "svg": "<svg viewBox='0 0 520 200' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='14'><g transform='translate(80,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>34</text><text x='28' y='-18' text-anchor='middle' font-weight='bold'>26</text><text x='0' y='55' text-anchor='middle' font-weight='bold'>31</text></g><g transform='translate(260,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>42</text><text x='28' y='-18' text-anchor='middle' font-weight='bold'>34</text><text x='0' y='55' text-anchor='middle' font-weight='bold'>39</text></g><g transform='translate(440,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>55</text><text x='28' y='-18' text-anchor='middle' fill='#c00' font-weight='bold'>?</text><text x='0' y='55' text-anchor='middle' fill='#c00' font-weight='bold'>?</text></g></svg>",
+    "subtext": "Top-left = 55. Find top-right and bottom values. Enter as: top-right, bottom",
+    "answer": "47, 52"
+  },
+  {
+    "id": "q109",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "The three triangles follow the same rule (top + middle = left + right). Find the value of A.",
+    "svg": "<svg viewBox=\"0 0 480 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI,sans-serif\" font-size=\"13\"><g transform=\"translate(40,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">18</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">12</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">16</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">10</text></g><g transform=\"translate(180,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">34</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">25</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">15</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#c00\" font-weight=\"bold\">A</text></g><g transform=\"translate(320,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">20</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#c00\" font-weight=\"bold\">B</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">18</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">22</text></g></svg>",
+    "subtext": "Rule: top + middle = left + right. Find A (middle of triangle 2).",
+    "answer": "6"
+  },
+  {
+    "id": "q110",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "The three triangles follow the same rule (top + middle = left + right). Find the value of B.",
+    "svg": "<svg viewBox=\"0 0 480 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI,sans-serif\" font-size=\"13\"><g transform=\"translate(40,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">18</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">12</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">16</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">10</text></g><g transform=\"translate(180,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">34</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">25</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">15</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">6</text></g><g transform=\"translate(320,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">20</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#c00\" font-weight=\"bold\">B</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">18</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">22</text></g></svg>",
+    "subtext": "Rule: top + middle = left + right. Find B (bottom-left of triangle 3).",
+    "answer": "24"
+  },
+  {
+    "id": "q111",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "The three triangles follow the same rule (left + right + top = middle). Find the value of A.",
+    "svg": "<svg viewBox=\"0 0 480 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI,sans-serif\" font-size=\"13\"><g transform=\"translate(40,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">11</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">15</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">7</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">33</text></g><g transform=\"translate(180,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">8</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">16</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">10</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#c00\" font-weight=\"bold\">A</text></g><g transform=\"translate(320,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">9</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">14</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">12</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#c00\" font-weight=\"bold\">B</text></g></svg>",
+    "subtext": "Rule: left + right + top = middle. Find A (middle of triangle 2).",
+    "answer": "34"
+  },
+  {
+    "id": "q112",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "The three triangles follow the same rule (left + right + top = middle). Find the value of B.",
+    "svg": "<svg viewBox=\"0 0 480 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI,sans-serif\" font-size=\"13\"><g transform=\"translate(40,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">11</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">15</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">7</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">33</text></g><g transform=\"translate(180,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">8</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">16</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">10</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">34</text></g><g transform=\"translate(320,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">9</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">14</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">12</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#c00\" font-weight=\"bold\">B</text></g></svg>",
+    "subtext": "Rule: left + right + top = middle. Find B (middle of triangle 3).",
+    "answer": "35"
+  },
+  {
+    "id": "q113",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "The three triangles follow the same rule. Find the value of A.",
+    "svg": "<svg viewBox=\"0 0 480 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI,sans-serif\" font-size=\"13\"><g transform=\"translate(40,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">3</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">4</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">5</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#c00\" font-weight=\"bold\">A</text></g><g transform=\"translate(180,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">8</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">3</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">1</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">12</text></g><g transform=\"translate(320,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">2</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">3</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">5</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">15</text></g></svg>",
+    "subtext": "Use triangles 2 and 3 to find the rule, then find A in triangle 1.",
+    "answer": "6"
+  },
+  {
+    "id": "q114",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Find the missing number: ( ) × 11,111 = 123,454,321. (Pattern: 11×11=121, 111×111=12,321, 1,111×1,111=1,234,321)",
+    "answer": "11111"
+  },
+  {
+    "id": "q115",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Find the missing number: 111,111 × 111,111 = ( ). (Pattern: 11×11=121, 111×111=12,321, 1,111×1,111=1,234,321)",
+    "answer": "12345654321"
+  },
+  {
+    "id": "q116",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Find the missing number: 1,111,111 × ( ) = 1,234,567,654,321. (Pattern: 11×11=121, 111×111=12,321)",
+    "answer": "1111111"
+  },
+  {
+    "id": "q117",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Find the missing number: 11,111,111 × 11,111,111 = ( ). (Pattern: 11×11=121, 111×111=12,321)",
+    "answer": "123456787654321"
+  },
+  {
+    "id": "q118",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Given 8,547 × 13 = 111,111 and 8,547 × 26 = 222,222, find: 8,547 × ( ) = 666,666",
+    "answer": "78"
+  },
+  {
+    "id": "q119",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Given 8,547 × 13 = 111,111, find: 8,547 × ( ) = 888,888",
+    "answer": "104"
+  },
+  {
+    "id": "q120",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Given 8,547 × 13 = 111,111, find: 8,547 × ( ) = 999,999",
+    "answer": "117"
+  },
+  {
+    "id": "q121",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Given 8,547 × 13 = 111,111, find: 8,547 × 65 = ( )",
+    "answer": "555555"
+  },
+  {
+    "id": "q122",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete: 2, 3, 5, 8, 13, 21, ( ), ( ), ... What is the 7th term? (Fibonacci)",
+    "answer": "34"
+  },
+  {
+    "id": "q123",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete: 2, 3, 5, 8, 13, 21, ( ), ( ), ... What is the 8th term? (Fibonacci)",
+    "answer": "55"
+  },
+  {
+    "id": "q124",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete: 1, 4, 9, 16, ( ), ( ), ( ), ... What is the 5th term? (Perfect squares)",
+    "answer": "25"
+  },
+  {
+    "id": "q125",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete: 1, 4, 9, 16, ( ), ( ), ( ), ... What is the 6th term? (Perfect squares)",
+    "answer": "36"
+  },
+  {
+    "id": "q126",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete: 1, 4, 9, 16, ( ), ( ), ( ), ... What is the 7th term? (Perfect squares)",
+    "answer": "49"
+  },
+  {
+    "id": "q127",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete: 6, 3, 8, 5, 10, ( ), ( ), ( ), ... What is the 6th term? (Odd positions: 6,8,10,12; Even: 3,5,7,9)",
+    "answer": "12"
+  },
+  {
+    "id": "q128",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete: 6, 3, 8, 5, 10, ( ), ( ), ( ), ... What is the 7th term? (Odd positions: 6,8,10,12; Even: 3,5,7,9)",
+    "answer": "7"
+  },
+  {
+    "id": "q129",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete: 6, 3, 8, 5, 10, ( ), ( ), ( ), ... What is the 8th term? (Odd positions: 6,8,10,12; Even: 3,5,7,9)",
+    "answer": "9"
+  },
+  {
+    "id": "q130",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete: 9, 11, 15, 21, ( ), 39, ( ), ( ), ... What is the 5th term? (Differences: 2,4,6,8,10,12,14)",
+    "answer": "29"
+  },
+  {
+    "id": "q131",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete: 9, 11, 15, 21, ( ), 39, ( ), ( ), ... What is the 7th term? (Differences: 2,4,6,8,10,12,14)",
+    "answer": "51"
+  },
+  {
+    "id": "q132",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete: 9, 11, 15, 21, ( ), 39, ( ), ( ), ... What is the 8th term? (Differences: 2,4,6,8,10,12,14)",
+    "answer": "65"
+  },
+  {
+    "id": "q133",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete: 8, 20, 44, 92, ( ), ( ), ( ), ... What is the 5th term? (Differences double: 12,24,48,96,192,384)",
+    "answer": "188"
+  },
+  {
+    "id": "q134",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete: 8, 20, 44, 92, ( ), ( ), ( ), ... What is the 6th term? (Differences double: 12,24,48,96,192,384)",
+    "answer": "380"
+  },
+  {
+    "id": "q135",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete: 8, 20, 44, 92, ( ), ( ), ( ), ... What is the 7th term? (Differences double: 12,24,48,96,192,384)",
+    "answer": "764"
+  },
+  {
+    "id": "q136",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete: 5, 17, 53, 161, ( ), ( ), 4,373, ... What is the 5th term? (Rule: ×3+2)",
+    "answer": "485"
+  },
+  {
+    "id": "q137",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete: 5, 17, 53, 161, ( ), ( ), 4,373, ... What is the 6th term? (Rule: ×3+2)",
+    "answer": "1457"
+  },
+  {
+    "id": "q138",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete: 2, 25, 140, 715, ( ), 17,965, ... What is the 5th term? (Differences ×5: 23,115,575,2875)",
+    "answer": "3590"
+  },
+  {
+    "id": "q139",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete: 3, 18, 78, ( ), ( ), 5,118, ... What is the 4th term? (Rule: ×4+6)",
+    "answer": "318"
+  },
+  {
+    "id": "q140",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete: 3, 18, 78, ( ), ( ), 5,118, ... What is the 5th term? (Rule: ×4+6)",
+    "answer": "1278"
+  },
+  {
+    "id": "q141",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "In the pattern (1, 3, 6), (2, 6, 9), (3, 9, 12), ..., what are the numbers in the 8th group? (Enter as: a, b, c)",
+    "answer": "8, 24, 27"
+  },
+  {
+    "id": "q142",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "In the pattern (1, 4, 8), (2, 8, 12), (3, 12, 16), ..., what are the numbers in the 12th group? (Enter as: a, b, c)",
+    "answer": "12, 48, 52"
+  },
+  {
+    "id": "q143",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "In the pattern (1, 1, 2), (2, 4, 12), (3, 9, 36), ..., find the sum of all numbers in the 50th group. (Group n = (n, n², n²(n+1)))",
+    "answer": "130050"
+  },
+  {
+    "id": "q144",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete the number pattern: 1+3 = 4 = 2×2; 1+3+5 = 9 = 3×3; 1+3+5+7 = 16 = 4×4; ( ) = ( ) = 5×5. What is the sum equal to 5×5?",
+    "answer": "25"
+  },
+  {
+    "id": "q145",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "Complete the number pattern: 1+3+5+7+9+11 = 36 = ( ). What expression equals 36? (Format: n×n)",
+    "answer": "6×6"
+  },
+  {
+    "id": "q146",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "What is the 12th term in the number pattern: 3, 8, 15, 24, 35, 48, 63, ... (Pattern: n×(n+2))",
+    "answer": "168"
+  },
+  {
+    "id": "q147",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "In the triangle number pattern (row 1 has 1 number, row 2 has 2, etc.), in which row is the number 2,007?",
+    "answer": "63"
+  },
+  {
+    "id": "q148",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "In the sequence 3, ( ), ( ), ( ), ( ), 54, ... the third number is the sum of the first two, and each following number is the sum of the previous two. What is the second number?",
+    "answer": "9"
+  },
+  {
+    "id": "q149",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC",
+    "text": "In the pattern 1/1, 1/2, 2/2, 1/3, 2/3, 3/3, 1/4, 2/4, 3/4, 4/4, ..., which term number is 15/30?",
+    "answer": "450"
+  },
+  {
+    "id": "q150",
+    "type": "sa",
+    "topic": "Algebra",
+    "competition": "SMC",
+    "text": "Find the missing number: (12 + 11 × □) ÷ 12 = 12",
+    "answer": "12"
+  },
+  {
+    "id": "q151",
+    "type": "sa",
+    "topic": "Algebra",
+    "competition": "SMC",
+    "text": "Find the missing number: ((1 + □) ÷ 7 + 4) ÷ 8 = 4/7",
+    "answer": "3"
+  },
+  {
+    "id": "q152",
+    "type": "sa",
+    "topic": "Algebra",
+    "competition": "SMC",
+    "text": "Find the missing number: ((□ + 4) × 8) ÷ 12 = 40",
+    "answer": "56"
+  },
+  {
+    "id": "q153",
+    "type": "sa",
+    "topic": "Algebra",
+    "competition": "SMC",
+    "text": "Find the missing number: ((1 + □) ÷ 9 + 3) ÷ 4 = 8/9",
+    "answer": "4"
+  }
+]

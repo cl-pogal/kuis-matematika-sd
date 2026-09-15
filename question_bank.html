@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Question Bank Manager</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4ff;
+      min-height: 100vh;
+    }
+
+    /* ── Password Gate ── */
+    #pw-gate {
+      position: fixed; inset: 0;
+      background: linear-gradient(135deg, #1a237e, #3949ab);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    #pw-gate.hidden { display: none; }
+
+    .pw-card {
+      background: #fff;
+      border-radius: 18px;
+      padding: 40px 44px;
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+      box-shadow: 0 16px 56px rgba(0,0,0,.25);
+      animation: pwSlideIn .3s ease;
+    }
+    @keyframes pwSlideIn {
+      from { transform: translateY(-24px); opacity: 0; }
+      to   { transform: translateY(0);     opacity: 1; }
+    }
+    .pw-icon { font-size: 2.8rem; margin-bottom: 12px; }
+    .pw-card h2 { font-size: 1.3rem; color: #1a237e; margin-bottom: 6px; }
+    .pw-card p  { font-size: .88rem; color: #777; margin-bottom: 28px; }
+
+    .pw-input-wrap {
+      position: relative;
+      margin-bottom: 8px;
+    }
+    .pw-input-wrap input[type="password"],
+    .pw-input-wrap input[type="text"] {
+      width: 100%;
+      padding: 12px 44px 12px 16px;
+      border: 2px solid #e0e0e0;
+      border-radius: 10px;
+      font-size: 1rem;
+      outline: none;
+      transition: border-color .2s;
+      color: #333;
+    }
+    .pw-input-wrap input:focus { border-color: #3949ab; }
+    .pw-input-wrap input.error { border-color: #c62828; }
+    .pw-toggle {
+      position: absolute;
+      right: 12px; top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1.1rem;
+      color: #aaa;
+      padding: 2px;
+      line-height: 1;
+    }
+    .pw-toggle:hover { color: #555; }
+
+    .pw-error {
+      font-size: .82rem;
+      color: #c62828;
+      min-height: 18px;
+      margin-bottom: 16px;
+      text-align: left;
+    }
+
+    #pw-submit {
+      width: 100%;
+      padding: 13px;
+      background: linear-gradient(135deg, #3949ab, #5c6bc0);
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 4px 14px rgba(57,73,171,.35);
+      transition: box-shadow .2s, transform .1s;
+    }
+    #pw-submit:hover  { box-shadow: 0 6px 20px rgba(57,73,171,.45); }
+    #pw-submit:active { transform: scale(.98); }
+
+    .pw-shake {
+      animation: pwShake .4s ease;
+    }
+    @keyframes pwShake {
+      0%,100% { transform: translateX(0); }
+      20%      { transform: translateX(-8px); }
+      40%      { transform: translateX(8px); }
+      60%      { transform: translateX(-6px); }
+      80%      { transform: translateX(6px); }
+    }
+
+    /* ── Header ── */
+    header {
+      background: linear-gradient(135deg, #1a237e, #3949ab);
+      color: #fff;
+      padding: 20px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      box-shadow: 0 4px 16px rgba(26,35,126,.3);
+    }
+    header h1 { font-size: 1.4rem; }
+    header .subtitle { font-size: .85rem; opacity: .8; margin-top: 2px; }
+    header .header-btns { display: flex; gap: 10px; flex-wrap: wrap; }
+
+    /* ── Layout ── */
+    .main-wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 24px 20px;
+    }
+
+    /* ── Toolbar ── */
+    .toolbar {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .toolbar input[type="text"],
+    .toolbar select {
+      padding: 9px 14px;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      font-size: .9rem;
+      outline: none;
+      transition: border-color .2s;
+      background: #fff;
+    }
+    .toolbar input[type="text"]:focus,
+    .toolbar select:focus { border-color: #3949ab; }
+    .toolbar input[type="text"] { min-width: 220px; flex: 1; }
+    .stats-chip {
+      margin-left: auto;
+      background: #e8eaf6;
+      color: #3949ab;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: .85rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    /* ── Table ── */
+    .table-wrap {
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 4px 20px rgba(0,0,0,.08);
+      overflow: hidden;
+    }
+    table { width: 100%; border-collapse: collapse; }
+    thead th {
+      background: #3949ab;
+      color: #fff;
+      padding: 13px 16px;
+      text-align: left;
+      font-size: .85rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    thead th:last-child { text-align: center; }
+    tbody tr { border-bottom: 1px solid #f0f0f0; transition: background .15s; }
+    tbody tr:hover { background: #f5f6ff; }
+    tbody tr:last-child { border-bottom: none; }
+    td {
+      padding: 12px 16px;
+      font-size: .9rem;
+      color: #333;
+      vertical-align: top;
+    }
+    .td-id    { color: #aaa; font-size: .78rem; white-space: nowrap; }
+    .td-text  { max-width: 280px; line-height: 1.4; }
+    .td-answer{ font-weight: 600; color: #2e7d32; }
+    .td-actions { text-align: center; white-space: nowrap; }
+
+    .badge {
+      display: inline-block;
+      font-size: .7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      padding: 2px 8px;
+      border-radius: 20px;
+    }
+    .badge-mc    { background: #e8eaf6; color: #3949ab; }
+    .badge-sa    { background: #e8f5e9; color: #2e7d32; }
+    .badge-topic { background: #fce4ec; color: #880e4f; font-size: .68rem; }
+
+    .empty-state {
+      text-align: center;
+      padding: 48px 20px;
+      color: #aaa;
+    }
+    .empty-state .icon { font-size: 2.5rem; margin-bottom: 12px; }
+
+    /* ── Buttons ── */
+    .btn {
+      padding: 9px 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: .88rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform .1s, box-shadow .15s;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .btn:active { transform: scale(.97); }
+    .btn-primary { background: #3949ab; color: #fff; }
+    .btn-primary:hover { background: #303f9f; }
+    .btn-success { background: #2e7d32; color: #fff; }
+    .btn-success:hover { background: #1b5e20; }
+    .btn-warning { background: #f57f17; color: #fff; }
+    .btn-warning:hover { background: #e65100; }
+    .btn-danger  { background: #c62828; color: #fff; }
+    .btn-danger:hover  { background: #b71c1c; }
+    .btn-outline { background: transparent; border: 2px solid #3949ab; color: #3949ab; }
+    .btn-outline:hover { background: #e8eaf6; }
+    .btn-sm { padding: 5px 12px; font-size: .8rem; }
+    .btn-white { background: rgba(255,255,255,.15); color: #fff; border: 2px solid rgba(255,255,255,.5); }
+    .btn-white:hover { background: rgba(255,255,255,.25); }
+
+    /* ── Modal ── */
+    .modal-overlay {
+      display: none;
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,.45);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .modal-overlay.open { display: flex; }
+
+    .modal {
+      background: #fff;
+      border-radius: 16px;
+      padding: 32px 36px;
+      width: 100%;
+      max-width: 560px;
+      max-height: 90vh;
+      overflow-y: auto;
+      box-shadow: 0 12px 48px rgba(0,0,0,.2);
+      animation: slideIn .2s ease;
+    }
+    @keyframes slideIn { from { transform: translateY(-20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+
+    .modal h2 { font-size: 1.2rem; color: #1a237e; margin-bottom: 24px; }
+
+    .form-group { margin-bottom: 18px; }
+    .form-group label {
+      display: block;
+      font-size: .82rem;
+      font-weight: 700;
+      color: #555;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      margin-bottom: 6px;
+    }
+    .form-group input[type="text"],
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px 14px;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      font-size: .95rem;
+      color: #333;
+      outline: none;
+      transition: border-color .2s;
+      font-family: inherit;
+    }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus { border-color: #3949ab; }
+    .form-group textarea { min-height: 80px; resize: vertical; }
+
+    .options-editor { display: flex; flex-direction: column; gap: 8px; }
+    .option-row { display: flex; gap: 8px; align-items: center; }
+    .option-row input { flex: 1; }
+    .option-row .opt-letter {
+      width: 28px; height: 28px;
+      border-radius: 50%;
+      background: #e8eaf6;
+      color: #3949ab;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: .8rem;
+      flex-shrink: 0;
+    }
+    .add-option-btn {
+      background: none;
+      border: 2px dashed #ccc;
+      border-radius: 8px;
+      padding: 8px;
+      cursor: pointer;
+      color: #888;
+      font-size: .85rem;
+      width: 100%;
+      transition: border-color .2s, color .2s;
+    }
+    .add-option-btn:hover { border-color: #3949ab; color: #3949ab; }
+
+    .modal-footer {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-top: 24px;
+    }
+
+    /* ── Import/Export panel ── */
+    .io-panel {
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 4px 20px rgba(0,0,0,.08);
+      padding: 24px 28px;
+      margin-top: 24px;
+    }
+    .io-panel h3 { font-size: 1rem; color: #1a237e; margin-bottom: 16px; }
+    .io-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+    .io-row input[type="file"] { display: none; }
+
+    /* ── Toast ── */
+    #toast {
+      position: fixed;
+      bottom: 24px; left: 50%;
+      transform: translateX(-50%) translateY(80px);
+      background: #1a237e;
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 10px;
+      font-size: .9rem;
+      font-weight: 600;
+      box-shadow: 0 4px 20px rgba(0,0,0,.2);
+      transition: transform .3s ease;
+      z-index: 2000;
+      white-space: nowrap;
+    }
+    #toast.show { transform: translateX(-50%) translateY(0); }
+
+    /* ── Confirm dialog ── */
+    #confirm-overlay {
+      display: none;
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,.45);
+      z-index: 1100;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    #confirm-overlay.open { display: flex; }
+    .confirm-box {
+      background: #fff;
+      border-radius: 14px;
+      padding: 28px 32px;
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+      box-shadow: 0 12px 48px rgba(0,0,0,.2);
+    }
+    .confirm-box p { color: #333; margin-bottom: 22px; line-height: 1.5; }
+    .confirm-btns { display: flex; gap: 12px; justify-content: center; }
+
+    @media (max-width: 600px) {
+      header { padding: 16px 16px; }
+      .main-wrap { padding: 16px 12px; }
+      .modal { padding: 24px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ════════ PASSWORD GATE ════════ -->
+<div id="pw-gate">
+  <div class="pw-card">
+    <div class="pw-icon">🔐</div>
+    <h2>Question Bank Manager</h2>
+    <p>This area is password protected.<br>Enter the password to continue.</p>
+    <div class="pw-input-wrap">
+      <input type="password" id="pw-input" placeholder="Enter password"
+             onkeydown="if(event.key==='Enter') checkPassword()" autocomplete="off" />
+      <button class="pw-toggle" onclick="togglePwVisibility()" title="Show/hide password" id="pw-eye">👁</button>
+    </div>
+    <div class="pw-error" id="pw-error"></div>
+    <button id="pw-submit" onclick="checkPassword()">Unlock</button>
+  </div>
+</div>
+
+<!-- ════════ HEADER ════════ -->
+<header>
+  <div>
+    <h1>📚 Question Bank Manager</h1>
+    <div class="subtitle">Add, edit, and manage quiz questions</div>
+  </div>
+  <div class="header-btns">
+    <a href="math_quiz.html" class="btn btn-white">▶ Go to Quiz</a>
+    <button class="btn btn-white" onclick="exportJSON()">⬇ Export JSON</button>
+  </div>
+</header>
+
+<!-- ════════ MAIN ════════ -->
+<div class="main-wrap">
+
+  <!-- Toolbar -->
+  <div class="toolbar">
+    <input type="text" id="search-input" placeholder="🔍 Search questions…" oninput="renderTable()" />
+    <select id="filter-type" onchange="renderTable()">
+      <option value="all">All Types</option>
+      <option value="mc">Multiple Choice</option>
+      <option value="sa">Short Answer</option>
+    </select>
+    <select id="filter-topic" onchange="renderTable()">
+      <option value="all">All Topics</option>
+    </select>
+    <button class="btn btn-primary" onclick="openAddModal()">+ Add Question</button>
+    <div class="stats-chip" id="stats-chip">0 questions</div>
+  </div>
+
+  <!-- Table -->
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Type</th>
+          <th>Topic</th>
+          <th>Question</th>
+          <th>Answer</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="question-tbody"></tbody>
+    </table>
+    <div class="empty-state" id="empty-state" style="display:none">
+      <div class="icon">📭</div>
+      No questions found. Try a different filter or add a new question.
+    </div>
+  </div>
+
+  <!-- Import / Export -->
+  <div class="io-panel">
+    <h3>📂 Import / Export</h3>
+    <div class="io-row">
+      <label class="btn btn-outline" for="import-file">⬆ Import JSON</label>
+      <input type="file" id="import-file" accept=".json" onchange="importJSON(event)" />
+      <button class="btn btn-outline" onclick="downloadTemplate()">📄 Download Template</button>
+      <button class="btn btn-danger" onclick="confirmClearAll()">🗑 Clear All</button>
+    </div>
+    <p style="margin-top:12px;font-size:.82rem;color:#888;">
+      Import a <code>questions.json</code> file to replace the current bank, or export the current bank to save your changes.
+      After making changes, export the file and save it as <strong>questions.json</strong> in the same folder as the quiz.
+    </p>
+  </div>
+
+</div>
+
+<!-- ════════ ADD / EDIT MODAL ════════ -->
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal">
+    <h2 id="modal-title">Add Question</h2>
+
+    <div class="form-group">
+      <label>Question Type</label>
+      <select id="f-type" onchange="toggleOptionsSection()">
+        <option value="mc">Multiple Choice</option>
+        <option value="sa">Short Answer</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Topic</label>
+      <input type="text" id="f-topic" placeholder="e.g. Algebra, Geometry…" list="topic-suggestions" />
+      <datalist id="topic-suggestions"></datalist>
+    </div>
+
+    <div class="form-group">
+      <label>Question Text</label>
+      <textarea id="f-text" placeholder="Enter the question…"></textarea>
+    </div>
+
+    <div class="form-group" id="options-section">
+      <label>Answer Options</label>
+      <div class="options-editor" id="options-editor"></div>
+      <button class="add-option-btn" onclick="addOptionRow()">+ Add Option</button>
+    </div>
+
+    <div class="form-group">
+      <label>Correct Answer</label>
+      <input type="text" id="f-answer" placeholder="Must exactly match one option (MC) or the expected text (SA)" />
+    </div>
+
+    <div class="modal-footer">
+      <button class="btn btn-outline" onclick="closeModal()">Cancel</button>
+      <button class="btn btn-success" onclick="saveQuestion()">Save Question</button>
+    </div>
+  </div>
+</div>
+
+<!-- ════════ CONFIRM DIALOG ════════ -->
+<div id="confirm-overlay">
+  <div class="confirm-box">
+    <p id="confirm-msg">Are you sure?</p>
+    <div class="confirm-btns">
+      <button class="btn btn-outline" onclick="closeConfirm()">Cancel</button>
+      <button class="btn btn-danger" id="confirm-ok-btn">Confirm</button>
+    </div>
+  </div>
+</div>
+
+<!-- ════════ TOAST ════════ -->
+<div id="toast"></div>
+
+<script>
+/* ══════════════════════════ PASSWORD GATE ══════════════════════════ */
+const CORRECT_PW = 'Senang2026';
+
+function checkPassword() {
+  const input = document.getElementById('pw-input');
+  const errEl = document.getElementById('pw-error');
+  if (input.value === CORRECT_PW) {
+    document.getElementById('pw-gate').classList.add('hidden');
+    errEl.textContent = '';
+    // Load bank after unlocking
+    loadFromStorage();
+    renderTable();
+    refreshTopicFilter();
+    refreshTopicSuggestions();
+  } else {
+    errEl.textContent = 'Incorrect password. Please try again.';
+    input.value = '';
+    input.classList.add('error');
+    document.querySelector('.pw-card').classList.add('pw-shake');
+    setTimeout(() => {
+      input.classList.remove('error');
+      document.querySelector('.pw-card').classList.remove('pw-shake');
+    }, 500);
+    input.focus();
+  }
+}
+
+function togglePwVisibility() {
+  const input = document.getElementById('pw-input');
+  const eye   = document.getElementById('pw-eye');
+  if (input.type === 'password') {
+    input.type = 'text';
+    eye.textContent = '🙈';
+  } else {
+    input.type = 'password';
+    eye.textContent = '👁';
+  }
+}
+
+// Focus password input on load
+window.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('pw-input').focus();
+});
+
+/* ══════════════════════════ STATE ══════════════════════════ */
+let questions = [];
+let editingId = null;
+let confirmCallback = null;
+
+const LETTERS = ['A','B','C','D','E','F'];
+
+/* ══════════════════════════ INIT ═══════════════════════════ */
+// Main init runs after password is confirmed (see checkPassword above).
+
+/* ══════════════════════ STORAGE ════════════════════════════ */
+// We keep a working copy in localStorage so changes persist in-session.
+// The user exports to update questions.json on disk.
+
+function loadFromStorage() {
+  const saved = localStorage.getItem('question_bank');
+  if (saved) {
+    try { questions = JSON.parse(saved); return; } catch(e) {}
+  }
+  // Try to fetch from questions.json as initial load
+  fetch('questions.json?_=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      if (Array.isArray(data)) {
+        questions = data;
+        saveToStorage();
+        renderTable();
+        refreshTopicFilter();
+        refreshTopicSuggestions();
+      }
+    })
+    .catch(() => {
+      // No file yet — start empty
+      questions = [];
+    });
+}
+
+function saveToStorage() {
+  localStorage.setItem('question_bank', JSON.stringify(questions));
+}
+
+/* ══════════════════════ RENDER TABLE ═══════════════════════ */
+function renderTable() {
+  const search = document.getElementById('search-input').value.toLowerCase();
+  const fType  = document.getElementById('filter-type').value;
+  const fTopic = document.getElementById('filter-topic').value;
+
+  const filtered = questions.filter(q => {
+    const matchType  = fType  === 'all' || q.type  === fType;
+    const matchTopic = fTopic === 'all' || q.topic === fTopic;
+    const matchSearch = !search
+      || q.text.toLowerCase().includes(search)
+      || (q.topic || '').toLowerCase().includes(search)
+      || q.answer.toLowerCase().includes(search);
+    return matchType && matchTopic && matchSearch;
+  });
+
+  const tbody = document.getElementById('question-tbody');
+  tbody.innerHTML = '';
+
+  document.getElementById('stats-chip').textContent =
+    `${filtered.length} / ${questions.length} questions`;
+
+  document.getElementById('empty-state').style.display =
+    filtered.length === 0 ? 'block' : 'none';
+
+  filtered.forEach(q => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td class="td-id">${q.id}</td>
+      <td><span class="badge ${q.type === 'mc' ? 'badge-mc' : 'badge-sa'}">${q.type === 'mc' ? 'MC' : 'SA'}</span></td>
+      <td><span class="badge badge-topic">${q.topic || '—'}</span></td>
+      <td class="td-text">${escHtml(q.text)}</td>
+      <td class="td-answer">${escHtml(q.answer)}</td>
+      <td class="td-actions">
+        <button class="btn btn-warning btn-sm" onclick="openEditModal('${q.id}')">Edit</button>
+        <button class="btn btn-danger  btn-sm" onclick="confirmDelete('${q.id}')">Delete</button>
+      </td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+function escHtml(str) {
+  return String(str)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+/* ══════════════════════ TOPIC HELPERS ══════════════════════ */
+function refreshTopicFilter() {
+  const topics = ['all', ...new Set(questions.map(q => q.topic).filter(Boolean))].sort();
+  const sel = document.getElementById('filter-topic');
+  const cur = sel.value;
+  sel.innerHTML = '';
+  topics.forEach(t => {
+    const opt = document.createElement('option');
+    opt.value = t;
+    opt.textContent = t === 'all' ? 'All Topics' : t;
+    if (t === cur) opt.selected = true;
+    sel.appendChild(opt);
+  });
+}
+
+function refreshTopicSuggestions() {
+  const dl = document.getElementById('topic-suggestions');
+  const topics = [...new Set(questions.map(q => q.topic).filter(Boolean))].sort();
+  dl.innerHTML = '';
+  topics.forEach(t => {
+    const opt = document.createElement('option');
+    opt.value = t;
+    dl.appendChild(opt);
+  });
+}
+
+/* ══════════════════════ ADD MODAL ══════════════════════════ */
+function openAddModal() {
+  editingId = null;
+  document.getElementById('modal-title').textContent = 'Add Question';
+  document.getElementById('f-type').value   = 'mc';
+  document.getElementById('f-topic').value  = '';
+  document.getElementById('f-text').value   = '';
+  document.getElementById('f-answer').value = '';
+  buildOptionRows(['', '', '', '']);
+  toggleOptionsSection();
+  document.getElementById('modal-overlay').classList.add('open');
+}
+
+function openEditModal(id) {
+  const q = questions.find(x => x.id === id);
+  if (!q) return;
+  editingId = id;
+  document.getElementById('modal-title').textContent = 'Edit Question';
+  document.getElementById('f-type').value   = q.type;
+  document.getElementById('f-topic').value  = q.topic || '';
+  document.getElementById('f-text').value   = q.text;
+  document.getElementById('f-answer').value = q.answer;
+  buildOptionRows(q.type === 'mc' ? q.options : ['', '', '', '']);
+  toggleOptionsSection();
+  document.getElementById('modal-overlay').classList.add('open');
+}
+
+function closeModal() {
+  document.getElementById('modal-overlay').classList.remove('open');
+}
+
+function toggleOptionsSection() {
+  const isMC = document.getElementById('f-type').value === 'mc';
+  document.getElementById('options-section').style.display = isMC ? 'block' : 'none';
+}
+
+function buildOptionRows(opts) {
+  const editor = document.getElementById('options-editor');
+  editor.innerHTML = '';
+  opts.forEach((val, i) => addOptionRow(val));
+}
+
+function addOptionRow(val = '') {
+  const editor = document.getElementById('options-editor');
+  const count  = editor.children.length;
+  const row    = document.createElement('div');
+  row.className = 'option-row';
+  row.innerHTML = `
+    <span class="opt-letter">${LETTERS[count] || count+1}</span>
+    <input type="text" value="${escHtml(val)}" placeholder="Option ${LETTERS[count] || count+1}" />
+    <button class="btn btn-danger btn-sm" onclick="removeOptionRow(this)" title="Remove">✕</button>
+  `;
+  editor.appendChild(row);
+  renumberOptions();
+}
+
+function removeOptionRow(btn) {
+  btn.parentElement.remove();
+  renumberOptions();
+}
+
+function renumberOptions() {
+  const rows = document.querySelectorAll('#options-editor .option-row');
+  rows.forEach((r, i) => {
+    const letter = LETTERS[i] || (i+1);
+    r.querySelector('.opt-letter').textContent = letter;
+    r.querySelector('input').placeholder = `Option ${letter}`;
+  });
+}
+
+/* ══════════════════════ SAVE QUESTION ══════════════════════ */
+function saveQuestion() {
+  const type   = document.getElementById('f-type').value;
+  const topic  = document.getElementById('f-topic').value.trim();
+  const text   = document.getElementById('f-text').value.trim();
+  const answer = document.getElementById('f-answer').value.trim();
+
+  if (!text)   { showToast('⚠️ Question text is required.'); return; }
+  if (!answer) { showToast('⚠️ Correct answer is required.'); return; }
+
+  let options = [];
+  if (type === 'mc') {
+    options = [...document.querySelectorAll('#options-editor .option-row input')]
+      .map(i => i.value.trim())
+      .filter(Boolean);
+    if (options.length < 2) { showToast('⚠️ At least 2 options are required for MC.'); return; }
+    if (!options.includes(answer)) { showToast('⚠️ The correct answer must match one of the options exactly.'); return; }
+  }
+
+  if (editingId) {
+    const idx = questions.findIndex(q => q.id === editingId);
+    if (idx !== -1) {
+      questions[idx] = { ...questions[idx], type, topic, text, options: type === 'mc' ? options : undefined, answer };
+      if (type === 'sa') delete questions[idx].options;
+      showToast('✅ Question updated.');
+    }
+  } else {
+    const id = 'q' + String(Date.now()).slice(-6);
+    const newQ = { id, type, topic, text, answer };
+    if (type === 'mc') newQ.options = options;
+    questions.push(newQ);
+    showToast('✅ Question added.');
+  }
+
+  saveToStorage();
+  closeModal();
+  renderTable();
+  refreshTopicFilter();
+  refreshTopicSuggestions();
+}
+
+/* ══════════════════════ DELETE ═════════════════════════════ */
+function confirmDelete(id) {
+  const q = questions.find(x => x.id === id);
+  showConfirm(`Delete this question?\n\n"${q?.text?.substring(0,80)}…"`, () => {
+    questions = questions.filter(x => x.id !== id);
+    saveToStorage();
+    renderTable();
+    refreshTopicFilter();
+    refreshTopicSuggestions();
+    showToast('🗑 Question deleted.');
+  });
+}
+
+function confirmClearAll() {
+  if (questions.length === 0) { showToast('Bank is already empty.'); return; }
+  showConfirm(`This will delete ALL ${questions.length} questions. This cannot be undone.`, () => {
+    questions = [];
+    saveToStorage();
+    renderTable();
+    refreshTopicFilter();
+    refreshTopicSuggestions();
+    showToast('🗑 All questions cleared.');
+  });
+}
+
+/* ══════════════════════ IMPORT / EXPORT ════════════════════ */
+function exportJSON() {
+  // Clean up undefined fields
+  const clean = questions.map(q => {
+    const o = { id: q.id, type: q.type, topic: q.topic || '', text: q.text, answer: q.answer };
+    if (q.type === 'mc') o.options = q.options;
+    return o;
+  });
+  const blob = new Blob([JSON.stringify(clean, null, 2)], { type: 'application/json' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href     = url;
+  a.download = 'questions.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  showToast('⬇ questions.json downloaded — replace the file in your quiz folder.');
+}
+
+function importJSON(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const data = JSON.parse(e.target.result);
+      if (!Array.isArray(data)) throw new Error('Root must be a JSON array.');
+      // Validate each entry
+      data.forEach((q, i) => {
+        if (!q.text)   throw new Error(`Item ${i}: missing "text".`);
+        if (!q.answer) throw new Error(`Item ${i}: missing "answer".`);
+        if (!q.type || !['mc','sa'].includes(q.type)) throw new Error(`Item ${i}: "type" must be "mc" or "sa".`);
+        if (q.type === 'mc' && (!Array.isArray(q.options) || q.options.length < 2))
+          throw new Error(`Item ${i}: MC question needs at least 2 "options".`);
+        if (!q.id) q.id = 'q' + String(Date.now() + i).slice(-6);
+      });
+      questions = data;
+      saveToStorage();
+      renderTable();
+      refreshTopicFilter();
+      refreshTopicSuggestions();
+      showToast(`✅ Imported ${data.length} questions.`);
+    } catch(err) {
+      alert('Import failed:\n' + err.message);
+    }
+    event.target.value = '';
+  };
+  reader.readAsText(file);
+}
+
+function downloadTemplate() {
+  const template = [
+    {
+      "id": "q001",
+      "type": "mc",
+      "topic": "Algebra",
+      "text": "Sample multiple choice question?",
+      "options": ["Option A", "Option B", "Option C", "Option D"],
+      "answer": "Option A"
+    },
+    {
+      "id": "q002",
+      "type": "sa",
+      "topic": "Arithmetic",
+      "text": "Sample short answer question?",
+      "answer": "Expected answer"
+    }
+  ];
+  const blob = new Blob([JSON.stringify(template, null, 2)], { type: 'application/json' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href     = url;
+  a.download = 'questions_template.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  showToast('📄 Template downloaded.');
+}
+
+/* ══════════════════════ CONFIRM DIALOG ═════════════════════ */
+function showConfirm(msg, cb) {
+  confirmCallback = cb;
+  document.getElementById('confirm-msg').textContent = msg;
+  document.getElementById('confirm-overlay').classList.add('open');
+  document.getElementById('confirm-ok-btn').onclick = () => {
+    closeConfirm();
+    if (confirmCallback) confirmCallback();
+  };
+}
+
+function closeConfirm() {
+  document.getElementById('confirm-overlay').classList.remove('open');
+}
+
+/* ══════════════════════ TOAST ══════════════════════════════ */
+let toastTimer;
+function showToast(msg) {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('show'), 3000);
+}
+
+/* ══════════════════════ CLOSE ON BACKDROP ══════════════════ */
+document.getElementById('modal-overlay').addEventListener('click', e => {
+  if (e.target === document.getElementById('modal-overlay')) closeModal();
+});
+</script>
+</body>
+</html>
