@@ -1238,5 +1238,867 @@
     "competition": "SMC",
     "text": "Find the missing number: ((1 + □) ÷ 9 + 3) ÷ 4 = 8/9",
     "answer": "4"
+  },
+  {
+    "id": "q154",
+    "type": "sa",
+    "topic": "Algebra",
+    "competition": "SMC",
+    "text": "6 is subtracted from a number. The difference is multiplied by 6. 6 is added to the product. The sum is divided by 6. The answer is 6. What is the number?",
+    "answer": "11"
+  },
+  {
+    "id": "q155",
+    "type": "sa",
+    "topic": "Algebra",
+    "competition": "SMC",
+    "text": "A number is added to 6. The sum is multiplied by 3. The product is divided by 8. 8 is subtracted from the quotient. The answer is 1. Find the number.",
+    "answer": "18"
+  },
+  {
+    "id": "q156",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "David's grandfather said: add my age to 42 and divide the sum by 3, then subtract 36 from the quotient, then multiply the difference by 25 to get 100. How old is the grandfather?",
+    "answer": "78"
+  },
+  {
+    "id": "q157",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "ABC Megamart sold 4 sacks more than half its rice on day 1, then 3 fewer than half the remaining on day 2. On day 3 it ordered 30 sacks, giving a total of 50 sacks. How many sacks did it have at first?",
+    "answer": "76"
+  },
+  {
+    "id": "q158",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "Ants moved 120 g less than half their food on trip 1, 100 g more than half the remaining on trip 2, and 480 g on trip 3. 280 g was left unmoved. How much food did the ants have at first?",
+    "answer": "3200"
+  },
+  {
+    "id": "q159",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "ABC Telco sold 20 more than half its phones in January, then 15 more than half the remaining in February, leaving 75 phones. How many phones did it have at first?",
+    "answer": "400"
+  },
+  {
+    "id": "q160",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "Robert misread the ones digit (1) of the subtrahend as 7 and the tens digit (7) as 1, getting a difference of 222. What is the actual difference?",
+    "answer": "168"
+  },
+  {
+    "id": "q161",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "Jeff repeatedly takes half the marbles from a bag then puts 1 back. After 5 repetitions, 3 marbles remain. How many marbles were in the bag at first?",
+    "answer": "34"
+  },
+  {
+    "id": "q162",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "Alison gave Beatrice and Chloe books to double their amounts. Beatrice then doubled Alison and Chloe. Chloe then doubled Alison and Beatrice. Each ended with 32 books. How many books did Alison start with?",
+    "answer": "52"
+  },
+  {
+    "id": "q163",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "Alison, Beatrice and Chloe each doubled others in turns (Alison first, Beatrice second, Chloe last). All ended with 32 books each. How many books did Beatrice start with?",
+    "answer": "28"
+  },
+  {
+    "id": "q164",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "Alison, Beatrice and Chloe each doubled others in turns (Alison first, Beatrice second, Chloe last). All ended with 32 books each. How many books did Chloe start with?",
+    "answer": "16"
+  },
+  {
+    "id": "q165",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "At each bus stop 1 through 5, the fraction 1/7, 1/6, 1/5, 1/4, 1/3 of remaining commuters got off. At stop 6, half got off, leaving 4. How many commuters boarded at the station?",
+    "answer": "28"
+  },
+  {
+    "id": "q166",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "Sean blows 100 bubbles every minute. Half burst after 1 min, 1/4 survive 2 min, 2% survive 3 min, all gone by 4 min. How many bubbles are alive altogether at the 10th minute?",
+    "answer": "177"
+  },
+  {
+    "id": "q167",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "When dividing beads into 4 equal groups, 1 is left over. When dividing one group into 4, remainder is still 1. When dividing one of those groups into 4, remainder is still 1. What is the minimum number of beads?",
+    "answer": "21"
+  },
+  {
+    "id": "q168",
+    "type": "sa",
+    "topic": "Number Series",
+    "competition": "SMC",
+    "text": "Compute: 1 + 2 + 3 + ... + 98 + 99 + 100",
+    "answer": "5050"
+  },
+  {
+    "id": "q169",
+    "type": "sa",
+    "topic": "Number Series",
+    "competition": "SMC",
+    "text": "Compute: 1 + 3 + 5 + 7 + ... + 97 + 99",
+    "answer": "2500"
+  },
+  {
+    "id": "q170",
+    "type": "sa",
+    "topic": "Number Series",
+    "competition": "SMC",
+    "text": "Compute: 1 + 2 + 3 + 4 + ... + 48 + 49 + 50",
+    "answer": "1275"
+  },
+  {
+    "id": "q171",
+    "type": "sa",
+    "topic": "Number Series",
+    "competition": "SMC",
+    "text": "Compute: 1 + 2 + 3 + ... + 99 + 100 + 99 + 98 + ... + 3 + 2 + 1",
+    "answer": "10000"
+  },
+  {
+    "id": "q172",
+    "type": "sa",
+    "topic": "Number Series",
+    "competition": "SMC",
+    "text": "Compute: 1 + 2 + 3 + ... + 1,997 + 1,998 + 1,999",
+    "answer": "1999000"
+  },
+  {
+    "id": "q173",
+    "type": "sa",
+    "topic": "Number Series",
+    "competition": "SMC",
+    "text": "In the number sequence 4, 7, 10, ..., 295, 298, which term is the number 298?",
+    "answer": "99"
+  },
+  {
+    "id": "q174",
+    "type": "sa",
+    "topic": "Number Series",
+    "competition": "SMC",
+    "text": "Find the value of: 7 + 15 + 23 + ... + 767 + 775 + 783",
+    "answer": "38710"
+  },
+  {
+    "id": "q175",
+    "type": "sa",
+    "topic": "Number Series",
+    "competition": "SMC",
+    "text": "A series of 7 books was published every 3 years. The 4th book was published in 1996. In which year was the 1st book published?",
+    "answer": "1987"
+  },
+  {
+    "id": "q176",
+    "type": "sa",
+    "topic": "Number Series",
+    "competition": "SMC",
+    "text": "A series of 7 books was published every 3 years. The 4th book was published in 1996. List the years of the other 6 books (not book 4). Enter as: year1, year2, year3, year5, year6, year7",
+    "answer": "1987, 1990, 1993, 1999, 2002, 2005"
+  },
+  {
+    "id": "q177",
+    "type": "sa",
+    "topic": "Number Series",
+    "competition": "SMC",
+    "text": "Find the 8 numbers between 4 and 40 to make a sequence of 10 numbers with a common difference. Enter the 8 middle numbers separated by commas.",
+    "answer": "8, 12, 16, 20, 24, 28, 32, 36"
+  },
+  {
+    "id": "q178",
+    "type": "sa",
+    "topic": "Number Series",
+    "competition": "SMC",
+    "text": "The sum of the 6th and 7th terms in an arithmetic sequence of 12 numbers is 15. What is the sum of all 12 numbers?",
+    "answer": "90"
+  },
+  {
+    "id": "q179",
+    "type": "sa",
+    "topic": "Number Series",
+    "competition": "SMC",
+    "text": "Place 3 numbers between 12 and 60 to make a sequence of 5 numbers with a common difference. Enter the 3 middle numbers separated by commas.",
+    "answer": "24, 36, 48"
+  },
+  {
+    "id": "q180",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "20 school teams each play exactly 1 match with every other team. How many matches are played altogether?",
+    "answer": "190"
+  },
+  {
+    "id": "q181",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "A stadium North Wing has 30 rows. Each row has 2 more seats than the row in front. The last row has 132 seats. How many seats does the first row have?",
+    "answer": "74"
+  },
+  {
+    "id": "q182",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC",
+    "text": "A stadium North Wing has 30 rows. Each row has 2 more seats than the row in front. The last row has 132 seats and the first row has 74 seats. How many seats are there altogether?",
+    "answer": "3090"
+  },
+  {
+    "id": "q183",
+    "type": "sa",
+    "topic": "Number Series",
+    "competition": "SMC",
+    "text": "Find the sum of all odd numbers from 1 to 100 that are NOT divisible by 11.",
+    "answer": "2225"
+  },
+  {
+    "id": "q184",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "List all prime numbers between 30 and 60. Enter them separated by commas.",
+    "answer": "31, 37, 41, 43, 47, 53, 59"
+  },
+  {
+    "id": "q185",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "The sum of two prime numbers is 39. Find the product of the two prime numbers.",
+    "answer": "74"
+  },
+  {
+    "id": "q186",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "List all 1-digit, 2-digit and 3-digit numbers using digits 1, 2 and 3 (each digit used once per number). Which of these numbers are prime? Enter them separated by commas.",
+    "answer": "2, 3, 13, 23, 31"
+  },
+  {
+    "id": "q187",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "The product of two prime numbers is 65. What is the sum of the two prime numbers?",
+    "answer": "18"
+  },
+  {
+    "id": "q188",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "The product of two prime numbers is 65. What is the difference of the two prime numbers?",
+    "answer": "8"
+  },
+  {
+    "id": "q189",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "The sum of three prime numbers is 30. Which group of three prime numbers gives the smallest product? Enter the three primes separated by commas.",
+    "answer": "2, 5, 23"
+  },
+  {
+    "id": "q190",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "The sum of three prime numbers is 30. What is the smallest possible product of these three prime numbers?",
+    "answer": "230"
+  },
+  {
+    "id": "q191",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "A is a prime number. A+6, A+8, A+12, A+14 are also prime numbers. What is A?",
+    "answer": "5"
+  },
+  {
+    "id": "q192",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "The sum of two prime numbers is 50. Find the biggest possible product of the two prime numbers.",
+    "answer": "589"
+  },
+  {
+    "id": "q193",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Write down 3 prime numbers that have a sum of 27 and give the biggest possible product. What is that biggest product?",
+    "answer": "637"
+  },
+  {
+    "id": "q194",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 91 a prime number?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q195",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 101 a prime number?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q196",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 119 a prime number?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q197",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 123 a prime number?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q198",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 127 a prime number?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q199",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 133 a prime number?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q200",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Perform the prime factorization of 210. Write the answer as prime factors separated by × (e.g. 2 × 3 × 5)",
+    "answer": "2 × 3 × 5 × 7"
+  },
+  {
+    "id": "q201",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Perform the prime factorization of 330.",
+    "answer": "2 × 3 × 5 × 11"
+  },
+  {
+    "id": "q202",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Perform the prime factorization of 286.",
+    "answer": "2 × 11 × 13"
+  },
+  {
+    "id": "q203",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Perform the prime factorization of 385.",
+    "answer": "5 × 7 × 11"
+  },
+  {
+    "id": "q204",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Perform the prime factorization of 221.",
+    "answer": "13 × 17"
+  },
+  {
+    "id": "q205",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Perform the prime factorization of 418.",
+    "answer": "2 × 11 × 19"
+  },
+  {
+    "id": "q206",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Perform the prime factorization of 1,105.",
+    "answer": "5 × 13 × 17"
+  },
+  {
+    "id": "q207",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Perform the prime factorization of 1,309.",
+    "answer": "7 × 11 × 17"
+  },
+  {
+    "id": "q208",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 137 a prime number?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q209",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 271 a prime number?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q210",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 337 a prime number?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q211",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 437 a prime number?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q212",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 507 a prime number?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q213",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 741 a prime number?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q214",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Perform the prime factorization of 2,006. What is the sum of all its prime factors?",
+    "answer": "78"
+  },
+  {
+    "id": "q215",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Perform the prime factorization of 1,992. What is the sum of all its distinct prime factors?",
+    "answer": "88"
+  },
+  {
+    "id": "q216",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "The length (a), width (b) and height (c) of the rectangular prism below are all prime numbers. Face A = a × c cm² and Face B = b × c cm². Given that A + B = 220 cm², find the volume of the rectangular prism in cm³.",
+    "svg": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI,sans-serif\" font-size=\"13\"><polygon points=\"60,60 60,160 180,160 180,60\" fill=\"#f0f4ff\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,60 110,20 230,20 180,60\" fill=\"#dce4f5\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"180,60 230,20 230,120 180,160\" fill=\"#c8d5ee\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"118\" y=\"178\" text-anchor=\"middle\" font-style=\"italic\" font-weight=\"bold\">a</text><text x=\"44\" y=\"115\" text-anchor=\"middle\" font-style=\"italic\" font-weight=\"bold\">b</text><text x=\"242\" y=\"38\" text-anchor=\"middle\" font-style=\"italic\" font-weight=\"bold\">c</text><text x=\"118\" y=\"115\" text-anchor=\"middle\" fill=\"#1a237e\" font-weight=\"bold\">A cm²</text><text x=\"208\" y=\"92\" text-anchor=\"middle\" fill=\"#2e4a8a\" font-weight=\"bold\">B cm²</text></svg>",
+    "subtext": "Hint: A + B = (a + b) × c = 220. Find prime values of a, b, c.",
+    "answer": "1001"
+  },
+  {
+    "id": "q217",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "The product of 1,540 and m is a perfect square number. Find the smallest possible value of m.",
+    "answer": "385"
+  },
+  {
+    "id": "q218",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "A palindrome pair consists of a number and its reverse (e.g. 243 and 342). The product of a palindrome pair is 101,088. Find the sum of the palindrome pair.",
+    "answer": "828"
+  },
+  {
+    "id": "q219",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "How many rectangles of different sizes can be formed from 36 identical small rectangles?",
+    "answer": "5"
+  },
+  {
+    "id": "q220",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "In 780 × a = 1,716 × b, find the smallest value of a.",
+    "answer": "11"
+  },
+  {
+    "id": "q221",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "In 780 × a = 1,716 × b, find the smallest value of b.",
+    "answer": "5"
+  },
+  {
+    "id": "q222",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Different whole numbers are on each face of a cube. Opposite face sums are equal. The face opposite 18 is prime a, opposite 14 is prime b, and prime c is opposite 35. What is a + b + c?",
+    "answer": "44"
+  },
+  {
+    "id": "q223",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "In how many ways is 37 a sum of exactly 3 prime numbers?",
+    "answer": "8"
+  },
+  {
+    "id": "q224",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 2,367 divisible by 3? (Digit sum rule)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q225",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 2,367 divisible by 9? (Digit sum = 18)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q226",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 10,002 divisible by 3? (Digit sum = 3)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q227",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 10,002 divisible by 9? (Digit sum = 3)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q228",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 18,135 divisible by 3? (Digit sum = 18)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q229",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 18,135 divisible by 9? (Digit sum = 18)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q230",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 10,032 divisible by 3? (Digit sum = 6)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q231",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 10,032 divisible by 9? (Digit sum = 6)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q232",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 5,154 divisible by 3? (Digit sum = 5+1+5+4)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q233",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "The palindrome of 5,154 is 4,515. Is 4,515 divisible by 3?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q234",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "If a number is divisible by 3, is its reverse (palindromic number) also divisible by 3?",
+    "options": [
+      "Yes, always — both have the same digit sum",
+      "No — the reverse has a different digit sum"
+    ],
+    "answer": "Yes, always — both have the same digit sum"
+  },
+  {
+    "id": "q235",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "If a number is NOT divisible by 10, can it still be divisible by 5?",
+    "options": [
+      "Yes — numbers ending in 5 are divisible by 5 but not 10",
+      "No — if not divisible by 10 then not by 5"
+    ],
+    "answer": "Yes — numbers ending in 5 are divisible by 5 but not 10"
+  },
+  {
+    "id": "q236",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "If a number is NOT divisible by 5, can it be divisible by 10?",
+    "options": [
+      "Yes",
+      "No — every multiple of 10 is also a multiple of 5"
+    ],
+    "answer": "No — every multiple of 10 is also a multiple of 5"
+  },
+  {
+    "id": "q237",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 15,041 divisible by 7?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q238",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 15,041 divisible by 13? (15,041 ÷ 13 = 1,157)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q239",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 397,523 divisible by 7? (397,523 ÷ 7 = 56,789)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q240",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 397,523 divisible by 13?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q241",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 415,597 divisible by 7? (415,597 ÷ 7 = 59,371)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q242",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 415,597 divisible by 13? (415,597 ÷ 13 = 31,969)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q243",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 417,508 divisible by 7? (417,508 ÷ 7 = 59,644)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q244",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "text": "Is 417,508 divisible by 13? (417,508 ÷ 13 = 32,116)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
   }
 ]
