@@ -5,7 +5,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Compute: 2,208 − (208 + 139)",
-    "answer": "1861"
+    "answer": "1861",
+    "grade": "5+"
   },
   {
     "id": "q002",
@@ -13,7 +14,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Compute: 733 − (33 + 320)",
-    "answer": "380"
+    "answer": "380",
+    "grade": "5+"
   },
   {
     "id": "q003",
@@ -21,7 +23,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Compute: 1,306 − (406 − 258)",
-    "answer": "1158"
+    "answer": "1158",
+    "grade": "5+"
   },
   {
     "id": "q004",
@@ -29,7 +32,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Compute: 945 + (372 − 245) − 172",
-    "answer": "900"
+    "answer": "900",
+    "grade": "5+"
   },
   {
     "id": "q005",
@@ -37,7 +41,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Compute: 644 − (243 − 156) + 143",
-    "answer": "700"
+    "answer": "700",
+    "grade": "5+"
   },
   {
     "id": "q006",
@@ -45,7 +50,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Compute: 717 − (617 − 225)",
-    "answer": "325"
+    "answer": "325",
+    "grade": "5+"
   },
   {
     "id": "q007",
@@ -53,7 +59,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Compute: 937 − (137 + 185) + 85",
-    "answer": "700"
+    "answer": "700",
+    "grade": "5+"
   },
   {
     "id": "q008",
@@ -61,7 +68,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Compute: 1,732 − (732 − 257)",
-    "answer": "1257"
+    "answer": "1257",
+    "grade": "5+"
   },
   {
     "id": "q009",
@@ -69,7 +77,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Compute: 788 − (288 + 546) + 346",
-    "answer": "300"
+    "answer": "300",
+    "grade": "5+"
   },
   {
     "id": "q010",
@@ -77,7 +86,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Compute: 37 + 397 + 3,997 + 39,997",
-    "answer": "44428"
+    "answer": "44428",
+    "grade": "5+"
   },
   {
     "id": "q011",
@@ -85,7 +95,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Compute: 298 + 2,998 + 29,998 + 299,998",
-    "answer": "333292"
+    "answer": "333292",
+    "grade": "5+"
   },
   {
     "id": "q012",
@@ -93,7 +104,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Compute: 9 + 99 + 999 + 9,999 + 99,999",
-    "answer": "111105"
+    "answer": "111105",
+    "grade": "5+"
   },
   {
     "id": "q013",
@@ -101,7 +113,8 @@
     "topic": "Number Series",
     "competition": "SMC",
     "text": "Compute: (2 + 4 + 6 + ... + 2,006) − (1 + 3 + 5 + ... + 2,005)",
-    "answer": "1003"
+    "answer": "1003",
+    "grade": "5+"
   },
   {
     "id": "q014",
@@ -109,7 +122,8 @@
     "topic": "Number Series",
     "competition": "SMC",
     "text": "Compute: 88 − 87 + 86 − 85 + ... + 4 − 3 + 2 − 1",
-    "answer": "44"
+    "answer": "44",
+    "grade": "5+"
   },
   {
     "id": "q015",
@@ -117,7 +131,8 @@
     "topic": "Number Series",
     "competition": "SMC",
     "text": "Compute: 100 − 98 + 96 − 94 + ... + 8 − 6 + 4 − 2",
-    "answer": "50"
+    "answer": "50",
+    "grade": "5+"
   },
   {
     "id": "q016",
@@ -125,7 +140,8 @@
     "topic": "Number Series",
     "competition": "SMC",
     "text": "Compute: 360 − 357 + 354 − 351 + ... + 300 − 297",
-    "answer": "33"
+    "answer": "33",
+    "grade": "5+"
   },
   {
     "id": "q017",
@@ -133,7 +149,8 @@
     "topic": "Number Series",
     "competition": "SMC",
     "text": "Compute: 2,006 − 1 − 2 − 3 − 4 − ... − 48 − 49 − 50",
-    "answer": "731"
+    "answer": "731",
+    "grade": "5+"
   },
   {
     "id": "q018",
@@ -141,7 +158,8 @@
     "topic": "Number Series",
     "competition": "SMC",
     "text": "Compute: 280 − 276 + 272 − 268 + ... + 200 − 196",
-    "answer": "44"
+    "answer": "44",
+    "grade": "5+"
   },
   {
     "id": "q019",
@@ -149,7 +167,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 56 × 8 + 88 × 4",
-    "answer": "800"
+    "answer": "800",
+    "grade": "5+"
   },
   {
     "id": "q020",
@@ -157,7 +176,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 1,600 ÷ 25",
-    "answer": "64"
+    "answer": "64",
+    "grade": "5+"
   },
   {
     "id": "q021",
@@ -165,7 +185,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 56 × 33 + 44 × 33",
-    "answer": "3300"
+    "answer": "3300",
+    "grade": "5+"
   },
   {
     "id": "q022",
@@ -173,7 +194,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 73 × 12 + 27 × 12",
-    "answer": "1200"
+    "answer": "1200",
+    "grade": "5+"
   },
   {
     "id": "q023",
@@ -181,7 +203,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 198 × 56",
-    "answer": "11088"
+    "answer": "11088",
+    "grade": "5+"
   },
   {
     "id": "q024",
@@ -189,7 +212,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 5 × 64 × 25 × 125 × 97",
-    "answer": "97000000"
+    "answer": "97000000",
+    "grade": "5+"
   },
   {
     "id": "q025",
@@ -197,7 +221,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 64 × 25 × 125 × 16",
-    "answer": "3200000"
+    "answer": "3200000",
+    "grade": "5+"
   },
   {
     "id": "q026",
@@ -205,7 +230,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 16,000 ÷ 25",
-    "answer": "640"
+    "answer": "640",
+    "grade": "5+"
   },
   {
     "id": "q027",
@@ -213,7 +239,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 125 × 25 × 5 × 64",
-    "answer": "1000000"
+    "answer": "1000000",
+    "grade": "5+"
   },
   {
     "id": "q028",
@@ -221,7 +248,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 101 × 1,001 − 101",
-    "answer": "101000"
+    "answer": "101000",
+    "grade": "5+"
   },
   {
     "id": "q029",
@@ -229,7 +257,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 5,000 ÷ 8 ÷ 125",
-    "answer": "5"
+    "answer": "5",
+    "grade": "5+"
   },
   {
     "id": "q030",
@@ -237,7 +266,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 6,000 ÷ 25 ÷ 4",
-    "answer": "60"
+    "answer": "60",
+    "grade": "5+"
   },
   {
     "id": "q031",
@@ -245,7 +275,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 30,000 ÷ 2 ÷ 8 ÷ 5 ÷ 125",
-    "answer": "3"
+    "answer": "3",
+    "grade": "5+"
   },
   {
     "id": "q032",
@@ -253,7 +284,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 16,000 ÷ 125 ÷ 4 ÷ 8",
-    "answer": "4"
+    "answer": "4",
+    "grade": "5+"
   },
   {
     "id": "q033",
@@ -261,7 +293,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 32,000 ÷ 125",
-    "answer": "256"
+    "answer": "256",
+    "grade": "5+"
   },
   {
     "id": "q034",
@@ -269,7 +302,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 5,300 ÷ 25",
-    "answer": "212"
+    "answer": "212",
+    "grade": "5+"
   },
   {
     "id": "q035",
@@ -277,7 +311,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 1,400 ÷ 25",
-    "answer": "56"
+    "answer": "56",
+    "grade": "5+"
   },
   {
     "id": "q036",
@@ -285,7 +320,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 72,000 ÷ 125",
-    "answer": "576"
+    "answer": "576",
+    "grade": "5+"
   },
   {
     "id": "q037",
@@ -293,7 +329,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 89 × 11 + 11 × 11",
-    "answer": "1100"
+    "answer": "1100",
+    "grade": "5+"
   },
   {
     "id": "q038",
@@ -301,7 +338,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 29 × 8 + 42 × 4",
-    "answer": "400"
+    "answer": "400",
+    "grade": "5+"
   },
   {
     "id": "q039",
@@ -309,7 +347,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 58 × 8 + 84 × 4",
-    "answer": "800"
+    "answer": "800",
+    "grade": "5+"
   },
   {
     "id": "q040",
@@ -317,7 +356,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 58 × 30 + 84 × 15",
-    "answer": "3000"
+    "answer": "3000",
+    "grade": "5+"
   },
   {
     "id": "q041",
@@ -325,7 +365,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 63 × 6 + 74 × 3",
-    "answer": "600"
+    "answer": "600",
+    "grade": "5+"
   },
   {
     "id": "q042",
@@ -333,7 +374,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 74 × 6 + 152 × 3",
-    "answer": "900"
+    "answer": "900",
+    "grade": "5+"
   },
   {
     "id": "q043",
@@ -341,7 +383,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 44 × 4 + 78 × 8",
-    "answer": "800"
+    "answer": "800",
+    "grade": "5+"
   },
   {
     "id": "q044",
@@ -349,7 +392,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 56 × 16 + 72 × 32",
-    "answer": "3200"
+    "answer": "3200",
+    "grade": "5+"
   },
   {
     "id": "q045",
@@ -357,7 +401,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 35 × 128 − 28 × 35",
-    "answer": "3500"
+    "answer": "3500",
+    "grade": "5+"
   },
   {
     "id": "q046",
@@ -365,7 +410,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 46 × 234 − 134 × 46",
-    "answer": "4600"
+    "answer": "4600",
+    "grade": "5+"
   },
   {
     "id": "q047",
@@ -373,7 +419,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 287 × 12 − 187 × 12",
-    "answer": "1200"
+    "answer": "1200",
+    "grade": "5+"
   },
   {
     "id": "q048",
@@ -381,7 +428,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 897 × 30 − 297 × 30",
-    "answer": "18000"
+    "answer": "18000",
+    "grade": "5+"
   },
   {
     "id": "q049",
@@ -389,7 +437,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 69 × 36 − 38 × 18",
-    "answer": "1800"
+    "answer": "1800",
+    "grade": "5+"
   },
   {
     "id": "q050",
@@ -397,7 +446,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 74 × 54 − 48 × 27",
-    "answer": "2700"
+    "answer": "2700",
+    "grade": "5+"
   },
   {
     "id": "q051",
@@ -405,7 +455,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 132 × 36 − 196 × 12",
-    "answer": "2400"
+    "answer": "2400",
+    "grade": "5+"
   },
   {
     "id": "q052",
@@ -413,7 +464,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 156 × 48 − 124 × 12",
-    "answer": "6000"
+    "answer": "6000",
+    "grade": "5+"
   },
   {
     "id": "q053",
@@ -421,7 +473,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 3,333 × 3,333 ÷ 9,999",
-    "answer": "1111"
+    "answer": "1111",
+    "grade": "5+"
   },
   {
     "id": "q054",
@@ -429,7 +482,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 2,222 × 9,999 ÷ 3,333",
-    "answer": "6666"
+    "answer": "6666",
+    "grade": "5+"
   },
   {
     "id": "q055",
@@ -437,7 +491,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 99,999 × 88,888 ÷ 11,111",
-    "answer": "799992"
+    "answer": "799992",
+    "grade": "5+"
   },
   {
     "id": "q056",
@@ -445,7 +500,8 @@
     "topic": "Arithmetic",
     "competition": "SMC",
     "text": "Use a simple method to compute: 6,666 × 8 + 4,444 × 13",
-    "answer": "111100"
+    "answer": "111100",
+    "grade": "5+"
   },
   {
     "id": "q057",
@@ -453,7 +509,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "A farmer has 45 chickens and rabbits. There are 140 legs altogether. How many chickens does the farmer have? (answer format: number only)",
-    "answer": "20"
+    "answer": "20",
+    "grade": "5+"
   },
   {
     "id": "q058",
@@ -461,7 +518,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "A farmer has 45 chickens and rabbits. There are 140 legs altogether. How many rabbits does the farmer have? (answer format: number only)",
-    "answer": "25"
+    "answer": "25",
+    "grade": "5+"
   },
   {
     "id": "q059",
@@ -469,7 +527,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "28 spiders and dragonflies have 200 legs altogether. A spider has 8 legs, a dragonfly has 6 legs. How many spiders are there?",
-    "answer": "16"
+    "answer": "16",
+    "grade": "5+"
   },
   {
     "id": "q060",
@@ -477,7 +536,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "28 spiders and dragonflies have 200 legs altogether. A spider has 8 legs, a dragonfly has 6 legs. How many dragonflies are there?",
-    "answer": "12"
+    "answer": "12",
+    "grade": "5+"
   },
   {
     "id": "q061",
@@ -485,7 +545,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "Andy spent $55 to purchase 20 two-dollar and five-dollar toys. How many two-dollar toys did he buy?",
-    "answer": "15"
+    "answer": "15",
+    "grade": "5+"
   },
   {
     "id": "q062",
@@ -493,7 +554,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "Andy spent $55 to purchase 20 two-dollar and five-dollar toys. How many five-dollar toys did he buy?",
-    "answer": "5"
+    "answer": "5",
+    "grade": "5+"
   },
   {
     "id": "q063",
@@ -501,7 +563,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "There are 40 cars and motorcycles in a park with 116 wheels altogether. How many cars are there?",
-    "answer": "18"
+    "answer": "18",
+    "grade": "5+"
   },
   {
     "id": "q064",
@@ -509,7 +572,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "There are 40 cars and motorcycles in a park with 116 wheels altogether. How many motorcycles are there?",
-    "answer": "22"
+    "answer": "22",
+    "grade": "5+"
   },
   {
     "id": "q065",
@@ -517,7 +581,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "An adult ticket costs $35 and a food ticket costs $18. Mr. Walter paid $598 for 20 tickets. How many adult tickets did he buy?",
-    "answer": "14"
+    "answer": "14",
+    "grade": "5+"
   },
   {
     "id": "q066",
@@ -525,7 +590,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "An adult ticket costs $35 and a food ticket costs $18. Mr. Walter paid $598 for 20 tickets. How many food tickets did he buy?",
-    "answer": "6"
+    "answer": "6",
+    "grade": "5+"
   },
   {
     "id": "q067",
@@ -533,7 +599,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "Jeff has 20 five-dollar and ten-dollar bills totalling $125. How many five-dollar bills does he have?",
-    "answer": "15"
+    "answer": "15",
+    "grade": "5+"
   },
   {
     "id": "q068",
@@ -541,7 +608,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "Jeff has 20 five-dollar and ten-dollar bills totalling $125. How many ten-dollar bills does he have?",
-    "answer": "5"
+    "answer": "5",
+    "grade": "5+"
   },
   {
     "id": "q069",
@@ -549,7 +617,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "A science quiz has 15 questions. +2 points for correct, −1 point for wrong. Kelly scores 21 points. How many questions did she answer correctly?",
-    "answer": "12"
+    "answer": "12",
+    "grade": "5+"
   },
   {
     "id": "q070",
@@ -557,7 +626,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "A math competition has 30 questions. +5 points for correct, −3 points for wrong. Rena scores 126 points. How many questions did she get wrong?",
-    "answer": "3"
+    "answer": "3",
+    "grade": "5+"
   },
   {
     "id": "q071",
@@ -565,7 +635,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "A math quiz has 30 questions: first 20 worth 4 pts each, last 10 worth 7 pts each. No deduction for wrong answers. Justin scores 124 points. How many of the first 20 questions did he answer incorrectly?",
-    "answer": "3"
+    "answer": "3",
+    "grade": "5+"
   },
   {
     "id": "q072",
@@ -573,7 +644,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "A math quiz has 30 questions: first 20 worth 4 pts each, last 10 worth 7 pts each. No deduction for wrong answers. Justin scores 124 points. How many of the last 10 questions did he answer incorrectly?",
-    "answer": "2"
+    "answer": "2",
+    "grade": "5+"
   },
   {
     "id": "q073",
@@ -581,7 +653,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "Mr. George spent $375 on 5 similar tables and 6 similar chairs. Each table costs $20 more than each chair. What was the price of a table?",
-    "answer": "45"
+    "answer": "45",
+    "grade": "5+"
   },
   {
     "id": "q074",
@@ -589,7 +662,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "Mr. George spent $375 on 5 similar tables and 6 similar chairs. Each table costs $20 more than each chair. What was the price of a chair?",
-    "answer": "25"
+    "answer": "25",
+    "grade": "5+"
   },
   {
     "id": "q075",
@@ -597,7 +671,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "Mr. Gretzky spent $390 on 5 basketballs and 4 volleyballs. Each basketball costs $15 more than each volleyball. What was the price of a basketball?",
-    "answer": "50"
+    "answer": "50",
+    "grade": "5+"
   },
   {
     "id": "q076",
@@ -605,7 +680,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "Mr. Gretzky spent $390 on 5 basketballs and 4 volleyballs. Each basketball costs $15 more than each volleyball. What was the price of a volleyball?",
-    "answer": "35"
+    "answer": "35",
+    "grade": "5+"
   },
   {
     "id": "q077",
@@ -613,7 +689,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "Wayne has 20 bills in denominations of $2, $5 and $10. The number of $2 and $10 bills is the same. The total value is $110. How many $2 bills does he have?",
-    "answer": "5"
+    "answer": "5",
+    "grade": "5+"
   },
   {
     "id": "q078",
@@ -621,7 +698,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "Wayne has 20 bills in denominations of $2, $5 and $10. The number of $2 and $10 bills is the same. The total value is $110. How many $5 bills does he have?",
-    "answer": "10"
+    "answer": "10",
+    "grade": "5+"
   },
   {
     "id": "q079",
@@ -629,7 +707,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "Wayne has 20 bills in denominations of $2, $5 and $10. The number of $2 and $10 bills is the same. The total value is $110. How many $10 bills does he have?",
-    "answer": "5"
+    "answer": "5",
+    "grade": "5+"
   },
   {
     "id": "q080",
@@ -637,7 +716,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete the pattern: 1, 2, 4, 8, 16, ( ), ( ), ... What is the 6th term?",
-    "answer": "32"
+    "answer": "32",
+    "grade": "5+"
   },
   {
     "id": "q081",
@@ -645,7 +725,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete the pattern: 1, 2, 4, 8, 16, ( ), ( ), ... What is the 7th term?",
-    "answer": "64"
+    "answer": "64",
+    "grade": "5+"
   },
   {
     "id": "q082",
@@ -653,7 +734,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "In the pattern 3, 4, 5, 8, 7, 16, 9, 32, ( ), ( ), ... what is the 9th term? (Odd-position sequence: 3, 5, 7, 9, ...)",
-    "answer": "11"
+    "answer": "11",
+    "grade": "5+"
   },
   {
     "id": "q083",
@@ -661,7 +743,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "In the pattern 3, 4, 5, 8, 7, 16, 9, 32, ( ), ( ), ... what is the 10th term? (Even-position sequence: 4, 8, 16, 32, ...)",
-    "answer": "64"
+    "answer": "64",
+    "grade": "5+"
   },
   {
     "id": "q084",
@@ -669,7 +752,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete the pattern: 0, 3, 8, 15, 24, ( ), ( ), 63, ... What is the 6th term? (Pattern: n² − 1)",
-    "answer": "35"
+    "answer": "35",
+    "grade": "5+"
   },
   {
     "id": "q085",
@@ -677,7 +761,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete the pattern: 0, 3, 8, 15, 24, ( ), ( ), 63, ... What is the 7th term? (Pattern: n² − 1)",
-    "answer": "48"
+    "answer": "48",
+    "grade": "5+"
   },
   {
     "id": "q086",
@@ -685,7 +770,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "In the pattern 6, 1, 8, 3, 10, 5, 12, 7, ( ), ( ), ... what is the 9th term? (Odd-position sequence: 6, 8, 10, 12, ...)",
-    "answer": "14"
+    "answer": "14",
+    "grade": "5+"
   },
   {
     "id": "q087",
@@ -693,7 +779,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "In the pattern 6, 1, 8, 3, 10, 5, 12, 7, ( ), ( ), ... what is the 10th term? (Even-position sequence: 1, 3, 5, 7, ...)",
-    "answer": "9"
+    "answer": "9",
+    "grade": "5+"
   },
   {
     "id": "q088",
@@ -701,7 +788,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete the pattern: 2, 3, 5, ( ), ( ), 17, ( ), ... What is the 4th term? (Differences increase by 1: 1, 2, 3, 4, 5, 6)",
-    "answer": "8"
+    "answer": "8",
+    "grade": "5+"
   },
   {
     "id": "q089",
@@ -709,7 +797,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete the pattern: 2, 3, 5, ( ), ( ), 17, ( ), ... What is the 5th term? (Differences increase by 1: 1, 2, 3, 4, 5, 6)",
-    "answer": "12"
+    "answer": "12",
+    "grade": "5+"
   },
   {
     "id": "q090",
@@ -717,7 +806,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete the pattern: 2, 3, 5, ( ), ( ), 17, ( ), ... What is the 7th term? (Differences increase by 1: 1, 2, 3, 4, 5, 6)",
-    "answer": "23"
+    "answer": "23",
+    "grade": "5+"
   },
   {
     "id": "q091",
@@ -725,7 +815,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete the pattern: 3, 5, 6, 10, ( ), 15, ( ), ( ), ... What is the 5th term? (Odd-position: 3, 6, 9, 12; Even-position: 5, 10, 15, 20)",
-    "answer": "9"
+    "answer": "9",
+    "grade": "5+"
   },
   {
     "id": "q092",
@@ -733,7 +824,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete the pattern: 3, 5, 6, 10, ( ), 15, ( ), ( ), ... What is the 7th term? (Odd-position: 3, 6, 9, 12; Even-position: 5, 10, 15, 20)",
-    "answer": "12"
+    "answer": "12",
+    "grade": "5+"
   },
   {
     "id": "q093",
@@ -741,7 +833,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete the pattern: 3, 5, 6, 10, ( ), 15, ( ), ( ), ... What is the 8th term? (Odd-position: 3, 6, 9, 12; Even-position: 5, 10, 15, 20)",
-    "answer": "20"
+    "answer": "20",
+    "grade": "5+"
   },
   {
     "id": "q094",
@@ -749,7 +842,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete the pattern: 7, 11, 19, ( ), 67, ( ), ( ), ... What is the 4th term? (Differences: 4, 8, 16, 32, 64, 128)",
-    "answer": "35"
+    "answer": "35",
+    "grade": "5+"
   },
   {
     "id": "q095",
@@ -757,7 +851,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete the pattern: 7, 11, 19, ( ), 67, ( ), ( ), ... What is the 6th term? (Differences: 4, 8, 16, 32, 64, 128)",
-    "answer": "131"
+    "answer": "131",
+    "grade": "5+"
   },
   {
     "id": "q096",
@@ -765,7 +860,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete the pattern: 7, 11, 19, ( ), 67, ( ), ( ), ... What is the 7th term? (Differences: 4, 8, 16, 32, 64, 128)",
-    "answer": "259"
+    "answer": "259",
+    "grade": "5+"
   },
   {
     "id": "q097",
@@ -773,7 +869,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete the pattern: 8, 12, 20, ( ), ( ), ( ), ... What is the 4th term? (Differences: 4, 8, 16, 32, 64)",
-    "answer": "36"
+    "answer": "36",
+    "grade": "5+"
   },
   {
     "id": "q098",
@@ -781,7 +878,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete the pattern: 8, 12, 20, ( ), ( ), ( ), ... What is the 5th term? (Differences: 4, 8, 16, 32, 64)",
-    "answer": "68"
+    "answer": "68",
+    "grade": "5+"
   },
   {
     "id": "q099",
@@ -789,7 +887,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete the pattern: 8, 12, 20, ( ), ( ), ( ), ... What is the 6th term? (Differences: 4, 8, 16, 32, 64)",
-    "answer": "132"
+    "answer": "132",
+    "grade": "5+"
   },
   {
     "id": "q100",
@@ -797,7 +896,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "In the pattern 1 × 9 + 2 = 11, 12 × 9 + 3 = 111, 123 × 9 + 4 = 1,111, what is the missing number: 1,234 × 9 + ( ) = 11,111?",
-    "answer": "5"
+    "answer": "5",
+    "grade": "5+"
   },
   {
     "id": "q101",
@@ -805,7 +905,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "In the pattern 1 × 9 + 2 = 11, 12 × 9 + 3 = 111, ..., what number goes in: ( ) × 9 + 6 = 111,111?",
-    "answer": "12345"
+    "answer": "12345",
+    "grade": "5+"
   },
   {
     "id": "q102",
@@ -813,7 +914,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "In the pattern 1 × 9 + 2 = 11, 12 × 9 + 3 = 111, ..., what is the value of: 1,234,567 × 9 + 8 = ( )?",
-    "answer": "11111111"
+    "answer": "11111111",
+    "grade": "5+"
   },
   {
     "id": "q103",
@@ -821,7 +923,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Find the 4th term in the sequence: 1, 5, 14, ( ), 55, 91, ( ), ( ), ... (Differences are perfect squares: 4, 9, 16, 25, 36, 49, 64)",
-    "answer": "30"
+    "answer": "30",
+    "grade": "5+"
   },
   {
     "id": "q104",
@@ -829,7 +932,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Find the 7th term in the sequence: 1, 5, 14, ( ), 55, 91, ( ), ( ), ... (Differences are perfect squares: 4, 9, 16, 25, 36, 49, 64)",
-    "answer": "140"
+    "answer": "140",
+    "grade": "5+"
   },
   {
     "id": "q105",
@@ -837,7 +941,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Find the 8th term in the sequence: 1, 5, 14, ( ), 55, 91, ( ), ( ), ... (Differences are perfect squares: 4, 9, 16, 25, 36, 49, 64)",
-    "answer": "204"
+    "answer": "204",
+    "grade": "5+"
   },
   {
     "id": "q106",
@@ -847,7 +952,8 @@
     "text": "The three circles follow the same rule. Find the two missing numbers in circle 3.",
     "svg": "<svg viewBox='0 0 520 200' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='14'><g transform='translate(80,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>8</text><text x='28' y='-18' text-anchor='middle' font-weight='bold'>20</text><text x='0' y='55' text-anchor='middle' font-weight='bold'>16</text></g><g transform='translate(260,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>18</text><text x='28' y='-18' text-anchor='middle' font-weight='bold'>40</text><text x='0' y='55' text-anchor='middle' font-weight='bold'>36</text></g><g transform='translate(440,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>33</text><text x='28' y='-18' text-anchor='middle' fill='#c00' font-weight='bold'>?</text><text x='0' y='55' text-anchor='middle' fill='#c00' font-weight='bold'>?</text></g></svg>",
     "subtext": "Top-left = 33. Find top-right and bottom values. Enter as: top-right, bottom",
-    "answer": "70, 66"
+    "answer": "70, 66",
+    "grade": "5+"
   },
   {
     "id": "q107",
@@ -857,7 +963,8 @@
     "text": "The three circles follow the same rule. Find the two missing numbers in circle 3.",
     "svg": "<svg viewBox='0 0 520 200' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='14'><g transform='translate(80,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>24</text><text x='28' y='-18' text-anchor='middle' font-weight='bold'>21</text><text x='0' y='55' text-anchor='middle' font-weight='bold'>3</text></g><g transform='translate(260,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>66</text><text x='28' y='-18' text-anchor='middle' font-weight='bold'>63</text><text x='0' y='55' text-anchor='middle' font-weight='bold'>9</text></g><g transform='translate(440,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' fill='#c00' font-weight='bold'>?</text><text x='28' y='-18' text-anchor='middle' fill='#c00' font-weight='bold'>?</text><text x='0' y='55' text-anchor='middle' font-weight='bold'>10</text></g></svg>",
     "subtext": "Bottom = 10. Find top-left and top-right values. Enter as: top-left, top-right",
-    "answer": "70, 60"
+    "answer": "70, 60",
+    "grade": "5+"
   },
   {
     "id": "q108",
@@ -867,7 +974,8 @@
     "text": "The three circles follow the same rule. Find the two missing numbers in circle 3.",
     "svg": "<svg viewBox='0 0 520 200' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='14'><g transform='translate(80,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>34</text><text x='28' y='-18' text-anchor='middle' font-weight='bold'>26</text><text x='0' y='55' text-anchor='middle' font-weight='bold'>31</text></g><g transform='translate(260,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>42</text><text x='28' y='-18' text-anchor='middle' font-weight='bold'>34</text><text x='0' y='55' text-anchor='middle' font-weight='bold'>39</text></g><g transform='translate(440,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>55</text><text x='28' y='-18' text-anchor='middle' fill='#c00' font-weight='bold'>?</text><text x='0' y='55' text-anchor='middle' fill='#c00' font-weight='bold'>?</text></g></svg>",
     "subtext": "Top-left = 55. Find top-right and bottom values. Enter as: top-right, bottom",
-    "answer": "47, 52"
+    "answer": "47, 52",
+    "grade": "5+"
   },
   {
     "id": "q109",
@@ -877,7 +985,8 @@
     "text": "The three triangles follow the same rule (top + middle = left + right). Find the value of A.",
     "svg": "<svg viewBox=\"0 0 480 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI,sans-serif\" font-size=\"13\"><g transform=\"translate(40,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">18</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">12</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">16</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">10</text></g><g transform=\"translate(180,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">34</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">25</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">15</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#c00\" font-weight=\"bold\">A</text></g><g transform=\"translate(320,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">20</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#c00\" font-weight=\"bold\">B</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">18</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">22</text></g></svg>",
     "subtext": "Rule: top + middle = left + right. Find A (middle of triangle 2).",
-    "answer": "6"
+    "answer": "6",
+    "grade": "5+"
   },
   {
     "id": "q110",
@@ -887,7 +996,8 @@
     "text": "The three triangles follow the same rule (top + middle = left + right). Find the value of B.",
     "svg": "<svg viewBox=\"0 0 480 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI,sans-serif\" font-size=\"13\"><g transform=\"translate(40,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">18</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">12</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">16</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">10</text></g><g transform=\"translate(180,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">34</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">25</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">15</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">6</text></g><g transform=\"translate(320,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">20</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#c00\" font-weight=\"bold\">B</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">18</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">22</text></g></svg>",
     "subtext": "Rule: top + middle = left + right. Find B (bottom-left of triangle 3).",
-    "answer": "24"
+    "answer": "24",
+    "grade": "5+"
   },
   {
     "id": "q111",
@@ -897,7 +1007,8 @@
     "text": "The three triangles follow the same rule (left + right + top = middle). Find the value of A.",
     "svg": "<svg viewBox=\"0 0 480 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI,sans-serif\" font-size=\"13\"><g transform=\"translate(40,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">11</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">15</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">7</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">33</text></g><g transform=\"translate(180,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">8</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">16</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">10</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#c00\" font-weight=\"bold\">A</text></g><g transform=\"translate(320,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">9</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">14</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">12</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#c00\" font-weight=\"bold\">B</text></g></svg>",
     "subtext": "Rule: left + right + top = middle. Find A (middle of triangle 2).",
-    "answer": "34"
+    "answer": "34",
+    "grade": "5+"
   },
   {
     "id": "q112",
@@ -907,7 +1018,8 @@
     "text": "The three triangles follow the same rule (left + right + top = middle). Find the value of B.",
     "svg": "<svg viewBox=\"0 0 480 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI,sans-serif\" font-size=\"13\"><g transform=\"translate(40,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">11</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">15</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">7</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">33</text></g><g transform=\"translate(180,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">8</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">16</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">10</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">34</text></g><g transform=\"translate(320,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">9</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">14</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">12</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#c00\" font-weight=\"bold\">B</text></g></svg>",
     "subtext": "Rule: left + right + top = middle. Find B (middle of triangle 3).",
-    "answer": "35"
+    "answer": "35",
+    "grade": "5+"
   },
   {
     "id": "q113",
@@ -917,7 +1029,8 @@
     "text": "The three triangles follow the same rule. Find the value of A.",
     "svg": "<svg viewBox=\"0 0 480 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI,sans-serif\" font-size=\"13\"><g transform=\"translate(40,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">3</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">4</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">5</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#c00\" font-weight=\"bold\">A</text></g><g transform=\"translate(180,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">8</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">3</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">1</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">12</text></g><g transform=\"translate(320,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">2</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">3</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">5</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">15</text></g></svg>",
     "subtext": "Use triangles 2 and 3 to find the rule, then find A in triangle 1.",
-    "answer": "6"
+    "answer": "6",
+    "grade": "5+"
   },
   {
     "id": "q114",
@@ -925,7 +1038,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Find the missing number: ( ) × 11,111 = 123,454,321. (Pattern: 11×11=121, 111×111=12,321, 1,111×1,111=1,234,321)",
-    "answer": "11111"
+    "answer": "11111",
+    "grade": "5+"
   },
   {
     "id": "q115",
@@ -933,7 +1047,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Find the missing number: 111,111 × 111,111 = ( ). (Pattern: 11×11=121, 111×111=12,321, 1,111×1,111=1,234,321)",
-    "answer": "12345654321"
+    "answer": "12345654321",
+    "grade": "5+"
   },
   {
     "id": "q116",
@@ -941,7 +1056,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Find the missing number: 1,111,111 × ( ) = 1,234,567,654,321. (Pattern: 11×11=121, 111×111=12,321)",
-    "answer": "1111111"
+    "answer": "1111111",
+    "grade": "5+"
   },
   {
     "id": "q117",
@@ -949,7 +1065,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Find the missing number: 11,111,111 × 11,111,111 = ( ). (Pattern: 11×11=121, 111×111=12,321)",
-    "answer": "123456787654321"
+    "answer": "123456787654321",
+    "grade": "5+"
   },
   {
     "id": "q118",
@@ -957,7 +1074,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Given 8,547 × 13 = 111,111 and 8,547 × 26 = 222,222, find: 8,547 × ( ) = 666,666",
-    "answer": "78"
+    "answer": "78",
+    "grade": "5+"
   },
   {
     "id": "q119",
@@ -965,7 +1083,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Given 8,547 × 13 = 111,111, find: 8,547 × ( ) = 888,888",
-    "answer": "104"
+    "answer": "104",
+    "grade": "5+"
   },
   {
     "id": "q120",
@@ -973,7 +1092,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Given 8,547 × 13 = 111,111, find: 8,547 × ( ) = 999,999",
-    "answer": "117"
+    "answer": "117",
+    "grade": "5+"
   },
   {
     "id": "q121",
@@ -981,7 +1101,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Given 8,547 × 13 = 111,111, find: 8,547 × 65 = ( )",
-    "answer": "555555"
+    "answer": "555555",
+    "grade": "5+"
   },
   {
     "id": "q122",
@@ -989,7 +1110,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete: 2, 3, 5, 8, 13, 21, ( ), ( ), ... What is the 7th term? (Fibonacci)",
-    "answer": "34"
+    "answer": "34",
+    "grade": "5+"
   },
   {
     "id": "q123",
@@ -997,7 +1119,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete: 2, 3, 5, 8, 13, 21, ( ), ( ), ... What is the 8th term? (Fibonacci)",
-    "answer": "55"
+    "answer": "55",
+    "grade": "5+"
   },
   {
     "id": "q124",
@@ -1005,7 +1128,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete: 1, 4, 9, 16, ( ), ( ), ( ), ... What is the 5th term? (Perfect squares)",
-    "answer": "25"
+    "answer": "25",
+    "grade": "5+"
   },
   {
     "id": "q125",
@@ -1013,7 +1137,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete: 1, 4, 9, 16, ( ), ( ), ( ), ... What is the 6th term? (Perfect squares)",
-    "answer": "36"
+    "answer": "36",
+    "grade": "5+"
   },
   {
     "id": "q126",
@@ -1021,7 +1146,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete: 1, 4, 9, 16, ( ), ( ), ( ), ... What is the 7th term? (Perfect squares)",
-    "answer": "49"
+    "answer": "49",
+    "grade": "5+"
   },
   {
     "id": "q127",
@@ -1029,7 +1155,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete: 6, 3, 8, 5, 10, ( ), ( ), ( ), ... What is the 6th term? (Odd positions: 6,8,10,12; Even: 3,5,7,9)",
-    "answer": "12"
+    "answer": "12",
+    "grade": "5+"
   },
   {
     "id": "q128",
@@ -1037,7 +1164,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete: 6, 3, 8, 5, 10, ( ), ( ), ( ), ... What is the 7th term? (Odd positions: 6,8,10,12; Even: 3,5,7,9)",
-    "answer": "7"
+    "answer": "7",
+    "grade": "5+"
   },
   {
     "id": "q129",
@@ -1045,7 +1173,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete: 6, 3, 8, 5, 10, ( ), ( ), ( ), ... What is the 8th term? (Odd positions: 6,8,10,12; Even: 3,5,7,9)",
-    "answer": "9"
+    "answer": "9",
+    "grade": "5+"
   },
   {
     "id": "q130",
@@ -1053,7 +1182,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete: 9, 11, 15, 21, ( ), 39, ( ), ( ), ... What is the 5th term? (Differences: 2,4,6,8,10,12,14)",
-    "answer": "29"
+    "answer": "29",
+    "grade": "5+"
   },
   {
     "id": "q131",
@@ -1061,7 +1191,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete: 9, 11, 15, 21, ( ), 39, ( ), ( ), ... What is the 7th term? (Differences: 2,4,6,8,10,12,14)",
-    "answer": "51"
+    "answer": "51",
+    "grade": "5+"
   },
   {
     "id": "q132",
@@ -1069,7 +1200,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete: 9, 11, 15, 21, ( ), 39, ( ), ( ), ... What is the 8th term? (Differences: 2,4,6,8,10,12,14)",
-    "answer": "65"
+    "answer": "65",
+    "grade": "5+"
   },
   {
     "id": "q133",
@@ -1077,7 +1209,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete: 8, 20, 44, 92, ( ), ( ), ( ), ... What is the 5th term? (Differences double: 12,24,48,96,192,384)",
-    "answer": "188"
+    "answer": "188",
+    "grade": "5+"
   },
   {
     "id": "q134",
@@ -1085,7 +1218,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete: 8, 20, 44, 92, ( ), ( ), ( ), ... What is the 6th term? (Differences double: 12,24,48,96,192,384)",
-    "answer": "380"
+    "answer": "380",
+    "grade": "5+"
   },
   {
     "id": "q135",
@@ -1093,7 +1227,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete: 8, 20, 44, 92, ( ), ( ), ( ), ... What is the 7th term? (Differences double: 12,24,48,96,192,384)",
-    "answer": "764"
+    "answer": "764",
+    "grade": "5+"
   },
   {
     "id": "q136",
@@ -1101,7 +1236,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete: 5, 17, 53, 161, ( ), ( ), 4,373, ... What is the 5th term? (Rule: ×3+2)",
-    "answer": "485"
+    "answer": "485",
+    "grade": "5+"
   },
   {
     "id": "q137",
@@ -1109,7 +1245,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete: 5, 17, 53, 161, ( ), ( ), 4,373, ... What is the 6th term? (Rule: ×3+2)",
-    "answer": "1457"
+    "answer": "1457",
+    "grade": "5+"
   },
   {
     "id": "q138",
@@ -1117,7 +1254,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete: 2, 25, 140, 715, ( ), 17,965, ... What is the 5th term? (Differences ×5: 23,115,575,2875)",
-    "answer": "3590"
+    "answer": "3590",
+    "grade": "5+"
   },
   {
     "id": "q139",
@@ -1125,7 +1263,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete: 3, 18, 78, ( ), ( ), 5,118, ... What is the 4th term? (Rule: ×4+6)",
-    "answer": "318"
+    "answer": "318",
+    "grade": "5+"
   },
   {
     "id": "q140",
@@ -1133,7 +1272,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete: 3, 18, 78, ( ), ( ), 5,118, ... What is the 5th term? (Rule: ×4+6)",
-    "answer": "1278"
+    "answer": "1278",
+    "grade": "5+"
   },
   {
     "id": "q141",
@@ -1141,7 +1281,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "In the pattern (1, 3, 6), (2, 6, 9), (3, 9, 12), ..., what are the numbers in the 8th group? (Enter as: a, b, c)",
-    "answer": "8, 24, 27"
+    "answer": "8, 24, 27",
+    "grade": "5+"
   },
   {
     "id": "q142",
@@ -1149,7 +1290,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "In the pattern (1, 4, 8), (2, 8, 12), (3, 12, 16), ..., what are the numbers in the 12th group? (Enter as: a, b, c)",
-    "answer": "12, 48, 52"
+    "answer": "12, 48, 52",
+    "grade": "5+"
   },
   {
     "id": "q143",
@@ -1157,7 +1299,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "In the pattern (1, 1, 2), (2, 4, 12), (3, 9, 36), ..., find the sum of all numbers in the 50th group. (Group n = (n, n², n²(n+1)))",
-    "answer": "130050"
+    "answer": "130050",
+    "grade": "5+"
   },
   {
     "id": "q144",
@@ -1165,7 +1308,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete the number pattern: 1+3 = 4 = 2×2; 1+3+5 = 9 = 3×3; 1+3+5+7 = 16 = 4×4; ( ) = ( ) = 5×5. What is the sum equal to 5×5?",
-    "answer": "25"
+    "answer": "25",
+    "grade": "5+"
   },
   {
     "id": "q145",
@@ -1173,7 +1317,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "Complete the number pattern: 1+3+5+7+9+11 = 36 = ( ). What expression equals 36? (Format: n×n)",
-    "answer": "6×6"
+    "answer": "6×6",
+    "grade": "5+"
   },
   {
     "id": "q146",
@@ -1181,7 +1326,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "What is the 12th term in the number pattern: 3, 8, 15, 24, 35, 48, 63, ... (Pattern: n×(n+2))",
-    "answer": "168"
+    "answer": "168",
+    "grade": "5+"
   },
   {
     "id": "q147",
@@ -1189,7 +1335,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "In the triangle number pattern (row 1 has 1 number, row 2 has 2, etc.), in which row is the number 2,007?",
-    "answer": "63"
+    "answer": "63",
+    "grade": "5+"
   },
   {
     "id": "q148",
@@ -1197,7 +1344,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "In the sequence 3, ( ), ( ), ( ), ( ), 54, ... the third number is the sum of the first two, and each following number is the sum of the previous two. What is the second number?",
-    "answer": "9"
+    "answer": "9",
+    "grade": "5+"
   },
   {
     "id": "q149",
@@ -1205,7 +1353,8 @@
     "topic": "Number Patterns",
     "competition": "SMC",
     "text": "In the pattern 1/1, 1/2, 2/2, 1/3, 2/3, 3/3, 1/4, 2/4, 3/4, 4/4, ..., which term number is 15/30?",
-    "answer": "450"
+    "answer": "450",
+    "grade": "5+"
   },
   {
     "id": "q150",
@@ -1213,7 +1362,8 @@
     "topic": "Algebra",
     "competition": "SMC",
     "text": "Find the missing number: (12 + 11 × □) ÷ 12 = 12",
-    "answer": "12"
+    "answer": "12",
+    "grade": "5+"
   },
   {
     "id": "q151",
@@ -1221,7 +1371,8 @@
     "topic": "Algebra",
     "competition": "SMC",
     "text": "Find the missing number: ((1 + □) ÷ 7 + 4) ÷ 8 = 4/7",
-    "answer": "3"
+    "answer": "3",
+    "grade": "5+"
   },
   {
     "id": "q152",
@@ -1229,7 +1380,8 @@
     "topic": "Algebra",
     "competition": "SMC",
     "text": "Find the missing number: ((□ + 4) × 8) ÷ 12 = 40",
-    "answer": "56"
+    "answer": "56",
+    "grade": "5+"
   },
   {
     "id": "q153",
@@ -1237,7 +1389,8 @@
     "topic": "Algebra",
     "competition": "SMC",
     "text": "Find the missing number: ((1 + □) ÷ 9 + 3) ÷ 4 = 8/9",
-    "answer": "4"
+    "answer": "4",
+    "grade": "5+"
   },
   {
     "id": "q154",
@@ -1245,7 +1398,8 @@
     "topic": "Algebra",
     "competition": "SMC",
     "text": "6 is subtracted from a number. The difference is multiplied by 6. 6 is added to the product. The sum is divided by 6. The answer is 6. What is the number?",
-    "answer": "11"
+    "answer": "11",
+    "grade": "5+"
   },
   {
     "id": "q155",
@@ -1253,7 +1407,8 @@
     "topic": "Algebra",
     "competition": "SMC",
     "text": "A number is added to 6. The sum is multiplied by 3. The product is divided by 8. 8 is subtracted from the quotient. The answer is 1. Find the number.",
-    "answer": "18"
+    "answer": "18",
+    "grade": "5+"
   },
   {
     "id": "q156",
@@ -1261,7 +1416,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "David's grandfather said: add my age to 42 and divide the sum by 3, then subtract 36 from the quotient, then multiply the difference by 25 to get 100. How old is the grandfather?",
-    "answer": "78"
+    "answer": "78",
+    "grade": "5+"
   },
   {
     "id": "q157",
@@ -1269,7 +1425,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "ABC Megamart sold 4 sacks more than half its rice on day 1, then 3 fewer than half the remaining on day 2. On day 3 it ordered 30 sacks, giving a total of 50 sacks. How many sacks did it have at first?",
-    "answer": "76"
+    "answer": "76",
+    "grade": "5+"
   },
   {
     "id": "q158",
@@ -1277,7 +1434,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "Ants moved 120 g less than half their food on trip 1, 100 g more than half the remaining on trip 2, and 480 g on trip 3. 280 g was left unmoved. How much food did the ants have at first?",
-    "answer": "3200"
+    "answer": "3200",
+    "grade": "5+"
   },
   {
     "id": "q159",
@@ -1285,7 +1443,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "ABC Telco sold 20 more than half its phones in January, then 15 more than half the remaining in February, leaving 75 phones. How many phones did it have at first?",
-    "answer": "400"
+    "answer": "400",
+    "grade": "5+"
   },
   {
     "id": "q160",
@@ -1293,7 +1452,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "Robert misread the ones digit (1) of the subtrahend as 7 and the tens digit (7) as 1, getting a difference of 222. What is the actual difference?",
-    "answer": "168"
+    "answer": "168",
+    "grade": "5+"
   },
   {
     "id": "q161",
@@ -1301,7 +1461,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "Jeff repeatedly takes half the marbles from a bag then puts 1 back. After 5 repetitions, 3 marbles remain. How many marbles were in the bag at first?",
-    "answer": "34"
+    "answer": "34",
+    "grade": "5+"
   },
   {
     "id": "q162",
@@ -1309,7 +1470,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "Alison gave Beatrice and Chloe books to double their amounts. Beatrice then doubled Alison and Chloe. Chloe then doubled Alison and Beatrice. Each ended with 32 books. How many books did Alison start with?",
-    "answer": "52"
+    "answer": "52",
+    "grade": "5+"
   },
   {
     "id": "q163",
@@ -1317,7 +1479,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "Alison, Beatrice and Chloe each doubled others in turns (Alison first, Beatrice second, Chloe last). All ended with 32 books each. How many books did Beatrice start with?",
-    "answer": "28"
+    "answer": "28",
+    "grade": "5+"
   },
   {
     "id": "q164",
@@ -1325,7 +1488,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "Alison, Beatrice and Chloe each doubled others in turns (Alison first, Beatrice second, Chloe last). All ended with 32 books each. How many books did Chloe start with?",
-    "answer": "16"
+    "answer": "16",
+    "grade": "5+"
   },
   {
     "id": "q165",
@@ -1333,7 +1497,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "At each bus stop 1 through 5, the fraction 1/7, 1/6, 1/5, 1/4, 1/3 of remaining commuters got off. At stop 6, half got off, leaving 4. How many commuters boarded at the station?",
-    "answer": "28"
+    "answer": "28",
+    "grade": "5+"
   },
   {
     "id": "q166",
@@ -1341,7 +1506,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "Sean blows 100 bubbles every minute. Half burst after 1 min, 1/4 survive 2 min, 2% survive 3 min, all gone by 4 min. How many bubbles are alive altogether at the 10th minute?",
-    "answer": "177"
+    "answer": "177",
+    "grade": "5+"
   },
   {
     "id": "q167",
@@ -1349,7 +1515,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "When dividing beads into 4 equal groups, 1 is left over. When dividing one group into 4, remainder is still 1. When dividing one of those groups into 4, remainder is still 1. What is the minimum number of beads?",
-    "answer": "21"
+    "answer": "21",
+    "grade": "5+"
   },
   {
     "id": "q168",
@@ -1357,7 +1524,8 @@
     "topic": "Number Series",
     "competition": "SMC",
     "text": "Compute: 1 + 2 + 3 + ... + 98 + 99 + 100",
-    "answer": "5050"
+    "answer": "5050",
+    "grade": "5+"
   },
   {
     "id": "q169",
@@ -1365,7 +1533,8 @@
     "topic": "Number Series",
     "competition": "SMC",
     "text": "Compute: 1 + 3 + 5 + 7 + ... + 97 + 99",
-    "answer": "2500"
+    "answer": "2500",
+    "grade": "5+"
   },
   {
     "id": "q170",
@@ -1373,7 +1542,8 @@
     "topic": "Number Series",
     "competition": "SMC",
     "text": "Compute: 1 + 2 + 3 + 4 + ... + 48 + 49 + 50",
-    "answer": "1275"
+    "answer": "1275",
+    "grade": "5+"
   },
   {
     "id": "q171",
@@ -1381,7 +1551,8 @@
     "topic": "Number Series",
     "competition": "SMC",
     "text": "Compute: 1 + 2 + 3 + ... + 99 + 100 + 99 + 98 + ... + 3 + 2 + 1",
-    "answer": "10000"
+    "answer": "10000",
+    "grade": "5+"
   },
   {
     "id": "q172",
@@ -1389,7 +1560,8 @@
     "topic": "Number Series",
     "competition": "SMC",
     "text": "Compute: 1 + 2 + 3 + ... + 1,997 + 1,998 + 1,999",
-    "answer": "1999000"
+    "answer": "1999000",
+    "grade": "5+"
   },
   {
     "id": "q173",
@@ -1397,7 +1569,8 @@
     "topic": "Number Series",
     "competition": "SMC",
     "text": "In the number sequence 4, 7, 10, ..., 295, 298, which term is the number 298?",
-    "answer": "99"
+    "answer": "99",
+    "grade": "5+"
   },
   {
     "id": "q174",
@@ -1405,7 +1578,8 @@
     "topic": "Number Series",
     "competition": "SMC",
     "text": "Find the value of: 7 + 15 + 23 + ... + 767 + 775 + 783",
-    "answer": "38710"
+    "answer": "38710",
+    "grade": "5+"
   },
   {
     "id": "q175",
@@ -1413,7 +1587,8 @@
     "topic": "Number Series",
     "competition": "SMC",
     "text": "A series of 7 books was published every 3 years. The 4th book was published in 1996. In which year was the 1st book published?",
-    "answer": "1987"
+    "answer": "1987",
+    "grade": "5+"
   },
   {
     "id": "q176",
@@ -1421,7 +1596,8 @@
     "topic": "Number Series",
     "competition": "SMC",
     "text": "A series of 7 books was published every 3 years. The 4th book was published in 1996. List the years of the other 6 books (not book 4). Enter as: year1, year2, year3, year5, year6, year7",
-    "answer": "1987, 1990, 1993, 1999, 2002, 2005"
+    "answer": "1987, 1990, 1993, 1999, 2002, 2005",
+    "grade": "5+"
   },
   {
     "id": "q177",
@@ -1429,7 +1605,8 @@
     "topic": "Number Series",
     "competition": "SMC",
     "text": "Find the 8 numbers between 4 and 40 to make a sequence of 10 numbers with a common difference. Enter the 8 middle numbers separated by commas.",
-    "answer": "8, 12, 16, 20, 24, 28, 32, 36"
+    "answer": "8, 12, 16, 20, 24, 28, 32, 36",
+    "grade": "5+"
   },
   {
     "id": "q178",
@@ -1437,7 +1614,8 @@
     "topic": "Number Series",
     "competition": "SMC",
     "text": "The sum of the 6th and 7th terms in an arithmetic sequence of 12 numbers is 15. What is the sum of all 12 numbers?",
-    "answer": "90"
+    "answer": "90",
+    "grade": "5+"
   },
   {
     "id": "q179",
@@ -1445,7 +1623,8 @@
     "topic": "Number Series",
     "competition": "SMC",
     "text": "Place 3 numbers between 12 and 60 to make a sequence of 5 numbers with a common difference. Enter the 3 middle numbers separated by commas.",
-    "answer": "24, 36, 48"
+    "answer": "24, 36, 48",
+    "grade": "5+"
   },
   {
     "id": "q180",
@@ -1453,7 +1632,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "20 school teams each play exactly 1 match with every other team. How many matches are played altogether?",
-    "answer": "190"
+    "answer": "190",
+    "grade": "5+"
   },
   {
     "id": "q181",
@@ -1461,7 +1641,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "A stadium North Wing has 30 rows. Each row has 2 more seats than the row in front. The last row has 132 seats. How many seats does the first row have?",
-    "answer": "74"
+    "answer": "74",
+    "grade": "5+"
   },
   {
     "id": "q182",
@@ -1469,7 +1650,8 @@
     "topic": "Word Problem",
     "competition": "SMC",
     "text": "A stadium North Wing has 30 rows. Each row has 2 more seats than the row in front. The last row has 132 seats and the first row has 74 seats. How many seats are there altogether?",
-    "answer": "3090"
+    "answer": "3090",
+    "grade": "5+"
   },
   {
     "id": "q183",
@@ -1477,7 +1659,8 @@
     "topic": "Number Series",
     "competition": "SMC",
     "text": "Find the sum of all odd numbers from 1 to 100 that are NOT divisible by 11.",
-    "answer": "2225"
+    "answer": "2225",
+    "grade": "5+"
   },
   {
     "id": "q184",
@@ -1485,7 +1668,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "List all prime numbers between 30 and 60. Enter them separated by commas.",
-    "answer": "31, 37, 41, 43, 47, 53, 59"
+    "answer": "31, 37, 41, 43, 47, 53, 59",
+    "grade": "5+"
   },
   {
     "id": "q185",
@@ -1493,7 +1677,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "The sum of two prime numbers is 39. Find the product of the two prime numbers.",
-    "answer": "74"
+    "answer": "74",
+    "grade": "5+"
   },
   {
     "id": "q186",
@@ -1501,7 +1686,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "List all 1-digit, 2-digit and 3-digit numbers using digits 1, 2 and 3 (each digit used once per number). Which of these numbers are prime? Enter them separated by commas.",
-    "answer": "2, 3, 13, 23, 31"
+    "answer": "2, 3, 13, 23, 31",
+    "grade": "5+"
   },
   {
     "id": "q187",
@@ -1509,7 +1695,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "The product of two prime numbers is 65. What is the sum of the two prime numbers?",
-    "answer": "18"
+    "answer": "18",
+    "grade": "5+"
   },
   {
     "id": "q188",
@@ -1517,7 +1704,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "The product of two prime numbers is 65. What is the difference of the two prime numbers?",
-    "answer": "8"
+    "answer": "8",
+    "grade": "5+"
   },
   {
     "id": "q189",
@@ -1525,7 +1713,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "The sum of three prime numbers is 30. Which group of three prime numbers gives the smallest product? Enter the three primes separated by commas.",
-    "answer": "2, 5, 23"
+    "answer": "2, 5, 23",
+    "grade": "5+"
   },
   {
     "id": "q190",
@@ -1533,7 +1722,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "The sum of three prime numbers is 30. What is the smallest possible product of these three prime numbers?",
-    "answer": "230"
+    "answer": "230",
+    "grade": "5+"
   },
   {
     "id": "q191",
@@ -1541,7 +1731,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "A is a prime number. A+6, A+8, A+12, A+14 are also prime numbers. What is A?",
-    "answer": "5"
+    "answer": "5",
+    "grade": "5+"
   },
   {
     "id": "q192",
@@ -1549,7 +1740,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "The sum of two prime numbers is 50. Find the biggest possible product of the two prime numbers.",
-    "answer": "589"
+    "answer": "589",
+    "grade": "5+"
   },
   {
     "id": "q193",
@@ -1557,7 +1749,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "Write down 3 prime numbers that have a sum of 27 and give the biggest possible product. What is that biggest product?",
-    "answer": "637"
+    "answer": "637",
+    "grade": "5+"
   },
   {
     "id": "q194",
@@ -1569,7 +1762,8 @@
       "Yes",
       "No"
     ],
-    "answer": "No"
+    "answer": "No",
+    "grade": "5+"
   },
   {
     "id": "q195",
@@ -1581,7 +1775,8 @@
       "Yes",
       "No"
     ],
-    "answer": "Yes"
+    "answer": "Yes",
+    "grade": "5+"
   },
   {
     "id": "q196",
@@ -1593,7 +1788,8 @@
       "Yes",
       "No"
     ],
-    "answer": "No"
+    "answer": "No",
+    "grade": "5+"
   },
   {
     "id": "q197",
@@ -1605,7 +1801,8 @@
       "Yes",
       "No"
     ],
-    "answer": "No"
+    "answer": "No",
+    "grade": "5+"
   },
   {
     "id": "q198",
@@ -1617,7 +1814,8 @@
       "Yes",
       "No"
     ],
-    "answer": "Yes"
+    "answer": "Yes",
+    "grade": "5+"
   },
   {
     "id": "q199",
@@ -1629,7 +1827,8 @@
       "Yes",
       "No"
     ],
-    "answer": "No"
+    "answer": "No",
+    "grade": "5+"
   },
   {
     "id": "q200",
@@ -1637,7 +1836,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "Perform the prime factorization of 210. Write the answer as prime factors separated by × (e.g. 2 × 3 × 5)",
-    "answer": "2 × 3 × 5 × 7"
+    "answer": "2 × 3 × 5 × 7",
+    "grade": "5+"
   },
   {
     "id": "q201",
@@ -1645,7 +1845,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "Perform the prime factorization of 330.",
-    "answer": "2 × 3 × 5 × 11"
+    "answer": "2 × 3 × 5 × 11",
+    "grade": "5+"
   },
   {
     "id": "q202",
@@ -1653,7 +1854,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "Perform the prime factorization of 286.",
-    "answer": "2 × 11 × 13"
+    "answer": "2 × 11 × 13",
+    "grade": "5+"
   },
   {
     "id": "q203",
@@ -1661,7 +1863,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "Perform the prime factorization of 385.",
-    "answer": "5 × 7 × 11"
+    "answer": "5 × 7 × 11",
+    "grade": "5+"
   },
   {
     "id": "q204",
@@ -1669,7 +1872,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "Perform the prime factorization of 221.",
-    "answer": "13 × 17"
+    "answer": "13 × 17",
+    "grade": "5+"
   },
   {
     "id": "q205",
@@ -1677,7 +1881,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "Perform the prime factorization of 418.",
-    "answer": "2 × 11 × 19"
+    "answer": "2 × 11 × 19",
+    "grade": "5+"
   },
   {
     "id": "q206",
@@ -1685,7 +1890,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "Perform the prime factorization of 1,105.",
-    "answer": "5 × 13 × 17"
+    "answer": "5 × 13 × 17",
+    "grade": "5+"
   },
   {
     "id": "q207",
@@ -1693,7 +1899,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "Perform the prime factorization of 1,309.",
-    "answer": "7 × 11 × 17"
+    "answer": "7 × 11 × 17",
+    "grade": "5+"
   },
   {
     "id": "q208",
@@ -1705,7 +1912,8 @@
       "Yes",
       "No"
     ],
-    "answer": "Yes"
+    "answer": "Yes",
+    "grade": "5+"
   },
   {
     "id": "q209",
@@ -1717,7 +1925,8 @@
       "Yes",
       "No"
     ],
-    "answer": "Yes"
+    "answer": "Yes",
+    "grade": "5+"
   },
   {
     "id": "q210",
@@ -1729,7 +1938,8 @@
       "Yes",
       "No"
     ],
-    "answer": "Yes"
+    "answer": "Yes",
+    "grade": "5+"
   },
   {
     "id": "q211",
@@ -1741,7 +1951,8 @@
       "Yes",
       "No"
     ],
-    "answer": "No"
+    "answer": "No",
+    "grade": "5+"
   },
   {
     "id": "q212",
@@ -1753,7 +1964,8 @@
       "Yes",
       "No"
     ],
-    "answer": "No"
+    "answer": "No",
+    "grade": "5+"
   },
   {
     "id": "q213",
@@ -1765,7 +1977,8 @@
       "Yes",
       "No"
     ],
-    "answer": "No"
+    "answer": "No",
+    "grade": "5+"
   },
   {
     "id": "q214",
@@ -1773,7 +1986,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "Perform the prime factorization of 2,006. What is the sum of all its prime factors?",
-    "answer": "78"
+    "answer": "78",
+    "grade": "5+"
   },
   {
     "id": "q215",
@@ -1781,7 +1995,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "Perform the prime factorization of 1,992. What is the sum of all its distinct prime factors?",
-    "answer": "88"
+    "answer": "88",
+    "grade": "5+"
   },
   {
     "id": "q216",
@@ -1791,7 +2006,8 @@
     "text": "The length (a), width (b) and height (c) of the rectangular prism below are all prime numbers. Face A = a × c cm² and Face B = b × c cm². Given that A + B = 220 cm², find the volume of the rectangular prism in cm³.",
     "svg": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI,sans-serif\" font-size=\"13\"><polygon points=\"60,60 60,160 180,160 180,60\" fill=\"#f0f4ff\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,60 110,20 230,20 180,60\" fill=\"#dce4f5\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"180,60 230,20 230,120 180,160\" fill=\"#c8d5ee\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"118\" y=\"178\" text-anchor=\"middle\" font-style=\"italic\" font-weight=\"bold\">a</text><text x=\"44\" y=\"115\" text-anchor=\"middle\" font-style=\"italic\" font-weight=\"bold\">b</text><text x=\"242\" y=\"38\" text-anchor=\"middle\" font-style=\"italic\" font-weight=\"bold\">c</text><text x=\"118\" y=\"115\" text-anchor=\"middle\" fill=\"#1a237e\" font-weight=\"bold\">A cm²</text><text x=\"208\" y=\"92\" text-anchor=\"middle\" fill=\"#2e4a8a\" font-weight=\"bold\">B cm²</text></svg>",
     "subtext": "Hint: A + B = (a + b) × c = 220. Find prime values of a, b, c.",
-    "answer": "1001"
+    "answer": "1001",
+    "grade": "5+"
   },
   {
     "id": "q217",
@@ -1799,7 +2015,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "The product of 1,540 and m is a perfect square number. Find the smallest possible value of m.",
-    "answer": "385"
+    "answer": "385",
+    "grade": "5+"
   },
   {
     "id": "q218",
@@ -1807,7 +2024,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "A palindrome pair consists of a number and its reverse (e.g. 243 and 342). The product of a palindrome pair is 101,088. Find the sum of the palindrome pair.",
-    "answer": "828"
+    "answer": "828",
+    "grade": "5+"
   },
   {
     "id": "q219",
@@ -1815,7 +2033,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "How many rectangles of different sizes can be formed from 36 identical small rectangles?",
-    "answer": "5"
+    "answer": "5",
+    "grade": "5+"
   },
   {
     "id": "q220",
@@ -1823,7 +2042,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "In 780 × a = 1,716 × b, find the smallest value of a.",
-    "answer": "11"
+    "answer": "11",
+    "grade": "5+"
   },
   {
     "id": "q221",
@@ -1831,7 +2051,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "In 780 × a = 1,716 × b, find the smallest value of b.",
-    "answer": "5"
+    "answer": "5",
+    "grade": "5+"
   },
   {
     "id": "q222",
@@ -1839,7 +2060,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "Different whole numbers are on each face of a cube. Opposite face sums are equal. The face opposite 18 is prime a, opposite 14 is prime b, and prime c is opposite 35. What is a + b + c?",
-    "answer": "44"
+    "answer": "44",
+    "grade": "5+"
   },
   {
     "id": "q223",
@@ -1847,7 +2069,8 @@
     "topic": "Number Theory",
     "competition": "SMC",
     "text": "In how many ways is 37 a sum of exactly 3 prime numbers?",
-    "answer": "8"
+    "answer": "8",
+    "grade": "5+"
   },
   {
     "id": "q224",
@@ -1859,7 +2082,8 @@
       "Yes",
       "No"
     ],
-    "answer": "Yes"
+    "answer": "Yes",
+    "grade": "5+"
   },
   {
     "id": "q225",
@@ -1871,7 +2095,8 @@
       "Yes",
       "No"
     ],
-    "answer": "Yes"
+    "answer": "Yes",
+    "grade": "5+"
   },
   {
     "id": "q226",
@@ -1883,7 +2108,8 @@
       "Yes",
       "No"
     ],
-    "answer": "Yes"
+    "answer": "Yes",
+    "grade": "5+"
   },
   {
     "id": "q227",
@@ -1895,7 +2121,8 @@
       "Yes",
       "No"
     ],
-    "answer": "No"
+    "answer": "No",
+    "grade": "5+"
   },
   {
     "id": "q228",
@@ -1907,7 +2134,8 @@
       "Yes",
       "No"
     ],
-    "answer": "Yes"
+    "answer": "Yes",
+    "grade": "5+"
   },
   {
     "id": "q229",
@@ -1919,7 +2147,8 @@
       "Yes",
       "No"
     ],
-    "answer": "Yes"
+    "answer": "Yes",
+    "grade": "5+"
   },
   {
     "id": "q230",
@@ -1931,7 +2160,8 @@
       "Yes",
       "No"
     ],
-    "answer": "Yes"
+    "answer": "Yes",
+    "grade": "5+"
   },
   {
     "id": "q231",
@@ -1943,7 +2173,8 @@
       "Yes",
       "No"
     ],
-    "answer": "No"
+    "answer": "No",
+    "grade": "5+"
   },
   {
     "id": "q232",
@@ -1955,7 +2186,8 @@
       "Yes",
       "No"
     ],
-    "answer": "Yes"
+    "answer": "Yes",
+    "grade": "5+"
   },
   {
     "id": "q233",
@@ -1967,7 +2199,8 @@
       "Yes",
       "No"
     ],
-    "answer": "Yes"
+    "answer": "Yes",
+    "grade": "5+"
   },
   {
     "id": "q234",
@@ -1979,7 +2212,8 @@
       "Yes, always — both have the same digit sum",
       "No — the reverse has a different digit sum"
     ],
-    "answer": "Yes, always — both have the same digit sum"
+    "answer": "Yes, always — both have the same digit sum",
+    "grade": "5+"
   },
   {
     "id": "q235",
@@ -1991,7 +2225,8 @@
       "Yes — numbers ending in 5 are divisible by 5 but not 10",
       "No — if not divisible by 10 then not by 5"
     ],
-    "answer": "Yes — numbers ending in 5 are divisible by 5 but not 10"
+    "answer": "Yes — numbers ending in 5 are divisible by 5 but not 10",
+    "grade": "5+"
   },
   {
     "id": "q236",
@@ -2003,7 +2238,8 @@
       "Yes",
       "No — every multiple of 10 is also a multiple of 5"
     ],
-    "answer": "No — every multiple of 10 is also a multiple of 5"
+    "answer": "No — every multiple of 10 is also a multiple of 5",
+    "grade": "5+"
   },
   {
     "id": "q237",
@@ -2015,7 +2251,8 @@
       "Yes",
       "No"
     ],
-    "answer": "No"
+    "answer": "No",
+    "grade": "5+"
   },
   {
     "id": "q238",
@@ -2027,7 +2264,8 @@
       "Yes",
       "No"
     ],
-    "answer": "Yes"
+    "answer": "Yes",
+    "grade": "5+"
   },
   {
     "id": "q239",
@@ -2039,7 +2277,8 @@
       "Yes",
       "No"
     ],
-    "answer": "Yes"
+    "answer": "Yes",
+    "grade": "5+"
   },
   {
     "id": "q240",
@@ -2051,7 +2290,8 @@
       "Yes",
       "No"
     ],
-    "answer": "No"
+    "answer": "No",
+    "grade": "5+"
   },
   {
     "id": "q241",
@@ -2063,7 +2303,8 @@
       "Yes",
       "No"
     ],
-    "answer": "Yes"
+    "answer": "Yes",
+    "grade": "5+"
   },
   {
     "id": "q242",
@@ -2075,7 +2316,8 @@
       "Yes",
       "No"
     ],
-    "answer": "Yes"
+    "answer": "Yes",
+    "grade": "5+"
   },
   {
     "id": "q243",
@@ -2087,7 +2329,8 @@
       "Yes",
       "No"
     ],
-    "answer": "Yes"
+    "answer": "Yes",
+    "grade": "5+"
   },
   {
     "id": "q244",
@@ -2099,6 +2342,641 @@
       "Yes",
       "No"
     ],
+    "answer": "Yes",
+    "grade": "5+"
+  },
+  {
+    "id": "q245",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 4,567,654 divisible by 9? (Digit sum = 37)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q246",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 4,567,654 divisible by 11? (Alternating digit sum = 3)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q247",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 386,683 divisible by 11? (Alternating digit sum = 0)",
+    "options": [
+      "Yes",
+      "No"
+    ],
     "answer": "Yes"
+  },
+  {
+    "id": "q248",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 156,651 divisible by 11? (Alternating digit sum = 0)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q249",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 23,788,732 divisible by 11? (Alternating digit sum = 0)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q250",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 12,344,321 divisible by 11? (Alternating digit sum = 0)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q251",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "What conclusion can you draw about palindromic numbers and divisibility by 11?",
+    "options": [
+      "All palindromic numbers are divisible by 11",
+      "Only some palindromic numbers are divisible by 11"
+    ],
+    "answer": "All palindromic numbers are divisible by 11"
+  },
+  {
+    "id": "q252",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 3,466,645 divisible by 13? (3,466,645 ÷ 13 = 266,665)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q253",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Write any 3-digit number and repeat its digits to form a 6-digit number (e.g. 123 → 123,123). Divide by 13, then by 11, then by 7. What do you always get back?",
+    "answer": "the original 3-digit number"
+  },
+  {
+    "id": "q254",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Why does repeating a 3-digit number ABC to form ABCABC and dividing by 7, 11, and 13 always give back ABC?",
+    "answer": "Because ABCABC = ABC × 1001 and 1001 = 7 × 11 × 13"
+  },
+  {
+    "id": "q255",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 1,278 divisible by 3? (Digit sum = 18)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q256",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 1,278 divisible by 9? (Digit sum = 18)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q257",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 4,632 divisible by 3? (Digit sum = 15)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q258",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 4,632 divisible by 9? (Digit sum = 15)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q259",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 54,684 divisible by 3? (Digit sum = 27)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q260",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 54,684 divisible by 9? (Digit sum = 27)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q261",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 119,375 divisible by 3? (Digit sum = 26)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q262",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 119,375 divisible by 9? (Digit sum = 26)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q263",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 37,625 divisible by 4? (Last 2 digits = 25)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q264",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 37,625 divisible by 8? (Last 3 digits = 625)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q265",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 37,625 divisible by 25? (Last 2 digits = 25)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q266",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 37,625 divisible by 125? (Last 3 digits = 625, 625÷125=5)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q267",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 93,648 divisible by 4? (Last 2 digits = 48)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q268",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 93,648 divisible by 8? (Last 3 digits = 648, 648÷8=81)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q269",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 93,648 divisible by 25? (Last 2 digits = 48)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q270",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 93,648 divisible by 125? (Last 3 digits = 648)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q271",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 87,615 divisible by 4? (Last 2 digits = 15)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q272",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 87,615 divisible by 8? (Last 3 digits = 615)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q273",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 87,615 divisible by 25? (Last 2 digits = 15)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q274",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 87,615 divisible by 125? (Last 3 digits = 615)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q275",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 1,548,672 divisible by 4? (Last 2 digits = 72)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q276",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 1,548,672 divisible by 8? (Last 3 digits = 672, 672÷8=84)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q277",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 1,548,672 divisible by 25? (Last 2 digits = 72)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q278",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 1,548,672 divisible by 125? (Last 3 digits = 672)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q279",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 517,699 divisible by 7? (517,699 ÷ 7 = 73,957)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q280",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 517,699 divisible by 13? (517,699 ÷ 13 = 39,823)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q281",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "If 50,15m is divisible by 3, find all possible values of m (digit sum = 11+m). Enter as: m1, m2, m3",
+    "answer": "1, 4, 7"
+  },
+  {
+    "id": "q282",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "In a78,89b, find all possible values of b if the number is divisible by 15 (must end in 0 or 5). Enter as: b1, b2",
+    "answer": "0, 5"
+  },
+  {
+    "id": "q283",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "In a78,89b divisible by 15 with b=0: digit sum = a+32, need ÷3. Find possible values of a. Enter as: a1, a2, a3",
+    "answer": "1, 4, 7"
+  },
+  {
+    "id": "q284",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "In a78,89b divisible by 15 with b=5: digit sum = a+37, need ÷3. Find possible values of a. Enter as: a1, a2, a3",
+    "answer": "2, 5, 8"
+  },
+  {
+    "id": "q285",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Find the possible values of a in 3,333,33a,888,888 so that it is divisible by 7. Enter as: a1, a2",
+    "answer": "0, 7"
+  },
+  {
+    "id": "q286",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "A 7-digit number 2,006,□□□ is divisible by 3, 4 and 25. What must the last 2 digits be? (Divisible by both 4 and 25)",
+    "answer": "00"
+  },
+  {
+    "id": "q287",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "A 7-digit number 2,006,□00 is divisible by 3. Find all possible values of the missing middle digit □. Enter as: d1, d2, d3",
+    "answer": "1, 4, 7"
+  },
+  {
+    "id": "q288",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "List all possible values of the number 2,006,□00 divisible by 3, 4 and 25. Enter as: n1, n2, n3",
+    "answer": "2006100, 2006400, 2006700"
+  },
+  {
+    "id": "q289",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "What is the largest possible value of _89,49_ (6-digit number a89,49b) if it is divisible by 11? (Rule: a − b = 5)",
+    "answer": "989494"
+  },
+  {
+    "id": "q290",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Find all possible values of □ in 25,□4□ so it is divisible by 3 and by 5. Enter as: d1, d2, d3, d4, d5, d6",
+    "answer": "1, 2, 4, 5, 7, 8"
+  },
+  {
+    "id": "q291",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "How many whole numbers between 1 and 100 are NOT divisible by 3 or by 11?",
+    "answer": "61"
+  },
+  {
+    "id": "q292",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 35,112 divisible by 7? (35,112 ÷ 7 = 5,016)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q293",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 35,112 divisible by 11? (Alternating digit sum = 0)",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": "q294",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Is 35,112 divisible by 13?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": "q295",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Find the possible values of □ in 5,□34,□ so it is divisible by 5 and by 9. Enter as: d1, d2",
+    "answer": "1, 6"
+  },
+  {
+    "id": "q296",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "List the possible values of 5,□34,□ divisible by 5 and 9. Enter as: n1, n2",
+    "answer": "51345, 56340"
+  },
+  {
+    "id": "q297",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "Find the smallest possible value of 368,□□□ divisible by 3, 4 and 25.",
+    "answer": "368100"
+  },
+  {
+    "id": "q298",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "SMC",
+    "grade": "5+",
+    "text": "A 6-digit number begins with 8, is divisible by 9, and all digits are different. What is the smallest possible value?",
+    "answer": "801234"
   }
 ]
