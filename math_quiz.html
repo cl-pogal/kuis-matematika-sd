@@ -349,6 +349,12 @@
         </select>
       </div>
       <div class="config-group">
+        <label>Grade</label>
+        <select id="cfg-grade">
+          <option value="all">All Grades</option>
+        </select>
+      </div>
+      <div class="config-group">
         <label>Topic Filter</label>
         <select id="cfg-topic">
           <option value="all">All Topics</option>
@@ -462,6 +468,18 @@ function initStartScreen() {
   });
   compSel.value = 'all';
 
+  // Grade filter — "All Grades" always first, rest sorted
+  const gradeList = [...new Set(ALL_QUESTIONS.map(q => q.grade).filter(Boolean))].sort();
+  const gradeSel = $('cfg-grade');
+  gradeSel.innerHTML = '<option value="all">All Grades</option>';
+  gradeList.forEach(g => {
+    const opt = document.createElement('option');
+    opt.value = g;
+    opt.textContent = g;
+    gradeSel.appendChild(opt);
+  });
+  gradeSel.value = 'all';
+
   // Topic filter — "All Topics" always first, rest sorted alphabetically
   const topicList = [...new Set(ALL_QUESTIONS.map(q => q.topic).filter(Boolean))].sort();
   const sel = $('cfg-topic');
@@ -482,13 +500,15 @@ function startQuiz() {
   const countInput = parseInt($('cfg-count').value) || 10;
   const minutes    = parseInt($('cfg-time').value)  || 5;
   const competition = $('cfg-competition').value;
+  const grade       = $('cfg-grade').value;
   const topic       = $('cfg-topic').value;
 
-  // Filter by competition then topic
+  // Filter by competition, grade, and topic
   let pool = ALL_QUESTIONS.filter(q => {
     const matchComp  = competition === 'all' || q.competition === competition;
+    const matchGrade = grade === 'all' || q.grade === grade;
     const matchTopic = topic === 'all' || q.topic === topic;
-    return matchComp && matchTopic;
+    return matchComp && matchGrade && matchTopic;
   });
 
   if (pool.length === 0) {
