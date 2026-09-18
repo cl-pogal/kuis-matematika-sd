@@ -6,7 +6,7 @@
     "competition": "SMC",
     "text": "Compute: 2,208 − (208 + 139)",
     "answer": "1861",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q002",
@@ -15,7 +15,7 @@
     "competition": "SMC",
     "text": "Compute: 733 − (33 + 320)",
     "answer": "380",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q003",
@@ -24,7 +24,7 @@
     "competition": "SMC",
     "text": "Compute: 1,306 − (406 − 258)",
     "answer": "1158",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q004",
@@ -33,7 +33,7 @@
     "competition": "SMC",
     "text": "Compute: 945 + (372 − 245) − 172",
     "answer": "900",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q005",
@@ -42,7 +42,7 @@
     "competition": "SMC",
     "text": "Compute: 644 − (243 − 156) + 143",
     "answer": "700",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q006",
@@ -51,7 +51,7 @@
     "competition": "SMC",
     "text": "Compute: 717 − (617 − 225)",
     "answer": "325",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q007",
@@ -60,7 +60,7 @@
     "competition": "SMC",
     "text": "Compute: 937 − (137 + 185) + 85",
     "answer": "700",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q008",
@@ -69,7 +69,7 @@
     "competition": "SMC",
     "text": "Compute: 1,732 − (732 − 257)",
     "answer": "1257",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q009",
@@ -78,7 +78,7 @@
     "competition": "SMC",
     "text": "Compute: 788 − (288 + 546) + 346",
     "answer": "300",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q010",
@@ -87,7 +87,7 @@
     "competition": "SMC",
     "text": "Compute: 37 + 397 + 3,997 + 39,997",
     "answer": "44428",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q011",
@@ -96,7 +96,7 @@
     "competition": "SMC",
     "text": "Compute: 298 + 2,998 + 29,998 + 299,998",
     "answer": "333292",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q012",
@@ -105,7 +105,7 @@
     "competition": "SMC",
     "text": "Compute: 9 + 99 + 999 + 9,999 + 99,999",
     "answer": "111105",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q013",
@@ -114,7 +114,7 @@
     "competition": "SMC",
     "text": "Compute: (2 + 4 + 6 + ... + 2,006) − (1 + 3 + 5 + ... + 2,005)",
     "answer": "1003",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q014",
@@ -123,7 +123,7 @@
     "competition": "SMC",
     "text": "Compute: 88 − 87 + 86 − 85 + ... + 4 − 3 + 2 − 1",
     "answer": "44",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q015",
@@ -132,7 +132,7 @@
     "competition": "SMC",
     "text": "Compute: 100 − 98 + 96 − 94 + ... + 8 − 6 + 4 − 2",
     "answer": "50",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q016",
@@ -141,7 +141,7 @@
     "competition": "SMC",
     "text": "Compute: 360 − 357 + 354 − 351 + ... + 300 − 297",
     "answer": "33",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q017",
@@ -150,7 +150,7 @@
     "competition": "SMC",
     "text": "Compute: 2,006 − 1 − 2 − 3 − 4 − ... − 48 − 49 − 50",
     "answer": "731",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q018",
@@ -159,7 +159,7 @@
     "competition": "SMC",
     "text": "Compute: 280 − 276 + 272 − 268 + ... + 200 − 196",
     "answer": "44",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q019",
@@ -168,7 +168,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 56 × 8 + 88 × 4",
     "answer": "800",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q020",
@@ -177,7 +177,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 1,600 ÷ 25",
     "answer": "64",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q021",
@@ -186,7 +186,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 56 × 33 + 44 × 33",
     "answer": "3300",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q022",
@@ -195,7 +195,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 73 × 12 + 27 × 12",
     "answer": "1200",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q023",
@@ -204,7 +204,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 198 × 56",
     "answer": "11088",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q024",
@@ -213,7 +213,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 5 × 64 × 25 × 125 × 97",
     "answer": "97000000",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q025",
@@ -222,7 +222,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 64 × 25 × 125 × 16",
     "answer": "3200000",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q026",
@@ -231,7 +231,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 16,000 ÷ 25",
     "answer": "640",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q027",
@@ -240,7 +240,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 125 × 25 × 5 × 64",
     "answer": "1000000",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q028",
@@ -249,7 +249,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 101 × 1,001 − 101",
     "answer": "101000",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q029",
@@ -258,7 +258,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 5,000 ÷ 8 ÷ 125",
     "answer": "5",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q030",
@@ -267,7 +267,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 6,000 ÷ 25 ÷ 4",
     "answer": "60",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q031",
@@ -276,7 +276,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 30,000 ÷ 2 ÷ 8 ÷ 5 ÷ 125",
     "answer": "3",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q032",
@@ -285,7 +285,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 16,000 ÷ 125 ÷ 4 ÷ 8",
     "answer": "4",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q033",
@@ -294,7 +294,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 32,000 ÷ 125",
     "answer": "256",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q034",
@@ -303,7 +303,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 5,300 ÷ 25",
     "answer": "212",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q035",
@@ -312,7 +312,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 1,400 ÷ 25",
     "answer": "56",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q036",
@@ -321,7 +321,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 72,000 ÷ 125",
     "answer": "576",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q037",
@@ -330,7 +330,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 89 × 11 + 11 × 11",
     "answer": "1100",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q038",
@@ -339,7 +339,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 29 × 8 + 42 × 4",
     "answer": "400",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q039",
@@ -348,7 +348,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 58 × 8 + 84 × 4",
     "answer": "800",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q040",
@@ -357,7 +357,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 58 × 30 + 84 × 15",
     "answer": "3000",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q041",
@@ -366,7 +366,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 63 × 6 + 74 × 3",
     "answer": "600",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q042",
@@ -375,7 +375,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 74 × 6 + 152 × 3",
     "answer": "900",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q043",
@@ -384,7 +384,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 44 × 4 + 78 × 8",
     "answer": "800",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q044",
@@ -393,7 +393,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 56 × 16 + 72 × 32",
     "answer": "3200",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q045",
@@ -402,7 +402,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 35 × 128 − 28 × 35",
     "answer": "3500",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q046",
@@ -411,7 +411,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 46 × 234 − 134 × 46",
     "answer": "4600",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q047",
@@ -420,7 +420,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 287 × 12 − 187 × 12",
     "answer": "1200",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q048",
@@ -429,7 +429,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 897 × 30 − 297 × 30",
     "answer": "18000",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q049",
@@ -438,7 +438,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 69 × 36 − 38 × 18",
     "answer": "1800",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q050",
@@ -447,7 +447,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 74 × 54 − 48 × 27",
     "answer": "2700",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q051",
@@ -456,7 +456,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 132 × 36 − 196 × 12",
     "answer": "2400",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q052",
@@ -465,7 +465,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 156 × 48 − 124 × 12",
     "answer": "6000",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q053",
@@ -474,7 +474,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 3,333 × 3,333 ÷ 9,999",
     "answer": "1111",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q054",
@@ -483,7 +483,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 2,222 × 9,999 ÷ 3,333",
     "answer": "6666",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q055",
@@ -492,7 +492,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 99,999 × 88,888 ÷ 11,111",
     "answer": "799992",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q056",
@@ -501,7 +501,7 @@
     "competition": "SMC",
     "text": "Use a simple method to compute: 6,666 × 8 + 4,444 × 13",
     "answer": "111100",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q057",
@@ -510,7 +510,7 @@
     "competition": "SMC",
     "text": "A farmer has 45 chickens and rabbits. There are 140 legs altogether. How many chickens does the farmer have? (answer format: number only)",
     "answer": "20",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q058",
@@ -519,7 +519,7 @@
     "competition": "SMC",
     "text": "A farmer has 45 chickens and rabbits. There are 140 legs altogether. How many rabbits does the farmer have? (answer format: number only)",
     "answer": "25",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q059",
@@ -528,7 +528,7 @@
     "competition": "SMC",
     "text": "28 spiders and dragonflies have 200 legs altogether. A spider has 8 legs, a dragonfly has 6 legs. How many spiders are there?",
     "answer": "16",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q060",
@@ -537,7 +537,7 @@
     "competition": "SMC",
     "text": "28 spiders and dragonflies have 200 legs altogether. A spider has 8 legs, a dragonfly has 6 legs. How many dragonflies are there?",
     "answer": "12",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q061",
@@ -546,7 +546,7 @@
     "competition": "SMC",
     "text": "Andy spent $55 to purchase 20 two-dollar and five-dollar toys. How many two-dollar toys did he buy?",
     "answer": "15",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q062",
@@ -555,7 +555,7 @@
     "competition": "SMC",
     "text": "Andy spent $55 to purchase 20 two-dollar and five-dollar toys. How many five-dollar toys did he buy?",
     "answer": "5",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q063",
@@ -564,7 +564,7 @@
     "competition": "SMC",
     "text": "There are 40 cars and motorcycles in a park with 116 wheels altogether. How many cars are there?",
     "answer": "18",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q064",
@@ -573,7 +573,7 @@
     "competition": "SMC",
     "text": "There are 40 cars and motorcycles in a park with 116 wheels altogether. How many motorcycles are there?",
     "answer": "22",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q065",
@@ -582,7 +582,7 @@
     "competition": "SMC",
     "text": "An adult ticket costs $35 and a food ticket costs $18. Mr. Walter paid $598 for 20 tickets. How many adult tickets did he buy?",
     "answer": "14",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q066",
@@ -591,7 +591,7 @@
     "competition": "SMC",
     "text": "An adult ticket costs $35 and a food ticket costs $18. Mr. Walter paid $598 for 20 tickets. How many food tickets did he buy?",
     "answer": "6",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q067",
@@ -600,7 +600,7 @@
     "competition": "SMC",
     "text": "Jeff has 20 five-dollar and ten-dollar bills totalling $125. How many five-dollar bills does he have?",
     "answer": "15",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q068",
@@ -609,7 +609,7 @@
     "competition": "SMC",
     "text": "Jeff has 20 five-dollar and ten-dollar bills totalling $125. How many ten-dollar bills does he have?",
     "answer": "5",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q069",
@@ -618,7 +618,7 @@
     "competition": "SMC",
     "text": "A science quiz has 15 questions. +2 points for correct, −1 point for wrong. Kelly scores 21 points. How many questions did she answer correctly?",
     "answer": "12",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q070",
@@ -627,7 +627,7 @@
     "competition": "SMC",
     "text": "A math competition has 30 questions. +5 points for correct, −3 points for wrong. Rena scores 126 points. How many questions did she get wrong?",
     "answer": "3",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q071",
@@ -636,7 +636,7 @@
     "competition": "SMC",
     "text": "A math quiz has 30 questions: first 20 worth 4 pts each, last 10 worth 7 pts each. No deduction for wrong answers. Justin scores 124 points. How many of the first 20 questions did he answer incorrectly?",
     "answer": "3",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q072",
@@ -645,7 +645,7 @@
     "competition": "SMC",
     "text": "A math quiz has 30 questions: first 20 worth 4 pts each, last 10 worth 7 pts each. No deduction for wrong answers. Justin scores 124 points. How many of the last 10 questions did he answer incorrectly?",
     "answer": "2",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q073",
@@ -654,7 +654,7 @@
     "competition": "SMC",
     "text": "Mr. George spent $375 on 5 similar tables and 6 similar chairs. Each table costs $20 more than each chair. What was the price of a table?",
     "answer": "45",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q074",
@@ -663,7 +663,7 @@
     "competition": "SMC",
     "text": "Mr. George spent $375 on 5 similar tables and 6 similar chairs. Each table costs $20 more than each chair. What was the price of a chair?",
     "answer": "25",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q075",
@@ -672,7 +672,7 @@
     "competition": "SMC",
     "text": "Mr. Gretzky spent $390 on 5 basketballs and 4 volleyballs. Each basketball costs $15 more than each volleyball. What was the price of a basketball?",
     "answer": "50",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q076",
@@ -681,7 +681,7 @@
     "competition": "SMC",
     "text": "Mr. Gretzky spent $390 on 5 basketballs and 4 volleyballs. Each basketball costs $15 more than each volleyball. What was the price of a volleyball?",
     "answer": "35",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q077",
@@ -690,7 +690,7 @@
     "competition": "SMC",
     "text": "Wayne has 20 bills in denominations of $2, $5 and $10. The number of $2 and $10 bills is the same. The total value is $110. How many $2 bills does he have?",
     "answer": "5",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q078",
@@ -699,7 +699,7 @@
     "competition": "SMC",
     "text": "Wayne has 20 bills in denominations of $2, $5 and $10. The number of $2 and $10 bills is the same. The total value is $110. How many $5 bills does he have?",
     "answer": "10",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q079",
@@ -708,7 +708,7 @@
     "competition": "SMC",
     "text": "Wayne has 20 bills in denominations of $2, $5 and $10. The number of $2 and $10 bills is the same. The total value is $110. How many $10 bills does he have?",
     "answer": "5",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q080",
@@ -717,7 +717,7 @@
     "competition": "SMC",
     "text": "Complete the pattern: 1, 2, 4, 8, 16, ( ), ( ), ... What is the 6th term?",
     "answer": "32",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q081",
@@ -726,7 +726,7 @@
     "competition": "SMC",
     "text": "Complete the pattern: 1, 2, 4, 8, 16, ( ), ( ), ... What is the 7th term?",
     "answer": "64",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q082",
@@ -735,7 +735,7 @@
     "competition": "SMC",
     "text": "In the pattern 3, 4, 5, 8, 7, 16, 9, 32, ( ), ( ), ... what is the 9th term? (Odd-position sequence: 3, 5, 7, 9, ...)",
     "answer": "11",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q083",
@@ -744,7 +744,7 @@
     "competition": "SMC",
     "text": "In the pattern 3, 4, 5, 8, 7, 16, 9, 32, ( ), ( ), ... what is the 10th term? (Even-position sequence: 4, 8, 16, 32, ...)",
     "answer": "64",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q084",
@@ -753,7 +753,7 @@
     "competition": "SMC",
     "text": "Complete the pattern: 0, 3, 8, 15, 24, ( ), ( ), 63, ... What is the 6th term? (Pattern: n² − 1)",
     "answer": "35",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q085",
@@ -762,7 +762,7 @@
     "competition": "SMC",
     "text": "Complete the pattern: 0, 3, 8, 15, 24, ( ), ( ), 63, ... What is the 7th term? (Pattern: n² − 1)",
     "answer": "48",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q086",
@@ -771,7 +771,7 @@
     "competition": "SMC",
     "text": "In the pattern 6, 1, 8, 3, 10, 5, 12, 7, ( ), ( ), ... what is the 9th term? (Odd-position sequence: 6, 8, 10, 12, ...)",
     "answer": "14",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q087",
@@ -780,7 +780,7 @@
     "competition": "SMC",
     "text": "In the pattern 6, 1, 8, 3, 10, 5, 12, 7, ( ), ( ), ... what is the 10th term? (Even-position sequence: 1, 3, 5, 7, ...)",
     "answer": "9",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q088",
@@ -789,7 +789,7 @@
     "competition": "SMC",
     "text": "Complete the pattern: 2, 3, 5, ( ), ( ), 17, ( ), ... What is the 4th term? (Differences increase by 1: 1, 2, 3, 4, 5, 6)",
     "answer": "8",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q089",
@@ -798,7 +798,7 @@
     "competition": "SMC",
     "text": "Complete the pattern: 2, 3, 5, ( ), ( ), 17, ( ), ... What is the 5th term? (Differences increase by 1: 1, 2, 3, 4, 5, 6)",
     "answer": "12",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q090",
@@ -807,7 +807,7 @@
     "competition": "SMC",
     "text": "Complete the pattern: 2, 3, 5, ( ), ( ), 17, ( ), ... What is the 7th term? (Differences increase by 1: 1, 2, 3, 4, 5, 6)",
     "answer": "23",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q091",
@@ -816,7 +816,7 @@
     "competition": "SMC",
     "text": "Complete the pattern: 3, 5, 6, 10, ( ), 15, ( ), ( ), ... What is the 5th term? (Odd-position: 3, 6, 9, 12; Even-position: 5, 10, 15, 20)",
     "answer": "9",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q092",
@@ -825,7 +825,7 @@
     "competition": "SMC",
     "text": "Complete the pattern: 3, 5, 6, 10, ( ), 15, ( ), ( ), ... What is the 7th term? (Odd-position: 3, 6, 9, 12; Even-position: 5, 10, 15, 20)",
     "answer": "12",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q093",
@@ -834,7 +834,7 @@
     "competition": "SMC",
     "text": "Complete the pattern: 3, 5, 6, 10, ( ), 15, ( ), ( ), ... What is the 8th term? (Odd-position: 3, 6, 9, 12; Even-position: 5, 10, 15, 20)",
     "answer": "20",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q094",
@@ -843,7 +843,7 @@
     "competition": "SMC",
     "text": "Complete the pattern: 7, 11, 19, ( ), 67, ( ), ( ), ... What is the 4th term? (Differences: 4, 8, 16, 32, 64, 128)",
     "answer": "35",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q095",
@@ -852,7 +852,7 @@
     "competition": "SMC",
     "text": "Complete the pattern: 7, 11, 19, ( ), 67, ( ), ( ), ... What is the 6th term? (Differences: 4, 8, 16, 32, 64, 128)",
     "answer": "131",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q096",
@@ -861,7 +861,7 @@
     "competition": "SMC",
     "text": "Complete the pattern: 7, 11, 19, ( ), 67, ( ), ( ), ... What is the 7th term? (Differences: 4, 8, 16, 32, 64, 128)",
     "answer": "259",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q097",
@@ -870,7 +870,7 @@
     "competition": "SMC",
     "text": "Complete the pattern: 8, 12, 20, ( ), ( ), ( ), ... What is the 4th term? (Differences: 4, 8, 16, 32, 64)",
     "answer": "36",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q098",
@@ -879,7 +879,7 @@
     "competition": "SMC",
     "text": "Complete the pattern: 8, 12, 20, ( ), ( ), ( ), ... What is the 5th term? (Differences: 4, 8, 16, 32, 64)",
     "answer": "68",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q099",
@@ -888,7 +888,7 @@
     "competition": "SMC",
     "text": "Complete the pattern: 8, 12, 20, ( ), ( ), ( ), ... What is the 6th term? (Differences: 4, 8, 16, 32, 64)",
     "answer": "132",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q100",
@@ -897,7 +897,7 @@
     "competition": "SMC",
     "text": "In the pattern 1 × 9 + 2 = 11, 12 × 9 + 3 = 111, 123 × 9 + 4 = 1,111, what is the missing number: 1,234 × 9 + ( ) = 11,111?",
     "answer": "5",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q101",
@@ -906,7 +906,7 @@
     "competition": "SMC",
     "text": "In the pattern 1 × 9 + 2 = 11, 12 × 9 + 3 = 111, ..., what number goes in: ( ) × 9 + 6 = 111,111?",
     "answer": "12345",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q102",
@@ -915,7 +915,7 @@
     "competition": "SMC",
     "text": "In the pattern 1 × 9 + 2 = 11, 12 × 9 + 3 = 111, ..., what is the value of: 1,234,567 × 9 + 8 = ( )?",
     "answer": "11111111",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q103",
@@ -924,7 +924,7 @@
     "competition": "SMC",
     "text": "Find the 4th term in the sequence: 1, 5, 14, ( ), 55, 91, ( ), ( ), ... (Differences are perfect squares: 4, 9, 16, 25, 36, 49, 64)",
     "answer": "30",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q104",
@@ -933,7 +933,7 @@
     "competition": "SMC",
     "text": "Find the 7th term in the sequence: 1, 5, 14, ( ), 55, 91, ( ), ( ), ... (Differences are perfect squares: 4, 9, 16, 25, 36, 49, 64)",
     "answer": "140",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q105",
@@ -942,7 +942,7 @@
     "competition": "SMC",
     "text": "Find the 8th term in the sequence: 1, 5, 14, ( ), 55, 91, ( ), ( ), ... (Differences are perfect squares: 4, 9, 16, 25, 36, 49, 64)",
     "answer": "204",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q106",
@@ -953,7 +953,7 @@
     "svg": "<svg viewBox='0 0 520 200' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='14'><g transform='translate(80,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>8</text><text x='28' y='-18' text-anchor='middle' font-weight='bold'>20</text><text x='0' y='55' text-anchor='middle' font-weight='bold'>16</text></g><g transform='translate(260,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>18</text><text x='28' y='-18' text-anchor='middle' font-weight='bold'>40</text><text x='0' y='55' text-anchor='middle' font-weight='bold'>36</text></g><g transform='translate(440,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>33</text><text x='28' y='-18' text-anchor='middle' fill='#c00' font-weight='bold'>?</text><text x='0' y='55' text-anchor='middle' fill='#c00' font-weight='bold'>?</text></g></svg>",
     "subtext": "Top-left = 33. Find top-right and bottom values. Enter as: top-right, bottom",
     "answer": "70, 66",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q107",
@@ -964,7 +964,7 @@
     "svg": "<svg viewBox='0 0 520 200' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='14'><g transform='translate(80,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>24</text><text x='28' y='-18' text-anchor='middle' font-weight='bold'>21</text><text x='0' y='55' text-anchor='middle' font-weight='bold'>3</text></g><g transform='translate(260,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>66</text><text x='28' y='-18' text-anchor='middle' font-weight='bold'>63</text><text x='0' y='55' text-anchor='middle' font-weight='bold'>9</text></g><g transform='translate(440,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' fill='#c00' font-weight='bold'>?</text><text x='28' y='-18' text-anchor='middle' fill='#c00' font-weight='bold'>?</text><text x='0' y='55' text-anchor='middle' font-weight='bold'>10</text></g></svg>",
     "subtext": "Bottom = 10. Find top-left and top-right values. Enter as: top-left, top-right",
     "answer": "70, 60",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q108",
@@ -975,7 +975,7 @@
     "svg": "<svg viewBox='0 0 520 200' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='14'><g transform='translate(80,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>34</text><text x='28' y='-18' text-anchor='middle' font-weight='bold'>26</text><text x='0' y='55' text-anchor='middle' font-weight='bold'>31</text></g><g transform='translate(260,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>42</text><text x='28' y='-18' text-anchor='middle' font-weight='bold'>34</text><text x='0' y='55' text-anchor='middle' font-weight='bold'>39</text></g><g transform='translate(440,100)'><circle r='70' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='-70' x2='0' y2='0' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='60.6' y2='35' stroke='#333' stroke-width='1.5'/><line x1='0' y1='0' x2='-60.6' y2='35' stroke='#333' stroke-width='1.5'/><text x='-28' y='-18' text-anchor='middle' font-weight='bold'>55</text><text x='28' y='-18' text-anchor='middle' fill='#c00' font-weight='bold'>?</text><text x='0' y='55' text-anchor='middle' fill='#c00' font-weight='bold'>?</text></g></svg>",
     "subtext": "Top-left = 55. Find top-right and bottom values. Enter as: top-right, bottom",
     "answer": "47, 52",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q109",
@@ -986,7 +986,7 @@
     "svg": "<svg viewBox=\"0 0 480 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI,sans-serif\" font-size=\"13\"><g transform=\"translate(40,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">18</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">12</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">16</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">10</text></g><g transform=\"translate(180,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">34</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">25</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">15</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#c00\" font-weight=\"bold\">A</text></g><g transform=\"translate(320,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">20</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#c00\" font-weight=\"bold\">B</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">18</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">22</text></g></svg>",
     "subtext": "Rule: top + middle = left + right. Find A (middle of triangle 2).",
     "answer": "6",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q110",
@@ -997,7 +997,7 @@
     "svg": "<svg viewBox=\"0 0 480 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI,sans-serif\" font-size=\"13\"><g transform=\"translate(40,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">18</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">12</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">16</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">10</text></g><g transform=\"translate(180,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">34</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">25</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">15</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">6</text></g><g transform=\"translate(320,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">20</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#c00\" font-weight=\"bold\">B</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">18</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">22</text></g></svg>",
     "subtext": "Rule: top + middle = left + right. Find B (bottom-left of triangle 3).",
     "answer": "24",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q111",
@@ -1008,7 +1008,7 @@
     "svg": "<svg viewBox=\"0 0 480 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI,sans-serif\" font-size=\"13\"><g transform=\"translate(40,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">11</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">15</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">7</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">33</text></g><g transform=\"translate(180,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">8</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">16</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">10</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#c00\" font-weight=\"bold\">A</text></g><g transform=\"translate(320,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">9</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">14</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">12</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#c00\" font-weight=\"bold\">B</text></g></svg>",
     "subtext": "Rule: left + right + top = middle. Find A (middle of triangle 2).",
     "answer": "34",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q112",
@@ -1019,7 +1019,7 @@
     "svg": "<svg viewBox=\"0 0 480 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI,sans-serif\" font-size=\"13\"><g transform=\"translate(40,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">11</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">15</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">7</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">33</text></g><g transform=\"translate(180,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">8</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">16</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">10</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">34</text></g><g transform=\"translate(320,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">9</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">14</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">12</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#c00\" font-weight=\"bold\">B</text></g></svg>",
     "subtext": "Rule: left + right + top = middle. Find B (middle of triangle 3).",
     "answer": "35",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q113",
@@ -1030,7 +1030,7 @@
     "svg": "<svg viewBox=\"0 0 480 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI,sans-serif\" font-size=\"13\"><g transform=\"translate(40,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">3</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">4</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">5</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#c00\" font-weight=\"bold\">A</text></g><g transform=\"translate(180,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">8</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">3</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">1</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">12</text></g><g transform=\"translate(320,10)\"><polygon points=\"60,0 0,104 120,104\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,0 30,52 90,52\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"60\" y=\"-4\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">2</text><text x=\"10\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">3</text><text x=\"110\" y=\"118\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">5</text><text x=\"60\" y=\"46\" text-anchor=\"middle\" fill=\"#333\" font-weight=\"bold\">15</text></g></svg>",
     "subtext": "Use triangles 2 and 3 to find the rule, then find A in triangle 1.",
     "answer": "6",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q114",
@@ -1039,7 +1039,7 @@
     "competition": "SMC",
     "text": "Find the missing number: ( ) × 11,111 = 123,454,321. (Pattern: 11×11=121, 111×111=12,321, 1,111×1,111=1,234,321)",
     "answer": "11111",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q115",
@@ -1048,7 +1048,7 @@
     "competition": "SMC",
     "text": "Find the missing number: 111,111 × 111,111 = ( ). (Pattern: 11×11=121, 111×111=12,321, 1,111×1,111=1,234,321)",
     "answer": "12345654321",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q116",
@@ -1057,7 +1057,7 @@
     "competition": "SMC",
     "text": "Find the missing number: 1,111,111 × ( ) = 1,234,567,654,321. (Pattern: 11×11=121, 111×111=12,321)",
     "answer": "1111111",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q117",
@@ -1066,7 +1066,7 @@
     "competition": "SMC",
     "text": "Find the missing number: 11,111,111 × 11,111,111 = ( ). (Pattern: 11×11=121, 111×111=12,321)",
     "answer": "123456787654321",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q118",
@@ -1075,7 +1075,7 @@
     "competition": "SMC",
     "text": "Given 8,547 × 13 = 111,111 and 8,547 × 26 = 222,222, find: 8,547 × ( ) = 666,666",
     "answer": "78",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q119",
@@ -1084,7 +1084,7 @@
     "competition": "SMC",
     "text": "Given 8,547 × 13 = 111,111, find: 8,547 × ( ) = 888,888",
     "answer": "104",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q120",
@@ -1093,7 +1093,7 @@
     "competition": "SMC",
     "text": "Given 8,547 × 13 = 111,111, find: 8,547 × ( ) = 999,999",
     "answer": "117",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q121",
@@ -1102,7 +1102,7 @@
     "competition": "SMC",
     "text": "Given 8,547 × 13 = 111,111, find: 8,547 × 65 = ( )",
     "answer": "555555",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q122",
@@ -1111,7 +1111,7 @@
     "competition": "SMC",
     "text": "Complete: 2, 3, 5, 8, 13, 21, ( ), ( ), ... What is the 7th term? (Fibonacci)",
     "answer": "34",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q123",
@@ -1120,7 +1120,7 @@
     "competition": "SMC",
     "text": "Complete: 2, 3, 5, 8, 13, 21, ( ), ( ), ... What is the 8th term? (Fibonacci)",
     "answer": "55",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q124",
@@ -1129,7 +1129,7 @@
     "competition": "SMC",
     "text": "Complete: 1, 4, 9, 16, ( ), ( ), ( ), ... What is the 5th term? (Perfect squares)",
     "answer": "25",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q125",
@@ -1138,7 +1138,7 @@
     "competition": "SMC",
     "text": "Complete: 1, 4, 9, 16, ( ), ( ), ( ), ... What is the 6th term? (Perfect squares)",
     "answer": "36",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q126",
@@ -1147,7 +1147,7 @@
     "competition": "SMC",
     "text": "Complete: 1, 4, 9, 16, ( ), ( ), ( ), ... What is the 7th term? (Perfect squares)",
     "answer": "49",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q127",
@@ -1156,7 +1156,7 @@
     "competition": "SMC",
     "text": "Complete: 6, 3, 8, 5, 10, ( ), ( ), ( ), ... What is the 6th term? (Odd positions: 6,8,10,12; Even: 3,5,7,9)",
     "answer": "12",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q128",
@@ -1165,7 +1165,7 @@
     "competition": "SMC",
     "text": "Complete: 6, 3, 8, 5, 10, ( ), ( ), ( ), ... What is the 7th term? (Odd positions: 6,8,10,12; Even: 3,5,7,9)",
     "answer": "7",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q129",
@@ -1174,7 +1174,7 @@
     "competition": "SMC",
     "text": "Complete: 6, 3, 8, 5, 10, ( ), ( ), ( ), ... What is the 8th term? (Odd positions: 6,8,10,12; Even: 3,5,7,9)",
     "answer": "9",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q130",
@@ -1183,7 +1183,7 @@
     "competition": "SMC",
     "text": "Complete: 9, 11, 15, 21, ( ), 39, ( ), ( ), ... What is the 5th term? (Differences: 2,4,6,8,10,12,14)",
     "answer": "29",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q131",
@@ -1192,7 +1192,7 @@
     "competition": "SMC",
     "text": "Complete: 9, 11, 15, 21, ( ), 39, ( ), ( ), ... What is the 7th term? (Differences: 2,4,6,8,10,12,14)",
     "answer": "51",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q132",
@@ -1201,7 +1201,7 @@
     "competition": "SMC",
     "text": "Complete: 9, 11, 15, 21, ( ), 39, ( ), ( ), ... What is the 8th term? (Differences: 2,4,6,8,10,12,14)",
     "answer": "65",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q133",
@@ -1210,7 +1210,7 @@
     "competition": "SMC",
     "text": "Complete: 8, 20, 44, 92, ( ), ( ), ( ), ... What is the 5th term? (Differences double: 12,24,48,96,192,384)",
     "answer": "188",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q134",
@@ -1219,7 +1219,7 @@
     "competition": "SMC",
     "text": "Complete: 8, 20, 44, 92, ( ), ( ), ( ), ... What is the 6th term? (Differences double: 12,24,48,96,192,384)",
     "answer": "380",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q135",
@@ -1228,7 +1228,7 @@
     "competition": "SMC",
     "text": "Complete: 8, 20, 44, 92, ( ), ( ), ( ), ... What is the 7th term? (Differences double: 12,24,48,96,192,384)",
     "answer": "764",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q136",
@@ -1237,7 +1237,7 @@
     "competition": "SMC",
     "text": "Complete: 5, 17, 53, 161, ( ), ( ), 4,373, ... What is the 5th term? (Rule: ×3+2)",
     "answer": "485",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q137",
@@ -1246,7 +1246,7 @@
     "competition": "SMC",
     "text": "Complete: 5, 17, 53, 161, ( ), ( ), 4,373, ... What is the 6th term? (Rule: ×3+2)",
     "answer": "1457",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q138",
@@ -1255,7 +1255,7 @@
     "competition": "SMC",
     "text": "Complete: 2, 25, 140, 715, ( ), 17,965, ... What is the 5th term? (Differences ×5: 23,115,575,2875)",
     "answer": "3590",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q139",
@@ -1264,7 +1264,7 @@
     "competition": "SMC",
     "text": "Complete: 3, 18, 78, ( ), ( ), 5,118, ... What is the 4th term? (Rule: ×4+6)",
     "answer": "318",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q140",
@@ -1273,7 +1273,7 @@
     "competition": "SMC",
     "text": "Complete: 3, 18, 78, ( ), ( ), 5,118, ... What is the 5th term? (Rule: ×4+6)",
     "answer": "1278",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q141",
@@ -1282,7 +1282,7 @@
     "competition": "SMC",
     "text": "In the pattern (1, 3, 6), (2, 6, 9), (3, 9, 12), ..., what are the numbers in the 8th group? (Enter as: a, b, c)",
     "answer": "8, 24, 27",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q142",
@@ -1291,7 +1291,7 @@
     "competition": "SMC",
     "text": "In the pattern (1, 4, 8), (2, 8, 12), (3, 12, 16), ..., what are the numbers in the 12th group? (Enter as: a, b, c)",
     "answer": "12, 48, 52",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q143",
@@ -1300,7 +1300,7 @@
     "competition": "SMC",
     "text": "In the pattern (1, 1, 2), (2, 4, 12), (3, 9, 36), ..., find the sum of all numbers in the 50th group. (Group n = (n, n², n²(n+1)))",
     "answer": "130050",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q144",
@@ -1309,7 +1309,7 @@
     "competition": "SMC",
     "text": "Complete the number pattern: 1+3 = 4 = 2×2; 1+3+5 = 9 = 3×3; 1+3+5+7 = 16 = 4×4; ( ) = ( ) = 5×5. What is the sum equal to 5×5?",
     "answer": "25",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q145",
@@ -1318,7 +1318,7 @@
     "competition": "SMC",
     "text": "Complete the number pattern: 1+3+5+7+9+11 = 36 = ( ). What expression equals 36? (Format: n×n)",
     "answer": "6×6",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q146",
@@ -1327,7 +1327,7 @@
     "competition": "SMC",
     "text": "What is the 12th term in the number pattern: 3, 8, 15, 24, 35, 48, 63, ... (Pattern: n×(n+2))",
     "answer": "168",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q147",
@@ -1336,7 +1336,7 @@
     "competition": "SMC",
     "text": "In the triangle number pattern (row 1 has 1 number, row 2 has 2, etc.), in which row is the number 2,007?",
     "answer": "63",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q148",
@@ -1345,7 +1345,7 @@
     "competition": "SMC",
     "text": "In the sequence 3, ( ), ( ), ( ), ( ), 54, ... the third number is the sum of the first two, and each following number is the sum of the previous two. What is the second number?",
     "answer": "9",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q149",
@@ -1354,7 +1354,7 @@
     "competition": "SMC",
     "text": "In the pattern 1/1, 1/2, 2/2, 1/3, 2/3, 3/3, 1/4, 2/4, 3/4, 4/4, ..., which term number is 15/30?",
     "answer": "450",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q150",
@@ -1363,7 +1363,7 @@
     "competition": "SMC",
     "text": "Find the missing number: (12 + 11 × □) ÷ 12 = 12",
     "answer": "12",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q151",
@@ -1372,7 +1372,7 @@
     "competition": "SMC",
     "text": "Find the missing number: ((1 + □) ÷ 7 + 4) ÷ 8 = 4/7",
     "answer": "3",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q152",
@@ -1381,7 +1381,7 @@
     "competition": "SMC",
     "text": "Find the missing number: ((□ + 4) × 8) ÷ 12 = 40",
     "answer": "56",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q153",
@@ -1390,7 +1390,7 @@
     "competition": "SMC",
     "text": "Find the missing number: ((1 + □) ÷ 9 + 3) ÷ 4 = 8/9",
     "answer": "4",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q154",
@@ -1399,7 +1399,7 @@
     "competition": "SMC",
     "text": "6 is subtracted from a number. The difference is multiplied by 6. 6 is added to the product. The sum is divided by 6. The answer is 6. What is the number?",
     "answer": "11",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q155",
@@ -1408,7 +1408,7 @@
     "competition": "SMC",
     "text": "A number is added to 6. The sum is multiplied by 3. The product is divided by 8. 8 is subtracted from the quotient. The answer is 1. Find the number.",
     "answer": "18",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q156",
@@ -1417,7 +1417,7 @@
     "competition": "SMC",
     "text": "David's grandfather said: add my age to 42 and divide the sum by 3, then subtract 36 from the quotient, then multiply the difference by 25 to get 100. How old is the grandfather?",
     "answer": "78",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q157",
@@ -1426,7 +1426,7 @@
     "competition": "SMC",
     "text": "ABC Megamart sold 4 sacks more than half its rice on day 1, then 3 fewer than half the remaining on day 2. On day 3 it ordered 30 sacks, giving a total of 50 sacks. How many sacks did it have at first?",
     "answer": "76",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q158",
@@ -1435,7 +1435,7 @@
     "competition": "SMC",
     "text": "Ants moved 120 g less than half their food on trip 1, 100 g more than half the remaining on trip 2, and 480 g on trip 3. 280 g was left unmoved. How much food did the ants have at first?",
     "answer": "3200",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q159",
@@ -1444,7 +1444,7 @@
     "competition": "SMC",
     "text": "ABC Telco sold 20 more than half its phones in January, then 15 more than half the remaining in February, leaving 75 phones. How many phones did it have at first?",
     "answer": "400",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q160",
@@ -1453,7 +1453,7 @@
     "competition": "SMC",
     "text": "Robert misread the ones digit (1) of the subtrahend as 7 and the tens digit (7) as 1, getting a difference of 222. What is the actual difference?",
     "answer": "168",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q161",
@@ -1462,7 +1462,7 @@
     "competition": "SMC",
     "text": "Jeff repeatedly takes half the marbles from a bag then puts 1 back. After 5 repetitions, 3 marbles remain. How many marbles were in the bag at first?",
     "answer": "34",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q162",
@@ -1471,7 +1471,7 @@
     "competition": "SMC",
     "text": "Alison gave Beatrice and Chloe books to double their amounts. Beatrice then doubled Alison and Chloe. Chloe then doubled Alison and Beatrice. Each ended with 32 books. How many books did Alison start with?",
     "answer": "52",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q163",
@@ -1480,7 +1480,7 @@
     "competition": "SMC",
     "text": "Alison, Beatrice and Chloe each doubled others in turns (Alison first, Beatrice second, Chloe last). All ended with 32 books each. How many books did Beatrice start with?",
     "answer": "28",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q164",
@@ -1489,7 +1489,7 @@
     "competition": "SMC",
     "text": "Alison, Beatrice and Chloe each doubled others in turns (Alison first, Beatrice second, Chloe last). All ended with 32 books each. How many books did Chloe start with?",
     "answer": "16",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q165",
@@ -1498,7 +1498,7 @@
     "competition": "SMC",
     "text": "At each bus stop 1 through 5, the fraction 1/7, 1/6, 1/5, 1/4, 1/3 of remaining commuters got off. At stop 6, half got off, leaving 4. How many commuters boarded at the station?",
     "answer": "28",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q166",
@@ -1507,7 +1507,7 @@
     "competition": "SMC",
     "text": "Sean blows 100 bubbles every minute. Half burst after 1 min, 1/4 survive 2 min, 2% survive 3 min, all gone by 4 min. How many bubbles are alive altogether at the 10th minute?",
     "answer": "177",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q167",
@@ -1516,7 +1516,7 @@
     "competition": "SMC",
     "text": "When dividing beads into 4 equal groups, 1 is left over. When dividing one group into 4, remainder is still 1. When dividing one of those groups into 4, remainder is still 1. What is the minimum number of beads?",
     "answer": "21",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q168",
@@ -1525,7 +1525,7 @@
     "competition": "SMC",
     "text": "Compute: 1 + 2 + 3 + ... + 98 + 99 + 100",
     "answer": "5050",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q169",
@@ -1534,7 +1534,7 @@
     "competition": "SMC",
     "text": "Compute: 1 + 3 + 5 + 7 + ... + 97 + 99",
     "answer": "2500",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q170",
@@ -1543,7 +1543,7 @@
     "competition": "SMC",
     "text": "Compute: 1 + 2 + 3 + 4 + ... + 48 + 49 + 50",
     "answer": "1275",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q171",
@@ -1552,7 +1552,7 @@
     "competition": "SMC",
     "text": "Compute: 1 + 2 + 3 + ... + 99 + 100 + 99 + 98 + ... + 3 + 2 + 1",
     "answer": "10000",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q172",
@@ -1561,7 +1561,7 @@
     "competition": "SMC",
     "text": "Compute: 1 + 2 + 3 + ... + 1,997 + 1,998 + 1,999",
     "answer": "1999000",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q173",
@@ -1570,7 +1570,7 @@
     "competition": "SMC",
     "text": "In the number sequence 4, 7, 10, ..., 295, 298, which term is the number 298?",
     "answer": "99",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q174",
@@ -1579,7 +1579,7 @@
     "competition": "SMC",
     "text": "Find the value of: 7 + 15 + 23 + ... + 767 + 775 + 783",
     "answer": "38710",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q175",
@@ -1588,7 +1588,7 @@
     "competition": "SMC",
     "text": "A series of 7 books was published every 3 years. The 4th book was published in 1996. In which year was the 1st book published?",
     "answer": "1987",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q176",
@@ -1597,7 +1597,7 @@
     "competition": "SMC",
     "text": "A series of 7 books was published every 3 years. The 4th book was published in 1996. List the years of the other 6 books (not book 4). Enter as: year1, year2, year3, year5, year6, year7",
     "answer": "1987, 1990, 1993, 1999, 2002, 2005",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q177",
@@ -1606,7 +1606,7 @@
     "competition": "SMC",
     "text": "Find the 8 numbers between 4 and 40 to make a sequence of 10 numbers with a common difference. Enter the 8 middle numbers separated by commas.",
     "answer": "8, 12, 16, 20, 24, 28, 32, 36",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q178",
@@ -1615,7 +1615,7 @@
     "competition": "SMC",
     "text": "The sum of the 6th and 7th terms in an arithmetic sequence of 12 numbers is 15. What is the sum of all 12 numbers?",
     "answer": "90",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q179",
@@ -1624,7 +1624,7 @@
     "competition": "SMC",
     "text": "Place 3 numbers between 12 and 60 to make a sequence of 5 numbers with a common difference. Enter the 3 middle numbers separated by commas.",
     "answer": "24, 36, 48",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q180",
@@ -1633,7 +1633,7 @@
     "competition": "SMC",
     "text": "20 school teams each play exactly 1 match with every other team. How many matches are played altogether?",
     "answer": "190",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q181",
@@ -1642,7 +1642,7 @@
     "competition": "SMC",
     "text": "A stadium North Wing has 30 rows. Each row has 2 more seats than the row in front. The last row has 132 seats. How many seats does the first row have?",
     "answer": "74",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q182",
@@ -1651,7 +1651,7 @@
     "competition": "SMC",
     "text": "A stadium North Wing has 30 rows. Each row has 2 more seats than the row in front. The last row has 132 seats and the first row has 74 seats. How many seats are there altogether?",
     "answer": "3090",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q183",
@@ -1660,7 +1660,7 @@
     "competition": "SMC",
     "text": "Find the sum of all odd numbers from 1 to 100 that are NOT divisible by 11.",
     "answer": "2225",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q184",
@@ -1669,7 +1669,7 @@
     "competition": "SMC",
     "text": "List all prime numbers between 30 and 60. Enter them separated by commas.",
     "answer": "31, 37, 41, 43, 47, 53, 59",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q185",
@@ -1678,7 +1678,7 @@
     "competition": "SMC",
     "text": "The sum of two prime numbers is 39. Find the product of the two prime numbers.",
     "answer": "74",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q186",
@@ -1687,7 +1687,7 @@
     "competition": "SMC",
     "text": "List all 1-digit, 2-digit and 3-digit numbers using digits 1, 2 and 3 (each digit used once per number). Which of these numbers are prime? Enter them separated by commas.",
     "answer": "2, 3, 13, 23, 31",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q187",
@@ -1696,7 +1696,7 @@
     "competition": "SMC",
     "text": "The product of two prime numbers is 65. What is the sum of the two prime numbers?",
     "answer": "18",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q188",
@@ -1705,7 +1705,7 @@
     "competition": "SMC",
     "text": "The product of two prime numbers is 65. What is the difference of the two prime numbers?",
     "answer": "8",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q189",
@@ -1714,7 +1714,7 @@
     "competition": "SMC",
     "text": "The sum of three prime numbers is 30. Which group of three prime numbers gives the smallest product? Enter the three primes separated by commas.",
     "answer": "2, 5, 23",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q190",
@@ -1723,7 +1723,7 @@
     "competition": "SMC",
     "text": "The sum of three prime numbers is 30. What is the smallest possible product of these three prime numbers?",
     "answer": "230",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q191",
@@ -1732,7 +1732,7 @@
     "competition": "SMC",
     "text": "A is a prime number. A+6, A+8, A+12, A+14 are also prime numbers. What is A?",
     "answer": "5",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q192",
@@ -1741,7 +1741,7 @@
     "competition": "SMC",
     "text": "The sum of two prime numbers is 50. Find the biggest possible product of the two prime numbers.",
     "answer": "589",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q193",
@@ -1750,7 +1750,7 @@
     "competition": "SMC",
     "text": "Write down 3 prime numbers that have a sum of 27 and give the biggest possible product. What is that biggest product?",
     "answer": "637",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q194",
@@ -1763,7 +1763,7 @@
       "No"
     ],
     "answer": "No",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q195",
@@ -1776,7 +1776,7 @@
       "No"
     ],
     "answer": "Yes",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q196",
@@ -1789,7 +1789,7 @@
       "No"
     ],
     "answer": "No",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q197",
@@ -1802,7 +1802,7 @@
       "No"
     ],
     "answer": "No",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q198",
@@ -1815,7 +1815,7 @@
       "No"
     ],
     "answer": "Yes",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q199",
@@ -1828,7 +1828,7 @@
       "No"
     ],
     "answer": "No",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q200",
@@ -1837,7 +1837,7 @@
     "competition": "SMC",
     "text": "Perform the prime factorization of 210. Write the answer as prime factors separated by × (e.g. 2 × 3 × 5)",
     "answer": "2 × 3 × 5 × 7",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q201",
@@ -1846,7 +1846,7 @@
     "competition": "SMC",
     "text": "Perform the prime factorization of 330.",
     "answer": "2 × 3 × 5 × 11",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q202",
@@ -1855,7 +1855,7 @@
     "competition": "SMC",
     "text": "Perform the prime factorization of 286.",
     "answer": "2 × 11 × 13",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q203",
@@ -1864,7 +1864,7 @@
     "competition": "SMC",
     "text": "Perform the prime factorization of 385.",
     "answer": "5 × 7 × 11",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q204",
@@ -1873,7 +1873,7 @@
     "competition": "SMC",
     "text": "Perform the prime factorization of 221.",
     "answer": "13 × 17",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q205",
@@ -1882,7 +1882,7 @@
     "competition": "SMC",
     "text": "Perform the prime factorization of 418.",
     "answer": "2 × 11 × 19",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q206",
@@ -1891,7 +1891,7 @@
     "competition": "SMC",
     "text": "Perform the prime factorization of 1,105.",
     "answer": "5 × 13 × 17",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q207",
@@ -1900,7 +1900,7 @@
     "competition": "SMC",
     "text": "Perform the prime factorization of 1,309.",
     "answer": "7 × 11 × 17",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q208",
@@ -1913,7 +1913,7 @@
       "No"
     ],
     "answer": "Yes",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q209",
@@ -1926,7 +1926,7 @@
       "No"
     ],
     "answer": "Yes",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q210",
@@ -1939,7 +1939,7 @@
       "No"
     ],
     "answer": "Yes",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q211",
@@ -1952,7 +1952,7 @@
       "No"
     ],
     "answer": "No",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q212",
@@ -1965,7 +1965,7 @@
       "No"
     ],
     "answer": "No",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q213",
@@ -1978,7 +1978,7 @@
       "No"
     ],
     "answer": "No",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q214",
@@ -1987,7 +1987,7 @@
     "competition": "SMC",
     "text": "Perform the prime factorization of 2,006. What is the sum of all its prime factors?",
     "answer": "78",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q215",
@@ -1996,7 +1996,7 @@
     "competition": "SMC",
     "text": "Perform the prime factorization of 1,992. What is the sum of all its distinct prime factors?",
     "answer": "88",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q216",
@@ -2007,7 +2007,7 @@
     "svg": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI,sans-serif\" font-size=\"13\"><polygon points=\"60,60 60,160 180,160 180,60\" fill=\"#f0f4ff\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"60,60 110,20 230,20 180,60\" fill=\"#dce4f5\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"180,60 230,20 230,120 180,160\" fill=\"#c8d5ee\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"118\" y=\"178\" text-anchor=\"middle\" font-style=\"italic\" font-weight=\"bold\">a</text><text x=\"44\" y=\"115\" text-anchor=\"middle\" font-style=\"italic\" font-weight=\"bold\">b</text><text x=\"242\" y=\"38\" text-anchor=\"middle\" font-style=\"italic\" font-weight=\"bold\">c</text><text x=\"118\" y=\"115\" text-anchor=\"middle\" fill=\"#1a237e\" font-weight=\"bold\">A cm²</text><text x=\"208\" y=\"92\" text-anchor=\"middle\" fill=\"#2e4a8a\" font-weight=\"bold\">B cm²</text></svg>",
     "subtext": "Hint: A + B = (a + b) × c = 220. Find prime values of a, b, c.",
     "answer": "1001",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q217",
@@ -2016,7 +2016,7 @@
     "competition": "SMC",
     "text": "The product of 1,540 and m is a perfect square number. Find the smallest possible value of m.",
     "answer": "385",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q218",
@@ -2025,7 +2025,7 @@
     "competition": "SMC",
     "text": "A palindrome pair consists of a number and its reverse (e.g. 243 and 342). The product of a palindrome pair is 101,088. Find the sum of the palindrome pair.",
     "answer": "828",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q219",
@@ -2034,7 +2034,7 @@
     "competition": "SMC",
     "text": "How many rectangles of different sizes can be formed from 36 identical small rectangles?",
     "answer": "5",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q220",
@@ -2043,7 +2043,7 @@
     "competition": "SMC",
     "text": "In 780 × a = 1,716 × b, find the smallest value of a.",
     "answer": "11",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q221",
@@ -2052,7 +2052,7 @@
     "competition": "SMC",
     "text": "In 780 × a = 1,716 × b, find the smallest value of b.",
     "answer": "5",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q222",
@@ -2061,7 +2061,7 @@
     "competition": "SMC",
     "text": "Different whole numbers are on each face of a cube. Opposite face sums are equal. The face opposite 18 is prime a, opposite 14 is prime b, and prime c is opposite 35. What is a + b + c?",
     "answer": "44",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q223",
@@ -2070,7 +2070,7 @@
     "competition": "SMC",
     "text": "In how many ways is 37 a sum of exactly 3 prime numbers?",
     "answer": "8",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q224",
@@ -2083,7 +2083,7 @@
       "No"
     ],
     "answer": "Yes",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q225",
@@ -2096,7 +2096,7 @@
       "No"
     ],
     "answer": "Yes",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q226",
@@ -2109,7 +2109,7 @@
       "No"
     ],
     "answer": "Yes",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q227",
@@ -2122,7 +2122,7 @@
       "No"
     ],
     "answer": "No",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q228",
@@ -2135,7 +2135,7 @@
       "No"
     ],
     "answer": "Yes",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q229",
@@ -2148,7 +2148,7 @@
       "No"
     ],
     "answer": "Yes",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q230",
@@ -2161,7 +2161,7 @@
       "No"
     ],
     "answer": "Yes",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q231",
@@ -2174,7 +2174,7 @@
       "No"
     ],
     "answer": "No",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q232",
@@ -2187,7 +2187,7 @@
       "No"
     ],
     "answer": "Yes",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q233",
@@ -2200,7 +2200,7 @@
       "No"
     ],
     "answer": "Yes",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q234",
@@ -2213,7 +2213,7 @@
       "No — the reverse has a different digit sum"
     ],
     "answer": "Yes, always — both have the same digit sum",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q235",
@@ -2226,7 +2226,7 @@
       "No — if not divisible by 10 then not by 5"
     ],
     "answer": "Yes — numbers ending in 5 are divisible by 5 but not 10",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q236",
@@ -2239,7 +2239,7 @@
       "No — every multiple of 10 is also a multiple of 5"
     ],
     "answer": "No — every multiple of 10 is also a multiple of 5",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q237",
@@ -2252,7 +2252,7 @@
       "No"
     ],
     "answer": "No",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q238",
@@ -2265,7 +2265,7 @@
       "No"
     ],
     "answer": "Yes",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q239",
@@ -2278,7 +2278,7 @@
       "No"
     ],
     "answer": "Yes",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q240",
@@ -2291,7 +2291,7 @@
       "No"
     ],
     "answer": "No",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q241",
@@ -2304,7 +2304,7 @@
       "No"
     ],
     "answer": "Yes",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q242",
@@ -2317,7 +2317,7 @@
       "No"
     ],
     "answer": "Yes",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q243",
@@ -2330,7 +2330,7 @@
       "No"
     ],
     "answer": "Yes",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q244",
@@ -2343,14 +2343,14 @@
       "No"
     ],
     "answer": "Yes",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q245",
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 4,567,654 divisible by 9? (Digit sum = 37)",
     "options": [
       "Yes",
@@ -2363,7 +2363,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 4,567,654 divisible by 11? (Alternating digit sum = 3)",
     "options": [
       "Yes",
@@ -2376,7 +2376,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 386,683 divisible by 11? (Alternating digit sum = 0)",
     "options": [
       "Yes",
@@ -2389,7 +2389,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 156,651 divisible by 11? (Alternating digit sum = 0)",
     "options": [
       "Yes",
@@ -2402,7 +2402,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 23,788,732 divisible by 11? (Alternating digit sum = 0)",
     "options": [
       "Yes",
@@ -2415,7 +2415,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 12,344,321 divisible by 11? (Alternating digit sum = 0)",
     "options": [
       "Yes",
@@ -2428,7 +2428,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "What conclusion can you draw about palindromic numbers and divisibility by 11?",
     "options": [
       "All palindromic numbers are divisible by 11",
@@ -2441,7 +2441,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 3,466,645 divisible by 13? (3,466,645 ÷ 13 = 266,665)",
     "options": [
       "Yes",
@@ -2454,7 +2454,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Write any 3-digit number and repeat its digits to form a 6-digit number (e.g. 123 → 123,123). Divide by 13, then by 11, then by 7. What do you always get back?",
     "answer": "the original 3-digit number"
   },
@@ -2463,7 +2463,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Why does repeating a 3-digit number ABC to form ABCABC and dividing by 7, 11, and 13 always give back ABC?",
     "answer": "Because ABCABC = ABC × 1001 and 1001 = 7 × 11 × 13"
   },
@@ -2472,7 +2472,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 1,278 divisible by 3? (Digit sum = 18)",
     "options": [
       "Yes",
@@ -2485,7 +2485,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 1,278 divisible by 9? (Digit sum = 18)",
     "options": [
       "Yes",
@@ -2498,7 +2498,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 4,632 divisible by 3? (Digit sum = 15)",
     "options": [
       "Yes",
@@ -2511,7 +2511,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 4,632 divisible by 9? (Digit sum = 15)",
     "options": [
       "Yes",
@@ -2524,7 +2524,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 54,684 divisible by 3? (Digit sum = 27)",
     "options": [
       "Yes",
@@ -2537,7 +2537,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 54,684 divisible by 9? (Digit sum = 27)",
     "options": [
       "Yes",
@@ -2550,7 +2550,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 119,375 divisible by 3? (Digit sum = 26)",
     "options": [
       "Yes",
@@ -2563,7 +2563,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 119,375 divisible by 9? (Digit sum = 26)",
     "options": [
       "Yes",
@@ -2576,7 +2576,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 37,625 divisible by 4? (Last 2 digits = 25)",
     "options": [
       "Yes",
@@ -2589,7 +2589,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 37,625 divisible by 8? (Last 3 digits = 625)",
     "options": [
       "Yes",
@@ -2602,7 +2602,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 37,625 divisible by 25? (Last 2 digits = 25)",
     "options": [
       "Yes",
@@ -2615,7 +2615,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 37,625 divisible by 125? (Last 3 digits = 625, 625÷125=5)",
     "options": [
       "Yes",
@@ -2628,7 +2628,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 93,648 divisible by 4? (Last 2 digits = 48)",
     "options": [
       "Yes",
@@ -2641,7 +2641,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 93,648 divisible by 8? (Last 3 digits = 648, 648÷8=81)",
     "options": [
       "Yes",
@@ -2654,7 +2654,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 93,648 divisible by 25? (Last 2 digits = 48)",
     "options": [
       "Yes",
@@ -2667,7 +2667,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 93,648 divisible by 125? (Last 3 digits = 648)",
     "options": [
       "Yes",
@@ -2680,7 +2680,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 87,615 divisible by 4? (Last 2 digits = 15)",
     "options": [
       "Yes",
@@ -2693,7 +2693,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 87,615 divisible by 8? (Last 3 digits = 615)",
     "options": [
       "Yes",
@@ -2706,7 +2706,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 87,615 divisible by 25? (Last 2 digits = 15)",
     "options": [
       "Yes",
@@ -2719,7 +2719,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 87,615 divisible by 125? (Last 3 digits = 615)",
     "options": [
       "Yes",
@@ -2732,7 +2732,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 1,548,672 divisible by 4? (Last 2 digits = 72)",
     "options": [
       "Yes",
@@ -2745,7 +2745,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 1,548,672 divisible by 8? (Last 3 digits = 672, 672÷8=84)",
     "options": [
       "Yes",
@@ -2758,7 +2758,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 1,548,672 divisible by 25? (Last 2 digits = 72)",
     "options": [
       "Yes",
@@ -2771,7 +2771,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 1,548,672 divisible by 125? (Last 3 digits = 672)",
     "options": [
       "Yes",
@@ -2784,7 +2784,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 517,699 divisible by 7? (517,699 ÷ 7 = 73,957)",
     "options": [
       "Yes",
@@ -2797,7 +2797,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 517,699 divisible by 13? (517,699 ÷ 13 = 39,823)",
     "options": [
       "Yes",
@@ -2810,7 +2810,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "If 50,15m is divisible by 3, find all possible values of m (digit sum = 11+m). Enter as: m1, m2, m3",
     "answer": "1, 4, 7"
   },
@@ -2819,7 +2819,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "In a78,89b, find all possible values of b if the number is divisible by 15 (must end in 0 or 5). Enter as: b1, b2",
     "answer": "0, 5"
   },
@@ -2828,7 +2828,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "In a78,89b divisible by 15 with b=0: digit sum = a+32, need ÷3. Find possible values of a. Enter as: a1, a2, a3",
     "answer": "1, 4, 7"
   },
@@ -2837,7 +2837,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "In a78,89b divisible by 15 with b=5: digit sum = a+37, need ÷3. Find possible values of a. Enter as: a1, a2, a3",
     "answer": "2, 5, 8"
   },
@@ -2846,7 +2846,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Find the possible values of a in 3,333,33a,888,888 so that it is divisible by 7. Enter as: a1, a2",
     "answer": "0, 7"
   },
@@ -2855,7 +2855,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "A 7-digit number 2,006,□□□ is divisible by 3, 4 and 25. What must the last 2 digits be? (Divisible by both 4 and 25)",
     "answer": "00"
   },
@@ -2864,7 +2864,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "A 7-digit number 2,006,□00 is divisible by 3. Find all possible values of the missing middle digit □. Enter as: d1, d2, d3",
     "answer": "1, 4, 7"
   },
@@ -2873,7 +2873,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "List all possible values of the number 2,006,□00 divisible by 3, 4 and 25. Enter as: n1, n2, n3",
     "answer": "2006100, 2006400, 2006700"
   },
@@ -2882,7 +2882,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "What is the largest possible value of _89,49_ (6-digit number a89,49b) if it is divisible by 11? (Rule: a − b = 5)",
     "answer": "989494"
   },
@@ -2891,7 +2891,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Find all possible values of □ in 25,□4□ so it is divisible by 3 and by 5. Enter as: d1, d2, d3, d4, d5, d6",
     "answer": "1, 2, 4, 5, 7, 8"
   },
@@ -2900,7 +2900,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "How many whole numbers between 1 and 100 are NOT divisible by 3 or by 11?",
     "answer": "61"
   },
@@ -2909,7 +2909,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 35,112 divisible by 7? (35,112 ÷ 7 = 5,016)",
     "options": [
       "Yes",
@@ -2922,7 +2922,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 35,112 divisible by 11? (Alternating digit sum = 0)",
     "options": [
       "Yes",
@@ -2935,7 +2935,7 @@
     "type": "mc",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Is 35,112 divisible by 13?",
     "options": [
       "Yes",
@@ -2948,7 +2948,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Find the possible values of □ in 5,□34,□ so it is divisible by 5 and by 9. Enter as: d1, d2",
     "answer": "1, 6"
   },
@@ -2957,7 +2957,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "List the possible values of 5,□34,□ divisible by 5 and 9. Enter as: n1, n2",
     "answer": "51345, 56340"
   },
@@ -2966,7 +2966,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Find the smallest possible value of 368,□□□ divisible by 3, 4 and 25.",
     "answer": "368100"
   },
@@ -2975,7 +2975,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "A 6-digit number begins with 8, is divisible by 9, and all digits are different. What is the smallest possible value?",
     "answer": "801234"
   },
@@ -2984,7 +2984,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Stanley wrote a 4-digit number (all different digits). Darrell guessed 4,607 (2 correct, wrong position), 1,385 (same), 2,879 (2 correct, right position), 5,461 (none correct). What was Stanley's number?",
     "answer": "3870"
   },
@@ -2993,7 +2993,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Box A is labelled 'white marbles', Box B 'blue marbles', Box C 'Box B contains blue marbles'. One box has blue marbles, two have white. Two labels are wrong. Which box contains the blue marbles?",
     "answer": "C"
   },
@@ -3002,7 +3002,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Andrew, Jolene and Tommy each draw 3 cards from cards 1-9. Andrew's product=48, Jolene's sum=16, Tommy's product=63. What is the largest number among Jolene's cards?",
     "answer": "8"
   },
@@ -3011,7 +3011,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "What is the 5th number in the 15th row of the number triangle (row 1: [1], row 2: [2,3], row 3: [4,5,6], ...)?",
     "answer": "110"
   },
@@ -3020,7 +3020,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Ashley says she is 12, 3 years Stella's junior, 1 year older than Melanie. Stella says she is not youngest, Melanie and Stella are 4 apart, Ashley is 11. Melanie says she is younger than Ashley, Ashley is 10, Stella is 2 years Ashley's senior. One statement per girl is wrong. How old is Ashley?",
     "answer": "12"
   },
@@ -3029,7 +3029,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Using the same age puzzle: one statement per girl is wrong. How old is Stella?",
     "answer": "15"
   },
@@ -3038,7 +3038,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Using the same age puzzle: one statement per girl is wrong. How old is Melanie?",
     "answer": "11"
   },
@@ -3047,7 +3047,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "It rained 10 times (morning or afternoon). Dry afternoons=8, dry mornings=14. Each wet afternoon was preceded by a dry morning. How many days did the meteorologist record?",
     "answer": "16"
   },
@@ -3056,7 +3056,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Matthew is older than the police officer. Andy and the doctor are not the same age. The doctor is younger than Kevin. Among Andy, Kevin and Matthew — who is the teacher?",
     "answer": "Kevin"
   },
@@ -3065,7 +3065,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Teddy: Both Leon and Peter lied. Leon: One of them (Teddy or Peter) was lying. Peter: One of them (Teddy or Leon) told the truth. Only one lied. Who lied?",
     "answer": "Teddy"
   },
@@ -3074,7 +3074,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Teddy: Both Leon and Peter lied. Leon: One of them (Teddy or Peter) was lying. Peter: One of them (Teddy or Leon) told the truth. Who told the truth? (Enter as: name1 and name2)",
     "answer": "Leon and Peter"
   },
@@ -3083,7 +3083,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Jodie is older than the lady from Town B. Amanda and the lady from Town C are not the same age. The lady from Town C is younger than Beatrice. Among Amanda, Beatrice and Jodie — who comes from Town A?",
     "answer": "Amanda"
   },
@@ -3092,7 +3092,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Colin: Jason did it. Jason: David did it. Melvin: Not me! David: Jason did it — his words cannot be trusted. Only one told the truth. Who was the culprit?",
     "answer": "Colin"
   },
@@ -3101,7 +3101,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Elaine attended David's wedding as a guest. Alicia's husband is a cousin of Herman. Herman went overseas with his spouse; Beatrice, Charles and Elaine each represented their own spouses to see him off. Who is Herman's spouse?",
     "answer": "Florence"
   },
@@ -3110,7 +3110,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Herman-Florence, and the remaining couples are Beatrice-David and two others from Alicia, Charles, Elaine, Graham. Elaine is not David's spouse. Match Alicia's husband. (Enter: Alicia-X, Elaine-Y)",
     "answer": "Alicia-Graham, Elaine-Charles"
   },
@@ -3119,7 +3119,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Tourists A,B,C,D in an 18-floor hotel. A's floor = 4 × Mexican's. German is 4 floors above B but below Egyptian. Egyptian is 6 floors below A. All floors even. Which country is tourist A from?",
     "answer": "Mexico"
   },
@@ -3128,7 +3128,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Using same hotel puzzle: A=floor 16, Egyptian=floor 10, German=floor 6, B=floor 2. Which country is tourist B from?",
     "answer": "China"
   },
@@ -3137,7 +3137,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Melissa≠Greenville, Amy≠Bloomsberry. Volleyball student≠Windschill. Swimming student=Greenville. Match each student to school and sport. What sport does Amy play?",
     "answer": "swimming"
   },
@@ -3146,7 +3146,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Same puzzle. What sport does Melissa play?",
     "answer": "volleyball"
   },
@@ -3155,7 +3155,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Same puzzle. What sport does Tony play?",
     "answer": "basketball"
   },
@@ -3164,7 +3164,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "A teacher gives 4 candies per student and has 48 left over. Giving 6 each needs 8 more. How many students are there?",
     "answer": "28"
   },
@@ -3173,7 +3173,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "1 USD = 1.45 SGD. 1,000 Thai Baht = 50 SGD. How many USD can 29,000 Thai Baht buy?",
     "answer": "1000"
   },
@@ -3182,7 +3182,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "4 footballs and 4 volleyballs cost $240. 3 footballs and 5 volleyballs cost $234. What is the cost of one football?",
     "answer": "33"
   },
@@ -3191,7 +3191,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "4 footballs and 4 volleyballs cost $240. 3 footballs and 5 volleyballs cost $234. What is the cost of one volleyball?",
     "answer": "27"
   },
@@ -3200,7 +3200,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "62 tennis balls total. Long tube holds 5, short tube holds 3. How many long tubes are there? (Find the solution where long tubes are maximised as whole number)",
     "answer": "7"
   },
@@ -3209,7 +3209,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "A farmer has 145 chickens and rabbits with 410 legs total. How many chickens does the farmer have?",
     "answer": "85"
   },
@@ -3218,7 +3218,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "A farmer has 145 chickens and rabbits with 410 legs total. How many rabbits does the farmer have?",
     "answer": "60"
   },
@@ -3227,7 +3227,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Big box holds 12 marbles, small box holds 5. Total 99 marbles. How many big boxes are there? (Maximise big boxes)",
     "answer": "7"
   },
@@ -3236,7 +3236,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Jonathan multiplies his birth month by 31 and birth day by 12. Sum = 213. When is Jonathan's birthday? (Enter as: Month Day, e.g. March 10)",
     "answer": "March 10"
   },
@@ -3245,7 +3245,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "3 french fries + 2 cheeseburgers + 1 drink = $10.95. 1 french fries + 2 cheeseburgers + 3 drinks = $11.25. Find price of 1 french fries + 1 cheeseburger + 1 drink.",
     "answer": "5.55"
   },
@@ -3254,7 +3254,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "3A + 7B + C = $31.50. 4A + 10B + C = $42. Find the price of A + B + C.",
     "answer": "10.50"
   },
@@ -3263,7 +3263,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "A math competition held 20 years. Based on 20, 25 or 30 questions each year. Total 515 questions used. For how many years was it based on 25 questions?",
     "answer": "17"
   },
@@ -3272,7 +3272,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "How many numbers, when divided by 7, have the same quotient and remainder?",
     "answer": "7"
   },
@@ -3281,7 +3281,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "January 1st was a Thursday. February has 28 days. Which day of the week was April 1st?",
     "answer": "Wednesday"
   },
@@ -3290,7 +3290,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Today is Friday. Which day of the week will it be 90 days later, including today?",
     "answer": "Wednesday"
   },
@@ -3299,7 +3299,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "A 2-digit number has remainder 7 when divided by 9, and remainder 5 when divided by 7. Find the number.",
     "answer": "61"
   },
@@ -3308,7 +3308,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "168 beads: repeating sequence of 5 black, 4 blue, 3 white (cycle=12). What colour is the 150th bead?",
     "answer": "blue"
   },
@@ -3317,7 +3317,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Same bead sequence (5 black, 4 blue, 3 white, cycle=12). How many blue beads are in the first 150 beads?",
     "answer": "49"
   },
@@ -3326,7 +3326,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Sequence 3,7,2,1,5,2 repeating. What is the sum of the first 122 numbers?",
     "answer": "410"
   },
@@ -3335,7 +3335,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Sequence 3,7,2,1,5,2 repeating. What is the 138th number?",
     "answer": "2"
   },
@@ -3344,7 +3344,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "June 1st was a Friday. Which day of the week was August 30th that year?",
     "answer": "Thursday"
   },
@@ -3353,7 +3353,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "120 ÷ n has remainder 12. 144 ÷ n has no remainder. Find the smallest possible value of n (2-digit).",
     "answer": "18"
   },
@@ -3362,7 +3362,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Two numbers sum to 340. Dividing the larger by the smaller gives quotient 7 remainder 20. Find the larger number.",
     "answer": "300"
   },
@@ -3371,7 +3371,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Two numbers sum to 340. Dividing the larger by the smaller gives quotient 7 remainder 20. Find the smaller number.",
     "answer": "40"
   },
@@ -3380,7 +3380,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "A box of chocolates can be shared equally among 2, 3, 4, 5 or 6 children. What is the minimum number of chocolates?",
     "answer": "60"
   },
@@ -3389,7 +3389,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Sum of dividend, divisor, quotient and remainder = 171. Quotient = 12, remainder = 8. Find the dividend.",
     "answer": "140"
   },
@@ -3398,7 +3398,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Sum of dividend, divisor, quotient and remainder = 171. Quotient = 12, remainder = 8. Find the divisor.",
     "answer": "11"
   },
@@ -3407,7 +3407,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Find the remainder when 333...333 (12 digits) is divided by 7.",
     "answer": "0"
   },
@@ -3416,7 +3416,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Find the last digit of the quotient when 333...333 (12 digits) is divided by 7.",
     "answer": "9"
   },
@@ -3425,7 +3425,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Find the remainder when 1111...1111 (24 digits) is divided by 7.",
     "answer": "0"
   },
@@ -3434,7 +3434,7 @@
     "type": "sa",
     "topic": "Number Theory",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Find the last digit of the quotient when 1111...1111 (24 digits) is divided by 7.",
     "answer": "3"
   },
@@ -3443,7 +3443,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Average mass of 3 people in elevator = 60 kg. 4th person boards, average becomes 57 kg. What was the mass of the 4th person?",
     "answer": "48"
   },
@@ -3452,7 +3452,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Average of 3 numbers is 120. What number must be added so the average of all 4 becomes 110?",
     "answer": "80"
   },
@@ -3461,7 +3461,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "A box of thumbtacks weighed 1,590 g. After 40 thumbtacks were removed, it weighed 1,470 g. How many thumbtacks were there originally? (Assume box weight is negligible)",
     "answer": "530"
   },
@@ -3470,7 +3470,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Average of 5 numbers is 20. One number is changed to 4 and the new average is 18. What was the original value of the changed number?",
     "answer": "14"
   },
@@ -3479,7 +3479,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Average of 35, 40, 41, m and 50 is 45. Find m.",
     "answer": "59"
   },
@@ -3488,7 +3488,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Average of A, B, C is 70. A is 2 more than B. B is 11 more than C. Find A.",
     "answer": "75"
   },
@@ -3497,7 +3497,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Average of A, B, C is 70. A is 2 more than B. B is 11 more than C. Find B.",
     "answer": "73"
   },
@@ -3506,7 +3506,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Average of A, B, C is 70. A is 2 more than B. B is 11 more than C. Find C.",
     "answer": "62"
   },
@@ -3515,7 +3515,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Julie read 83, 66, 74, 73 pages over 4 days. On day 5 she read 12 more than the 4-day average. How many pages did she read on day 5?",
     "answer": "86"
   },
@@ -3524,7 +3524,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Average of A and B is 50. Average of B and C is 43. Average of A and C is 45. Find the average of A, B and C.",
     "answer": "46"
   },
@@ -3533,7 +3533,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Joseph read 83, 65, 60, 84 pages over 4 days. On day 5 he read 8 more than the 5-day average. How many pages did he read on day 5?",
     "answer": "83"
   },
@@ -3542,7 +3542,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Average mass of Ken, David and Eugene is 42 kg. David is 6 kg heavier than the average of Ken and Eugene. Ken is 6 kg heavier than Eugene. Find David's mass.",
     "answer": "46"
   },
@@ -3551,7 +3551,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Matthew needs 100 on his last test to raise his average from 84 to 86. How many tests are there altogether this year?",
     "answer": "8"
   },
@@ -3560,7 +3560,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "A car travels A to B at 30 km/h and returns at 60 km/h. What is the average speed for both trips?",
     "answer": "40"
   },
@@ -3569,7 +3569,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Average of A and B is 8. Average of B and C is 3.6. Average of C and D is 5.8. Find the average of A and D.",
     "answer": "10.2"
   },
@@ -3578,7 +3578,7 @@
     "type": "sa",
     "topic": "Word Problem",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Average mass of children is 36 kg. 3/7 are girls with average mass 32 kg. Find the average mass of the boys.",
     "answer": "39"
   },
@@ -3587,7 +3587,7 @@
     "type": "sa",
     "topic": "Geometry",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "The side of each square in the grid is 1 cm. Find the total area of the two shaded triangles.",
     "answer": "10",
     "svg": "<svg viewBox=\"-5 -5 250 210\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0\" y1=\"0\" x2=\"0\" y2=\"200\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"40\" y1=\"0\" x2=\"40\" y2=\"200\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"80\" y1=\"0\" x2=\"80\" y2=\"200\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"120\" y1=\"0\" x2=\"120\" y2=\"200\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"200\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"200\" y1=\"0\" x2=\"200\" y2=\"200\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"240\" y1=\"0\" x2=\"240\" y2=\"200\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"0\" y1=\"0\" x2=\"240\" y2=\"0\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"0\" y1=\"40\" x2=\"240\" y2=\"40\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"0\" y1=\"80\" x2=\"240\" y2=\"80\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"0\" y1=\"120\" x2=\"240\" y2=\"120\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"0\" y1=\"160\" x2=\"240\" y2=\"160\" stroke=\"#aaa\" stroke-width=\"0.5\"/><line x1=\"0\" y1=\"200\" x2=\"240\" y2=\"200\" stroke=\"#aaa\" stroke-width=\"0.5\"/><polygon points=\"40,0 0,80 80,120\" fill=\"#ccc\" stroke=\"#333\" stroke-width=\"1.5\"/><polygon points=\"80,120 120,40 200,160\" fill=\"#ccc\" stroke=\"#333\" stroke-width=\"1.5\"/></svg>",
@@ -3598,7 +3598,7 @@
     "type": "sa",
     "topic": "Geometry",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "ABCD is a parallelogram. ΔEFG = 6 cm² and DE = EF = ⅓CD. Find the area of ABCD.",
     "answer": "72",
     "svg": "<svg viewBox=\"0 0 400 220\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI\" font-size=\"13\">\n<polygon points=\"60,180 140,180 320,180 240,40\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<polygon points=\"60,180 240,40 320,180\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<line x1=\"240\" y1=\"40\" x2=\"200\" y2=\"180\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"155,180 200,180 195,130\" fill=\"#ccc\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<text x=\"55\" y=\"200\">D</text><text x=\"130\" y=\"200\">E</text><text x=\"195\" y=\"200\">F</text>\n<text x=\"315\" y=\"200\">C</text><text x=\"235\" y=\"30\">A</text><text x=\"325\" y=\"40\">B</text>\n<text x=\"195\" y=\"120\">G</text>\n</svg>",
@@ -3609,7 +3609,7 @@
     "type": "sa",
     "topic": "Geometry",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "The figure is formed by two isosceles triangles with bases 10 cm and 5 cm. Find the area of the shaded region.",
     "answer": "25",
     "svg": "<svg viewBox=\"0 0 300 260\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI\" font-size=\"13\">\n<polygon points=\"100,20 150,240 50,240\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<polygon points=\"100,20 125,240 75,240\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<polygon points=\"100,20 150,240 75,240\" fill=\"#ccc\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<text x=\"155\" y=\"100\">10 cm</text><text x=\"42\" y=\"220\">5 cm</text>\n<text x=\"68\" y=\"255\">⌐</text>\n</svg>",
@@ -3620,7 +3620,7 @@
     "type": "sa",
     "topic": "Geometry",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "The difference in areas of square A and square B is 95 cm². Find the perimeter of the combined figure.",
     "answer": "57",
     "svg": "<svg viewBox=\"0 0 340 240\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI\" font-size=\"13\">\n<rect x=\"20\" y=\"20\" width=\"180\" height=\"180\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<rect x=\"200\" y=\"90\" width=\"120\" height=\"120\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<text x=\"100\" y=\"120\">A</text><text x=\"250\" y=\"160\">B</text>\n</svg>",
@@ -3631,7 +3631,7 @@
     "type": "sa",
     "topic": "Geometry",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "ABCD is a square with sides 8 cm. AG = EC = 5 cm. Find the area of shaded rectangle EFGH.",
     "answer": "16",
     "svg": "<svg viewBox=\"0 0 260 220\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI\" font-size=\"13\">\n<rect x=\"30\" y=\"20\" width=\"200\" height=\"200\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<rect x=\"105\" y=\"20\" width=\"50\" height=\"200\" fill=\"#ccc\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<text x=\"25\" y=\"15\">A</text><text x=\"105\" y=\"15\">H</text><text x=\"150\" y=\"15\">G</text><text x=\"228\" y=\"15\">B</text>\n<text x=\"25\" y=\"235\">D</text><text x=\"105\" y=\"235\">E</text><text x=\"150\" y=\"235\">F</text><text x=\"228\" y=\"235\">C</text>\n</svg>",
@@ -3642,7 +3642,7 @@
     "type": "sa",
     "topic": "Geometry",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Figure made of two squares (sides 5 cm and 3 cm). Find the area of the shaded region.",
     "answer": "10.625",
     "svg": "<svg viewBox=\"0 0 340 240\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI\" font-size=\"13\">\n<rect x=\"10\" y=\"10\" width=\"200\" height=\"200\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<rect x=\"210\" y=\"90\" width=\"120\" height=\"120\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<line x1=\"10\" y1=\"10\" x2=\"330\" y2=\"210\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<polygon points=\"10,10 10,210 210,210\" fill=\"#ccc\" opacity=\"0.5\" stroke=\"none\"/>\n<polygon points=\"210,90 330,210 210,210\" fill=\"#ccc\" opacity=\"0.5\" stroke=\"none\"/>\n<text x=\"5\" y=\"5\">5cm sq</text><text x=\"215\" y=\"85\">3cm sq</text>\n</svg>",
@@ -3653,7 +3653,7 @@
     "type": "sa",
     "topic": "Geometry",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Figure formed by two squares with sides 6 cm and 4 cm. Find the area of the shaded triangle.",
     "answer": "12",
     "svg": "<svg viewBox=\"0 0 360 240\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI\" font-size=\"13\">\n<rect x=\"40\" y=\"20\" width=\"160\" height=\"160\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<rect x=\"200\" y=\"60\" width=\"120\" height=\"120\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<polygon points=\"40,20 200,180 200,60 240,180\" fill=\"#ccc\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<text x=\"35\" y=\"15\">B</text><text x=\"195\" y=\"15\">A</text><text x=\"315\" y=\"55\">F</text>\n<text x=\"30\" y=\"195\">C</text><text x=\"195\" y=\"195\">D</text><text x=\"315\" y=\"195\">E</text>\n<text x=\"195\" y=\"110\">G</text><text x=\"25\" y=\"110\">6 cm</text><text x=\"325\" y=\"130\">4 cm</text>\n</svg>",
@@ -3664,7 +3664,7 @@
     "type": "sa",
     "topic": "Geometry",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Find the area of the rectangle embedded in the square (square side = 10 cm, offset = 3 cm).",
     "answer": "58",
     "svg": "<svg viewBox=\"0 0 260 260\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI\" font-size=\"13\">\n<rect x=\"20\" y=\"20\" width=\"220\" height=\"220\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<polygon points=\"180,20 240,80 80,240 20,180\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<text x=\"70\" y=\"15\">7 cm</text><text x=\"185\" y=\"15\">3 cm</text>\n<text x=\"242\" y=\"55\">3 cm</text><text x=\"242\" y=\"160\">7 cm</text>\n</svg>",
@@ -3675,7 +3675,7 @@
     "type": "sa",
     "topic": "Geometry",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Find the area of quadrilateral ABCD where AB = BC = 13, DC = 12, height from B = 12.",
     "answer": "150",
     "svg": "<svg viewBox=\"0 0 300 250\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI\" font-size=\"13\">\n<polygon points=\"20,180 210,180 250,50 60,80\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<line x1=\"210\" y1=\"50\" x2=\"210\" y2=\"180\" stroke=\"#333\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/>\n<text x=\"55\" y=\"70\">A</text><text x=\"248\" y=\"45\">B</text><text x=\"255\" y=\"185\">C</text><text x=\"10\" y=\"185\">D</text>\n<text x=\"215\" y=\"120\">12</text><text x=\"260\" y=\"120\">13</text>\n<text x=\"100\" y=\"200\">12</text>\n</svg>",
@@ -3686,7 +3686,7 @@
     "type": "sa",
     "topic": "Geometry",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "6 squares inscribed at midpoints, biggest side = 12 cm. Find the area of the shaded (5th) square.",
     "answer": "9",
     "subtext": "6 squares inscribed at midpoints, biggest side = 12 cm. The 5th (second smallest) square is shaded."
@@ -3696,7 +3696,7 @@
     "type": "sa",
     "topic": "Geometry",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "3 squares inscribed at midpoints. Area of triangle ΔA = 4 cm². Find the ratio of the total shaded area to the biggest square.",
     "answer": "1/36",
     "subtext": "3 squares inscribed at midpoints. ΔA = 4 cm². Shaded = 1 of 9 small squares in smallest."
@@ -3706,7 +3706,7 @@
     "type": "sa",
     "topic": "Geometry",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Two squares with areas x cm² and y cm² are embedded in square ABCD (area = 252 cm²). Find x and y (enter as: x, y).",
     "answer": "126, 126",
     "subtext": "Two squares embedded in ABCD (area 252 cm²). Find x and y."
@@ -3716,7 +3716,7 @@
     "type": "sa",
     "topic": "Geometry",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Two overlapping squares A (6 cm) and B (5 cm). Find the difference of the two shaded areas (non-overlapping parts).",
     "answer": "11",
     "subtext": "Square A = 6 cm, Square B = 5 cm, overlap partially."
@@ -3726,7 +3726,7 @@
     "type": "sa",
     "topic": "Geometry",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "A plot of 112 hectares is divided into 4 triangular plots. Two are labelled 11 and 17. Find the area of the biggest plot.",
     "answer": "51",
     "svg": "<svg viewBox=\"0 0 300 240\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI\" font-size=\"13\">\n<polygon points=\"30,210 150,30 270,210\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<line x1=\"90\" y1=\"210\" x2=\"150\" y2=\"30\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"30\" y1=\"210\" x2=\"210\" y2=\"100\" stroke=\"#333\" stroke-width=\"1\"/>\n<text x=\"125\" y=\"100\">11</text><text x=\"175\" y=\"140\">17</text>\n</svg>",
@@ -3737,7 +3737,7 @@
     "type": "sa",
     "topic": "Geometry",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Rectangle ABCD, BD diagonal, F on AB, CF meets BD at E. ΔBEF = 20 cm², ΔBEC = 30 cm². Find area of quadrilateral ADEF.",
     "answer": "45",
     "svg": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI\" font-size=\"13\">\n<rect x=\"20\" y=\"20\" width=\"260\" height=\"180\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<line x1=\"20\" y1=\"200\" x2=\"280\" y2=\"20\" stroke=\"#333\" stroke-width=\"1.2\"/>\n<line x1=\"110\" y1=\"20\" x2=\"280\" y2=\"200\" stroke=\"#333\" stroke-width=\"1.2\"/>\n<text x=\"15\" y=\"15\">A</text><text x=\"105\" y=\"15\">F</text><text x=\"278\" y=\"15\">B</text>\n<text x=\"15\" y=\"215\">D</text><text x=\"278\" y=\"215\">C</text>\n<text x=\"170\" y=\"90\">20</text><text x=\"200\" y=\"130\">30</text><text x=\"175\" y=\"115\">E</text>\n</svg>",
@@ -3748,7 +3748,7 @@
     "type": "sa",
     "topic": "Geometry",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Rectangle ABCD is formed by 5 identical small rectangles each with width 6 cm. Find the perimeter of ABCD.",
     "answer": "66",
     "svg": "<svg viewBox=\"0 0 220 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Segoe UI\" font-size=\"13\">\n<rect x=\"20\" y=\"20\" width=\"180\" height=\"150\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\"/>\n<line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"110\" stroke=\"#333\" stroke-width=\"1.2\"/>\n<line x1=\"140\" y1=\"20\" x2=\"140\" y2=\"110\" stroke=\"#333\" stroke-width=\"1.2\"/>\n<line x1=\"20\" y1=\"110\" x2=\"200\" y2=\"110\" stroke=\"#333\" stroke-width=\"1.2\"/>\n<line x1=\"110\" y1=\"110\" x2=\"110\" y2=\"170\" stroke=\"#333\" stroke-width=\"1.2\"/>\n<text x=\"15\" y=\"15\">A</text><text x=\"202\" y=\"15\">B</text>\n<text x=\"15\" y=\"188\">D</text><text x=\"202\" y=\"188\">C</text>\n<text x=\"202\" y=\"165\">6 cm</text>\n</svg>",
@@ -3759,7 +3759,7 @@
     "type": "sa",
     "topic": "Arithmetic",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Evaluate the continued fraction: 1 / (2 + 1/(3 + 1/(4 + 1/5)))",
     "answer": "68/157",
     "svg": "<svg viewBox=\"0 0 220 120\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"serif\" font-size=\"14\">\n<text x=\"80\" y=\"20\" text-anchor=\"middle\">1</text>\n<line x1=\"40\" y1=\"25\" x2=\"160\" y2=\"25\" stroke=\"#333\" stroke-width=\"1.2\"/>\n<text x=\"50\" y=\"42\">2 +</text>\n<text x=\"110\" y=\"38\" text-anchor=\"middle\">1</text>\n<line x1=\"85\" y1=\"42\" x2=\"170\" y2=\"42\" stroke=\"#333\" stroke-width=\"1.2\"/>\n<text x=\"90\" y=\"58\">3 +</text>\n<text x=\"145\" y=\"54\" text-anchor=\"middle\">1</text>\n<line x1=\"125\" y1=\"58\" x2=\"175\" y2=\"58\" stroke=\"#333\" stroke-width=\"1.2\"/>\n<text x=\"125\" y=\"73\">4 +</text>\n<text x=\"165\" y=\"73\">1/5</text>\n</svg>"
@@ -3769,7 +3769,7 @@
     "type": "sa",
     "topic": "Arithmetic",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Evaluate: [1 + 1/(2 − 1/4)] / [1 + 1/(1 + 1/3)]",
     "answer": "44/49",
     "svg": "<svg viewBox=\"0 0 240 130\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"serif\" font-size=\"14\">\n<text x=\"105\" y=\"18\" text-anchor=\"middle\">1 + 1/(2 − 1/4)</text>\n<line x1=\"20\" y1=\"24\" x2=\"220\" y2=\"24\" stroke=\"#333\" stroke-width=\"1.2\"/>\n<text x=\"105\" y=\"45\" text-anchor=\"middle\">1 + 1/(1 + 1/3)</text>\n</svg>"
@@ -3779,7 +3779,7 @@
     "type": "sa",
     "topic": "Arithmetic",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Evaluate the continued fraction: 1 / (4 + 1/(3 − 1/(2 + 1/7)))",
     "answer": "38/167",
     "svg": "<svg viewBox=\"0 0 220 120\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"serif\" font-size=\"14\">\n<text x=\"80\" y=\"20\" text-anchor=\"middle\">1</text>\n<line x1=\"35\" y1=\"25\" x2=\"165\" y2=\"25\" stroke=\"#333\" stroke-width=\"1.2\"/>\n<text x=\"45\" y=\"42\">4 +</text>\n<text x=\"110\" y=\"38\" text-anchor=\"middle\">1</text>\n<line x1=\"85\" y1=\"42\" x2=\"175\" y2=\"42\" stroke=\"#333\" stroke-width=\"1.2\"/>\n<text x=\"88\" y=\"58\">3 −</text>\n<text x=\"148\" y=\"54\" text-anchor=\"middle\">1</text>\n<line x1=\"122\" y1=\"58\" x2=\"178\" y2=\"58\" stroke=\"#333\" stroke-width=\"1.2\"/>\n<text x=\"120\" y=\"73\">2 +</text>\n<text x=\"162\" y=\"73\">1/7</text>\n</svg>"
@@ -3789,7 +3789,7 @@
     "type": "sa",
     "topic": "Arithmetic",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Evaluate: 1⅓ − 7/12 + 9/20 − 11/30 + 13/42 − 15/56 + 17/72",
     "answer": "10/9"
   },
@@ -3798,7 +3798,7 @@
     "type": "sa",
     "topic": "Arithmetic",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Evaluate: 1/2 + 5/6 + 11/12 + 19/20 + ... + 89/90",
     "answer": "81/10"
   },
@@ -3807,7 +3807,7 @@
     "type": "sa",
     "topic": "Arithmetic",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Evaluate: 1/(1×5) + 1/(5×9) + 1/(9×13) + ... + 1/(97×101)",
     "answer": "25/101"
   },
@@ -3816,7 +3816,7 @@
     "type": "sa",
     "topic": "Arithmetic",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Evaluate: (1/2+1/3+...+1/10) + (2/3+2/4+...+2/10) + (3/4+3/5+...+3/10) + ... + (8/9+8/10) + 9/10",
     "answer": "45/2"
   },
@@ -3825,7 +3825,7 @@
     "type": "sa",
     "topic": "Arithmetic",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Evaluate: 1/3 + 1/15 + 1/35 + 1/63 + 1/99 + 1/143 + 1/195",
     "answer": "7/15"
   },
@@ -3834,7 +3834,7 @@
     "type": "sa",
     "topic": "Arithmetic",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Evaluate: (1/2+2/3+3/4+4/5)² + (1/2+2/3+3/4+4/5)×(1/2) − (1+1/2+2/3+3/4+4/5)×(2/3+3/4+4/5)",
     "answer": "1/2"
   },
@@ -3843,7 +3843,7 @@
     "type": "sa",
     "topic": "Arithmetic",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Evaluate: (2,007 + 2,006 × 2,008) / (2,007 × 2,008 − 1)",
     "answer": "1"
   },
@@ -3852,7 +3852,7 @@
     "type": "sa",
     "topic": "Arithmetic",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Evaluate: 1/2,008 + 2/2,008 + 3/2,008 + ... + 2,006/2,008 + 2,007/2,008",
     "answer": "2007/2"
   },
@@ -3861,7 +3861,7 @@
     "type": "sa",
     "topic": "Arithmetic",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Evaluate: 1/2,007 + 2/2,007 − 3/2,007 − 4/2,007 + 5/2,007 + 6/2,007 − 7/2,007 − 8/2,007 + ... + 2,005/2,007 + 2,006/2,007 (signs pattern: ++−−++−−...)",
     "answer": "1"
   },
@@ -3870,7 +3870,7 @@
     "type": "sa",
     "topic": "Arithmetic",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Evaluate: 2,000/(1×2) + 2,000/(2×3) + 2,000/(3×4) + ... + 2,000/(1,999×2,000)",
     "answer": "1999"
   },
@@ -3879,7 +3879,7 @@
     "type": "sa",
     "topic": "Arithmetic",
     "competition": "SMC",
-    "grade": "5+",
+    "grade": "5",
     "text": "Evaluate: 1/(1+2) + 1/(1+2+3) + 1/(1+2+3+4) + ... + 1/(1+2+3+...+50)",
     "answer": "49/51"
   },
@@ -3890,7 +3890,7 @@
     "competition": "SMC",
     "text": "Can a 3-digit number of the form ab7 (ones digit 7) be a perfect square? Answer Yes or No.",
     "answer": "No",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q397",
@@ -3899,7 +3899,7 @@
     "competition": "SMC",
     "text": "Can a 3-digit number of the form mn8 (ones digit 8) be a perfect square? Answer Yes or No.",
     "answer": "No",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q398",
@@ -3908,7 +3908,7 @@
     "competition": "SMC",
     "text": "A 3-digit number of the form xy5 (ones digit 5) can be a perfect square. Find the smallest such perfect square.",
     "answer": "225",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q399",
@@ -3917,7 +3917,7 @@
     "competition": "SMC",
     "text": "A 3-digit number of the form ab6 (ones digit 6) can be a perfect square. Find the smallest such perfect square.",
     "answer": "196",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q400",
@@ -3926,7 +3926,7 @@
     "competition": "SMC",
     "text": "Is 2,209 a perfect square? Answer Yes or No.",
     "answer": "Yes",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q401",
@@ -3935,7 +3935,7 @@
     "competition": "SMC",
     "text": "Is 3,402 a perfect square? Answer Yes or No.",
     "answer": "No",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q402",
@@ -3944,7 +3944,7 @@
     "competition": "SMC",
     "text": "Is 3,136 a perfect square? Answer Yes or No.",
     "answer": "Yes",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q403",
@@ -3953,7 +3953,7 @@
     "competition": "SMC",
     "text": "Is 5,041 a perfect square? Answer Yes or No.",
     "answer": "Yes",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q404",
@@ -3962,7 +3962,7 @@
     "competition": "SMC",
     "text": "The digits 0, 1, 4, 5, 6, 9 can appear in the ones place of a perfect square. List the digits other than 0 and 1 that can appear in the ones place of a perfect square. (Format: digits separated by commas)",
     "answer": "4, 5, 6, 9",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q405",
@@ -3971,7 +3971,7 @@
     "competition": "SMC",
     "text": "The product of 2,100 and a whole number m is a perfect square. Find the smallest possible value of m. (2100 = 2² × 3 × 5² × 7)",
     "answer": "21",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q406",
@@ -3980,7 +3980,7 @@
     "competition": "SMC",
     "text": "The product of David's grandfather's and father's ages is 2,268. The product of all three (grandfather, father, David) is a perfect square. How old is David's grandfather?",
     "answer": "54",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q407",
@@ -3989,7 +3989,7 @@
     "competition": "SMC",
     "text": "The product of David's grandfather's and father's ages is 2,268. The product of all three (grandfather, father, David) is a perfect square. How old is David's father?",
     "answer": "42",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q408",
@@ -3998,7 +3998,7 @@
     "competition": "SMC",
     "text": "The product of David's grandfather's and father's ages is 2,268. The product of all three (grandfather, father, David) is a perfect square. How old is David?",
     "answer": "7",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q409",
@@ -4007,7 +4007,7 @@
     "competition": "SMC",
     "text": "The product of 1,815 and a whole number m is a perfect square. Find the smallest possible value of m. (1815 = 3 × 5 × 11²)",
     "answer": "15",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q410",
@@ -4016,7 +4016,7 @@
     "competition": "SMC",
     "text": "Three squares A, B and C are arranged so that square B (tallest, on left) has side length equal to the sum of A and C's side lengths. Their combined area is 142 cm². Find the side length of square B.",
     "answer": "9",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q411",
@@ -4025,7 +4025,7 @@
     "competition": "SMC",
     "text": "Three squares A, B and C have a combined area of 142 cm². Square A is in the middle, square B is on the left (tallest), square C is on the right (smallest). Find the side length of square A.",
     "answer": "6",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q412",
@@ -4034,7 +4034,7 @@
     "competition": "SMC",
     "text": "Three squares A, B and C have a combined area of 142 cm². Square A is in the middle, square B is on the left (tallest), square C is on the right (smallest). Find the side length of square C.",
     "answer": "5",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q413",
@@ -4043,7 +4043,7 @@
     "competition": "SMC",
     "text": "The number of students at Woodsville Elementary in 2005 was a perfect square. In 2006 it was also a perfect square, and was 101 more than in 2005. How many students were there in 2006?",
     "answer": "2601",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q414",
@@ -4052,7 +4052,7 @@
     "competition": "SMC",
     "text": "Find the ones digit of 26⁶².",
     "answer": "6",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q415",
@@ -4061,7 +4061,7 @@
     "competition": "SMC",
     "text": "Find the ones digit of 33³⁰³.",
     "answer": "7",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q416",
@@ -4070,7 +4070,7 @@
     "competition": "SMC",
     "text": "Find the ones (last) digit of 2³⁰.",
     "answer": "4",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q417",
@@ -4079,7 +4079,7 @@
     "competition": "SMC",
     "text": "Find the ones (last) digit of 3²⁰⁰⁰.",
     "answer": "1",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q418",
@@ -4088,7 +4088,7 @@
     "competition": "SMC",
     "text": "Find the ones digit of 27²⁰⁰⁰.",
     "answer": "1",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q419",
@@ -4097,7 +4097,7 @@
     "competition": "SMC",
     "text": "Find the ones digit of 2²¹⁶⁰⁹¹ − 1.",
     "answer": "7",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q420",
@@ -4106,7 +4106,7 @@
     "competition": "SMC",
     "text": "Find the ones digit of: 1,999 × 2,001 × 2,003 × 2,005 × 2,007 − 2,000 × 2,002 × 2,004 × 2,006.",
     "answer": "5",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q421",
@@ -4115,7 +4115,7 @@
     "competition": "SMC",
     "text": "Find the sum of the ones digits of 78⁸⁷ and 87⁷⁸.",
     "answer": "11",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q422",
@@ -4124,7 +4124,7 @@
     "competition": "SMC",
     "text": "If we write 1,001 continuously for 1,001 times to form a number, what is the remainder when that number is divided by 11?",
     "answer": "0",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q423",
@@ -4133,7 +4133,7 @@
     "competition": "SMC",
     "text": "How many consecutive zeros, beginning from the ones digit, are there in 1 × 2 × 3 × 4 × 5 × ... × 99 × 100?",
     "answer": "24",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q424",
@@ -4142,7 +4142,7 @@
     "competition": "SMC",
     "text": "Find the ones digit of: 1⁵ + 2⁹ + 3¹³ + 4¹⁷ + 5²¹ + 6²⁵ + 7²⁹ + 8³³ + 9³⁷ + 10⁴¹.",
     "answer": "5",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q425",
@@ -4151,7 +4151,7 @@
     "competition": "SMC",
     "text": "Given n! = 1 × 2 × 3 × ... × n, find the last 2 digits of 1! + 2! + 3! + ... + 99!",
     "answer": "13",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q426",
@@ -4160,7 +4160,7 @@
     "competition": "SMC",
     "text": "In the number 3,141,592,653, compute the total number of appearances of digits 1, 3 and 5 in terms of percentage.",
     "answer": "60%",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q427",
@@ -4170,7 +4170,7 @@
     "text": "The bar graph shows the number of participants in a mathematics competition from 2006 to 2012 (approx: 2006=2500, 2007=3800, 2008=4500, 2009=5500, 2010=6500, 2011=8000, 2012=9500). In which year is the increase sharpest in percentage terms?",
     "svg": "<svg viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11'><rect x='40' y='10' width='260' height='170' fill='#fff' stroke='#999' stroke-width='1'/><line x1='40' y1='180' x2='300' y2='180' stroke='#333' stroke-width='1'/><line x1='40' y1='10' x2='40' y2='180' stroke='#333' stroke-width='1'/><text x='30' y='183' text-anchor='end'>0</text><text x='30' y='149' text-anchor='end'>2k</text><text x='30' y='115' text-anchor='end'>4k</text><text x='30' y='81' text-anchor='end'>6k</text><text x='30' y='47' text-anchor='end'>8k</text><text x='30' y='13' text-anchor='end'>10k</text><line x1='40' y1='149' x2='300' y2='149' stroke='#eee' stroke-width='1'/><line x1='40' y1='115' x2='300' y2='115' stroke='#eee' stroke-width='1'/><line x1='40' y1='81' x2='300' y2='81' stroke='#eee' stroke-width='1'/><line x1='40' y1='47' x2='300' y2='47' stroke='#eee' stroke-width='1'/><rect x='48' y='137' width='25' height='43' fill='#aaa' stroke='#666'/><rect x='83' y='112' width='25' height='68' fill='#aaa' stroke='#666'/><rect x='118' y='97' width='25' height='83' fill='#aaa' stroke='#666'/><rect x='153' y='80' width='25' height='100' fill='#aaa' stroke='#666'/><rect x='188' y='63' width='25' height='117' fill='#aaa' stroke='#666'/><rect x='223' y='46' width='25' height='134' fill='#aaa' stroke='#666'/><rect x='258' y='14' width='25' height='166' fill='#aaa' stroke='#666'/><text x='60' y='197' text-anchor='middle'>06</text><text x='95' y='197' text-anchor='middle'>07</text><text x='130' y='197' text-anchor='middle'>08</text><text x='165' y='197' text-anchor='middle'>09</text><text x='200' y='197' text-anchor='middle'>10</text><text x='235' y='197' text-anchor='middle'>11</text><text x='270' y='197' text-anchor='middle'>12</text></svg>",
     "answer": "2007",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q428",
@@ -4179,7 +4179,7 @@
     "competition": "SMC",
     "text": "The side of a square is 10 cm. What is the increase in area in percentage if the side is lengthened by 3 cm?",
     "answer": "69%",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q429",
@@ -4188,7 +4188,7 @@
     "competition": "SMC",
     "text": "The volume of a cup of water increases by 10% when it turns to ice. By how much does the volume of ice decrease (in percentage) after it melts completely back to water?",
     "answer": "100/11%",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q430",
@@ -4197,7 +4197,7 @@
     "competition": "SMC",
     "text": "A company's sales increase by 20% in year 2, then by 30% in year 3, then drop by 25% in year 4 compared to year 3. What are the sales in year 4 compared to year 1? Express as a percentage (e.g. 117% means 17% increase).",
     "answer": "117%",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q431",
@@ -4206,7 +4206,7 @@
     "competition": "SMC",
     "text": "A and B set up a company in a 45%–55% partnership. The company makes a profit of $56,000 in the first year. How much is A's share in dollars?",
     "answer": "25200",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q432",
@@ -4215,7 +4215,7 @@
     "competition": "SMC",
     "text": "A and B set up a company in a 45%–55% partnership. The company makes a profit of $56,000 in the first year. How much is B's share in dollars?",
     "answer": "30800",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q433",
@@ -4224,7 +4224,7 @@
     "competition": "SMC",
     "text": "Alice, Benny and Celine share $590. Alice has 20% more than Benny, and Celine has 25% less than Benny. How much more money does Alice have compared to Celine?",
     "answer": "90",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q434",
@@ -4233,7 +4233,7 @@
     "competition": "SMC",
     "text": "Adam's weekly pocket money is $80. 20% goes to books and entertainment. He spends 3 times as much on food as on transportation. His savings is $6 less than his food expenditure. What percent of his pocket money goes to savings?",
     "answer": "30%",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q435",
@@ -4242,7 +4242,7 @@
     "competition": "SMC",
     "text": "Container A has 400 black and 250 white beads. Container B has 200 black and 670 white beads. Beads are transferred from B to A so that 50% of A's beads are white and 25% of B's beads are black. How many black beads are transferred?",
     "answer": "40",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q436",
@@ -4251,7 +4251,7 @@
     "competition": "SMC",
     "text": "Container A has 400 black and 250 white beads. Container B has 200 black and 670 white beads. Beads are transferred from B to A so that 50% of A's beads are white and 25% of B's beads are black. How many white beads are transferred?",
     "answer": "190",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q437",
@@ -4260,7 +4260,7 @@
     "competition": "SMC",
     "text": "A sports shop imported footballs and basketballs for $5,000. A football sells for $40 and a basketball sells for 20% more than a football. There are 15 more basketballs than footballs. Total profit from sales is $1,000. How many footballs are there?",
     "answer": "60",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q438",
@@ -4270,7 +4270,7 @@
     "text": "A pie chart shows the population of an island. Indonesians = 162°, Europeans = 72°. There are as many Indians as Europeans. There are 100,000 more Indians than Chinese. How many Indonesians are there on the island?",
     "svg": "<svg viewBox='0 0 220 220' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11'><circle cx='110' cy='110' r='90' fill='#ddd' stroke='#333' stroke-width='1.5'/><path d='M110,110 L110,20 A90,90 0 0,1 200,110 Z' fill='#bbb' stroke='#333' stroke-width='1'/><path d='M110,110 L200,110 A90,90 0 0,1 110,200 Z' fill='#ccc' stroke='#333' stroke-width='1'/><path d='M110,110 L110,200 A90,90 0 1,1 60,27 Z' fill='#aaa' stroke='#333' stroke-width='1.5'/><text x='155' y='65' text-anchor='middle' font-size='10'>Europeans</text><text x='155' y='77' text-anchor='middle' font-size='10'>72°</text><text x='168' y='155' text-anchor='middle' font-size='10'>Indians</text><text x='80' y='175' text-anchor='middle' font-size='10'>Chinese</text><text x='48' y='110' text-anchor='middle' font-size='10'>Indonesians</text><text x='48' y='122' text-anchor='middle' font-size='10'>162°</text></svg>",
     "answer": "900000",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q439",
@@ -4279,7 +4279,7 @@
     "competition": "SMC",
     "text": "An elementary school had 2,000 students last year. This year, the number of boys increases by 20% and girls decreases by 20%. The total student population goes down by 4%. How many boys are there in the school this year?",
     "answer": "960",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q440",
@@ -4288,7 +4288,7 @@
     "competition": "SMC",
     "text": "Ethan has $40. He spends 20% on soft drinks and snacks. He buys 1,500 g of apples at $6 per 500 g. He needs a $2 discount on 1,000 g of bananas so that his money is just enough. What is the discount on the bananas in percentage?",
     "answer": "12.5%",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q441",
@@ -4297,7 +4297,7 @@
     "competition": "SMC",
     "text": "A shop bought DVDs in week 1 at $24 per pack of 4, and in week 2 bought double that amount at $25 per pack of 5. All DVDs were repacked into packs of 3 and sold at 20% profit. How much was each pack of 3 DVDs sold for? (Round to nearest cent)",
     "answer": "$19.03",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q442",
@@ -4307,7 +4307,7 @@
     "text": "A regular pentagon has 5 equal sides. What is each interior angle in degrees?",
     "svg": "<svg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><polygon points='80,10 148,62 122,140 38,140 12,62' fill='none' stroke='#333' stroke-width='2'/></svg>",
     "answer": "108",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q443",
@@ -4317,7 +4317,7 @@
     "text": "In the diagram, AB = AC = AD, ∠ABC = 40° and ∠ACD = 80°. Find ∠BAD in degrees.",
     "svg": "<svg viewBox='0 0 260 180' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><line x1='200' y1='160' x2='20' y2='160' stroke='#333' stroke-width='1.5'/><line x1='20' y1='160' x2='120' y2='20' stroke='#333' stroke-width='1.5'/><line x1='120' y1='20' x2='200' y2='160' stroke='#333' stroke-width='1.5'/><line x1='120' y1='20' x2='240' y2='100' stroke='#333' stroke-width='1.5'/><text x='120' y='14' text-anchor='middle' font-weight='bold'>A</text><text x='12' y='170' text-anchor='middle' font-weight='bold'>B</text><text x='204' y='172' text-anchor='middle' font-weight='bold'>C</text><text x='244' y='100' text-anchor='middle' font-weight='bold'>D</text><text x='38' y='152' font-size='11'>40°</text><text x='194' y='152' font-size='11'>80°</text></svg>",
     "answer": "120",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q444",
@@ -4327,7 +4327,7 @@
     "text": "In the diagram, find ∠A + ∠B + ∠C + ∠D where A, B, C are outer tips and D is an inner point of the star-like figure.",
     "svg": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><line x1='100' y1='10' x2='30' y2='180' stroke='#333' stroke-width='1.5'/><line x1='100' y1='10' x2='170' y2='180' stroke='#333' stroke-width='1.5'/><line x1='30' y1='180' x2='170' y2='180' stroke='#333' stroke-width='1.5'/><line x1='30' y1='180' x2='155' y2='90' stroke='#333' stroke-width='1.5'/><line x1='170' y1='180' x2='45' y2='90' stroke='#333' stroke-width='1.5'/><text x='100' y='8' text-anchor='middle' font-weight='bold'>A</text><text x='22' y='190' text-anchor='middle' font-weight='bold'>B</text><text x='178' y='190' text-anchor='middle' font-weight='bold'>C</text><text x='100' y='108' text-anchor='middle' font-weight='bold'>D</text></svg>",
     "answer": "360",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q445",
@@ -4337,7 +4337,7 @@
     "text": "ABCD is a square and △BCE is equilateral (E outside the square). Find ∠AED in degrees.",
     "svg": "<svg viewBox='0 0 240 180' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><rect x='30' y='30' width='120' height='120' fill='none' stroke='#333' stroke-width='1.5'/><line x1='150' y1='30' x2='210' y2='110' stroke='#333' stroke-width='1.5'/><line x1='150' y1='150' x2='210' y2='110' stroke='#333' stroke-width='1.5'/><line x1='30' y1='30' x2='210' y2='110' stroke='#333' stroke-width='1.5'/><line x1='30' y1='150' x2='210' y2='110' stroke='#333' stroke-width='1.5'/><text x='24' y='26' font-weight='bold'>A</text><text x='154' y='26' font-weight='bold'>B</text><text x='214' y='114' font-weight='bold'>E</text><text x='24' y='162' font-weight='bold'>D</text><text x='154' y='162' font-weight='bold'>C</text></svg>",
     "answer": "150",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q446",
@@ -4347,7 +4347,7 @@
     "text": "Three triangles share tips at a central point. Find ∠a + ∠b + ∠c + ∠d + ∠e + ∠f (the 6 outer tip angles).",
     "svg": "<svg viewBox='0 0 240 220' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11'><line x1='90' y1='10' x2='30' y2='110' stroke='#333' stroke-width='1.5'/><line x1='90' y1='10' x2='150' y2='110' stroke='#333' stroke-width='1.5'/><line x1='30' y1='110' x2='150' y2='110' stroke='#333' stroke-width='1.5'/><line x1='10' y1='60' x2='110' y2='120' stroke='#333' stroke-width='1.5'/><line x1='10' y1='60' x2='60' y2='170' stroke='#333' stroke-width='1.5'/><line x1='110' y1='120' x2='60' y2='170' stroke='#333' stroke-width='1.5'/><line x1='170' y1='60' x2='130' y2='170' stroke='#333' stroke-width='1.5'/><line x1='170' y1='60' x2='70' y2='120' stroke='#333' stroke-width='1.5'/><line x1='130' y1='170' x2='70' y2='120' stroke='#333' stroke-width='1.5'/><text x='88' y='8' font-weight='bold'>b</text><text x='22' y='114' font-weight='bold'>a</text><text x='166' y='58' font-weight='bold'>c</text><text x='173' y='68' font-weight='bold'>d</text><text x='128' y='182' font-weight='bold'>e</text><text x='52' y='182' font-weight='bold'>f</text></svg>",
     "answer": "180",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q447",
@@ -4356,7 +4356,7 @@
     "competition": "SMC",
     "text": "The perimeter of a right-angled triangle is 30 cm and its area is 30 cm². Find the length of its longest side (hypotenuse) in cm.",
     "answer": "13",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q448",
@@ -4366,7 +4366,7 @@
     "text": "In △ABC, ∠B = 90°. DE is perpendicular to AC and D is the midpoint of AC. The ratio ∠DCE : ∠BCE = 5 : 2. Find ∠ACB in degrees.",
     "svg": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><line x1='30' y1='170' x2='30' y2='20' stroke='#333' stroke-width='1.5'/><line x1='30' y1='170' x2='170' y2='170' stroke='#333' stroke-width='1.5'/><line x1='30' y1='20' x2='170' y2='170' stroke='#333' stroke-width='1.5'/><line x1='80' y1='95' x2='30' y2='170' stroke='#333' stroke-width='1.5'/><rect x='25' y='165' width='10' height='10' fill='none' stroke='#333' stroke-width='1'/><text x='28' y='14' font-weight='bold'>A</text><text x='22' y='184' font-weight='bold'>B</text><text x='174' y='184' font-weight='bold'>C</text><text x='84' y='90' font-weight='bold'>D</text><text x='18' y='140' font-weight='bold'>E</text></svg>",
     "answer": "52.5",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q449",
@@ -4376,7 +4376,7 @@
     "text": "In △ABC, AB = AC. Points D (on BC) and E (on AC) are such that AD = AE and ∠BAD = 60°. Find ∠CDE in degrees.",
     "svg": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><line x1='100' y1='20' x2='20' y2='180' stroke='#333' stroke-width='1.5'/><line x1='100' y1='20' x2='180' y2='180' stroke='#333' stroke-width='1.5'/><line x1='20' y1='180' x2='180' y2='180' stroke='#333' stroke-width='1.5'/><line x1='100' y1='20' x2='120' y2='180' stroke='#333' stroke-width='1.5'/><line x1='100' y1='20' x2='155' y2='128' stroke='#333' stroke-width='1.5'/><line x1='120' y1='180' x2='155' y2='128' stroke='#333' stroke-width='1.5'/><text x='100' y='14' text-anchor='middle' font-weight='bold'>A</text><text x='12' y='188' font-weight='bold'>B</text><text x='184' y='188' font-weight='bold'>C</text><text x='120' y='192' font-weight='bold'>D</text><text x='160' y='124' font-weight='bold'>E</text></svg>",
     "answer": "30",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q450",
@@ -4386,7 +4386,7 @@
     "text": "In △ABC, ∠BAC = 45°. M is the intersection of altitudes BD and CE. Find ∠BMC in degrees.",
     "svg": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><line x1='100' y1='15' x2='30' y2='175' stroke='#333' stroke-width='1.5'/><line x1='100' y1='15' x2='170' y2='175' stroke='#333' stroke-width='1.5'/><line x1='30' y1='175' x2='170' y2='175' stroke='#333' stroke-width='1.5'/><line x1='30' y1='175' x2='138' y2='107' stroke='#333' stroke-width='1.5'/><line x1='170' y1='175' x2='72' y2='107' stroke='#333' stroke-width='1.5'/><rect x='68' y='103' width='8' height='8' fill='none' stroke='#333' stroke-width='1'/><rect x='134' y='103' width='8' height='8' fill='none' stroke='#333' stroke-width='1'/><text x='100' y='10' text-anchor='middle' font-weight='bold'>A</text><text x='22' y='185' font-weight='bold'>B</text><text x='174' y='185' font-weight='bold'>C</text><text x='66' y='104' font-weight='bold'>E</text><text x='140' y='104' font-weight='bold'>D</text><text x='101' y='128' font-weight='bold'>M</text></svg>",
     "answer": "135",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q451",
@@ -4396,7 +4396,7 @@
     "text": "ABCD is a quadrilateral where AB = BC = CD, ∠ACB + ∠CAD = 180° and ∠D = 40°. Find ∠ACD in degrees.",
     "svg": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><line x1='40' y1='175' x2='110' y2='90' stroke='#333' stroke-width='1.5'/><line x1='110' y1='90' x2='160' y2='175' stroke='#333' stroke-width='1.5'/><line x1='40' y1='175' x2='160' y2='175' stroke='#333' stroke-width='1.5'/><line x1='110' y1='90' x2='185' y2='20' stroke='#333' stroke-width='1.5'/><line x1='160' y1='175' x2='185' y2='20' stroke='#333' stroke-width='1.5'/><text x='110' y='85' text-anchor='middle' font-weight='bold'>A</text><text x='32' y='185' font-weight='bold'>B</text><text x='164' y='185' font-weight='bold'>C</text><text x='190' y='18' font-weight='bold'>D</text></svg>",
     "answer": "30",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q452",
@@ -4406,7 +4406,7 @@
     "text": "△ABC and △CDE are both right-angled triangles. AB is the altitude of △ABC (∠B = 90°) and DE is the altitude of △CDE (∠E = 90°). They intersect at P. Given ∠BPE = 50°, find ∠C in degrees.",
     "svg": "<svg viewBox='0 0 220 200' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><line x1='20' y1='175' x2='200' y2='175' stroke='#333' stroke-width='1.5'/><line x1='20' y1='175' x2='95' y2='20' stroke='#333' stroke-width='1.5'/><line x1='95' y1='20' x2='200' y2='175' stroke='#333' stroke-width='1.5'/><line x1='95' y1='20' x2='130' y2='80' stroke='#333' stroke-width='1.5'/><line x1='20' y1='175' x2='130' y2='80' stroke='#333' stroke-width='1.5'/><rect x='110' y='155' width='10' height='10' fill='none' stroke='#333' stroke-width='1'/><text x='95' y='14' text-anchor='middle' font-weight='bold'>D</text><text x='135' y='78' font-weight='bold'>A</text><text x='95' y='105' font-weight='bold'>P</text><text x='12' y='185' font-weight='bold'>B</text><text x='115' y='188' font-weight='bold'>E</text><text x='204' y='185' font-weight='bold'>C</text></svg>",
     "answer": "40",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q453",
@@ -4415,7 +4415,7 @@
     "competition": "SMC",
     "text": "The sum of 3 exterior angles of a triangle is 360°. The ratio of these exterior angles is 2 : 3 : 4. Find the ratio of the 3 interior angles (smallest to largest).",
     "answer": "1:3:5",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q454",
@@ -4425,7 +4425,7 @@
     "text": "In △ABC, ∠B = 80°. D is on AC and F is on BC such that AD = AE and CD = CF (E on AB). Find ∠EDF in degrees.",
     "svg": "<svg viewBox='0 0 220 180' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><line x1='100' y1='15' x2='30' y2='165' stroke='#333' stroke-width='1.5'/><line x1='100' y1='15' x2='200' y2='165' stroke='#333' stroke-width='1.5'/><line x1='30' y1='165' x2='200' y2='165' stroke='#333' stroke-width='1.5'/><line x1='55' y1='115' x2='145' y2='90' stroke='#333' stroke-width='1.5'/><line x1='55' y1='115' x2='145' y2='90' stroke='#333' stroke-width='1.5'/><line x1='145' y1='90' x2='100' y2='165' stroke='#333' stroke-width='1.5'/><line x1='55' y1='115' x2='100' y2='165' stroke='#333' stroke-width='1.5'/><text x='100' y='10' text-anchor='middle' font-weight='bold'>A</text><text x='22' y='172' font-weight='bold'>B</text><text x='204' y='172' font-weight='bold'>C</text><text x='50' y='112' font-weight='bold'>E</text><text x='148' y='88' font-weight='bold'>D</text><text x='98' y='178' font-weight='bold'>F</text><text x='44' y='160' font-size='11'>80°</text></svg>",
     "answer": "50",
-    "grade": "5+"
+    "grade": "5"
   },
   {
     "id": "q455",
@@ -4435,6 +4435,285 @@
     "text": "In △ABC, AB = AC. Points E (on AB) and D (on BC) satisfy AE = DE = CD and BC = CE. Find ∠A in degrees.",
     "svg": "<svg viewBox='0 0 200 190' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><line x1='100' y1='15' x2='20' y2='175' stroke='#333' stroke-width='1.5'/><line x1='100' y1='15' x2='180' y2='175' stroke='#333' stroke-width='1.5'/><line x1='20' y1='175' x2='180' y2='175' stroke='#333' stroke-width='1.5'/><line x1='72' y1='100' x2='180' y2='175' stroke='#333' stroke-width='1.5'/><line x1='72' y1='100' x2='140' y2='175' stroke='#333' stroke-width='1.5'/><line x1='140' y1='175' x2='180' y2='175' stroke='#333' stroke-width='0'/><text x='100' y='10' text-anchor='middle' font-weight='bold'>A</text><text x='12' y='183' font-weight='bold'>B</text><text x='184' y='183' font-weight='bold'>C</text><text x='64' y='98' font-weight='bold'>E</text><text x='140' y='188' font-weight='bold'>D</text></svg>",
     "answer": "20",
-    "grade": "5+"
+    "grade": "5"
+  },
+  {
+    "id": "q456",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "Mr Lim paid a total of $98,400 for his new car. He made the first payment of $30,000. For the remaining amount, he paid a fixed amount monthly for the next 60 months. How much did he pay each month?",
+    "answer": "1140",
+    "grade": "5"
+  },
+  {
+    "id": "q457",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "Edward bought some apples. (3/5) of the apples were rotten and thrown away. He sold (1/4) of the remaining apples and had 60 apples left. How many apples did Edward have at first?",
+    "answer": "200",
+    "grade": "5"
+  },
+  {
+    "id": "q458",
+    "type": "sa",
+    "topic": "Geometry",
+    "competition": "SMC Try Out",
+    "text": "In the figure, ABC and BCD are isosceles triangles with AB = BC and BC = CD. ∠BAC = 46° and ∠ACD = 150°. Find ∠BDC in degrees.",
+    "svg": "<svg viewBox='0 0 280 180' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><line x1='60' y1='30' x2='130' y2='30' stroke='#333' stroke-width='1.5'/><line x1='60' y1='30' x2='85' y2='90' stroke='#333' stroke-width='1.5'/><line x1='130' y1='30' x2='85' y2='90' stroke='#333' stroke-width='1.5'/><line x1='85' y1='90' x2='240' y2='160' stroke='#333' stroke-width='1.5'/><line x1='130' y1='30' x2='240' y2='160' stroke='#333' stroke-width='1.5'/><text x='55' y='26' font-weight='bold'>A</text><text x='132' y='26' font-weight='bold'>B</text><text x='78' y='102' font-weight='bold'>C</text><text x='244' y='164' font-weight='bold'>D</text><text x='90' y='45' font-size='11'>46°</text><text x='98' y='90' font-size='11'>150°</text></svg>",
+    "answer": "38",
+    "grade": "5"
+  },
+  {
+    "id": "q459",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "Every day, David saves $1.40 while his brother saves $2.20. David started saving 20 days earlier before his brother started saving. When David has saved $63, how much has his brother saved?",
+    "answer": "55",
+    "grade": "5"
+  },
+  {
+    "id": "q460",
+    "type": "sa",
+    "topic": "Geometry",
+    "competition": "SMC Try Out",
+    "text": "Ali had a roll of wire measuring 1 m long. He cut 9 pieces of wire, each measuring 8 cm, from the roll. The remaining wire was used to form a square. Find the area of the square in cm².",
+    "answer": "49",
+    "grade": "5"
+  },
+  {
+    "id": "q461",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "Mrs Lim baked 265 cakes and pies in total. After she sold 25 cakes and (2/7) of the pies, she had an equal number of cakes and pies left. How many cakes did she have at first?",
+    "answer": "125",
+    "grade": "5"
+  },
+  {
+    "id": "q462",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "SMC Try Out",
+    "text": "In a number pattern, Row 1 has 1 number, Row 2 has 3 numbers (2,3,4), Row 3 has 5 numbers (5–9), etc. The first number in Row n is (n−1)²+1 and the last is n². What is the difference between the last number and the first number in Row 30?",
+    "svg": "<svg viewBox='0 0 380 130' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><rect x='5' y='5' width='370' height='120' fill='#f9f9f9' stroke='#ccc' stroke-width='1'/><text x='15' y='22' font-weight='bold'>Row 1:</text><text x='80' y='22'>1</text><text x='15' y='40' font-weight='bold'>Row 2:</text><text x='80' y='40'>2   3   4</text><text x='15' y='58' font-weight='bold'>Row 3:</text><text x='80' y='58'>5   6   7   8   9</text><text x='15' y='76' font-weight='bold'>Row 4:</text><text x='80' y='76'>10  11  12  13  14  15  16</text><text x='15' y='94' font-weight='bold'>Row 5:</text><text x='80' y='94'>17  18  19  20  21  22  23  24  25</text></svg>",
+    "answer": "58",
+    "grade": "5"
+  },
+  {
+    "id": "q463",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "A group of 11 students saved an average of $385. When two of the students lost all their savings, the average savings of the remaining 9 students became $288. What was the total amount of money lost by the two students?",
+    "answer": "1643",
+    "grade": "5"
+  },
+  {
+    "id": "q464",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "Mr Lim sold a total of 60 gift vouchers. 40% of the vouchers were $5 each and the rest were $10 each. How much money did Mr Lim collect from the sale of the $10 gift vouchers?",
+    "answer": "360",
+    "grade": "5"
+  },
+  {
+    "id": "q465",
+    "type": "sa",
+    "topic": "Geometry",
+    "competition": "SMC Try Out",
+    "text": "Jerome glued a 2-cm cube on top of a 5-cm cube and painted the whole solid blue. What was the total area of all the painted faces in cm²?",
+    "svg": "<svg viewBox='0 0 180 200' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11'><polygon points='30,160 30,60 110,60 110,160' fill='#ddd' stroke='#333' stroke-width='1.5'/><polygon points='30,60 60,30 140,30 110,60' fill='#eee' stroke='#333' stroke-width='1.5'/><polygon points='110,60 140,30 140,130 110,160' fill='#ccc' stroke='#333' stroke-width='1.5'/><polygon points='68,60 68,28 92,28 92,60' fill='#bbb' stroke='#333' stroke-width='1.5'/><polygon points='68,28 80,16 104,16 92,28' fill='#eee' stroke='#333' stroke-width='1.5'/><polygon points='92,28 104,16 104,44 92,60' fill='#ccc' stroke='#333' stroke-width='1.5'/><text x='8' y='115' font-size='10'>5 cm</text><text x='76' y='12' font-size='10'>2 cm</text></svg>",
+    "answer": "166",
+    "grade": "5"
+  },
+  {
+    "id": "q466",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "At a fruit stall, the ratio of apples to oranges was 9 : 5. (1/2) of the apples and (1/5) of the oranges were rotten. There were 253 rotten apples and oranges altogether. How many apples and oranges were there in total at first?",
+    "answer": "644",
+    "grade": "5"
+  },
+  {
+    "id": "q467",
+    "type": "sa",
+    "topic": "Geometry",
+    "competition": "SMC Try Out",
+    "text": "Square ABCD overlaps Triangle EFG to form Square ERCS (the shaded overlap). AB = EF = EG and R, S are midpoints of EF and EG respectively. The area of Square ERCS is 81 cm². Find the area of the whole figure in cm².",
+    "svg": "<svg viewBox='0 0 260 240' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><polygon points='130,10 40,100 130,190 220,100' fill='none' stroke='#333' stroke-width='1.5'/><polygon points='85,145 175,145 220,100 175,55 85,55 40,100' fill='none' stroke='#333' stroke-width='0'/><polygon points='85,145 130,190 175,145' fill='none' stroke='#333' stroke-width='1.5'/><polygon points='85,55 40,100 85,145 130,190 175,145 220,100 175,55 130,10' fill='none' stroke='#333' stroke-width='0'/><line x1='40' y1='100' x2='220' y2='100' stroke='#333' stroke-width='1'/><line x1='130' y1='10' x2='85' y2='145' stroke='#333' stroke-width='1.5'/><line x1='130' y1='10' x2='175' y2='145' stroke='#333' stroke-width='1.5'/><polygon points='130,55 175,100 130,145 85,100' fill='#ccc' stroke='#333' stroke-width='1.5'/><text x='130' y='6' text-anchor='middle' font-weight='bold'>A</text><text x='34' y='104' font-weight='bold'>B</text><text x='224' y='104' font-weight='bold'>D</text><text x='130' y='198' text-anchor='middle' font-weight='bold'>C</text><text x='130' y='52' text-anchor='middle' font-weight='bold'>E</text><text x='78' y='152' font-weight='bold'>F</text><text x='178' y='152' font-weight='bold'>G</text><text x='78' y='104' font-weight='bold'>R</text><text x='178' y='104' font-weight='bold'>S</text></svg>",
+    "answer": "405",
+    "grade": "5"
+  },
+  {
+    "id": "q468",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "Mrs Lim measured the heights of 5 children. Four heights were: Vinesh 1.62 m, Sue 1.58 m, Lili 1.55 m, Ken 1.53 m. The average of all 5 was 157 cm. A 6th child, Jack, joined and the average became 159 cm. What was the average height of Jack and Raja in cm?",
+    "answer": "163",
+    "grade": "5"
+  },
+  {
+    "id": "q469",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "Kenny and James have the same number of coins. Kenny has 20-cent coins and James has 50-cent coins. James has $35.70 more than Kenny. How many coins do Kenny and James have altogether?",
+    "answer": "238",
+    "grade": "5"
+  },
+  {
+    "id": "q470",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "Azahar Money Changer offers an exchange rate of 0.75 US dollars for 1 Singapore dollar. How many Singapore dollars will Mrs Lim get when she gives the money changer 675 US dollars?",
+    "answer": "900",
+    "grade": "5"
+  },
+  {
+    "id": "q471",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "In January, the total expenditure of Alice, Bernice and Carol was $1510. In February, Alice increased her expenditure by $120, Bernice doubled her expenditure and Carol reduced her expenditure by $130. In the end, their expenditures became equal. What was Alice's expenditure in January?",
+    "answer": "480",
+    "grade": "5"
+  },
+  {
+    "id": "q472",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "Sam cut Cube Y (side 7 cm) from Cuboid X whose volume was 6 times that of Cube Y. Sam then cut as many 2-cm cubes as possible from the remaining Cuboid X. What was the volume of Cuboid X left uncut in cm³?",
+    "svg": "<svg viewBox='0 0 280 80' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11'><rect x='10' y='20' width='170' height='40' fill='#ddd' stroke='#333' stroke-width='1.5'/><text x='95' y='44' text-anchor='middle'>X</text><line x1='195' y1='10' x2='195' y2='70' stroke='#333' stroke-width='1' stroke-dasharray='4,3'/><text x='215' y='35' font-size='16'>→</text><rect x='238' y='18' width='32' height='32' fill='#bbb' stroke='#333' stroke-width='1.5'/><text x='254' y='38' text-anchor='middle' font-size='10'>Y</text><text x='254' y='62' text-anchor='middle'>7 cm</text></svg>",
+    "answer": "491",
+    "grade": "5"
+  },
+  {
+    "id": "q473",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "A book costs 3 times as much as a file. John spent (5/9) of his money on some books. He then spent (3/4) of the remainder on 9 files. How many books did John buy?",
+    "answer": "5",
+    "grade": "5"
+  },
+  {
+    "id": "q474",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "Two shops sell the same laptop model. Shop W: usual price $2830, discount 20%, no GST. Shop X: usual price $2500, discount 18%, plus additional 8% GST on the discounted price. Sharon buys from the cheaper shop. How much does she pay?",
+    "svg": "<svg viewBox='0 0 320 100' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11'><rect x='10' y='10' width='140' height='80' fill='#f5f5f5' stroke='#333' stroke-width='1.5'/><text x='80' y='28' text-anchor='middle' font-weight='bold'>At Shop W</text><text x='80' y='46' text-anchor='middle'>Usual price: $2830</text><text x='80' y='62' text-anchor='middle'>Discount: 20%</text><text x='80' y='78' text-anchor='middle'>(No GST)</text><rect x='170' y='10' width='140' height='80' fill='#f5f5f5' stroke='#333' stroke-width='1.5'/><text x='240' y='28' text-anchor='middle' font-weight='bold'>At Shop X</text><text x='240' y='46' text-anchor='middle'>Usual price: $2500</text><text x='240' y='62' text-anchor='middle'>Discount: 18%</text><text x='240' y='78' text-anchor='middle'>+8% GST on disc. price</text></svg>",
+    "answer": "2214",
+    "grade": "5"
+  },
+  {
+    "id": "q475",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "Beatrice sold some files at $7.50 each and 18 bookmarks at $1.50 each. Jen sold the same number of files at $7.80 each and 18 bookmarks at $1.30 each. They collected the same total amount. How many files did each girl sell?",
+    "answer": "12",
+    "grade": "5"
+  },
+  {
+    "id": "q476",
+    "type": "sa",
+    "topic": "Geometry",
+    "competition": "SMC Try Out",
+    "text": "In the figure, PQRS is a rhombus and PQTU is a trapezium. PT is a straight line. ∠QRS = 124°, ∠ROP = 82° and ∠STU = 18°. Find the sum of ∠SPT and ∠RST in degrees.",
+    "svg": "<svg viewBox='0 0 300 160' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11'><line x1='60' y1='130' x2='130' y2='40' stroke='#333' stroke-width='1.5'/><line x1='130' y1='40' x2='200' y2='130' stroke='#333' stroke-width='1.5'/><line x1='60' y1='130' x2='200' y2='130' stroke='#333' stroke-width='1.5'/><line x1='130' y1='40' x2='260' y2='130' stroke='#333' stroke-width='1.5'/><line x1='200' y1='130' x2='260' y2='130' stroke='#333' stroke-width='1.5'/><line x1='260' y1='80' x2='260' y2='130' stroke='#333' stroke-width='1.5'/><line x1='200' y1='130' x2='260' y2='80' stroke='#333' stroke-width='1.5'/><line x1='60' y1='130' x2='260' y2='80' stroke='#333' stroke-width='1.5'/><text x='130' y='34' text-anchor='middle' font-weight='bold'>P</text><text x='52' y='140' font-weight='bold'>Q</text><text x='200' y='144' font-weight='bold'>R</text><text x='204' y='78' font-weight='bold'>S</text><text x='264' y='78' font-weight='bold'>U</text><text x='264' y='140' font-weight='bold'>T</text><text x='170' y='120' font-size='10'>O</text><text x='148' y='138' font-size='10'>124°</text><text x='162' y='112' font-size='10'>82°</text><text x='248' y='128' font-size='10'>18°</text></svg>",
+    "answer": "118",
+    "grade": "5"
+  },
+  {
+    "id": "q477",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "A group of students spent an average of 70 minutes per day on online learning. Then 3 students who each spent 30 minutes per day joined the group. The new average became 55 minutes. How many students were there in total in the end?",
+    "answer": "8",
+    "grade": "5"
+  },
+  {
+    "id": "q478",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "Green and red flags alternate on a rope. Green flags are 14 cm wide, red flags are 11 cm wide. The gap between each adjacent green and red flag is 6 cm. The first and last flag are each 12 cm from the ends of the rope. There are 97 flags in total. What is the length of the rope in cm?",
+    "svg": "<svg viewBox='0 0 400 70' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='10'><line x1='0' y1='20' x2='400' y2='20' stroke='#333' stroke-width='2'/><rect x='12' y='10' width='14' height='20' fill='#90EE90' stroke='#333' stroke-width='1'/><rect x='32' y='10' width='11' height='20' fill='#FF9999' stroke='#333' stroke-width='1'/><rect x='49' y='10' width='14' height='20' fill='#90EE90' stroke='#333' stroke-width='1'/><rect x='69' y='10' width='11' height='20' fill='#FF9999' stroke='#333' stroke-width='1'/><rect x='86' y='10' width='14' height='20' fill='#90EE90' stroke='#333' stroke-width='1'/><text x='6' y='50' font-size='9'>12cm</text><text x='14' y='50' font-size='9'>|14cm|</text><text x='32' y='50' font-size='9'>|11|</text><text x='27' y='50' font-size='9'>6</text><text x='114' y='18' font-size='10'>. . .</text><rect x='350' y='10' width='14' height='20' fill='#90EE90' stroke='#333' stroke-width='1'/><text x='368' y='50' font-size='9'>12cm</text></svg>",
+    "answer": "1814",
+    "grade": "5"
+  },
+  {
+    "id": "q479",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "Joshua spent (1/8) of his monthly salary and an additional $50 on food. He then spent (2/5) of the remainder and an additional $70 on household expenses. He was left with $2630. How much was Joshua's monthly salary?",
+    "answer": "5200",
+    "grade": "5"
+  },
+  {
+    "id": "q480",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "Tank A (20 cm × 7 cm × 23 cm) is filled to the brim. Tank B (8 cm × 11 cm × 13 cm) has some water. After (1/5) of Tank A's water is poured into Tank B, Tank B is (5/8) full. How much water was in Tank B at first in cm³?",
+    "svg": "<svg viewBox='0 0 280 120' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='10'><rect x='20' y='20' width='80' height='60' fill='#cce5ff' stroke='#333' stroke-width='1.5'/><polygon points='20,20 40,5 120,5 100,20' fill='#ddeeff' stroke='#333' stroke-width='1'/><polygon points='100,20 120,5 120,65 100,80' fill='#bbddff' stroke='#333' stroke-width='1'/><text x='60' y='90' text-anchor='middle' font-size='9'>20 cm</text><text x='8' y='52' text-anchor='middle' font-size='9'>23</text><text x='108' y='72' font-size='9'>7</text><text x='60' y='52' text-anchor='middle' font-weight='bold'>A</text><rect x='170' y='35' width='55' height='45' fill='#cce5ff' stroke='#333' stroke-width='1.5'/><polygon points='170,35 185,20 240,20 225,35' fill='#ddeeff' stroke='#333' stroke-width='1'/><polygon points='225,35 240,20 240,65 225,80' fill='#bbddff' stroke='#333' stroke-width='1'/><text x='197' y='92' text-anchor='middle' font-size='9'>8 cm</text><text x='158' y='58' font-size='9'>13</text><text x='232' y='72' font-size='9'>11</text><text x='197' y='58' text-anchor='middle' font-weight='bold'>B</text></svg>",
+    "answer": "71",
+    "grade": "5"
+  },
+  {
+    "id": "q481",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "A cruise to Penang has Ocean View package: Adult $645, Child (below 12) $280. Mr Potter, his wife and 3 children aged 8, 10 and 15 are going. He receives 15% early bird discount on total cost, then pays additional 8% GST on the discounted price. How much does he pay in total? Round to nearest dollar.",
+    "answer": "2290",
+    "grade": "5"
+  },
+  {
+    "id": "q482",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "1000 concert tickets at $25 each were on sale. From the graph, about 150 tickets remained unsold by Saturday. On Sunday, for every 5 tickets bought the 6th was free. Sunshine School bought all remaining tickets using this promotion. How much did the organiser collect on Sunday?",
+    "answer": "3125",
+    "grade": "5"
+  },
+  {
+    "id": "q483",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "During a sale, a 10% discount was given for every 12 chocolate bars bought (per group of 12). Each chocolate bar costs $8. Dan paid a total of $331.20. How many chocolate bars did he buy?",
+    "answer": "45",
+    "grade": "5"
+  },
+  {
+    "id": "q484",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "Eggs are sold only in trays of 30. Mr Lee bought some trays and repacked them into carton boxes of 12. He needed 6 more eggs to fill exact carton boxes, and he needed 26 more carton boxes than the number of trays he bought. How many eggs did Mr Lee buy?",
+    "answer": "510",
+    "grade": "5"
+  },
+  {
+    "id": "q485",
+    "type": "sa",
+    "topic": "Word Problem",
+    "competition": "SMC Try Out",
+    "text": "The ratio of female to male members in a chess club was 4 : 3. When 38 male members left and 28 new female members joined, the ratio of male to female became 1 : 2. How many male members were there in the end?",
+    "answer": "118",
+    "grade": "5"
   }
 ]
