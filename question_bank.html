@@ -193,6 +193,7 @@
     }
     .td-id    { color: #aaa; font-size: .78rem; white-space: nowrap; }
     .td-text  { max-width: 280px; line-height: 1.4; }
+    .td-text-id { margin-top: 6px; font-size: .82rem; color: #5c6bc0; font-style: italic; line-height: 1.35; }
     .td-answer{ font-weight: 600; color: #2e7d32; }
     .td-actions { text-align: center; white-space: nowrap; }
 
@@ -634,6 +635,7 @@ function renderTable() {
     const matchTopic = fTopic === 'all' || q.topic === fTopic;
     const matchSearch = !search
       || q.text.toLowerCase().includes(search)
+      || (q.text_id || '').toLowerCase().includes(search)
       || (q.topic || '').toLowerCase().includes(search)
       || q.answer.toLowerCase().includes(search);
     return matchType && matchTopic && matchSearch;
@@ -654,7 +656,7 @@ function renderTable() {
       <td class="td-id">${q.id}</td>
       <td><span class="badge ${q.type === 'mc' ? 'badge-mc' : 'badge-sa'}">${q.type === 'mc' ? 'MC' : 'SA'}</span></td>
       <td><span class="badge badge-topic">${q.topic || '—'}</span></td>
-      <td class="td-text">${escHtml(q.text)}</td>
+      <td class="td-text">${escHtml(q.text)}${q.text_id ? `<div class="td-text-id">🇮🇩 ${escHtml(q.text_id)}</div>` : ''}</td>
       <td class="td-answer">${escHtml(q.answer)}</td>
       <td class="td-actions">
         <button class="btn btn-warning btn-sm" onclick="openEditModal('${q.id}')">Edit</button>
@@ -774,6 +776,7 @@ function saveQuestion() {
   const type   = document.getElementById('f-type').value;
   const topic  = document.getElementById('f-topic').value.trim();
   const text   = document.getElementById('f-text').value.trim();
+  const textId = document.getElementById('f-text-id').value.trim();
   const answer = document.getElementById('f-answer').value.trim();
 
   if (!text)   { showToast('⚠️ Question text is required.'); return; }
@@ -791,13 +794,15 @@ function saveQuestion() {
   if (editingId) {
     const idx = questions.findIndex(q => q.id === editingId);
     if (idx !== -1) {
-      questions[idx] = { ...questions[idx], type, topic, text, options: type === 'mc' ? options : undefined, answer };
+      questions[idx] = { ...questions[idx], type, topic, text, text_id: textId || undefined, options: type === 'mc' ? options : undefined, answer };
       if (type === 'sa') delete questions[idx].options;
+      if (!textId) delete questions[idx].text_id;
       showToast('✅ Question updated.');
     }
   } else {
     const id = 'q' + String(Date.now()).slice(-6);
     const newQ = { id, type, topic, text, answer };
+    if (textId) newQ.text_id = textId;
     if (type === 'mc') newQ.options = options;
     questions.push(newQ);
     showToast('✅ Question added.');
@@ -839,7 +844,9 @@ function confirmClearAll() {
 function exportJSON() {
   // Clean up undefined fields
   const clean = questions.map(q => {
-    const o = { id: q.id, type: q.type, topic: q.topic || '', text: q.text, answer: q.answer };
+    const o = { id: q.id, type: q.type, topic: q.topic || '', text: q.text };
+    if (q.text_id) o.text_id = q.text_id;
+    o.answer = q.answer;
     if (q.type === 'mc') o.options = q.options;
     return o;
   });

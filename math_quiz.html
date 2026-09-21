@@ -298,12 +298,55 @@
       flex-wrap: wrap;
     }
 
-    .btn-download {
-      background: linear-gradient(135deg, #00695c, #00897b);
-      color: #fff;
-      box-shadow: 0 4px 14px rgba(0,105,92,.35);
+    /* ── Review list ── */
+    .review-list {
+      text-align: left;
+      margin: 8px 0 28px;
+      max-height: 60vh;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
     }
-    .btn-download:hover { box-shadow: 0 6px 20px rgba(0,105,92,.45); }
+    .review-item {
+      border: 1.5px solid #e0e0e0;
+      border-left-width: 5px;
+      border-radius: 10px;
+      padding: 14px 16px;
+      background: #fafbff;
+    }
+    .review-item.correct { border-left-color: #2e7d32; background: #f4fbf5; }
+    .review-item.wrong   { border-left-color: #c62828; background: #fdf5f5; }
+
+    .review-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 8px;
+    }
+    .review-num { font-weight: 700; color: #3949ab; font-size: .9rem; }
+    .review-status { font-size: .8rem; font-weight: 700; padding: 2px 10px; border-radius: 20px; }
+    .review-status.ok { background: #e8f5e9; color: #2e7d32; }
+    .review-status.no { background: #ffebee; color: #c62828; }
+
+    .review-q {
+      font-size: .98rem;
+      font-weight: 600;
+      color: #1a237e;
+      line-height: 1.5;
+      margin-bottom: 4px;
+    }
+    .review-q-id {
+      font-size: .88rem;
+      color: #5c6bc0;
+      font-style: italic;
+      line-height: 1.45;
+      margin-bottom: 8px;
+    }
+    .review-ans { font-size: .9rem; color: #555; margin-top: 4px; }
+    .review-label { font-weight: 600; margin-right: 6px; }
+    .review-your.ok { color: #2e7d32; font-weight: 600; }
+    .review-your.no { color: #c62828; font-weight: 600; }
 
     /* ── Loading ── */
     .loading-spinner {
@@ -427,9 +470,11 @@
       <span class="small">score</span>
     </div>
     <p class="result-note" id="result-note"></p>
+
+    <div class="review-list" id="review-list"></div>
+
     <div class="result-btn-row">
       <button class="btn btn-primary" onclick="restartQuiz()">Try Again</button>
-      <button class="btn btn-download" onclick="downloadSummary()">⬇ Download Summary</button>
       <a href="question_bank.html" class="btn btn-outline" style="text-decoration:none;">Manage Bank</a>
     </div>
   </div>
@@ -689,14 +734,9 @@ function captureSAInput() {
 }
 
 /* ════════════════════════ FINISH ═══════════════════════════════ */
-let summaryTimeTaken = 0;
-let summaryTimedOut  = false;
-
 function finishQuiz(timedOut) {
   if (quizFinished) return;
-  quizFinished     = true;
-  summaryTimedOut  = timedOut;
-  summaryTimeTaken = totalTime - timeLeft;
+  quizFinished = true;
   clearInterval(timerInterval);
   showResultScreen();
 }
@@ -705,6 +745,12 @@ function finishQuiz(timedOut) {
 function gradeAnswer(q, ua) {
   if (ua === null || ua === undefined || ua === '') return false;
   return ua.toString().trim().toLowerCase() === q.answer.toString().trim().toLowerCase();
+}
+
+function escHtml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
 function showResultScreen() {
@@ -720,63 +766,37 @@ function showResultScreen() {
     : pct >= 60 ? '👍 Good effort! Review the questions you missed.'
     : '📚 Keep practicing — you\'ll get there!';
 
+  renderReview();
   showScreen('result-screen');
 }
 
-/* ════════════════════════ SUMMARY FILE ════════════════════════ */
-function downloadSummary() {
-  generateSummaryFile(summaryTimeTaken, summaryTimedOut);
-}
-
-function generateSummaryFile(timeTakenSec, timedOut) {
-  const now    = new Date();
-  const stamp  = now.toLocaleString();
-  const mm     = String(Math.floor(timeTakenSec / 60)).padStart(2,'0');
-  const ss     = String(timeTakenSec % 60).padStart(2,'0');
-  let correct  = 0;
-  SESSION_QUESTIONS.forEach((q, i) => { if (gradeAnswer(q, userAnswers[i])) correct++; });
-  const total  = SESSION_QUESTIONS.length;
-
-  const lines = [];
-  lines.push('╔══════════════════════════════════════════════════════════╗');
-  lines.push('║                MATH QUIZ — ANSWER SUMMARY                ║');
-  lines.push('╚══════════════════════════════════════════════════════════╝');
-  lines.push('');
-  lines.push(`Date & Time  : ${stamp}`);
-  lines.push(`Time Taken   : ${mm}m ${ss}s${timedOut ? ' (time ran out)' : ''}`);
-  lines.push(`Score        : ${correct} / ${total}  (${Math.round(correct/total*100)}%)`);
-  lines.push(`Questions    : randomly selected from bank of ${ALL_QUESTIONS.length}`);
-  lines.push('');
-  lines.push('──────────────────────────────────────────────────────────');
-  lines.push('  QUESTION DETAILS');
-  lines.push('──────────────────────────────────────────────────────────');
-  lines.push('');
+/* ════════════════════════ REVIEW LIST ═════════════════════════ */
+function renderReview() {
+  const list = $('review-list');
+  list.innerHTML = '';
 
   SESSION_QUESTIONS.forEach((q, i) => {
-    const ua     = userAnswers[i] ?? '(no answer)';
-    const passed = gradeAnswer(q, ua);
-    lines.push(`Q${String(i+1).padStart(2,'0')}. [${q.type === 'mc' ? 'Multiple Choice' : 'Short Answer  '}] [${q.competition || '—'}] [${q.topic || 'General'}] ${passed ? '✔ CORRECT' : '✘ WRONG'}`);
-    lines.push(`     Question : ${q.text}`);
-    if (q.text_id) lines.push(`     Soal (ID): ${q.text_id}`);
-    lines.push(`     Your Ans : ${ua}`);
-    lines.push(`     Correct  : ${q.answer}`);
-    if (q.type === 'mc') lines.push(`     Options  : ${q.options.join(' | ')}`);
-    lines.push('');
+    const passed  = gradeAnswer(q, userAnswers[i]);
+    const ua      = (userAnswers[i] === null || userAnswers[i] === undefined || userAnswers[i] === '')
+                      ? '(no answer)' : userAnswers[i];
+
+    const item = document.createElement('div');
+    item.className = 'review-item ' + (passed ? 'correct' : 'wrong');
+
+    item.innerHTML = `
+      <div class="review-head">
+        <span class="review-num">Q${i + 1}</span>
+        <span class="review-status ${passed ? 'ok' : 'no'}">${passed ? '✔ Correct' : '✘ Wrong'}</span>
+      </div>
+      <div class="review-q">${escHtml(q.text)}</div>
+      ${q.text_id ? `<div class="review-q-id">🇮🇩 ${escHtml(q.text_id)}</div>` : ''}
+      <div class="review-ans">
+        <span class="review-label">Your answer:</span>
+        <span class="review-your ${passed ? 'ok' : 'no'}">${escHtml(ua)}</span>
+      </div>
+    `;
+    list.appendChild(item);
   });
-
-  lines.push('──────────────────────────────────────────────────────────');
-  lines.push('  END OF SUMMARY');
-  lines.push('──────────────────────────────────────────────────────────');
-
-  const blob = new Blob([lines.join('\n')], { type: 'text/plain;charset=utf-8' });
-  const url  = URL.createObjectURL(blob);
-  const a    = document.createElement('a');
-  a.href     = url;
-  a.download = `math_quiz_${now.getFullYear()}${String(now.getMonth()+1).padStart(2,'0')}${String(now.getDate()).padStart(2,'0')}_${String(now.getHours()).padStart(2,'0')}${String(now.getMinutes()).padStart(2,'0')}.txt`;
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(url);
 }
 
 /* ════════════════════════ RESTART ═════════════════════════════ */
