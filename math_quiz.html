@@ -148,6 +148,22 @@
       margin-bottom: 16px;
     }
 
+    .question-text-id {
+      font-size: 1rem;
+      font-weight: 500;
+      color: #5c6bc0;
+      line-height: 1.55;
+      margin-top: -8px;
+      margin-bottom: 16px;
+      padding-left: 12px;
+      border-left: 3px solid #c5cae9;
+      font-style: italic;
+    }
+    .question-text-id::before {
+      content: "🇮🇩 ";
+      font-style: normal;
+    }
+
     .question-svg {
       background: #f8f9ff;
       border: 1.5px solid #e0e0e0;
@@ -585,11 +601,19 @@ function renderQuestion() {
   `;
   container.appendChild(meta);
 
-  // Question text
+  // Question text (English)
   const qText = document.createElement('p');
   qText.className   = 'question-text';
   qText.textContent = q.text;
   container.appendChild(qText);
+
+  // Question text (Bahasa Indonesia) — shown below if present
+  if (q.text_id) {
+    const qTextId = document.createElement('p');
+    qTextId.className   = 'question-text-id';
+    qTextId.textContent = q.text_id;
+    container.appendChild(qTextId);
+  }
 
   // SVG diagram (if present)
   if (q.svg) {
@@ -733,6 +757,7 @@ function generateSummaryFile(timeTakenSec, timedOut) {
     const passed = gradeAnswer(q, ua);
     lines.push(`Q${String(i+1).padStart(2,'0')}. [${q.type === 'mc' ? 'Multiple Choice' : 'Short Answer  '}] [${q.competition || '—'}] [${q.topic || 'General'}] ${passed ? '✔ CORRECT' : '✘ WRONG'}`);
     lines.push(`     Question : ${q.text}`);
+    if (q.text_id) lines.push(`     Soal (ID): ${q.text_id}`);
     lines.push(`     Your Ans : ${ua}`);
     lines.push(`     Correct  : ${q.answer}`);
     if (q.type === 'mc') lines.push(`     Options  : ${q.options.join(' | ')}`);

@@ -496,8 +496,13 @@
     </div>
 
     <div class="form-group">
-      <label>Question Text</label>
+      <label>Question Text (English)</label>
       <textarea id="f-text" placeholder="Enter the question…"></textarea>
+    </div>
+
+    <div class="form-group">
+      <label>Question Text (Bahasa Indonesia)</label>
+      <textarea id="f-text-id" placeholder="Masukkan soal dalam Bahasa Indonesia… (opsional)"></textarea>
     </div>
 
     <div class="form-group" id="options-section">
@@ -696,10 +701,11 @@ function refreshTopicSuggestions() {
 function openAddModal() {
   editingId = null;
   document.getElementById('modal-title').textContent = 'Add Question';
-  document.getElementById('f-type').value   = 'mc';
-  document.getElementById('f-topic').value  = '';
-  document.getElementById('f-text').value   = '';
-  document.getElementById('f-answer').value = '';
+  document.getElementById('f-type').value    = 'mc';
+  document.getElementById('f-topic').value   = '';
+  document.getElementById('f-text').value    = '';
+  document.getElementById('f-text-id').value = '';
+  document.getElementById('f-answer').value  = '';
   buildOptionRows(['', '', '', '']);
   toggleOptionsSection();
   document.getElementById('modal-overlay').classList.add('open');
@@ -710,10 +716,11 @@ function openEditModal(id) {
   if (!q) return;
   editingId = id;
   document.getElementById('modal-title').textContent = 'Edit Question';
-  document.getElementById('f-type').value   = q.type;
-  document.getElementById('f-topic').value  = q.topic || '';
-  document.getElementById('f-text').value   = q.text;
-  document.getElementById('f-answer').value = q.answer;
+  document.getElementById('f-type').value    = q.type;
+  document.getElementById('f-topic').value   = q.topic || '';
+  document.getElementById('f-text').value    = q.text;
+  document.getElementById('f-text-id').value = q.text_id || '';
+  document.getElementById('f-answer').value  = q.answer;
   buildOptionRows(q.type === 'mc' ? q.options : ['', '', '', '']);
   toggleOptionsSection();
   document.getElementById('modal-overlay').classList.add('open');

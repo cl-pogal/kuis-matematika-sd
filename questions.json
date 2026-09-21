@@ -4443,6 +4443,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Mr Lim paid a total of $98,400 for his new car. He made the first payment of $30,000. For the remaining amount, he paid a fixed amount monthly for the next 60 months. How much did he pay each month?",
+    "text_id": "Pak Lim membayar total $98.400 untuk mobil barunya. Ia membayar uang muka pertama sebesar $30.000. Untuk sisa jumlahnya, ia membayar sejumlah uang tetap setiap bulan selama 60 bulan berikutnya. Berapa yang ia bayar setiap bulan?",
     "answer": "1140",
     "grade": "5"
   },
@@ -4452,6 +4453,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Edward bought some apples. (3/5) of the apples were rotten and thrown away. He sold (1/4) of the remaining apples and had 60 apples left. How many apples did Edward have at first?",
+    "text_id": "Edward membeli sejumlah apel. (3/5) dari apel tersebut busuk dan dibuang. Ia menjual (1/4) dari sisa apel dan tersisa 60 apel. Berapa banyak apel yang dimiliki Edward mula-mula?",
     "answer": "200",
     "grade": "5"
   },
@@ -4461,6 +4463,7 @@
     "topic": "Geometry",
     "competition": "SMC Try Out",
     "text": "In the figure, ABC and BCD are isosceles triangles with AB = BC and BC = CD. ∠BAC = 46° and ∠ACD = 150°. Find ∠BDC in degrees.",
+    "text_id": "Pada gambar, ABC dan BCD adalah segitiga sama kaki dengan AB = BC dan BC = CD. ∠BAC = 46° dan ∠ACD = 150°. Tentukan ∠BDC dalam derajat.",
     "svg": "<svg viewBox='0 0 280 180' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><line x1='60' y1='30' x2='130' y2='30' stroke='#333' stroke-width='1.5'/><line x1='60' y1='30' x2='85' y2='90' stroke='#333' stroke-width='1.5'/><line x1='130' y1='30' x2='85' y2='90' stroke='#333' stroke-width='1.5'/><line x1='85' y1='90' x2='240' y2='160' stroke='#333' stroke-width='1.5'/><line x1='130' y1='30' x2='240' y2='160' stroke='#333' stroke-width='1.5'/><text x='55' y='26' font-weight='bold'>A</text><text x='132' y='26' font-weight='bold'>B</text><text x='78' y='102' font-weight='bold'>C</text><text x='244' y='164' font-weight='bold'>D</text><text x='90' y='45' font-size='11'>46°</text><text x='98' y='90' font-size='11'>150°</text></svg>",
     "answer": "38",
     "grade": "5"
@@ -4471,6 +4474,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Every day, David saves $1.40 while his brother saves $2.20. David started saving 20 days earlier before his brother started saving. When David has saved $63, how much has his brother saved?",
+    "text_id": "Setiap hari, David menabung $1,40 sementara adiknya menabung $2,20. David mulai menabung 20 hari lebih awal sebelum adiknya mulai menabung. Ketika David telah menabung $63, berapa banyak yang telah ditabung adiknya?",
     "answer": "55",
     "grade": "5"
   },
@@ -4480,6 +4484,7 @@
     "topic": "Geometry",
     "competition": "SMC Try Out",
     "text": "Ali had a roll of wire measuring 1 m long. He cut 9 pieces of wire, each measuring 8 cm, from the roll. The remaining wire was used to form a square. Find the area of the square in cm².",
+    "text_id": "Ali memiliki gulungan kawat sepanjang 1 m. Ia memotong 9 potong kawat, masing-masing sepanjang 8 cm, dari gulungan tersebut. Sisa kawat digunakan untuk membentuk sebuah persegi. Tentukan luas persegi tersebut dalam cm².",
     "answer": "49",
     "grade": "5"
   },
@@ -4489,6 +4494,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Mrs Lim baked 265 cakes and pies in total. After she sold 25 cakes and (2/7) of the pies, she had an equal number of cakes and pies left. How many cakes did she have at first?",
+    "text_id": "Bu Lim memanggang total 265 kue dan pai. Setelah ia menjual 25 kue dan (2/7) dari pai, jumlah kue dan pai yang tersisa sama banyak. Berapa banyak kue yang ia miliki mula-mula?",
     "answer": "125",
     "grade": "5"
   },
@@ -4498,6 +4504,7 @@
     "topic": "Number Patterns",
     "competition": "SMC Try Out",
     "text": "In a number pattern, Row 1 has 1 number, Row 2 has 3 numbers (2,3,4), Row 3 has 5 numbers (5–9), etc. The first number in Row n is (n−1)²+1 and the last is n². What is the difference between the last number and the first number in Row 30?",
+    "text_id": "Pada suatu pola bilangan, Baris 1 memiliki 1 bilangan, Baris 2 memiliki 3 bilangan (2,3,4), Baris 3 memiliki 5 bilangan (5–9), dan seterusnya. Bilangan pertama pada Baris n adalah (n−1)²+1 dan bilangan terakhirnya adalah n². Berapa selisih antara bilangan terakhir dan bilangan pertama pada Baris 30?",
     "svg": "<svg viewBox='0 0 380 130' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><rect x='5' y='5' width='370' height='120' fill='#f9f9f9' stroke='#ccc' stroke-width='1'/><text x='15' y='22' font-weight='bold'>Row 1:</text><text x='80' y='22'>1</text><text x='15' y='40' font-weight='bold'>Row 2:</text><text x='80' y='40'>2   3   4</text><text x='15' y='58' font-weight='bold'>Row 3:</text><text x='80' y='58'>5   6   7   8   9</text><text x='15' y='76' font-weight='bold'>Row 4:</text><text x='80' y='76'>10  11  12  13  14  15  16</text><text x='15' y='94' font-weight='bold'>Row 5:</text><text x='80' y='94'>17  18  19  20  21  22  23  24  25</text></svg>",
     "answer": "58",
     "grade": "5"
@@ -4508,6 +4515,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "A group of 11 students saved an average of $385. When two of the students lost all their savings, the average savings of the remaining 9 students became $288. What was the total amount of money lost by the two students?",
+    "text_id": "Sekelompok 11 siswa menabung rata-rata $385. Ketika dua siswa kehilangan seluruh tabungan mereka, rata-rata tabungan dari 9 siswa yang tersisa menjadi $288. Berapa total jumlah uang yang hilang dari kedua siswa tersebut?",
     "answer": "1643",
     "grade": "5"
   },
@@ -4517,6 +4525,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Mr Lim sold a total of 60 gift vouchers. 40% of the vouchers were $5 each and the rest were $10 each. How much money did Mr Lim collect from the sale of the $10 gift vouchers?",
+    "text_id": "Pak Lim menjual total 60 voucher hadiah. 40% dari voucher tersebut seharga $5 masing-masing dan sisanya seharga $10 masing-masing. Berapa banyak uang yang dikumpulkan Pak Lim dari penjualan voucher hadiah $10?",
     "answer": "360",
     "grade": "5"
   },
@@ -4526,6 +4535,7 @@
     "topic": "Geometry",
     "competition": "SMC Try Out",
     "text": "Jerome glued a 2-cm cube on top of a 5-cm cube and painted the whole solid blue. What was the total area of all the painted faces in cm²?",
+    "text_id": "Jerome merekatkan sebuah kubus 2 cm di atas sebuah kubus 5 cm dan mengecat seluruh bangun tersebut dengan warna biru. Berapa total luas seluruh sisi yang dicat dalam cm²?",
     "svg": "<svg viewBox='0 0 180 200' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11'><polygon points='30,160 30,60 110,60 110,160' fill='#ddd' stroke='#333' stroke-width='1.5'/><polygon points='30,60 60,30 140,30 110,60' fill='#eee' stroke='#333' stroke-width='1.5'/><polygon points='110,60 140,30 140,130 110,160' fill='#ccc' stroke='#333' stroke-width='1.5'/><polygon points='68,60 68,28 92,28 92,60' fill='#bbb' stroke='#333' stroke-width='1.5'/><polygon points='68,28 80,16 104,16 92,28' fill='#eee' stroke='#333' stroke-width='1.5'/><polygon points='92,28 104,16 104,44 92,60' fill='#ccc' stroke='#333' stroke-width='1.5'/><text x='8' y='115' font-size='10'>5 cm</text><text x='76' y='12' font-size='10'>2 cm</text></svg>",
     "answer": "166",
     "grade": "5"
@@ -4536,6 +4546,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "At a fruit stall, the ratio of apples to oranges was 9 : 5. (1/2) of the apples and (1/5) of the oranges were rotten. There were 253 rotten apples and oranges altogether. How many apples and oranges were there in total at first?",
+    "text_id": "Di sebuah kios buah, perbandingan apel terhadap jeruk adalah 9 : 5. (1/2) dari apel dan (1/5) dari jeruk busuk. Ada total 253 apel dan jeruk yang busuk. Berapa total banyak apel dan jeruk mula-mula?",
     "answer": "644",
     "grade": "5"
   },
@@ -4545,6 +4556,7 @@
     "topic": "Geometry",
     "competition": "SMC Try Out",
     "text": "Square ABCD overlaps Triangle EFG to form Square ERCS (the shaded overlap). AB = EF = EG and R, S are midpoints of EF and EG respectively. The area of Square ERCS is 81 cm². Find the area of the whole figure in cm².",
+    "text_id": "Persegi ABCD berpotongan dengan Segitiga EFG membentuk Persegi ERCS (bagian tumpang tindih yang diarsir). AB = EF = EG dan R, S berturut-turut adalah titik tengah EF dan EG. Luas Persegi ERCS adalah 81 cm². Tentukan luas seluruh gambar dalam cm².",
     "svg": "<svg viewBox='0 0 260 240' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><polygon points='130,10 40,100 130,190 220,100' fill='none' stroke='#333' stroke-width='1.5'/><polygon points='85,145 175,145 220,100 175,55 85,55 40,100' fill='none' stroke='#333' stroke-width='0'/><polygon points='85,145 130,190 175,145' fill='none' stroke='#333' stroke-width='1.5'/><polygon points='85,55 40,100 85,145 130,190 175,145 220,100 175,55 130,10' fill='none' stroke='#333' stroke-width='0'/><line x1='40' y1='100' x2='220' y2='100' stroke='#333' stroke-width='1'/><line x1='130' y1='10' x2='85' y2='145' stroke='#333' stroke-width='1.5'/><line x1='130' y1='10' x2='175' y2='145' stroke='#333' stroke-width='1.5'/><polygon points='130,55 175,100 130,145 85,100' fill='#ccc' stroke='#333' stroke-width='1.5'/><text x='130' y='6' text-anchor='middle' font-weight='bold'>A</text><text x='34' y='104' font-weight='bold'>B</text><text x='224' y='104' font-weight='bold'>D</text><text x='130' y='198' text-anchor='middle' font-weight='bold'>C</text><text x='130' y='52' text-anchor='middle' font-weight='bold'>E</text><text x='78' y='152' font-weight='bold'>F</text><text x='178' y='152' font-weight='bold'>G</text><text x='78' y='104' font-weight='bold'>R</text><text x='178' y='104' font-weight='bold'>S</text></svg>",
     "answer": "405",
     "grade": "5"
@@ -4555,6 +4567,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Mrs Lim measured the heights of 5 children. Four heights were: Vinesh 1.62 m, Sue 1.58 m, Lili 1.55 m, Ken 1.53 m. The average of all 5 was 157 cm. A 6th child, Jack, joined and the average became 159 cm. What was the average height of Jack and Raja in cm?",
+    "text_id": "Bu Lim mengukur tinggi 5 anak. Empat tinggi di antaranya adalah: Vinesh 1,62 m, Sue 1,58 m, Lili 1,55 m, Ken 1,53 m. Rata-rata dari kelima anak adalah 157 cm. Anak keenam, Jack, bergabung dan rata-ratanya menjadi 159 cm. Berapa rata-rata tinggi Jack dan Raja dalam cm?",
     "answer": "163",
     "grade": "5"
   },
@@ -4564,6 +4577,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Kenny and James have the same number of coins. Kenny has 20-cent coins and James has 50-cent coins. James has $35.70 more than Kenny. How many coins do Kenny and James have altogether?",
+    "text_id": "Kenny dan James memiliki jumlah koin yang sama. Kenny memiliki koin 20 sen dan James memiliki koin 50 sen. James memiliki $35,70 lebih banyak daripada Kenny. Berapa total banyak koin yang dimiliki Kenny dan James?",
     "answer": "238",
     "grade": "5"
   },
@@ -4573,6 +4587,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Azahar Money Changer offers an exchange rate of 0.75 US dollars for 1 Singapore dollar. How many Singapore dollars will Mrs Lim get when she gives the money changer 675 US dollars?",
+    "text_id": "Azahar Money Changer menawarkan kurs 0,75 dolar AS untuk 1 dolar Singapura. Berapa dolar Singapura yang akan diperoleh Bu Lim ketika ia memberi penukar uang 675 dolar AS?",
     "answer": "900",
     "grade": "5"
   },
@@ -4582,6 +4597,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "In January, the total expenditure of Alice, Bernice and Carol was $1510. In February, Alice increased her expenditure by $120, Bernice doubled her expenditure and Carol reduced her expenditure by $130. In the end, their expenditures became equal. What was Alice's expenditure in January?",
+    "text_id": "Pada bulan Januari, total pengeluaran Alice, Bernice, dan Carol adalah $1510. Pada bulan Februari, Alice menambah pengeluarannya sebesar $120, Bernice melipatgandakan pengeluarannya, dan Carol mengurangi pengeluarannya sebesar $130. Pada akhirnya, pengeluaran mereka menjadi sama. Berapa pengeluaran Alice pada bulan Januari?",
     "answer": "480",
     "grade": "5"
   },
@@ -4591,6 +4607,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Sam cut Cube Y (side 7 cm) from Cuboid X whose volume was 6 times that of Cube Y. Sam then cut as many 2-cm cubes as possible from the remaining Cuboid X. What was the volume of Cuboid X left uncut in cm³?",
+    "text_id": "Sam memotong Kubus Y (sisi 7 cm) dari Balok X yang volumenya 6 kali volume Kubus Y. Sam kemudian memotong sebanyak mungkin kubus 2 cm dari sisa Balok X. Berapa volume Balok X yang tersisa dan tidak terpotong dalam cm³?",
     "svg": "<svg viewBox='0 0 280 80' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11'><rect x='10' y='20' width='170' height='40' fill='#ddd' stroke='#333' stroke-width='1.5'/><text x='95' y='44' text-anchor='middle'>X</text><line x1='195' y1='10' x2='195' y2='70' stroke='#333' stroke-width='1' stroke-dasharray='4,3'/><text x='215' y='35' font-size='16'>→</text><rect x='238' y='18' width='32' height='32' fill='#bbb' stroke='#333' stroke-width='1.5'/><text x='254' y='38' text-anchor='middle' font-size='10'>Y</text><text x='254' y='62' text-anchor='middle'>7 cm</text></svg>",
     "answer": "491",
     "grade": "5"
@@ -4601,6 +4618,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "A book costs 3 times as much as a file. John spent (5/9) of his money on some books. He then spent (3/4) of the remainder on 9 files. How many books did John buy?",
+    "text_id": "Harga sebuah buku 3 kali harga sebuah map. John menghabiskan (5/9) dari uangnya untuk membeli beberapa buku. Ia kemudian menghabiskan (3/4) dari sisanya untuk membeli 9 map. Berapa banyak buku yang dibeli John?",
     "answer": "5",
     "grade": "5"
   },
@@ -4610,6 +4628,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Two shops sell the same laptop model. Shop W: usual price $2830, discount 20%, no GST. Shop X: usual price $2500, discount 18%, plus additional 8% GST on the discounted price. Sharon buys from the cheaper shop. How much does she pay?",
+    "text_id": "Dua toko menjual model laptop yang sama. Toko W: harga biasa $2830, diskon 20%, tanpa GST. Toko X: harga biasa $2500, diskon 18%, ditambah GST 8% atas harga setelah diskon. Sharon membeli dari toko yang lebih murah. Berapa yang ia bayar?",
     "svg": "<svg viewBox='0 0 320 100' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11'><rect x='10' y='10' width='140' height='80' fill='#f5f5f5' stroke='#333' stroke-width='1.5'/><text x='80' y='28' text-anchor='middle' font-weight='bold'>At Shop W</text><text x='80' y='46' text-anchor='middle'>Usual price: $2830</text><text x='80' y='62' text-anchor='middle'>Discount: 20%</text><text x='80' y='78' text-anchor='middle'>(No GST)</text><rect x='170' y='10' width='140' height='80' fill='#f5f5f5' stroke='#333' stroke-width='1.5'/><text x='240' y='28' text-anchor='middle' font-weight='bold'>At Shop X</text><text x='240' y='46' text-anchor='middle'>Usual price: $2500</text><text x='240' y='62' text-anchor='middle'>Discount: 18%</text><text x='240' y='78' text-anchor='middle'>+8% GST on disc. price</text></svg>",
     "answer": "2214",
     "grade": "5"
@@ -4620,6 +4639,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Beatrice sold some files at $7.50 each and 18 bookmarks at $1.50 each. Jen sold the same number of files at $7.80 each and 18 bookmarks at $1.30 each. They collected the same total amount. How many files did each girl sell?",
+    "text_id": "Beatrice menjual beberapa map seharga $7,50 masing-masing dan 18 pembatas buku seharga $1,50 masing-masing. Jen menjual jumlah map yang sama seharga $7,80 masing-masing dan 18 pembatas buku seharga $1,30 masing-masing. Mereka mengumpulkan jumlah total yang sama. Berapa banyak map yang dijual masing-masing anak?",
     "answer": "12",
     "grade": "5"
   },
@@ -4629,6 +4649,7 @@
     "topic": "Geometry",
     "competition": "SMC Try Out",
     "text": "In the figure, PQRS is a rhombus and PQTU is a trapezium. PT is a straight line. ∠QRS = 124°, ∠ROP = 82° and ∠STU = 18°. Find the sum of ∠SPT and ∠RST in degrees.",
+    "text_id": "Pada gambar, PQRS adalah belah ketupat dan PQTU adalah trapesium. PT adalah garis lurus. ∠QRS = 124°, ∠ROP = 82° dan ∠STU = 18°. Tentukan jumlah ∠SPT dan ∠RST dalam derajat.",
     "svg": "<svg viewBox='0 0 300 160' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11'><line x1='60' y1='130' x2='130' y2='40' stroke='#333' stroke-width='1.5'/><line x1='130' y1='40' x2='200' y2='130' stroke='#333' stroke-width='1.5'/><line x1='60' y1='130' x2='200' y2='130' stroke='#333' stroke-width='1.5'/><line x1='130' y1='40' x2='260' y2='130' stroke='#333' stroke-width='1.5'/><line x1='200' y1='130' x2='260' y2='130' stroke='#333' stroke-width='1.5'/><line x1='260' y1='80' x2='260' y2='130' stroke='#333' stroke-width='1.5'/><line x1='200' y1='130' x2='260' y2='80' stroke='#333' stroke-width='1.5'/><line x1='60' y1='130' x2='260' y2='80' stroke='#333' stroke-width='1.5'/><text x='130' y='34' text-anchor='middle' font-weight='bold'>P</text><text x='52' y='140' font-weight='bold'>Q</text><text x='200' y='144' font-weight='bold'>R</text><text x='204' y='78' font-weight='bold'>S</text><text x='264' y='78' font-weight='bold'>U</text><text x='264' y='140' font-weight='bold'>T</text><text x='170' y='120' font-size='10'>O</text><text x='148' y='138' font-size='10'>124°</text><text x='162' y='112' font-size='10'>82°</text><text x='248' y='128' font-size='10'>18°</text></svg>",
     "answer": "118",
     "grade": "5"
@@ -4639,6 +4660,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "A group of students spent an average of 70 minutes per day on online learning. Then 3 students who each spent 30 minutes per day joined the group. The new average became 55 minutes. How many students were there in total in the end?",
+    "text_id": "Sekelompok siswa menghabiskan rata-rata 70 menit per hari untuk belajar daring. Kemudian 3 siswa yang masing-masing menghabiskan 30 menit per hari bergabung ke kelompok tersebut. Rata-rata baru menjadi 55 menit. Berapa total banyak siswa pada akhirnya?",
     "answer": "8",
     "grade": "5"
   },
@@ -4648,6 +4670,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Green and red flags alternate on a rope. Green flags are 14 cm wide, red flags are 11 cm wide. The gap between each adjacent green and red flag is 6 cm. The first and last flag are each 12 cm from the ends of the rope. There are 97 flags in total. What is the length of the rope in cm?",
+    "text_id": "Bendera hijau dan merah dipasang berselang-seling pada seutas tali. Bendera hijau lebarnya 14 cm, bendera merah lebarnya 11 cm. Jarak antara setiap bendera hijau dan merah yang bersebelahan adalah 6 cm. Bendera pertama dan terakhir masing-masing berjarak 12 cm dari ujung tali. Ada total 97 bendera. Berapa panjang tali tersebut dalam cm?",
     "svg": "<svg viewBox='0 0 400 70' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='10'><line x1='0' y1='20' x2='400' y2='20' stroke='#333' stroke-width='2'/><rect x='12' y='10' width='14' height='20' fill='#90EE90' stroke='#333' stroke-width='1'/><rect x='32' y='10' width='11' height='20' fill='#FF9999' stroke='#333' stroke-width='1'/><rect x='49' y='10' width='14' height='20' fill='#90EE90' stroke='#333' stroke-width='1'/><rect x='69' y='10' width='11' height='20' fill='#FF9999' stroke='#333' stroke-width='1'/><rect x='86' y='10' width='14' height='20' fill='#90EE90' stroke='#333' stroke-width='1'/><text x='6' y='50' font-size='9'>12cm</text><text x='14' y='50' font-size='9'>|14cm|</text><text x='32' y='50' font-size='9'>|11|</text><text x='27' y='50' font-size='9'>6</text><text x='114' y='18' font-size='10'>. . .</text><rect x='350' y='10' width='14' height='20' fill='#90EE90' stroke='#333' stroke-width='1'/><text x='368' y='50' font-size='9'>12cm</text></svg>",
     "answer": "1814",
     "grade": "5"
@@ -4658,6 +4681,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Joshua spent (1/8) of his monthly salary and an additional $50 on food. He then spent (2/5) of the remainder and an additional $70 on household expenses. He was left with $2630. How much was Joshua's monthly salary?",
+    "text_id": "Joshua menghabiskan (1/8) dari gaji bulanannya dan tambahan $50 untuk makanan. Ia kemudian menghabiskan (2/5) dari sisanya dan tambahan $70 untuk pengeluaran rumah tangga. Ia tersisa $2630. Berapa gaji bulanan Joshua?",
     "answer": "5200",
     "grade": "5"
   },
@@ -4667,6 +4691,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Tank A (20 cm × 7 cm × 23 cm) is filled to the brim. Tank B (8 cm × 11 cm × 13 cm) has some water. After (1/5) of Tank A's water is poured into Tank B, Tank B is (5/8) full. How much water was in Tank B at first in cm³?",
+    "text_id": "Tangki A (20 cm × 7 cm × 23 cm) terisi penuh sampai penuh. Tangki B (8 cm × 11 cm × 13 cm) berisi sedikit air. Setelah (1/5) air Tangki A dituang ke Tangki B, Tangki B terisi (5/8). Berapa banyak air di Tangki B mula-mula dalam cm³?",
     "svg": "<svg viewBox='0 0 280 120' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='10'><rect x='20' y='20' width='80' height='60' fill='#cce5ff' stroke='#333' stroke-width='1.5'/><polygon points='20,20 40,5 120,5 100,20' fill='#ddeeff' stroke='#333' stroke-width='1'/><polygon points='100,20 120,5 120,65 100,80' fill='#bbddff' stroke='#333' stroke-width='1'/><text x='60' y='90' text-anchor='middle' font-size='9'>20 cm</text><text x='8' y='52' text-anchor='middle' font-size='9'>23</text><text x='108' y='72' font-size='9'>7</text><text x='60' y='52' text-anchor='middle' font-weight='bold'>A</text><rect x='170' y='35' width='55' height='45' fill='#cce5ff' stroke='#333' stroke-width='1.5'/><polygon points='170,35 185,20 240,20 225,35' fill='#ddeeff' stroke='#333' stroke-width='1'/><polygon points='225,35 240,20 240,65 225,80' fill='#bbddff' stroke='#333' stroke-width='1'/><text x='197' y='92' text-anchor='middle' font-size='9'>8 cm</text><text x='158' y='58' font-size='9'>13</text><text x='232' y='72' font-size='9'>11</text><text x='197' y='58' text-anchor='middle' font-weight='bold'>B</text></svg>",
     "answer": "71",
     "grade": "5"
@@ -4677,6 +4702,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "A cruise to Penang has Ocean View package: Adult $645, Child (below 12) $280. Mr Potter, his wife and 3 children aged 8, 10 and 15 are going. He receives 15% early bird discount on total cost, then pays additional 8% GST on the discounted price. How much does he pay in total? Round to nearest dollar.",
+    "text_id": "Sebuah pesiar ke Penang memiliki paket Ocean View: Dewasa $645, Anak (di bawah 12) $280. Pak Potter, istrinya, dan 3 anak berusia 8, 10, dan 15 tahun akan pergi. Ia mendapat diskon early bird 15% dari total biaya, kemudian membayar tambahan GST 8% atas harga setelah diskon. Berapa total yang ia bayar? Bulatkan ke dolar terdekat.",
     "answer": "2290",
     "grade": "5"
   },
@@ -4686,6 +4712,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "1000 concert tickets at $25 each were on sale. From the graph, about 150 tickets remained unsold by Saturday. On Sunday, for every 5 tickets bought the 6th was free. Sunshine School bought all remaining tickets using this promotion. How much did the organiser collect on Sunday?",
+    "text_id": "1000 tiket konser seharga $25 masing-masing dijual. Dari grafik, sekitar 150 tiket belum terjual hingga hari Sabtu. Pada hari Minggu, setiap pembelian 5 tiket mendapat tiket ke-6 gratis. Sekolah Sunshine membeli semua tiket yang tersisa menggunakan promosi ini. Berapa banyak uang yang dikumpulkan penyelenggara pada hari Minggu?",
     "answer": "3125",
     "grade": "5"
   },
@@ -4695,6 +4722,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "During a sale, a 10% discount was given for every 12 chocolate bars bought (per group of 12). Each chocolate bar costs $8. Dan paid a total of $331.20. How many chocolate bars did he buy?",
+    "text_id": "Selama masa obral, diberikan diskon 10% untuk setiap pembelian 12 batang cokelat (per kelompok 12). Setiap batang cokelat seharga $8. Dan membayar total $331,20. Berapa banyak batang cokelat yang ia beli?",
     "answer": "45",
     "grade": "5"
   },
@@ -4704,6 +4732,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Eggs are sold only in trays of 30. Mr Lee bought some trays and repacked them into carton boxes of 12. He needed 6 more eggs to fill exact carton boxes, and he needed 26 more carton boxes than the number of trays he bought. How many eggs did Mr Lee buy?",
+    "text_id": "Telur hanya dijual dalam tray berisi 30 butir. Pak Lee membeli beberapa tray dan mengemasnya kembali ke dalam kotak karton berisi 12 butir. Ia membutuhkan 6 telur lagi untuk mengisi kotak karton secara tepat, dan ia membutuhkan 26 kotak karton lebih banyak daripada jumlah tray yang ia beli. Berapa banyak telur yang dibeli Pak Lee?",
     "answer": "510",
     "grade": "5"
   },
@@ -4713,6 +4742,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "The ratio of female to male members in a chess club was 4 : 3. When 38 male members left and 28 new female members joined, the ratio of male to female became 1 : 2. How many male members were there in the end?",
+    "text_id": "Perbandingan anggota perempuan terhadap laki-laki di sebuah klub catur adalah 4 : 3. Ketika 38 anggota laki-laki keluar dan 28 anggota perempuan baru bergabung, perbandingan laki-laki terhadap perempuan menjadi 1 : 2. Berapa banyak anggota laki-laki pada akhirnya?",
     "answer": "118",
     "grade": "5"
   },
@@ -4722,6 +4752,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "A tank measuring 60 cm by 10 cm by 24 cm was empty. Water filled it at 600 cm³/min. When the tank was (1/4) full, a crack appeared and water leaked at 150 cm³/min. What was the total time taken for the tank to be completely filled? Give your answer in minutes.",
+    "text_id": "Sebuah tangki berukuran 60 cm × 10 cm × 24 cm mula-mula kosong. Air mengisi tangki dengan laju 600 cm³/menit. Ketika tangki terisi (1/4), muncul retakan dan air bocor dengan laju 150 cm³/menit. Berapa total waktu yang dibutuhkan hingga tangki terisi penuh? Berikan jawaban dalam menit.",
     "svg": "<svg viewBox='0 0 200 130' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11'><polygon points='20,100 20,20 120,20 120,100' fill='#cce5ff' stroke='#333' stroke-width='1.5'/><polygon points='20,20 40,5 140,5 120,20' fill='#ddeeff' stroke='#333' stroke-width='1'/><polygon points='120,20 140,5 140,85 120,100' fill='#aaccee' stroke='#333' stroke-width='1'/><line x1='20' y1='75' x2='120' y2='75' stroke='#333' stroke-width='1' stroke-dasharray='4,3'/><text x='70' y='115' text-anchor='middle' font-size='10'>60 cm</text><text x='8' y='62' font-size='10'>24</text><text x='128' y='96' font-size='10'>10</text></svg>",
     "answer": "30",
     "grade": "5"
@@ -4732,6 +4763,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Mrs Kim bought grapes ($1.55 per 100 g) and cherries ($2.60 per 100 g). She bought twice as heavy cherries as grapes. She used (2/5) of the grapes and (3/4) of the cherries and was left with 120 g more grapes than cherries. How much did she pay for the grapes and cherries in total?",
+    "text_id": "Bu Kim membeli anggur ($1,55 per 100 g) dan ceri ($2,60 per 100 g). Ia membeli ceri dua kali lebih berat daripada anggur. Ia menggunakan (2/5) dari anggur dan (3/4) dari ceri, dan tersisa 120 g anggur lebih banyak daripada ceri. Berapa total yang ia bayar untuk anggur dan ceri?",
     "answer": "81",
     "grade": "5"
   },
@@ -4741,6 +4773,7 @@
     "topic": "Arithmetic",
     "competition": "SMC Try Out",
     "text": "Express 2/25 as a decimal.",
+    "text_id": "Nyatakan 2/25 dalam bentuk desimal.",
     "options": ["0.08", "0.80", "12.5", "2.25"],
     "answer": "0.08",
     "grade": "5"
@@ -4751,6 +4784,7 @@
     "topic": "Geometry",
     "competition": "SMC Try Out",
     "text": "In the diagram, Z, Y, X form a triangle. WZ = WX (isosceles). ∠WZY = 22° and ∠WXY = 44°. What type of triangle is WZX?",
+    "text_id": "Pada diagram, Z, Y, X membentuk sebuah segitiga. WZ = WX (sama kaki). ∠WZY = 22° dan ∠WXY = 44°. Segitiga apakah jenis WZX?",
     "svg": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><line x1='10' y1='120' x2='190' y2='120' stroke='#333' stroke-width='1.5'/><line x1='10' y1='120' x2='100' y2='20' stroke='#333' stroke-width='1.5'/><line x1='100' y1='20' x2='190' y2='120' stroke='#333' stroke-width='1.5'/><line x1='10' y1='120' x2='100' y2='20' stroke='#333' stroke-width='0'/><text x='100' y='14' text-anchor='middle' font-weight='bold'>W</text><text x='4' y='130' font-weight='bold'>Z</text><text x='194' y='130' font-weight='bold'>X</text><text x='85' y='118' font-weight='bold'>Y</text><text x='22' y='115' font-size='10'>22°</text><text x='158' y='115' font-size='10'>44°</text></svg>",
     "options": ["Acute-angled triangle", "Right-angled triangle", "Equilateral triangle", "Isosceles triangle"],
     "answer": "Right-angled triangle",
@@ -4762,6 +4796,7 @@
     "topic": "Number Patterns",
     "competition": "SMC Try Out",
     "text": "The figure shows 12 shapes in 2 rows: Row 1: △□△□△□, Row 2: △□△□□□. What is the ratio of total shapes : triangles : squares?",
+    "text_id": "Gambar menunjukkan 12 bangun dalam 2 baris: Baris 1: △□△□△□, Baris 2: △□△□□□. Berapa perbandingan total bangun : segitiga : persegi?",
     "svg": "<svg viewBox='0 0 260 70' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11'><rect x='5' y='5' width='250' height='60' fill='#f9f9f9' stroke='#ccc'/><polygon points='18,45 10,55 26,55' fill='none' stroke='#333' stroke-width='1.5'/><rect x='30' y='43' width='12' height='12' fill='none' stroke='#333' stroke-width='1.5'/><polygon points='55,45 47,55 63,55' fill='none' stroke='#333' stroke-width='1.5'/><rect x='67' y='43' width='12' height='12' fill='none' stroke='#333' stroke-width='1.5'/><polygon points='92,45 84,55 100,55' fill='none' stroke='#333' stroke-width='1.5'/><rect x='104' y='43' width='12' height='12' fill='none' stroke='#333' stroke-width='1.5'/><polygon points='18,15 10,25 26,25' fill='none' stroke='#333' stroke-width='1.5'/><rect x='30' y='13' width='12' height='12' fill='none' stroke='#333' stroke-width='1.5'/><polygon points='55,15 47,25 63,25' fill='none' stroke='#333' stroke-width='1.5'/><rect x='67' y='13' width='12' height='12' fill='none' stroke='#333' stroke-width='1.5'/><rect x='82' y='13' width='12' height='12' fill='none' stroke='#333' stroke-width='1.5'/><rect x='97' y='13' width='12' height='12' fill='none' stroke='#333' stroke-width='1.5'/></svg>",
     "options": ["5:7:12", "7:5:12", "12:7:5", "12:5:7"],
     "answer": "12:5:7",
@@ -4773,6 +4808,7 @@
     "topic": "Arithmetic",
     "competition": "SMC Try Out",
     "text": "Which of the following arranges 1(1/5) km, 1.45 km, 1 km 405 m, and 1(2/5) km from shortest to longest?",
+    "text_id": "Manakah dari berikut ini yang menyusun 1(1/5) km, 1,45 km, 1 km 405 m, dan 1(2/5) km dari yang terpendek ke terpanjang?",
     "options": ["1(1/5) km, 1.45 km, 1 km 405 m", "1.45 km, 1 km 405 m, 1(2/5) km", "1 km 405 m, 1.45 km, 1(2/5) km", "1 km 405 m, 1(2/5) km, 1.45 km"],
     "answer": "1 km 405 m, 1(2/5) km, 1.45 km",
     "grade": "5"
@@ -4783,6 +4819,7 @@
     "topic": "Geometry",
     "competition": "SMC Try Out",
     "text": "The figure is made up of three equal squares ABGH, BCFG and CDEF arranged in a row. Diagonals are drawn in each square. What fraction of the whole figure ADEH is shaded?",
+    "text_id": "Gambar terdiri atas tiga persegi yang sama besar ABGH, BCFG, dan CDEF yang disusun berjajar. Diagonal digambar pada setiap persegi. Berapa bagian dari seluruh gambar ADEH yang diarsir?",
     "svg": "<svg viewBox='0 0 300 110' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11'><rect x='10' y='10' width='280' height='90' fill='white' stroke='#333' stroke-width='1.5'/><line x1='103' y1='10' x2='103' y2='100' stroke='#333' stroke-width='1'/><line x1='197' y1='10' x2='197' y2='100' stroke='#333' stroke-width='1'/><line x1='10' y1='10' x2='103' y2='100' stroke='#333' stroke-width='1'/><line x1='103' y1='10' x2='10' y2='100' stroke='#333' stroke-width='1'/><polygon points='10,10 10,100 65,55' fill='#555'/><line x1='103' y1='10' x2='197' y2='100' stroke='#333' stroke-width='1'/><line x1='197' y1='10' x2='103' y2='100' stroke='#333' stroke-width='1'/><line x1='197' y1='10' x2='290' y2='100' stroke='#333' stroke-width='1'/><line x1='290' y1='10' x2='197' y2='100' stroke='#333' stroke-width='1'/><polygon points='197,10 290,10 290,55' fill='#555'/><text x='10' y='6' font-size='10'>A</text><text x='103' y='6' font-size='10'>B</text><text x='197' y='6' font-size='10'>C</text><text x='290' y='6' font-size='10'>D</text><text x='10' y='108' font-size='10'>H</text><text x='103' y='108' font-size='10'>G</text><text x='197' y='108' font-size='10'>F</text><text x='290' y='108' font-size='10'>E</text></svg>",
     "options": ["1/3", "2/3", "1/6", "2/7"],
     "answer": "1/3",
@@ -4794,6 +4831,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Adeline scored an average of 60 marks for her three tests. She scored the lowest for her last test. Which of the following CANNOT be her scores for the first two tests?",
+    "text_id": "Adeline memperoleh rata-rata 60 nilai untuk tiga ujiannya. Ia memperoleh nilai terendah pada ujian terakhirnya. Manakah dari berikut ini yang TIDAK MUNGKIN menjadi nilai dua ujian pertamanya?",
     "options": ["65, 70", "50, 60", "60, 70", "60, 65"],
     "answer": "50, 60",
     "grade": "5"
@@ -4804,6 +4842,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "First 8 chicken pies cost $1 each. Each additional chicken pie costs an unknown amount. Angela paid $11.20 for 12 chicken pies. What was the cost of each additional chicken pie?",
+    "text_id": "8 pai ayam pertama seharga $1 masing-masing. Setiap pai ayam tambahan seharga sejumlah tertentu yang tidak diketahui. Angela membayar $11,20 untuk 12 pai ayam. Berapa harga setiap pai ayam tambahan?",
     "options": ["$0.80", "$1.60", "$2.00", "$3.20"],
     "answer": "$0.80",
     "grade": "5"
@@ -4814,6 +4853,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Four girls scored the following marks in a Science test (from bar graph): Anna = 88, Belle = 80, Cindy = 68, Daphne = 84. When a fifth girl joined, the average became 83.2. What was the fifth girl's score?",
+    "text_id": "Empat anak perempuan memperoleh nilai berikut pada ujian Sains (dari grafik batang): Anna = 88, Belle = 80, Cindy = 68, Daphne = 84. Ketika anak perempuan kelima bergabung, rata-ratanya menjadi 83,2. Berapa nilai anak perempuan kelima?",
     "svg": "<svg viewBox='0 0 240 160' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='10'><rect x='30' y='10' width='200' height='120' fill='white' stroke='#999' stroke-width='1'/><line x1='30' y1='130' x2='230' y2='130' stroke='#333' stroke-width='1'/><line x1='30' y1='10' x2='30' y2='130' stroke='#333' stroke-width='1'/><rect x='45' y='30' width='25' height='100' fill='#888' stroke='#555'/><rect x='90' y='42' width='25' height='88' fill='#888' stroke='#555'/><rect x='135' y='56' width='25' height='74' fill='#888' stroke='#555'/><rect x='180' y='38' width='25' height='92' fill='#888' stroke='#555'/><text x='57' y='145' text-anchor='middle'>Anna</text><text x='102' y='145' text-anchor='middle'>Belle</text><text x='147' y='145' text-anchor='middle'>Cindy</text><text x='192' y='145' text-anchor='middle'>Daphne</text><text x='22' y='132' text-anchor='end'>0</text><text x='22' y='90' text-anchor='end'>50</text><text x='22' y='50' text-anchor='end'>90</text></svg>",
     "options": ["68", "80", "84", "88"],
     "answer": "96",
@@ -4825,6 +4865,7 @@
     "topic": "Geometry",
     "competition": "SMC Try Out",
     "text": "A trapezium has angles e (top-left), f (top-right), g (bottom-left), h (bottom-right). Which of the following statements is/are true? 1. ∠e = ∠h  2. ∠e + ∠f = 180°  3. ∠e + ∠g = 180°",
+    "text_id": "Sebuah trapesium memiliki sudut e (kiri atas), f (kanan atas), g (kiri bawah), h (kanan bawah). Manakah dari pernyataan berikut yang benar? 1. ∠e = ∠h  2. ∠e + ∠f = 180°  3. ∠e + ∠g = 180°",
     "svg": "<svg viewBox='0 0 200 100' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><polygon points='50,20 150,20 180,80 20,80' fill='none' stroke='#333' stroke-width='1.5'/><text x='46' y='18' font-size='11'>e</text><text x='148' y='18' font-size='11'>f</text><text x='16' y='88' font-size='11'>g</text><text x='180' y='88' font-size='11'>h</text></svg>",
     "options": ["1 only", "3 only", "1 and 2 only", "2 and 3 only"],
     "answer": "3 only",
@@ -4836,6 +4877,7 @@
     "topic": "Number Patterns",
     "competition": "SMC Try Out",
     "text": "Jane made a repeating pattern with 4 shapes: smiley face, cross, square, pentagon (repeating). What is the shape of the 59th sticker?",
+    "text_id": "Jane membuat pola berulang dengan 4 bangun: wajah tersenyum, silang, persegi, segi lima (berulang). Apakah bentuk stiker ke-59?",
     "options": ["Smiley face", "Cross", "Square", "Pentagon"],
     "answer": "Square",
     "grade": "5"
@@ -4846,6 +4888,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "A pizza costs $14.50. Cindy bought 10 such pizzas and 30 identical bottles of soft drink. She gave the cashier $220 and received $3 change. How much did one bottle of soft drink cost?",
+    "text_id": "Sebuah pizza seharga $14,50. Cindy membeli 10 pizza seperti itu dan 30 botol minuman ringan yang identik. Ia memberi kasir $220 dan menerima kembalian $3. Berapa harga satu botol minuman ringan?",
     "options": ["A. $2.40", "B. $2.50", "C. $2.60", "D. $5.50"],
     "answer": "A. $2.40",
     "grade": "5"
@@ -4856,6 +4899,7 @@
     "topic": "Data Analysis",
     "competition": "SMC Try Out",
     "text": "During Library Week, students must read at least a certain number of books to get the Star Reader Award. The table shows the number of books read by 300 students. 40% of the students received the Star Reader Award. What is the least number of books that must be read to get the Star Reader Award?\n\nBooks Read | Students\n0 | 11\n1 | 109\n2 | 60\n3 | 63\n4 | 40\n5 or more | 17",
+    "text_id": "Selama Pekan Perpustakaan, siswa harus membaca sedikitnya sejumlah buku tertentu untuk mendapatkan Penghargaan Star Reader. Tabel menunjukkan jumlah buku yang dibaca oleh 300 siswa. 40% siswa menerima Penghargaan Star Reader. Berapa jumlah buku paling sedikit yang harus dibaca untuk mendapatkan Penghargaan Star Reader?\n\nBuku Dibaca | Siswa\n0 | 11\n1 | 109\n2 | 60\n3 | 63\n4 | 40\n5 atau lebih | 17",
     "options": ["A. 1", "B. 3", "C. 5", "D. 6"],
     "answer": "B. 3",
     "grade": "5"
@@ -4866,6 +4910,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Mrs Ng bought 9.08 kg of flour to bake some cookies. She used 15 g of flour for each cookie. She made 500 cookies. How much flour was left?",
+    "text_id": "Bu Ng membeli 9,08 kg tepung untuk memanggang beberapa kue kering. Ia menggunakan 15 g tepung untuk setiap kue kering. Ia membuat 500 kue kering. Berapa banyak tepung yang tersisa?",
     "options": ["A. 1.58 kg", "B. 2.03 kg", "C. 6.592 kg", "D. 8.33 kg"],
     "answer": "A. 1.58 kg",
     "grade": "5"
@@ -4876,6 +4921,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "The figure shows three objects on a balanced scale. The total mass of objects A, B and C is 5.7 kg. Object A weighs 50 g more than Object B. What is the total mass of Objects B and C?",
+    "text_id": "Gambar menunjukkan tiga benda pada timbangan yang seimbang. Total massa benda A, B, dan C adalah 5,7 kg. Benda A beratnya 50 g lebih banyak daripada Benda B. Berapa total massa Benda B dan C?",
     "svg": "<svg viewBox='0 0 320 160' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='13'><line x1='60' y1='100' x2='260' y2='100' stroke='#333' stroke-width='2'/><polygon points='160,100 145,130 175,130' fill='none' stroke='#333' stroke-width='1.5'/><line x1='60' y1='100' x2='60' y2='75' stroke='#333' stroke-width='1.5'/><line x1='260' y1='100' x2='260' y2='75' stroke='#333' stroke-width='1.5'/><rect x='30' y='55' width='22' height='22' fill='none' stroke='#333' stroke-width='1.5'/><text x='41' y='70' text-anchor='middle' font-weight='bold'>A</text><rect x='54' y='55' width='22' height='22' fill='none' stroke='#333' stroke-width='1.5'/><text x='65' y='70' text-anchor='middle' font-weight='bold'>B</text><circle cx='260' cy='63' r='18' fill='none' stroke='#333' stroke-width='1.5'/><text x='260' y='68' text-anchor='middle' font-weight='bold'>C</text></svg>",
     "options": ["A. 2.85 kg", "B. 3.80 kg", "C. 4.25 kg", "D. 4.75 kg"],
     "answer": "C. 4.25 kg",
@@ -4887,6 +4933,7 @@
     "topic": "Data Analysis",
     "competition": "SMC Try Out",
     "text": "A group of children was asked to choose 1 cupcake each. The table shows the percentage of children who chose each flavour. Strawberry: 30%, Butter: 25%, Chocolate: 35%, Vanilla: 10%. The bar graph shows Vanilla = 10 children. How many more children chose Strawberry than Vanilla?",
+    "text_id": "Sekelompok anak diminta memilih 1 cupcake masing-masing. Tabel menunjukkan persentase anak yang memilih tiap rasa. Stroberi: 30%, Mentega: 25%, Cokelat: 35%, Vanila: 10%. Grafik batang menunjukkan Vanila = 10 anak. Berapa lebih banyak anak yang memilih Stroberi daripada Vanila?",
     "options": ["A. 20", "B. 22", "C. 24", "D. 30"],
     "answer": "A. 20",
     "grade": "5"
@@ -4897,6 +4944,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "A pen costs 95¢ and a marker costs $1.40. Benson bought some pens and markers for $260.55. He bought 30 more markers than pens. How many markers did he buy?",
+    "text_id": "Sebuah pena seharga 95¢ dan sebuah spidol seharga $1,40. Benson membeli beberapa pena dan spidol seharga $260,55. Ia membeli 30 spidol lebih banyak daripada pena. Berapa banyak spidol yang ia beli?",
     "answer": "123",
     "grade": "5"
   },
@@ -4906,6 +4954,7 @@
     "topic": "Geometry",
     "competition": "SMC Try Out",
     "text": "A T-block is made up of 6 unit squares and has a perimeter of 14 cm. The pattern below is made up of identical T-blocks joined in single rows. 1-T Block: perimeter = 14 cm, 2-T Block: perimeter = 22 cm, 3-T Block: perimeter = 30 cm. What is the perimeter of the 55th T-Block in cm?",
+    "text_id": "Sebuah balok-T terdiri atas 6 persegi satuan dan memiliki keliling 14 cm. Pola di bawah ini terdiri atas balok-T identik yang disambung dalam satu baris. Balok 1-T: keliling = 14 cm, Balok 2-T: keliling = 22 cm, Balok 3-T: keliling = 30 cm. Berapa keliling Balok-T ke-55 dalam cm?",
     "answer": "446",
     "grade": "5"
   },
@@ -4915,6 +4964,7 @@
     "topic": "Geometry",
     "competition": "SMC Try Out",
     "text": "In the figure, ABCD and DEFG are two parallelograms. AGB is a straight line. ∠DEF = 50°, ∠DAG = 77° and ∠CDE = 155°. Find ∠ADG.",
+    "text_id": "Pada gambar, ABCD dan DEFG adalah dua jajaran genjang. AGB adalah garis lurus. ∠DEF = 50°, ∠DAG = 77° dan ∠CDE = 155°. Tentukan ∠ADG.",
     "svg": "<svg viewBox='0 0 300 260' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='13'><polygon points='180,20 230,20 200,120 150,120' fill='none' stroke='#333' stroke-width='1.5'/><text x='175' y='15' font-size='12'>F</text><text x='232' y='18' font-size='12'>A</text><text x='200' y='135' font-size='12'>G</text><text x='142' y='135' font-size='12'>B</text><polygon points='60,30 180,20 150,120 40,130' fill='none' stroke='#333' stroke-width='1.5'/><text x='48' y='28' font-size='12'>E</text><text x='148' y='15' font-size='12'>F</text><text x='148' y='135' font-size='12'>D</text><text x='28' y='138' font-size='12'>C</text><text x='62' y='48' font-size='11'>50°</text><text x='176' y='48' font-size='11'>77°</text><text x='32' y='128' font-size='11'>155°</text><line x1='232' y1='20' x2='200' y2='120' stroke='#333' stroke-width='1.5'/><line x1='200' y1='120' x2='200' y2='200' stroke='#333' stroke-width='1' stroke-dasharray='4'/></svg>",
     "answer": "78",
     "grade": "5"
@@ -4925,6 +4975,7 @@
     "topic": "Number Patterns",
     "competition": "SMC Try Out",
     "text": "Lionel uses sticks to form a pattern made up of 5-sided figures. Figure 1: 5 sticks, Figure 2: 9 sticks, Figure 3: 13 sticks (each new figure adds 4 sticks). A figure has a total of 753 sticks. What is the figure number?",
+    "text_id": "Lionel menggunakan batang korek untuk membentuk pola yang terdiri atas bangun bersisi 5. Gambar 1: 5 batang, Gambar 2: 9 batang, Gambar 3: 13 batang (setiap gambar baru menambah 4 batang). Sebuah gambar memiliki total 753 batang. Gambar nomor berapa itu?",
     "answer": "188",
     "grade": "5"
   },
@@ -4934,6 +4985,7 @@
     "topic": "Fractions",
     "competition": "SMC Try Out",
     "text": "Mdm Pang baked some egg tarts and blueberry tarts. 1/4 of the tarts were egg tarts and the rest were blueberry tarts. She gave away 1/2 of the total number of tarts. 1/8 of the tarts given away were egg tarts. There were 70 blueberry tarts left. How many tarts did Mdm Pang bake in total?",
+    "text_id": "Bu Pang memanggang beberapa tart telur dan tart bluberi. 1/4 dari tart adalah tart telur dan sisanya tart bluberi. Ia memberikan 1/2 dari total jumlah tart. 1/8 dari tart yang diberikan adalah tart telur. Tersisa 70 tart bluberi. Berapa total banyak tart yang dipanggang Bu Pang?",
     "svg": "<svg viewBox='0 0 400 90' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='13'><rect x='10' y='20' width='380' height='50' fill='#e8f4ff' stroke='#333' stroke-width='1.5' rx='4'/><line x1='105' y1='20' x2='105' y2='70' stroke='#333' stroke-width='1.5'/><text x='57' y='50' text-anchor='middle' font-size='12'>Egg tarts (¼)</text><text x='242' y='50' text-anchor='middle' font-size='12'>Blueberry tarts (¾)</text><line x1='200' y1='20' x2='200' y2='70' stroke='#555' stroke-width='1' stroke-dasharray='4'/><text x='10' y='14' font-size='11' fill='#555'>Total tarts (T)</text></svg>",
     "answer": "224",
     "grade": "5"
@@ -4944,6 +4996,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "In a contest, there were 50 questions. For every correct answer, contestants were awarded 3 points. 1 point was deducted for each question left blank and 2 points deducted for each wrong answer. Michael left 9 questions blank and scored a total of 64 points. How many questions did he answer correctly?",
+    "text_id": "Dalam sebuah kontes, terdapat 50 soal. Untuk setiap jawaban benar, peserta mendapat 3 poin. 1 poin dikurangi untuk setiap soal yang dikosongkan dan 2 poin dikurangi untuk setiap jawaban salah. Michael mengosongkan 9 soal dan memperoleh total 64 poin. Berapa banyak soal yang ia jawab dengan benar?",
     "answer": "31",
     "grade": "5"
   },
@@ -4953,6 +5006,7 @@
     "topic": "Geometry",
     "competition": "SMC Try Out",
     "text": "The figure is made up of Square ABCD and Rectangle DEFG. The perimeter of Square ABCD is 72 cm longer than the perimeter of Rectangle DEFG. DC = 34 cm and FG = 10 cm (width of rectangle). What is the area of the shaded triangle (vertices E, D, B) in cm²?",
+    "text_id": "Gambar terdiri atas Persegi ABCD dan Persegi Panjang DEFG. Keliling Persegi ABCD 72 cm lebih panjang daripada keliling Persegi Panjang DEFG. DC = 34 cm dan FG = 10 cm (lebar persegi panjang). Berapa luas segitiga yang diarsir (titik sudut E, D, B) dalam cm²?",
     "svg": "<svg viewBox='0 0 320 300' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='13'><rect x='80' y='20' width='200' height='200' fill='none' stroke='#333' stroke-width='2'/><text x='76' y='15' font-size='12'>A</text><text x='283' y='15' font-size='12'>B</text><text x='283' y='232' font-size='12'>C</text><text x='76' y='232' font-size='12'>D</text><rect x='32' y='68' width='48' height='152' fill='none' stroke='#333' stroke-width='2'/><text x='18' y='65' font-size='12'>F</text><text x='18' y='228' font-size='12'>E</text><text x='47' y='148' font-size='12' fill='#555'>10cm</text><line x1='80' y1='228' x2='80' y2='68' stroke='#555' stroke-width='1' stroke-dasharray='3'/><text x='100' y='150' font-size='11' fill='#555'>G</text><polygon points='32,220 80,220 284,20' fill='#aaa' fill-opacity='0.6' stroke='#333' stroke-width='1.5'/><text x='150' y='260' font-size='12' fill='#333'>← 34 cm →</text><line x1='80' y1='255' x2='284' y2='255' stroke='#333' stroke-width='1' marker-start='url(#arr)' marker-end='url(#arr)'/></svg>",
     "answer": "136",
     "grade": "5"
@@ -4963,6 +5017,7 @@
     "topic": "Geometry",
     "competition": "SMC Try Out",
     "text": "In the figure, CDEF is a rectangle with CD = 20 cm and DE = 12 cm. CK, DK, FG and EG are straight lines where G is on CD and K is on FE. GHKJ is the inner quadrilateral formed by the intersections. The area of GHKJ is 70 cm². What percentage of rectangle CDEF is shaded? Give your answer correct to the nearest whole number.",
+    "text_id": "Pada gambar, CDEF adalah persegi panjang dengan CD = 20 cm dan DE = 12 cm. CK, DK, FG, dan EG adalah garis lurus dengan G pada CD dan K pada FE. GHKJ adalah segi empat dalam yang terbentuk oleh perpotongan. Luas GHKJ adalah 70 cm². Berapa persen dari persegi panjang CDEF yang diarsir? Berikan jawaban yang dibulatkan ke bilangan bulat terdekat.",
     "svg": "<svg viewBox='0 0 300 220' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='13'><rect x='30' y='20' width='240' height='144' fill='white' stroke='#333' stroke-width='2'/><text x='20' y='18' font-size='12'>C</text><text x='273' y='18' font-size='12'>D</text><text x='273' y='178' font-size='12'>E</text><text x='20' y='178' font-size='12'>F</text><text x='148' y='15' font-size='12'>G</text><text x='148' y='180' font-size='12'>K</text><text x='75' y='108' font-size='12'>J</text><text x='215' y='108' font-size='12'>H</text><polygon points='30,20 150,20 90,92' fill='#aaa' stroke='none'/><polygon points='150,20 270,20 210,92' fill='#aaa' stroke='none'/><polygon points='30,164 90,92 150,164' fill='#aaa' stroke='none'/><polygon points='150,164 210,92 270,164' fill='#aaa' stroke='none'/><line x1='30' y1='20' x2='150' y2='164' stroke='#333' stroke-width='1.5'/><line x1='270' y1='20' x2='150' y2='164' stroke='#333' stroke-width='1.5'/><line x1='30' y1='164' x2='150' y2='20' stroke='#333' stroke-width='1.5'/><line x1='270' y1='164' x2='150' y2='20' stroke='#333' stroke-width='1.5'/><text x='120' y='115' font-size='11' fill='#555'>GHKJ</text><text x='107' y='128' font-size='11' fill='#555'>= 70 cm²</text><text x='100' y='200' font-size='11'>←— 20 cm —→</text><text x='278' y='100' font-size='11'>12cm</text></svg>",
     "answer": "50",
     "grade": "5"
@@ -4973,6 +5028,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "A box contains some coloured ribbons. 44% of the ribbons are yellow and the rest are pink and blue. The ratio of the number of pink ribbons to blue ribbons is 3 : 5. There are 1748 more yellow ribbons than pink ribbons. How many ribbons are there altogether?",
+    "text_id": "Sebuah kotak berisi beberapa pita berwarna. 44% dari pita berwarna kuning dan sisanya merah muda dan biru. Perbandingan banyak pita merah muda terhadap pita biru adalah 3 : 5. Ada 1748 pita kuning lebih banyak daripada pita merah muda. Berapa total banyak pita seluruhnya?",
     "answer": "7600",
     "grade": "5"
   },
@@ -4982,6 +5038,7 @@
     "topic": "Measurement",
     "competition": "SMC Try Out",
     "text": "Tank X is a rectangular tank measuring 30 cm by 7 cm by 20 cm, and was empty at first. Tank Y was 1/3 filled with water. Some water from Tank Y was poured into Tank X until Tank X was 1/5 full. In the end, the amount of water left in Tank Y was 1860 cm³. What was the capacity of Tank Y in cm³?",
+    "text_id": "Tangki X adalah tangki berbentuk persegi panjang berukuran 30 cm × 7 cm × 20 cm, dan mula-mula kosong. Tangki Y terisi 1/3 dengan air. Sebagian air dari Tangki Y dituang ke Tangki X hingga Tangki X terisi 1/5. Pada akhirnya, jumlah air yang tersisa di Tangki Y adalah 1860 cm³. Berapa kapasitas Tangki Y dalam cm³?",
     "svg": "<svg viewBox='0 0 360 160' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><g transform='translate(10,10)'><polygon points='0,100 40,70 160,70 120,100' fill='none' stroke='#333' stroke-width='1.5'/><polygon points='40,70 40,0 160,0 160,70' fill='none' stroke='#333' stroke-width='1.5'/><polygon points='0,100 40,70 40,0 0,30' fill='none' stroke='#333' stroke-width='1.5'/><line x1='0' y1='30' x2='120' y2='30' stroke='#333' stroke-width='1' stroke-dasharray='3'/><line x1='120' y1='30' x2='160' y2='0' stroke='#333' stroke-width='1' stroke-dasharray='3'/><text x='55' y='115' font-size='11'>30 cm</text><text x='162' y='38' font-size='11'>20 cm</text><text x='162' y='72' font-size='11'>7 cm</text><text x='55' y='135' font-size='11'>Tank X</text></g><g transform='translate(210,10)'><rect x='0' y='0' width='100' height='120' fill='none' stroke='#333' stroke-width='1.5'/><rect x='0' y='40' width='100' height='80' fill='#b8d4f0' fill-opacity='0.6' stroke='none'/><line x1='0' y1='40' x2='100' y2='40' stroke='#4488cc' stroke-width='1.5'/><text x='20' y='28' font-size='11' fill='#555'>← ⅓ full</text><text x='20' y='135' font-size='11'>Tank Y</text></g></svg>",
     "answer": "8100",
     "grade": "5"
@@ -4992,6 +5049,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Aunt Susan collected $3480.80 from the sale of milk shake and bubble tea. She sold 3 times as many cups of milk shake as bubble tea. She collected $131.20 more from the sale of milk shake than from the sale of bubble tea. Each cup of bubble tea costs 90¢ more than a cup of milk shake. How many cups of milk shake did Aunt Susan sell?",
+    "text_id": "Tante Susan mengumpulkan $3480,80 dari penjualan milk shake dan bubble tea. Ia menjual milk shake 3 kali lebih banyak (gelas) daripada bubble tea. Ia mengumpulkan $131,20 lebih banyak dari penjualan milk shake daripada dari penjualan bubble tea. Setiap gelas bubble tea seharga 90¢ lebih mahal daripada segelas milk shake. Berapa banyak gelas milk shake yang dijual Tante Susan?",
     "answer": "3576",
     "grade": "5"
   },
@@ -5001,6 +5059,7 @@
     "topic": "Geometry",
     "competition": "SMC Try Out",
     "text": "In the figure, PRT is a triangle. TU = TS and QS = QR. ∠TSQ = 139° and ∠USR = 110°. Find the sum of ∠SQP and reflex ∠TPR.",
+    "text_id": "Pada gambar, PRT adalah sebuah segitiga. TU = TS dan QS = QR. ∠TSQ = 139° dan ∠USR = 110°. Tentukan jumlah ∠SQP dan refleks ∠TPR.",
     "svg": "<svg viewBox='0 0 340 270' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='13'><polygon points='170,20 20,240 320,240' fill='none' stroke='#333' stroke-width='2'/><text x='164' y='15' font-size='12'>P</text><text x='6' y='252' font-size='12'>T</text><text x='323' y='252' font-size='12'>R</text><line x1='170' y1='20' x2='120' y2='240' stroke='#333' stroke-width='1.5'/><line x1='170' y1='20' x2='240' y2='240' stroke='#333' stroke-width='1.5'/><text x='78' y='185' font-size='12'>U</text><text x='253' y='200' font-size='12'>Q</text><text x='108' y='252' font-size='12'>S</text><text x='108' y='238' font-size='11' fill='#555'>139°</text><text x='200' y='230' font-size='11' fill='#555'>110°</text><path d='M 112,233 A 12,12 0 0 1 128,233' fill='none' stroke='#555' stroke-width='1'/><path d='M 195,233 A 12,12 0 0 1 211,233' fill='none' stroke='#555' stroke-width='1'/></svg>",
     "answer": "343",
     "grade": "5"
@@ -5011,6 +5070,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Gizelle made 32 identical big bows and 25 identical small bows from a roll of ribbon for a party. She made 15 of the big bows and 6 of the small bows using 14.88 m of ribbon. The length of ribbon used for 3 big bows was the same as for 5 small bows. What was the total length of ribbon Gizelle used to make all the bows? Give your answer in cm.",
+    "text_id": "Gizelle membuat 32 pita besar identik dan 25 pita kecil identik dari segulung pita untuk sebuah pesta. Ia membuat 15 pita besar dan 6 pita kecil menggunakan 14,88 m pita. Panjang pita yang digunakan untuk 3 pita besar sama dengan untuk 5 pita kecil. Berapa total panjang pita yang digunakan Gizelle untuk membuat semua pita? Berikan jawaban dalam cm.",
     "answer": "3760",
     "grade": "5"
   },
@@ -5020,6 +5080,7 @@
     "topic": "Geometry",
     "competition": "SMC Try Out",
     "text": "Joelle used some wire to form 3 squares and 3 identical equilateral triangles as shown. AC is a straight line, B is the mid-point of AC, and BC = 42 cm. The triangles (side 13 cm) are on the left of B in a W-pattern, and the squares (side 14 cm) are on the right of B in a row. She had 34 cm of wire left in the end. What was the total length of wire Joelle had at first? Give your answer in cm.",
+    "text_id": "Joelle menggunakan sejumlah kawat untuk membentuk 3 persegi dan 3 segitiga sama sisi identik seperti pada gambar. AC adalah garis lurus, B adalah titik tengah AC, dan BC = 42 cm. Segitiga (sisi 13 cm) berada di kiri B dalam pola W, dan persegi (sisi 14 cm) berada di kanan B dalam satu baris. Pada akhirnya ia memiliki sisa kawat 34 cm. Berapa total panjang kawat yang dimiliki Joelle mula-mula? Berikan jawaban dalam cm.",
     "svg": "<svg viewBox='0 0 400 160' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><line x1='10' y1='110' x2='390' y2='110' stroke='#333' stroke-width='1.5'/><text x='4' y='118' font-size='11'>A</text><text x='195' y='125' font-size='11'>B</text><text x='382' y='118' font-size='11'>C</text><polygon points='10,110 62,110 36,65' fill='none' stroke='#333' stroke-width='1.5'/><polygon points='36,65 62,110 114,110 88,65' fill='none' stroke='#333' stroke-width='1.5'/><polygon points='88,65 114,110 166,110 140,65' fill='none' stroke='#333' stroke-width='1.5'/><line x1='36' y1='65' x2='62' y2='110' stroke='#333' stroke-width='1'/><line x1='88' y1='65' x2='114' y2='110' stroke='#333' stroke-width='1'/><text x='50' y='135' font-size='10'>← 13 cm →</text><rect x='200' y='54' width='56' height='56' fill='none' stroke='#333' stroke-width='1.5'/><rect x='256' y='54' width='56' height='56' fill='none' stroke='#333' stroke-width='1.5'/><rect x='312' y='54' width='56' height='56' fill='none' stroke='#333' stroke-width='1.5'/><text x='210' y='135' font-size='10'>← 14 cm →</text></svg>",
     "answer": "237",
     "grade": "5"
@@ -5030,6 +5091,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Miss Tan and Miss Ong went shopping at Happy Toy Shop. The shop offers 10% discount for 1 toy, and 20% discount for 2 toys and above. Miss Tan bought a Pokémon toy and paid $18.90 for it. Miss Ong bought a Pokémon toy and a Mario toy and paid $40 for them. What was the usual price of the Mario toy?",
+    "text_id": "Bu Tan dan Bu Ong pergi berbelanja di Happy Toy Shop. Toko tersebut menawarkan diskon 10% untuk 1 mainan, dan diskon 20% untuk 2 mainan atau lebih. Bu Tan membeli sebuah mainan Pokémon dan membayar $18,90 untuk itu. Bu Ong membeli sebuah mainan Pokémon dan sebuah mainan Mario dan membayar $40 untuk keduanya. Berapa harga biasa mainan Mario?",
     "answer": "29",
     "grade": "5"
   },
@@ -5039,6 +5101,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "A Premium taxi charges: $4.50 flag down (first 1 km); $0.35 per 400 m (or less) up to 10 km; $0.35 per 350 m (or less) after 10 km; $0.35 per 45 seconds waiting time. Late Night surcharge (midnight–5.59 am): 50% of total charges. John took a taxi at 12.10 a.m. and reached home at 12.35 a.m. Total distance: 19.8 km. Total waiting time: 3 minutes. How much was the taxi fare? Round to the nearest dollar.",
+    "text_id": "Sebuah taksi Premium mengenakan tarif: buka pintu $4,50 (1 km pertama); $0,35 per 400 m (atau kurang) hingga 10 km; $0,35 per 350 m (atau kurang) setelah 10 km; $0,35 per 45 detik waktu tunggu. Surcharge Larut Malam (tengah malam–05.59): 50% dari total tarif. John naik taksi pukul 00.10 dan tiba di rumah pukul 00.35. Total jarak: 19,8 km. Total waktu tunggu: 3 menit. Berapa tarif taksinya? Bulatkan ke dolar terdekat.",
     "answer": "36",
     "grade": "5"
   },
@@ -5048,6 +5111,7 @@
     "topic": "Fractions",
     "competition": "SMC Try Out",
     "text": "Express 0.9% as a fraction in its simplest form.",
+    "text_id": "Nyatakan 0,9% sebagai pecahan dalam bentuk paling sederhana.",
     "options": ["(A) 9/10", "(B) 9/100", "(C) 9/1000", "(D) 9/2000"],
     "svg": "<svg viewBox='0 0 300 110' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif'><text x='20' y='30' font-size='15'>0.9% = 0.9 ÷ 100 = 9 ÷ 1000</text><line x1='20' y1='65' x2='80' y2='65' stroke='#333' stroke-width='1.5'/><text x='40' y='58' font-size='16' text-anchor='middle'>9</text><text x='40' y='82' font-size='16' text-anchor='middle'>1000</text><text x='95' y='72' font-size='14'>(simplest form)</text></svg>",
     "answer": "(C) 9/1000",
@@ -5059,6 +5123,7 @@
     "topic": "Measurement",
     "competition": "SMC Try Out",
     "text": "Express 8036 grams in kilograms.",
+    "text_id": "Nyatakan 8036 gram dalam kilogram.",
     "options": ["A. 8.036 kg", "B. 8.36 kg", "C. 80.36 kg", "D. 803.6 kg"],
     "answer": "A. 8.036 kg",
     "grade": "5"
@@ -5069,6 +5134,7 @@
     "topic": "Data Analysis",
     "competition": "SMC Try Out",
     "text": "The table shows admission tickets sold at the Botanic Gardens on Sunday. A total of 520 visitors went that day. Adult: 240, Child: 200, Senior Citizen: ? What is the ratio of adult tickets to senior citizen tickets to child tickets?",
+    "text_id": "Tabel menunjukkan tiket masuk yang terjual di Botanic Gardens pada hari Minggu. Total 520 pengunjung datang hari itu. Dewasa: 240, Anak: 200, Lansia: ? Berapa perbandingan tiket dewasa terhadap tiket lansia terhadap tiket anak?",
     "options": ["(A) 6:2:5", "(B) 6:5:2", "(C) 6:2:13", "(D) 6:5:13"],
     "answer": "(A) 6:2:5",
     "grade": "5"
@@ -5079,6 +5145,7 @@
     "topic": "Geometry",
     "competition": "SMC Try Out",
     "text": "The figure is made up of triangle ADE and rhombus ABCD. ∠ADC = 72°. Find ∠EAD.",
+    "text_id": "Gambar terdiri atas segitiga ADE dan belah ketupat ABCD. ∠ADC = 72°. Tentukan ∠EAD.",
     "svg": "<svg viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='13'><polygon points='180,30 280,30 260,160 160,160' fill='none' stroke='#333' stroke-width='2'/><text x='176' y='24' font-size='12'>A</text><text x='282' y='24' font-size='12'>B</text><text x='262' y='174' font-size='12'>C</text><text x='148' y='174' font-size='12'>D</text><polygon points='60,160 160,160 180,30' fill='none' stroke='#333' stroke-width='2'/><text x='46' y='174' font-size='12'>E</text><text x='210' y='168' font-size='11' fill='#c00'>72°</text><path d='M 160,148 A 12,12 0 0 1 172,155' fill='none' stroke='#c00' stroke-width='1.5'/><line x1='160' y1='160' x2='260' y2='160' stroke='#333' stroke-width='1'/></svg>",
     "options": ["(A) 18°", "(B) 36°", "(C) 54°", "(D) 108°"],
     "answer": "(A) 18°",
@@ -5090,6 +5157,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Bob and Mary had $360 altogether. After Mary gave 1/5 of her money to Bob, Bob had $24 more than Mary. How much money did Mary give Bob?",
+    "text_id": "Bob dan Mary memiliki total $360. Setelah Mary memberi 1/5 dari uangnya kepada Bob, Bob memiliki $24 lebih banyak daripada Mary. Berapa banyak uang yang diberikan Mary kepada Bob?",
     "options": ["A. $42", "B. $60", "C. $168", "D. $210"],
     "answer": "A. $42",
     "grade": "5"
@@ -5100,6 +5168,7 @@
     "topic": "Number Patterns",
     "competition": "SMC Try Out",
     "text": "Charles has two strips of stickers of equal length. Strip A pattern (period 4): heart, triangle, triangle, cookie. Strip B pattern (period 5): heart, cookie, cookie, cookie, cookie. There are 30 cookie stickers in Strip B. How many triangle stickers are there in Strip A?",
+    "text_id": "Charles memiliki dua strip stiker yang panjangnya sama. Pola Strip A (periode 4): hati, segitiga, segitiga, kue. Pola Strip B (periode 5): hati, kue, kue, kue, kue. Ada 30 stiker kue pada Strip B. Berapa banyak stiker segitiga pada Strip A?",
     "options": ["A. 75", "B. 74", "C. 38", "D. 37"],
     "answer": "A. 75",
     "grade": "5"
@@ -5110,6 +5179,7 @@
     "topic": "Data Analysis",
     "competition": "SMC Try Out",
     "text": "A group of children chose a favourite colour: Red 10%, Blue 20%, Green 25%, Yellow 45%. The bar graph shows Blue = 16 children. What was the total number of children who chose Red and Green?",
+    "text_id": "Sekelompok anak memilih warna favorit: Merah 10%, Biru 20%, Hijau 25%, Kuning 45%. Grafik batang menunjukkan Biru = 16 anak. Berapa total jumlah anak yang memilih Merah dan Hijau?",
     "options": ["A. 28", "B. 35", "C. 36", "D. 45"],
     "answer": "A. 28",
     "grade": "5"
@@ -5120,6 +5190,7 @@
     "topic": "Geometry",
     "competition": "SMC Try Out",
     "text": "Figure 1 shows a right-angled triangle of height 14 cm and base 6 cm. Two such triangles are pasted onto each other to form Figure 2. The shaded (overlapping) area is 20 cm². What is the area of the new shape in Figure 2?",
+    "text_id": "Gambar 1 menunjukkan sebuah segitiga siku-siku dengan tinggi 14 cm dan alas 6 cm. Dua segitiga seperti itu ditempelkan satu sama lain membentuk Gambar 2. Luas yang diarsir (tumpang tindih) adalah 20 cm². Berapa luas bangun baru pada Gambar 2?",
     "svg": "<svg viewBox='0 0 340 180' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><g transform='translate(30,10)'><polygon points='40,0 40,140 100,140' fill='none' stroke='#333' stroke-width='2'/><text x='42' y='75' font-size='11'>14 cm</text><text x='60' y='158' font-size='11'>6 cm</text><rect x='40' y='126' width='10' height='10' fill='none' stroke='#333' stroke-width='1'/><text x='55' y='172' font-size='11'>Figure 1</text></g><g transform='translate(200,10)'><polygon points='20,0 80,50 20,140' fill='none' stroke='#333' stroke-width='1.5'/><polygon points='80,0 20,50 80,140' fill='none' stroke='#333' stroke-width='1.5'/><polygon points='20,50 80,50 80,90 20,90' fill='#bbb' stroke='none'/><polygon points='20,50 50,65 20,90' fill='#bbb' stroke='none'/><polygon points='80,50 50,65 80,90' fill='#bbb' stroke='none'/><text x='30' y='172' font-size='11'>Figure 2 (shaded = 20 cm²)</text></g></svg>",
     "options": ["A. 22 cm²", "B. 42 cm²", "C. 44 cm²", "D. 64 cm²"],
     "answer": "D. 64 cm²",
@@ -5131,6 +5202,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Jane and Zack baked cookies over two days. On Monday, Jane baked 15 more cookies than Zack. On Tuesday, Jane baked another 21 and Zack baked another 9. At the end, Zack baked 3/7 of the total. How many cookies did Jane bake?",
+    "text_id": "Jane dan Zack memanggang kue kering selama dua hari. Pada hari Senin, Jane memanggang 15 kue kering lebih banyak daripada Zack. Pada hari Selasa, Jane memanggang 21 lagi dan Zack memanggang 9 lagi. Pada akhirnya, Zack memanggang 3/7 dari total. Berapa banyak kue kering yang dipanggang Jane?",
     "options": ["A. 27", "B. 45", "C. 81", "D. 108"],
     "answer": "D. 108",
     "grade": "5"
@@ -5141,6 +5213,7 @@
     "topic": "Fractions",
     "competition": "SMC Try Out",
     "text": "Mdm Aini bought equal amounts of red beans and green beans. She cooked an equal amount of each. She had 3/4 of the red beans and 3/8 of the green beans left. What fraction of all the beans she bought was cooked?",
+    "text_id": "Bu Aini membeli kacang merah dan kacang hijau dalam jumlah yang sama. Ia memasak masing-masing dalam jumlah yang sama. Ia menyisakan 3/4 dari kacang merah dan 3/8 dari kacang hijau. Berapa bagian dari seluruh kacang yang ia beli yang dimasak?",
     "svg": "<svg viewBox='0 0 380 100' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='13'><rect x='10' y='15' width='160' height='30' fill='#fdd' stroke='#c33' stroke-width='1.5' rx='3'/><rect x='10' y='15' width='40' height='30' fill='#f88' stroke='#c33' stroke-width='1.5' rx='3'/><text x='20' y='35' font-size='11'>cooked</text><text x='65' y='35' font-size='11' fill='#555'>← ¾ left →</text><text x='90' y='60' font-size='11'>Red beans (1 unit)</text><rect x='10' y='65' width='160' height='30' fill='#dfd' stroke='#393' stroke-width='1.5' rx='3'/><rect x='10' y='65' width='40' height='30' fill='#8d8' stroke='#393' stroke-width='1.5' rx='3'/><text x='15' y='85' font-size='10'>cooked</text><text x='55' y='85' font-size='11' fill='#555'>← ⅜ left —————→</text><text x='90' y='110' font-size='11'>Green beans (1 unit)</text><text x='200' y='40' font-size='12'>Red cooked = 1 − ¾ = ¼</text><text x='200' y='65' font-size='12'>Green cooked = 1 − ⅜ = ⅝</text><text x='200' y='90' font-size='12'>Total cooked = (¼ + ⅝) ÷ 2 = 7/16</text></svg>",
     "options": ["(A) 5/14", "(B) 7/8", "(C) 7/16", "(D) 9/14"],
     "answer": "(C) 7/16",
@@ -5152,6 +5225,7 @@
     "topic": "Geometry",
     "competition": "SMC Try Out",
     "text": "ABCD is a trapezium with AD∥BC. FED and AEC are straight lines intersecting at E inside the trapezium. Which of the following statements is NOT true?",
+    "text_id": "ABCD adalah trapesium dengan AD∥BC. FED dan AEC adalah garis lurus yang berpotongan di E di dalam trapesium. Manakah dari pernyataan berikut yang TIDAK benar?",
     "svg": "<svg viewBox='0 0 300 200' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='13'><polygon points='60,30 240,30 280,170 20,170' fill='none' stroke='#333' stroke-width='2'/><text x='54' y='24' font-size='12'>A</text><text x='238' y='24' font-size='12'>D</text><text x='8' y='180' font-size='12'>B</text><text x='278' y='180' font-size='12'>C</text><line x1='60' y1='30' x2='220' y2='170' stroke='#333' stroke-width='1.5'/><line x1='240' y1='30' x2='80' y2='170' stroke='#333' stroke-width='1.5'/><text x='153' y='95' font-size='12'>E</text><text x='72' y='180' font-size='12'>F</text><line x1='60' y1='30' x2='60' y2='30' stroke='none'/><text x='110' y='12' font-size='11' fill='#555'>→</text><text x='175' y='12' font-size='11' fill='#555'>→</text><text x='95' y='185' font-size='11' fill='#555'>→</text><text x='200' y='185' font-size='11' fill='#555'>→</text></svg>",
     "options": ["(A) ∠AEF = ∠DEC", "(B) ∠ABC + ∠DCB = 180°", "(C) ∠ADE + ∠DAE = ∠EFC + ∠FCE", "(D) ∠ABF + ∠BFE + ∠EDA + ∠DAB = 360°"],
     "answer": "(D) ∠ABF + ∠BFE + ∠EDA + ∠DAB = 360°",
@@ -5163,6 +5237,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "A machine started printing at 10.00 a.m. on Wednesday at 700 posters per hour. After every 6 hours of printing, it stopped for 1 hour. How many posters were printed by 12 noon the next day (Thursday)?",
+    "text_id": "Sebuah mesin mulai mencetak pukul 10.00 pada hari Rabu dengan laju 700 poster per jam. Setelah setiap 6 jam mencetak, mesin berhenti selama 1 jam. Berapa banyak poster yang tercetak hingga pukul 12 siang keesokan harinya (Kamis)?",
     "options": ["A. 14 000", "B. 15 400", "C. 16 100", "D. 18 200"],
     "answer": "C. 16 100",
     "grade": "5"
@@ -5173,6 +5248,7 @@
     "topic": "Geometry",
     "competition": "SMC Try Out",
     "text": "A rectangle is divided into four parts W, X, Y and Z by two lines from a point on the top edge to the two bottom corners, and a diagonal. Area Z : Area Y = 2 : 1 and Area Z : Area W = 4 : 1. What is the ratio of Area Y to Area X?",
+    "text_id": "Sebuah persegi panjang dibagi menjadi empat bagian W, X, Y, dan Z oleh dua garis dari sebuah titik pada sisi atas ke dua sudut bawah, dan sebuah diagonal. Luas Z : Luas Y = 2 : 1 dan Luas Z : Luas W = 4 : 1. Berapa perbandingan Luas Y terhadap Luas X?",
     "svg": "<svg viewBox='0 0 300 180' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='13'><rect x='20' y='20' width='260' height='140' fill='none' stroke='#333' stroke-width='2'/><line x1='20' y1='20' x2='280' y2='160' stroke='#333' stroke-width='1.5'/><line x1='120' y1='20' x2='20' y2='160' stroke='#333' stroke-width='1.5'/><line x1='120' y1='20' x2='280' y2='160' stroke='#333' stroke-width='1.5'/><text x='115' y='14' font-size='12'>W</text><text x='200' y='70' font-size='14' font-weight='bold'>X</text><text x='75' y='100' font-size='14' font-weight='bold'>Z</text><text x='185' y='140' font-size='14' font-weight='bold'>Y</text></svg>",
     "options": ["(A) 1:2", "(B) 1:5", "(C) 2:5", "(D) 2:3"],
     "answer": "(C) 2:5",
@@ -5184,6 +5260,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "The original price of a bag was $28. James bought 10 such bags. He was given a discount of $3 for every 2 bags. How much did he pay altogether?",
+    "text_id": "Harga asli sebuah tas adalah $28. James membeli 10 tas seperti itu. Ia diberi diskon $3 untuk setiap 2 tas. Berapa total yang ia bayar?",
     "options": ["A. $8", "B. $13", "C. $260", "D. $265"],
     "answer": "D. $265",
     "grade": "5"
@@ -5194,6 +5271,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Sour plums are sold at $3 per 200 g. For every 2 kg of sour plums purchased, 150 g are given free. How much will Sue need to pay if she wants to have exactly 4.5 kg of sour plums?",
+    "text_id": "Buah plum asam dijual seharga $3 per 200 g. Untuk setiap pembelian 2 kg plum asam, 150 g diberikan gratis. Berapa yang harus dibayar Sue jika ia ingin memperoleh tepat 4,5 kg plum asam?",
     "options": ["A. $60", "B. $63", "C. $66", "D. $69"],
     "answer": "B. $63",
     "grade": "5"
@@ -5204,6 +5282,7 @@
     "topic": "Fractions",
     "competition": "SMC Try Out",
     "text": "Ben had some money. He spent 1/5 of his money on a backpack and 4/9 of his remaining money on a pair of shoes. The amount of money left was $12.80 more than the amount he spent on the shoes. How much money did Ben have at first?",
+    "text_id": "Ben memiliki sejumlah uang. Ia menghabiskan 1/5 dari uangnya untuk sebuah ransel dan 4/9 dari sisa uangnya untuk sepasang sepatu. Jumlah uang yang tersisa adalah $12,80 lebih banyak daripada jumlah yang ia belanjakan untuk sepatu. Berapa banyak uang yang dimiliki Ben mula-mula?",
     "svg": "<svg viewBox='0 0 400 130' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><rect x='10' y='15' width='380' height='30' fill='#e8f4ff' stroke='#336' stroke-width='1.5' rx='3'/><text x='15' y='35' font-size='11' fill='#336'>Total money (5 units)</text><rect x='10' y='15' width='76' height='30' fill='#99bbff' stroke='#336' stroke-width='1.5' rx='3'/><text x='13' y='35' font-size='10'>Backpack</text><text x='13' y='46' font-size='10'>(⅕)</text><rect x='10' y='60' width='304' height='28' fill='#eee' stroke='#666' stroke-width='1.5' rx='3'/><text x='15' y='78' font-size='11'>Remaining (4/5)</text><rect x='10' y='60' width='135' height='28' fill='#ffccaa' stroke='#a63' stroke-width='1.5' rx='3'/><text x='13' y='75' font-size='10'>Shoes (4/9 of remaining)</text><rect x='148' y='60' width='166' height='28' fill='#ccffcc' stroke='#363' stroke-width='1.5' rx='3'/><text x='152' y='78' font-size='10'>Left over — $12.80 more than shoes</text></svg>",
     "answer": "144",
     "grade": "5"
@@ -5214,6 +5293,7 @@
     "topic": "Data Analysis",
     "competition": "SMC Try Out",
     "text": "A line graph shows the total number of children who visited an amusement park within the first 6 months of its opening (recorded on the last day of each month). Jan: 200, Feb: 600, Mar: 1400, Apr: 400, May: 400, Jun: 1200. The total number of people who visited was 4 times the total number of children. What was the average number of adults who visited per month from Jan to Jun?",
+    "text_id": "Sebuah grafik garis menunjukkan total jumlah anak yang mengunjungi sebuah taman hiburan dalam 6 bulan pertama sejak pembukaannya (dicatat pada hari terakhir setiap bulan). Jan: 200, Feb: 600, Mar: 1400, Apr: 400, Mei: 400, Jun: 1200. Total jumlah orang yang berkunjung adalah 4 kali total jumlah anak. Berapa rata-rata jumlah orang dewasa yang berkunjung per bulan dari Jan hingga Jun?",
     "svg": "<svg viewBox='0 0 360 220' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11'><line x1='50' y1='10' x2='50' y2='180' stroke='#333' stroke-width='1.5'/><line x1='50' y1='180' x2='340' y2='180' stroke='#333' stroke-width='1.5'/><text x='5' y='14' font-size='10'>1600</text><text x='5' y='42' font-size='10'>1400</text><text x='5' y='70' font-size='10'>1200</text><text x='5' y='98' font-size='10'>1000</text><text x='5' y='126' font-size='10'>800</text><text x='5' y='154' font-size='10'>600</text><text x='5' y='170' font-size='10'>400</text><text x='5' y='186' font-size='10'>200</text><line x1='48' y1='14' x2='52' y2='14' stroke='#333'/><line x1='48' y1='42' x2='52' y2='42' stroke='#333'/><line x1='48' y1='70' x2='52' y2='70' stroke='#333'/><line x1='48' y1='98' x2='52' y2='98' stroke='#333'/><line x1='48' y1='126' x2='52' y2='126' stroke='#333'/><line x1='48' y1='154' x2='52' y2='154' stroke='#333'/><line x1='48' y1='170' x2='52' y2='170' stroke='#333'/><line x1='48' y1='186' x2='52' y2='186' stroke='#333'/><text x='65' y='195' font-size='10'>Jan</text><text x='105' y='195' font-size='10'>Feb</text><text x='145' y='195' font-size='10'>Mar</text><text x='185' y='195' font-size='10'>Apr</text><text x='225' y='195' font-size='10'>May</text><text x='265' y='195' font-size='10'>Jun</text><text x='160' y='212' font-size='11'>Month</text><text x='-60' y='100' font-size='10' transform='rotate(-90,15,100)'>Number of children</text><polyline points='70,169 110,154 150,42 190,170 230,170 270,70' fill='none' stroke='#336' stroke-width='2'/><circle cx='70' cy='169' r='3' fill='#336'/><circle cx='110' cy='154' r='3' fill='#336'/><circle cx='150' cy='42' r='3' fill='#336'/><circle cx='190' cy='170' r='3' fill='#336'/><circle cx='230' cy='170' r='3' fill='#336'/><circle cx='270' cy='70' r='3' fill='#336'/></svg>",
     "answer": "2100",
     "grade": "5"
@@ -5224,6 +5304,7 @@
     "topic": "Geometry",
     "competition": "SMC Try Out",
     "text": "In the figure, BCD is an isosceles triangle (BC = CD). ABFG and CDE are straight lines. BD // FE. ∠BCD = 102° and ∠ABC = 74°. Find ∠BFE.",
+    "text_id": "Pada gambar, BCD adalah segitiga sama kaki (BC = CD). ABFG dan CDE adalah garis lurus. BD // FE. ∠BCD = 102° dan ∠ABC = 74°. Tentukan ∠BFE.",
     "svg": "<svg viewBox='0 0 340 240' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='13'><line x1='20' y1='200' x2='320' y2='200' stroke='#333' stroke-width='2'/><text x='14' y='214' font-size='12'>A</text><text x='115' y='214' font-size='12'>B</text><text x='205' y='214' font-size='12'>F</text><text x='313' y='214' font-size='12'>G</text><line x1='120' y1='200' x2='160' y2='80' stroke='#333' stroke-width='1.5'/><line x1='210' y1='200' x2='240' y2='80' stroke='#333' stroke-width='1.5'/><line x1='160' y1='80' x2='240' y2='80' stroke='#333' stroke-width='1.5'/><line x1='160' y1='80' x2='290' y2='30' stroke='#333' stroke-width='1.5'/><text x='155' y='74' font-size='12'>C</text><text x='238' y='74' font-size='12'>D</text><text x='288' y='26' font-size='12'>E</text><text x='155' y='95' font-size='11' fill='#c00'>102°</text><text x='108' y='196' font-size='11' fill='#c00'>74°</text><line x1='155' y1='82' x2='165' y2='82' stroke='#555' stroke-width='1'/><line x1='235' y1='82' x2='245' y2='82' stroke='#555' stroke-width='1'/></svg>",
     "answer": "113",
     "grade": "5"
@@ -5234,6 +5315,7 @@
     "topic": "Number Patterns",
     "competition": "SMC Try Out",
     "text": "A pattern is made up of toothpicks forming triangles. Figure n has n² small triangles and uses 3n(n+1)/2 toothpicks. Figure 1: 1 triangle, 3 toothpicks. Figure 2: 4 triangles, 9 toothpicks. Figure 3: 9 triangles, 18 toothpicks. Figure 4: 16 triangles, 30 toothpicks. Find the number of toothpicks used to form the figure which has 225 triangles.",
+    "text_id": "Sebuah pola dibuat dari tusuk gigi yang membentuk segitiga. Gambar n memiliki n² segitiga kecil dan menggunakan 3n(n+1)/2 tusuk gigi. Gambar 1: 1 segitiga, 3 tusuk gigi. Gambar 2: 4 segitiga, 9 tusuk gigi. Gambar 3: 9 segitiga, 18 tusuk gigi. Gambar 4: 16 segitiga, 30 tusuk gigi. Tentukan banyak tusuk gigi yang digunakan untuk membentuk gambar yang memiliki 225 segitiga.",
     "svg": "<svg viewBox='0 0 380 130' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><g transform='translate(10,10)'><polygon points='20,80 50,80 35,55' fill='none' stroke='#333' stroke-width='1.5'/><text x='28' y='98' font-size='11'>Fig 1</text></g><g transform='translate(80,10)'><polygon points='20,80 80,80 50,28' fill='none' stroke='#333' stroke-width='1.5'/><line x1='35' y1='54' x2='65' y2='54' stroke='#333' stroke-width='1.5'/><line x1='35' y1='54' x2='50' y2='80' stroke='#333' stroke-width='1.5'/><line x1='65' y1='54' x2='50' y2='80' stroke='#333' stroke-width='1.5'/><text x='30' y='98' font-size='11'>Fig 2</text></g><g transform='translate(190,10)'><polygon points='10,90 100,90 55,15' fill='none' stroke='#333' stroke-width='1.5'/><line x1='32' y1='53' x2='78' y2='53' stroke='#333' stroke-width='1.5'/><line x1='32' y1='53' x2='55' y2='90' stroke='#333' stroke-width='1.5'/><line x1='78' y1='53' x2='55' y2='90' stroke='#333' stroke-width='1.5'/><line x1='21' y1='72' x2='44' y2='72' stroke='#333' stroke-width='1'/><line x1='66' y1='72' x2='89' y2='72' stroke='#333' stroke-width='1'/><line x1='44' y1='72' x2='55' y2='53' stroke='#333' stroke-width='1'/><line x1='66' y1='72' x2='55' y2='53' stroke='#333' stroke-width='1'/><text x='38' y='108' font-size='11'>Fig 3</text></g><text x='160' y='55' font-size='18'>→</text><text x='150' y='75' font-size='11'>n²=225</text><text x='150' y='90' font-size='11'>n=15</text></svg>",
     "answer": "360",
     "grade": "5"
@@ -5244,6 +5326,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "The mass of each small metal ball is 2/3 the mass of each big metal ball. The left pan has 6 small balls and the right pan has 2 big balls. How many more big metal balls must be added to the right pan to balance the scale?",
+    "text_id": "Massa setiap bola logam kecil adalah 2/3 dari massa setiap bola logam besar. Piring kiri berisi 6 bola kecil dan piring kanan berisi 2 bola besar. Berapa banyak bola logam besar lagi yang harus ditambahkan ke piring kanan agar timbangan seimbang?",
     "svg": "<svg viewBox='0 0 300 160' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><line x1='150' y1='40' x2='150' y2='100' stroke='#333' stroke-width='2'/><line x1='70' y1='70' x2='230' y2='70' stroke='#333' stroke-width='2'/><line x1='70' y1='70' x2='70' y2='90' stroke='#333' stroke-width='1.5'/><line x1='230' y1='70' x2='230' y2='90' stroke='#333' stroke-width='1.5'/><ellipse cx='70' cy='95' rx='40' ry='8' fill='none' stroke='#333' stroke-width='1.5'/><ellipse cx='230' cy='95' rx='30' ry='8' fill='none' stroke='#333' stroke-width='1.5'/><circle cx='52' cy='90' r='7' fill='#aaa' stroke='#555' stroke-width='1'/><circle cx='66' cy='90' r='7' fill='#aaa' stroke='#555' stroke-width='1'/><circle cx='80' cy='90' r='7' fill='#aaa' stroke='#555' stroke-width='1'/><circle cx='52' cy='100' r='7' fill='#aaa' stroke='#555' stroke-width='1'/><circle cx='66' cy='100' r='7' fill='#aaa' stroke='#555' stroke-width='1'/><circle cx='80' cy='100' r='7' fill='#aaa' stroke='#555' stroke-width='1'/><circle cx='218' cy='90' r='11' fill='#888' stroke='#444' stroke-width='1.5'/><circle cx='242' cy='90' r='11' fill='#888' stroke='#444' stroke-width='1.5'/><text x='55' y='125' font-size='10'>6 small balls</text><text x='210' y='125' font-size='10'>2 big balls</text><text x='100' y='50' font-size='10' fill='#555'>small = ⅔ × big</text></svg>",
     "answer": "2",
     "grade": "5"
@@ -5254,6 +5337,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Identical boxes were stacked in a cupboard 1.75 m wide. Figure 1: 11 boxes arranged leaving a 24 cm gap at the top and a gap at the side. Figure 2: 10 boxes arranged leaving a 54 cm gap at the top, filling the full width. Each box is 35 cm wide and 30 cm tall. What is the height of the cupboard in cm?",
+    "text_id": "Kotak-kotak identik ditumpuk di dalam lemari selebar 1,75 m. Gambar 1: 11 kotak disusun menyisakan celah 24 cm di bagian atas dan celah di sisi. Gambar 2: 10 kotak disusun menyisakan celah 54 cm di bagian atas, memenuhi seluruh lebar. Setiap kotak lebarnya 35 cm dan tingginya 30 cm. Berapa tinggi lemari tersebut dalam cm?",
     "svg": "<svg viewBox='0 0 340 220' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11'><rect x='10' y='10' width='140' height='180' fill='none' stroke='#333' stroke-width='2'/><text x='55' y='8' font-size='11'>Cupboard</text><text x='12' y='28' font-size='10'>24cm↕</text><rect x='10' y='30' width='35' height='30' fill='#ccc' stroke='#666' stroke-width='1'/><rect x='45' y='30' width='35' height='30' fill='#ccc' stroke='#666' stroke-width='1'/><rect x='80' y='30' width='35' height='30' fill='#ccc' stroke='#666' stroke-width='1'/><rect x='10' y='60' width='35' height='30' fill='#ccc' stroke='#666' stroke-width='1'/><rect x='45' y='60' width='35' height='30' fill='#ccc' stroke='#666' stroke-width='1'/><rect x='80' y='60' width='35' height='30' fill='#ccc' stroke='#666' stroke-width='1'/><rect x='10' y='90' width='35' height='30' fill='#ccc' stroke='#666' stroke-width='1'/><rect x='45' y='90' width='35' height='30' fill='#ccc' stroke='#666' stroke-width='1'/><rect x='80' y='90' width='35' height='30' fill='#ccc' stroke='#666' stroke-width='1'/><rect x='10' y='120' width='35' height='30' fill='#ccc' stroke='#666' stroke-width='1'/><rect x='45' y='120' width='35' height='30' fill='#ccc' stroke='#666' stroke-width='1'/><text x='30' y='200' font-size='10'>← 1.75 m →</text><text x='170' y='8' font-size='11'>Cupboard</text><rect x='190' y='10' width='140' height='180' fill='none' stroke='#333' stroke-width='2'/><text x='192' y='28' font-size='10'>54cm↕</text><rect x='190' y='64' width='28' height='30' fill='#ccc' stroke='#666' stroke-width='1'/><rect x='218' y='64' width='28' height='30' fill='#ccc' stroke='#666' stroke-width='1'/><rect x='246' y='64' width='28' height='30' fill='#ccc' stroke='#666' stroke-width='1'/><rect x='274' y='64' width='28' height='30' fill='#ccc' stroke='#666' stroke-width='1'/><rect x='302' y='64' width='28' height='30' fill='#ccc' stroke='#666' stroke-width='1'/><rect x='190' y='94' width='28' height='30' fill='#ccc' stroke='#666' stroke-width='1'/><rect x='218' y='94' width='28' height='30' fill='#ccc' stroke='#666' stroke-width='1'/><rect x='246' y='94' width='28' height='30' fill='#ccc' stroke='#666' stroke-width='1'/><rect x='274' y='94' width='28' height='30' fill='#ccc' stroke='#666' stroke-width='1'/><rect x='302' y='94' width='28' height='30' fill='#ccc' stroke='#666' stroke-width='1'/><text x='205' y='200' font-size='10'>← 1.75 m →</text></svg>",
     "answer": "114",
     "grade": "5"
@@ -5264,6 +5348,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "George had some marbles. He lost 17 in a match, then divided the rest equally into 3 containers. He bought 14 more and put them in container 1, then bought 32 more for container 2. He added no extra to container 3. In the end he had twice as many marbles as he started with. How many marbles were in container 3?",
+    "text_id": "George memiliki beberapa kelereng. Ia kehilangan 17 dalam sebuah pertandingan, lalu membagi sisanya sama rata ke dalam 3 wadah. Ia membeli 14 lagi dan memasukkannya ke wadah 1, lalu membeli 32 lagi untuk wadah 2. Ia tidak menambahkan apa pun ke wadah 3. Pada akhirnya ia memiliki kelereng dua kali lebih banyak daripada saat mula-mula. Berapa banyak kelereng di wadah 3?",
     "answer": "4",
     "grade": "5"
   },
@@ -5273,6 +5358,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Files and notebooks are sold at a bookshop. Notebooks cost $5.70 each. Mr Lee bought 24 files. Mr Tan bought 8 files and 20 notebooks and paid $62 more than Mr Lee. How much did Mr Lee spend on the files?",
+    "text_id": "Map dan buku tulis dijual di sebuah toko buku. Buku tulis seharga $5,70 masing-masing. Pak Lee membeli 24 map. Pak Tan membeli 8 map dan 20 buku tulis dan membayar $62 lebih banyak daripada Pak Lee. Berapa yang dibelanjakan Pak Lee untuk map?",
     "answer": "78",
     "grade": "5"
   },
@@ -5282,6 +5368,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "The average height of a group of children was 1.5 m. When 2 more children of heights 1.51 m and 1.59 m joined, the average height became 1.52 m. How many children were in the group in the end?",
+    "text_id": "Rata-rata tinggi sekelompok anak adalah 1,5 m. Ketika 2 anak lagi dengan tinggi 1,51 m dan 1,59 m bergabung, rata-rata tinggi menjadi 1,52 m. Berapa banyak anak dalam kelompok pada akhirnya?",
     "answer": "5",
     "grade": "5"
   },
@@ -5291,6 +5378,7 @@
     "topic": "Measurement",
     "competition": "SMC Try Out",
     "text": "A rectangular tank (22 cm × 10 cm × 18 cm) was 1/3 filled with water. Four bottles each containing 440 ml of syrup were added. A cubical container of side 12 cm was filled with water and poured into the rectangular tank to fill it to the brim. How much water was left in the cubical container? Give your answer in cm³.",
+    "text_id": "Sebuah tangki persegi panjang (22 cm × 10 cm × 18 cm) terisi 1/3 dengan air. Empat botol yang masing-masing berisi 440 ml sirup ditambahkan. Sebuah wadah berbentuk kubus dengan sisi 12 cm diisi penuh dengan air dan dituang ke tangki persegi panjang untuk mengisinya sampai penuh. Berapa banyak air yang tersisa di wadah kubus? Berikan jawaban dalam cm³.",
     "svg": "<svg viewBox='0 0 360 160' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11'><g transform='translate(80,10)'><polygon points='0,100 30,70 170,70 140,100' fill='none' stroke='#333' stroke-width='1.5'/><polygon points='30,70 30,10 170,10 170,70' fill='none' stroke='#333' stroke-width='1.5'/><polygon points='0,100 30,70 30,10 0,40' fill='none' stroke='#333' stroke-width='1.5'/><rect x='30' y='57' width='140' height='13' fill='#b8d4f0' fill-opacity='0.7'/><text x='55' y='110' font-size='10'>22 cm</text><text x='172' y='42' font-size='10'>18 cm</text><text x='172' y='75' font-size='10'>10 cm</text><text x='55' y='128' font-size='10'>Rectangular tank (⅓ full)</text></g><g transform='translate(280,20)'><rect x='0' y='0' width='50' height='50' fill='#ddd' stroke='#333' stroke-width='1.5'/><text x='5' y='65' font-size='10'>12 cm cube</text></g></svg>",
     "answer": "848",
     "grade": "5"
@@ -5301,6 +5389,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Jonathan has 4 boxes A, B, C and D. The total mass of A and C is 21.45 kg. The total mass of B, C and D is 32.7 kg. The total mass of all 4 boxes is 5 times the mass of box C. What is the mass of box C? Give your answer in grams.",
+    "text_id": "Jonathan memiliki 4 kotak A, B, C, dan D. Total massa A dan C adalah 21,45 kg. Total massa B, C, dan D adalah 32,7 kg. Total massa keempat kotak adalah 5 kali massa kotak C. Berapa massa kotak C? Berikan jawaban dalam gram.",
     "answer": "9025",
     "grade": "5"
   },
@@ -5310,6 +5399,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "In a ceremony, adults to children = 3:2. Men to women = 2:3. Equal number of boys and girls. There were 644 more women than girls. When some women left, the number of men and women became equal. How many women left the ceremony?",
+    "text_id": "Dalam sebuah upacara, perbandingan dewasa terhadap anak = 3:2. Laki-laki terhadap perempuan = 2:3. Jumlah anak laki-laki dan anak perempuan sama. Ada 644 perempuan lebih banyak daripada anak perempuan. Ketika sebagian perempuan pergi, jumlah laki-laki dan perempuan menjadi sama. Berapa banyak perempuan yang meninggalkan upacara?",
     "answer": "483",
     "grade": "5"
   },
@@ -5319,6 +5409,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Ariel had 296 stickers. Benny had 60 stickers less than Cathy. Benny had 35% of the total number of stickers. Daniel had 1/5 of the stickers that Cathy had. How many stickers did Daniel have?",
+    "text_id": "Ariel memiliki 296 stiker. Benny memiliki 60 stiker lebih sedikit daripada Cathy. Benny memiliki 35% dari total jumlah stiker. Daniel memiliki 1/5 dari stiker yang dimiliki Cathy. Berapa banyak stiker yang dimiliki Daniel?",
     "answer": "124",
     "grade": "5"
   },
@@ -5328,6 +5419,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "A box contains red, blue, green and white marbles. 40% are red. Blue = 3/5 of red. Green:white = 3:1. There are 390 more red marbles than green marbles. How many marbles are in the box altogether?",
+    "text_id": "Sebuah kotak berisi kelereng merah, biru, hijau, dan putih. 40% berwarna merah. Biru = 3/5 dari merah. Hijau:putih = 3:1. Ada 390 kelereng merah lebih banyak daripada kelereng hijau. Berapa total banyak kelereng dalam kotak seluruhnya?",
     "answer": "3000",
     "grade": "5"
   },
@@ -5337,6 +5429,7 @@
     "topic": "Word Problem",
     "competition": "SMC Try Out",
     "text": "Shane and Kevin shared some stamps. If Shane gave away 76, the ratio of Shane's to Kevin's stamps would be 2:5. If Kevin gave away 76, the ratio of Shane's to Kevin's stamps would be 10:11. How many stamps did the two boys have altogether?",
+    "text_id": "Shane dan Kevin berbagi sejumlah perangko. Jika Shane memberikan 76, perbandingan perangko Shane terhadap Kevin menjadi 2:5. Jika Kevin memberikan 76, perbandingan perangko Shane terhadap Kevin menjadi 10:11. Berapa total banyak perangko yang dimiliki kedua anak seluruhnya?",
     "answer": "475",
     "grade": "5"
   },
@@ -5346,6 +5439,7 @@
     "topic": "Measurement",
     "competition": "SMC Try Out",
     "text": "A sealed L-shaped container (partially filled with oil) has dimensions: base 27 cm wide, two sections each 14 cm tall, upper section 14 cm wide, depth 16 cm. The air space in the upright position was 3360 cm³. Find the volume of oil in the container in cm³.",
+    "text_id": "Sebuah wadah tertutup berbentuk huruf L (terisi sebagian oleh minyak) memiliki ukuran: lebar alas 27 cm, dua bagian yang masing-masing tingginya 14 cm, bagian atas lebarnya 14 cm, kedalaman 16 cm. Ruang udara pada posisi tegak adalah 3360 cm³. Tentukan volume minyak dalam wadah tersebut dalam cm³.",
     "svg": "<svg viewBox='0 0 360 200' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11'><g transform='translate(20,10)'><polygon points='0,160 0,0 40,0 40,80 120,80 120,160' fill='none' stroke='#333' stroke-width='2'/><rect x='0' y='100' width='40' height='60' fill='#f0d060' fill-opacity='0.7'/><rect x='40' y='110' width='80' height='50' fill='#f0d060' fill-opacity='0.7'/><text x='42' y='40' font-size='10'>14 cm</text><text x='42' y='90' font-size='10'>↕ 14 cm</text><text x='50' y='172' font-size='10'>←— 27 cm —→</text><text x='-18' y='80' font-size='10'>Air</text><text x='-22' y='92' font-size='10'>space</text><text x='5' y='130' font-size='9'>oil</text><text x='60' y='130' font-size='9'>oil</text><text x='55' y='185' font-size='10'>Diagram 1</text></g><g transform='translate(220,10)'><polygon points='0,80 0,160 120,160 120,120 40,120 40,80' fill='none' stroke='#333' stroke-width='2'/><rect x='0' y='100' width='120' height='60' fill='#f0d060' fill-opacity='0.7'/><rect x='0' y='80' width='40' height='20' fill='#f0d060' fill-opacity='0.7'/><text x='40' y='175' font-size='10'>←— 38 cm —→</text><text x='122' y='100' font-size='10'>↕ 16 cm</text><text x='45' y='190' font-size='10'>Diagram 2 (toppled)</text></g></svg>",
     "answer": "5824",
     "grade": "5"
