@@ -9968,5 +9968,1096 @@
     "text_id": "Diberikan 11 daerah segienam seperti pada gambar. Setiap segienam diisi tepat satu dari tiga pilihan huruf: A, B, atau C sehingga setiap dua segienam yang memiliki sisi persekutuan diberi huruf yang berbeda. Tentukan banyaknya semua kemungkinan pemberian huruf. (Catatan: susunan/keterhubungan tepat 11 segienam pada gambar sumber tidak dapat dipastikan; jawaban perlu diperiksa.)",
     "answer": "FLAG",
     "svg": "<svg viewBox='0 0 300 160' xmlns='http://www.w3.org/2000/svg'><g fill='none' stroke='#333' stroke-width='1.3'><polygon points='60,40 75,32 90,40 90,56 75,64 60,56'/><polygon points='90,40 105,32 120,40 120,56 105,64 90,56'/><polygon points='120,40 135,32 150,40 150,56 135,64 120,56'/><polygon points='150,40 165,32 180,40 180,56 165,64 150,56'/><polygon points='75,64 90,56 105,64 105,80 90,88 75,80'/><polygon points='105,64 120,56 135,64 135,80 120,88 105,80'/><polygon points='135,64 150,56 165,64 165,80 150,88 135,80'/><polygon points='165,64 180,56 195,64 195,80 180,88 165,80'/><polygon points='90,88 105,80 120,88 120,104 105,112 90,104'/><polygon points='120,88 135,80 150,88 150,104 135,112 120,104'/><polygon points='150,88 165,80 180,88 180,104 165,112 150,104'/></g></svg>"
+  },
+  {
+    "id": "q910",
+    "type": "mc",
+    "topic": "Number Patterns",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Susi mengurutkan bilangan asli terkecil ke terbesar kelipatan 2 dan Wati mengurutkan bilangan asli terkecil ke terbesar kelipatan 3. Jumlah bilangan Susi urutan ke-25 dan bilangan Wati urutan ke-20 adalah ....",
+    "options": [
+      "100",
+      "110",
+      "115",
+      "125"
+    ],
+    "answer": "110"
+  },
+  {
+    "id": "q911",
+    "type": "mc",
+    "topic": "Number Patterns",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Diketahui suatu pola berikut: kotak, wajik, wajik, lingkaran, segitiga, segitiga, segitiga, kotak, wajik, wajik, lingkaran, segitiga, segitiga, segitiga, .... Gambar yang akan tampak pada urutan ke-100 adalah ....",
+    "options": [
+      "kotak",
+      "wajik",
+      "lingkaran",
+      "segitiga"
+    ],
+    "answer": "wajik"
+  },
+  {
+    "id": "q912",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Bilangan ratusan x dan y dengan x = a p c dan y = a q c (a, p, c dan a, q, c adalah digit-digitnya) memenuhi sifat x - y = 50 dan p + q = 11. Hasil dari p x q = ....",
+    "options": [
+      "24",
+      "28",
+      "30",
+      "50"
+    ],
+    "answer": "24"
+  },
+  {
+    "id": "q913",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Andi mengurutkan bilangan bulat yang bukan prima dan bukan kelipatan 5, dimulai dari besar ke kecil. Jika urutan ke-10 bilangan yang dituliskan oleh Andi adalah 102, maka urutan ke-21 adalah ....",
+    "options": [
+      "83",
+      "84",
+      "86",
+      "87"
+    ],
+    "answer": "84"
+  },
+  {
+    "id": "q914",
+    "type": "mc",
+    "topic": "Arithmetic",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Jika (1/4) x (1/q) - 1/4 - 1/q = 13/2, maka nilai q adalah ....",
+    "options": [
+      "-9",
+      "-1/9",
+      "1/9",
+      "9"
+    ],
+    "answer": "-9"
+  },
+  {
+    "id": "q915",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Jika a dan b bilangan bulat positif yang memenuhi a^2 - b^2 = 6^3, maka nilai berikut yang bukan merupakan hasil dari a x b adalah ....",
+    "options": [
+      "45",
+      "135",
+      "315",
+      "2915"
+    ],
+    "answer": "135"
+  },
+  {
+    "id": "q916",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Tiga bilangan x, y, z merupakan tiga bilangan kelipatan n berurutan (contoh: 6, 8, 10 merupakan bilangan kelipatan 2 berurutan). Jumlah tiga bilangan tersebut adalah 27 dan perkalian bilangan terkecil dan terbesarnya adalah 72. Selisih bilangan terbesar dan terkecil adalah ....",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "6"
+  },
+  {
+    "id": "q917",
+    "type": "mc",
+    "topic": "Arithmetic",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Diketahui tiga orang sahabat, yaitu Ani, Budi dan Corry. Di antara ketiganya, Ani paling muda dan Corry paling tua. Usia Ani dan Budi berselisih 1 tahun, sedangkan usia Budi dan Corry berselisih 2 tahun. Empat tahun kemudian jumlah usia mereka 76 tahun. Jumlah usia Ani dan Corry saat ini adalah ... tahun.",
+    "options": [
+      "41",
+      "42",
+      "43",
+      "45"
+    ],
+    "answer": "43"
+  },
+  {
+    "id": "q918",
+    "type": "mc",
+    "topic": "Arithmetic",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Pak Joni membeli 13 kg keripik pisang seharga Rp650.000. Keripik pisang dijual kembali dengan harga Rp15.000 per 250 gram. Keuntungan maksimum yang akan diperoleh Pak Joni adalah ....",
+    "options": [
+      "Rp100.000",
+      "Rp130.000",
+      "Rp150.000",
+      "Rp180.000"
+    ],
+    "answer": "Rp130.000"
+  },
+  {
+    "id": "q919",
+    "type": "mc",
+    "topic": "Logic",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Naomi, Tori, dan Eksa memainkan suatu permainan dalam 10 babak. Juara ke-1, ke-2, dan ke-3 pada setiap babak mendapatkan poin berturut-turut 5 poin, 3 poin, dan 0 poin. Dari seluruh babak, Naomi memperoleh total poin 28. Berapa kali paling sedikit Naomi menjadi juara ke-3 dari seluruh babak permainan?",
+    "options": [
+      "4 kali",
+      "3 kali",
+      "2 kali",
+      "1 kali"
+    ],
+    "answer": "2 kali"
+  },
+  {
+    "id": "q920",
+    "type": "mc",
+    "topic": "Arithmetic",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Hasil operasi dari ((0,4)^6 x 25^3) + ((0,5)^4 x 16^3) adalah ....",
+    "options": [
+      "320",
+      "312",
+      "296",
+      "272"
+    ],
+    "answer": "320"
+  },
+  {
+    "id": "q921",
+    "type": "mc",
+    "topic": "Arithmetic",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Diketahui 3/4 + 7/253 = a/2024. Nilai a = ....",
+    "options": [
+      "787",
+      "1012",
+      "1574",
+      "1724"
+    ],
+    "answer": "1574"
+  },
+  {
+    "id": "q922",
+    "type": "mc",
+    "topic": "Logic",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Azizah mengoperasikan suatu bilangan dengan operasi-operasi: ditambah 2, dibagi 6, dibagi 5, dikurang 3, dan dikali 2 (setiap pembagian harus menghasilkan bilangan bulat). Jika Azizah mengoperasikan bilangan 122 dan hasil operasi terakhir yang diinginkan adalah 1, maka banyaknya operasi paling sedikit yang dilakukan Azizah adalah ... operasi.",
+    "options": [
+      "enam",
+      "tujuh",
+      "sembilan",
+      "sepuluh"
+    ],
+    "answer": "tujuh"
+  },
+  {
+    "id": "q923",
+    "type": "mc",
+    "topic": "Geometry",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Andika membuat kotak donasi. Jaring-jaring kotak donasi berbentuk salib: sisi tengah bertuliskan Kotak Donasi, dengan sisi kiri berwarna kuning, sisi kanan berwarna abu-abu, sisi atas memiliki lubang koin (persegi panjang kecil), dan sisi bawah serta lanjutan sisi kanan berwarna putih. Jika jaring-jaring dilipat menjadi kubus, kotak donasi yang terbentuk adalah ... (pilih gambar kubus yang sesuai). Jawaban: kubus dengan sisi bertuliskan Kotak Donasi menghadap depan, lubang koin di sisi atas, dan sisi abu-abu di kanan (pilihan yang orientasinya konsisten dengan jaring-jaring, tulisan tidak terbalik).",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='10' text-anchor='middle'><g stroke='#333' fill='none'><rect x='120' y='30' width='60' height='60' fill='#fff'/><rect x='60' y='90' width='60' height='60' fill='#ffe100'/><rect x='120' y='90' width='60' height='60' fill='#fff'/><rect x='180' y='90' width='60' height='60' fill='#8a8a8a'/><rect x='240' y='90' width='60' height='60' fill='#fff'/><rect x='120' y='150' width='60' height='60' fill='#fff'/></g><rect x='138' y='52' width='24' height='12' fill='#fdeee6' stroke='#c8623b'/><text x='150' y='124' font-size='9'>Kotak</text><text x='150' y='135' font-size='9'>Donasi</text></svg>"
+  },
+  {
+    "id": "q924",
+    "type": "mc",
+    "topic": "Geometry",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Limas E.ABCD memiliki alas persegi panjang dengan ukuran CD = 6 cm, AD = 8 cm dan rusuk-rusuk tegaknya 13 cm. Luas segitiga BDE = ... cm2.",
+    "options": [
+      "24",
+      "30",
+      "48",
+      "60"
+    ],
+    "answer": "60",
+    "svg": "<svg viewBox='0 0 260 240' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><polygon points='150,30 95,175 130,205 210,150' fill='#d9d9d9' stroke='#333'/><polygon points='150,30 95,175 55,150 130,205' fill='#cfcfcf' stroke='#333'/><line x1='150' y1='30' x2='130' y2='205' stroke='#8a4b2f' stroke-width='1.6'/><line x1='55' y1='150' x2='210' y2='150' stroke='#333' stroke-dasharray='4 3'/><line x1='55' y1='150' x2='130' y2='205' stroke='#333' stroke-dasharray='4 3'/><line x1='210' y1='150' x2='130' y2='205' stroke='#333' stroke-dasharray='4 3'/><g fill='#1a3d7c'><circle cx='150' cy='30' r='3'/><circle cx='55' cy='150' r='3'/><circle cx='210' cy='150' r='3'/><circle cx='130' cy='205' r='3'/><circle cx='95' cy='175' r='3'/></g><g fill='#1a3d7c'><text x='152' y='24'>E</text><text x='40' y='152'>C</text><text x='216' y='152'>A</text><text x='128' y='222'>D</text><text x='96' y='168'>B</text></g><text x='214' y='108' fill='#333'>13 cm</text><text x='70' y='192' fill='#333'>6 cm</text><text x='168' y='218' fill='#333'>8 cm</text></svg>"
+  },
+  {
+    "id": "q925",
+    "type": "mc",
+    "topic": "Geometry",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Jumlah keliling suatu persegi dan suatu persegi panjang sama dengan tiga kali keliling suatu segitiga sama sisi. Diketahui panjang sisi persegi dan segitiga sama sisi berturut-turut adalah 12 cm dan 10 cm. Jika lebar persegi panjang adalah 9 cm, maka perbandingan lebar dan panjang dari persegi panjang adalah ....",
+    "options": [
+      "2 : 3",
+      "1 : 2",
+      "1 : 4",
+      "3 : 4"
+    ],
+    "answer": "3 : 4"
+  },
+  {
+    "id": "q926",
+    "type": "mc",
+    "topic": "Geometry",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Perhatikan segitiga sama kaki ABC dengan AB = AC = 5 dan BC = 8 (B di kiri bawah, C di kanan bawah, A di puncak). Titik D berada pada perpanjangan garis AB, dengan CD tegak lurus AD. Panjang t = CD adalah ... satuan panjang.",
+    "options": [
+      "15/8",
+      "24/5",
+      "40/3",
+      "120"
+    ],
+    "answer": "24/5",
+    "svg": "<svg viewBox='0 0 300 200' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><polygon points='40,150 150,60 250,150' fill='#f9d5d5' stroke='#c0392b' stroke-width='1.3'/><line x1='150' y1='60' x2='205' y2='25' stroke='#333' stroke-dasharray='4 3'/><line x1='205' y1='25' x2='250' y2='150' stroke='#333' stroke-dasharray='4 3'/><line x1='150' y1='60' x2='150' y2='150' stroke='#333' stroke-dasharray='4 3'/><rect x='143' y='143' width='7' height='7' fill='none' stroke='#2e7d32'/><rect x='196' y='30' width='8' height='8' fill='none' stroke='#2e7d32' transform='rotate(20 200 34)'/><g fill='#1a3d7c'><circle cx='40' cy='150' r='3'/><circle cx='250' cy='150' r='3'/><circle cx='150' cy='60' r='3'/><circle cx='205' cy='25' r='3'/></g><text x='30' y='150'>B</text><text x='254' y='152'>C</text><text x='148' y='52'>A</text><text x='210' y='22'>D</text><text x='90' y='100' fill='#c0392b'>5</text><text x='150' y='170' fill='#c0392b'>8</text><text x='225' y='90'>t</text></svg>"
+  },
+  {
+    "id": "q927",
+    "type": "mc",
+    "topic": "Geometry",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Diketahui tabung A memiliki jari-jari sama dengan tingginya, sedangkan tabung B memiliki jari-jari sama dengan 3/4 tingginya. Jika jari-jari tabung A sama dengan dua kali jari-jari tabung B, maka perbandingan luas selimut tabung A dan tabung B adalah ....",
+    "options": [
+      "2 : 1",
+      "3 : 1",
+      "4 : 3",
+      "3 : 2"
+    ],
+    "answer": "3 : 1"
+  },
+  {
+    "id": "q928",
+    "type": "mc",
+    "topic": "Geometry",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "ABCD adalah persegi panjang dan BEFG adalah persegi. Diketahui AD = 4 cm, AH = 4 cm (H pada AB), dan sisi persegi (GF) = 6 cm. Jika perbandingan HB : BE = 1 : 3, maka luas daerah yang diarsir (segitiga DHF) adalah ... cm2.",
+    "options": [
+      "28",
+      "33",
+      "38",
+      "42"
+    ],
+    "answer": "28",
+    "svg": "<svg viewBox='0 0 340 220' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11'><rect x='40' y='90' width='120' height='80' fill='none' stroke='#333'/><rect x='160' y='50' width='120' height='120' fill='none' stroke='#333'/><line x1='40' y1='90' x2='160' y2='90' stroke='#333' stroke-dasharray='4 3'/><polygon points='40,90 120,170 280,50' fill='none' stroke='#c8623b' stroke-width='1.2'/><path d='M40 90 L120 170 L280 50 Z' fill='#c8623b' fill-opacity='0.18'/><g fill='#1a3d7c'><circle cx='40' cy='170' r='2.5'/><circle cx='120' cy='170' r='2.5'/><circle cx='160' cy='170' r='2.5'/><circle cx='280' cy='170' r='2.5'/><circle cx='40' cy='90' r='2.5'/><circle cx='160' cy='90' r='2.5'/><circle cx='160' cy='50' r='2.5'/><circle cx='280' cy='50' r='2.5'/></g><g fill='#1a3d7c'><text x='34' y='185'>A</text><text x='116' y='185'>H</text><text x='158' y='185'>B</text><text x='278' y='185'>E</text><text x='30' y='90'>D</text><text x='150' y='86'>C</text><text x='152' y='47'>G</text><text x='284' y='50'>F</text></g><text x='18' y='134' fill='#333'>4 cm</text><text x='72' y='185' fill='#333'>4 cm</text><text x='210' y='44' fill='#333'>6 cm</text></svg>"
+  },
+  {
+    "id": "q929",
+    "type": "mc",
+    "topic": "Statistics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Hasil ujian matematika di suatu kelas yang terdiri dari 20 siswa berada pada interval 56 - 100. Rata-rata seluruh siswa di kelas tersebut adalah 68. Sebanyak 3 siswa mengikuti remedial dengan nilai maksimum 75. Rata-rata tertinggi setelah remedial yang mungkin untuk kelas tersebut adalah ....",
+    "options": [
+      "70,65",
+      "70,75",
+      "70,85",
+      "70,95"
+    ],
+    "answer": "70,85"
+  },
+  {
+    "id": "q930",
+    "type": "mc",
+    "topic": "Statistics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Data banyak penjualan roti A, B, C, D, E, dan F dalam dua hari (Hari I, Hari II): A (12, 8); B (24, 18); C (15, 10); D (19, 13); E (16, 20); F (18, 8). Grafik yang tepat menunjukkan rata-rata banyak penjualan keenam roti tersebut adalah grafik dengan nilai rata-rata A=10, B=21, C=12,5, D=16, E=18, F=13 (pilih grafik yang sesuai).",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 240 170' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='9' text-anchor='middle'><text x='120' y='12'>Rata-rata Penjualan</text><line x1='30' y1='20' x2='30' y2='130' stroke='#333'/><line x1='30' y1='130' x2='225' y2='130' stroke='#333'/><g font-size='8' text-anchor='end' fill='#555'><text x='27' y='133'>0</text><text x='27' y='108'>5</text><text x='27' y='83'>10</text><text x='27' y='58'>15</text><text x='27' y='33'>20</text><text x='27' y='23'>25</text></g><g fill='#4a7ebb'><rect x='42' y='80' width='22' height='50'/><rect x='72' y='25' width='22' height='105'/><rect x='102' y='67.5' width='22' height='62.5'/><rect x='132' y='50' width='22' height='80'/><rect x='162' y='40' width='22' height='90'/><rect x='192' y='65' width='22' height='65'/></g><g fill='#333'><text x='53' y='142'>A</text><text x='83' y='142'>B</text><text x='113' y='142'>C</text><text x='143' y='142'>D</text><text x='173' y='142'>E</text><text x='203' y='142'>F</text></g></svg>"
+  },
+  {
+    "id": "q931",
+    "type": "mc",
+    "topic": "Arithmetic",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Dua tim SD, tim A dan tim B, berlomba lari estafet 4 x 100 meter (setiap pelari berlari 100 meter lalu menyerahkan tongkat). Kecepatan pelari tim A (pelari ke-1 s.d. ke-4): 10, 10, 15, 25 m/menit. Kecepatan pelari tim B: 12,5; 8; 20; 20 m/menit. Selisih waktu tempuh kedua tim adalah ... detik.",
+    "options": [
+      "11",
+      "10",
+      "9",
+      "8"
+    ],
+    "answer": "10"
+  },
+  {
+    "id": "q932",
+    "type": "mc",
+    "topic": "Arithmetic",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Pemenang Chicago Marathon 2023 kategori Men's Elite: juara 1 Kelvin Kiptum (Kenya) dengan catatan waktu 2:00:35; juara 2 Benson Kipruto (Kenya) 2:04:02; juara 3 Bashir Abdi (Belgia) 2:04:32. Jarak lomba 42 km. Kecepatan rata-rata Kelvin Kiptum pada lomba tersebut mendekati ... meter/detik.",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "6",
+    "svg": "<svg viewBox='0 0 260 150' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='9' text-anchor='middle'><rect x='95' y='40' width='60' height='95' fill='#2b5aa0'/><rect x='40' y='75' width='55' height='60' fill='#3f6fb5'/><rect x='155' y='65' width='55' height='70' fill='#3f6fb5'/><text x='125' y='58' fill='#fff'>1</text><text x='67' y='92' fill='#fff'>3</text><text x='182' y='82' fill='#fff'>2</text><text x='125' y='75' fill='#fff' font-size='7'>Kiptum</text><text x='125' y='85' fill='#fff' font-size='7'>2:00:35</text><text x='67' y='108' fill='#fff' font-size='7'>Abdi</text><text x='182' y='98' fill='#fff' font-size='7'>Kipruto</text></svg>"
+  },
+  {
+    "id": "q933",
+    "type": "mc",
+    "topic": "Statistics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Tabel perolehan hasil tes IPA (banyak jawaban benar : banyak siswa): 0:1, 1:2, 2:3, 3:2, 4:3, 5:6, 6:8, 7:4, 8:8, 9:5, 10:8. Berapa minimal banyak jawaban benar sehingga banyak jawaban benar tersebut melebihi 70% siswa yang lain?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": "9"
+  },
+  {
+    "id": "q934",
+    "type": "mc",
+    "topic": "Arithmetic",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Pada perlombaan panjat pinang, mula-mula Jimmy memanjat sejauh 2/5 dari tinggi batang pinang, namun kemudian merosot 1/4 dari posisi sebelumnya. Selanjutnya Jimmy memanjat kembali tepat 1/5 dari posisi terakhir. Jika Jimmy harus memanjat 6 meter lagi untuk sampai di puncak, maka tinggi batang pinang adalah ... meter.",
+    "options": [
+      "9,125",
+      "9,375",
+      "9,500",
+      "9,750"
+    ],
+    "answer": "9,375"
+  },
+  {
+    "id": "q935",
+    "type": "mc",
+    "topic": "Number Theory",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Bilangan penyusun tahun 2024 yaitu 2, 0, 2 dan 4, bila dijumlahkan hasilnya 8. Berapa banyak tahun yang memiliki sifat tersebut (jumlah digit = 8) seabad setelah 2040 (yaitu tahun 2041 sampai 2140)?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": "q936",
+    "type": "mc",
+    "topic": "Combinatorics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Berapa banyak bilangan ganjil sembilan angka abcdefghi berbeda yang tersusun dari angka-angka 1, 2, 3, 4, 5, 6, 7, 8, dan 9 sehingga d + e + f = 10?",
+    "options": [
+      "2160",
+      "4320",
+      "6480",
+      "8640"
+    ],
+    "answer": "8640"
+  },
+  {
+    "id": "q937",
+    "type": "mc",
+    "topic": "Combinatorics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Bilangan ratusan abc disusun dari angka-angka yang berbeda 1, 2, 3, 4, 5, dan 6. Jika b merupakan bilangan genap dan a < c, maka banyak bilangan ratusan yang mungkin adalah ... bilangan.",
+    "options": [
+      "16",
+      "20",
+      "30",
+      "32"
+    ],
+    "answer": "30"
+  },
+  {
+    "id": "q938",
+    "type": "mc",
+    "topic": "Combinatorics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Perhatikan 3 untai balon: untai kiri berisi balon 1, 4, 7 (atas ke bawah); untai tengah berisi balon 2, 5; untai kanan berisi balon 3, 6, 8, 9. Setiap balon diledakkan dengan syarat tidak boleh menjatuhkan balon lain (harus dari bawah ke atas pada tiap untai), dan untuk meledakkan balon berikutnya harus berbeda untaian. Banyak cara agar balon nomor 6 diledakkan pada urutan ke-lima adalah ....",
+    "options": [
+      "6",
+      "5",
+      "4",
+      "3"
+    ],
+    "answer": "4",
+    "svg": "<svg viewBox='0 0 220 220' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11' text-anchor='middle'><rect x='70' y='20' width='90' height='14' rx='2' fill='#333'/><g stroke='#333' stroke-width='1'><line x1='85' y1='34' x2='85' y2='55'/><line x1='115' y1='34' x2='115' y2='55'/><line x1='145' y1='34' x2='145' y2='55'/></g><g><circle cx='85' cy='68' r='13' fill='#3f6fb5'/><circle cx='115' cy='68' r='13' fill='#3f6fb5'/><circle cx='145' cy='68' r='13' fill='#3f6fb5'/><circle cx='85' cy='104' r='13' fill='#3f6fb5'/><circle cx='115' cy='104' r='13' fill='#3f6fb5'/><circle cx='145' cy='104' r='13' fill='#3f6fb5'/><circle cx='85' cy='140' r='13' fill='#3f6fb5'/><circle cx='145' cy='140' r='13' fill='#3f6fb5'/><circle cx='145' cy='176' r='13' fill='#3f6fb5'/></g><g fill='#fff'><text x='85' y='72'>1</text><text x='115' y='72'>2</text><text x='145' y='72'>3</text><text x='85' y='108'>4</text><text x='115' y='108'>5</text><text x='145' y='108'>6</text><text x='85' y='144'>7</text><text x='145' y='144'>8</text><text x='145' y='180'>9</text></g></svg>"
+  },
+  {
+    "id": "q939",
+    "type": "mc",
+    "topic": "Combinatorics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Panitia pentas seni membutuhkan 2 orang bagian perlengkapan dan 2 orang bagian sekretariat. Jika terdapat 3 calon anggota bagian perlengkapan dan 4 calon anggota bagian sekretariat, maka banyak susunan anggota berbeda yang dapat dipilih adalah ....",
+    "options": [
+      "9",
+      "18",
+      "36",
+      "72"
+    ],
+    "answer": "18"
+  },
+  {
+    "id": "q940",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Jika 3^n adalah faktor dari 18^10, maka bilangan bulat terbesar n yang mungkin adalah ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q941",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Diketahui Faktor Persekutuan Terbesar dari a dan 2024 serta a dan 2025 terletak antara 10 dan 20. Nilai a terkecil yang mungkin adalah ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q942",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Bilangan 2024 dapat dinyatakan sebagai jumlah dari n bilangan kuadrat berbeda. Sebagai contoh 2024 dapat dinyatakan sebagai jumlah dari 3 bilangan kuadrat berbeda yaitu 2024 = 2^2 + 24^2 + 38^2. Nilai n terbesar yang mungkin adalah ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q943",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Jika bilangan lima digit a679b habis dibagi 72, maka bilangan tersebut adalah ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q944",
+    "type": "sa",
+    "topic": "Geometry",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Sebelas (11) persegi panjang kecil ukuran sama ditempel pada kertas berbentuk persegi panjang berukuran 10 x 15 seperti tampak pada gambar (satu bagian di kanan bawah dibiarkan kosong/tidak ditempel). Luas daerah persegi panjang yang tidak ditempel adalah ....",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 220 300' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11'><g stroke='#333' stroke-width='1.2'><rect x='40' y='40' width='150' height='225' fill='none'/><g fill='#b8b8b8'><rect x='40' y='40' width='75' height='45'/><rect x='115' y='40' width='38' height='45'/><rect x='153' y='40' width='37' height='45'/><rect x='40' y='85' width='75' height='45'/><rect x='115' y='85' width='75' height='45'/><rect x='40' y='130' width='75' height='45'/><rect x='115' y='130' width='75' height='45'/><rect x='40' y='175' width='75' height='45'/><rect x='115' y='175' width='75' height='45'/><rect x='40' y='220' width='75' height='45'/></g></g><g stroke='#333'><line x1='40' y1='28' x2='190' y2='28'/><line x1='40' y1='24' x2='40' y2='32'/><line x1='190' y1='24' x2='190' y2='32'/><line x1='26' y1='40' x2='26' y2='265'/><line x1='22' y1='40' x2='30' y2='40'/><line x1='22' y1='265' x2='30' y2='265'/></g><text x='100' y='22' text-anchor='middle'>10 cm</text><text x='14' y='155' text-anchor='middle' transform='rotate(-90 14 155)'>15 cm</text></svg>"
+  },
+  {
+    "id": "q945",
+    "type": "sa",
+    "topic": "Geometry",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Perhatikan gambar. ACED adalah persegi (miring 45 derajat) dengan C di atas, A di kiri, D di kanan, E di bawah, dan B titik pusat. Busur AB, BE, BD, dan BC masing-masing adalah setengah lingkaran dengan diameter 10 cm. Luas daerah yang diarsir adalah ....",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 300 300' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><defs><pattern id='hatchP6' patternUnits='userSpaceOnUse' width='7' height='7' patternTransform='rotate(45)'><line x1='0' y1='0' x2='0' y2='7' stroke='#555' stroke-width='0.7'/></pattern></defs><polygon points='150,50 250,150 150,250 50,150' fill='url(#hatchP6)' stroke='#3a3a8a' stroke-width='1.2'/><path d='M100 100 A35.4 35.4 0 0 1 150 150 A35.4 35.4 0 0 1 100 100 Z' fill='#fff' stroke='#333' stroke-width='0.8'/><path d='M150 150 A35.4 35.4 0 0 1 200 200 A35.4 35.4 0 0 1 150 150 Z' fill='#fff' stroke='#333' stroke-width='0.8'/><path d='M150 50 A50 50 0 0 1 150 150 A50 50 0 0 1 150 50 Z' fill='url(#hatchP6)' stroke='#333' stroke-width='0.8'/><path d='M150 150 A50 50 0 0 1 150 250 A50 50 0 0 1 150 150 Z' fill='#fff' stroke='#333' stroke-width='0.8'/><line x1='50' y1='150' x2='250' y2='150' stroke='#333' stroke-dasharray='4 3'/><g fill='#1a3d7c'><circle cx='150' cy='50' r='3'/><circle cx='50' cy='150' r='3'/><circle cx='250' cy='150' r='3'/><circle cx='150' cy='250' r='3'/><circle cx='150' cy='150' r='3'/></g><g fill='#1a3d7c'><text x='146' y='44'>C</text><text x='34' y='154'>A</text><text x='256' y='154'>D</text><text x='146' y='268'>E</text><text x='156' y='146'>B</text></g></svg>"
+  },
+  {
+    "id": "q946",
+    "type": "sa",
+    "topic": "Geometry",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Perhatikan gambar segitiga siku-siku di B (A di puncak, B kiri bawah, C dan D pada garis alas). Sudut ACB = 45 derajat dan sudut ADB = 30 derajat, dengan AB tegak lurus BD. Jika diketahui luas segitiga ABC adalah 578 satuan luas, maka panjang AD adalah ... satuan panjang.",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 300 220' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='13'><polygon points='60,40 60,170 260,170' fill='none' stroke='#333' stroke-width='1.3'/><line x1='60' y1='40' x2='160' y2='170' stroke='#333'/><rect x='60' y='157' width='13' height='13' fill='none' stroke='#2e7d32'/><path d='M138 170 A22 22 0 0 0 152 152' fill='none' stroke='#2e7d32'/><path d='M238 170 A22 22 0 0 0 248 158' fill='none' stroke='#2e7d32'/><text x='150' y='163' fill='#2e7d32' font-size='12'>45&#176;</text><text x='210' y='163' fill='#2e7d32' font-size='12'>30&#176;</text><g fill='#000'><circle cx='60' cy='40' r='3'/><circle cx='60' cy='170' r='3'/><circle cx='160' cy='170' r='3'/><circle cx='260' cy='170' r='3'/></g><text x='54' y='34'>A</text><text x='52' y='186'>B</text><text x='156' y='188'>C</text><text x='264' y='176'>D</text></svg>"
+  },
+  {
+    "id": "q947",
+    "type": "sa",
+    "topic": "Geometry",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Diketahui ABCD persegi panjang dengan luas 36 (A kiri bawah, B kanan bawah, C kanan atas, D kiri atas). Titik P pada AD dan Q pada DC, dengan BC = DQ, DP = CQ. Ruas PQ dan QB digambar. Jika luas ABCD : luas ABQP = 3 : 2, maka luas daerah ABQP adalah ... cm2.",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 300 220' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><rect x='60' y='50' width='180' height='120' fill='none' stroke='#333' stroke-width='1.2'/><polyline points='60,110 170,50 240,170' fill='none' stroke='#333' stroke-width='1.2'/><line x1='60' y1='170' x2='60' y2='110' stroke='#333' stroke-width='1.2'/><g stroke='#333'><line x1='108' y1='46' x2='112' y2='54'/><line x1='114' y1='46' x2='118' y2='54'/><line x1='203' y1='46' x2='207' y2='54'/><line x1='56' y1='78' x2='64' y2='82'/><line x1='236' y1='108' x2='244' y2='112'/><line x1='242' y1='108' x2='250' y2='112'/></g><g fill='#000'><circle cx='60' cy='50' r='2.5'/><circle cx='240' cy='50' r='2.5'/><circle cx='240' cy='170' r='2.5'/><circle cx='60' cy='170' r='2.5'/><circle cx='170' cy='50' r='2.5'/><circle cx='60' cy='110' r='2.5'/></g><text x='50' y='48'>D</text><text x='168' y='44'>Q</text><text x='246' y='50'>C</text><text x='46' y='114'>P</text><text x='50' y='184'>A</text><text x='244' y='184'>B</text></svg>"
+  },
+  {
+    "id": "q948",
+    "type": "sa",
+    "topic": "Geometry",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Segitiga ABC siku-siku di B (A di puncak, B kiri bawah, C kanan bawah), dengan perbandingan sisi AB : BC = 3 : 4. Titik Q pada AC sehingga BQ tegak lurus AC. Perbandingan luas segitiga BCQ dan ABQ adalah ....",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 260 220' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='13'><polygon points='70,40 70,170 230,170' fill='#e8e8e8' stroke='#333' stroke-width='1.3'/><line x1='70' y1='170' x2='150' y2='105' stroke='#333'/><rect x='138' y='100' width='12' height='12' fill='none' stroke='#2e7d32' transform='rotate(38 144 106)'/><rect x='70' y='157' width='13' height='13' fill='none' stroke='#333'/><g fill='#1a3d7c'><circle cx='70' cy='40' r='3'/><circle cx='70' cy='170' r='3'/><circle cx='230' cy='170' r='3'/><circle cx='150' cy='105' r='3'/></g><g fill='#1a3d7c'><text x='62' y='36'>A</text><text x='58' y='176'>B</text><text x='234' y='176'>C</text><text x='156' y='102'>Q</text></g></svg>"
+  },
+  {
+    "id": "q949",
+    "type": "sa",
+    "topic": "Geometry",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Perhatikan jaring-jaring kubus yang berisi bilangan berpola salib/tangga: baris atas berisi 8 dan 9; baris tengah berisi 9, 9, 9; dan di bawahnya berisi 8. Apabila jaring-jaring dibentuk menjadi kubus dan bilangan pada sisi yang saling berhadapan dijumlahkan, maka banyak pasangan bilangan yang jumlahnya sama adalah ... pasang.",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 260 220' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='16' text-anchor='middle'><g stroke='#333' fill='none'><rect x='60' y='30' width='45' height='45'/><rect x='105' y='30' width='45' height='45'/><rect x='105' y='75' width='45' height='45'/><rect x='150' y='75' width='45' height='45'/><rect x='195' y='75' width='45' height='45'/><rect x='105' y='120' width='45' height='45'/></g><g fill='#333'><text x='82' y='58'>8</text><text x='127' y='58'>9</text><text x='127' y='103'>9</text><text x='172' y='103'>9</text><text x='217' y='103'>9</text><text x='127' y='148'>8</text></g></svg>"
+  },
+  {
+    "id": "q950",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "Let abc be a three-digit number, where both ab and bc are two-digit numbers. If abc = 2 x (ab + bc), then abc is ....",
+    "text_id": "Misalkan abc adalah bilangan tiga digit, dengan ab dan bc keduanya bilangan dua digit. Jika abc = 2 x (ab + bc), maka abc adalah ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q951",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Pak Raden berniat membagikan uang senilai 7.995 juta rupiah kepada seorang istri, 5 orang putra, dan 4 orang putri. Jika setiap anak laki-laki menerima tiga kali dari bagian setiap anak perempuan, dan setiap anak perempuan menerima dua kali dari bagian istri Pak Raden, maka uang yang diterima istri Pak Raden sebesar ... rupiah.",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q952",
+    "type": "sa",
+    "topic": "Statistics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Pak Adi memiliki tiga kantin sekolah. Tabel keuntungan Senin-Jumat: Kantin A (Senin 160.000, Selasa 165.000, Rabu 220.000, Kamis 205.000, Jumat 250.000); Kantin C (264.000, 156.000, 186.000, 234.000, 360.000); Kantin B (285.000, 315.000, 255.000, 330.000, 315.000). Jika pada hari Sabtu masing-masing kantin mendapat keuntungan 25% dari keuntungan pada 5 hari sebelumnya, maka persentase keuntungan hari Sabtu dari total keuntungan selama 6 hari adalah ... %.",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 460 150' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11' text-anchor='middle'><g stroke='#333' fill='none'><rect x='10' y='40' width='440' height='90'/><line x1='10' y1='70' x2='450' y2='70'/><line x1='10' y1='90' x2='450' y2='90'/><line x1='10' y1='110' x2='450' y2='110'/><line x1='80' y1='40' x2='80' y2='130'/><line x1='155' y1='40' x2='155' y2='130'/><line x1='230' y1='40' x2='230' y2='130'/><line x1='305' y1='40' x2='305' y2='130'/><line x1='378' y1='40' x2='378' y2='130'/></g><text x='265' y='30'>Keuntungan Hari -</text><g fill='#333'><text x='45' y='58'>Kantin</text><text x='117' y='58'>Senin</text><text x='192' y='58'>Selasa</text><text x='267' y='58'>Rabu</text><text x='341' y='58'>Kamis</text><text x='414' y='58'>Jumat</text><text x='45' y='84'>A</text><text x='117' y='84'>160.000</text><text x='192' y='84'>165.000</text><text x='267' y='84'>220.000</text><text x='341' y='84'>205.000</text><text x='414' y='84'>250.000</text><text x='45' y='104'>C</text><text x='117' y='104'>264.000</text><text x='192' y='104'>156.000</text><text x='267' y='104'>186.000</text><text x='341' y='104'>234.000</text><text x='414' y='104'>360.000</text><text x='45' y='124'>B</text><text x='117' y='124'>285.000</text><text x='192' y='124'>315.000</text><text x='267' y='124'>255.000</text><text x='341' y='124'>330.000</text><text x='414' y='124'>315.000</text></g></svg>"
+  },
+  {
+    "id": "q953",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Andi Rahman mengikuti lomba balap sepeda menempuh 5 etape. Tabel: Etape 1-5; Jarak (km) = 100, 145, a, 150, 130; Rata-rata Kecepatan (km/jam) = 40, 30, 25, 30, 40; Total Waktu Tempuh = 1259 menit. Jarak etape ke tiga adalah ... km.",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 400 130' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='10'><g stroke='#333' fill='none'><rect x='10' y='15' width='380' height='100'/><line x1='10' y1='40' x2='390' y2='40'/><line x1='10' y1='65' x2='390' y2='65'/><line x1='10' y1='90' x2='390' y2='90'/><line x1='210' y1='15' x2='210' y2='115'/><line x1='246' y1='15' x2='246' y2='115'/><line x1='282' y1='15' x2='282' y2='115'/><line x1='318' y1='15' x2='318' y2='115'/><line x1='354' y1='15' x2='354' y2='115'/></g><g fill='#333'><text x='15' y='31'>Etape</text><text x='228' y='31'>1</text><text x='264' y='31'>2</text><text x='300' y='31'>3</text><text x='336' y='31'>4</text><text x='372' y='31'>5</text><text x='15' y='56'>Jarak (km)</text><text x='226' y='56'>100</text><text x='262' y='56'>145</text><text x='298' y='56'>a</text><text x='334' y='56'>150</text><text x='370' y='56'>130</text><text x='15' y='81'>Rata-rata Kecepatan (km/jam)</text><text x='228' y='81'>40</text><text x='264' y='81'>30</text><text x='300' y='81'>25</text><text x='336' y='81'>30</text><text x='372' y='81'>40</text><text x='15' y='106'>Total Waktu Tempuh (menit)</text><text x='300' y='106'>1259</text></g></svg>"
+  },
+  {
+    "id": "q954",
+    "type": "sa",
+    "topic": "Statistics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Persentase siswa yang memperoleh nilai dalam latihan tes OSN: nilai 65 = 10,0%; 70 = 20,0%; 75 = 27,5%; 80 = 25,0%; 85 = 12,5%; 90 = 5,0% (jumlah 100%). Jika banyak peserta tes 80 siswa, selisih terkecil banyak siswa dengan nilai berdekatan adalah ....",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 200 250' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12' text-anchor='middle'><g stroke='#333' fill='none'><rect x='30' y='20' width='140' height='210'/><line x1='100' y1='20' x2='100' y2='230'/><line x1='30' y1='50' x2='170' y2='50'/><line x1='30' y1='80' x2='170' y2='80'/><line x1='30' y1='110' x2='170' y2='110'/><line x1='30' y1='140' x2='170' y2='140'/><line x1='30' y1='170' x2='170' y2='170'/><line x1='30' y1='200' x2='170' y2='200'/></g><g fill='#333'><text x='65' y='40'>Nilai</text><text x='135' y='40'>%</text><text x='65' y='70'>65</text><text x='135' y='70'>10,0%</text><text x='65' y='100'>70</text><text x='135' y='100'>20,0%</text><text x='65' y='130'>75</text><text x='135' y='130'>27,5%</text><text x='65' y='160'>80</text><text x='135' y='160'>25,0%</text><text x='65' y='190'>85</text><text x='135' y='190'>12,5%</text><text x='65' y='220'>90</text><text x='135' y='220'>5,0%</text></g></svg>"
+  },
+  {
+    "id": "q955",
+    "type": "sa",
+    "topic": "Statistics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Perhatikan Data Kependudukan Dusun Tenteram: jumlah penduduk tahun 2010 = 312 orang dan tahun 2016 = 380 orang, terletak pada satu garis lurus (pertambahan tetap). Bila kecepatan pertambahan penduduk tetap, maka banyak penduduk Dusun Tenteram pada tahun 2025 adalah ... orang.",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 340 240' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='10'><text x='170' y='16' text-anchor='middle' fill='#1a3d7c'>Data Kependudukan Dusun Tenteram</text><line x1='70' y1='30' x2='70' y2='190' stroke='#333'/><line x1='70' y1='190' x2='320' y2='190' stroke='#333'/><g font-size='8' text-anchor='end' fill='#333'><text x='64' y='193'>0</text><text x='64' y='165'>100</text><text x='64' y='138'>200</text><text x='64' y='111'>300</text><text x='64' y='84'>400</text><text x='64' y='57'>500</text></g><line x1='75' y1='120' x2='300' y2='55' stroke='#333' stroke-width='1.3'/><g stroke='#2e7d32' stroke-width='2'><line x1='110' y1='190' x2='110' y2='106'/><line x1='170' y1='190' x2='170' y2='87'/><line x1='250' y1='190' x2='250' y2='68'/></g><g fill='#1a3d7c'><circle cx='110' cy='106' r='2.5'/><circle cx='170' cy='87' r='2.5'/><circle cx='250' cy='68' r='2.5'/><circle cx='110' cy='190' r='2.5'/><circle cx='170' cy='190' r='2.5'/><circle cx='250' cy='190' r='2.5'/></g><g fill='#1a3d7c' font-size='9' text-anchor='middle'><text x='96' y='102'>312</text><text x='170' y='80'>380</text><text x='250' y='62'>?</text></g><g fill='#1a3d7c' font-size='9' text-anchor='middle'><text x='110' y='205'>2010</text><text x='170' y='205'>2016</text><text x='250' y='205'>2025</text></g><text x='195' y='222' text-anchor='middle' fill='#1a3d7c'>Tahun</text><text x='52' y='110' text-anchor='middle' fill='#1a3d7c' transform='rotate(-90 52 110)'>Jumlah Penduduk</text></svg>"
+  },
+  {
+    "id": "q956",
+    "type": "sa",
+    "topic": "Statistics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Diberikan empat buah bilangan a, b, c, dan d. Rata-rata a dan b adalah 50. Rata-rata b dan c adalah 3/2 dari rata-rata a dan b. Rata-rata c dan d adalah lima kurangnya dari rata-rata b dan c. Rata-rata a dan d adalah ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q957",
+    "type": "sa",
+    "topic": "Combinatorics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Toko Kue Echo menjual 8 jenis roti. Anita ingin membeli 5 roti dengan jenis berbeda. Jika Anita sudah menentukan 2 jenis roti yang akan dipilihnya, banyak kemungkinan roti yang dibeli Anita adalah ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q958",
+    "type": "sa",
+    "topic": "Combinatorics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Tessi memilih lima bilangan berbeda dari 1, 2, 3, 4, 5, 6, dan 7 yang memenuhi: (1) jumlah kelima bilangan tersebut adalah ganjil; (2) jumlah bilangan tersebut merupakan faktor dari hasil kali bilangan-bilangan yang dipilih. Banyak pilihan bilangan yang mungkin dipilih oleh Tessi adalah ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q959",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Bilangan a, b, dan c merupakan bilangan prima kurang dari 10. Banyak bilangan hasil perkalian a x b x c yang merupakan kelipatan 7 ada sebanyak ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q960",
+    "type": "sa",
+    "topic": "Logic",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Gida menuliskan bilangan 1, 2, 3, 4, 5, 6, 7, 8, dan 9 pada tiap-tiap lingkaran yang disusun melingkar. Bilangan 1 (atas), 4 (kiri atas), dan 5 (kanan bawah) sebagai patokan untuk meletakkan bilangan lainnya, dan x berada di bawah. Setiap jumlah dua bilangan pada lingkaran terdekat (bersebelahan) tidak habis dibagi 3, 5, dan 7. Bilangan x adalah ....",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 220 220' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='13' text-anchor='middle'><g stroke='#9bb' stroke-width='2' fill='none'><path d='M110 40 A70 70 0 0 1 159 60'/><path d='M159 60 A70 70 0 0 1 180 110'/><path d='M180 110 A70 70 0 0 1 159 159'/><path d='M159 159 A70 70 0 0 1 110 180'/><path d='M110 180 A70 70 0 0 1 61 159'/><path d='M61 159 A70 70 0 0 1 40 110'/><path d='M40 110 A70 70 0 0 1 61 60'/><path d='M61 60 A70 70 0 0 1 110 40'/></g><g fill='#1a5276'><circle cx='110' cy='40' r='16'/><circle cx='159' cy='60' r='16'/><circle cx='180' cy='110' r='16'/><circle cx='159' cy='159' r='16'/><circle cx='110' cy='180' r='16'/><circle cx='61' cy='159' r='16'/><circle cx='40' cy='110' r='16'/><circle cx='61' cy='60' r='16'/></g><g fill='#fff'><text x='110' y='45'>1</text><text x='61' y='65'>4</text><text x='159' y='164'>5</text><text x='110' y='185'>x</text></g></svg>"
+  },
+  {
+    "id": "q961",
+    "type": "sa",
+    "topic": "Geometry",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Perhatikan dua buah segitiga siku-siku. Segitiga besar siku-siku (kaki tegak 12 dan alas a). Di dalamnya terdapat segitiga siku-siku kecil sebangun dengan kaki 4 dan 3 serta sisi miring 5. Jika perbandingan luas segitiga bagian dalam dan luar sebesar 1 : 5, maka panjang sisi a adalah ... satuan panjang.",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 260 240' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><polygon points='50,30 50,190 230,190' fill='none' stroke='#333' stroke-width='1.3'/><polygon points='95,110 95,155 130,155' fill='none' stroke='#333' stroke-width='1.1'/><rect x='50' y='177' width='13' height='13' fill='none' stroke='#333'/><text x='38' y='115'>12</text><text x='140' y='205'>a</text><text x='82' y='138'>4</text><text x='120' y='138'>5</text><text x='110' y='168'>3</text></svg>"
+  },
+  {
+    "id": "q962",
+    "type": "sa",
+    "topic": "Statistics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Arhan rutin latihan basket 1 jam 15 menit selama 5 hari dan 1 jam 30 menit selama 3 hari. Rata-rata latihan Arhan selama 9 hari adalah 85 menit per hari. Lama waktu latihan Arhan pada hari ke sembilan adalah ... menit.",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q963",
+    "type": "sa",
+    "topic": "Combinatorics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Kejuaraan perebutan Piala Thomas 2024, Indonesia memiliki 6 pemain badminton spesialis ganda putra yaitu A, B, C, D, E, dan F. Banyak tim ganda putra (pasangan 2 pemain) yang dapat dibentuk oleh Indonesia adalah ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q964",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "Let a and b be positive integers. If (23 x a)/(5 x b) = 20.24, then the smallest value of a + b is ....",
+    "text_id": "Misalkan a dan b bilangan bulat positif. Jika (23 x a)/(5 x b) = 20,24, maka nilai terkecil dari a + b adalah ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q965",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Ani, Badu, dan Jamil mengikuti latihan piano di tempat yang sama, berturut-turut setiap 3, 4, dan 6 hari sekali. Jika mereka berlatih bersama-sama pada hari Senin, maka setelah itu mereka akan berlatih bersama-sama pertama kali pada hari ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q966",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "If p = 35 and q = 77, then the greatest prime factor of 17 x (6 x p + 4 x q) equals to ....",
+    "text_id": "Jika p = 35 dan q = 77, maka faktor prima terbesar dari 17 x (6 x p + 4 x q) adalah ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q967",
+    "type": "sa",
+    "topic": "Geometry",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Perhatikan layang-layang ABFC yang luasnya 100 cm2 (A di puncak, B di kiri, C di kanan, D pusat perpotongan diagonal, E di bawah D, F di bawah/ujung). Diagonal AF vertikal dan BC horizontal. Jika BC : AF = 1 : 2, DE : EF = 1 : 1, dan D titik tengah AF, maka luas daerah berwarna putih adalah ... cm2.",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 240 300' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><polygon points='120,40 60,110 120,150 180,110' fill='#e8862c' stroke='#333'/><polygon points='60,110 120,150 120,260' fill='#7b86e0' stroke='#333'/><polygon points='180,110 120,150 120,260' fill='#7b86e0' stroke='#333'/><polygon points='60,110 120,260 120,150' fill='#fff' fill-opacity='0'/><line x1='120' y1='40' x2='120' y2='260' stroke='#333' stroke-dasharray='4 3'/><line x1='60' y1='110' x2='180' y2='110' stroke='#333' stroke-dasharray='4 3'/><g fill='#000'><circle cx='120' cy='40' r='2.5'/><circle cx='60' cy='110' r='2.5'/><circle cx='180' cy='110' r='2.5'/><circle cx='120' cy='150' r='2.5'/><circle cx='120' cy='205' r='2.5'/><circle cx='120' cy='260' r='2.5'/></g><g><text x='117' y='34'>A</text><text x='48' y='114'>B</text><text x='186' y='114'>C</text><text x='126' y='152'>D</text><text x='126' y='209'>E</text><text x='117' y='276'>F</text></g></svg>"
+  },
+  {
+    "id": "q968",
+    "type": "sa",
+    "topic": "Statistics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Data ukuran sepatu siswa di SD Permata Bunda kelas IV, V, dan VI (ukuran sepatu : banyak siswa): 35:5, 36:9, 37:17, 38:15, 39:21, 40:13, 41:9, 42:3. Nilai tengah (median) dari data ukuran sepatu tersebut adalah ....",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 240 300' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11' text-anchor='middle'><g stroke='#333' fill='none'><rect x='30' y='20' width='180' height='270'/><line x1='70' y1='20' x2='70' y2='290'/><line x1='140' y1='20' x2='140' y2='290'/></g><g stroke='#333'><line x1='30' y1='55' x2='210' y2='55'/><line x1='30' y1='85' x2='210' y2='85'/><line x1='30' y1='115' x2='210' y2='115'/><line x1='30' y1='145' x2='210' y2='145'/><line x1='30' y1='175' x2='210' y2='175'/><line x1='30' y1='205' x2='210' y2='205'/><line x1='30' y1='235' x2='210' y2='235'/><line x1='30' y1='265' x2='210' y2='265'/></g><g fill='#333' font-size='10'><text x='50' y='42'>No</text><text x='105' y='38'>Ukuran</text><text x='105' y='50'>sepatu</text><text x='175' y='38'>Banyak</text><text x='175' y='50'>siswa</text><text x='50' y='73'>1</text><text x='105' y='73'>35</text><text x='175' y='73'>5</text><text x='50' y='103'>2</text><text x='105' y='103'>36</text><text x='175' y='103'>9</text><text x='50' y='133'>3</text><text x='105' y='133'>37</text><text x='175' y='133'>17</text><text x='50' y='163'>4</text><text x='105' y='163'>38</text><text x='175' y='163'>15</text><text x='50' y='193'>5</text><text x='105' y='193'>39</text><text x='175' y='193'>21</text><text x='50' y='223'>6</text><text x='105' y='223'>40</text><text x='175' y='223'>13</text><text x='50' y='253'>7</text><text x='105' y='253'>41</text><text x='175' y='253'>9</text><text x='50' y='283'>8</text><text x='105' y='283'>42</text><text x='175' y='283'>3</text></g></svg>"
+  },
+  {
+    "id": "q969",
+    "type": "sa",
+    "topic": "Statistics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Toni mengikuti seleksi calon peserta OSN dengan syarat diterima: (1) rata-rata dari 5 kali tes paling sedikit 85,5; (2) selisih nilai terbesar dan terkecil paling sedikit 7. Toni sudah mengikuti 4 kali tes dengan nilai 82, 83, 87, dan 85. Nilai setiap tes berupa bilangan bulat. Agar Toni diterima, maka nilai tes kelima yang harus dicapai Toni paling sedikit adalah ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q970",
+    "type": "sa",
+    "topic": "Geometry",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Perhatikan gambar segi delapan beraturan. A adalah salah satu titik sudut di kiri, B titik sudut di bawah, dan C adalah titik potong diagonal-diagonal di bagian dalam. Besar sudut ACB sama dengan ... derajat.",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 220 220' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='13'><polygon points='80,40 140,40 180,80 180,140 140,180 80,180 40,140 40,80' fill='#f7ede6' stroke='#a0522d' stroke-width='1.3'/><line x1='40' y1='80' x2='180' y2='140' stroke='#333'/><line x1='140' y1='180' x2='140' y2='40' stroke='#333'/><path d='M128 118 A16 16 0 0 0 122 100' fill='none' stroke='#2e7d32'/><g fill='#1a3d7c'><circle cx='40' cy='80' r='3'/><circle cx='140' cy='180' r='3'/><circle cx='132' cy='112' r='3'/></g><text x='30' y='84' fill='#1a3d7c'>A</text><text x='138' y='196' fill='#1a3d7c'>B</text><text x='138' y='108' fill='#1a3d7c'>C</text></svg>"
+  },
+  {
+    "id": "q971",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Dua bilangan positif jumlahnya sama dengan 6, dan pangkat tiga bilangan pertama sama dengan pangkat enam bilangan kedua. Hasil kali kedua bilangan tersebut adalah ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q972",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Hasil penjumlahan semua bilangan genap yang bukan kelipatan 3 dan kurang dari 201 adalah ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q973",
+    "type": "sa",
+    "topic": "Combinatorics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Pak Doni memberikan tugas mewarnai gambar berupa susunan segi lima dan segi empat yang saling bersisian. Setiap bangun yang bersisian tidak boleh diberi warna yang sama (dua bangun bersisian jika memiliki paling sedikit satu sisi yang sama). Segi lima hanya boleh diberi warna merah, kuning, atau biru; sedangkan segi empat hanya boleh diberi warna hijau atau ungu. Banyak susunan warna yang mungkin dibuat adalah ....",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 220 260' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' stroke='#5a9b4a' fill='#fff' stroke-width='1.2'><polygon points='70,20 95,38 86,68 54,68 45,38'/><polygon points='120,25 145,43 136,73 104,73 95,43'/><polygon points='86,68 104,73 100,100 78,100'/><polygon points='54,68 78,100 60,120 36,105'/><polygon points='104,73 136,73 140,100 100,100'/><polygon points='78,100 100,100 100,135 74,135'/><polygon points='100,100 140,100 138,130 100,135'/><polygon points='74,135 100,135 95,165 63,165 54,135'/><polygon points='100,135 138,130 150,160 118,168 100,165'/><polygon points='63,165 95,165 90,195 58,195'/><polygon points='95,165 118,168 122,195 90,195'/></svg>"
+  },
+  {
+    "id": "q974",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Banyak bilangan ratusan yang dibentuk dari tiga angka berbeda dari 2, 3, 5, dan 6 serta habis dibagi 4 adalah ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q975",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Pak Sutejo memiliki lahan perkebunan. Setengah lahannya ditanami kopi dan sepertiga ditanami coklat. Seperlima dari sisa lahan ditanami sayuran. Jika sisa lahan setelah ditanami kopi, coklat, dan sayuran adalah 600 m2, maka luas lahan Pak Sutejo yang ditanami coklat adalah ... m2.",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q976",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Yulia lahir pada hari Kamis bulan Juli tahun 2023. Ulang tahun Yulia ke-17 bertepatan pada hari ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q977",
+    "type": "sa",
+    "topic": "Geometry",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Diketahui dua lingkaran dengan titik pusat A (jari-jari 4 cm, di kiri) dan B (jari-jari 3 cm, di kanan). T titik tengah ruas garis AB dan jarak dua titik pusat lingkaran AB = 10 cm. Dari T ditarik garis singgung ke kedua lingkaran (sudut siku-siku pada titik singgung), membentuk daerah arsir menyerupai jam pasir di antara kedua lingkaran. Luas daerah yang diarsir adalah ... cm2.",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 360 220' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><defs><pattern id='hN18' patternUnits='userSpaceOnUse' width='7' height='7' patternTransform='rotate(45)'><line x1='0' y1='0' x2='0' y2='7' stroke='#555' stroke-width='0.7'/></pattern></defs><circle cx='95' cy='110' r='70' fill='none' stroke='#333'/><circle cx='285' cy='110' r='52' fill='none' stroke='#333'/><polygon points='150,65 190,110 150,155' fill='url(#hN18)' stroke='#333' stroke-width='0.8'/><polygon points='245,72 190,110 245,148' fill='url(#hN18)' stroke='#333' stroke-width='0.8'/><line x1='95' y1='110' x2='285' y2='110' stroke='#333' stroke-dasharray='4 3'/><line x1='190' y1='110' x2='150' y2='65' stroke='#333' stroke-dasharray='3 2'/><line x1='190' y1='110' x2='150' y2='155' stroke='#333' stroke-dasharray='3 2'/><line x1='190' y1='110' x2='245' y2='72' stroke='#333' stroke-dasharray='3 2'/><line x1='190' y1='110' x2='245' y2='148' stroke='#333' stroke-dasharray='3 2'/><rect x='146' y='61' width='9' height='9' fill='none' stroke='#2e7d32' transform='rotate(45 150 65)'/><rect x='241' y='68' width='9' height='9' fill='none' stroke='#2e7d32' transform='rotate(-40 245 72)'/><g fill='#000'><circle cx='95' cy='110' r='2.5'/><circle cx='285' cy='110' r='2.5'/><circle cx='190' cy='110' r='2.5'/></g><text x='88' y='106'>A</text><text x='288' y='106'>B</text><text x='185' y='125'>T</text></svg>"
+  },
+  {
+    "id": "q978",
+    "type": "sa",
+    "topic": "Geometry",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Diketahui segitiga ABC (A kiri bawah, B kanan bawah, C puncak). Titik D dan E berturut-turut titik tengah AB dan BC; titik F dan G pada AC sehingga CF = FG = GA. Jika luas segitiga ABC = 12 cm2, maka luas segiempat DEFG = ... cm2.",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 240 240' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><polygon points='40,200 200,190 150,40' fill='#f6e5d8' stroke='#a0522d' stroke-width='1.2'/><polygon points='120,195 96,113 78,150 120,195' fill='#c9caec' stroke='#3a4bb0' stroke-width='1.1'/><polygon points='120,195 175,115 96,113' fill='#c9caec' fill-opacity='0.6' stroke='#3a4bb0' stroke-width='1.1'/><g fill='#1a3d7c'><circle cx='40' cy='200' r='3'/><circle cx='200' cy='190' r='3'/><circle cx='150' cy='40' r='3'/><circle cx='120' cy='195' r='3'/><circle cx='175' cy='115' r='3'/><circle cx='96' cy='113' r='3'/><circle cx='78' cy='150' r='3'/></g><g fill='#1a3d7c'><text x='32' y='214'>A</text><text x='204' y='196'>B</text><text x='150' y='34'>C</text><text x='118' y='210'>D</text><text x='180' y='114'>E</text><text x='90' y='108'>F</text><text x='64' y='152'>G</text></g></svg>"
+  },
+  {
+    "id": "q979",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Suatu bilangan kuadrat sempurna terdiri dari empat angka, dua angka pertama sama, dan dua angka terakhir juga sama. Bilangan tersebut adalah ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q980",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Jumlah tabungan Fauzan, Afifah, dan Annisa adalah Rp2.620.000,00. Tabungan Fauzan 125% dari tabungan Afifah dan tabungan Fauzan 90% dari tabungan Annisa. Perbandingan tabungan Afifah dan Annisa adalah ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q981",
+    "type": "sa",
+    "topic": "Geometry",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Perahu kecil meninggalkan perahu besar ke arah utara menuju suatu target dengan kecepatan 80 km/jam. Pada saat yang sama perahu besar bergerak ke arah timur dengan kecepatan 40 km/jam. Apabila perahu kecil hanya mempunyai bahan bakar yang cukup untuk 4 jam, maka jarak maksimum target yang dituju agar ia dapat kembali ke perahu besar adalah ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q982",
+    "type": "sa",
+    "topic": "Logic",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Diagram berikut menggambarkan hari kunjungan ke perpustakaan sekolah oleh delapan siswa (Mela, Tita, Dikta, Ardi, Gina, Jimbo, Wati). Garis sewarna menunjukkan hari berkunjung yang sama (dua siswa yang dihubungkan garis pernah berkunjung bersama). Selain Ardi, siswa-siswa yang pernah berkunjung bersama dengan setiap siswa yang lain adalah ....",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 400 320' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12' text-anchor='middle'><g stroke-width='1.4' fill='none'><line x1='200' y1='55' x2='90' y2='110' stroke='#c0392b'/><line x1='90' y1='110' x2='200' y2='165' stroke='#c0392b'/><line x1='200' y1='165' x2='200' y2='275' stroke='#c0392b'/><line x1='90' y1='110' x2='310' y2='110' stroke='#c0392b'/><line x1='200' y1='55' x2='200' y2='165' stroke='#3aa0d0'/><line x1='90' y1='110' x2='310' y2='230' stroke='#3aa0d0'/><line x1='200' y1='55' x2='310' y2='230' stroke='#3aa0d0'/><line x1='310' y1='110' x2='200' y2='275' stroke='#3aa0d0'/><line x1='310' y1='110' x2='310' y2='230' stroke='#e0a020'/><line x1='200' y1='165' x2='310' y2='230' stroke='#e0a020'/><line x1='200' y1='165' x2='310' y2='110' stroke='#3aa050'/><line x1='310' y1='230' x2='200' y2='275' stroke='#3aa050'/><line x1='90' y1='225' x2='200' y2='275' stroke='#111'/><line x1='200' y1='165' x2='90' y2='225' stroke='#111'/></g><g fill='#fff' stroke='#333'><rect x='168' y='42' width='64' height='26'/><rect x='58' y='97' width='64' height='26'/><rect x='278' y='97' width='64' height='26'/><rect x='168' y='152' width='64' height='26'/><rect x='58' y='212' width='64' height='26'/><rect x='278' y='217' width='64' height='26'/><rect x='168' y='262' width='64' height='26'/></g><g fill='#000'><text x='200' y='59'>Mela</text><text x='90' y='114'>Tita</text><text x='310' y='114'>Dikta</text><text x='200' y='169'>Ardi</text><text x='90' y='229'>Gina</text><text x='310' y='234'>Jimbo</text><text x='200' y='279'>Wati</text></g></svg>"
+  },
+  {
+    "id": "q983",
+    "type": "sa",
+    "topic": "Combinatorics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Di suatu negara, plat mobil terdiri dari 3 digit berbeda dipilih dari angka 1, 2, 3, 4, 6, dan 8, diikuti 2 huruf berbeda dipilih dari kata MOBILER. Jika nomor plat harus memuat angka 4, 8, dan huruf M, maka banyak plat berbeda adalah ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q984",
+    "type": "sa",
+    "topic": "Combinatorics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Tim pelari estafet Petir beranggotakan A, B, C, D, E, dan F yang berturut-turut memiliki kemampuan berlari 8, 10, 12, 10, 6, dan 5 meter per detik. Pelatih memilih lima wakil untuk bertanding melawan Tim Kilat pada lintasan 5 x 80 meter. Tim Kilat memiliki waktu terbaik 54 detik. Agar Tim Petir dapat mengalahkan Tim Kilat dengan selisih waktu paling sedikit 2 detik, maka banyak kombinasi lima pelari Tim Petir yang dapat dibentuk adalah ....",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q985",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Diberikan dua bilangan: bilangan pertama adalah bilangan ratusan 2a1 dan bilangan kedua adalah bilangan puluhan 3b. Jika hasil kali kedua bilangan tersebut habis dibagi 6, maka tentukan nilai terbesar dari hasil kalinya.",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q986",
+    "type": "sa",
+    "topic": "Geometry",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Diberikan dua balok A dan B dengan ukuran yang sama, yaitu tinggi 8 cm dan lebar 5 cm. Volume balok A, yang panjangnya dibagi menjadi tiga bagian sama besar, adalah 480 cm3. Jika balok B dipotong menjadi dua bagian menurut tingginya, maka tentukan selisih volume antara 1 potongan dari balok A dan 1 potongan dari balok B.",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q987",
+    "type": "sa",
+    "topic": "Arithmetic",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Kota X dan Y dihubungkan oleh sebuah jalan. Pada tanggal 3 Juli 2024, bus Merah berangkat dari kota X pukul 06:30 WIB dan tiba di kota Y pukul 10:30 WIB pada hari yang sama. Pada tanggal yang sama, bus Biru berangkat dari kota Y pukul 03:30 WIB dan tiba di kota X pukul 09:30 WIB pada hari yang sama. Jika setiap bus bergerak dengan kecepatan tetap tanpa berhenti, pada pukul berapa kedua bus berpapasan?",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q988",
+    "type": "sa",
+    "topic": "Combinatorics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Tersedia tiga gelas kosong berwarna merah, hijau, dan biru yang masing-masing akan diisi kelereng. Jika tersedia empat kelereng dengan warna sama, maka tentukan semua cara yang mungkin untuk mengisi ketiga gelas tersebut dengan semua kelereng yang tersedia.",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q989",
+    "type": "sa",
+    "topic": "Number Patterns",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Perhatikan tabel bilangan berkolom A sampai J yang berisi bilangan asli tersusun berpola bolak-balik (boustrophedon), contoh isian: baris 1 kolom A=1, C=4, I=13; baris 2 kolom B=2, F=8, H=11; baris 3 kolom C=6, E=9, I=15; baris 4 kolom B=28, D=25, H=19; dan seterusnya. a. Lengkapilah pola susunan bilangan asli pada tabel tersebut. b. Tentukan pada kolom apa letak bilangan 2024.",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 470 230' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='11' text-anchor='middle'><g stroke='#333' fill='none'><rect x='20' y='20' width='440' height='190'/></g><g stroke='#ccc'><line x1='20' y1='40' x2='460' y2='40'/><line x1='20' y1='59' x2='460' y2='59'/><line x1='20' y1='78' x2='460' y2='78'/><line x1='20' y1='97' x2='460' y2='97'/><line x1='20' y1='116' x2='460' y2='116'/><line x1='20' y1='135' x2='460' y2='135'/><line x1='20' y1='154' x2='460' y2='154'/><line x1='20' y1='173' x2='460' y2='173'/><line x1='20' y1='192' x2='460' y2='192'/></g><g stroke='#ccc'><line x1='64' y1='20' x2='64' y2='210'/><line x1='108' y1='20' x2='108' y2='210'/><line x1='152' y1='20' x2='152' y2='210'/><line x1='196' y1='20' x2='196' y2='210'/><line x1='240' y1='20' x2='240' y2='210'/><line x1='284' y1='20' x2='284' y2='210'/><line x1='328' y1='20' x2='328' y2='210'/><line x1='372' y1='20' x2='372' y2='210'/><line x1='416' y1='20' x2='416' y2='210'/></g><g fill='#1a3d7c' font-size='10'><text x='42' y='34'>A</text><text x='86' y='34'>B</text><text x='130' y='34'>C</text><text x='174' y='34'>D</text><text x='218' y='34'>E</text><text x='262' y='34'>F</text><text x='306' y='34'>G</text><text x='350' y='34'>H</text><text x='394' y='34'>I</text><text x='438' y='34'>J</text></g><g fill='#333'><text x='42' y='53'>1</text><text x='130' y='53'>4</text><text x='394' y='53'>13</text><text x='86' y='72'>2</text><text x='262' y='72'>8</text><text x='350' y='72'>11</text><text x='130' y='91'>6</text><text x='218' y='91'>9</text><text x='394' y='91'>15</text><text x='86' y='110'>28</text><text x='174' y='110'>25</text><text x='350' y='110'>19</text><text x='42' y='129'>29</text><text x='218' y='129'>23</text><text x='394' y='129'>17</text><text x='350' y='148'>21</text><text x='438' y='148'>18</text><text x='42' y='167'>31</text><text x='130' y='167'>34</text><text x='394' y='167'>43</text><text x='86' y='186'>32</text><text x='262' y='186'>38</text><text x='350' y='186'>41</text><text x='130' y='205'>36</text><text x='218' y='205'>39</text><text x='394' y='205'>45</text></g></svg>"
+  },
+  {
+    "id": "q990",
+    "type": "sa",
+    "topic": "Geometry",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Gambar berikut merupakan denah rumah dalam satuan meter, terdiri dari Ruang Utama, dua Kamar Tidur, dua Kamar Mandi, Dapur, Taman, Area Jemur, Teras, dan Carport. Pemilik rumah ingin memasang karpet A seharga Rp250.000,00 per m2 (untuk ruang utama), karpet B seharga Rp150.000,00 per m2 (untuk kamar tidur), dan rumput sintetis seharga Rp95.000,00 per m2 (untuk taman dan area jemur). Tentukan biaya yang harus dikeluarkan.",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 400 320' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='9' text-anchor='middle'><g stroke='#333' fill='none' stroke-width='1.2'><rect x='30' y='20' width='340' height='280'/><line x1='30' y1='120' x2='180' y2='120'/><line x1='105' y1='20' x2='105' y2='120'/><line x1='180' y1='20' x2='180' y2='170'/><line x1='30' y1='210' x2='180' y2='210'/><line x1='105' y1='120' x2='105' y2='210'/><line x1='180' y1='90' x2='300' y2='90'/><line x1='300' y1='20' x2='300' y2='170'/><line x1='180' y1='170' x2='370' y2='170'/><line x1='30' y1='210' x2='370' y2='210'/><line x1='140' y1='210' x2='140' y2='300'/><line x1='260' y1='210' x2='260' y2='300'/></g><g fill='#444'><text x='67' y='72'>Kamar</text><text x='67' y='84'>Tidur 1</text><text x='142' y='72'>Kamar</text><text x='142' y='84'>Tidur 2</text><text x='67' y='168'>K.Mandi</text><text x='142' y='168'>Dapur</text><text x='240' y='58'>Taman</text><text x='335' y='58'>Area</text><text x='335' y='70'>Jemur</text><text x='275' y='135'>Ruang Utama</text><text x='85' y='258'>Teras</text><text x='200' y='258'>Carport</text><text x='315' y='258'>Teras</text></g></svg>"
+  },
+  {
+    "id": "q991",
+    "type": "sa",
+    "topic": "Statistics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Berikut data penjualan beras toko Sembako DIANING dalam satu tahun (satuan karung) per bulan Januari sampai Desember: 1386, 1382, 1387, 1389, 1397, 1392, 1390, 1392, 1389, 1383, 1391, 1388. a. Hitung besar setiap penurunan penjualan yang terjadi dalam satu tahun. b. Tentukan pada bulan apa terjadi penurunan penjualan terbesar.",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 460 240' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='8'><text x='230' y='14' text-anchor='middle' font-size='11'>Penjualan Beras Toko Dianing (karung)</text><line x1='50' y1='25' x2='50' y2='195' stroke='#333'/><line x1='50' y1='195' x2='445' y2='195' stroke='#333'/><g font-size='7' text-anchor='end' fill='#555'><text x='46' y='190'>1380</text><text x='46' y='150'>1385</text><text x='46' y='110'>1390</text><text x='46' y='70'>1395</text><text x='46' y='38'>1400</text></g><polyline points='68,147 100,179 132,139 164,123 196,59 228,99 260,115 292,99 324,123 356,171 388,107 420,131' fill='none' stroke='#3b5bd0' stroke-width='1.5'/><g fill='#3b5bd0'><circle cx='68' cy='147' r='2'/><circle cx='100' cy='179' r='2'/><circle cx='132' cy='139' r='2'/><circle cx='164' cy='123' r='2'/><circle cx='196' cy='59' r='2'/><circle cx='228' cy='99' r='2'/><circle cx='260' cy='115' r='2'/><circle cx='292' cy='99' r='2'/><circle cx='324' cy='123' r='2'/><circle cx='356' cy='171' r='2'/><circle cx='388' cy='107' r='2'/><circle cx='420' cy='131' r='2'/></g><g font-size='7' text-anchor='middle' fill='#555'><text x='68' y='206'>Jan</text><text x='100' y='206'>Feb</text><text x='132' y='206'>Mar</text><text x='164' y='206'>Apr</text><text x='196' y='206'>Mei</text><text x='228' y='206'>Jun</text><text x='260' y='206'>Jul</text><text x='292' y='206'>Agu</text><text x='324' y='206'>Sep</text><text x='356' y='206'>Okt</text><text x='388' y='206'>Nov</text><text x='420' y='206'>Des</text></g></svg>"
+  },
+  {
+    "id": "q992",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Bilangan ribuan abcd yang setiap digitnya berbeda dibentuk dari bilangan 0, 1, 2, 3, 4, 5, 6, 7, 8. Jika abcd adalah kelipatan empat, maka tentukan banyak bilangan abcd yang mungkin.",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q993",
+    "type": "sa",
+    "topic": "Number Theory",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Diketahui dua bilangan asli berbeda berjumlah 75. Apabila bilangan yang lebih besar dibagi yang lebih kecil, maka hasil baginya 8 dan sisanya 3. Tentukan selisih kedua bilangan tersebut.",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q994",
+    "type": "sa",
+    "topic": "Combinatorics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Arif dan teman-temannya bermain permainan lompat berjumlah prima dengan aturan: (1) mereka melewati 5 petak bilangan berbeda yang dimulai dari petak bilangan 1 dan berakhir di petak bilangan 11; (2) jumlah bilangan pada petak yang dilewati merupakan bilangan prima; (3) mereka hanya dapat melompati kurang dari 1 meter. Contoh sesuai aturan: 1, 2, 3, 6, 11. Contoh tidak sesuai aturan: 1, 5, 6, 5, 11. Tuliskan semua jalan yang dapat mereka lalui dengan aturan tersebut.",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q995",
+    "type": "sa",
+    "topic": "Geometry",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "Suppose that ABCD is a kite with AD = 5 cm, CD = 12 cm, angle BAD = 134.8 degrees and angle BCD = 45.2 degrees. Determine the length of BD.",
+    "text_id": "Misalkan ABCD adalah layang-layang dengan AD = 5 cm, CD = 12 cm, sudut BAD = 134,8 derajat dan sudut BCD = 45,2 derajat. Tentukan panjang BD.",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 240 260' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='12'><polygon points='120,30 55,120 120,230 185,120' fill='#eef3fb' stroke='#333' stroke-width='1.3'/><line x1='120' y1='30' x2='120' y2='230' stroke='#333' stroke-dasharray='4 3'/><g fill='#000'><circle cx='120' cy='30' r='2.5'/><circle cx='55' cy='120' r='2.5'/><circle cx='120' cy='230' r='2.5'/><circle cx='185' cy='120' r='2.5'/></g><g fill='#000'><text x='118' y='24'>A</text><text x='44' y='124'>B</text><text x='118' y='246'>C</text><text x='190' y='124'>D</text></g><text x='150' y='70'>5</text><text x='158' y='185'>12</text><text x='108' y='45' font-size='9' fill='#2e7d32'>134,8&#176;</text><text x='104' y='222' font-size='9' fill='#2e7d32'>45,2&#176;</text></svg>"
+  },
+  {
+    "id": "q996",
+    "type": "sa",
+    "topic": "Combinatorics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Andi dan Bani mengunjungi pusat perbelanjaan 4 lantai (lantai 1 dasar, lantai 2, 3, dan 4). Mereka akan membeli alat tulis di lantai 1, sepatu di lantai 2, makanan di lantai 3, dan mengunjungi pusat permainan di lantai 4. Untuk menuju lantai 2, 3, dan 4 mereka bisa menggunakan lift, tangga berjalan, atau tangga biasa. Mereka mulai dari lantai 1. Tuliskan banyak kemungkinan rute yang ditempuh sehingga rencana terlaksana dan kembali lagi ke lantai 1.",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q997",
+    "type": "sa",
+    "topic": "Statistics",
+    "competition": "OSN",
+    "grade": "elementary",
+    "text": "",
+    "text_id": "Terpilih tiga finalis (Dani, Cheri, Yanto) lomba bercerita, menulis, dan menggambar. Juri dan penonton memberi nilai dalam skala 1000. Pada setiap jenis lomba, finalis menjadi juara jika mendapat jumlah tertinggi dari nilai penonton dan nilai juri. Finalis menjadi juara favorit jika 60% rata-rata nilai juri ditambah 40% nilai penonton merupakan nilai tertinggi. Data nilai juri: Bercerita (Dani 750, Cheri 830, Yanto 740); Menulis (Dani 850, Cheri 840, Yanto 690); Menggambar (Dani 730, Cheri 645, Yanto 820); Nilai Penonton (Dani 720, Cheri 735, Yanto 725). Siapakah finalis yang mendapatkan juara lomba bercerita, menulis, menggambar, serta juara favorit?",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 440 250' xmlns='http://www.w3.org/2000/svg' font-family='Segoe UI,sans-serif' font-size='9' text-anchor='middle'><text x='220' y='14' font-size='11'>Nilai Finalis</text><line x1='45' y1='25' x2='45' y2='195' stroke='#333'/><line x1='45' y1='195' x2='425' y2='195' stroke='#333'/><g font-size='7' text-anchor='end' fill='#555'><text x='41' y='195'>0</text><text x='41' y='161'>200</text><text x='41' y='127'>400</text><text x='41' y='93'>600</text><text x='41' y='59'>800</text><text x='41' y='42'>1000</text></g><g><rect x='60' y='68' width='16' height='127' fill='#4a7ebb'/><rect x='77' y='54' width='16' height='141' fill='#e8862c'/><rect x='94' y='69' width='16' height='126' fill='#8a8a8a'/><rect x='160' y='51' width='16' height='144' fill='#4a7ebb'/><rect x='177' y='52' width='16' height='143' fill='#e8862c'/><rect x='194' y='78' width='16' height='117' fill='#8a8a8a'/><rect x='260' y='71' width='16' height='124' fill='#4a7ebb'/><rect x='277' y='85' width='16' height='110' fill='#e8862c'/><rect x='294' y='56' width='16' height='139' fill='#8a8a8a'/><rect x='360' y='73' width='16' height='122' fill='#4a7ebb'/><rect x='377' y='70' width='16' height='125' fill='#e8862c'/><rect x='394' y='72' width='16' height='123' fill='#8a8a8a'/></g><g font-size='8' fill='#333'><text x='85' y='208'>Bercerita</text><text x='185' y='208'>Menulis</text><text x='285' y='208'>Menggambar</text><text x='385' y='208'>Penonton</text></g><g font-size='8'><rect x='120' y='224' width='9' height='9' fill='#4a7ebb'/><text x='148' y='232'>Dani</text><rect x='190' y='224' width='9' height='9' fill='#e8862c'/><text x='218' y='232'>Cheri</text><rect x='262' y='224' width='9' height='9' fill='#8a8a8a'/><text x='290' y='232'>Yanto</text></g></svg>"
   }
 ]
