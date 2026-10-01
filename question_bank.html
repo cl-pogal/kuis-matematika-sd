@@ -164,6 +164,52 @@
       white-space: nowrap;
     }
 
+    /* ── Pagination ── */
+    .pagination {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+      padding: 4px 2px;
+    }
+    .page-size-group { display: flex; align-items: center; gap: 8px; }
+    .page-size-group label {
+      font-size: .8rem;
+      font-weight: 600;
+      color: #555;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    .page-size-group select {
+      padding: 7px 12px;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      font-size: .88rem;
+      background: #fff;
+      color: #333;
+      outline: none;
+      transition: border-color .2s;
+    }
+    .page-size-group select:focus { border-color: #3949ab; }
+    .page-info { font-size: .85rem; color: #777; }
+    .page-controls {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .page-current {
+      font-size: .85rem;
+      font-weight: 600;
+      color: #3949ab;
+      padding: 0 8px;
+      white-space: nowrap;
+    }
+    .btn:disabled { opacity: .45; cursor: not-allowed; }
+    .btn:disabled:hover { background: transparent; }
+
     /* ── Table ── */
     .table-wrap {
       background: #fff;
@@ -240,6 +286,8 @@
     .btn-danger:hover  { background: #b71c1c; }
     .btn-outline { background: transparent; border: 2px solid #3949ab; color: #3949ab; }
     .btn-outline:hover { background: #e8eaf6; }
+    .btn-info { background: #0277bd; color: #fff; }
+    .btn-info:hover { background: #01579b; }
     .btn-sm { padding: 5px 12px; font-size: .8rem; }
     .btn-white { background: rgba(255,255,255,.15); color: #fff; border: 2px solid rgba(255,255,255,.5); }
     .btn-white:hover { background: rgba(255,255,255,.25); }
@@ -270,6 +318,39 @@
     @keyframes slideIn { from { transform: translateY(-20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
 
     .modal h2 { font-size: 1.2rem; color: #1a237e; margin-bottom: 24px; }
+
+    /* ── SVG viewer ── */
+    .svg-modal { max-width: 640px; }
+    .svg-preview {
+      background: #f8f9ff;
+      border: 1.5px solid #e0e0e0;
+      border-radius: 10px;
+      padding: 16px;
+      overflow: auto;
+      text-align: center;
+    }
+    .svg-preview svg {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+    }
+    .svg-preview .no-svg { color: #aaa; padding: 32px 0; font-size: .9rem; }
+
+    /* ── SVG editor field ── */
+    #f-svg { font-family: 'Consolas','Courier New',monospace; font-size: .82rem; min-height: 110px; white-space: pre; }
+    .svg-edit-preview {
+      margin-top: 10px;
+      background: #f8f9ff;
+      border: 1.5px dashed #cfd6f5;
+      border-radius: 8px;
+      padding: 12px;
+      text-align: center;
+      overflow: auto;
+      max-height: 220px;
+    }
+    .svg-edit-preview svg { display: block; max-width: 100%; height: auto; margin: 0 auto; }
+    .svg-edit-preview .hint { color: #aaa; font-size: .82rem; padding: 12px 0; }
 
     .form-group { margin-bottom: 18px; }
     .form-group label {
@@ -426,14 +507,20 @@
 
   <!-- Toolbar -->
   <div class="toolbar">
-    <input type="text" id="search-input" placeholder="🔍 Search questions…" oninput="renderTable()" />
-    <select id="filter-type" onchange="renderTable()">
+    <input type="text" id="search-input" placeholder="🔍 Search questions…" oninput="onFilterChange()" />
+    <select id="filter-type" onchange="onFilterChange()">
       <option value="all">All Types</option>
       <option value="mc">Multiple Choice</option>
       <option value="sa">Short Answer</option>
     </select>
-    <select id="filter-topic" onchange="renderTable()">
+    <select id="filter-topic" onchange="onFilterChange()">
       <option value="all">All Topics</option>
+    </select>
+    <select id="filter-competition" onchange="onFilterChange()">
+      <option value="all">All Competitions</option>
+    </select>
+    <select id="filter-grade" onchange="onFilterChange()">
+      <option value="all">All Grades</option>
     </select>
     <button class="btn btn-primary" onclick="openAddModal()">+ Add Question</button>
     <div class="stats-chip" id="stats-chip">0 questions</div>
@@ -447,6 +534,8 @@
           <th>ID</th>
           <th>Type</th>
           <th>Topic</th>
+          <th>Competition</th>
+          <th>Grade</th>
           <th>Question</th>
           <th>Answer</th>
           <th>Actions</th>
@@ -460,12 +549,34 @@
     </div>
   </div>
 
+  <!-- Pagination -->
+  <div class="pagination" id="pagination">
+    <div class="page-size-group">
+      <label for="page-size">Per page</label>
+      <select id="page-size" onchange="onPageSizeChange()">
+        <option value="10">10</option>
+        <option value="25" selected>25</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+      </select>
+    </div>
+    <div class="page-info" id="page-info">—</div>
+    <div class="page-controls">
+      <button class="btn btn-outline btn-sm" id="page-first" onclick="gotoPage(1)" title="First page">« First</button>
+      <button class="btn btn-outline btn-sm" id="page-prev" onclick="gotoPage(currentPage - 1)" title="Previous page">‹ Prev</button>
+      <span class="page-current" id="page-current">Page 1 of 1</span>
+      <button class="btn btn-outline btn-sm" id="page-next" onclick="gotoPage(currentPage + 1)" title="Next page">Next ›</button>
+      <button class="btn btn-outline btn-sm" id="page-last" onclick="gotoPage(totalPages)" title="Last page">Last »</button>
+    </div>
+  </div>
+
   <!-- Import / Export -->
   <div class="io-panel">
     <h3>📂 Import / Export</h3>
     <div class="io-row">
       <label class="btn btn-outline" for="import-file">⬆ Import JSON</label>
       <input type="file" id="import-file" accept=".json" onchange="importJSON(event)" />
+      <button class="btn btn-info" onclick="confirmReloadFromFile()">🔄 Reload from questions.json</button>
       <button class="btn btn-outline" onclick="downloadTemplate()">📄 Download Template</button>
       <button class="btn btn-danger" onclick="confirmClearAll()">🗑 Clear All</button>
     </div>
@@ -497,6 +608,18 @@
     </div>
 
     <div class="form-group">
+      <label>Competition</label>
+      <input type="text" id="f-competition" placeholder="e.g. SMC, OSN…" list="competition-suggestions" />
+      <datalist id="competition-suggestions"></datalist>
+    </div>
+
+    <div class="form-group">
+      <label>Grade</label>
+      <input type="text" id="f-grade" placeholder="e.g. 5, elementary…" list="grade-suggestions" />
+      <datalist id="grade-suggestions"></datalist>
+    </div>
+
+    <div class="form-group">
       <label>Question Text (English)</label>
       <textarea id="f-text" placeholder="Enter the question…"></textarea>
     </div>
@@ -504,6 +627,14 @@
     <div class="form-group">
       <label>Question Text (Bahasa Indonesia)</label>
       <textarea id="f-text-id" placeholder="Masukkan soal dalam Bahasa Indonesia… (opsional)"></textarea>
+    </div>
+
+    <div class="form-group">
+      <label>SVG Image (optional)</label>
+      <textarea id="f-svg" placeholder="Paste raw &lt;svg&gt;…&lt;/svg&gt; markup here… (opsional)" oninput="updateSvgEditPreview()"></textarea>
+      <div class="svg-edit-preview" id="svg-edit-preview">
+        <div class="hint">Live preview appears here when valid SVG is entered.</div>
+      </div>
     </div>
 
     <div class="form-group" id="options-section">
@@ -535,6 +666,17 @@
   </div>
 </div>
 
+<!-- ════════ SVG VIEWER MODAL ════════ -->
+<div class="modal-overlay" id="svg-overlay">
+  <div class="modal svg-modal">
+    <h2 id="svg-modal-title">Question Image</h2>
+    <div class="svg-preview" id="svg-preview"></div>
+    <div class="modal-footer">
+      <button class="btn btn-outline" onclick="closeSvgModal()">Close</button>
+    </div>
+  </div>
+</div>
+
 <!-- ════════ TOAST ════════ -->
 <div id="toast"></div>
 
@@ -551,8 +693,8 @@ function checkPassword() {
     // Load bank after unlocking
     loadFromStorage();
     renderTable();
-    refreshTopicFilter();
-    refreshTopicSuggestions();
+    refreshFilters();
+    refreshSuggestions();
   } else {
     errEl.textContent = 'Incorrect password. Please try again.';
     input.value = '';
@@ -588,6 +730,11 @@ let questions = [];
 let editingId = null;
 let confirmCallback = null;
 
+/* Pagination state */
+let currentPage = 1;
+let pageSize = 25;
+let totalPages = 1;
+
 const LETTERS = ['A','B','C','D','E','F'];
 
 /* ══════════════════════════ INIT ═══════════════════════════ */
@@ -610,8 +757,8 @@ function loadFromStorage() {
         questions = data;
         saveToStorage();
         renderTable();
-        refreshTopicFilter();
-        refreshTopicSuggestions();
+        refreshFilters();
+        refreshSuggestions();
       }
     })
     .catch(() => {
@@ -624,47 +771,137 @@ function saveToStorage() {
   localStorage.setItem('question_bank', JSON.stringify(questions));
 }
 
-/* ══════════════════════ RENDER TABLE ═══════════════════════ */
-function renderTable() {
+/* Reload straight from questions.json, discarding the localStorage working copy. */
+function confirmReloadFromFile() {
+  showConfirm(
+    'Reload from questions.json?\n\nThis discards any unsaved changes in this browser and replaces the bank with the contents of the file on disk.',
+    reloadFromFile
+  );
+}
+
+function reloadFromFile() {
+  fetch('questions.json?_=' + Date.now())
+    .then(r => {
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return r.json();
+    })
+    .then(data => {
+      if (!Array.isArray(data)) throw new Error('questions.json must be a JSON array.');
+      questions = data;
+      currentPage = 1;
+      saveToStorage();      // sync working copy to the fresh file contents
+      renderTable();
+      refreshFilters();
+      refreshSuggestions();
+      showToast(`🔄 Reloaded ${data.length} questions from file.`);
+    })
+    .catch(err => {
+      showToast('⚠️ Could not load questions.json — open via a local server.');
+      console.error('Reload failed:', err);
+    });
+}
+
+/* ══════════════════════ FILTERING ══════════════════════════ */
+// Returns the questions that pass the current search + filter settings.
+function getFilteredQuestions() {
   const search = document.getElementById('search-input').value.toLowerCase();
   const fType  = document.getElementById('filter-type').value;
   const fTopic = document.getElementById('filter-topic').value;
+  const fComp  = document.getElementById('filter-competition').value;
+  const fGrade = document.getElementById('filter-grade').value;
 
-  const filtered = questions.filter(q => {
-    const matchType  = fType  === 'all' || q.type  === fType;
-    const matchTopic = fTopic === 'all' || q.topic === fTopic;
+  return questions.filter(q => {
+    const matchType  = fType  === 'all' || q.type        === fType;
+    const matchTopic = fTopic === 'all' || q.topic       === fTopic;
+    const matchComp  = fComp  === 'all' || q.competition === fComp;
+    const matchGrade = fGrade === 'all' || String(q.grade) === fGrade;
     const matchSearch = !search
-      || q.text.toLowerCase().includes(search)
+      || (q.text || '').toLowerCase().includes(search)
       || (q.text_id || '').toLowerCase().includes(search)
       || (q.topic || '').toLowerCase().includes(search)
-      || q.answer.toLowerCase().includes(search);
-    return matchType && matchTopic && matchSearch;
+      || (q.competition || '').toLowerCase().includes(search)
+      || (q.answer || '').toLowerCase().includes(search);
+    return matchType && matchTopic && matchComp && matchGrade && matchSearch;
   });
+}
+
+// Called whenever a filter/search value changes — always reset to page 1.
+function onFilterChange() {
+  currentPage = 1;
+  renderTable();
+}
+
+function onPageSizeChange() {
+  pageSize = parseInt(document.getElementById('page-size').value, 10) || 25;
+  currentPage = 1;
+  renderTable();
+}
+
+function gotoPage(page) {
+  if (page < 1 || page > totalPages) return;
+  currentPage = page;
+  renderTable();
+}
+
+/* ══════════════════════ RENDER TABLE ═══════════════════════ */
+function renderTable() {
+  const filtered = getFilteredQuestions();
+  const total = filtered.length;
+
+  // Recompute pagination bounds.
+  totalPages = Math.max(1, Math.ceil(total / pageSize));
+  if (currentPage > totalPages) currentPage = totalPages;
+  if (currentPage < 1) currentPage = 1;
+
+  const startIdx = (currentPage - 1) * pageSize;
+  const endIdx   = Math.min(startIdx + pageSize, total);
+  const pageItems = filtered.slice(startIdx, endIdx);
 
   const tbody = document.getElementById('question-tbody');
   tbody.innerHTML = '';
 
   document.getElementById('stats-chip').textContent =
-    `${filtered.length} / ${questions.length} questions`;
+    `${total} / ${questions.length} questions`;
 
   document.getElementById('empty-state').style.display =
-    filtered.length === 0 ? 'block' : 'none';
+    total === 0 ? 'block' : 'none';
 
-  filtered.forEach(q => {
+  pageItems.forEach(q => {
     const tr = document.createElement('tr');
     tr.innerHTML = `
       <td class="td-id">${q.id}</td>
       <td><span class="badge ${q.type === 'mc' ? 'badge-mc' : 'badge-sa'}">${q.type === 'mc' ? 'MC' : 'SA'}</span></td>
-      <td><span class="badge badge-topic">${q.topic || '—'}</span></td>
+      <td><span class="badge badge-topic">${escHtml(q.topic || '—')}</span></td>
+      <td>${escHtml(q.competition || '—')}</td>
+      <td>${escHtml(q.grade != null && q.grade !== '' ? String(q.grade) : '—')}</td>
       <td class="td-text">${escHtml(q.text)}${q.text_id ? `<div class="td-text-id">🇮🇩 ${escHtml(q.text_id)}</div>` : ''}</td>
       <td class="td-answer">${escHtml(q.answer)}</td>
       <td class="td-actions">
+        ${q.svg ? `<button class="btn btn-info btn-sm" onclick="openSvgModal('${q.id}')" title="View image">🖼 Image</button>` : ''}
         <button class="btn btn-warning btn-sm" onclick="openEditModal('${q.id}')">Edit</button>
         <button class="btn btn-danger  btn-sm" onclick="confirmDelete('${q.id}')">Delete</button>
       </td>
     `;
     tbody.appendChild(tr);
   });
+
+  updatePaginationUI(total, startIdx, endIdx);
+}
+
+/* ══════════════════════ PAGINATION UI ══════════════════════ */
+function updatePaginationUI(total, startIdx, endIdx) {
+  const info = total === 0
+    ? 'No results'
+    : `Showing ${startIdx + 1}–${endIdx} of ${total}`;
+  document.getElementById('page-info').textContent = info;
+  document.getElementById('page-current').textContent = `Page ${currentPage} of ${totalPages}`;
+
+  const atFirst = currentPage <= 1;
+  const atLast  = currentPage >= totalPages;
+  document.getElementById('page-first').disabled = atFirst;
+  document.getElementById('page-prev').disabled  = atFirst;
+  document.getElementById('page-next').disabled  = atLast;
+  document.getElementById('page-last').disabled  = atLast;
 }
 
 function escHtml(str) {
@@ -673,41 +910,93 @@ function escHtml(str) {
     .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
-/* ══════════════════════ TOPIC HELPERS ══════════════════════ */
-function refreshTopicFilter() {
-  const topics = ['all', ...new Set(questions.map(q => q.topic).filter(Boolean))].sort();
-  const sel = document.getElementById('filter-topic');
+/* ══════════════════════ SVG VIEWER ═════════════════════════ */
+function openSvgModal(id) {
+  const q = questions.find(x => x.id === id);
+  if (!q || !q.svg) { showToast('No image for this question.'); return; }
+  document.getElementById('svg-modal-title').textContent = `Question Image — ${q.id}`;
+  // q.svg is trusted local content authored in the bank; render it directly.
+  document.getElementById('svg-preview').innerHTML = q.svg;
+  document.getElementById('svg-overlay').classList.add('open');
+}
+
+function closeSvgModal() {
+  document.getElementById('svg-overlay').classList.remove('open');
+  document.getElementById('svg-preview').innerHTML = '';
+}
+
+// Live preview inside the edit modal as the user types SVG markup.
+function updateSvgEditPreview() {
+  const raw = document.getElementById('f-svg').value.trim();
+  const box = document.getElementById('svg-edit-preview');
+  if (!raw) {
+    box.innerHTML = '<div class="hint">Live preview appears here when valid SVG is entered.</div>';
+    return;
+  }
+  if (/<svg[\s>]/i.test(raw)) {
+    box.innerHTML = raw;
+  } else {
+    box.innerHTML = '<div class="hint">Waiting for a valid &lt;svg&gt; tag…</div>';
+  }
+}
+
+/* ══════════════════════ FILTER / SUGGESTION HELPERS ════════ */
+// Populate a <select> with "All" + sorted distinct values, keeping current choice.
+function populateFilterSelect(selectId, allLabel, values) {
+  const sel = document.getElementById(selectId);
   const cur = sel.value;
   sel.innerHTML = '';
-  topics.forEach(t => {
+  ['all', ...values].forEach(v => {
     const opt = document.createElement('option');
-    opt.value = t;
-    opt.textContent = t === 'all' ? 'All Topics' : t;
-    if (t === cur) opt.selected = true;
+    opt.value = v;
+    opt.textContent = v === 'all' ? allLabel : v;
+    if (v === cur) opt.selected = true;
     sel.appendChild(opt);
   });
 }
 
-function refreshTopicSuggestions() {
-  const dl = document.getElementById('topic-suggestions');
-  const topics = [...new Set(questions.map(q => q.topic).filter(Boolean))].sort();
+function distinctValues(key) {
+  return [...new Set(
+    questions.map(q => q[key]).filter(v => v != null && v !== '').map(String)
+  )].sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+}
+
+function refreshFilters() {
+  populateFilterSelect('filter-topic',       'All Topics',       distinctValues('topic'));
+  populateFilterSelect('filter-competition', 'All Competitions', distinctValues('competition'));
+  populateFilterSelect('filter-grade',       'All Grades',       distinctValues('grade'));
+}
+
+// Populate a <datalist> for a free-text field.
+function populateDatalist(datalistId, values) {
+  const dl = document.getElementById(datalistId);
   dl.innerHTML = '';
-  topics.forEach(t => {
+  values.forEach(v => {
     const opt = document.createElement('option');
-    opt.value = t;
+    opt.value = v;
     dl.appendChild(opt);
   });
+}
+
+function refreshSuggestions() {
+  populateDatalist('topic-suggestions',       distinctValues('topic'));
+  populateDatalist('competition-suggestions', distinctValues('competition'));
+  populateDatalist('grade-suggestions',       distinctValues('grade'));
 }
 
 /* ══════════════════════ ADD MODAL ══════════════════════════ */
 function openAddModal() {
   editingId = null;
   document.getElementById('modal-title').textContent = 'Add Question';
-  document.getElementById('f-type').value    = 'mc';
-  document.getElementById('f-topic').value   = '';
-  document.getElementById('f-text').value    = '';
-  document.getElementById('f-text-id').value = '';
-  document.getElementById('f-answer').value  = '';
+  document.getElementById('f-type').value        = 'mc';
+  document.getElementById('f-topic').value       = '';
+  document.getElementById('f-competition').value = '';
+  document.getElementById('f-grade').value       = '';
+  document.getElementById('f-text').value        = '';
+  document.getElementById('f-text-id').value     = '';
+  document.getElementById('f-svg').value          = '';
+  document.getElementById('f-answer').value       = '';
+  updateSvgEditPreview();
   buildOptionRows(['', '', '', '']);
   toggleOptionsSection();
   document.getElementById('modal-overlay').classList.add('open');
@@ -718,11 +1007,15 @@ function openEditModal(id) {
   if (!q) return;
   editingId = id;
   document.getElementById('modal-title').textContent = 'Edit Question';
-  document.getElementById('f-type').value    = q.type;
-  document.getElementById('f-topic').value   = q.topic || '';
-  document.getElementById('f-text').value    = q.text;
-  document.getElementById('f-text-id').value = q.text_id || '';
-  document.getElementById('f-answer').value  = q.answer;
+  document.getElementById('f-type').value        = q.type;
+  document.getElementById('f-topic').value       = q.topic || '';
+  document.getElementById('f-competition').value = q.competition || '';
+  document.getElementById('f-grade').value       = q.grade != null ? String(q.grade) : '';
+  document.getElementById('f-text').value        = q.text;
+  document.getElementById('f-text-id').value     = q.text_id || '';
+  document.getElementById('f-svg').value          = q.svg || '';
+  document.getElementById('f-answer').value       = q.answer;
+  updateSvgEditPreview();
   buildOptionRows(q.type === 'mc' ? q.options : ['', '', '', '']);
   toggleOptionsSection();
   document.getElementById('modal-overlay').classList.add('open');
@@ -773,11 +1066,14 @@ function renumberOptions() {
 
 /* ══════════════════════ SAVE QUESTION ══════════════════════ */
 function saveQuestion() {
-  const type   = document.getElementById('f-type').value;
-  const topic  = document.getElementById('f-topic').value.trim();
-  const text   = document.getElementById('f-text').value.trim();
-  const textId = document.getElementById('f-text-id').value.trim();
-  const answer = document.getElementById('f-answer').value.trim();
+  const type        = document.getElementById('f-type').value;
+  const topic       = document.getElementById('f-topic').value.trim();
+  const competition = document.getElementById('f-competition').value.trim();
+  const grade       = document.getElementById('f-grade').value.trim();
+  const text        = document.getElementById('f-text').value.trim();
+  const textId      = document.getElementById('f-text-id').value.trim();
+  const svg         = document.getElementById('f-svg').value.trim();
+  const answer      = document.getElementById('f-answer').value.trim();
 
   if (!text)   { showToast('⚠️ Question text is required.'); return; }
   if (!answer) { showToast('⚠️ Correct answer is required.'); return; }
@@ -794,15 +1090,21 @@ function saveQuestion() {
   if (editingId) {
     const idx = questions.findIndex(q => q.id === editingId);
     if (idx !== -1) {
-      questions[idx] = { ...questions[idx], type, topic, text, text_id: textId || undefined, options: type === 'mc' ? options : undefined, answer };
+      questions[idx] = { ...questions[idx], type, topic, competition, grade, text, text_id: textId || undefined, svg: svg || undefined, options: type === 'mc' ? options : undefined, answer };
       if (type === 'sa') delete questions[idx].options;
       if (!textId) delete questions[idx].text_id;
+      if (!svg) delete questions[idx].svg;
+      if (!competition) delete questions[idx].competition;
+      if (!grade) delete questions[idx].grade;
       showToast('✅ Question updated.');
     }
   } else {
     const id = 'q' + String(Date.now()).slice(-6);
     const newQ = { id, type, topic, text, answer };
+    if (competition) newQ.competition = competition;
+    if (grade) newQ.grade = grade;
     if (textId) newQ.text_id = textId;
+    if (svg) newQ.svg = svg;
     if (type === 'mc') newQ.options = options;
     questions.push(newQ);
     showToast('✅ Question added.');
@@ -811,8 +1113,8 @@ function saveQuestion() {
   saveToStorage();
   closeModal();
   renderTable();
-  refreshTopicFilter();
-  refreshTopicSuggestions();
+  refreshFilters();
+  refreshSuggestions();
 }
 
 /* ══════════════════════ DELETE ═════════════════════════════ */
@@ -822,8 +1124,8 @@ function confirmDelete(id) {
     questions = questions.filter(x => x.id !== id);
     saveToStorage();
     renderTable();
-    refreshTopicFilter();
-    refreshTopicSuggestions();
+    refreshFilters();
+    refreshSuggestions();
     showToast('🗑 Question deleted.');
   });
 }
@@ -834,8 +1136,8 @@ function confirmClearAll() {
     questions = [];
     saveToStorage();
     renderTable();
-    refreshTopicFilter();
-    refreshTopicSuggestions();
+    refreshFilters();
+    refreshSuggestions();
     showToast('🗑 All questions cleared.');
   });
 }
@@ -845,9 +1147,13 @@ function exportJSON() {
   // Clean up undefined fields
   const clean = questions.map(q => {
     const o = { id: q.id, type: q.type, topic: q.topic || '', text: q.text };
+    if (q.competition) o.competition = q.competition;
     if (q.text_id) o.text_id = q.text_id;
+    if (q.svg) o.svg = q.svg;
+    if (q.subtext) o.subtext = q.subtext;
     o.answer = q.answer;
     if (q.type === 'mc') o.options = q.options;
+    if (q.grade != null && q.grade !== '') o.grade = q.grade;
     return o;
   });
   const blob = new Blob([JSON.stringify(clean, null, 2)], { type: 'application/json' });
@@ -880,10 +1186,11 @@ function importJSON(event) {
         if (!q.id) q.id = 'q' + String(Date.now() + i).slice(-6);
       });
       questions = data;
+      currentPage = 1;
       saveToStorage();
       renderTable();
-      refreshTopicFilter();
-      refreshTopicSuggestions();
+      refreshFilters();
+      refreshSuggestions();
       showToast(`✅ Imported ${data.length} questions.`);
     } catch(err) {
       alert('Import failed:\n' + err.message);
@@ -951,6 +1258,9 @@ function showToast(msg) {
 /* ══════════════════════ CLOSE ON BACKDROP ══════════════════ */
 document.getElementById('modal-overlay').addEventListener('click', e => {
   if (e.target === document.getElementById('modal-overlay')) closeModal();
+});
+document.getElementById('svg-overlay').addEventListener('click', e => {
+  if (e.target === document.getElementById('svg-overlay')) closeSvgModal();
 });
 </script>
 </body>
