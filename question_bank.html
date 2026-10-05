@@ -498,7 +498,7 @@
   </div>
   <div class="header-btns">
     <a href="math_quiz.html" class="btn btn-white">▶ Go to Quiz</a>
-    <button class="btn btn-white" onclick="exportJSON()">⬇ Export JSON</button>
+    <button class="btn btn-white" onclick="saveToFile()">💾 Save</button>
   </div>
 </header>
 
@@ -577,12 +577,16 @@
       <label class="btn btn-outline" for="import-file">⬆ Import JSON</label>
       <input type="file" id="import-file" accept=".json" onchange="importJSON(event)" />
       <button class="btn btn-info" onclick="confirmReloadFromFile()">🔄 Reload from questions.json</button>
-      <button class="btn btn-outline" onclick="downloadTemplate()">📄 Download Template</button>
+      <button class="btn btn-outline" onclick="unlinkFile()">🔗 Unlink File</button>
       <button class="btn btn-danger" onclick="confirmClearAll()">🗑 Clear All</button>
     </div>
     <p style="margin-top:12px;font-size:.82rem;color:#888;">
-      Import a <code>questions.json</code> file to replace the current bank, or export the current bank to save your changes.
-      After making changes, export the file and save it as <strong>questions.json</strong> in the same folder as the quiz.
+      <strong>💾 Save</strong> (in the header) writes changes straight back to <strong>questions.json</strong>.
+      The <em>first</em> save asks you to pick the file once (a browser security requirement, Chrome/Edge over
+      <code>http://localhost</code> or HTTPS); every save after that is silent — no picker, no download.
+      <strong>Reload</strong> reads back from that same linked file, and <strong>Unlink File</strong> forgets it so you
+      can pick a different one. On browsers without direct-save support, <strong>Save</strong> downloads a copy of
+      <strong>questions.json</strong> instead. Use <strong>Import JSON</strong> to replace the current bank from a file you choose.
     </p>
   </div>
 
@@ -737,6 +741,57 @@ let totalPages = 1;
 
 const LETTERS = ['A','B','C','D','E','F'];
 
+/* ══════════════ FILE HANDLE PERSISTENCE (IndexedDB) ═════════
+   We store the questions.json FileSystemFileHandle so the user
+   only has to pick the file ONCE — ever. After that, saving and
+   reloading go straight to that handle with no picker. */
+const IDB_NAME = 'qbank-fs';
+const IDB_STORE = 'handles';
+const IDB_KEY = 'questionsFile';
+
+function idbOpen() {
+  return new Promise((resolve, reject) => {
+    const req = indexedDB.open(IDB_NAME, 1);
+    req.onupgradeneeded = () => req.result.createObjectStore(IDB_STORE);
+    req.onsuccess = () => resolve(req.result);
+    req.onerror   = () => reject(req.error);
+  });
+}
+
+async function idbSetHandle(handle) {
+  try {
+    const db = await idbOpen();
+    await new Promise((res, rej) => {
+      const tx = db.transaction(IDB_STORE, 'readwrite');
+      tx.objectStore(IDB_STORE).put(handle, IDB_KEY);
+      tx.oncomplete = res; tx.onerror = () => rej(tx.error);
+    });
+  } catch (e) { console.warn('Could not persist file handle:', e); }
+}
+
+async function idbGetHandle() {
+  try {
+    const db = await idbOpen();
+    return await new Promise((res, rej) => {
+      const tx = db.transaction(IDB_STORE, 'readonly');
+      const r = tx.objectStore(IDB_STORE).get(IDB_KEY);
+      r.onsuccess = () => res(r.result || null);
+      r.onerror   = () => rej(r.error);
+    });
+  } catch (e) { return null; }
+}
+
+async function idbClearHandle() {
+  try {
+    const db = await idbOpen();
+    await new Promise((res, rej) => {
+      const tx = db.transaction(IDB_STORE, 'readwrite');
+      tx.objectStore(IDB_STORE).delete(IDB_KEY);
+      tx.oncomplete = res; tx.onerror = () => rej(tx.error);
+    });
+  } catch (e) { /* ignore */ }
+}
+
 /* ══════════════════════════ INIT ═══════════════════════════ */
 // Main init runs after password is confirmed (see checkPassword above).
 
@@ -779,26 +834,35 @@ function confirmReloadFromFile() {
   );
 }
 
-function reloadFromFile() {
-  fetch('questions.json?_=' + Date.now())
-    .then(r => {
+async function reloadFromFile() {
+  try {
+    let data;
+    // Prefer the linked handle (the exact file Save writes to) if available,
+    // so reload and save always use one and the same questions.json.
+    if (!fileHandle && supportsFSAccess()) fileHandle = await idbGetHandle();
+
+    if (fileHandle && await verifyWritePermission(fileHandle)) {
+      const file = await fileHandle.getFile();
+      data = JSON.parse(await file.text());
+    } else {
+      // No linked file — fall back to fetching the served copy.
+      const r = await fetch('questions.json?_=' + Date.now());
       if (!r.ok) throw new Error(`HTTP ${r.status}`);
-      return r.json();
-    })
-    .then(data => {
-      if (!Array.isArray(data)) throw new Error('questions.json must be a JSON array.');
-      questions = data;
-      currentPage = 1;
-      saveToStorage();      // sync working copy to the fresh file contents
-      renderTable();
-      refreshFilters();
-      refreshSuggestions();
-      showToast(`🔄 Reloaded ${data.length} questions from file.`);
-    })
-    .catch(err => {
-      showToast('⚠️ Could not load questions.json — open via a local server.');
-      console.error('Reload failed:', err);
-    });
+      data = await r.json();
+    }
+
+    if (!Array.isArray(data)) throw new Error('questions.json must be a JSON array.');
+    questions = data;
+    currentPage = 1;
+    saveToStorage();      // sync working copy to the fresh file contents
+    renderTable();
+    refreshFilters();
+    refreshSuggestions();
+    showToast(`🔄 Reloaded ${data.length} questions from file.`);
+  } catch (err) {
+    showToast('⚠️ Could not load questions.json — open via a local server.');
+    console.error('Reload failed:', err);
+  }
 }
 
 /* ══════════════════════ FILTERING ══════════════════════════ */
@@ -1143,8 +1207,8 @@ function confirmClearAll() {
 }
 
 /* ══════════════════════ IMPORT / EXPORT ════════════════════ */
-function exportJSON() {
-  // Clean up undefined fields
+// Build the clean, field-ordered JSON string used by both download and direct save.
+function buildQuestionsJSON() {
   const clean = questions.map(q => {
     const o = { id: q.id, type: q.type, topic: q.topic || '', text: q.text };
     if (q.competition) o.competition = q.competition;
@@ -1156,7 +1220,11 @@ function exportJSON() {
     if (q.grade != null && q.grade !== '') o.grade = q.grade;
     return o;
   });
-  const blob = new Blob([JSON.stringify(clean, null, 2)], { type: 'application/json' });
+  return JSON.stringify(clean, null, 2);
+}
+
+function exportJSON() {
+  const blob = new Blob([buildQuestionsJSON()], { type: 'application/json' });
   const url  = URL.createObjectURL(blob);
   const a    = document.createElement('a');
   a.href     = url;
@@ -1166,6 +1234,90 @@ function exportJSON() {
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
   showToast('⬇ questions.json downloaded — replace the file in your quiz folder.');
+}
+
+/* ══════════════════════ SAVE DIRECT TO FILE ════════════════ */
+// Remembered handle so repeat saves don't re-prompt for the file each time.
+let fileHandle = null;
+
+function supportsFSAccess() {
+  return typeof window.showSaveFilePicker === 'function';
+}
+
+// Entry point for the "Save to File" button.
+// First use: asks you to pick questions.json ONCE (browser security requires it).
+// Every save after that is silent — no picker, no download — straight to that file.
+async function saveToFile() {
+  if (!supportsFSAccess()) {
+    const reason = !window.isSecureContext
+      ? 'the page is not in a secure context (open it via http://localhost, not as a file:// path)'
+      : 'this browser does not support the File System Access API (use Chrome or Edge)';
+    showConfirm(
+      `Direct save is unavailable because ${reason}.\n\nClick Confirm to download questions.json instead — then replace the file in your quiz folder manually.`,
+      exportJSON
+    );
+    return;
+  }
+
+  // Restore a previously linked file handle if we don't have one in memory.
+  if (!fileHandle) fileHandle = await idbGetHandle();
+
+  if (fileHandle && await verifyWritePermission(fileHandle)) {
+    // Already linked and permitted — save silently, no confirm, no picker.
+    await writeToFile();
+  } else {
+    // No linked file yet (or permission lost) — link it once, then save.
+    showConfirm(
+      `Link and save to questions.json?\n\nYou'll pick the file once; after that every save writes to it silently. This OVERWRITES the file on disk.`,
+      linkAndWrite
+    );
+  }
+}
+
+// One-time: open the picker, remember the handle, then write.
+async function linkAndWrite() {
+  try {
+    fileHandle = await window.showSaveFilePicker({
+      suggestedName: 'questions.json',
+      types: [{ description: 'JSON file', accept: { 'application/json': ['.json'] } }]
+    });
+    await idbSetHandle(fileHandle);
+    await writeToFile();
+  } catch (err) {
+    if (err && err.name === 'AbortError') return;
+    showToast('⚠️ Could not link file: ' + (err?.message || err));
+    console.error('Link file failed:', err);
+  }
+}
+
+// Writes current questions to the already-linked handle. No picker.
+async function writeToFile() {
+  try {
+    const writable = await fileHandle.createWritable();
+    await writable.write(buildQuestionsJSON());
+    await writable.close();
+    saveToStorage();
+    showToast(`💾 Saved ${questions.length} questions to questions.json.`);
+  } catch (err) {
+    showToast('⚠️ Save failed: ' + (err?.message || err));
+    console.error('Save to file failed:', err);
+  }
+}
+
+async function verifyWritePermission(handle) {
+  const opts = { mode: 'readwrite' };
+  try {
+    if ((await handle.queryPermission(opts)) === 'granted') return true;
+    if ((await handle.requestPermission(opts)) === 'granted') return true;
+  } catch (_) { /* older impls may lack these — fall through to re-pick */ }
+  return false;
+}
+
+// Forget the linked file so the next save re-prompts for a (possibly different) file.
+async function unlinkFile() {
+  fileHandle = null;
+  await idbClearHandle();
+  showToast('🔗 File unlinked. Next save will ask you to pick a file.');
 }
 
 function importJSON(event) {
@@ -1198,36 +1350,6 @@ function importJSON(event) {
     event.target.value = '';
   };
   reader.readAsText(file);
-}
-
-function downloadTemplate() {
-  const template = [
-    {
-      "id": "q001",
-      "type": "mc",
-      "topic": "Algebra",
-      "text": "Sample multiple choice question?",
-      "options": ["Option A", "Option B", "Option C", "Option D"],
-      "answer": "Option A"
-    },
-    {
-      "id": "q002",
-      "type": "sa",
-      "topic": "Arithmetic",
-      "text": "Sample short answer question?",
-      "answer": "Expected answer"
-    }
-  ];
-  const blob = new Blob([JSON.stringify(template, null, 2)], { type: 'application/json' });
-  const url  = URL.createObjectURL(blob);
-  const a    = document.createElement('a');
-  a.href     = url;
-  a.download = 'questions_template.json';
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(url);
-  showToast('📄 Template downloaded.');
 }
 
 /* ══════════════════════ CONFIRM DIALOG ═════════════════════ */
