@@ -21068,4 +21068,3757 @@
     "text_id": "Banyaknya faktor prima berbeda dari bilangan 2100 adalah ___",
     "answer": "FLAG"
   }
+,
+  {
+    "id": "q1614",
+    "type": "mc",
+    "topic": "Arithmetic / Speed Distance Time",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Bagas bersepeda dengan kecepatan 15 km/jam. Jarak yang ia tempuh 37,5 km. Jika ia berangkat pukul 06:55, maka ia akan sampai di tempat tujuan pukul ____.",
+    "options": [
+      "08:25",
+      "09:25",
+      "10:00",
+      "09:35"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1615",
+    "type": "mc",
+    "topic": "Algebra / Simplification",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sederhanakan √(3¼) · √(4 17/25).",
+    "options": [
+      "3√13 / 10",
+      "3√13 / 5",
+      "39/10",
+      "39/5"
+    ],
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 320 60' xmlns='http://www.w3.org/2000/svg' font-family='serif' font-size='16'><text x='10' y='38'>Sederhanakan</text><text x='135' y='22' font-size='13'>_______</text><text x='132' y='38'>√  3</text><text x='154' y='32' font-size='12'>1</text><text x='154' y='42' font-size='11'>─</text><text x='154' y='52' font-size='12'>4</text><text x='170' y='38'> · </text><text x='183' y='22' font-size='13'>________</text><text x='180' y='38'>√  4</text><text x='202' y='32' font-size='12'>17</text><text x='202' y='42' font-size='11'>──</text><text x='202' y='52' font-size='12'>25</text><text x='222' y='38'> .</text></svg>"
+  },
+  {
+    "id": "q1616",
+    "type": "mc",
+    "topic": "Geometry / Symmetry",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Manakah dari segi empat di bawah ini yang TIDAK memiliki simetri putar?",
+    "options": [
+      "Trapesium",
+      "Belah ketupat",
+      "Jajargenjang",
+      "Persegi panjang"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1617",
+    "type": "mc",
+    "topic": "Algebra / Exponents",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Tentukan nilai dari (3⁻³ · 9⁻³) / 27⁻².",
+    "options": [
+      "1/9",
+      "27",
+      "1/27",
+      "9"
+    ],
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 180 70' xmlns='http://www.w3.org/2000/svg' font-family='serif' font-size='15'><text x='10' y='20'>Tentukan nilai dari</text><text x='10' y='42' font-size='14'>3</text><text x='20' y='35' font-size='10'>−3</text><text x='35' y='42' font-size='14'> · 9</text><text x='57' y='35' font-size='10'>−3</text><line x1='10' y1='48' x2='90' y2='48' stroke='black' stroke-width='1.2'/><text x='28' y='63' font-size='14'>27</text><text x='48' y='56' font-size='10'>−2</text></svg>"
+  },
+  {
+    "id": "q1618",
+    "type": "mc",
+    "topic": "Geometry / Volume",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah bak mandi berukuran panjang 3 m, lebar 2 m dan tinggi 1,2 m. Jika bak tersebut diisi 2/3 bagian. Volume bak mandi sekarang adalah ____ m³.",
+    "options": [
+      "2,4",
+      "10,8",
+      "7,2",
+      "4,8"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1619",
+    "type": "mc",
+    "topic": "Statistics / Pie Chart",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "SMP Tanah Abang melakukan survei kepada siswa-siswinya mengenai transportasi yang mereka gunakan untuk berangkat ke sekolah. Jika banyaknya siswa yang mengikuti survey adalah 800 siswa, ada berapa banyak siswa yang pergi ke sekolah menggunakan sepeda?",
+    "options": [
+      "80",
+      "40",
+      "240",
+      "120"
+    ],
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 260 230' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><text x='50' y='16' font-weight='bold' font-size='13'>School transportation</text><circle cx='130' cy='120' r='80' fill='none' stroke='#ccc' stroke-width='0.5'/><path d='M130,120 L130,40 A80,80 0 0,1 210,120 Z' fill='#ADD8E6'/><text x='175' y='85' font-size='11' text-anchor='middle'>Sepeda</text><text x='175' y='98' font-size='11' text-anchor='middle'>15%</text><path d='M130,120 L210,120 A80,80 0 0,1 130,200 Z' fill='#90EE90'/><text x='178' y='168' font-size='11' text-anchor='middle'>Bus</text><text x='178' y='181' font-size='11' text-anchor='middle'>30%</text><path d='M130,120 L130,200 A80,80 0 0,1 50,120 Z' fill='#98FB98'/><text x='78' y='178' font-size='11' text-anchor='middle'>Mobil</text><text x='78' y='191' font-size='11' text-anchor='middle'>40%</text><path d='M130,120 L50,120 A80,80 0 0,1 130,40 Z' fill='#DDA0DD'/><text x='78' y='74' font-size='11' text-anchor='middle'>Berjalan</text><text x='78' y='87' font-size='11' text-anchor='middle'>kaki 15%</text></svg>"
+  },
+  {
+    "id": "q1620",
+    "type": "mc",
+    "topic": "Algebra / Custom Operations",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Jika a ⊛ b = (a × b) / (a + b), maka (2 ⊛ 0) ⊛ (1 ⊛ 9) = ____.",
+    "options": [
+      "3",
+      "0",
+      "2",
+      "1"
+    ],
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 320 44' xmlns='http://www.w3.org/2000/svg' font-family='serif' font-size='15'><text x='10' y='28'>Jika </text><text x='42' y='28' font-style='italic'>a</text><text x='52' y='28'> ⊛ </text><text x='66' y='28' font-style='italic'>b</text><text x='74' y='28'> = </text><text x='92' y='20' font-size='13' font-style='italic'>a</text><text x='100' y='20' font-size='13'> × </text><text x='116' y='20' font-size='13' font-style='italic'>b</text><line x1='92' y1='25' x2='130' y2='25' stroke='black' stroke-width='1.2'/><text x='100' y='38' font-size='13' font-style='italic'>a</text><text x='108' y='38' font-size='13'> + </text><text x='120' y='38' font-size='13' font-style='italic'>b</text><text x='136' y='28'> maka (2 ⊛ 0) ⊛ (1 ⊛ 9) = ____.</text></svg>"
+  },
+  {
+    "id": "q1621",
+    "type": "mc",
+    "topic": "Measurement / Unit Conversion",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "1 dg + 2 cg + 1 mg + 2 dag + 1 kg = ____ g.",
+    "options": [
+      "10.212,21",
+      "12.121",
+      "1.021,21",
+      "1.020,121"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1622",
+    "type": "mc",
+    "topic": "Algebra / Ratio",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "SMP Karang Resik sedang melaksanakan pemilihan Ketua Osis. Ada tiga kandidat yang bertanding; Eska, Farhan, dan Genta. Eska mendapatkan suara empat kali lipat dari suara yang didapatkan Farhan. Sementara Genta mendapatkan dua kali lipat dari suara yang didapatkan Eska. Jika jumlah siswa yang memilih adalah 16.744 orang, banyak suara yang diperoleh Farhan adalah ____.",
+    "options": [
+      "1428",
+      "2646",
+      "1328",
+      "1288"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1623",
+    "type": "mc",
+    "topic": "Geometry / Angles",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan gambar berikut ini. Tentukan nilai x.",
+    "options": [
+      "10",
+      "9",
+      "15",
+      "12"
+    ],
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 300 180' xmlns='http://www.w3.org/2000/svg' font-family='serif' font-size='14'><line x1='20' y1='150' x2='280' y2='150' stroke='black' stroke-width='2'/><line x1='100' y1='150' x2='150' y2='40' stroke='black' stroke-width='2'/><line x1='150' y1='40' x2='200' y2='150' stroke='black' stroke-width='2'/><line x1='20' y1='150' x2='150' y2='40' stroke='black' stroke-width='2'/><text x='140' y='35' font-size='13'>A</text><text x='92' y='165' font-size='13'>B</text><text x='10' y='165' font-size='13'>D</text><text x='273' y='165' font-size='13'>C</text><text x='148' y='55' font-size='12'>93°</text><text x='58' y='145' font-size='12'>130°</text><text x='192' y='145' font-size='12'>(3x+7)°</text></svg>"
+  },
+  {
+    "id": "q1624",
+    "type": "mc",
+    "topic": "Logic / Circular Arrangement",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Pandu, Qoni, Rosa, Siti, dan Tika duduk mengelilingi satu meja bundar. Qoni duduk diantara Pandu dan Siti. Tika tidak duduk di dekat Siti. Siapa yang duduk di dekat Tika?",
+    "options": [
+      "Pandu dan Rosa",
+      "Siti dan Qoni",
+      "Pandu dan Qoni",
+      "Qoni dan Rosa"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1625",
+    "type": "mc",
+    "topic": "Arithmetic / Equal Distribution",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah kendaraan beroda tiga akan menempuh perjalanan sejauh 200 km. Tersedia dua ban cadangan. Kelima ban tersebut menempuh jarak tempuh yang sama selama perjalanan tersebut. Berapa kilometer setiap ban tersebut digunakan?",
+    "options": [
+      "66⅔ km",
+      "100 km",
+      "120 km",
+      "50 km"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1626",
+    "type": "mc",
+    "topic": "Probability",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Lima belas bilangan prima pertama dituliskan berturut-turut pada 15 batu. Kemudian semua batu diletakkan dalam sebuah keranjang. Sinta akan mengambil dua batu secara bersamaan. Tentukan peluang kejadian munculnya bahwa jumlah dari dua batu yang diambil merupakan bilangan prima.",
+    "options": [
+      "2/70",
+      "2/35",
+      "1/15",
+      "3/35"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1627",
+    "type": "mc",
+    "topic": "Number Patterns / Addition Pyramid",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan gambar berikut. Angka pada kotak yang tidak diarsir merupakan hasil penjumlahan dari dua angka di atasnya. Misalkan, 11 merupakan penjumlahan dari dua bilangan di atasnya 5+6. Tentukan nilai x.",
+    "options": [
+      "9",
+      "15",
+      "6",
+      "10"
+    ],
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 320 160' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='14'><rect x='20' y='10' width='44' height='36' fill='white' stroke='black' stroke-width='1.5'/><text x='42' y='33' text-anchor='middle'>5</text><rect x='86' y='10' width='44' height='36' fill='#ccc' stroke='black' stroke-width='1.5'/><rect x='152' y='10' width='44' height='36' fill='white' stroke='black' stroke-width='1.5'/><text x='174' y='33' text-anchor='middle'>6</text><rect x='218' y='10' width='44' height='36' fill='#ccc' stroke='black' stroke-width='1.5'/><rect x='284' y='10' width='44' height='36' fill='white' stroke='black' stroke-width='1.5'/><text x='306' y='33' text-anchor='middle'>x</text><rect x='350' y='10' width='44' height='36' fill='white' stroke='black' stroke-width='1.5'/><text x='372' y='33' text-anchor='middle'>7</text><rect x='53' y='58' width='44' height='36' fill='#ccc' stroke='black' stroke-width='1.5'/><rect x='119' y='58' width='44' height='36' fill='white' stroke='black' stroke-width='1.5'/><text x='141' y='81' text-anchor='middle'>11</text><rect x='185' y='58' width='44' height='36' fill='#ccc' stroke='black' stroke-width='1.5'/><rect x='251' y='58' width='44' height='36' fill='#ccc' stroke='black' stroke-width='1.5'/><rect x='317' y='58' width='44' height='36' fill='#ccc' stroke='black' stroke-width='1.5'/><rect x='86' y='106' width='44' height='36' fill='white' stroke='black' stroke-width='1.5'/><rect x='152' y='106' width='44' height='36' fill='#ccc' stroke='black' stroke-width='1.5'/><rect x='218' y='106' width='44' height='36' fill='#ccc' stroke='black' stroke-width='1.5'/><rect x='284' y='106' width='44' height='36' fill='#ccc' stroke='black' stroke-width='1.5'/><rect x='185' y='154' width='44' height='36' fill='white' stroke='black' stroke-width='1.5'/><text x='207' y='177' text-anchor='middle'>60</text></svg>"
+  },
+  {
+    "id": "q1628",
+    "type": "mc",
+    "topic": "Statistics / Pie Chart",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Tabel di bawah ini menunjukkan data mengenai makanan favorit dari 720 penghuni Desa Sukasenang. Jika Pak Kepala Desa ingin membuat diagram lingkaran mengenai data tersebut, berapakah sudut terbesar yang akan muncul?",
+    "options": [
+      "180°",
+      "125°",
+      "150°",
+      "200°"
+    ],
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 280 130' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='13'><rect x='10' y='10' width='130' height='28' fill='#ddd' stroke='black' stroke-width='1.2'/><text x='75' y='29' text-anchor='middle' font-weight='bold'>Makanan</text><rect x='140' y='10' width='130' height='28' fill='#ddd' stroke='black' stroke-width='1.2'/><text x='205' y='29' text-anchor='middle' font-weight='bold'>Frekuensi</text><rect x='10' y='38' width='130' height='28' fill='white' stroke='black' stroke-width='1.2'/><text x='75' y='57' text-anchor='middle'>Opor Ayam</text><rect x='140' y='38' width='130' height='28' fill='white' stroke='black' stroke-width='1.2'/><text x='205' y='57' text-anchor='middle'>250</text><rect x='10' y='66' width='130' height='28' fill='white' stroke='black' stroke-width='1.2'/><text x='75' y='85' text-anchor='middle'>Rendang</text><rect x='140' y='66' width='130' height='28' fill='white' stroke='black' stroke-width='1.2'/><text x='205' y='85' text-anchor='middle'>300</text><rect x='10' y='94' width='130' height='28' fill='white' stroke='black' stroke-width='1.2'/><text x='75' y='113' text-anchor='middle'>Ikan bakar</text><rect x='140' y='94' width='130' height='28' fill='white' stroke='black' stroke-width='1.2'/><text x='205' y='113' text-anchor='middle'>170</text></svg>"
+  },
+  {
+    "id": "q1629",
+    "type": "mc",
+    "topic": "Geometry / Symmetry",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Apabila sebuah bangun ruang bisa dipotong menjadi dua bagian yang identik, maka bangun ruang tersebut memiliki simetri bidang. Berapa banyak simetri bidang dari sebuah kubus?",
+    "options": [
+      "3",
+      "6",
+      "2",
+      "9"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1630",
+    "type": "mc",
+    "topic": "Combinatorics / Circular Permutation",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Empat pasang kakak-beradik duduk mengelilingi satu meja bundar. Jika kakak-beradik harus selalu duduk bersamaan, tentukan banyaknya susunan yang mungkin.",
+    "options": [
+      "18",
+      "136",
+      "96",
+      "48"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1631",
+    "type": "mc",
+    "topic": "Geometry / Cylinder Volume",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Andi mengisi sebuah ember yang berbentuk tabung sebanyak 1/4 bagian. Jika ia menambahkan 14 liter air, maka ember terisi 3/5 bagian. Jika jari-jari dari ember tersebut adalah 10 dm, berapakah tinggi dari ember tersebut? (π = 22/7)",
+    "options": [
+      "4/110 dm",
+      "7/55 dm",
+      "15/22 dm",
+      "28/2200 dm"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1632",
+    "type": "mc",
+    "topic": "Arithmetic / Unit Conversion / Mass",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Dalam minggu ini Ibu sudah 3 kali membeli beras untuk keperluan hajatan minggu depan. Pertama Ibu membeli sebanyak 1,5 kuintal. Sehari kemudian membeli sebanyak 35 kg. Dan yang terakhir kali Ibu membeli sebanyak 1500 g. Jumlah beras yang telah Ibu beli dalam minggu ini adalah sebanyak ____.",
+    "options": [
+      "1865 kg",
+      "1550 kg",
+      "186,5 kg",
+      "200 kg"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1633",
+    "type": "mc",
+    "topic": "Number Theory / Modular Arithmetic",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sisa pembagian 33²⁰¹⁹ oleh 10 adalah ____.",
+    "options": [
+      "7",
+      "1",
+      "9",
+      "3"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1634",
+    "type": "mc",
+    "topic": "Arithmetic / LCM / Time",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah teater bioskop di Kota Semarang menayangkan film secara terus menerus tanpa ada jeda, dan pemutaran pertama untuk setiap film dimulai pukul 10.30 WIB. Pada studio 1, film yang ditayangkan berdurasi 1 jam. Sedangkan pada studio 2, film yang diputar berdurasi 100 menit. Kapan kedua film tersebut akan persis kembali memulai filmnya pada waktu yang bersamaan?",
+    "options": [
+      "16.30 WIB",
+      "15.30 WIB",
+      "14.30 WIB",
+      "17.30 WIB"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1635",
+    "type": "mc",
+    "topic": "Statistics / Mean",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan tabel berat badan siswa kelas 9A. Tentukan banyaknya siswa yang memiliki berat badan di atas berat rata-rata kelas.",
+    "options": [
+      "23",
+      "18",
+      "11",
+      "26"
+    ],
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 260 170' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='13'><rect x='10' y='10' width='120' height='28' fill='#ddd' stroke='black' stroke-width='1.2'/><text x='70' y='29' text-anchor='middle' font-weight='bold'>Berat badan (kg)</text><rect x='130' y='10' width='120' height='28' fill='#ddd' stroke='black' stroke-width='1.2'/><text x='190' y='29' text-anchor='middle' font-weight='bold'>Frekuensi (f)</text><rect x='10' y='38' width='120' height='24' fill='white' stroke='black' stroke-width='1.2'/><text x='70' y='55' text-anchor='middle'>45</text><rect x='130' y='38' width='120' height='24' fill='white' stroke='black' stroke-width='1.2'/><text x='190' y='55' text-anchor='middle'>4</text><rect x='10' y='62' width='120' height='24' fill='white' stroke='black' stroke-width='1.2'/><text x='70' y='79' text-anchor='middle'>46</text><rect x='130' y='62' width='120' height='24' fill='white' stroke='black' stroke-width='1.2'/><text x='190' y='79' text-anchor='middle'>2</text><rect x='10' y='86' width='120' height='24' fill='white' stroke='black' stroke-width='1.2'/><text x='70' y='103' text-anchor='middle'>47</text><rect x='130' y='86' width='120' height='24' fill='white' stroke='black' stroke-width='1.2'/><text x='190' y='103' text-anchor='middle'>15</text><rect x='10' y='110' width='120' height='24' fill='white' stroke='black' stroke-width='1.2'/><text x='70' y='127' text-anchor='middle'>48</text><rect x='130' y='110' width='120' height='24' fill='white' stroke='black' stroke-width='1.2'/><text x='190' y='127' text-anchor='middle'>8</text><rect x='10' y='134' width='120' height='24' fill='white' stroke='black' stroke-width='1.2'/><text x='70' y='151' text-anchor='middle'>49</text><rect x='130' y='134' width='120' height='24' fill='white' stroke='black' stroke-width='1.2'/><text x='190' y='151' text-anchor='middle'>3</text><rect x='10' y='158' width='120' height='24' fill='#eee' stroke='black' stroke-width='1.2'/><text x='70' y='175' text-anchor='middle' font-weight='bold'>Jumlah</text><rect x='130' y='158' width='120' height='24' fill='#eee' stroke='black' stroke-width='1.2'/><text x='190' y='175' text-anchor='middle' font-weight='bold'>32</text></svg>"
+  },
+  {
+    "id": "q1636",
+    "type": "mc",
+    "topic": "Arithmetic / Profit and Loss",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Seorang pedagang berbuat curang supaya apel yang seharusnya ia jual Rp.37.900,-/kg malah ia jual Rp.40.000,-/kg. Ia menjual 1800 kilogram apel sebelum ia terciduk, dan kemudian dia didenda sebesar Rp. 5.000.000,-. Bagaimana kondisi finansial pedagang tersebut sekarang?",
+    "options": [
+      "Rugi sebesar Rp. 3.780.000,-",
+      "Untung sebesar Rp. 1.220.000,-",
+      "Untung sebesar Rp. 3.780.000,-",
+      "Rugi sebesar Rp. 1.220.000,-"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1637",
+    "type": "mc",
+    "topic": "Algebra / Continued Fractions",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Jika a, b, c, dan d adalah bilangan bulat positif, dengan a + 1/(b + d/c) = 2019/101. Berapa nilai dari a + b + c + d?",
+    "options": [
+      "101",
+      "121",
+      "131",
+      "111"
+    ],
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 280 80' xmlns='http://www.w3.org/2000/svg' font-family='serif' font-size='15'><text x='10' y='28' font-style='italic'>a</text><text x='22' y='28'> + </text><text x='44' y='18' font-size='13'>1</text><line x1='40' y1='24' x2='80' y2='24' stroke='black' stroke-width='1.2'/><text x='42' y='38' font-size='13' font-style='italic'>b</text><text x='52' y='38' font-size='13'> + </text><text x='62' y='33' font-size='10' font-style='italic'>d</text><line x1='62' y1='36' x2='74' y2='36' stroke='black' stroke-width='1'/><text x='62' y='46' font-size='10' font-style='italic'>c</text><text x='88' y='28'> = </text><text x='108' y='18' font-size='13'>2019</text><line x1='108' y1='24' x2='148' y2='24' stroke='black' stroke-width='1.2'/><text x='120' y='40' font-size='13'>101</text></svg>"
+  },
+  {
+    "id": "q1638",
+    "type": "mc",
+    "topic": "Combinatorics",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Ada berapa bilangan 4-digit yang memiliki paling sedikit satu bilangan ganjil?",
+    "options": [
+      "8500",
+      "6000",
+      "9000",
+      "4500"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1639",
+    "type": "mc",
+    "topic": "Number Patterns / Arithmetic Sequence",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Pak Tani memanen 120 buah tomat pada hari pertama di kebun, dan setiap harinya ia memanen 40 buah tomat lebih banyak dari hari sebelumnya. Berapa hari yang dibutuhkan Pak Tani untuk memanen 3000 buah tomat?",
+    "options": [
+      "12",
+      "10",
+      "9",
+      "11"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1640",
+    "type": "mc",
+    "topic": "Geometry / Area",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan gambar berikut. Berapakah luas daerah yang diarsir? (dalam m²)",
+    "options": [
+      "33,6",
+      "42",
+      "28",
+      "14"
+    ],
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 300 120' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='13'><rect x='20' y='20' width='260' height='80' fill='#ddd' stroke='black' stroke-width='2'/><polygon points='20,100 90,20 160,100' fill='white' stroke='black' stroke-width='2'/><polygon points='100,20 170,100 240,20' fill='#888' stroke='black' stroke-width='2'/><polygon points='160,100 230,20 280,100' fill='white' stroke='black' stroke-width='2'/><line x1='85' y1='100' x2='100' y2='100' stroke='black' stroke-width='2'/><line x1='160' y1='100' x2='175' y2='100' stroke='black' stroke-width='2'/><line x1='240' y1='100' x2='255' y2='100' stroke='black' stroke-width='2'/><line x1='85' y1='100' x2='85' y2='95' stroke='black' stroke-width='1.5'/><line x1='175' y1='100' x2='175' y2='95' stroke='black' stroke-width='1.5'/><text x='5' y='65' font-size='12'>4 m</text><text x='105' y='115' font-size='12'>14 m</text></svg>"
+  },
+  {
+    "id": "q1641",
+    "type": "mc",
+    "topic": "Geometry / Area / Composite Shape",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Tentukan luas dari bangun di bawah ini. Diketahui π = 22/7. Tentukan luas taman pada peta tersebut. (dalam cm²)",
+    "options": [
+      "563,5",
+      "480,5",
+      "502,5",
+      "464,5"
+    ],
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 300 300' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='11' stroke='black' stroke-width='1.5' fill='none'><path d='M80,30 L80,160 Q80,200 120,200 L120,250 L200,250 L200,210 L240,210 L260,250 L260,210 L260,160 L200,160 L200,30 Z' stroke='#2a7a2a' stroke-width='2'/><text x='118' y='25' fill='black'>13 cm</text><text x='55' y='100' fill='black'>9 cm</text><text x='202' y='100' fill='black'>13 cm</text><text x='242' y='190' fill='black'>9 cm</text><text x='264' y='230' fill='black'>5 cm</text><text x='264' y='250' fill='black'>13 cm</text><text x='55' y='210' fill='black'>7 cm</text><text x='82' y='240' fill='black'>8 cm</text><text x='135' y='265' fill='black'>5 cm</text><text x='135' y='278' fill='black'>6 cm</text><text x='135' y='291' fill='black'>9 cm (arc)</text><text x='160' y='258' fill='black'>8 cm</text></svg>"
+  },
+  {
+    "id": "q1642",
+    "type": "mc",
+    "topic": "Measurement / Area Units",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Hasil dari 0,3 dm² + 30 cm² + 30 mm² adalah ____.",
+    "options": [
+      "33,3 cm²",
+      "60,3 cm²",
+      "90,3 cm²",
+      "36 cm²"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1643",
+    "type": "mc",
+    "topic": "Geometry / 3D / Cube Diagonal",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan gambar kubus berikut. Titik Q merupakan perpotongan antara dua diagonal sisi dari kubus tersebut. Jika panjang sisi kubus tersebut adalah 2 cm, berapakah panjang garis RQ?",
+    "options": [
+      "√8",
+      "√5",
+      "√6",
+      "√12"
+    ],
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 220 200' xmlns='http://www.w3.org/2000/svg' font-family='serif' font-size='13' stroke='black' fill='none'><polygon points='40,160 140,160 180,120 80,120' stroke-width='1.5'/><line x1='40' y1='160' x2='40' y2='60' stroke-width='1.5'/><line x1='140' y1='160' x2='140' y2='60' stroke-width='1.5'/><line x1='80' y1='120' x2='80' y2='20' stroke-width='1.5'/><line x1='180' y1='120' x2='180' y2='20' stroke-width='1.5'/><line x1='40' y1='60' x2='140' y2='60' stroke-width='1.5'/><line x1='140' y1='60' x2='180' y2='20' stroke-width='1.5'/><line x1='80' y1='20' x2='180' y2='20' stroke-width='1.5'/><line x1='40' y1='60' x2='80' y2='20' stroke-width='1.5'/><line x1='40' y1='160' x2='80' y2='120' stroke-dasharray='4,3' stroke-width='1.2'/><line x1='80' y1='120' x2='180' y2='120' stroke-dasharray='4,3' stroke-width='1.2'/><line x1='80' y1='20' x2='80' y2='120' stroke-dasharray='4,3' stroke-width='1.2'/><line x1='40' y1='160' x2='180' y2='20' stroke-width='1.5'/><line x1='140' y1='160' x2='80' y2='20' stroke-width='1.5'/><line x1='40' y1='160' x2='140' y2='60' stroke-width='1.5'/><circle cx='120' cy='110' r='3' fill='black'/><text x='124' y='108' font-size='12'>Q</text><text x='28' y='175' font-size='12'>R</text></svg>"
+  },
+  {
+    "id": "q1644",
+    "type": "mc",
+    "topic": "Combinatorics / Permutation",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Lima pasang suami istri akan duduk di 10 kursi yang memanjang. Banyaknya cara mengatur tempat duduk mereka sehingga setiap pasang suami istri duduk berdampingan adalah ____.",
+    "options": [
+      "1770",
+      "840",
+      "3840",
+      "120"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1645",
+    "type": "mc",
+    "topic": "Number Patterns / Repeating Sequence",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan pola berikut ini. E, D, U, V, E, R, S, A, L, E, D, U, V, E, R, S, A, L, ... Huruf ke-2019 dari pola di atas adalah ____.",
+    "options": [
+      "E",
+      "U",
+      "V",
+      "D"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1646",
+    "type": "mc",
+    "topic": "Geometry / Area / Overlapping Triangles",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan gambar berikut. Luas dari area yang diarsir adalah ____ cm²",
+    "options": [
+      "4,5",
+      "16",
+      "12,5",
+      "8"
+    ],
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 260 180' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='13'><polygon points='10,160 130,10 250,160' fill='#ccc' stroke='black' stroke-width='2'/><polygon points='50,100 170,100 110,160' fill='white' stroke='black' stroke-width='2'/><polygon points='50,100 110,160 110,10' fill='#aaa' stroke='black' stroke-width='2'/><text x='55' y='90' fill='black'>5 cm</text><text x='100' y='145' fill='black'>3 cm</text><line x1='50' y1='100' x2='57' y2='100' stroke='black' stroke-width='1.5'/><line x1='120' y1='10' x2='113' y2='17' stroke='black' stroke-width='1.5'/><line x1='160' y1='100' x2='153' y2='100' stroke='black' stroke-width='1.5'/></svg>"
+  },
+  {
+    "id": "q1647",
+    "type": "mc",
+    "topic": "Arithmetic / Operations",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Hasil dari ∛17.576 − 18² ÷ √81 + 21³ adalah ____.",
+    "options": [
+      "9.227",
+      "9.261",
+      "9.239",
+      "9.251"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1648",
+    "type": "mc",
+    "topic": "Number Theory / GCD",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Randi memiliki 18 kelereng berwarna biru, 30 kelereng berwarna kuning, dan 36 kelereng berwarna hijau. Ia ingin menaruh kelereng-kelereng tersebut dalam beberapa kantong secara merata. Randi tidak ingin kelereng yang berbeda warna berada dalam satu kantong. Paling sedikit berapa kantong yang Randi perlukan?",
+    "options": [
+      "14",
+      "7",
+      "12",
+      "16"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1649",
+    "type": "mc",
+    "topic": "Statistics / Mean",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Priska memilih tiga buah bilangan p, q, dan r. Ketika setiap bilangan ditambahkan dengan rata-rata dari dua bilangan lainnya maka hasilnya secara berturut-turut adalah 160, 180 dan 200. Tentukan nilai rata-rata dari p, q, dan r.",
+    "options": [
+      "75",
+      "45",
+      "105",
+      "90"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1650",
+    "type": "mc",
+    "topic": "Combinatorics",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sandi hendak membagikan enam puluh sembilan buah apel kepada sejumlah anak. Setiap anak mendapatkan jumlah apel yang berbeda. Setiap anak harus mendapatkan minimal satu apel. Jika banyaknya anak pada pembagian tersebut adalah x, tentukan nilai x terbesar.",
+    "options": [
+      "12",
+      "10",
+      "13",
+      "11"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1651",
+    "type": "mc",
+    "topic": "Number Theory / LCM",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Berapa banyak bilangan asli antara 1 dan 111 yang habis dibagi 6 dan 9?",
+    "options": [
+      "5",
+      "6",
+      "3",
+      "2"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1652",
+    "type": "mc",
+    "topic": "Geometry / Area / Square",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah persegi KLMN dibentuk oleh dua persegi panjang identik dan dua buah persegi yang memiliki luas 9 cm² dan 25 cm². Berapakah luas persegi KLMN? (dalam cm²)",
+    "options": [
+      "49",
+      "36",
+      "81",
+      "64"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1653",
+    "type": "mc",
+    "topic": "Arithmetic / Number Patterns",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah gedung teater memiliki 11 baris kursi. Setiap baris diberi nomor dari 1 sampai 11. Jumlah kursi pada setiap barisan bernomor ganjil adalah 15. Sedangkan jumlah kursi pada setiap barisan bernomor genap adalah 16. Berapa banyak total kursi yang ada pada gedung teater tersebut?",
+    "options": [
+      "176",
+      "165",
+      "186",
+      "170"
+    ],
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1654",
+    "type": "sa",
+    "topic": "Arithmetic / Speed Distance Time",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Wawan berencana mudik ke Kota Depok yang berjarak 50 km dari Jakarta. Dikarenakan kondisi jalan yang kurang baik, pada 20 km pertama ia terpaksa melaju dengan kecepatan 40 km/jam. Berapakah kecepatan rata-rata Wawan pada 30 km terakhir agar menempuh total perjalanan selama 1 jam? [Tuliskan hanya angka saja] ____ km/jam",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1655",
+    "type": "sa",
+    "topic": "Number Patterns / Spiral",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Aisyah membuat sebuah spiral seperti gambar di bawah ini. Ia membentuk sebuah spiral tersebut dengan membuat segmen garis dengan panjang sebagai berikut: 1 cm, 1 cm, 2 cm, 2 cm, 3 cm, 3 cm, 4 cm, 4 cm, ... dst. Aisyah membuat spiral tersebut dalam kertas yang sangat besar sampai tinta pulpennya habis ketika total garis yang ia sudah gambar adalah sepanjang 3000 cm. Berapa cm segmen garis terpanjang yang ia buat? [Tuliskan hanya angka saja] ____ cm.",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='13' stroke='black' fill='none'><rect x='30' y='30' width='120' height='120' stroke-width='1.5'/><rect x='55' y='55' width='70' height='70' stroke-width='1.5'/><rect x='75' y='75' width='30' height='30' stroke-width='1.5'/><text x='82' y='95' fill='black'>1</text><text x='67' y='115' fill='black'>2</text><text x='40' y='130' fill='black'>4</text><text x='100' y='50' fill='black'>3</text><text x='145' y='100' fill='black'>3</text><text x='100' y='158' fill='black'>4</text><text x='16' y='100' fill='black'>2</text><text x='100' y='70' fill='black'>1</text><polygon points='85,30 90,36 95,30' fill='black' stroke='none'/></svg>"
+  },
+  {
+    "id": "q1656",
+    "type": "sa",
+    "topic": "Statistics / Mean",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Rata-rata tinggi badan dari 25 kru sebuah bajak laut adalah 200 cm. Jika selisih rata-rata dari tinggi badan 5 kru terpendek dan rata-rata dari 20 sisanya adalah 125 cm, maka nilai rata-rata dari 5 kru terpendek adalah ______ cm.",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1657",
+    "type": "sa",
+    "topic": "Number Theory / Fractions",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Dengan menjumlahkan empat pecahan 1/5, 1/25, 1/125, 1/125 dapat dihasilkan berbagai bilangan. Misal, 6/25 dapat diperoleh dengan menjumlahkan dua pecahan yaitu 1/5 + 1/25 atau enam pecahan yaitu 1/25 + 1/25 + 1/25 + 1/25 + 1/25 + 1/25. Bilangan 281/625 dapat dihasilkan dengan menjumlahkan paling sedikit ____ pecahan. [Tuliskan hanya angka saja]",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1658",
+    "type": "sa",
+    "topic": "Geometry / Area Overlap",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah ruangan yang memiliki luas 140 m² akan dilapisi oleh tiga buah karpet. Total luas yang bisa ditutupi karpet adalah 200 m². Beberapa bagian dari ruangan tertutupi oleh dua atau tiga lapis karpet. Jika diketahui bagian yang tertutupi dua lapis karpet adalah 24 m², berapa luas bagian ruangan yang tertutupi tiga lapis karpet?",
+    "answer": "FLAG"
+  }
+,
+  {
+    "id": "q1659",
+    "type": "mc",
+    "topic": "Arithmetic / Percentage",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Selama hibernasi, berat badan seekor beruang kutub turun 20% dari berat badan awalnya. Setelah hibernasi berakhir, berat badan beruang tersebut menjadi 260 kg. Berapakah berat badan beruang kutub tersebut sebelum hibernasi?",
+    "options": [
+      "325 kg",
+      "1300 kg",
+      "208 kg",
+      "312 kg"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1660",
+    "type": "mc",
+    "topic": "Geometry / Symmetry",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan gambar berikut. Sebuah bidang dipotong menjadi dua pada garis simetri lipatnya. Maka bentuk bidang pada mula-mula adalah ____.",
+    "options": [
+      "Belah Ketupat",
+      "Persegi",
+      "Jajar Genjang",
+      "Persegi Panjang"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1661",
+    "type": "mc",
+    "topic": "Geometry / Area / Composite Shape",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Tentukan luas dari bangun berikut.",
+    "options": [
+      "160 cm²",
+      "172,5 cm²",
+      "155,5 cm²",
+      "120 cm²"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1662",
+    "type": "mc",
+    "topic": "Number Theory / Factors",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Hesti sedang memikirkan sebuah bilangan. Bilangan tersebut merupakan hasil perkalian dari empat bilangan prima yang berbeda. Tentukan banyaknya faktor dari bilangan yang dipikirkan Hesti.",
+    "options": [
+      "16",
+      "10",
+      "8",
+      "12"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1663",
+    "type": "mc",
+    "topic": "Arithmetic / Discount",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Aisyah hendak membeli sepasang baju dan celana. Harga sebuah baju yang ia sukai adalah Rp. 270.000,-. Harga normal sebuah celana jeans yang ia sukai adalah Rp. 140.000,-. Jika baju yang ia beli memiliki potongan harga 40%, dan celana yang ia beli memiliki potongan harga 15%, maka uang yang harus dibayarkan Aisyah untuk membeli keduanya adalah ____.",
+    "options": [
+      "Rp. 225.500,-",
+      "Rp. 281.000,-",
+      "Rp. 129.000,-",
+      "Rp. 184.500,-"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1664",
+    "type": "mc",
+    "topic": "Number Theory / LCM",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Seorang ibu mempunyai 3 orang anak berumur 2, 6, dan 10 tahun. Umur ibu adalah kelipatan dari seluruh umur anak-anaknya. Berapakah kemungkinan umur yang paling muda dari si ibu?",
+    "options": [
+      "36",
+      "60",
+      "30",
+      "20"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1665",
+    "type": "mc",
+    "topic": "Logic / Set Theory",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Dari data ekstrakurikuler siswa kelas 6 yang jumlah 35 orang, terdapat 24 siswa yang mengikuti kegiatan olahraga futsal, 15 siswa mengikuti robotik, dan 9 siswa mengikuti kedua-duanya. Berapa siswa yang tidak mengikuti kedua kegiatan ekstrakurikuler tersebut?",
+    "options": [
+      "4 orang",
+      "5 orang",
+      "6 orang",
+      "3 orang"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1666",
+    "type": "mc",
+    "topic": "Number Theory / Modular Arithmetic",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Angka satuan dari bilangan 7²⁰²⁰ adalah ______.",
+    "options": [
+      "1",
+      "9",
+      "3",
+      "7"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1667",
+    "type": "mc",
+    "topic": "Algebra / Age Problems",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sepasang suami istri memiliki 7 anak yang lahir pada tanggal yang sama. Ketujuh anak tersebut lahir pada tujuh tahun yang berurutan. Jumlah umur dari tiga anak terkecil adalah 42 tahun. Maka, jumlah umur dari tiga anak terbesar adalah ____.",
+    "options": [
+      "60 tahun",
+      "51 tahun",
+      "54 tahun",
+      "57 tahun"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1668",
+    "type": "mc",
+    "topic": "Geometry / Symmetry / Rotation",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sandi memiliki sebuah lingkaran, setengah lingkaran dan seperempat lingkaran. Manakah dari bidang berikut yang memiliki simetri putar?",
+    "options": [
+      "Tidak satu pun.",
+      "Lingkaran saja",
+      "Seperempat lingkaran saja",
+      "Setengah lingkaran saja"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1669",
+    "type": "mc",
+    "topic": "Statistics / Mean and Median",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Manakah dari data berikut yang memiliki nilai rata-rata dan median yang sama?",
+    "options": [
+      "12 14 18 19 23 29",
+      "12 14 18 19 23 31",
+      "12 14 18 19 20 25",
+      "12 14 18 19 23 25"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1670",
+    "type": "mc",
+    "topic": "Arithmetic / Speed Distance Time",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Andi dan Ahmad bersepeda dari taman A ke taman B. Mereka berangkat bersama-sama pukul 08.00 dengan kecepatan yang berbeda. Kecepatan Andi adalah 25 km/jam sedangkan kecepatan Ahmad 20 km/jam. Pukul 09.00 Andi tiba di Taman B dan memutuskan untuk kembali ke Taman A dengan kecepatan 20 km/jam. Pukul berapakah Andi dan Ahmad berpapasan?",
+    "options": [
+      "09.15",
+      "09.10",
+      "09.18",
+      "09.20"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1671",
+    "type": "mc",
+    "topic": "Arithmetic / Speed / Percentage Change",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Andi memulai program latihan lari untuk meningkatkan kemampuan dia berlari. Di awal program latihan, dia dapat menyelesaikan 6 putaran dalam waktu 15 menit. Pada akhir program latihan, Andi mampu menyelesaikan 8 putaran dalam 14 menit. Setelah Andi membandingkan waktu tempuh satu putaran antara di awal dan di akhir pelatihan, berapakah persentase perubahannya?",
+    "options": [
+      "30%",
+      "25%",
+      "40%",
+      "20%"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1672",
+    "type": "mc",
+    "topic": "Probability",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Di sebuah jalan utama di kota Depok terdapat tiga lampu lalu lintas berbeda pada setiap 5 km. Jika lampu hijau menyala selama 40% waktu yang ada, tentukan peluang sebuah pengendara mobil tidak perlu berhenti ketika melewati jalan ini.",
+    "options": [
+      "25%",
+      "3,2%",
+      "6,4%",
+      "12%"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1673",
+    "type": "mc",
+    "topic": "Combinatorics / Counting Paths",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan gambar di bawah ini. Dengan memulai dari angka dua yang terletak di tengah, angka 2020 bisa dibentuk dengan menghubungkan lingkaran-lingkaran yang bersinggungan. Tentukan berapa banyak jalur yang memungkin untuk membentuk angka 2020?",
+    "options": [
+      "10",
+      "8",
+      "12",
+      "6"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1674",
+    "type": "mc",
+    "topic": "Algebra / System of Equations",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Hengki memiliki 42 lembar uang Rp. 2.000, Rp. 5.000, dan Rp. 10.000 yang berjumlah Rp.188.000. Jika banyaknya uang lembar Rp. 2.000 tiga kali lipat dari banyaknya uang lembar Rp. 5.000, berapa lembar uang Rp.10.000 yang dia punya?",
+    "options": [
+      "10",
+      "6",
+      "8",
+      "12"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1675",
+    "type": "mc",
+    "topic": "Algebra / Ratio / Squares",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Diberikan tiga bilangan bulat yang mempunyai perbandingan 5:3:2. Jika setiap bilangan dikuadratkan, maka hasil penjumlahanannya adalah 2432. Maka bilangan terbesar dari ketiga bilangan tersebut adalah ____.",
+    "options": [
+      "45",
+      "35",
+      "48",
+      "40"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1676",
+    "type": "mc",
+    "topic": "Geometry / Area / Triangles",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Diantara dua garis yang sejajar, dibuat dua buah segitiga. Manakah pernyataan di samping berikut yang BENAR?",
+    "options": [
+      "Luas segitiga B lebih besar dari luas segitiga A",
+      "Kedua segitiga memiliki luas yang sama",
+      "Luas segitiga A lebih besar dari luas segitiga B",
+      "Segitiga A identik dengan segitiga B"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1677",
+    "type": "mc",
+    "topic": "Number Theory / Digit Count",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Banyaknya digit dari hasil operasi bilangan 8²³ × 25³⁰ adalah ____.",
+    "options": [
+      "63",
+      "65",
+      "64",
+      "66"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1678",
+    "type": "mc",
+    "topic": "Arithmetic / Rate / Volume",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Terdapat dua buah kolam renang di Hotel Jaya Air. Kolam renang untuk anak-anak memiliki ukuran 4m × 3m dengan kedalaman satu meter. Kolam renang untuk dewasa memiliki ukuran 9m × 6m dengan kedalaman dua meter. Setelah dikosongkan, kolam anak-anak dapat diisi air menggunakan satu keran dalam waktu 5 jam. Berapa waktu yang diperlukan untuk mengisi penuh kolam renang untuk dewasa dengan menggunakan tiga keran yang sama secara bersamaan?",
+    "options": [
+      "12 jam",
+      "10 jam",
+      "22,5 jam",
+      "15 jam"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1679",
+    "type": "mc",
+    "topic": "Number Patterns / Decimal / Repeating",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Ketika pecahan 1/41 diubah menjadi sebuah desimal, maka digit ke-2020 setelah koma adalah ____.",
+    "options": [
+      "0",
+      "4",
+      "9",
+      "3"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1680",
+    "type": "mc",
+    "topic": "Logic / Latin Square Puzzle",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah puzzle kotak dikerjakan dengan mengisikan angka 1, 2, 3 dan 4 masing-masing sekali di setiap baris dan kolom. Berapakah angka yang diisikan di kotak yang berada posisi kiri bawah?",
+    "options": [
+      "4",
+      "2",
+      "3",
+      "1"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1681",
+    "type": "mc",
+    "topic": "Number Theory / Prime Numbers",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Tentukan banyaknya bilangan prima dua angka yang hasil penjumlahan dari angka-angka pembentuknya merupakan bilangan prima.",
+    "options": [
+      "9",
+      "8",
+      "5",
+      "4"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1682",
+    "type": "mc",
+    "topic": "Statistics / Mean / Bar Chart",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Hasil ujian sebuah kelas disajikan dalam sebuah diagram batang. Maka besar persentase dari siswa yang mendapat nilai di bawah rata-rata adalah ____.",
+    "options": [
+      "50%",
+      "62,5%",
+      "25%",
+      "40%"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1683",
+    "type": "mc",
+    "topic": "Probability / Dice",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Untuk memulai sebuah permainan, seorang pemain harus melempar dadu dan mendapatkan angka 6. Hilman mendapatkan angka 6 pada pelemparan dadu yang ke 4. Manakah yang menunjukan peluang terjadinya kejadian Hilman di atas?",
+    "options": [
+      "(1/6)⁴",
+      "(1/6)³ × 5/6",
+      "(5/6)⁴",
+      "(5/6)³ × 1/6"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1684",
+    "type": "mc",
+    "topic": "Algebra / Ratio / Probability",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Dalam sebuah kotak terdapat bola merah dan bola putih. Jika 23 bola merah dikeluarkan maka perbandingan bola merah dan bola putih adalah 7:10. Jika 15 bola putih dikeluarkan maka perbandingan bola merah dan bola putih menjadi 13:9. Jika sebuah bola diambil secara acak dari kotak tersebut maka peluang terambilnya bola merah adalah ____.",
+    "options": [
+      "12/25",
+      "13/25",
+      "1/2",
+      "13/24"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1685",
+    "type": "mc",
+    "topic": "Geometry / Perimeter",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah huruf besar I bisa dibentuk dengan menyusun tiga buah persegi panjang berukuran 2 × 4 seperti pada gambar di bawah ini. Berapakah keliling huruf besar I tersebut?",
+    "options": [
+      "36",
+      "30",
+      "32",
+      "28"
+    ],
+    "answer": "D",
+    "svg": "<svg viewBox='0 0 120 200' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12' stroke='black' stroke-width='1.5' fill='#eee'><rect x='20' y='10' width='80' height='40' /><rect x='40' y='50' width='40' height='100' /><rect x='20' y='150' width='80' height='40' /><text x='55' y='35' text-anchor='middle' fill='black' font-size='11'>2×4</text><text x='55' y='105' text-anchor='middle' fill='black' font-size='11'>2×4</text><text x='55' y='175' text-anchor='middle' fill='black' font-size='11'>2×4</text></svg>"
+  },
+  {
+    "id": "q1686",
+    "type": "mc",
+    "topic": "Geometry / Area / Circle",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Diberikan sebuah persegi PQRS, dimana P dan R merupakan titik pusat dari dua buah lingkaran. Jika panjang PT = PW = 12 cm, dan UR = UV = 8 cm, tentukan luas daerah yang diarsir.",
+    "options": [
+      "(200 − 52π) cm²",
+      "(200 − 54π) cm²",
+      "(400 − 52π) cm²",
+      "(400 − 104π) cm²"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1687",
+    "type": "mc",
+    "topic": "Geometry / Circle / Circumference",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Diberikan dua buah lingkaran yang saling berpotongan. Jari-jari lingkaran A dua kali lipat dari jari-jari lingkaran B. Luas dari bagian lingkaran yang berpotongan adalah (25π) cm² dan luas dari bagian lingkaran yang tidak berpotongan adalah (195π) cm². Tentukan keliling dari lingkaran A.",
+    "options": [
+      "(14π) cm",
+      "(28π) cm",
+      "(21π) cm",
+      "(56π) cm"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1688",
+    "type": "mc",
+    "topic": "Arithmetic / Fractions / Ordering",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan pecahan-pecahan berikut ini: 2/3, 5/12, 9/20, 7/10, 8/15. Jika pecahan-pecahan di atas diurutkan dari yang terkecil ke yang terbesar, maka pecahan yang berada di tengah-tengah adalah ____.",
+    "options": [
+      "8/15",
+      "2/3",
+      "5/12",
+      "9/20"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1689",
+    "type": "mc",
+    "topic": "Arithmetic / Speed Distance Time",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Ketika Arun berlari, ia mampu menempuh 200 m dalam 18 detik. Hanif berlari sejauh 600 m dalam 28 detik. Mereka berdua sedang berduel dalam jalur lari sepanjang 1 km. Jika kecepatan mereka selalu konstan, maka dimanakah posisi pelari juara kedua, ketika pelari juara pertama tiba di garis finish?",
+    "options": [
+      "516,5 meter dari garis start",
+      "483,5 meter dari garis start",
+      "481,5 meter dari garis start",
+      "518,5 meter dari garis start"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1690",
+    "type": "mc",
+    "topic": "Number Patterns / Arithmetic Sequence",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Seekor monyet memakan 100 buah pisang pada lima hari terakhir. Uniknya, ia selalu memakan enam buah pisang lebih banyak dari hari sebelumnya. Berapakah banyaknya pisang yang ia makan pada hari terakhir?",
+    "options": [
+      "20",
+      "32",
+      "30",
+      "22"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1691",
+    "type": "mc",
+    "topic": "Algebra / Exponents",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Apabila 16⁴ ÷ 32³ = m, maka nilai m adalah _______.",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "16"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1692",
+    "type": "mc",
+    "topic": "Algebra / Custom Operations",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Jika m#n = (m + 3n) / (2m), tentukan (3#5)#(6#4).",
+    "options": [
+      "3/4",
+      "2/3",
+      "5/4",
+      "4/5"
+    ],
+    "answer": "C",
+    "svg": "<svg viewBox='0 0 220 48' xmlns='http://www.w3.org/2000/svg' font-family='serif' font-size='15'><text x='10' y='30'>Jika </text><text x='44' y='30' font-style='italic'>m</text><text x='52' y='30'>#</text><text x='59' y='30' font-style='italic'>n</text><text x='67' y='30'> = </text><text x='85' y='20' font-size='13' font-style='italic'>m</text><text x='95' y='20' font-size='13'> + 3</text><text x='118' y='20' font-size='13' font-style='italic'>n</text><line x1='85' y1='26' x2='132' y2='26' stroke='black' stroke-width='1.2'/><text x='100' y='42' font-size='13'>2</text><text x='109' y='42' font-size='13' font-style='italic'>m</text><text x='140' y='30'>, tentukan (3#5)#(6#4).</text></svg>"
+  },
+  {
+    "id": "q1693",
+    "type": "mc",
+    "topic": "Geometry / Volume / Pyramid",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan kedua piramida berikut. Tentukan perbandingan volume dari piramida kecil dan piramida besar.",
+    "options": [
+      "1:2",
+      "1:6",
+      "1:4",
+      "1:8"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1694",
+    "type": "mc",
+    "topic": "Geometry / Volume / Cube",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan gambar di bawah. Tiga buah kubus memiliki sisi 10, 12, dan 14 cm. Nilai rata-rata dari ketiga volume kubus di atas adalah ____.",
+    "options": [
+      "1824",
+      "1924",
+      "146,6",
+      "12"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1695",
+    "type": "mc",
+    "topic": "Geometry / Area",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan gambar berikut. Jika tinggi dari bangun tersebut adalah 90 cm, maka luas dari area putih adalah ____ cm².",
+    "options": [
+      "3600",
+      "1800",
+      "2700",
+      "900"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1696",
+    "type": "mc",
+    "topic": "Statistics / Mean",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Selama liburan, Bimo membantu ayahnya menjual odading. Pada empat hari pertama, rata-rata dari odading yang ia jual adalah 840 buah per hari. Berapa odading yang harus ia jual pada hari kelima agar rata-rata penjualannya menjadi 900 buah per hari?",
+    "options": [
+      "1140",
+      "1080",
+      "980",
+      "900"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1697",
+    "type": "mc",
+    "topic": "Geometry / Symmetry / Grid",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Berapakah jumlah minimum kotak kecil yang harus diwarnai hitam agar diagonal AC merupakan sebuah garis simetri?",
+    "options": [
+      "5",
+      "2",
+      "4",
+      "3"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1698",
+    "type": "mc",
+    "topic": "Geometry / Circle / Circumference",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah ban menggelinding sebanyak 30 putaran pada sebuah lintasan lurus sepanjang 10,56 meter. Tentukan panjang jari-jari dari ban tersebut. (π = 22/7)",
+    "options": [
+      "56 cm",
+      "48 cm",
+      "28 cm",
+      "70 cm"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1699",
+    "type": "sa",
+    "topic": "Number Patterns / Triangle Numbers",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan pola bilangan pada gambar berikut. Tentukan suku ke 199.",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1700",
+    "type": "sa",
+    "topic": "Number Patterns / Repeating Sequence / Sum",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan barisan di bawah ini: 1, 3, 5, 7, 9, 11, 1, 3, 5, 7, 9, 11, 1, 3, 5, 7, 9, 11, .... Hasil penjumlahan dari 2020 suku pertama dari barisan di atas adalah ____.",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1701",
+    "type": "sa",
+    "topic": "Number Theory / Cryptarithmetic",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Pada penjumlahan berikut, angka 1, 2, 3, 4, 5, 6, 7, 8, 9 hanya dapat digunakan sekali. Tentukan bilangan GHI terbesar yang memenuhi penjumlahan di atas.",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1702",
+    "type": "sa",
+    "topic": "Number Theory / Cryptarithmetic",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan penjumlahan berikut. Setiap huruf merepresentasikan sebuah bilangan berbeda yang tidak sama dengan nol. Diketahui A = 7, dan H = 6. Tentukan nilai E + M + C.",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1703",
+    "type": "sa",
+    "topic": "Number Theory / Digit Counting",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah buku memiliki 230 halaman. Tentukan banyaknya angka 1 yang digunakan untuk menuliskan angka pada setiap halaman buku tersebut.",
+    "answer": "FLAG"
+  }
+,
+  {
+    "id": "q1704",
+    "type": "mc",
+    "topic": "Arithmetic / Speed Distance Time",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Adit bersepeda berangkat dari kota A pada pukul 10:00. Jika kecepatan bersepedanya 10 km/jam, dia akan sampai ke tujuan pada pukul 15:00. Namun ternyata, Adit harus sampai pada pukul 14.00. Agar tepat waktu, Adit harus mengayuh sepedanya dengan kecepatan ____",
+    "options": [
+      "12 km/jam",
+      "11 km/jam",
+      "12,5 km/jam",
+      "11,8 km/jam"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1705",
+    "type": "mc",
+    "topic": "Arithmetic / Fractions",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Jika 4/3 dari 27/32 sama dengan 1/8 dari x, berapakah nilai x?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "D",
+    "svg": "<svg viewBox='0 0 320 50' xmlns='http://www.w3.org/2000/svg' font-family='serif' font-size='15'><text x='10' y='32'>Jika </text><text x='44' y='22' font-size='13'>4</text><line x1='44' y1='27' x2='54' y2='27' stroke='black' stroke-width='1.2'/><text x='44' y='42' font-size='13'>3</text><text x='58' y='32'> dari </text><text x='92' y='22' font-size='13'>27</text><line x1='92' y1='27' x2='110' y2='27' stroke='black' stroke-width='1.2'/><text x='94' y='42' font-size='13'>32</text><text x='116' y='32'> sama dengan </text><text x='212' y='22' font-size='13'>1</text><line x1='212' y1='27' x2='222' y2='27' stroke='black' stroke-width='1.2'/><text x='212' y='42' font-size='13'>8</text><text x='228' y='32'> dari </text><text x='268' y='32' font-style='italic'>x</text><text x='278' y='32'>, maka </text><text x='310' y='32' font-style='italic'>x</text><text x='320' y='32'> = ?</text></svg>"
+  },
+  {
+    "id": "q1706",
+    "type": "mc",
+    "topic": "Algebra / Perimeter",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah persegi panjang berukuran panjang (5x − 1) cm, dan lebar (2x + 2) cm. Jika keliling persegi panjang itu 72 cm, maka panjang dan lebarnya adalah____",
+    "options": [
+      "16 cm dan 12 cm",
+      "12 cm dan 10 cm",
+      "20 cm dan 16 cm",
+      "24 cm dan 12 cm"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1707",
+    "type": "mc",
+    "topic": "Probability",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Besok akan ada ulangan matematika. Guru matematika memberikan soal mudah, sedang ataupun susah. Diketahui peluang soal ulangan yang mudah 0,15, dan peluang soal yang sedang 3/8. Dari ketiga level kesulitan, jenis soal manakah yang paling mungkin diberikan?",
+    "options": [
+      "sedang",
+      "semua",
+      "sulit",
+      "mudah"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1708",
+    "type": "mc",
+    "topic": "Arithmetic / Ranking",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sinta merupakan salah satu anak yang mengikuti olimpiade matematika. Setelah hasil olimpiade diumumkan, Sinta berada pada urutan ke-18 dari atas dan urutan ke-515 dari bawah. Berapakah jumlah peserta yang mengikuti olimpiade?",
+    "options": [
+      "534",
+      "532",
+      "531",
+      "533"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1709",
+    "type": "mc",
+    "topic": "Statistics / Bar Chart",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Diagram berikut ini menunjukkan populasi kucing suatu kota berdasarkan jenis ras. Jika banyaknya populasi kucing tersebut adalah 2.500.000 ekor, taksirlah banyak kucing jenis ras Anggora.",
+    "options": [
+      "1.250.000 ekor",
+      "1.716.600 ekor",
+      "750.000 ekor",
+      "1.000.000 ekor"
+    ],
+    "answer": "C",
+    "svg": "<svg viewBox='0 0 320 80' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><rect x='10' y='20' width='60' height='30' fill='white' stroke='black' stroke-width='1'/><rect x='70' y='20' width='60' height='30' fill='#aaa' stroke='black' stroke-width='1'/><rect x='130' y='20' width='100' height='30' fill='#555' stroke='black' stroke-width='1'/><rect x='230' y='20' width='70' height='30' fill='#111' stroke='black' stroke-width='1'/><text x='40' y='65' text-anchor='middle' font-size='11'>Anggora</text><text x='100' y='65' text-anchor='middle' font-size='11'>Bengal</text><text x='180' y='65' text-anchor='middle' font-size='11'></text><text x='265' y='65' text-anchor='middle' font-size='11'>Persia</text><text x='10' y='16' font-size='10'>0%</text><text x='58' y='16' font-size='10'>20%</text><text x='116' y='16' font-size='10'>40%</text><text x='163' y='16' font-size='10'>60%</text><text x='214' y='16' font-size='10'>80%</text><text x='264' y='16' font-size='10'>100%</text></svg>"
+  },
+  {
+    "id": "q1710",
+    "type": "mc",
+    "topic": "Geometry / Reflection",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan gambar di bawah. Pencerminan bangun datar yang benar ditunjukkan oleh nomor ____",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "B",
+    "svg": "<svg viewBox='0 0 300 220' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='13' stroke='black' fill='none'><text x='50' y='16'>(1)</text><line x1='90' y1='10' x2='90' y2='100' stroke='black' stroke-width='1.5'/><polygon points='30,30 70,70 30,70' stroke-width='1.5'/><polygon points='110,50 150,30 150,70' stroke-width='1.5'/><text x='190' y='16'>(2)</text><line x1='230' y1='10' x2='230' y2='100' stroke='black' stroke-width='1.5'/><polygon points='175,30 215,70 175,70' stroke-width='1.5'/><polygon points='250,70 290,30 290,70' stroke-width='1.5'/><text x='50' y='126'>(3)</text><line x1='90' y1='120' x2='90' y2='210' stroke='black' stroke-width='1.5'/><polygon points='30,140 70,180 30,180' stroke-width='1.5'/><polygon points='110,140 150,180 110,180' stroke-width='1.5'/><text x='190' y='126'>(4)</text><line x1='230' y1='120' x2='230' y2='210' stroke='black' stroke-width='1.5'/><polygon points='175,140 215,180 175,180' stroke-width='1.5'/><polygon points='250,180 290,140 290,180' stroke-width='1.5'/></svg>"
+  },
+  {
+    "id": "q1711",
+    "type": "mc",
+    "topic": "Arithmetic / Number Line",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Berikut adalah sebuah skala, namun sebagian bilangan pada skala ini terhapus. Apabila panjang setiap skala sama, maka panjang dari titik P ke Q adalah ____",
+    "options": [
+      "42 satuan",
+      "35 satuan",
+      "6 satuan",
+      "49 satuan"
+    ],
+    "answer": "A",
+    "svg": "<svg viewBox='0 0 340 44' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='13'><line x1='20' y1='22' x2='320' y2='22' stroke='black' stroke-width='2'/><circle cx='20' cy='22' r='5' fill='black'/><circle cx='80' cy='22' r='5' fill='black'/><circle cx='140' cy='22' r='5' fill='black'/><circle cx='200' cy='22' r='5' fill='black'/><circle cx='260' cy='22' r='5' fill='black'/><circle cx='320' cy='22' r='5' fill='black'/><text x='16' y='40' font-size='12'>42</text><text x='76' y='14' font-size='12'>P</text><text x='250' y='40' font-size='12'>91</text><text x='310' y='14' font-size='12'>Q</text></svg>"
+  },
+  {
+    "id": "q1712",
+    "type": "mc",
+    "topic": "Geometry / Volume / Rectangular Prism",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Botol parfum di bawah akan diisi parfum hingga penuh. Di bagian bawah botol, dari dasar botol hingga dasar ruang untuk mengisi parfum terdapat kaca yang tingginya 0,5 cm. Tentukan volume parfum yang dapat dimasukan ke dalam botol jika botol memiliki dimensi panjang 4 cm, lebar 3 cm, dan tinggi 10,5 cm.",
+    "options": [
+      "130 cm³",
+      "136 cm³",
+      "126 cm³",
+      "120 cm³"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1713",
+    "type": "mc",
+    "topic": "Measurement / Wire / Edge Model",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Ada dua buah kawat dengan panjang masing-masing 1,15 dm. Kedua kawat tersebut akan dibuat model kerangka 3 buah dadu dengan volume 64 mm³. Berapakah sisa kawat yang tersisa?",
+    "options": [
+      "86 mm",
+      "86,6 mm",
+      "0,86 mm",
+      "8,6 mm"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1714",
+    "type": "mc",
+    "topic": "Algebra / System of Equations",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Ana dan Mika sedang membicarakan uang mereka. Kata Ana, \"kalau kamu memberi aku Rp2.000, uang kita akan sama banyak\". Mika membalas, \"kalau kamu memberi aku Rp2.000, uangku akan menjadi dua kali uang kamu\". Berapa banyakkah uang mereka seluruhnya?",
+    "options": [
+      "Rp. 16.000",
+      "Rp. 24.000",
+      "Rp. 22.000",
+      "Rp. 18.000"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1715",
+    "type": "mc",
+    "topic": "Algebra / Inequalities",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Tiga bilangan berurutan jika dijumlahkan hasilnya kurang dari 15. Selain itu diketahui bahwa setengah dari bilangan terkecil lebih dari 1. Berapakah bilangan paling besar?",
+    "options": [
+      "6",
+      "3",
+      "5",
+      "4"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1716",
+    "type": "mc",
+    "topic": "Combinatorics / Permutation",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Carilah banyaknya bilangan empat digit yang mengandung digit 3, 4, 5, dan 0. Ingat angka 0 tidak boleh berada di paling kiri.",
+    "options": [
+      "3",
+      "24",
+      "18",
+      "6"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1717",
+    "type": "mc",
+    "topic": "Geometry / Angles / Isosceles Triangle",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Diketahui segitiga ABC sama kaki, dengan AB = AC. Tentukan nilai x?",
+    "options": [
+      "120°",
+      "100°",
+      "87°",
+      "45°"
+    ],
+    "answer": "B",
+    "svg": "<svg viewBox='0 0 260 200' xmlns='http://www.w3.org/2000/svg' font-family='serif' font-size='14' stroke='black' fill='none'><polygon points='130,20 30,180 230,180' stroke-width='2'/><line x1='30' y1='180' x2='80' y2='100' stroke-width='1.5'/><line x1='80' y1='100' x2='230' y2='180' stroke-width='1.5'/><text x='124' y='16' font-size='13'>A</text><text x='20' y='192' font-size='13'>B</text><text x='232' y='192' font-size='13'>C</text><text x='136' y='44' font-size='12' font-style='italic'>x</text><text x='118' y='42' font-size='12'>120°</text><text x='85' y='172' font-size='12'>100°</text><line x1='70' y1='95' x2='82' y2='88' stroke-width='1.5'/><line x1='178' y1='95' x2='166' y2='88' stroke-width='1.5'/></svg>"
+  },
+  {
+    "id": "q1718",
+    "type": "mc",
+    "topic": "Algebra / Area / Rectangle",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Terdapat sebuah lahan berbentuk persegi panjang dengan keliling 80 m. Ukuran panjangnya adalah 2 kali lebarnya ditambah 10 m. Berapakah luas dari lahan tersebut?",
+    "options": [
+      "200 meter persegi",
+      "300 meter persegi",
+      "400 meter persegi",
+      "100 meter persegi"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1719",
+    "type": "mc",
+    "topic": "Geometry / Rotational Symmetry",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah segi delapan beraturan diputar pada pusatnya dengan sudut tertentu. Dari sudut berikut, manakah yang tidak akan mengubah penampakan segi delapan tersebut?",
+    "options": [
+      "60 derajat",
+      "90 derajat",
+      "160 derajat",
+      "120 derajat"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1720",
+    "type": "mc",
+    "topic": "Geometry / Circle / Circumference",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah lingkaran berada di bidang kartesius dengan pusat di (1,1). Lingkaran tersebut melewati titik (-13,1). Jika π = 22/7, berapakah keliling lingkaran tersebut?",
+    "options": [
+      "22 unit",
+      "88 unit",
+      "44 unit",
+      "110 unit"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1721",
+    "type": "mc",
+    "topic": "Geometry / Circle / Square",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Pada gambar di bawah. B adalah titik pusat lingkaran. Luas lingkaran tersebut adalah 28,26 satuan luas. Keliling persegi tersebut adalah ...",
+    "options": [
+      "12 satuan keliling",
+      "15 satuan keliling",
+      "27 satuan keliling",
+      "9 satuan keliling"
+    ],
+    "answer": "A",
+    "svg": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg' font-family='serif' font-size='13' stroke='black' fill='none'><circle cx='120' cy='100' r='80' stroke='#4477aa' stroke-width='2' fill='#ffe8a0'/><rect x='40' y='20' width='80' height='80' stroke='#333' stroke-width='2' fill='none'/><text x='116' y='105' font-size='12'>B</text><circle cx='120' cy='100' r='3' fill='black'/><text x='35' y='16' font-size='12'>D</text><text x='118' y='16' font-size='12'>C</text><text x='35' y='108' font-size='12'>A</text></svg>"
+  },
+  {
+    "id": "q1722",
+    "type": "mc",
+    "topic": "Arithmetic / Calendar / Days",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Pada hari Kamis, Toko A menginformasikan bahwa 50 hari lagi akan ada produk baru di tokonya. Pada hari apakah mereka akan menginformasikan kembali \"3 hari akan ada barang baru\"?",
+    "options": [
+      "Senin",
+      "Rabu",
+      "Selasa",
+      "Minggu"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1723",
+    "type": "mc",
+    "topic": "Statistics / Mean and Mode",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Pengamatan tinggi badan 4 orang siswa kelas 6E memiliki rata-rata dan modus yang sama, yaitu 150 cm. Dari keempat siswa tersebut yang paling tinggi memiliki tinggi 155 cm. Berapakah tinggi paling pendek dari keempat siswa tersebut?",
+    "options": [
+      "135",
+      "137",
+      "145",
+      "140"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1724",
+    "type": "mc",
+    "topic": "Probability / Set Theory",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Dari 10 siswa di kelas 6C, 4 tidak bergabung di klub olahraga dan 3 tidak bergabung di klub menggambar. Jika diambil 1 orang secara acak dari kelas tersebut, berapakah kemungkinan siswa yang terambil ikut klub olahraga dan menggambar?",
+    "options": [
+      "0.4",
+      "0.3",
+      "0.5",
+      "0.2"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1725",
+    "type": "mc",
+    "topic": "Geometry / Pythagoras",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Segitiga ABC adalah segitiga siku-siku dengan AB = 16 cm, BC = 20 cm, dan CD = 3AD. Panjang BD adalah ____ cm.",
+    "options": [
+      "√265",
+      "√256",
+      "√327",
+      "√361"
+    ],
+    "answer": "A",
+    "svg": "<svg viewBox='0 0 260 230' xmlns='http://www.w3.org/2000/svg' font-family='serif' font-size='13' stroke='black' fill='none'><polygon points='30,210 30,30 210,210' stroke-width='2'/><line x1='30' y1='130' x2='210' y2='210' stroke-width='1.5'/><rect x='30' y='200' width='10' height='10' fill='none' stroke='black' stroke-width='1.5'/><text x='4' y='215' font-size='13'>A</text><text x='4' y='135' font-size='13'>D</text><text x='22' y='22' font-size='13'>C</text><text x='214' y='218' font-size='13'>B</text><text x='118' y='200' font-size='12'>16 cm</text><text x='128' y='120' font-size='12'>20 cm</text></svg>"
+  },
+  {
+    "id": "q1726",
+    "type": "mc",
+    "topic": "Geometry / Area / Rectangle Ratio",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Pak Toni memiliki sebidang tanah berbentuk persegi panjang dengan perbandingan panjang dan lebarnya 5 : 4. Sebidang tanah tersebut akan dibuat menjadi sebuah taman. Jika keliling tanah pak Toni adalah 54 m, maka berapakah luas taman pak Toni?",
+    "options": [
+      "180",
+      "120",
+      "90",
+      "70"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1727",
+    "type": "mc",
+    "topic": "Algebra / Letter Values",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Ditentukan huruf berbeda untuk menyatakan bilangan asli yang berbeda. Nilai sebuah kata ditentukan oleh sebuah hasil perkalian bilangan-bilangan yang diwakili huruf-hurufnya. Diketahui U=1, N=5, dan O=3 sehingga UNO=15. Jika nilai kata KUNO=165, BUKU=77, OBAT=714, dan AKU=187, nilai kata BATUK adalah ____",
+    "options": [
+      "2.618",
+      "1.234",
+      "354",
+      "2.502"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1728",
+    "type": "mc",
+    "topic": "Statistics / Mean",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Berikut ini adalah data tinggi badan siswa kelas 6 SDN pelangi dalam centimeter: 153, 147, 155, 149, 151, 153, 149, 147, 155, 153, 149, 151. Rata-rata Tinggi badan siswa dalam data tersebut adalah ____ cm.",
+    "options": [
+      "149",
+      "151",
+      "143",
+      "159"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1729",
+    "type": "mc",
+    "topic": "Geometry / Area / Square Ratio",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Terdapat dua buah persegi. Panjang sisi persegi p = 1/3 panjang sisi Q. Perbandingan luas persegi P dan Q adalah ____",
+    "options": [
+      "1 : 7",
+      "1 : 6",
+      "1 : 9",
+      "1 : 8"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1730",
+    "type": "mc",
+    "topic": "Algebra / Linear Inequality",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Tentukan penyelesaian linear dari pertidaksamaan linear dibawah ini: −7x + 16 ≥ 2x + 7",
+    "options": [
+      "x ≥ 9",
+      "x ≥ 1",
+      "x ≤ 1",
+      "x ≤ 9"
+    ],
+    "answer": "B",
+    "svg": "<svg viewBox='0 0 220 36' xmlns='http://www.w3.org/2000/svg' font-family='serif' font-size='15'><text x='10' y='26'>−7</text><text x='34' y='26' font-style='italic'>x</text><text x='44' y='26'> + 16 ≥ 2</text><text x='100' y='26' font-style='italic'>x</text><text x='110' y='26'> + 7</text></svg>"
+  },
+  {
+    "id": "q1731",
+    "type": "mc",
+    "topic": "Statistics / Mean",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Adit, Budi, Citra, dan Doni sedang bermain lempar batu. Lemparan Budi lebih jauh 8 meter daripada lemparan Adit. Lemparan Citra lebih dekat 6 meter daripada lemparan Adit. Sementara lemparan Doni lebih jauh 2 meter dari lemparan Adit. Berapa jarak lemparan Doni jika rata rata jarak lemparan mereka berempat adalah 3 meter?",
+    "options": [
+      "2 meter",
+      "5 meter",
+      "4 meter",
+      "3 meter"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1732",
+    "type": "mc",
+    "topic": "Arithmetic / Number Theory / Squares",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Tentukan nilai dari penjumlahan berikut: 1² − 2² + 3² − 4² + 5² − 6² + 7² − 8² = ____",
+    "options": [
+      "18",
+      "36",
+      "-18",
+      "-36"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1733",
+    "type": "mc",
+    "topic": "Geometry / Area / Coordinate Plane",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah segiempat memiliki sudut di titik (-2,1), (2,-3), (2,5) dan (6,1). Berapakah luas dari segiempat tersebut?",
+    "options": [
+      "32",
+      "96",
+      "64",
+      "16"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1734",
+    "type": "sa",
+    "topic": "Statistics / Weighted Mean",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Suatu kelas berisi 30 siswa. Setiap siswa diwajibkan mengikuti minimal satu kelompok belajar. Terdapat dua kelompok belajar, A dan B yang masing-masing anggotanya 10 dan 20 orang. Jika rata-rata nilai ujian untuk masing-masing kelompok berturut-turut adalah 9 dan 6, rata-rata nilai seluruh siswa adalah ______.",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1735",
+    "type": "sa",
+    "topic": "Number Theory / LCM",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Andini pergi ke bioskop setiap 9 hari sekali. Berna pergi ke bioskop setiap 12 hari sekali. Sementara itu Christine pergi ke bioskop setiap 20 hari sekali. Ketiganya akan bertemu di bioskop setiap ____ hari sekali.",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1736",
+    "type": "sa",
+    "topic": "Statistics / Pie Chart",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Tabel di bawah menunjukkan koleksi mobil-mobilan adik: Sedan=4, Truk=8, Bus=7, Kijang=1. Jika data tersebut ditampilkan dalam bentuk diagram lingkaran dengan luas total 40 unit persegi, maka luas bagian sedan adalah ____ unit persegi.",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 280 130' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='13'><rect x='10' y='10' width='40' height='24' fill='#ddd' stroke='black' stroke-width='1.2'/><text x='30' y='27' text-anchor='middle' font-weight='bold'>No</text><rect x='50' y='10' width='160' height='24' fill='#ddd' stroke='black' stroke-width='1.2'/><text x='130' y='27' text-anchor='middle' font-weight='bold'>Tipe mobil-mobilan</text><rect x='210' y='10' width='60' height='24' fill='#ddd' stroke='black' stroke-width='1.2'/><text x='240' y='27' text-anchor='middle' font-weight='bold'>Jumlah</text><rect x='10' y='34' width='40' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='30' y='50' text-anchor='middle'>1</text><rect x='50' y='34' width='160' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='130' y='50' text-anchor='middle'>Sedan</text><rect x='210' y='34' width='60' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='240' y='50' text-anchor='middle'>4</text><rect x='10' y='56' width='40' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='30' y='72' text-anchor='middle'>2</text><rect x='50' y='56' width='160' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='130' y='72' text-anchor='middle'>Truk</text><rect x='210' y='56' width='60' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='240' y='72' text-anchor='middle'>8</text><rect x='10' y='78' width='40' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='30' y='94' text-anchor='middle'>3</text><rect x='50' y='78' width='160' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='130' y='94' text-anchor='middle'>Bus</text><rect x='210' y='78' width='60' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='240' y='94' text-anchor='middle'>7</text><rect x='10' y='100' width='40' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='30' y='116' text-anchor='middle'>4</text><rect x='50' y='100' width='160' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='130' y='116' text-anchor='middle'>Kijang</text><rect x='210' y='100' width='60' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='240' y='116' text-anchor='middle'>1</text></svg>"
+  },
+  {
+    "id": "q1737",
+    "type": "sa",
+    "topic": "Arithmetic / Sum of Odd Numbers",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Penjumlahan semua bilangan ganjil dari 1 hingga 21 adalah ____",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1738",
+    "type": "sa",
+    "topic": "Combinatorics",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Ben memiliki 5 pasang kaos kaki dengan 5 warna yang berbeda. Suatu hari Ben ingin menggunakan kaos kaki sebelah kanan dan kiri yang berbeda warna. Banyaknya pilihan pasangan kaos kaki yang bisa Ben pakai hari itu adalah ____ pasang.",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1739",
+    "type": "sa",
+    "topic": "Arithmetic / Price",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Harga jeruk per kilogramnya adalah Rp.3000,-. Kakak membeli jeruk dan membayar dengan uang besaran Rp.20.000,- dan menerima kembalian Rp. 2000,-. Kakak memebeli jeruk sebanyak ____ kilogram.",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1740",
+    "type": "sa",
+    "topic": "Geometry / Volume / Cuboid",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Andi memiliki sebuah kawat dengan panjang 72 cm. Ia ingin membuat kerangka balok dengan perbandingan panjang dan lebar 2:3:4. Jika Andi menggunakan semua kawatnya untuk kerangka balok, volume balok adalah ______ cm³.",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1741",
+    "type": "sa",
+    "topic": "Arithmetic / Fractions",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Seperempat dari jumlah permen Dina diberikan ke Banu. Banu kemudian membagikan sepertiga permen yang didapatnya ke Adi. Jika pada akhirnya Adi mendapat 2 permen, jumlah permen Dina di awal adalah ____ permen.",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1742",
+    "type": "sa",
+    "topic": "Geometry / Perimeter / Rectangle",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah persegi panjang dengan luas 16 unit persegi memiliki panjang 4 kali lipat lebarnya. Maka keliling persegi panjang tersebut adalah ____ unit.",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1743",
+    "type": "sa",
+    "topic": "Arithmetic / Rate / Work",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Andi dapat membersihkan rumah dalam waktu 3 hari. Sementara Budi dan Dino masing-masing dapat membersihkan rumah dalam waktu 6 hari. Jika ketiganya dapat membersihkan 2 buah rumah bersama-sama, maka mereka dapat memberihkan rumah tersebut dalam waktu ____ hari.",
+    "answer": "FLAG"
+  }
+,
+  {
+    "id": "q1744",
+    "type": "mc",
+    "topic": "Geometry / Circle / Circumference",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah lingkaran memiliki keliling 4π cm. Jari-jari lingkaran tersebut adalah ____ cm.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1745",
+    "type": "mc",
+    "topic": "Number Theory / Even/Odd",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Jika n adalah bilangan genap, manakah bilangan berikut yang tidak genap?",
+    "options": [
+      "2n",
+      "n + 2",
+      "3n + 1",
+      "2n − 4"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1746",
+    "type": "mc",
+    "topic": "Geometry / Coordinate Plane / Distance",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Diagram Kartesius merupakan cara untuk menuliskan posisi sebuah titik pada bidang. Jarak antara titik (3, 4) dan titik (9, 4) pada bidang kartesius adalah ____ unit.",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12"
+    ],
+    "answer": "B",
+    "svg": "<svg viewBox='0 0 260 260' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='11'><line x1='130' y1='10' x2='130' y2='250' stroke='black' stroke-width='1.5'/><line x1='10' y1='130' x2='250' y2='130' stroke='black' stroke-width='1.5'/><text x='240' y='127' font-size='11'>x</text><text x='133' y='16' font-size='11'>y</text><g font-size='10' fill='#555'><text x='148' y='133'>1</text><text x='168' y='133'>2</text><text x='188' y='133'>3</text><text x='208' y='133'>4</text><text x='228' y='133'>5</text><text x='108' y='133'>-1</text><text x='85' y='133'>-2</text><text x='63' y='133'>-3</text><text x='40' y='133'>-4</text><text x='18' y='133'>-5</text><text x='133' y='108'>2</text><text x='133' y='88'>3</text><text x='133' y='68'>4</text><text x='133' y='48'>5</text><text x='133' y='148'>-1</text><text x='133' y='168'>-2</text><text x='133' y='188'>-3</text><text x='133' y='208'>-4</text></g><circle cx='190' cy='70' r='4' fill='#333'/><text x='195' y='67' font-size='11'>(3,4)</text><circle cx='70' cy='190' r='4' fill='#333'/><text x='20' y='200' font-size='11'>(-5,-4)</text><line x1='70' y1='130' x2='70' y2='190' stroke='#999' stroke-dasharray='3,3' stroke-width='1'/><line x1='70' y1='190' x2='130' y2='190' stroke='#999' stroke-dasharray='3,3' stroke-width='1'/><line x1='190' y1='70' x2='190' y2='130' stroke='#999' stroke-dasharray='3,3' stroke-width='1'/><line x1='130' y1='70' x2='190' y2='70' stroke='#999' stroke-dasharray='3,3' stroke-width='1'/></svg>"
+  },
+  {
+    "id": "q1747",
+    "type": "mc",
+    "topic": "Probability / Dice",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Pada sebuah permainan, Budi hendak melempar sebuah dadu. Budi akan kalah jika ia mendapat angka 2, dan hasil permainan akan seri jika Budi mendapat angka 4. Peluang Budi menang pada permainan tersebut adalah ____.",
+    "options": [
+      "2/3",
+      "5/6",
+      "1/6",
+      "1/3"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1748",
+    "type": "mc",
+    "topic": "Arithmetic / Discount",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Di toko Abang, semua barang mendapat diskon 20% untuk pembelian dua barang atau lebih. Andi membeli sebuah buku sementara Budi membeli dua buah buku. Jika harga yang harus dibayar Budi Rp. 3.000 lebih banyak daripada harga yang harus dibayar Andi, maka harga normal sebuah buku adalah Rp. ____.",
+    "options": [
+      "2.000",
+      "5.000",
+      "3.000",
+      "4.000"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1749",
+    "type": "mc",
+    "topic": "Statistics / Mean",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Hari, Indra, dan Jaya mendapatkan nilai 7, 8, dan 9 pada ujian kemarin. Kelvin mengikuti ujian susulan pagi ini. Setelah nilai ujian Kelvin dimasukan, nilai rata-rata keempat siswa adalah 8. Berapakah nilai yang didapat Kelvin?",
+    "options": [
+      "7",
+      "9",
+      "8",
+      "10"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1750",
+    "type": "mc",
+    "topic": "Algebra / System of Equations",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Harga satu mangkuk mie ayam dan dua gelas es teh tawar adalah Rp. 32.000. Harga satu mangkuk mie ayam dan dua gelas jeruk hangat adalah Rp. 38.000. Perbedaan harga segelas jeruk hangat dan segelas es teh tawar adalah Rp. ____.",
+    "options": [
+      "6.000",
+      "3.000",
+      "1.500",
+      "4.000"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1751",
+    "type": "mc",
+    "topic": "Arithmetic / Fractions",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Tiga perempat dari peserta lomba lari pagi, tidak dapat menyelesaikan lomba. Jika 20 orang berhasil menyelesaikan lomba, maka banyaknya peserta lomba lari adalah ____ orang.",
+    "options": [
+      "20",
+      "40",
+      "80",
+      "160"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1752",
+    "type": "mc",
+    "topic": "Geometry / Coordinate Plane / Perimeter",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Pada bidang kartesius empat titik dengan koordinat (0,0), (4,0), (4,5), dan (0,5) dihubungkan dengan garis dan membentuk suatu persegi panjang. Keliling persegi panjang tersebut adalah ____ unit.",
+    "options": [
+      "20",
+      "40",
+      "18",
+      "9"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1753",
+    "type": "mc",
+    "topic": "Geometry / Coordinate Plane / Distance",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Pada koordinat kartesius, jarak antara titik (2, −2) dan (14, 3) adalah ____ unit.",
+    "options": [
+      "13",
+      "5",
+      "12",
+      "6"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1754",
+    "type": "mc",
+    "topic": "Algebra / System of Equations",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Harga tiga permen dan dua coklat adalah Rp 32.000 sedangkan harga dua permen dan tiga coklat adalah Rp. 38.000. Harga satu permen dan satu coklat adalah Rp. ____.",
+    "options": [
+      "14.000",
+      "22.000",
+      "28.000",
+      "36.000"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1755",
+    "type": "mc",
+    "topic": "Geometry / Pythagoras / Distance",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Vani dan Wanda berpindah dari titik A ke titik C melalui jalur yang berbeda. Vani berjalan dari A melalui jembatan ke titik B dahulu sepanjang 15 meter lalu ia berjalan dari titik B ke titik C sepanjang 20 meter. Sedangkan Wanda langsung berenang lurus dari A ke C. Maka perbedaan panjang jalur yang dilalui keduanya adalah ____ meter.",
+    "options": [
+      "5",
+      "15",
+      "25",
+      "10"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1756",
+    "type": "mc",
+    "topic": "Arithmetic / Percentage / Savings",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Dalam satu tahun tabungan Andi naik 15%. Jika ia kurangi uang tabungannya sekarang dengan uang tabungannya tahun lalu ia akan mendapatkan hasil Rp. 450.000. Jumlah tabungan Andi sekarang adalah Rp.____.",
+    "options": [
+      "2.550.000",
+      "3.000.000",
+      "3.450.000",
+      "1.450.000"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1757",
+    "type": "mc",
+    "topic": "Probability / Combinations",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Dari klub bulu tangkis SD Sinar Harapan, akan dipilih dua perwakilan secara acak untuk mengikuti porseni. Klub tersebut memiliki 5 anggota putra dan 4 anggota putri. Berapakah peluang terpilihnya dua anggota putra?",
+    "options": [
+      "7/18",
+      "11/18",
+      "3/18",
+      "5/18"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1758",
+    "type": "mc",
+    "topic": "Geometry / Area / Triangle",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Pada gambar di bawah segitiga ABC memiliki luas 68 dan AD = DB. Berapakah luas daerah abu-abu?",
+    "options": [
+      "34",
+      "26",
+      "46",
+      "42"
+    ],
+    "answer": "A",
+    "svg": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg' font-family='serif' font-size='13' stroke='black' fill='none'><polygon points='40,20 40,180 180,180' stroke-width='2'/><polygon points='40,100 40,180 180,180' fill='#aaa' stroke='black' stroke-width='2'/><text x='34' y='16' font-size='12'>A</text><text x='34' y='100' font-size='12'>D</text><text x='28' y='188' font-size='12'>B</text><text x='183' y='188' font-size='12'>C</text><line x1='40' y1='100' x2='180' y2='180' stroke='black' stroke-width='1.5'/></svg>"
+  },
+  {
+    "id": "q1759",
+    "type": "mc",
+    "topic": "Number Theory / LCM",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Banyaknya bilangan puluhan yang merupakan kelipatan 9 dan juga kelipatan 6 adalah ____.",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "5"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1760",
+    "type": "mc",
+    "topic": "Geometry / Coordinate Plane / Rotation",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Pada Koordinat kartesius, sebuah titik dengan koordinat awal (1, 2) berputar setengah putaran mengelilingi titik origin dengan arah berlawanan arah jarum jam. Koordinat akhir dari titik tersebut setelah berputar adalah ____.",
+    "options": [
+      "(−2, −1)",
+      "(−1, −2)",
+      "(−1, 2)",
+      "(2, −1)"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1761",
+    "type": "mc",
+    "topic": "Algebra / System of Equations",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Ibu Santi menjual paket makan siang. Paket makan siang kecil berisi dua telur sedangkan paket makan siang besar berisi tiga telur. Diketahui bahwa banyaknya pesanan hari ini adalah 6 paket dan jumlah telur yang digunakan adalah 14 butir. Banyaknya pesanan paket besar hari ini adalah ____ paket.",
+    "options": [
+      "2",
+      "4",
+      "3",
+      "1"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1762",
+    "type": "mc",
+    "topic": "Statistics / Mean",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Dari lima siswa yang mengikuti ujian semua mendapat nilai yang sama kecuali Hari. Hari mendapat nilai 9, sementara rata-rata nilai kelima siswa adalah 5. Nilai yang didapat oleh empat siswa yang lain adalah ____.",
+    "options": [
+      "6",
+      "3",
+      "5",
+      "4"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1763",
+    "type": "mc",
+    "topic": "Combinatorics / Counting Triangles",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Ada berapa banyaknya segitiga pada gambar di bawah?",
+    "options": [
+      "18",
+      "36",
+      "30",
+      "27"
+    ],
+    "answer": "C",
+    "svg": "<svg viewBox='0 0 160 120' xmlns='http://www.w3.org/2000/svg' stroke='black' fill='none' stroke-width='1.8'><polygon points='80,10 10,110 150,110'/><line x1='80' y1='10' x2='80' y2='110'/><line x1='10' y1='110' x2='120' y2='43'/><line x1='150' y1='110' x2='40' y2='43'/><line x1='10' y1='110' x2='150' y2='10'/><line x1='80' y1='10' x2='10' y2='110'/></svg>"
+  },
+  {
+    "id": "q1764",
+    "type": "mc",
+    "topic": "Geometry / Area / Rectangle",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah kawat dengan panjang 40 cm dibentuk menjadi sebuah persegi panjang dengan perbandingan panjang dan lebar 3 : 2. Luas persegi panjang tersebut adalah ____ cm²",
+    "options": [
+      "48",
+      "96",
+      "82",
+      "64"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1765",
+    "type": "mc",
+    "topic": "Geometry / Coordinate Plane / Area",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Pada bidang kartesius, tiga titik dengan koordinat (−2, 0), (0, 0) dan (2, 2) dihubungkan oleh garis dan membentuk sebuah segitiga. Luas segitiga tersebut adalah ____ unit persegi.",
+    "options": [
+      "6",
+      "4",
+      "1",
+      "2"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1766",
+    "type": "mc",
+    "topic": "Statistics / Weighted Mean",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Berikut adalah jumlah batang kayu yang ada di toko bahan bangunan Pak Ogah. Rata-rata panjang kayu di toko Pak Ogah adalah ____ m.",
+    "options": [
+      "4,62",
+      "4,00",
+      "3,88",
+      "4,14"
+    ],
+    "answer": "D",
+    "svg": "<svg viewBox='0 0 260 130' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='13'><rect x='10' y='10' width='120' height='26' fill='#ddd' stroke='black' stroke-width='1.2'/><text x='70' y='28' text-anchor='middle' font-weight='bold'>Panjang (m)</text><rect x='130' y='10' width='120' height='26' fill='#ddd' stroke='black' stroke-width='1.2'/><text x='190' y='28' text-anchor='middle' font-weight='bold'>Jumlah batang kayu</text><rect x='10' y='36' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='70' y='52' text-anchor='middle'>3,2</text><rect x='130' y='36' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='190' y='52' text-anchor='middle'>4</text><rect x='10' y='58' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='70' y='74' text-anchor='middle'>3,6</text><rect x='130' y='58' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='190' y='74' text-anchor='middle'>6</text><rect x='10' y='80' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='70' y='96' text-anchor='middle'>4,2</text><rect x='130' y='80' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='190' y='96' text-anchor='middle'>2</text><rect x='10' y='102' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='70' y='118' text-anchor='middle'>5,0</text><rect x='130' y='102' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='190' y='118' text-anchor='middle'>8</text></svg>"
+  },
+  {
+    "id": "q1767",
+    "type": "mc",
+    "topic": "Probability / Dice",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Doni melempar sebuah dadu dua kali. Berapakah peluang ia akan mendapati bilangan ganjil pada lemparan pertama, dan bilangan genap pada lemparan kedua?",
+    "options": [
+      "1/2",
+      "1",
+      "1/3",
+      "1/4"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1768",
+    "type": "mc",
+    "topic": "Arithmetic / Inverse Proportion",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Tiga orang pekerja dapat membangun kantin sekolah dalam waktu 8 minggu. Maka 4 orang pekerja dapat membangun kantin sekolah dalam waktu ____ minggu.",
+    "options": [
+      "4",
+      "8",
+      "6",
+      "3"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1769",
+    "type": "mc",
+    "topic": "Geometry / Pythagoras / Triangle",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah persegi panjang kertas dengan luas 48 cm² dan keliling 28 cm dipotong tepat di salah satu garis diagonalnya sehingga menjadi dua buah segitiga siku-siku yang identik. Keliling salah satu segitiga siku-siku tersebut adalah ____ cm.",
+    "options": [
+      "48",
+      "24",
+      "18",
+      "36"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1770",
+    "type": "mc",
+    "topic": "Combinatorics / Logic",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Budi memiliki enam pasang kaos kaki berwarna hijau, jingga, dan ungu. Budi tidak memiliki kaos kaki dengan warna selain tiga warna tersebut. Kita tidak tahu jumlah kaos kaki Budi yang berwarna ungu, tapi kita tahu bahwa Budi memiliki kaos kaki ungu paling banyak ____ pasang.",
+    "options": [
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1771",
+    "type": "mc",
+    "topic": "Geometry / Area / Square",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah kertas persegi dengan luas 16 cm² dipotong menjadi empat persegi dengan ukuran yang sama. Keliling satu persegi kecil hasil potongan tersebut adalah ____ cm.",
+    "options": [
+      "8",
+      "4",
+      "16",
+      "12"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1772",
+    "type": "mc",
+    "topic": "Geometry / Coordinate Plane / Area",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Pada koordinat Kartesius gambarlah garis lurus dari (-4,0) ke (0,-2), lalu dilanjutkan ke (2,0), lalu dilanjutkan ke (0,2), lalu dilanjutkan ke (-4,2), dan kemudian kembali ke (-4,0). Luas daerah di dalam segilima yang tergambar adalah ______ unit persegi.",
+    "options": [
+      "16",
+      "24",
+      "12",
+      "20"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1773",
+    "type": "mc",
+    "topic": "Arithmetic / Speed / Ratio",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Pada sebuah lomba lari Gilang sedang memimpin 8 meter di depan Hari. Tetapi Hari lebih cepat dari Gilang dan akhirnya Gilang tersalip setelah ia berlari 4 meter lagi. Perbandingan kecepatan lari Gilang dan Hari adalah ____.",
+    "options": [
+      "3 : 1",
+      "2 : 1",
+      "4 : 1",
+      "5 : 1"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1774",
+    "type": "sa",
+    "topic": "Geometry / Pythagoras",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah segitiga siku-siku sama kaki memiliki luas 50 unit persegi. Panjang dari salah satu sisi segitiga yang sama panjang adalah ____ unit. (Tulis angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1775",
+    "type": "sa",
+    "topic": "Number Theory / Mean",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Terdapat tiga buah bilangan bulat. Selisih dari bilangan terbesar dan terkecil adalah 8, dan salah satu bilangan sama dengan rata-rata ketiga bilangan. Jika hasil penjumlahan ketiga bilangan adalah 24, maka bilangan terkecil adalah ____. (Tulis angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1776",
+    "type": "sa",
+    "topic": "Geometry / Area / Triangle",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Pada gambar di bawah AD = DC dan 2DF = FB. Jika luas segitiga ABC adalah 9 unit persegi, maka luas segitiga AFB adalah ____ unit persegi.",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 200 180' xmlns='http://www.w3.org/2000/svg' font-family='serif' font-size='13' stroke='black' fill='none'><polygon points='100,10 20,170 180,170' stroke-width='2'/><line x1='60' y1='90' x2='180' y2='170' stroke-width='1.5'/><line x1='100' y1='10' x2='20' y2='170' stroke-width='1.5'/><circle cx='60' cy='90' r='3' fill='black'/><circle cx='113' cy='170' r='3' fill='black'/><text x='96' y='8' font-size='12'>C</text><text x='10' y='178' font-size='12'>A</text><text x='182' y='178' font-size='12'>B</text><text x='46' y='92' font-size='12'>D</text><text x='108' y='167' font-size='12'>F</text><text x='108' y='183' font-size='11'>E</text></svg>"
+  },
+  {
+    "id": "q1777",
+    "type": "sa",
+    "topic": "Geometry / Coordinate Plane / Area",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Pada bidang Kartesius, luas segiempat yang dibentuk oleh (0,-1), (4,2), (0,9), dan (-2,0) adalah ____ unit persegi. (Tulis angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1778",
+    "type": "sa",
+    "topic": "Algebra / Ratio / Price",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Harga 3 kilogram anggur sama dengan harga 2 kilogram melon. Harga 4 kilogram melon sama dengan harga 2 kilogram stroberi. Harga 3 kilogram stroberi sama dengan harga ____ kilogram anggur. (Tulis angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1779",
+    "type": "sa",
+    "topic": "Number Theory / Divisibility",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Berapakah banyaknya bilangan genap diantara 20 dan 2000 yang dapat dibagi 3? (Tulis angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1780",
+    "type": "sa",
+    "topic": "Geometry / Coordinate Plane",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Pada bidang Kartesius, titik A = (x, y) berada pada garis penghubung titik B = (−3, −4) dan titik C = (1, 4). Jarak antara A dan B adalah tiga kali jarak antara A dan C. Maka x + y = ____. (Tulis angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1781",
+    "type": "sa",
+    "topic": "Statistics / Mean",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Rata-rata dari tiga bilangan adalah 11. Jika salah satu bilangan adalah 9, rata-rata dari dua bilangan yang lain adalah ____. (Tulis angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1782",
+    "type": "sa",
+    "topic": "Algebra / Two Numbers",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Terdapat dua buah bilangan bulat positif. Salah satu bilangan adalah empat kali dari bilangan yang lain. Jika selisih kedua bilangan tersebut adalah 234, maka hasil penjumlahan kedua bilangan tersebut adalah ____. (Tulis angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1783",
+    "type": "sa",
+    "topic": "Number Theory / Divisors",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Berapakah banyaknya bilangan bulat positif yang dapat membagi 256?",
+    "answer": "FLAG"
+  }
+,
+  {
+    "id": "q1784",
+    "type": "mc",
+    "topic": "Arithmetic / Fractions",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Ibu membagikan kue ulang tahun ke tiga anaknya. Masing-masing anak mendapat 1/6 kue. Sisa kue ulang tahun adalah ____ kue.",
+    "options": [
+      "1/3",
+      "1/6",
+      "2/3",
+      "1/2"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1785",
+    "type": "mc",
+    "topic": "Geometry / Area / Shaded Region",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Pada gambar berikut, luas persegi panjang adalah 88. Luas daerah abu-abu adalah ____.",
+    "options": [
+      "22",
+      "11",
+      "44",
+      "33"
+    ],
+    "answer": "A",
+    "svg": "<svg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg' stroke='black' fill='none' stroke-width='2'><rect x='20' y='20' width='120' height='120'/><line x1='20' y1='20' x2='140' y2='140'/><line x1='140' y1='20' x2='20' y2='140'/><polygon points='80,140 20,140 20,80' fill='#aaa' stroke='black' stroke-width='2'/></svg>"
+  },
+  {
+    "id": "q1786",
+    "type": "mc",
+    "topic": "Number Patterns / Geometric Sequence",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan barisan bilangan berikut: 1, 2, 4, 8, ... Jika barisan tersebut dilanjutkan dan 8 bilangan pertama dijumlahkan, hasilnya adalah ____.",
+    "options": [
+      "255",
+      "128",
+      "64",
+      "256"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1787",
+    "type": "mc",
+    "topic": "Combinatorics / Counting Triangles",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Banyaknya segitiga pada gambar berikut adalah ____.",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "4"
+    ],
+    "answer": "A",
+    "svg": "<svg viewBox='0 0 180 150' xmlns='http://www.w3.org/2000/svg' stroke='black' fill='none' stroke-width='2'><polygon points='90,10 10,140 170,140'/><line x1='50' y1='75' x2='130' y2='75'/><line x1='50' y1='75' x2='90' y2='140'/><line x1='130' y1='75' x2='90' y2='140'/><polygon points='70,75 110,75 90,140' fill='none'/></svg>"
+  },
+  {
+    "id": "q1788",
+    "type": "mc",
+    "topic": "Arithmetic / Order of Operations",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "17 × (19 + 10 × 10) = ____.",
+    "options": [
+      "1377",
+      "4930",
+      "493",
+      "2023"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1789",
+    "type": "mc",
+    "topic": "Geometry / Area / Composite Shape",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Luas daerah abu-abu pada gambar berikut adalah ____ meter persegi.",
+    "options": [
+      "66",
+      "67",
+      "133",
+      "60"
+    ],
+    "answer": "B",
+    "svg": "<svg viewBox='0 0 300 220' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12' stroke='black' fill='none' stroke-width='1.5'><rect x='10' y='40' width='280' height='160' fill='#ddd'/><rect x='60' y='10' width='160' height='130' fill='white' stroke='black' stroke-width='1.5'/><text x='130' y='8' text-anchor='middle' font-size='12'>11 m</text><text x='4' y='130' font-size='12'>6,0 m</text><text x='235' y='130' font-size='12'>9,5 m</text><text x='130' y='215' text-anchor='middle' font-size='12'>14 m</text></svg>"
+  },
+  {
+    "id": "q1790",
+    "type": "mc",
+    "topic": "Number Patterns / Table Pattern",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan bilangan-bilangan berikut:\n1  3  5\n4  6  8\n7  9  x\nBilangan yang paling tepat untuk mengganti x di atas adalah ____.",
+    "options": [
+      "6",
+      "11",
+      "9",
+      "2"
+    ],
+    "answer": "B",
+    "svg": "<svg viewBox='0 0 200 100' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='16'><rect x='10' y='10' width='55' height='26' fill='#eee' stroke='black' stroke-width='1.2'/><text x='37' y='28' text-anchor='middle'>1</text><rect x='75' y='10' width='55' height='26' fill='#eee' stroke='black' stroke-width='1.2'/><text x='102' y='28' text-anchor='middle'>3</text><rect x='140' y='10' width='55' height='26' fill='#eee' stroke='black' stroke-width='1.2'/><text x='167' y='28' text-anchor='middle'>5</text><rect x='10' y='37' width='55' height='26' fill='white' stroke='black' stroke-width='1.2'/><text x='37' y='55' text-anchor='middle'>4</text><rect x='75' y='37' width='55' height='26' fill='white' stroke='black' stroke-width='1.2'/><text x='102' y='55' text-anchor='middle'>6</text><rect x='140' y='37' width='55' height='26' fill='white' stroke='black' stroke-width='1.2'/><text x='167' y='55' text-anchor='middle'>8</text><rect x='10' y='64' width='55' height='26' fill='white' stroke='black' stroke-width='1.2'/><text x='37' y='82' text-anchor='middle'>7</text><rect x='75' y='64' width='55' height='26' fill='white' stroke='black' stroke-width='1.2'/><text x='102' y='82' text-anchor='middle'>9</text><rect x='140' y='64' width='55' height='26' fill='white' stroke='black' stroke-width='1.2'/><text x='167' y='82' text-anchor='middle' font-style='italic'>x</text></svg>"
+  },
+  {
+    "id": "q1791",
+    "type": "mc",
+    "topic": "Statistics / Bar Chart / Set Theory",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Diagram berikut menunjukkan peserta ekstrakurikuler dari kelas 4A. Banyaknya murid kelas 4A yang mengikuti kedua ekstrakurikuler tersebut adalah ____ anak.",
+    "options": [
+      "10",
+      "2",
+      "7",
+      "5"
+    ],
+    "answer": "C",
+    "svg": "<svg viewBox='0 0 200 140' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><line x1='30' y1='10' x2='30' y2='110' stroke='black' stroke-width='1.5'/><line x1='30' y1='110' x2='180' y2='110' stroke='black' stroke-width='1.5'/><rect x='40' y='30' width='50' height='80' fill='#aaa' stroke='black' stroke-width='1'/><rect x='110' y='70' width='50' height='40' fill='#ccc' stroke='black' stroke-width='1'/><text x='65' y='25' text-anchor='middle' font-size='11'>5</text><text x='135' y='65' text-anchor='middle' font-size='11'>2</text><text x='10' y='90' font-size='10'>2</text><text x='10' y='70' font-size='10'>3</text><text x='10' y='50' font-size='10'>4</text><text x='10' y='30' font-size='10'>5</text><text x='20' y='118' font-size='10'>peserta</text><text x='55' y='125' text-anchor='middle' font-size='11'>tenis</text><text x='135' y='125' text-anchor='middle' font-size='11'>basket</text></svg>"
+  },
+  {
+    "id": "q1792",
+    "type": "mc",
+    "topic": "Algebra / Linear Relations",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Terdapat tiga bilangan cacah. Bilangan pertama bernilai dua kali bilangan kedua. Dan bilangan kedua lebih besar dari bilangan ketiga dengan selisih 4. Jika bilangan pertama adalah 24, maka bilangan ketiga adalah ____.",
+    "options": [
+      "20",
+      "10",
+      "12",
+      "8"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1793",
+    "type": "mc",
+    "topic": "Number Patterns / Fraction Sequence",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan barisan bilangan berikut: 1/2, 2/3, 3/4, 4/5, 5/6, ... Jika barisan tersebut dilanjutkan, maka hasil kali 20 bilangan pertama pada barisan adalah ____.",
+    "options": [
+      "1/21",
+      "1/20",
+      "20/21",
+      "19/20"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1794",
+    "type": "mc",
+    "topic": "Number Theory / LCM",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Manakah dari pilihan berikut yang merupakan kelipatan 11 dan 13 sekaligus?",
+    "options": [
+      "130",
+      "143",
+      "65",
+      "33"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1795",
+    "type": "mc",
+    "topic": "Number Theory / Prime Factors",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Banyaknya bilangan prima yang dapat membagi sebuah bilangan p adalah 3. Banyaknya bilangan prima yang dapat membagi p³ adalah ____.",
+    "options": [
+      "12",
+      "9",
+      "6",
+      "3"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1796",
+    "type": "mc",
+    "topic": "Number Theory / Divisors",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Banyaknya bilangan cacah yang dapat membagi sebuah bilangan bulat p adalah 6. Dan diantara 6 pembagi tersebut terdapat 2 bilangan prima yang berbeda. Banyaknya bilangan cacah yang dapat membagi p × p adalah ____.",
+    "options": [
+      "9",
+      "12",
+      "6",
+      "15"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1797",
+    "type": "mc",
+    "topic": "Statistics / Pie Chart",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Diagram berikut menunjukkan berbagai moda transportasi yang digunakan siswa kelas 5B untuk berangkat ke sekolah. Banyaknya murid yang memberikan data adalah 24 anak. Berapakah banyaknya murid yang berangkat ke sekolah menggunakan bus?",
+    "options": [
+      "6",
+      "8",
+      "4",
+      "12"
+    ],
+    "answer": "A",
+    "svg": "<svg viewBox='0 0 200 180' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><circle cx='100' cy='90' r='70' fill='none' stroke='black' stroke-width='2'/><path d='M100,90 L100,20 A70,70 0 0,1 170,90 Z' fill='#ddd' stroke='black' stroke-width='1.5'/><path d='M100,90 L170,90 A70,70 0 0,1 100,160 Z' fill='#aaa' stroke='black' stroke-width='1.5'/><path d='M100,90 L100,160 A70,70 0 0,1 30,90 Z' fill='#777' stroke='black' stroke-width='1.5'/><path d='M100,90 L30,90 A70,70 0 0,1 100,20 Z' fill='#eee' stroke='black' stroke-width='1.5'/><text x='140' y='55' font-size='11'>jalan kaki</text><text x='148' y='130' font-size='11'>bus</text><text x='28' y='145' font-size='11'>ojek</text></svg>"
+  },
+  {
+    "id": "q1798",
+    "type": "mc",
+    "topic": "Arithmetic / Speed / Relative Motion",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Budi dan Andi berlari dari depan rumah masing-masing. Diketahui bahwa kecepatan lari Budi 3 kali kecepatan lari Andi. Jika Budi dan Andi berlari ke arah yang sama, Budi akan menyalip Andi dalam waktu 120 detik. Jika Budi dan Andi berlari mendekati satu sama lain, maka mereka akan bertemu dalam waktu ____ detik.",
+    "options": [
+      "20",
+      "60",
+      "30",
+      "90"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1799",
+    "type": "mc",
+    "topic": "Number Theory / Divisors",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Berapakah banyaknya bilangan cacah yang dapat membagi 80 tetapi tidak dapat membagi 8?",
+    "options": [
+      "2",
+      "8",
+      "4",
+      "6"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1800",
+    "type": "mc",
+    "topic": "Algebra / Equation Solving",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan kalimat matematika berikut: 2 + 3/(2 + △) = 13/(2 + △). Angka yang tepat untuk mengganti △ adalah ____.",
+    "options": [
+      "2",
+      "4",
+      "3",
+      "1"
+    ],
+    "answer": "C",
+    "svg": "<svg viewBox='0 0 260 70' xmlns='http://www.w3.org/2000/svg' font-family='serif' font-size='15'><text x='10' y='42'>2 + </text><text x='44' y='28' font-size='13'>3</text><line x1='44' y1='34' x2='100' y2='34' stroke='black' stroke-width='1.2'/><text x='46' y='52' font-size='13'>2 + △</text><text x='108' y='42'> = </text><text x='132' y='28' font-size='13'>13</text><line x1='132' y1='34' x2='192' y2='34' stroke='black' stroke-width='1.2'/><text x='134' y='52' font-size='13'>2 + △</text></svg>"
+  },
+  {
+    "id": "q1801",
+    "type": "mc",
+    "topic": "Number Theory / Digit Properties",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Terdapat sebuah bilangan genap tiga digit. Digit ratusannya memiliki nilai 3 kali digit satuannya. Jika bilangan tersebut dapat dibagi 9, maka digit puluhannya adalah ____.",
+    "options": [
+      "0",
+      "3",
+      "1",
+      "9"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1802",
+    "type": "mc",
+    "topic": "Algebra / Factoring / Expansion",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Manakah dari pilihan berikut yang berbeda dengan (2a + 1)(b + 2)?",
+    "options": [
+      "2a(b + 2) + b + 2",
+      "(2a + 1) + 2b(2a + 1)",
+      "b(2a + 1) + 2(2a + 1)",
+      "2ab + 4a + b + 2"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1803",
+    "type": "mc",
+    "topic": "Number Theory / GCD",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Bilangan cacah terbesar yang dapat membagi 28 dan 42 adalah ____.",
+    "options": [
+      "7",
+      "9",
+      "18",
+      "14"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1804",
+    "type": "mc",
+    "topic": "Geometry / Area / Composite Shape",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Pada gambar berikut luas persegi panjang adalah 18, luas segitiga adalah 24 dan luas daerah abu-abu adalah 8. Luas keseluruhan bangun datar adalah ____.",
+    "options": [
+      "24",
+      "42",
+      "34",
+      "50"
+    ],
+    "answer": "C",
+    "svg": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg' stroke='black' fill='none' stroke-width='2'><rect x='20' y='40' width='80' height='60'/><polygon points='100,40 170,200 20,200'/><rect x='60' y='100' width='40' height='40' fill='#aaa'/></svg>"
+  },
+  {
+    "id": "q1805",
+    "type": "mc",
+    "topic": "Probability",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Budi memainkan sebuah dadu dengan dua puluh permukaan. Permukaan dadu tersebut diwarnai dengan berbagai warna. Diketahui bahwa peluang dadu memunculkan warna kuning adalah 3/5. Berapakah banyaknya permukaan dadu tersebut yang berwarna kuning?",
+    "options": [
+      "12",
+      "15",
+      "9",
+      "6"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1806",
+    "type": "mc",
+    "topic": "Arithmetic / Fractions",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Ayah membeli sebuah kue untuk dimakan bersama. Ibu mengambil 1/6 bagian, adik mengambil 1/3 bagian, dan kakak mengambil 1/4 bagian. Sisa kue tersebut adalah ____ bagian.",
+    "options": [
+      "1/4",
+      "1/6",
+      "1/6",
+      "1/3"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1807",
+    "type": "mc",
+    "topic": "Arithmetic / Profit / Price",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Harga satu buah kue sus adalah 5.000 rupiah. Tetapi jika kita membeli satu paket sus berisi 6 kue, pembeli mendapat diskon 10%. Doni ingin mendapatkan untung dengan membeli paket sus dan menjual secara eceran dengan harga yang sama dengan toko. Berapa paket sus yang harus ia beli dan jual habis agar ia mendapat keuntungan 60.000 rupiah?",
+    "options": [
+      "15 paket",
+      "10 paket",
+      "20 paket",
+      "25 paket"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1808",
+    "type": "mc",
+    "topic": "Number Theory / Divisors",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Banyaknya bilangan cacah kelipatan 4 yang dapat membagi 100 adalah ____.",
+    "options": [
+      "3",
+      "6",
+      "2",
+      "9"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1809",
+    "type": "mc",
+    "topic": "Geometry / Coordinate Plane / Midpoint",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Terdapat dua buah titik A dan B berada pada koordinat (2, 4) dan (8, −2). Titik ketiga memiliki koordinat (x, y) dan tepat berada di antara A dan B. Maka x − y = ____.",
+    "options": [
+      "3",
+      "6",
+      "5",
+      "4"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1810",
+    "type": "mc",
+    "topic": "Algebra / Two Numbers",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Terdapat dua bilangan cacah. Hasil pembagian bilangan pertama dengan bilangan kedua adalah 6 dan hasil penjumlahan keduanya adalah 21. Selisih kedua bilangan tersebut adalah ____.",
+    "options": [
+      "3",
+      "9",
+      "2",
+      "15"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1811",
+    "type": "mc",
+    "topic": "Number Patterns / Odd Sequence",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Terdapat 15 bilangan ganjil berurutan. Hasil penjumlahan bilangan ketiga, kedelapan dan ke-13 pada bilangan tersebut adalah 375. Bilangan terakhir pada urutan tersebut adalah ____.",
+    "options": [
+      "127",
+      "139",
+      "145",
+      "133"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1812",
+    "type": "mc",
+    "topic": "Arithmetic / Fractions / Ordering",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Manakah dari pilihan berikut yang memiliki nilai terkecil?",
+    "options": [
+      "21/22",
+      "23/22",
+      "22/23",
+      "22/21"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1813",
+    "type": "mc",
+    "topic": "Geometry / Pythagoras / Square",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Pada gambar berikut, panjang sisi-sisi segitiga abu-abu adalah 6, 8, dan 10. Keliling persegi adalah ____.",
+    "options": [
+      "18",
+      "14",
+      "28",
+      "36"
+    ],
+    "answer": "C",
+    "svg": "<svg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg' stroke='black' fill='none' stroke-width='2'><rect x='20' y='20' width='140' height='140'/><polygon points='20,20 20,140 160,140' fill='#aaa' stroke='black' stroke-width='2'/><text x='8' y='90' font-size='12'>8</text><text x='85' y='158' font-size='12'>10</text><text x='85' y='75' font-size='12'>6</text></svg>"
+  },
+  {
+    "id": "q1814",
+    "type": "sa",
+    "topic": "Algebra / Continued Fraction",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Bilangan yang tepat untuk menggantikan △ pada persamaan di bawah adalah ____. (Tulis angkanya saja.)\n1 / (1 + 1/(1 + 1/(1 + 1/△))) = 47/71",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 200 140' xmlns='http://www.w3.org/2000/svg' font-family='serif' font-size='14'><text x='10' y='22' font-size='13'>1</text><line x1='10' y1='28' x2='180' y2='28' stroke='black' stroke-width='1.2'/><text x='14' y='44' font-size='12'>1 + </text><text x='52' y='36' font-size='12'>1</text><line x1='52' y1='42' x2='168' y2='42' stroke='black' stroke-width='1.1'/><text x='56' y='57' font-size='12'>1 + </text><text x='94' y='50' font-size='12'>1</text><line x1='94' y1='56' x2='160' y2='56' stroke='black' stroke-width='1.0'/><text x='98' y='70' font-size='12'>1 + </text><text x='132' y='63' font-size='12'>1</text><line x1='132' y1='69' x2='156' y2='69' stroke='black' stroke-width='1.0'/><text x='136' y='82' font-size='12'>△</text><text x='192' y='60'>=</text><text x='10' y='118' font-size='13'>47</text><line x1='10' y1='120' x2='36' y2='120' stroke='black' stroke-width='1.2'/><text x='10' y='135' font-size='13'>71</text></svg>"
+  },
+  {
+    "id": "q1815",
+    "type": "sa",
+    "topic": "Statistics / Weighted Mean",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Berikut adalah nilai rata-rata hasil ujian untuk kelas 6A, 6B, 6C, dan 6D: 6A=70, 6B=75, 6C=85, 6D=75. Diketahui bahwa rata-rata gabungan keempat kelas adalah 75, dan banyaknya murid di kelas 6C adalah 15 anak. Maka banyaknya murid di kelas 6A adalah ____ anak.",
+    "answer": "FLAG",
+    "svg": "<svg viewBox='0 0 240 130' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='13'><rect x='10' y='10' width='100' height='26' fill='#ddd' stroke='black' stroke-width='1.2'/><text x='60' y='28' text-anchor='middle' font-weight='bold'>Kelas</text><rect x='110' y='10' width='120' height='26' fill='#ddd' stroke='black' stroke-width='1.2'/><text x='170' y='28' text-anchor='middle' font-weight='bold'>Nilai rerata</text><rect x='10' y='36' width='100' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='60' y='52' text-anchor='middle'>6A</text><rect x='110' y='36' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='170' y='52' text-anchor='middle'>70</text><rect x='10' y='58' width='100' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='60' y='74' text-anchor='middle'>6B</text><rect x='110' y='58' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='170' y='74' text-anchor='middle'>75</text><rect x='10' y='80' width='100' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='60' y='96' text-anchor='middle'>6C</text><rect x='110' y='80' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='170' y='96' text-anchor='middle'>85</text><rect x='10' y='102' width='100' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='60' y='118' text-anchor='middle'>6D</text><rect x='110' y='102' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='170' y='118' text-anchor='middle'>75</text></svg>"
+  },
+  {
+    "id": "q1816",
+    "type": "sa",
+    "topic": "Geometry / Area / Rectangle",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah kawat berbentuk segilima beraturan dengan sisi 8 cm. Kawat tersebut kemudian dibentuk ulang menjadi persegi panjang dengan perbandingan panjang dan lebar 3 : 1. Luas persegi panjang tersebut adalah ____ cm². (Tulis angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1817",
+    "type": "sa",
+    "topic": "Number Patterns / Odd Sequence Sum",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Terdapat data berupa 20 bilangan ganjil berurutan. Hasil penjumlahan bilangan kedua dan keempat adalah 110. Hasil penjumlahan ke-20 bilangan ganjil tersebut adalah ____. (Tulis angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1818",
+    "type": "sa",
+    "topic": "Number Patterns / Sequence",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan barisan bilangan berikut: 3, 4, 6, 10, 18, 34, 66, ... Bilangan yang paling tepat untuk melanjutkan barisan bilangan di atas adalah ____. (Tulis angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1819",
+    "type": "sa",
+    "topic": "Number Theory / Factor Pairs",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Banyaknya pasangan bilangan cacah dengan hasil kali 120 adalah ____. (Tulis angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1820",
+    "type": "sa",
+    "topic": "Number Theory / Divisors",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah bilangan adalah hasil perkalian 5 bilangan prima. Banyaknya bilangan cacah yang dapat membagi bilangan tersebut adalah ____. (Tulis angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1821",
+    "type": "sa",
+    "topic": "Arithmetic / Sum of Even Numbers",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Hasil penjumlahan semua bilangan genap dari 0 hingga 200 adalah ____. (Tulis angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1822",
+    "type": "sa",
+    "topic": "Probability",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Budi memiliki 3 kemeja merah dan 2 kemeja putih. Ia juga memiliki 3 celana hitam, 1 celana hijau dan 1 celana putih. Suatu hari ia mengambil satu kemeja dan satu celana secara acak. Peluang bahwa hari itu Budi tidak menggunakan kemeja merah dan tidak menggunakan celana hijau adalah ____ persen. (Tuliskan angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1823",
+    "type": "sa",
+    "topic": "Geometry / Coordinate Plane / Reflection",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah titik berada di koordinat (2, 3). Titik ini kemudian digeser 8 unit ke arah positif x dan 4 unit ke arah negatif y. Kemudian titik ini dicerminkan terhadap sumbu x dan koordinatnya ditulis sebagai (x_f, y_f). Maka x_f + y_f = ____. (Tulis angkanya saja)",
+    "answer": "FLAG"
+  }
+,
+  {
+    "id": "q1824",
+    "type": "mc",
+    "topic": "Statistics / Data Interpretation",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Berikut adalah data usia (dalam tahun) anggota klub catur di SD Teladan disajikan dalam tabel berikut: Usia 8=5 siswa, 9=12 siswa, 10=8 siswa, 11=5 siswa. Manakah pernyataan berikut yang BENAR?",
+    "options": [
+      "Jangkauan data tersebut adalah 5 tahun.",
+      "Rata-rata usia anggota klub catur lebih dari 10 tahun.",
+      "Median dari data tersebut adalah 9 tahun.",
+      "Modus dari data tersebut adalah 10 tahun."
+    ],
+    "answer": "C",
+    "svg": "<svg viewBox='0 0 260 120' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='13'><rect x='10' y='10' width='120' height='24' fill='#ddd' stroke='black' stroke-width='1.2'/><text x='70' y='27' text-anchor='middle' font-weight='bold'>Usia (dalam tahun)</text><rect x='130' y='10' width='120' height='24' fill='#ddd' stroke='black' stroke-width='1.2'/><text x='190' y='27' text-anchor='middle' font-weight='bold'>Jumlah Siswa</text><rect x='10' y='34' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='70' y='50' text-anchor='middle'>8</text><rect x='130' y='34' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='190' y='50' text-anchor='middle'>5</text><rect x='10' y='56' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='70' y='72' text-anchor='middle'>9</text><rect x='130' y='56' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='190' y='72' text-anchor='middle'>12</text><rect x='10' y='78' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='70' y='94' text-anchor='middle'>10</text><rect x='130' y='78' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='190' y='94' text-anchor='middle'>8</text><rect x='10' y='100' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='70' y='116' text-anchor='middle'>11</text><rect x='130' y='100' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='190' y='116' text-anchor='middle'>5</text></svg>"
+  },
+  {
+    "id": "q1825",
+    "type": "mc",
+    "topic": "Algebra / Age Problems",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Andre, Budi dan Chandra merupakan 3 saudara kandung yang terpaut usia masing-masing 3 tahun dari yang lebih tua. Andre adalah anak tertua dari ketiganya, sedangkan Chandra merupakan anak terakhir. Jika jumlah total usia mereka saat ini adalah 48 tahun, berapakah usia Andre saat ini?",
+    "options": [
+      "19 tahun",
+      "15 tahun",
+      "16 tahun",
+      "18 tahun"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1826",
+    "type": "mc",
+    "topic": "Number Theory / Factors",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Berapa banyak faktor dari 216 yang merupakan bilangan ganjil? (Catatan: faktor sebuah bilangan adalah bilangan asli yang dapat membagi bilangan tersebut, misalnya 1, 2, 3, dan 6 adalah faktor-faktor dari bilangan 6.)",
+    "options": [
+      "5",
+      "4",
+      "2",
+      "3"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1827",
+    "type": "mc",
+    "topic": "Algebra / Ratio / Weight",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Berat 2 buah mangga sama dengan berat 3 buah apel. Ketika ditimbang, jumlah berat 1 mangga tersebut adalah 360 gram. Berapa gram berat 1 buah apel?",
+    "options": [
+      "480 gram",
+      "360 gram",
+      "720 gram",
+      "240 gram"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1828",
+    "type": "mc",
+    "topic": "Arithmetic / LCM / Time",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Tiga buah lampu hias dinyalakan bersamaan pada pukul 19:00. Lampu pertama berkedip setiap 4 detik, lampu kedua berkedip setiap 6 detik, dan lampu ketiga berkedip setiap 8 detik. Pada pukul berapa ketiga lampu tersebut akan berkedip bersamaan lagi untuk pertama kalinya?",
+    "options": [
+      "19:01:36",
+      "19:01:12",
+      "19:00:48",
+      "19:00:24"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1829",
+    "type": "mc",
+    "topic": "Algebra / Age Problems",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Umur seorang ayah adalah 3 kali umur anaknya. Jika jumlah umur mereka 56 tahun, berapakah umur anak tersebut?",
+    "options": [
+      "14 tahun",
+      "13 tahun",
+      "11 tahun",
+      "12 tahun"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1830",
+    "type": "mc",
+    "topic": "Arithmetic / Number Line / Motion",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Seekor semut sedang berjalan di atas tali jemuran. Mula-mula ia berada di titik A. Setiap kali bergerak, ia melangkah ke kanan sejauh 5 cm, kemudian berbalik arah dan melangkah ke kiri sejauh 2 cm. Jika semut tersebut telah bergerak sebanyak 7 kali, berapa cm jarak semut tersebut dari titik A?",
+    "options": [
+      "18 cm",
+      "21 cm",
+      "24 cm",
+      "15 cm"
+    ],
+    "answer": "B",
+    "svg": "<svg viewBox='0 0 300 60' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><line x1='20' y1='30' x2='280' y2='30' stroke='black' stroke-width='2'/><circle cx='40' cy='30' r='5' fill='black'/><text x='35' y='20' font-size='12'>A</text><line x1='40' y1='30' x2='140' y2='30' stroke='#333' stroke-width='1.5'/><text x='85' y='20' font-size='11'>5 cm</text><polygon points='140,25 150,30 140,35' fill='#333'/><line x1='100' y1='40' x2='140' y2='40' stroke='#999' stroke-width='1'/><text x='110' y='55' font-size='11'>2 cm</text><text x='50' y='50' font-size='11'>Langkah Pertama</text></svg>"
+  },
+  {
+    "id": "q1831",
+    "type": "mc",
+    "topic": "Arithmetic / Fractions / Order of Operations",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Hitunglah hasil dari 1/4 + 2/5 × 3/8.",
+    "options": [
+      "3/10",
+      "2/5",
+      "39/40",
+      "39/160"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1832",
+    "type": "mc",
+    "topic": "Geometry / Area / Grid",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan bangun berikut yang digambar pada kotak-kotak persegi. Bangun manakah yang memiliki luas terbesar?",
+    "options": [
+      "P",
+      "Q",
+      "R",
+      "S"
+    ],
+    "answer": "B",
+    "svg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='14' stroke='#ccc' fill='none'><defs><pattern id='grid' width='20' height='20' patternUnits='userSpaceOnUse'><path d='M 20 0 L 0 0 0 20' fill='none' stroke='#ccc' stroke-width='0.5'/></pattern></defs><rect width='320' height='200' fill='url(#grid)'/><rect x='20' y='20' width='80' height='60' stroke='black' stroke-width='2'/><text x='55' y='55' fill='black' stroke='none'>P</text><polygon points='160,20 220,20 240,80 180,80' stroke='black' stroke-width='2'/><text x='195' y='55' fill='black' stroke='none'>R</text><rect x='20' y='110' width='100' height='70' stroke='black' stroke-width='2'/><text x='65' y='150' fill='black' stroke='none'>Q</text><polygon points='160,110 260,130 240,180 160,180' stroke='black' stroke-width='2'/><text x='200' y='155' fill='black' stroke='none'>S</text></svg>"
+  },
+  {
+    "id": "q1833",
+    "type": "mc",
+    "topic": "Number Theory / GCD",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Ibu memiliki 42 buah apel, 70 buah jeruk, dan 105 buah mangga. Ibu ingin membagikan buah-buahan tersebut kepada tetangganya sebanyak-banyaknya dengan jumlah masing-masing buah yang sama banyak. Berapa banyak tetangga yang akan mendapatkan buah dari Ibu?",
+    "options": [
+      "7 orang",
+      "3 orang",
+      "14 orang",
+      "6 orang"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1834",
+    "type": "mc",
+    "topic": "Statistics / Mean / Remedial",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Data nilai ulangan matematika siswa kelas 5 SD Garuda disajikan dalam tabel: Nilai 70=4 siswa, 75=6 siswa, 80=10 siswa, 85=5 siswa, 90=5 siswa. Jika siswa yang mendapatkan nilai di bawah rata-rata harus mengikuti remedial, berapa banyak siswa yang harus mengikuti remedial?",
+    "options": [
+      "10 siswa",
+      "16 siswa",
+      "14 siswa",
+      "20 siswa"
+    ],
+    "answer": "D",
+    "svg": "<svg viewBox='0 0 260 150' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='13'><rect x='10' y='10' width='120' height='24' fill='#ddd' stroke='black' stroke-width='1.2'/><text x='70' y='27' text-anchor='middle' font-weight='bold'>Nilai</text><rect x='130' y='10' width='120' height='24' fill='#ddd' stroke='black' stroke-width='1.2'/><text x='190' y='27' text-anchor='middle' font-weight='bold'>Jumlah Siswa</text><rect x='10' y='34' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='70' y='50' text-anchor='middle'>70</text><rect x='130' y='34' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='190' y='50' text-anchor='middle'>4</text><rect x='10' y='56' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='70' y='72' text-anchor='middle'>75</text><rect x='130' y='56' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='190' y='72' text-anchor='middle'>6</text><rect x='10' y='78' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='70' y='94' text-anchor='middle'>80</text><rect x='130' y='78' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='190' y='94' text-anchor='middle'>10</text><rect x='10' y='100' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='70' y='116' text-anchor='middle'>85</text><rect x='130' y='100' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='190' y='116' text-anchor='middle'>5</text><rect x='10' y='122' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='70' y='138' text-anchor='middle'>90</text><rect x='130' y='122' width='120' height='22' fill='white' stroke='black' stroke-width='1.2'/><text x='190' y='138' text-anchor='middle'>5</text></svg>"
+  },
+  {
+    "id": "q1835",
+    "type": "mc",
+    "topic": "Arithmetic / Speed Distance Time",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Jarak antara kota A dan kota B adalah 360 km. Sebuah kereta api berangkat dari kota A ke kota B pukul 08.00 dengan kecepatan rata-rata 70 km/jam. Pada pukul 09.00, sebuah mobil berangkat dari kota B menuju kota A dengan kecepatan rata-rata 90 km/jam. Pukul berapa kereta api dan mobil tersebut berpapasan?",
+    "options": [
+      "10:15:45",
+      "10:48:45",
+      "11:18:45",
+      "11:45:45"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1836",
+    "type": "mc",
+    "topic": "Number Theory / Divisibility",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Angka 2A3B habis dibagi 4 dan 9, dan A dan B merupakan bilangan positif yang berbeda. Berapakah nilai A + B?",
+    "options": [
+      "6",
+      "9",
+      "13",
+      "7"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1837",
+    "type": "mc",
+    "topic": "Number Patterns / Geometric Series",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Hitunglah jumlah dari 10 suku pertama pada deret berikut: 1 + 1/2 + 1/4 + 1/8 + 1/16 + ...",
+    "options": [
+      "255/256",
+      "511/256",
+      "511/512",
+      "1023/512"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1838",
+    "type": "mc",
+    "topic": "Arithmetic / Fractions / Sequential",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah bak mandi terisi penuh air. Ayah menggunakan 1/3 bagian air untuk mandi. Kemudian, ibu menggunakan 1/4 bagian dari sisa air untuk mencuci baju. Terakhir, kakak menggunakan 1/2 bagian dari sisa air untuk menyiram tanaman. Berapa bagian air yang tersisa di dalam bak mandi?",
+    "options": [
+      "1/4",
+      "1/3",
+      "5/12",
+      "7/12"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1839",
+    "type": "mc",
+    "topic": "Geometry / Area / Circle in Square",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah taman berbentuk persegi dengan panjang sisi 20 meter. Di dalam taman tersebut terdapat kolam berbentuk lingkaran dengan diameter 14 meter. Di sekeliling kolam akan ditanami rumput dengan biaya Rp10.000,00 per meter persegi. Berapakah biaya yang diperlukan untuk menanami rumput di sekitar kolam tersebut? (π = 22/7)",
+    "options": [
+      "Rp3.640.000,00",
+      "Rp1.540.000,00",
+      "Rp4.000.000,00",
+      "Rp2.460.000,00"
+    ],
+    "answer": "D",
+    "svg": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><rect x='10' y='10' width='180' height='180' fill='#aaa' stroke='black' stroke-width='2'/><circle cx='100' cy='100' r='70' fill='white' stroke='black' stroke-width='2'/><text x='55' y='8' font-size='11'>20 cm</text><text x='108' y='105' font-size='11'>d = 14 cm</text><line x1='40' y1='100' x2='160' y2='100' stroke='black' stroke-width='1' stroke-dasharray='4,2'/></svg>"
+  },
+  {
+    "id": "q1840",
+    "type": "mc",
+    "topic": "Probability / Without Replacement",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Dalam sebuah kotak terdapat 10 kartu bernomor 1 sampai 10. Diambil 2 kartu secara acak (kartu diambil satu per satu secara berurutan dan kartu pertama tidak dikembalikan). Berapa peluang terambilnya kartu bernomor ganjil dan kartu bernomor genap?",
+    "options": [
+      "1/9",
+      "1/2",
+      "25/81",
+      "5/9"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1841",
+    "type": "mc",
+    "topic": "Algebra / Expression / Discount",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Di sebuah toko alat tulis, harga sebuah buku tulis adalah x rupiah dan harga sebuah bolpoin adalah y rupiah. Budi membeli 4 buku tulis dan 3 bolpoin. Toko tersebut memberikan diskon 10% untuk pembelian buku tulis. Manakah dari kalimat matematika berikut yang menyatakan dengan benar jumlah uang yang harus dibayar Budi?",
+    "options": [
+      "0.90(4x) + 3y",
+      "4(0.10x) + 3y",
+      "4(x - 0.10) + 3y",
+      "4x + 3y - 0.90(4x)"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1842",
+    "type": "mc",
+    "topic": "Algebra / Expression / Distance",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah mobil bergerak dengan kecepatan x km/jam selama 2 jam, kemudian melanjutkan perjalanan dengan kecepatan (x + 10) km/jam selama 3 jam. Manakah dari kalimat matematika berikut yang menyatakan dengan tepat total jarak yang ditempuh mobil tersebut?",
+    "options": [
+      "5(x + 10)",
+      "2x + 3(x + 10)",
+      "2x + 3x + 10",
+      "2(x + 10) + 3x"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1843",
+    "type": "mc",
+    "topic": "Arithmetic / Sum / Divisibility",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Tentukan hasil penjumlahan dari semua bilangan cacah antara 1 dan 50 yang habis dibagi 7.",
+    "options": [
+      "7",
+      "196",
+      "202",
+      "46"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1844",
+    "type": "mc",
+    "topic": "Geometry / Coordinate Plane / Reflection",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Titik A (2, -3) dicerminkan terhadap sumbu-Y. Kemudian, bayangan titik A dicerminkan terhadap garis x = 1. Berapakah koordinat bayangan titik A setelah dua kali pencerminan tersebut?",
+    "options": [
+      "(4, -3)",
+      "(2, -3)",
+      "(0, -3)",
+      "(-4, -3)"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1845",
+    "type": "mc",
+    "topic": "Arithmetic / Fractions / Marathon",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Seorang pelari maraton berlari sejauh 42 1/5 kilometer. Ia telah menyelesaikan 2/3 dari total jarak tersebut. Setelah beristirahat sejenak, ia melanjutkan larinya dan berhasil menempuh 1/4 dari sisa jarak. Berapa kilometer lagi yang harus ditempuh pelari tersebut untuk mencapai garis finish?",
+    "options": [
+      "11 1/4 km",
+      "12 3/5 km",
+      "10 11/20 km",
+      "10 1/2 km"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q1846",
+    "type": "mc",
+    "topic": "Algebra / System of Equations",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Seorang pedagang menjual dua jenis kue. Kue A dijual dengan harga Rp8.000,00 per kotak dan kue B dijual dengan harga Rp10.000,00 per kotak. Pada suatu hari, pedagang tersebut berhasil menjual 25 kotak kue dan mendapatkan uang sebesar Rp224.000,00. Berapa banyak kotak kue A yang terjual pada hari itu?",
+    "options": [
+      "13 kotak",
+      "8 kotak",
+      "17 kotak",
+      "12 kotak"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1847",
+    "type": "mc",
+    "topic": "Number Patterns / Formula",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Rumus suku ke-n dari suatu barisan bilangan adalah n(n + 2). Berapakah jumlah 5 suku pertama barisan tersebut?",
+    "options": [
+      "75",
+      "85",
+      "65",
+      "55"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1848",
+    "type": "mc",
+    "topic": "Algebra / Three Variables",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Untuk tiga bilangan asli a, b, c. Diketahui bahwa a + b + c = 29, dan a × b × c = 504. Tentukan nilai b jika a < b < c dan 15 < c < 20.",
+    "options": [
+      "6",
+      "5",
+      "8",
+      "7"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1849",
+    "type": "mc",
+    "topic": "Number Theory / Digit Sum",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Berapa banyak bilangan antara 200 dan 300 yang jumlah digit-digitnya adalah bilangan prima?",
+    "options": [
+      "36",
+      "35",
+      "39",
+      "28"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q1850",
+    "type": "mc",
+    "topic": "Number Patterns / Triangular Numbers",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Berapakah bilangan ke-10 dari pola berikut? 1, 3, 6, 10, 15, ...",
+    "options": [
+      "36",
+      "45",
+      "66",
+      "55"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1851",
+    "type": "mc",
+    "topic": "Geometry / Area / Rectangle minus Circle",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Sebuah taman berbentuk persegi panjang dengan ukuran panjang 15 meter dan lebar 10 meter. Di tengah taman tersebut terdapat kolam ikan berbentuk lingkaran dengan diameter 6 meter. Berapakah luas taman yang TIDAK termasuk kolam ikan? (π = 3,14)",
+    "options": [
+      "178,26 m²",
+      "150 m²",
+      "114 m²",
+      "121,74 m²"
+    ],
+    "answer": "D",
+    "svg": "<svg viewBox='0 0 260 180' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><rect x='10' y='20' width='230' height='150' fill='#aaa' stroke='black' stroke-width='2'/><circle cx='125' cy='95' r='45' fill='#ddd' stroke='black' stroke-width='2'/><text x='70' y='14' font-size='11'>15 m</text><text x='245' y='100' font-size='11'>10 m</text><text x='108' y='100' font-size='11'>d = 6 m</text><line x1='82' y1='95' x2='168' y2='95' stroke='black' stroke-width='1' stroke-dasharray='3,2'/></svg>"
+  },
+  {
+    "id": "q1852",
+    "type": "mc",
+    "topic": "Statistics / Bar Chart",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan Diagram Batang berikut! Banyak Barang yang Terjual: BerasMerah≈60 kg, BerasPutih≈30 kg, Gula≈50 kg, Cabai≈100 kg. Harga beras merah Rp14.000/kg, beras putih Rp8.000/kg, gula Rp18.000/kg, cabai Rp50.000/kg. Manakah dari pernyataan-pernyataan dibawah yang benar?",
+    "options": [
+      "Uang hasil penjualan dari cabai adalah sebesar Rp500.000",
+      "Pemasukan terbesar didapat dari penjualan beras putih",
+      "Uang hasil penjualan beras merah lebih besar dari uang hasil penjualan gula",
+      "Selisih hasil penjualan dari Beras Merah dan Beras Putih adalah Rp600.000"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "q1853",
+    "type": "mc",
+    "topic": "Arithmetic / Inverse Proportion / Workers",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Diketahui bahwa 12 orang pekerja dapat menyelesaikan sebuah proyek dalam waktu 20 hari. Dikarenakan suatu hal, proyek itu sekarang harus selesai dalam 15 hari. Berapa banyak pekerja tambahan yang dibutuhkan agar proyek tersebut selesai tepat waktu?",
+    "options": [
+      "13 orang",
+      "4 orang",
+      "10 orang",
+      "16 orang"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q1854",
+    "type": "sa",
+    "topic": "Arithmetic / Fractions / Stock",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Pada hari Selasa pagi, sebuah toko memiliki 3/5 dari total persediaan pada hari Senin. Pada hari Rabu, sisa gula di toko ada 15 kg. Jika pada hari Selasa toko menjual 3/8 dari stok yang ada pada hari Selasa. Jumlah gula yang tersedia di toko adalah ____ kg. (Tulis angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1855",
+    "type": "sa",
+    "topic": "Number Theory / Prime Numbers",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Berapakah jumlah dari 5 bilangan prima pertama setelah 50? (Tulis angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1856",
+    "type": "sa",
+    "topic": "Number Patterns / Triangular",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Perhatikan pola bilangan di bawah ini! Deret persegi membentuk pola bilangan segitiga dengan jumlah sebagai berikut: 1, 3, 6, 10, dan seterusnya. Berapakah hasil penjumlahan 15 suku pertama deret tersebut? (Tulis angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1857",
+    "type": "sa",
+    "topic": "Number Theory / Prime Product",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Berapakah hasil kali semua bilangan prima yang kurang dari 20? (Tulis angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1858",
+    "type": "sa",
+    "topic": "Combinatorics / Permutation",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Dalam sebuah lomba lari, terdapat 8 peserta. Berapakah banyaknya kemungkinan susunan juara 1, 2, dan 3? (Tulis angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1859",
+    "type": "sa",
+    "topic": "Number Theory / Decimal to Fraction",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Bilangan desimal 0,2111111... dalam bentuk pecahan yang paling sederhana adalah p/q. Maka p + q = ____. (Tulis angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1860",
+    "type": "sa",
+    "topic": "Algebra / Age Problems",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Umur kakek sekarang 6 kali umur cucunya. 12 tahun yang akan datang, umur kakek 3 kali umur cucunya. Umur kakek sekarang adalah ______ tahun. (Tulis angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1861",
+    "type": "sa",
+    "topic": "Number Theory / Divisibility",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Angka tersebut habis dibagi 3 dan 4. A dan B merupakan bilangan 1 digit. Berapakah nilai A + B yang terkecil yang mungkin? (Tulis angkanya saja.) [Angka: 4A5B]",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1862",
+    "type": "sa",
+    "topic": "Geometry / Coordinate Plane / Perimeter",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Segitiga PQR dibentuk oleh titik-titik P (-2, 1), Q (4, 1), dan R (1, 5). Keliling segitiga PQR adalah ______ satuan. (Tulis angkanya saja.)",
+    "answer": "FLAG"
+  },
+  {
+    "id": "q1863",
+    "type": "sa",
+    "topic": "Probability / Pie Chart",
+    "competition": "EMC",
+    "grade": "6",
+    "text": "",
+    "text_id": "Doni memiliki sejumlah ikan yang memiliki 5 warna yang berbeda. Tiga diantaranya berwarna putih. Ikan berwarna hitam berjumlah sama dengan ikan berwarna putih. Ikan berwarna merah berjumlah dua kali lipat ikan berwarna hitam. Ikan berwarna kuning berjumlah dua kali lipat ikan berwarna merah. Ikan berwarna biru berjumlah dua kali lipat ikan berwarna kuning. Jika dibuat diagram lingkaran berdasarkan warna ikan yang dimiliki Doni, warna manakah yang akan membentuk sudut siku-siku pada diagram lingkaran tersebut? (Tulis angka yang menunjukkan warna jawaban: 1=putih, 2=hitam, 3=Merah, 4=kuning, 5=biru)",
+    "answer": "FLAG"
+  }
 ]
